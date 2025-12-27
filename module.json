@@ -35,7 +35,7 @@
     {
       "name": "digimon-species",
       "label": "PTR 2e Digimon Species",
-      "path": "packs/digimon-species",
+      "path": "packs/species",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -47,7 +47,7 @@
     {
       "name": "digimon-abilities",
       "label": "PTR 2e Digimon Abilities",
-      "path": "packs/digimon-abilities",
+      "path": "packs/abilities",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -59,7 +59,7 @@
     {
       "name": "digimon-perks",
       "label": "PTR 2e Digimon Perks",
-      "path": "packs/digimon-perks",
+      "path": "packs/perks",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -71,7 +71,7 @@
     {
       "name": "digimon-gear",
       "label": "PTR 2e Digimon Gear",
-      "path": "packs/digimon-gear",
+      "path": "packs/gear",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
