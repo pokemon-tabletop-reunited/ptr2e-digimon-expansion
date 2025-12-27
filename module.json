@@ -23,7 +23,13 @@
     }
   ],
   "flags": {
-    "canUpload": true
+    "canUpload": true,
+    "ptr2e-digimon-expansion": {
+      "ptr2e-species-art": "modules/ptr2e-digimon-expansion/artmap.json",
+      "ptr2e-species-art-priority": 0,
+      "ptr2e-traits": "modules/ptr2e-digimon-expansion/traits.json",
+      "ptr2e-traits-priority": 0
+    }
   },
   "packs": [
     {
