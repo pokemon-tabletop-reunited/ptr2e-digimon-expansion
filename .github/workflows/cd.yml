@@ -32,7 +32,7 @@ jobs:
 
             - name: Update Manifest
               run: |
-                  SYSTEM_VERSION=$(grep -oP '(?<="version": ")[^"]+' dist/system.json | tr -d '\n')
+                  SYSTEM_VERSION=$(grep -oP '(?<="version": ")[^"]+' dist/module.json | tr -d '\n')
                   perl -pi -E "s|latest/download/module\\.zip|download/$SYSTEM_VERSION/module.zip|" dist/module.json
                   echo "systemVersion=$SYSTEM_VERSION" >> $GITHUB_ENV
 
