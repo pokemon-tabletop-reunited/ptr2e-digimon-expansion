@@ -121,7 +121,9 @@
         "digimon-species",
         "digimon-abilities",
         "digimon-perks",
-        "digimon-gear"
+        "digimon-gear",
+        "digimon-moves",
+        "digimon-effects"
       ]
     }
   ],
