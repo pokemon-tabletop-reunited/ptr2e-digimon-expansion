@@ -324,12 +324,12 @@
     "habitats": [],
     "evolutions": {
       "name": "dracmon",
-      "uuid": "Compendium.ptr2e.core-species.Item.hTKPo8deCFGc7Tii",
+      "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.hTKPo8deCFGc7Tii",
       "methods": [],
       "evolutions": [
         {
           "name": "sangloupmon",
-          "uuid": "Compendium.ptr2e.core-species.Item.wAMTmYhc9ok3S013",
+          "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.wAMTmYhc9ok3S013",
           "methods": [
             {
               "type": "level",
@@ -344,7 +344,7 @@
           "evolutions": [
             {
               "name": "matadormon",
-              "uuid": "Compendium.ptr2e.core-species.Item.I8cJVbGFEJGPVjVN",
+              "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.I8cJVbGFEJGPVjVN",
               "methods": [
                 {
                   "type": "level",
@@ -359,7 +359,7 @@
               "evolutions": [
                 {
                   "name": "gran-dracmon",
-                  "uuid": "Compendium.ptr2e.core-species.Item.3qbBlJ6iHWXM7paf",
+                  "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.3qbBlJ6iHWXM7paf",
                   "methods": [
                     {
                       "type": "level",

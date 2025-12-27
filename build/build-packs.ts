@@ -8,6 +8,8 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const packsDataPath = path.resolve(__dirname, "../packs");
 const packDirPaths = fs.readdirSync(packsDataPath).map((dirName) => path.resolve(__dirname, packsDataPath, dirName));
 
+// Load Core PTR2e Data
+await CompendiumPack.addCorePackData();
 // Loads all packs into memory for the sake of making all document name/id mappings available
 const packs = packDirPaths.map((p) => CompendiumPack.loadJSON(p));
 const documentCounts = await Promise.all(packs.map((p) => p.save(asJson)));

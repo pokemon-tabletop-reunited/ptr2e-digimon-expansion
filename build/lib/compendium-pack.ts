@@ -4,7 +4,6 @@ import { getFilesRecursively, isObject, PackError, sluggify } from "./helpers.ts
 import { DBFolder, LevelDatabase } from "./level-database.ts";
 import { PackEntry } from "./types.ts";
 import coreIconsJSON from "../core-icons.json" with { type: "json" };
-import { ItemSchema } from "types/foundry/common/documents/item.js";
 
 type ActorSourcePTR2e = Actor["_source"];
 type ItemSourcePTR2e = Item["_source"];
@@ -83,6 +82,67 @@ class CompendiumPack {
     uuidLink: /"Compendium\.ptr2e\.(?<packName>[^.]+)\.(?<docType>Actor|JournalEntry|Item|Macro|RollTable)\.(?<docName>[^"]+)"/gm,
   };
 
+  static async addCorePackData() {
+    const url = "https://github.com/pokemon-tabletop-reunited/ptr2e/releases/latest/download/data.json";
+    const coreData = await fetch(url).then((res) => res.json()) as Record<string, unknown[]>;
+
+    for (const pack in coreData) {
+      if (["core-traits", "core-tables"].includes(pack)) continue;
+
+      CompendiumPack.#namesToIds["Item"]?.set(pack, new Map());
+      const packMap = CompendiumPack.#namesToIds["Item"]?.get(pack);
+      if (!packMap) {
+        throw PackError(`Compendium ${pack} was not found.`);
+      }
+
+      CompendiumPack.#idsToEntry["Item"]?.set(pack, new Map());
+      const packEntryMap = CompendiumPack.#idsToEntry["Item"]?.get(pack);
+      if (!packEntryMap) {
+        throw PackError(`Compendium ${pack} was not found.`);
+      }
+
+      for (const docSource of coreData[pack] as PackEntry[]) {
+        if (!docSource._id) {
+          throw PackError(`Document source in ${pack} has no _id: ${docSource.name}`);
+        }
+        // Populate CompendiumPack.namesToIds for later conversion of compendium links
+        packMap.set(sluggify(docSource.name), docSource._id ?? "");
+        packEntryMap.set(docSource._id ?? docSource.name, docSource);
+
+        // Check img paths
+        if ("img" in docSource && typeof docSource.img === "string") {
+          const imgPaths = [
+            docSource.img,
+            isActorSource(docSource)
+              ? docSource.items.flatMap((i) => [i.img])
+              : [],
+          ].flat();
+          const documentName = docSource.name;
+          for (const imgPath of imgPaths) {
+            if (imgPath.startsWith("data:image")) {
+              const imgData = imgPath.slice(0, 64);
+              const msg = `${documentName} (${pack}) has base64-encoded image data: ${imgData}...`;
+              throw PackError(msg);
+            }
+
+            const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/")
+            const repoImgPath = path.resolve(
+              process.cwd(),
+              "static",
+              decodeURIComponent(imgPath).replace("systems/ptr2e/", ""),
+            );
+            if (!isCoreIconPath && !fs.existsSync(repoImgPath)) {
+              throw PackError(`${documentName} (${pack}) has an unknown image path: ${imgPath}`);
+            }
+            if (!((imgPath as string) === "" || imgPath.match(/\.(?:svg|webp|png)$/))) {
+              throw PackError(`${documentName} (${pack}) references a non-WEBP/SVG/PNG image: ${imgPath}`);
+            }
+          }
+        }
+      }
+    }
+  }
+
   constructor(packDir: string, parsedData: unknown[], parsedFolders: unknown[]) {
     const metadata = CompendiumPack.#packsMetadata.find(
       (pack) => path.basename(pack.path).endsWith(path.basename(packDir)),
@@ -128,7 +188,7 @@ class CompendiumPack {
     this.data = parsedData;
 
     for (const docSource of this.data) {
-      if(!docSource._id) {
+      if (!docSource._id) {
         throw PackError(`Document source in ${this.packId} has no _id: ${docSource.name}`);
       }
       // Populate CompendiumPack.namesToIds for later conversion of compendium links
@@ -250,76 +310,9 @@ class CompendiumPack {
 
   finalizeAll(): PackEntry[] {
     const results = [];
-    for(const doc of this.data) {
+    for (const doc of this.data) {
       results.push(JSON.parse(this.#finalize(doc)));
     }
-
-    if (this.packId !== "core-effects") return results;
-
-    // Add core status afflictions
-    const statusAfflictions = JSON.parse(fs.readFileSync("src/scripts/config/effects.json", "utf-8")) as StatusEffect[];
-    let translations: Record<string, unknown>;
-    try {
-      translations = JSON.parse(fs.readFileSync("static/lang/en.json", "utf-8"));
-    }
-    catch (error) {
-      if (error instanceof Error) {
-        throw PackError(`Failed to load translations: ${error.message}`);
-      }
-    }
-    const localize = (path: string, current: Record<string, unknown> = translations): string => {
-      const result = (() => {
-        const parts = path.split(".");
-        const key = parts.shift()!;
-
-        const value = current[key];
-        if (parts.length === 0) return value as string;
-        else if (value) return localize(parts.join("."), value as Record<string, unknown>);
-        return value as string;
-      })();
-      if (!result) throw PackError(`Failed to localize ${path}`);
-      return result;
-    }
-
-    results.push(...statusAfflictions.map((d) => {
-      const name = localize(d.name);
-      const itemSource = {
-        name: name || "Unnamed Effect",
-        type: "effect",
-        img: d.img,
-        system: {
-          ...((d.system as {traits?: []})?.traits ? { traits: (d.system as {traits?: []})?.traits } : {}),
-          ...(d.description ? { description: localize(d.description) } : {}),
-        },
-        effects: [
-          {
-            ...d,
-            name: name || "Unnamed Effect",
-            ...(d.description ? { description: localize(d.description) } : {}),
-            statuses: [d.id]
-          }
-        ],
-        folder: "V4skAU6G3OH5fXgD",
-      } as Partial<SourceFromSchema<ItemSchema>>;
-      if (d._id) itemSource._id = itemSource.effects![0]._id = d._id.substring(0, 12) + "item";
-      if (!itemSource._id) {
-        itemSource.effects![0]._id = (() => {
-          if (!d.id) throw PackError("Effect has no id");
-          let id = d.id.replace('-', '');
-          id = id.length > 16 ? id.substring(0, 16) : id;
-          let i = 0;
-          while (id.length < 16) {
-            id = id + "condition0000000"[i++];
-          }
-          return id;
-        })();
-        itemSource._id = itemSource.effects![0]._id.substring(0, 12) + "item";
-      }
-      itemSource.flags = { core: { sourceId: this.#sourceIdOf(itemSource._id ?? "", { docType: "Item" }) } };
-      if (!isItemSource(itemSource as SourceFromSchema<ItemSchema>)) throw PackError("Failed to create item source");
-      return JSON.parse(this.#finalize(itemSource as SourceFromSchema<ItemSchema>));
-    }));
-
     return results;
   }
 
@@ -341,71 +334,80 @@ class CompendiumPack {
       //@ts-expect-error - Slug exists on all documents
       docSource.system.slug ??= sluggify(docSource.name);
 
-      if(docSource.type === "species") {
-        if((docSource.system as {slug: string}).slug !== sluggify(docSource.name) && ((docSource.system as {slug: string}).slug + '-' + sluggify(((docSource.system as {form?: string}).form ?? ""))) !== sluggify(docSource.name)) {
-          throw PackError(`Species '${docSource.name}' has a slug (or lack-thereof) that doesn't match its name '${(docSource.system as {slug: string}).slug}'`);
+      if (docSource.type === "species") {
+        if ((docSource.system as { slug: string }).slug !== sluggify(docSource.name) && ((docSource.system as { slug: string }).slug + '-' + sluggify(((docSource.system as { form?: string }).form ?? ""))) !== sluggify(docSource.name)) {
+          throw PackError(`Species '${docSource.name}' has a slug (or lack-thereof) that doesn't match its name '${(docSource.system as { slug: string }).slug}'`);
         }
 
         ((system) => {
           const abilities = system.abilities
-          for(const key of Object.keys(abilities)) {
+          for (const key of Object.keys(abilities)) {
             const category = system.abilities[key];
-            for(const ability of category) {
+            for (const ability of category) {
               // UUID shouldn't be manually set
-              if(ability.uuid) { 
+              if (ability.uuid) {
                 throw PackError(`Ability '${ability.slug}' in species '${docSource.name}' has a manually set UUID, which is not allowed`);
               }
-              const abilitySource = CompendiumPack.#namesToIds["Item"]?.get("core-abilities")?.get(ability.slug);
-              if(abilitySource === undefined) {
-                ability.uuid = `Compendium.ptr2e.core-abilities.Item.${abilitySource}`;
+              const abilitySource = CompendiumPack.#namesToIds["Item"]?.get("digimon-abilities")?.get(ability.slug);
+
+              if (abilitySource === undefined) {
+                const source = CompendiumPack.#namesToIds["Item"]?.get("core-abilities")?.get(ability.slug);
+                if (source === undefined) {
+                  throw PackError(`Failed to find ability '${ability.slug}' in pack 'core-abilities' and 'digimon-abilities' for species '${docSource.name}'`);
+                }
+                ability.uuid = `Compendium.ptr2e.core-abilities.Item.${source}`;
               }
               else {
                 ability.uuid = `Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.${abilitySource}`;
               }
-              
+
             }
           }
         })(docSource.system as {
-          abilities: Record<string, {slug: string, uuid: string}[]>;
+          abilities: Record<string, { slug: string, uuid: string }[]>;
         });
 
         ((system) => {
           const moves = system.moves
-          for(const key in moves) {
+          for (const key in moves) {
             const moveCategory = moves[key];
-            for(const move of moveCategory) {
+            for (const move of moveCategory) {
               // UUID shouldn't be manually set
-              if(move.uuid) { 
+              if (move.uuid) {
                 throw PackError(`Move '${move.name}' in species '${docSource.name}' has a manually set UUID, which is not allowed`);
               }
 
-              const moveSource = CompendiumPack.#namesToIds["Item"]?.get("core-moves")?.get(sluggify(move.name));
-              if(moveSource === undefined) {
-                move.uuid = `Compendium.ptr2e.core-moves.Item.${moveSource}`;
+              const moveSource = CompendiumPack.#namesToIds["Item"]?.get("digimon-moves")?.get(sluggify(move.name));
+              if (moveSource === undefined) {
+                const source = CompendiumPack.#namesToIds["Item"]?.get("core-moves")?.get(sluggify(move.name));
+                if (source === undefined) {
+                  throw PackError(`Failed to find move '${move.name}' in pack 'core-moves' and 'digimon-moves' for species '${docSource.name}'`);
+                }
+                move.uuid = `Compendium.ptr2e.core-moves.Item.${source}`;
               }
               else {
                 move.uuid = `Compendium.ptr2e-digimon-expansion.digimon-moves.Item.${moveSource}`;
               }
             }
           }
-          
+
         })(docSource.system as {
-          moves: Record<string, {name: string, uuid: string, gen?: string, level?: number}[]>;
+          moves: Record<string, { name: string, uuid: string, gen?: string, level?: number }[]>;
         });
 
         // Check if species has <510 stats, if so make sure that the underdog trait is added, and otherwise remove said trait.
         const stats = docSource.system as { stats: Record<string, number | null>, traits: string[] };
         const totalStats = Object.values(stats.stats ?? {}).filter(s => s !== null).reduce((a, b) => (a ?? 0) + (b ?? 0), 0) ?? 0;
-        if(totalStats === 0) {
+        if (totalStats === 0) {
           throw PackError(`Species '${docSource.name}' has no stats defined`);
         }
-        if(!stats.traits || !Array.isArray(stats.traits)) {
+        if (!stats.traits || !Array.isArray(stats.traits)) {
           stats.traits = [];
         }
         const hasUnderdog = stats.traits.includes("underdog");
-        if(totalStats < 510 && !hasUnderdog) {
+        if (totalStats < 510 && !hasUnderdog) {
           stats.traits.push("underdog");
-        } else if(totalStats >= 510 && hasUnderdog) {
+        } else if (totalStats >= 510 && hasUnderdog) {
           stats.traits = stats.traits.filter(t => t !== "underdog");
         }
       }
@@ -417,22 +419,19 @@ class CompendiumPack {
       const isAction = docName.includes(".Actions.");
       const [name, actionName] = isAction ? docName.split(".Actions.") : [docName, null];
 
-      const idsToSource = CompendiumPack.#idsToEntry[docType]?.get(packId);
-      const namesToIds = CompendiumPack.#namesToIds[docType]?.get(packId);
+      const idsToSource = CompendiumPack.#idsToEntry[docType]?.get(packId) ?? CompendiumPack.#idsToEntry[docType]?.get(packId.replace("digimon-", "core-"));
+      const namesToIds = CompendiumPack.#namesToIds[docType]?.get(packId) ?? CompendiumPack.#namesToIds[docType]?.get(packId.replace("digimon-", "core-"));
       const link = match.replace(/\{$/, "");
-      if(!namesToIds && link.startsWith("@UUID[Compendium.ptr2e.")) {
-        return match;
-      }
       if (namesToIds === undefined) {
-        throw PackError(`${docSource.name} (${this.packId}) has a bad pack reference: ${link}`);
+        throw PackError(`${docSource.name} (${packId}) has a bad pack reference: ${link}`);
       }
 
       const documentId: string | undefined = namesToIds?.get(sluggify(name)) || idsToSource?.get(name)?._id || undefined;
       if (documentId === undefined) {
-        throw PackError(`${docSource.name} (${this.packId}) has broken link to ${docName}: ${match}`);
+        throw PackError(`${docSource.name} (${packId}) has broken link to ${docName}: ${match}`);
       }
       const source = idsToSource?.get(documentId);
-      if(source) docName = source.name;
+      if (source) docName = source.name;
       const sourceId = this.#sourceIdOf(documentId, { packId, docType });
       const labelBraceOrFullLabel = match.endsWith("{") ? "{" : `{${docName}}`;
 
@@ -523,7 +522,7 @@ class CompendiumPack {
     // Add traits data
     const traitsDataPath = path.resolve(process.cwd(), `static/traits.json`);
     const traits = JSON.parse(fs.readFileSync(traitsDataPath, "utf-8"));
-    data["core-traits"] = traits;
+    data["traits"] = traits;
 
     fs.writeFileSync(filePath, JSON.stringify(data));
 
