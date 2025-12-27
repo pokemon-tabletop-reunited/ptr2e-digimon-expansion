@@ -151,7 +151,7 @@ class CompendiumPack {
             throw PackError(msg);
           }
 
-          const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("icons/")
+          const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/")
           const repoImgPath = path.resolve(
             process.cwd(),
             "static",
@@ -420,11 +420,14 @@ class CompendiumPack {
       const idsToSource = CompendiumPack.#idsToEntry[docType]?.get(packId);
       const namesToIds = CompendiumPack.#namesToIds[docType]?.get(packId);
       const link = match.replace(/\{$/, "");
+      if(!namesToIds && link.startsWith("@UUID[Compendium.ptr2e.")) {
+        return match;
+      }
       if (namesToIds === undefined) {
         throw PackError(`${docSource.name} (${this.packId}) has a bad pack reference: ${link}`);
       }
 
-      const documentId: string | undefined = namesToIds.get(sluggify(name)) || idsToSource?.get(name)?._id || undefined;
+      const documentId: string | undefined = namesToIds?.get(sluggify(name)) || idsToSource?.get(name)?._id || undefined;
       if (documentId === undefined) {
         throw PackError(`${docSource.name} (${this.packId}) has broken link to ${docName}: ${match}`);
       }

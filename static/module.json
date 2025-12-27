@@ -1,7 +1,7 @@
 {
   "id": "ptr2e-digimon-expansion",
   "title": "PTR2e - Digimon Expansion",
-  "version": "0.2",
+  "version": "0.3",
   "compatibility": {
     "minimum": "13.351",
     "verified": "13.351",
@@ -79,6 +79,30 @@
       "name": "digimon-gear",
       "label": "PTR 2e Digimon Gear",
       "path": "packs/digimon-gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-moves",
+      "label": "PTR 2e Digimon Moves",
+      "path": "packs/digimon-moves",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-effects",
+      "label": "PTR 2e Digimon Effects",
+      "path": "packs/digimon-effects",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
