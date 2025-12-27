@@ -1,7 +1,7 @@
 {
   "id": "ptr2e-digimon-expansion",
   "title": "PTR2e - Digimon Expansion",
-  "version": "0.1",
+  "version": "0.2",
   "compatibility": {
     "minimum": "13.351",
     "verified": "13.351",
@@ -86,6 +86,19 @@
       },
       "system": "ptr2e",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PTR2e Digimon Expansion",
+      "sorting": "m",
+      "color": "#1975c0",
+      "packs": [
+        "digimon-species",
+        "digimon-abilities",
+        "digimon-perks",
+        "digimon-gear"
+      ]
     }
   ],
   "relationships": {
