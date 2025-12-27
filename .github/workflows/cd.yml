@@ -50,5 +50,5 @@ jobs:
                   draft: false
                   prerelease: false
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  artifacts: "./dist/system.json,./dist/module.zip,./json-assets/packs/data.json"
+                  artifacts: "./dist/module.json,./dist/module.zip,./json-assets/packs/data.json"
                   tag: ${{ env.systemVersion }}
