@@ -1,0 +1,144 @@
+{
+  "name": "Acceleration (Digimon)",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Acceleration (Digimon)",
+        "slug": "acceleration-digimon",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "types": [
+          "normal"
+        ],
+        "category": "status",
+        "predicate": [],
+        "description": "<p>The user becomes @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.xhI2IzUDSXy4Y42z]{Amped}, giving their next attack +100% Damage.</p>",
+        "range": {
+          "target": "self",
+          "unit": "m",
+          "distance": 10
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "power": null,
+        "accuracy": null,
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null
+      }
+    ],
+    "grade": "C",
+    "slug": "acceleration-digimon",
+    "description": "",
+    "container": null
+  },
+  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "effects": [
+    {
+      "name": "Acceleration (Digimon)",
+      "type": "passive",
+      "_id": "b24azX7SsJmkO3EA",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "acceleration-digimon-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.xhI2IzUDSXy4Y42z",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.3.beta",
+        "createdTime": 1756466809809,
+        "modifiedTime": 1756466932680,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
+  "flags": {
+    "core": {}
+  },
+  "_id": "pT5HsMVcB2FvG0l5",
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.10.beta",
+    "createdTime": null,
+    "modifiedTime": 1766930193263,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf",
+    "compendiumSource": "Compendium.ptr2e.digimon-moves.Item.pT5HsMVcB2FvG0l5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

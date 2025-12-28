@@ -1,0 +1,175 @@
+{
+  "id": "ptr2e-digimon-expansion",
+  "title": "PTR2e - Digimon Expansion",
+  "version": "0.6",
+  "compatibility": {
+    "minimum": "13.351",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "description": "<p>Expansion Module for the <a href=\"https://github.com/pokemon-tabletop-reunited/ptr2e\">PTR2e system</a> adding Digimon and their associated content to the game!</p>",
+  "authors": [
+    {
+      "name": "SilverFox",
+      "url": "https://startplaying.games/gm/fox-the-gm",
+      "discord": "silverfox3853",
+      "flags": {}
+    },
+    {
+      "name": "Eon",
+      "url": "https://github.com/pokemon-tabletop-reunited/ptr2e",
+      "discord": "asheeon",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module.mjs",
+    "vendor.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "flags": {
+    "canUpload": true,
+    "ptr2e-digimon-expansion": {
+      "ptr2e-species-art": "modules/ptr2e-digimon-expansion/artmap.json",
+      "ptr2e-species-art-priority": 0,
+      "ptr2e-traits": "modules/ptr2e-digimon-expansion/traits.json",
+      "ptr2e-traits-priority": 0
+    }
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "digimonSpecies": {}
+    }
+  },
+  "packs": [
+    {
+      "name": "digimon-species",
+      "label": "PTR 2e Digimon Species",
+      "path": "packs/digimon-species",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-abilities",
+      "label": "PTR 2e Digimon Abilities",
+      "path": "packs/digimon-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-perks",
+      "label": "PTR 2e Digimon Perks",
+      "path": "packs/digimon-perks",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-gear",
+      "label": "PTR 2e Digimon Gear",
+      "path": "packs/digimon-gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-moves",
+      "label": "PTR 2e Digimon Moves",
+      "path": "packs/digimon-moves",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-effects",
+      "label": "PTR 2e Digimon Effects",
+      "path": "packs/digimon-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-summons",
+      "label": "PTR 2e Digimon Summons",
+      "path": "packs/digimon-summons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PTR2e Digimon Expansion",
+      "sorting": "m",
+      "color": "#1975c0",
+      "packs": [
+        "digimon-species",
+        "digimon-abilities",
+        "digimon-perks",
+        "digimon-gear",
+        "digimon-moves",
+        "digimon-effects",
+        "digimon-summons"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ptr2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "quick-insert",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "background": "modules/ptr2e-digimon-expansion/splash.webp",
+  "url": "https://github.com/pokemon-tabletop-reunited/ptr2e-digimon-expansion",
+  "manifest": "https://github.com/pokemon-tabletop-reunited/ptr2e-digimon-expansion/releases/latest/download/module.json",
+  "download": "https://github.com/pokemon-tabletop-reunited/ptr2e-digimon-expansion/releases/latest/download/module.zip"
+}
