@@ -334,7 +334,7 @@ class CompendiumPack {
       //@ts-expect-error - Slug exists on all documents
       docSource.system.slug ??= sluggify(docSource.name);
 
-      if (docSource.type === "species") {
+      if (docSource.type === "species" || docSource.type === "ptr2e-digimon-expansion.digimonSpecies") {
         if ((docSource.system as { slug: string }).slug !== sluggify(docSource.name) && ((docSource.system as { slug: string }).slug + '-' + sluggify(((docSource.system as { form?: string }).form ?? ""))) !== sluggify(docSource.name)) {
           throw PackError(`Species '${docSource.name}' has a slug (or lack-thereof) that doesn't match its name '${(docSource.system as { slug: string }).slug}'`);
         }
@@ -360,7 +360,7 @@ class CompendiumPack {
               else {
                 ability.uuid = `Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.${abilitySource}`;
               }
-
+              if(!ability.uuid) console.log(ability, abilitySource);
             }
           }
         })(docSource.system as {
