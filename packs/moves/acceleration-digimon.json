@@ -25,21 +25,41 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
         },
         "types": [
           "normal"
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>The user becomes @UUID[Compendium.ptr2e.core-effects.xhI2IzUDSXy4Y42z]{Amped}, giving their next attack +100% Damage.</p>",
+        "description": "<p>The user becomes @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.xhI2IzUDSXy4Y42z]{Amped}, giving their next attack +100% Damage.</p>",
         "range": {
           "target": "self",
-          "unit": "m"
-        }
+          "unit": "m",
+          "distance": 10
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "power": null,
+        "accuracy": null,
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "acceleration-digimon",
+    "description": "",
+    "container": null
   },
   "img": "systems/ptr2e/img/svg/normal_icon.svg",
   "effects": [
@@ -92,7 +112,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
         "createdTime": 1756466809809,
@@ -101,6 +121,24 @@
       }
     }
   ],
-  "flags": {},
-  "_id": "pT5HsMVcB2FvG0l5"
+  "flags": {
+    "core": {}
+  },
+  "_id": "pT5HsMVcB2FvG0l5",
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.10.beta",
+    "createdTime": null,
+    "modifiedTime": 1766930193263,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf",
+    "compendiumSource": "Compendium.ptr2e.digimon-moves.Item.pT5HsMVcB2FvG0l5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
 }
