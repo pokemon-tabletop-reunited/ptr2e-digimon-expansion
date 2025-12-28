@@ -847,6 +847,12 @@
           "uuid": "Compendium.ptr2e.core-moves.Item.1weTUUASBWwNogEn",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "nitro-arrow",
+          "uuid": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.rqCraIN7vodMm8F3",
+          "level": 0,
+          "gen": null
         }
       ],
       "tutor": []
@@ -870,11 +876,11 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "ptr2e",
-    "systemVersion": "1.4.10.beta",
-    "createdTime": 1766936277804,
-    "modifiedTime": 1766936277804,
+    "systemVersion": "1.4.11.beta",
+    "createdTime": 1766943877162,
+    "modifiedTime": 1766943877162,
     "lastModifiedBy": "mK35yvCqCgiTUvKf"
   },
-  "_id": "4RAs97w7MbjjGHn5",
+  "_id": "328fdNt5ClPDkZi8",
   "sort": 0
 }
