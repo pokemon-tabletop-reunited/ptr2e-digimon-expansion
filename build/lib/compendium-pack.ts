@@ -42,7 +42,7 @@ class CompendiumPack {
   packDir: string;
   saveDir: string;
   documentType: CompendiumDocumentType;
-  systemId: string;
+  packageId: string = "ptr2e-digimon-expansion";
   data: PackEntry[];
   folders: DBFolder[];
 
@@ -150,7 +150,6 @@ class CompendiumPack {
     if (metadata === undefined) {
       throw PackError(`Compendium at ${packDir} has no metadata in the local module.json file.`);
     }
-    this.systemId = metadata.system;
     this.packId = metadata.name;
     this.documentType = metadata.type;
 
@@ -447,7 +446,7 @@ class CompendiumPack {
   #sourceIdOf(documentId: string, { packId, docType }: { packId?: string; docType: "Item" }): CompendiumItemUUID;
   #sourceIdOf(documentId: string, { packId, docType }: { packId?: string; docType: string }): string;
   #sourceIdOf(documentId: string, { packId = this.packId, docType }: { packId?: string; docType: string }): string {
-    return `Compendium.${this.systemId}.${packId}.${docType}.${documentId}`;
+    return `Compendium.${this.packageId}.${packId}.${docType}.${documentId}`;
   }
 
   async save(asJson?: boolean): Promise<number> {
