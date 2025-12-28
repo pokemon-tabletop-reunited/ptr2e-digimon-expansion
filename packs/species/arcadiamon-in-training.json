@@ -1,6 +1,6 @@
 {
   "name": "Arcadiamon (In-Training)",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "number": 5006,
     "_migration": {

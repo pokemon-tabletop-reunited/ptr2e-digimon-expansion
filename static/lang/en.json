@@ -1,1 +1,6 @@
-{}
+{
+  "TYPES.Item.ptr2e-digimon-expansion.digimonSpecies": "Digimon",
+  "Digimon": {
+    "digivolutionLabel": "Digivolution"
+  }
+}
