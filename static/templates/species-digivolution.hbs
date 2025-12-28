@@ -1,0 +1,21 @@
+<section class="tab sheet-body {{tabs.digivolution.cssClass}}" data-tab="digivolution" data-group="sheet">
+  <fieldset>
+    <legend>
+      {{localize "Digimon.digivolutionLabel"}}
+    </legend>
+
+  
+
+    <div class="form-group">
+      <label>{{localize "PTR2E.FIELDS.prerequisites.label"}}</label>
+      <div class="form-fields">
+        <input type="text" name="system.prerequisites" value="{{json source.system.prerequisites spaces=0}}"/>
+      </div>
+      <p class="hint">{{localize "PTR2E.FIELDS.prerequisites.hint"}}</p>
+    </div>
+
+    {{formField fields.node.fields.x value=source.system.node.x localize=true }}
+    {{formField fields.node.fields.y value=source.system.node.y localize=true }}
+    {{formField fields.node.fields.connected value=source.system.node.connected localize=true }}
+  </fieldset>
+</section>

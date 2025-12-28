@@ -1,6 +1,6 @@
 {
   "name": "SkullSeadramon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
