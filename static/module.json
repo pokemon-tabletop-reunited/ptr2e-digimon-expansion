@@ -1,7 +1,7 @@
 {
   "id": "ptr2e-digimon-expansion",
   "title": "PTR2e - Digimon Expansion",
-  "version": "0.4",
+  "version": "0.5",
   "compatibility": {
     "minimum": "13.351",
     "verified": "13.351",
@@ -36,6 +36,18 @@
       "ptr2e-species-art-priority": 0,
       "ptr2e-traits": "modules/ptr2e-digimon-expansion/traits.json",
       "ptr2e-traits-priority": 0
+    }
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "digimonSpecies": {}
     }
   },
   "packs": [
@@ -110,6 +122,18 @@
       },
       "system": "ptr2e",
       "flags": {}
+    },
+    {
+      "name": "digimon-summons",
+      "label": "PTR 2e Digimon Summons",
+      "path": "packs/digimon-summons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -123,7 +147,8 @@
         "digimon-perks",
         "digimon-gear",
         "digimon-moves",
-        "digimon-effects"
+        "digimon-effects",
+        "digimon-summons"
       ]
     }
   ],
