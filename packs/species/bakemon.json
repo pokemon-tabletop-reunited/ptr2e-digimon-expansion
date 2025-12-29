@@ -18,10 +18,9 @@
       "virus",
       "champion",
       "hover",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
-    "number": 5128,
+    "number": 5182,
     "stats": {
       "hp": 40,
       "atk": 65,
@@ -848,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "bakemon"
+    "slug": "bakemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182.png",
   "effects": [],
   "_id": "EL9aV88HwNmhrDab"
 }

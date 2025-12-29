@@ -884,7 +884,7 @@
     "habitats": [],
     "slug": "sistermon-blanc"
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
   "effects": [
     {
       "name": "Awake",

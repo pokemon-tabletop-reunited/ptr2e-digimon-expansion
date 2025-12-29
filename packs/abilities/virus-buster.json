@@ -1,0 +1,113 @@
+{
+  "folder": null,
+  "name": "Virus Buster",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [],
+    "description": "<p>Effect: The user gains +50% damage versus @Trait[virus] creatures.<br><br>If the user is a @Trait[data] creature, the user gains an additional +50% damage versus @Trait[virus] creatures.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "img": "icons/magic/time/arrows-circling-green.webp",
+  "effects": [
+    {
+      "name": "Virus Buster",
+      "type": "passive",
+      "_id": "lvOv6KpusEfrKIt0",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "key": "damaging-attack-damage-percentile",
+            "value": 50,
+            "predicate": [
+              "target:trait:virus"
+            ],
+            "label": "Vs Virus",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "percentile-modifier",
+            "key": "damaging-attack-damage-percentile",
+            "value": 50,
+            "predicate": [
+              "target:trait:virus",
+              "trait:data"
+            ],
+            "label": "Vs Virus (Data)",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "mK35yvCqCgiTUvKf": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.12.beta",
+    "createdTime": 1767010456315,
+    "modifiedTime": 1767010456315,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf"
+  },
+  "_id": "9doCXQGICuwmlI3G",
+  "sort": 0
+}

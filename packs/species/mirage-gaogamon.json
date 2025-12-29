@@ -835,7 +835,7 @@
     "habitats": [],
     "slug": "mirage-gaogamon"
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5302.png",
   "effects": [
     {
       "name": "Burst Mode",

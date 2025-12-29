@@ -1,0 +1,140 @@
+{
+  "folder": null,
+  "name": "Restless Dead (Summon)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon"
+    ],
+    "description": "",
+    "actions": [
+      {
+        "name": "Restless Dead",
+        "slug": "restless-dead",
+        "description": "",
+        "traits": [
+          "digimon"
+        ],
+        "type": "summon",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "untyped"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "all",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "baseAV": 80,
+    "duration": 4,
+    "owner": null
+  },
+  "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+  "effects": [
+    {
+      "name": "Restless Dead",
+      "type": "affliction",
+      "_id": "N2FhkwacAD5a0MUj",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "1/16",
+        "type": "damage"
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "mK35yvCqCgiTUvKf": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.12.beta",
+    "createdTime": 1766966359281,
+    "modifiedTime": 1766966411597,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf"
+  },
+  "_id": "f58Stydq3clViPUa",
+  "sort": 200000
+}

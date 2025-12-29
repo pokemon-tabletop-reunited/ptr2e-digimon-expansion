@@ -1,0 +1,127 @@
+{
+  "folder": null,
+  "name": "Shellspin",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [
+      {
+        "name": "Shellspin",
+        "slug": "shellspin",
+        "description": "<p>Passive: When the user is @Affliction[curled], the user gains +10 Overland Movement Allowance.</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "passive",
+        "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        },
+        "hidden": false
+      }
+    ],
+    "description": "<p>Passive: When the user is @Affliction[curled], the user gains +10 Overland Movement Allowance.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "effects": [
+    {
+      "name": "Shellspin",
+      "type": "passive",
+      "_id": "ChDxuBaEpPxUcSaB",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "basic",
+            "key": "system.movement.overland.value",
+            "value": 10,
+            "predicate": [
+              "effect:affliction:curled"
+            ],
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "mK35yvCqCgiTUvKf": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.12.beta",
+    "createdTime": 1766965029224,
+    "modifiedTime": 1766965029786,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf"
+  },
+  "_id": "gcIEcXsFP218LeA8",
+  "sort": 1000000
+}
