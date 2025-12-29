@@ -1,6 +1,6 @@
 {
   "name": "Apemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.113,
@@ -18,7 +18,8 @@
       "vaccine",
       "champion",
       "cloud-surf",
-      "semi-bipedal"
+      "semi-bipedal",
+      "underdog"
     ],
     "number": 5464,
     "stats": {
@@ -851,10 +852,16 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "apemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "systems/ptr2e/img/icons/species_icon.webp",
   "effects": [],
-  "flags": {},
   "_id": "y2GGtRmdUquEwA13"
 }
