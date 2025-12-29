@@ -1,6 +1,6 @@
 {
   "name": "Puppetmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "construct",
       "dark-master"
     ],
-    "number": 5284,
+    "number": 5417,
     "stats": {
       "hp": 80,
       "atk": 135,
@@ -825,9 +825,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "puppetmon"
+    "slug": "puppetmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5417.png",
   "effects": [],
   "_id": "Uof1hE1Pz4F0CZKu"
 }

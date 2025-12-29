@@ -1,6 +1,6 @@
 {
   "name": "VenomMyotismon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5237,
+    "number": 5396,
     "stats": {
       "hp": 125,
       "atk": 150,
@@ -832,9 +832,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "venom-myotismon"
+    "slug": "venom-myotismon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5237.png",
   "effects": [],
   "_id": "lV0f5JWQoVCx2xri"
 }

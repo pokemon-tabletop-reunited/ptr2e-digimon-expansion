@@ -1,6 +1,6 @@
 {
   "name": "SkullGreymon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "semi-bipedal",
       "lifesense-30"
     ],
-    "number": 5176,
+    "number": 5300,
     "stats": {
       "hp": 80,
       "atk": 170,
@@ -855,9 +855,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "skull-greymon"
+    "slug": "skull-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5300.png",
   "effects": [],
   "_id": "MM5UsBvI7UUXC93d"
 }

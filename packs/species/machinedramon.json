@@ -1,6 +1,6 @@
 {
   "name": "Machinedramon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "tailed",
       "horned"
     ],
-    "number": 5304,
+    "number": 5430,
     "stats": {
       "hp": 85,
       "atk": 140,
@@ -828,9 +828,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "machinedramon"
+    "slug": "machinedramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5430.png",
   "effects": [],
   "_id": "bJ4ctsn5ko6qWT4E"
 }

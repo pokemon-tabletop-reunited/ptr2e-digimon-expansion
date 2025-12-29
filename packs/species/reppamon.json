@@ -1,6 +1,6 @@
 {
   "name": "Reppamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "vaccine",
       "champion",
       "quadrupedal",
-      "bladed",
-      "underdog"
+      "bladed"
     ],
-    "number": 5143,
+    "number": 5132,
     "stats": {
       "hp": 40,
       "atk": 80,
@@ -845,9 +844,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "reppamon"
+    "slug": "reppamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5132.png",
   "effects": [],
   "_id": "9bTlLpsP4NlaF1vo"
 }

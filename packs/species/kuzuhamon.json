@@ -1,6 +1,6 @@
 {
   "name": "Kuzuhamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "arcane"
     ],
-    "number": 5246,
+    "number": 5371,
     "stats": {
       "hp": 110,
       "atk": 70,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "kuzuhamon"
+    "slug": "kuzuhamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5371.png",
   "effects": [],
   "_id": "vJZtEE8KS9O4FZYT"
 }

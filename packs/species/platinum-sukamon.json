@@ -1,6 +1,6 @@
 {
   "name": "Platinum Sukamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "virus",
       "champion",
       "legless",
-      "no-buoyancy",
-      "underdog"
+      "no-buoyancy"
     ],
-    "number": 5131,
+    "number": 5186,
     "stats": {
       "hp": 10,
       "atk": 60,
@@ -842,9 +841,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "platinum-sukamon"
+    "slug": "platinum-sukamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5186.png",
   "effects": [],
   "_id": "57dgesJcx645AlEw"
 }

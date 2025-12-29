@@ -1,6 +1,6 @@
 {
   "name": "Gallantmon CM",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5332,
+    "number": 5457,
     "stats": {
       "hp": 115,
       "atk": 190,
@@ -829,9 +829,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gallantmon-cm"
+    "slug": "gallantmon-cm",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5457.png",
   "effects": [],
   "_id": "9D6iOS723Ix6d4Ih"
 }

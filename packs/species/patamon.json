@@ -1,6 +1,6 @@
 {
   "name": "Patamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "rookie",
       "data",
       "quadrupedal",
-      "winged",
-      "underdog"
+      "winged"
     ],
-    "number": 5046,
+    "number": 5056,
     "stats": {
       "hp": 55,
       "atk": 55,
@@ -857,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "patamon"
+    "slug": "patamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5056.png",
   "effects": [],
   "_id": "JugKx4NG5X12q4nY"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Apocalymon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "hover",
       "awkward-flyer"
     ],
-    "number": 5463,
+    "number": 5464,
     "stats": {
       "hp": 170,
       "atk": 65,
@@ -814,9 +814,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "apocalymon"
+    "slug": "apocalymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5464.png",
   "effects": [],
   "_id": "C1vLBbn5DY9sVM6O"
 }

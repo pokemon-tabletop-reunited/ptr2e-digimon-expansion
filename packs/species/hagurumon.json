@@ -1,6 +1,6 @@
 {
   "name": "Hagurumon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "rookie",
-      "hover",
-      "underdog"
+      "hover"
     ],
-    "number": 5045,
+    "number": 5076,
     "stats": {
       "hp": 75,
       "atk": 45,
@@ -868,9 +867,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hagurumon"
+    "slug": "hagurumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5076.png",
   "effects": [],
   "_id": "9QqyOJlXHTZrZPNz"
 }

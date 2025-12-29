@@ -1,6 +1,6 @@
 {
   "name": "RustTyrannomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "tailed"
     ],
-    "number": 5311,
+    "number": 5435,
     "stats": {
       "hp": 130,
       "atk": 155,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "rust-tyrannomon"
+    "slug": "rust-tyrannomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5435.png",
   "effects": [],
   "_id": "4VretticVtuguVfg"
 }

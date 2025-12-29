@@ -1,6 +1,6 @@
 {
   "name": "Datamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "ultimate",
       "quadrupedal"
     ],
-    "number": 5191,
+    "number": 5307,
     "stats": {
       "hp": 85,
       "atk": 55,
@@ -849,9 +849,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "datamon"
+    "slug": "datamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5307.png",
   "effects": [],
   "_id": "i5jsGKrz4AhSsMDg"
 }

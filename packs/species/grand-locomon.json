@@ -1,6 +1,6 @@
 {
   "name": "GrandLocomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "vehicle",
       "rapid"
     ],
-    "number": 5249,
+    "number": 5373,
     "stats": {
       "hp": 80,
       "atk": 125,
@@ -819,9 +819,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "grand-locomon"
+    "slug": "grand-locomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5373.png",
   "effects": [],
   "_id": "fSSVIIZZtcjzZIgp"
 }

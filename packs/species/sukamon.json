@@ -1,6 +1,6 @@
 {
   "name": "Sukamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "legless",
-      "underdog"
+      "legless"
     ],
-    "number": 5110,
+    "number": 5175,
     "stats": {
       "hp": 110,
       "atk": 80,
@@ -843,9 +842,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "sukamon"
+    "slug": "sukamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5175.png",
   "effects": [],
   "_id": "G4iIFDjuNKP4sLzq"
 }

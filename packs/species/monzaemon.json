@@ -1,6 +1,6 @@
 {
   "name": "Monzaemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5215,
+    "number": 5245,
     "stats": {
       "hp": 130,
       "atk": 105,
@@ -853,9 +853,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "monzaemon"
+    "slug": "monzaemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5245.png",
   "effects": [],
   "_id": "7sqGtJZNyPQRVMed"
 }

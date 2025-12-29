@@ -1,6 +1,6 @@
 {
   "name": "Whamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "deep-diver",
       "deep-breath"
     ],
-    "number": 5202,
+    "number": 5240,
     "stats": {
       "hp": 135,
       "atk": 90,
@@ -852,9 +852,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "whamon"
+    "slug": "whamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5240.png",
   "effects": [],
   "_id": "CAiDsUI9OzJjeeW0"
 }

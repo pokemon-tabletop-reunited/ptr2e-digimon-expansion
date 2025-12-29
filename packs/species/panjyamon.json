@@ -1,6 +1,6 @@
 {
   "name": "Panjyamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "chiller",
       "freezer"
     ],
-    "number": 5193,
+    "number": 5236,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -856,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "panjyamon"
+    "slug": "panjyamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5236.png",
   "effects": [],
   "_id": "5ryUx5JRWQoH3uKA"
 }

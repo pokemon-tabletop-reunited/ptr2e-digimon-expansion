@@ -1,6 +1,6 @@
 {
   "name": "Rapidmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "ultimate",
       "hover"
     ],
-    "number": 5219,
+    "number": 5248,
     "stats": {
       "hp": 80,
       "atk": 95,
@@ -855,9 +855,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "rapidmon"
+    "slug": "rapidmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5248.png",
   "effects": [],
   "_id": "RnaofPM45mulOz6d"
 }

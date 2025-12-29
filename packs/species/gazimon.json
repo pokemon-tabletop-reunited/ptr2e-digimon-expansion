@@ -1,6 +1,6 @@
 {
   "name": "Gazimon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "digimon",
       "rookie",
       "virus",
-      "pack-mon",
-      "underdog"
+      "pack-mon"
     ],
-    "number": 5026,
+    "number": 5067,
     "stats": {
       "hp": 60,
       "atk": 85,
@@ -863,9 +862,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gazimon"
+    "slug": "gazimon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5067.png",
   "effects": [],
   "_id": "32v2qYJBnfgmimJ3"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Prince Mamemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "pack-leader",
       "pack-mon"
     ],
-    "number": 5287,
+    "number": 5384,
     "stats": {
       "hp": 155,
       "atk": 70,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "prince-mamemon"
+    "slug": "prince-mamemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5384.png",
   "effects": [],
   "_id": "lxZLSX9ZrpiwSLle"
 }

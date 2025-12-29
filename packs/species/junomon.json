@@ -1,6 +1,6 @@
 {
   "name": "Junomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -836,15 +836,22 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "junomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5434.png",
   "effects": [
     {
       "name": "Hysteric Mode",
       "type": "form",
       "_id": "UNHpIXjTH3rAwpwj",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5434_hm.png",
       "system": {
         "changes": [
           {
@@ -983,10 +990,10 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767023217519
       }
     }
   ],
-  "flags": {},
   "_id": "CqJKmQ1GHubkW0Kg"
 }

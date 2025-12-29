@@ -1,6 +1,6 @@
 {
   "name": "Waspmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "winged",
-      "underdog"
+      "winged"
     ],
-    "number": 5144,
+    "number": 5193,
     "stats": {
       "hp": 95,
       "atk": 120,
@@ -848,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "waspmon"
+    "slug": "waspmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5144.png",
   "effects": [],
   "_id": "1lvxGPGfUEyaq0kr"
 }

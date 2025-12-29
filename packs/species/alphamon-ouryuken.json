@@ -1,6 +1,6 @@
 {
   "name": "Alphamon Ouryuken",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "royal-knight"
     ],
-    "number": 5324,
+    "number": 5448,
     "stats": {
       "hp": 130,
       "atk": 210,
@@ -828,9 +828,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "alphamon-ouryuken"
+    "slug": "alphamon-ouryuken",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5448.png",
   "effects": [],
   "_id": "15Xg7miMf7azhYf4"
 }

@@ -1,6 +1,6 @@
 {
   "name": "SkullMeramon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "data",
       "bipedal"
     ],
-    "number": 5185,
+    "number": 5266,
     "stats": {
       "hp": 115,
       "atk": 140,
@@ -846,9 +846,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "skull-meramon"
+    "slug": "skull-meramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5266.png",
   "effects": [],
   "_id": "xs9rCan1B6uh6hPl"
 }

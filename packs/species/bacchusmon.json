@@ -1,6 +1,6 @@
 {
   "name": "Bacchusmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -832,15 +832,22 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "bacchusmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",
   "effects": [
     {
       "name": "Deisui Mode",
       "type": "form",
       "_id": "s6j46JirHYHGoM8J",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414_burst.png",
       "system": {
         "changes": [
           {
@@ -904,10 +911,10 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020933447
       }
     }
   ],
-  "flags": {},
   "_id": "cmcKhI8iP85229XP"
 }

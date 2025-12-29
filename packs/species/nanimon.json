@@ -1,6 +1,6 @@
 {
   "name": "Nanimon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5124,
+    "number": 5180,
     "stats": {
       "hp": 80,
       "atk": 85,
@@ -844,9 +843,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "nanimon"
+    "slug": "nanimon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5180.png",
   "effects": [],
   "_id": "7S5xHOxYK2ORqqdH"
 }

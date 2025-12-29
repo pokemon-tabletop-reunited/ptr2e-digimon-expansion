@@ -1,6 +1,6 @@
 {
   "name": "MagnaAngemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "winged",
       "arcane"
     ],
-    "number": 5203,
+    "number": 5241,
     "stats": {
       "hp": 85,
       "atk": 90,
@@ -860,9 +860,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "magna-angemon"
+    "slug": "magna-angemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5241.png",
   "effects": [],
   "_id": "Rh3gaRImOKF2k9o9"
 }

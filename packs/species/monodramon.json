@@ -1,6 +1,6 @@
 {
   "name": "Monodramon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "vaccine",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5058,
+    "number": 5041,
     "stats": {
       "hp": 70,
       "atk": 95,
@@ -857,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "monodramon"
+    "slug": "monodramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5041.png",
   "effects": [],
   "_id": "2w7slCKdneRUB08e"
 }

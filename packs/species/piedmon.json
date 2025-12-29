@@ -1,6 +1,6 @@
 {
   "name": "Piedmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -22,7 +22,7 @@
       "arcane",
       "teleporter"
     ],
-    "number": 5283,
+    "number": 5416,
     "stats": {
       "hp": 70,
       "atk": 115,
@@ -830,9 +830,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "piedmon"
+    "slug": "piedmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5416.png",
   "effects": [],
   "_id": "NGldGoWgagZecWJ4"
 }

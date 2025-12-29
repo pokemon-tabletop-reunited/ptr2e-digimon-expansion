@@ -1,6 +1,6 @@
 {
   "name": "MetalSeadramon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -23,7 +23,7 @@
       "dark-master",
       "jet"
     ],
-    "number": 5309,
+    "number": 5390,
     "stats": {
       "hp": 120,
       "atk": 95,
@@ -835,9 +835,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "metal-seadramon"
+    "slug": "metal-seadramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5390.png",
   "effects": [],
   "_id": "KYicuKchGD9Zpuj9"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Tsumemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,10 +21,9 @@
       "many-legged",
       "speech",
       "darkvision-15",
-      "wallclimber",
-      "underdog"
+      "wallclimber"
     ],
-    "number": 5010,
+    "number": 5013,
     "stats": {
       "hp": 45,
       "atk": 65,
@@ -171,9 +170,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "tsumemon"
+    "slug": "tsumemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5013.png",
   "effects": [],
   "_id": "rsmPsAk49ugCyuD8"
 }

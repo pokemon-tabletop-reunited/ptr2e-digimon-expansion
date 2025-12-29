@@ -1,6 +1,6 @@
 {
   "name": "Aegiochusmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -866,15 +866,22 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "aegiochusmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
   "effects": [
     {
       "name": "Green",
       "type": "form",
       "_id": "cKtiaWWcXbeDGHOr",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_green.png",
       "system": {
         "changes": [
           {
@@ -1004,14 +1011,15 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020809083
       }
     },
     {
       "name": "Dark",
       "type": "form",
       "_id": "XXLkE3lenuOfvdrT",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_unholy.png",
       "system": {
         "changes": [
           {
@@ -1141,14 +1149,15 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020817752
       }
     },
     {
       "name": "Blue",
       "type": "form",
       "_id": "W9lNPcH2K5Plhzqt",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_blue.png",
       "system": {
         "changes": [
           {
@@ -1278,14 +1287,15 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020827412
       }
     },
     {
       "name": "Holy",
       "type": "form",
       "_id": "uNtnGL6ygei1RxnV",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
       "system": {
         "changes": [
           {
@@ -1415,10 +1425,10 @@
         "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020846034
       }
     }
   ],
-  "flags": {},
   "_id": "fEMuT5hSSZHFcBPb"
 }

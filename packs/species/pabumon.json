@@ -1,6 +1,6 @@
 {
   "name": "pabumon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -16,10 +16,9 @@
       "free",
       "speech",
       "baby",
-      "digimon",
-      "underdog"
+      "digimon"
     ],
-    "number": 5021,
+    "number": 5004,
     "stats": {
       "hp": 50,
       "atk": 40,
@@ -806,9 +805,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "pabumon"
+    "slug": "pabumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "_id": "el1ujNABHq29Cmdb",
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5004.png",
   "effects": []
 }

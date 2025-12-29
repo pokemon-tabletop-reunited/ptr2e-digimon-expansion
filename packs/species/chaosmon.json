@@ -1,6 +1,6 @@
 {
   "name": "Chaosmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "ultra-digimon",
       "bipedal"
     ],
-    "number": 5239,
+    "number": 5452,
     "stats": {
       "hp": 105,
       "atk": 245,
@@ -822,9 +822,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "chaosmon"
+    "slug": "chaosmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5452.png",
   "effects": [],
   "_id": "0si5Wf8VpQfWjXJF"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Wizardmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,10 +19,9 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
-    "number": 5076,
+    "number": 5134,
     "stats": {
       "hp": 50,
       "atk": 60,
@@ -851,9 +850,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "wizardmon"
+    "slug": "wizardmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5134.png",
   "effects": [],
   "_id": "wgZtE2IneXp5WGDX"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Antylamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5151,
+    "number": 5254,
     "stats": {
       "hp": 65,
       "atk": 100,
@@ -853,9 +853,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "antylamon"
+    "slug": "antylamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5254.png",
   "effects": [],
   "_id": "AjxOcaCB3kiLjP7R"
 }

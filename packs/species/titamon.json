@@ -1,6 +1,6 @@
 {
   "name": "Titamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "mega",
       "bipedal"
     ],
-    "number": 5267,
+    "number": 5410,
     "stats": {
       "hp": 180,
       "atk": 170,
@@ -826,9 +826,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "titamon"
+    "slug": "titamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",
   "effects": [],
   "_id": "P7TA5NPwLBTz1daQ"
 }

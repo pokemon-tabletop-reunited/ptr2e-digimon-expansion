@@ -1,6 +1,6 @@
 {
   "name": "Clockmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,10 +17,9 @@
       "digimon",
       "data",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5096,
+    "number": 5140,
     "stats": {
       "hp": 70,
       "atk": 45,
@@ -848,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "clockmon"
+    "slug": "clockmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5140.png",
   "effects": [],
   "_id": "sCccCsaTRbrPOp4K"
 }

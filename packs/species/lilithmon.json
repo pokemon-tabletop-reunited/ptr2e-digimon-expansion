@@ -1,6 +1,6 @@
 {
   "name": "Lilithmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -23,7 +23,7 @@
       "arcane",
       "agitator"
     ],
-    "number": 5313,
+    "number": 5437,
     "stats": {
       "hp": 75,
       "atk": 90,
@@ -831,9 +831,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lilithmon"
+    "slug": "lilithmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",
   "effects": [],
   "_id": "W5tjxvgo8zl6eD0b"
 }

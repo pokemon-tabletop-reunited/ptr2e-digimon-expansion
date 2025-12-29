@@ -1,6 +1,6 @@
 {
   "name": "Icemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,10 +19,9 @@
       "champion",
       "bipedal",
       "waterwalker",
-      "rapid",
-      "underdog"
+      "rapid"
     ],
-    "number": 5070,
+    "number": 5133,
     "stats": {
       "hp": 65,
       "atk": 90,
@@ -845,9 +844,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "icemon"
+    "slug": "icemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",
   "effects": [],
   "_id": "nSAnpO6pUBSSbSMF"
 }

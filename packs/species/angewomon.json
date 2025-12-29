@@ -1,6 +1,6 @@
 {
   "name": "Angewomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -22,7 +22,7 @@
       "sparkler",
       "arcane"
     ],
-    "number": 5160,
+    "number": 5224,
     "stats": {
       "hp": 60,
       "atk": 75,
@@ -861,9 +861,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "angewomon"
+    "slug": "angewomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5224.png",
   "effects": [],
   "_id": "3f2EtLrTSGakt25s"
 }

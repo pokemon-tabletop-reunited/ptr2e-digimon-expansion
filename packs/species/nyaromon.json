@@ -1,6 +1,6 @@
 {
   "name": "Nyaromon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "baby",
       "free"
     ],
-    "number": 5012,
+    "number": 5016,
     "stats": {
       "hp": 15,
       "atk": 25,
@@ -825,9 +825,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "nyaromon"
+    "slug": "nyaromon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5016.png",
   "effects": [],
   "_id": "7MPci2HBLIo973Wr"
 }

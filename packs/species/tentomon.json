@@ -1,6 +1,6 @@
 {
   "name": "Tentomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -24,10 +24,9 @@
       "jump-3",
       "wallclimber",
       "winged",
-      "vaccine",
-      "underdog"
+      "vaccine"
     ],
-    "number": 5040,
+    "number": 5032,
     "stats": {
       "hp": 45,
       "atk": 60,
@@ -139,9 +138,15 @@
         "x": 26,
         "y": 26
       }
+    },
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
     }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5032.png",
   "effects": [],
   "_id": "i9NfMUoGAiE96p7D"
 }

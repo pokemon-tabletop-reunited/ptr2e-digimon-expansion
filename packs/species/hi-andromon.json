@@ -1,6 +1,6 @@
 {
   "name": "HiAndromon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "mega",
       "bipedal"
     ],
-    "number": 5279,
+    "number": 5358,
     "stats": {
       "hp": 85,
       "atk": 115,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hi-andromon"
+    "slug": "hi-andromon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5358.png",
   "effects": [],
   "_id": "Z3wc9uNZx9g3InvR"
 }

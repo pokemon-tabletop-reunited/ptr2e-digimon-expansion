@@ -1,6 +1,6 @@
 {
   "name": "Black King Nunemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "legless",
       "dark"
     ],
-    "number": 5199,
+    "number": 5309,
     "stats": {
       "hp": 150,
       "atk": 55,
@@ -848,9 +848,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "black-king-nunemon"
+    "slug": "black-king-nunemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5309.png",
   "effects": [],
   "_id": "TM3Dke25IVAqRA2H"
 }

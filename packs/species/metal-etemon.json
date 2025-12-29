@@ -1,6 +1,6 @@
 {
   "name": "Metal Etemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "mega",
       "semi-bipedal"
     ],
-    "number": 5306,
+    "number": 5432,
     "stats": {
       "hp": 125,
       "atk": 115,
@@ -826,9 +826,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "metal-etemon"
+    "slug": "metal-etemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5432.png",
   "effects": [],
   "_id": "I1QO2N8lTWJRarRA"
 }

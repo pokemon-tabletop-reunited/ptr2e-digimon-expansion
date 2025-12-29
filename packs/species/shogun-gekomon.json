@@ -1,6 +1,6 @@
 {
   "name": "ShogunGekomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -22,7 +22,7 @@
       "gilled",
       "natural-swimmer"
     ],
-    "number": 5187,
+    "number": 5306,
     "stats": {
       "hp": 180,
       "atk": 95,
@@ -857,9 +857,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "shogun-gekomon"
+    "slug": "shogun-gekomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5306.png",
   "effects": [],
   "_id": "IjUZHTNHf7qS4V6S"
 }

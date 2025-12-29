@@ -1,6 +1,6 @@
 {
   "name": "Vikemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,7 @@
       "bipedal",
       "deep-breath"
     ],
-    "number": 5234,
+    "number": 5440,
     "stats": {
       "hp": 145,
       "atk": 120,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "vikemon"
+    "slug": "vikemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5440.png",
   "effects": [],
   "_id": "vIJtvs8zwINCIwnM"
 }

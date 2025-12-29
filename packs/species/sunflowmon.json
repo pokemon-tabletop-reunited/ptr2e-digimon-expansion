@@ -1,6 +1,6 @@
 {
   "name": "Sunflowmon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "champion",
       "bipedal"
     ],
-    "number": 5141,
+    "number": 5142,
     "stats": {
       "hp": 105,
       "atk": 40,
@@ -841,9 +841,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "sunflowmon"
+    "slug": "sunflowmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5142.png",
   "effects": [],
   "_id": "7gCQVaF3WPgugVsB"
 }

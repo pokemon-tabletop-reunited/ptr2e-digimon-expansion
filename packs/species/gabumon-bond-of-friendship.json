@@ -1,6 +1,6 @@
 {
   "name": "Gabumon (Bond of Friendship)",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -22,7 +22,7 @@
       "vehicle",
       "rapid"
     ],
-    "number": 5462,
+    "number": 5463,
     "stats": {
       "hp": 180,
       "atk": 170,
@@ -801,12 +801,12 @@
     "moves": {
       "levelUp": [
         {
-          "name": "raddle-star",
+          "name": "cool-edge",
           "level": 0,
           "gen": null
         },
         {
-          "name": "cool-edge",
+          "name": "raddle-star",
           "level": 0,
           "gen": null
         }
@@ -815,10 +815,16 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "gabumon-bond-of-friendship",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
   "effects": [],
-  "flags": {},
   "_id": "eKU1P3olVDLz8hPZ"
 }

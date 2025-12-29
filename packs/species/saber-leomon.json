@@ -1,6 +1,6 @@
 {
   "name": "SaberLeomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "mega",
       "quadrupedal"
     ],
-    "number": 5255,
+    "number": 5376,
     "stats": {
       "hp": 145,
       "atk": 185,
@@ -826,9 +826,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "saber-leomon"
+    "slug": "saber-leomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5376.png",
   "effects": [],
   "_id": "w682J3hGGva6x1EK"
 }

@@ -1,6 +1,6 @@
 {
   "name": "MetalGreymon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -21,7 +21,7 @@
       "horned",
       "tailed"
     ],
-    "number": 5211,
+    "number": 5243,
     "stats": {
       "hp": 115,
       "atk": 145,
@@ -856,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "metal-greymon"
+    "slug": "metal-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
   "effects": [],
   "_id": "fqo0n45ILXogf4Ov"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Vegiemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "virus",
       "champion",
       "legless",
-      "reach",
-      "underdog"
+      "reach"
     ],
-    "number": 5133,
+    "number": 5188,
     "stats": {
       "hp": 115,
       "atk": 95,
@@ -845,9 +844,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "vegiemon"
+    "slug": "vegiemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",
   "effects": [],
   "_id": "TPuAkC8lBWPNij1Y"
 }
