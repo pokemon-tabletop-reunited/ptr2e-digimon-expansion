@@ -1,6 +1,6 @@
 {
   "name": "Bakemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -18,10 +18,9 @@
       "virus",
       "champion",
       "hover",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
-    "number": 5128,
+    "number": 5182,
     "stats": {
       "hp": 40,
       "atk": 65,
@@ -848,7 +847,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "bakemon"
+    "slug": "bakemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "systems/ptr2e/img/icons/species_icon.webp",
   "effects": [],
