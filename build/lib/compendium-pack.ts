@@ -125,7 +125,7 @@ class CompendiumPack {
               throw PackError(msg);
             }
 
-            const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/")
+            const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/") || imgPath.includes("modules/ptr2e-digimon-expansion/img");
             const repoImgPath = path.resolve(
               process.cwd(),
               "static",
@@ -210,7 +210,7 @@ class CompendiumPack {
             throw PackError(msg);
           }
 
-          const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/")
+          const isCoreIconPath = coreIcons.has(imgPath) || imgPath.includes("systems/ptr2e/img/item-icons/") || imgPath.includes("systems/ptr2e/img") || imgPath.includes("icons/") || imgPath.includes("modules/ptr2e-digimon-expansion/img");
           const repoImgPath = path.resolve(
             process.cwd(),
             "static",

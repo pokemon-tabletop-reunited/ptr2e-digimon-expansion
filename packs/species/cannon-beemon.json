@@ -856,7 +856,7 @@
     "habitats": [],
     "slug": "cannon-beemon"
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5295.png",
   "effects": [
     {
       "name": "Pollen Field",
