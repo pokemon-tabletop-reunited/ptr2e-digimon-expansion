@@ -20,7 +20,7 @@
       "bipedal",
       "horned"
     ],
-    "number": 5461,
+    "number": 5462,
     "stats": {
       "hp": 195,
       "atk": 195,
@@ -795,12 +795,12 @@
     "moves": {
       "levelUp": [
         {
-          "name": "red-reamer",
+          "name": "gaia-brave",
           "level": 0,
           "gen": null
         },
         {
-          "name": "gaia-brave",
+          "name": "red-reamer",
           "level": 0,
           "gen": null
         }
@@ -809,10 +809,16 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "agumon-bond-of-bravery",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5461.png",
   "effects": [],
-  "flags": {},
   "_id": "SAF4YhxNQblGiWDR"
 }

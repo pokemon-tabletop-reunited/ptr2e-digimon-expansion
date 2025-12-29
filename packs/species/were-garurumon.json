@@ -21,7 +21,7 @@
       "keen-scent",
       "berserker"
     ],
-    "number": 5224,
+    "number": 5250,
     "stats": {
       "hp": 110,
       "atk": 140,
@@ -855,7 +855,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "were-garurumon"
+    "slug": "were-garurumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5224.png",
   "effects": [],

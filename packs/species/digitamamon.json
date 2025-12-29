@@ -22,7 +22,7 @@
       "bipedal",
       "darkvision-15"
     ],
-    "number": 5184,
+    "number": 5265,
     "stats": {
       "hp": 105,
       "atk": 100,
@@ -856,9 +856,15 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5184.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5265.png",
   "effects": [],
   "_id": "WtJAsbEgKz7y3ZYI"
 }

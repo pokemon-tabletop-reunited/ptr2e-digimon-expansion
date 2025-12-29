@@ -20,7 +20,7 @@
       "hover",
       "ufo"
     ],
-    "number": 5165,
+    "number": 5258,
     "stats": {
       "hp": 120,
       "atk": 95,
@@ -856,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "catch-mamemon"
+    "slug": "catch-mamemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5165.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5258.png",
   "effects": [],
   "_id": "ESv99ZxsrAagfnrO"
 }

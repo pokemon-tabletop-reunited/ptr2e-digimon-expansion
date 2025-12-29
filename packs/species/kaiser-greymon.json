@@ -823,9 +823,16 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "kaiser-greymon"
+    "slug": "kaiser-greymon",
+    "number": 5446,
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5446.png",
   "effects": [],
   "_id": "FMy48EU3yK5bsPCP"
 }

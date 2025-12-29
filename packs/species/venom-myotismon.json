@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5237,
+    "number": 5396,
     "stats": {
       "hp": 125,
       "atk": 150,
@@ -832,7 +832,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "venom-myotismon"
+    "slug": "venom-myotismon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5237.png",
   "effects": [],

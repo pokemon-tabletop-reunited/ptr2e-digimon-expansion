@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5223,
+    "number": 5320,
     "stats": {
       "hp": 55,
       "atk": 85,
@@ -854,9 +854,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lady-devimon"
+    "slug": "lady-devimon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5223.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5320.png",
   "effects": [],
   "_id": "Jy8o9Wt1PvaBZP6H"
 }

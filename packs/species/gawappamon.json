@@ -20,7 +20,7 @@
       "bipedal",
       "deep-breath"
     ],
-    "number": 5135,
+    "number": 5137,
     "stats": {
       "hp": 70,
       "atk": 85,
@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "ancient-roar",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "dj-shooter",
           "level": 0,
           "gen": null
@@ -819,6 +814,11 @@
         {
           "name": "drum-beating",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "ancient-roar",
+          "level": 28,
           "gen": null
         },
         {
@@ -846,10 +846,16 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "gawappamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",
   "effects": [],
-  "flags": {},
   "_id": "cySnw8605mLp9LhX"
 }

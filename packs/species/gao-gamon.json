@@ -19,7 +19,7 @@
       "champion",
       "quadrupedal"
     ],
-    "number": 5085,
+    "number": 5136,
     "stats": {
       "hp": 35,
       "atk": 105,
@@ -847,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gao-gamon"
+    "slug": "gao-gamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5085.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5136.png",
   "effects": [],
   "_id": "0bomtOHBuxdIXcQg"
 }

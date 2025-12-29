@@ -17,10 +17,9 @@
       "digimon",
       "data",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5096,
+    "number": 5140,
     "stats": {
       "hp": 70,
       "atk": 45,
@@ -848,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "clockmon"
+    "slug": "clockmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5096.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5140.png",
   "effects": [],
   "_id": "sCccCsaTRbrPOp4K"
 }

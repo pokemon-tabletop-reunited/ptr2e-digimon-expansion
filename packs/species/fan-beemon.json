@@ -21,10 +21,9 @@
       "many-legged",
       "wallclimber",
       "keen-scent",
-      "pack-mon",
-      "underdog"
+      "pack-mon"
     ],
-    "number": 5052,
+    "number": 5088,
     "stats": {
       "hp": 50,
       "atk": 75,
@@ -882,9 +881,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "fan-beemon"
+    "slug": "fan-beemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5052.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5088.png",
   "effects": [],
   "_id": "igwY0vIZvoV8yJdJ"
 }

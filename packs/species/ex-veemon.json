@@ -21,7 +21,7 @@
       "winged",
       "horned"
     ],
-    "number": 5080,
+    "number": 5196,
     "stats": {
       "hp": 75,
       "atk": 95,
@@ -853,9 +853,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ex-veemon"
+    "slug": "ex-veemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5080.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5196.png",
   "effects": [],
   "_id": "nTUwXBIqWjxOF6sr"
 }

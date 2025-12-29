@@ -20,7 +20,7 @@
       "bipedal",
       "royal-knight"
     ],
-    "number": 5229,
+    "number": 5333,
     "stats": {
       "hp": 130,
       "atk": 150,
@@ -824,7 +824,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "alphamon"
+    "slug": "alphamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229.png",
   "effects": [],

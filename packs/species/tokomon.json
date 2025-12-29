@@ -19,10 +19,9 @@
       "speech",
       "digimon",
       "quadrupedal",
-      "free",
-      "underdog"
+      "free"
     ],
-    "number": 5011,
+    "number": 5014,
     "stats": {
       "hp": 25,
       "atk": 40,
@@ -171,9 +170,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "tokomon"
+    "slug": "tokomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5011.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5014.png",
   "effects": [],
   "_id": "9ozCoHcS8bnowfXC"
 }

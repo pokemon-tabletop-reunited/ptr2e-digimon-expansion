@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5168,
+    "number": 5226,
     "stats": {
       "hp": 130,
       "atk": 140,
@@ -854,9 +854,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "grap-leomon"
+    "slug": "grap-leomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5168.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5226.png",
   "effects": [],
   "_id": "3GOZmXRv9Jyh7j5V"
 }

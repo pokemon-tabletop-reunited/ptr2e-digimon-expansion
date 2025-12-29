@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "legless",
-      "underdog"
+      "legless"
     ],
-    "number": 5140,
+    "number": 5192,
     "stats": {
       "hp": 125,
       "atk": 85,
@@ -805,13 +804,13 @@
           "gen": null
         },
         {
-          "name": "reaper-fist",
-          "level": 22,
+          "name": "sludge",
+          "level": 0,
           "gen": null
         },
         {
-          "name": "sludge",
-          "level": 0,
+          "name": "reaper-fist",
+          "level": 22,
           "gen": null
         },
         {
@@ -845,9 +844,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "raremon"
+    "slug": "raremon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5140.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5192.png",
   "effects": [],
   "_id": "YYcQgQJ28EXzmE1e"
 }

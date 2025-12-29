@@ -21,10 +21,9 @@
       "many-legged",
       "speech",
       "darkvision-15",
-      "wallclimber",
-      "underdog"
+      "wallclimber"
     ],
-    "number": 5010,
+    "number": 5013,
     "stats": {
       "hp": 45,
       "atk": 65,
@@ -171,9 +170,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "tsumemon"
+    "slug": "tsumemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5010.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5013.png",
   "effects": [],
   "_id": "rsmPsAk49ugCyuD8"
 }

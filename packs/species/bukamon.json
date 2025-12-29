@@ -19,10 +19,9 @@
       "free",
       "fountain",
       "digimon",
-      "in-training",
-      "underdog"
+      "in-training"
     ],
-    "number": 5015,
+    "number": 5019,
     "stats": {
       "hp": 40,
       "atk": 25,
@@ -139,9 +138,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "bukamon"
+    "slug": "bukamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5015.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5019.png",
   "effects": [],
   "_id": "Ig1eOyu9VTYqJ6lu"
 }

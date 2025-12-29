@@ -20,7 +20,7 @@
       "winged",
       "bipedal"
     ],
-    "number": 5071,
+    "number": 5194,
     "stats": {
       "hp": 60,
       "atk": 105,
@@ -847,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "aquilamon"
+    "slug": "aquilamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5071.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5194.png",
   "effects": [],
   "_id": "iFicqs8JPsuZPTuN"
 }

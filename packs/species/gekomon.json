@@ -20,10 +20,9 @@
       "bipedal",
       "gilled",
       "deafening",
-      "natural-swimmer",
-      "underdog"
+      "natural-swimmer"
     ],
-    "number": 5098,
+    "number": 5169,
     "stats": {
       "hp": 90,
       "atk": 45,
@@ -851,9 +850,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gekomon"
+    "slug": "gekomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5098.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5169.png",
   "effects": [],
   "_id": "poXFR3XOgExDqcW5"
 }

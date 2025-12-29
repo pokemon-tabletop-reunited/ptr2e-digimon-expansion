@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5314,
+    "number": 5367,
     "stats": {
       "hp": 65,
       "atk": 110,
@@ -836,15 +836,21 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ravemon"
+    "slug": "ravemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5314.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",
   "effects": [
     {
       "name": "Burst Mode",
       "type": "form",
       "_id": "pSQNZ5lTkFTe1akU",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367_burst.png",
       "system": {
         "changes": [
           {
@@ -925,10 +931,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767024271521
       }
     }
   ],

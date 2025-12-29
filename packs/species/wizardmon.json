@@ -19,10 +19,9 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
-    "number": 5076,
+    "number": 5134,
     "stats": {
       "hp": 50,
       "atk": 60,
@@ -851,9 +850,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "wizardmon"
+    "slug": "wizardmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5076.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5134.png",
   "effects": [],
   "_id": "wgZtE2IneXp5WGDX"
 }

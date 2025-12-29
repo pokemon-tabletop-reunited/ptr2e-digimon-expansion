@@ -20,10 +20,9 @@
       "rookie",
       "virus",
       "evil-touch",
-      "venomous",
-      "underdog"
+      "venomous"
     ],
-    "number": 5049,
+    "number": 5077,
     "stats": {
       "hp": 35,
       "atk": 60,
@@ -848,7 +847,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "demi-devimon"
+    "slug": "demi-devimon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5049.png",
   "effects": [],

@@ -18,10 +18,9 @@
       "virus",
       "champion",
       "legless",
-      "reach",
-      "underdog"
+      "reach"
     ],
-    "number": 5133,
+    "number": 5188,
     "stats": {
       "hp": 115,
       "atk": 95,
@@ -845,7 +844,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "vegiemon"
+    "slug": "vegiemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",
   "effects": [],

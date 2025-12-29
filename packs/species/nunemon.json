@@ -17,10 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "legless",
-      "underdog"
+      "legless"
     ],
-    "number": 5125,
+    "number": 5181,
     "stats": {
       "hp": 115,
       "atk": 55,
@@ -843,9 +842,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "nunemon"
+    "slug": "nunemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5125.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5181.png",
   "effects": [],
   "_id": "PwtNnCdraTY75vsx"
 }

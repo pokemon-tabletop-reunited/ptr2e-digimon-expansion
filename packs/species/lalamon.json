@@ -17,10 +17,9 @@
       "digimon",
       "data",
       "rookie",
-      "hover",
-      "underdog"
+      "hover"
     ],
-    "number": 5059,
+    "number": 6061,
     "stats": {
       "hp": 85,
       "atk": 55,
@@ -857,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lalamon"
+    "slug": "lalamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5059.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5061.png",
   "effects": [],
   "_id": "d4snktmAYYV5drmt"
 }

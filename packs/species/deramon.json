@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5263,
+    "number": 5267,
     "stats": {
       "hp": 105,
       "atk": 90,
@@ -805,11 +805,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "ear-splitter",
-          "level": 61,
-          "gen": null
-        },
-        {
           "name": "royal-nuts",
           "level": 0,
           "gen": null
@@ -843,16 +838,27 @@
           "name": "blossom-blast",
           "level": 59,
           "gen": null
+        },
+        {
+          "name": "ear-splitter",
+          "level": 61,
+          "gen": null
         }
       ],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "deramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5263.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5267.png",
   "effects": [],
-  "flags": {},
   "_id": "bxEZaBKz0Y0p8sal"
 }

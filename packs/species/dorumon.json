@@ -17,10 +17,9 @@
       "digimon",
       "data",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5044,
+    "number": 5055,
     "stats": {
       "hp": 75,
       "atk": 105,
@@ -848,9 +847,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "dorumon"
+    "slug": "dorumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5044.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5055.png",
   "effects": [],
   "_id": "TPOTmj32iRKCQ9SC"
 }

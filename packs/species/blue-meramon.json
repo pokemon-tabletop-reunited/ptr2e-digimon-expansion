@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5200,
+    "number": 5310,
     "stats": {
       "hp": 80,
       "atk": 120,
@@ -850,9 +850,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "blue-meramon"
+    "slug": "blue-meramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5200.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5310.png",
   "effects": [],
   "_id": "JPVTVVzUW1MrpcZA"
 }

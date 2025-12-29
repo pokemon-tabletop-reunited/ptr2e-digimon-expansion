@@ -19,7 +19,7 @@
       "mega",
       "bipedal"
     ],
-    "number": 5317,
+    "number": 5392,
     "stats": {
       "hp": 105,
       "atk": 115,
@@ -823,15 +823,21 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "rosemon"
+    "slug": "rosemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5317.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392.png",
   "effects": [
     {
       "name": "Burst Mode",
       "type": "form",
       "_id": "qK6v1PVYSZ9RqHiZ",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392_burst.png",
       "system": {
         "changes": [
           {
@@ -944,10 +950,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767024342981
       }
     }
   ],

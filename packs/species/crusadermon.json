@@ -20,7 +20,7 @@
       "royal-knight",
       "bipedal"
     ],
-    "number": 5316,
+    "number": 5438,
     "stats": {
       "hp": 90,
       "atk": 115,
@@ -824,9 +824,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "crusadermon"
+    "slug": "crusadermon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5316.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5438.png",
   "effects": [],
   "_id": "RBopKj4zbrSpC4Nv"
 }

@@ -20,7 +20,7 @@
       "serpentine",
       "hover"
     ],
-    "number": 5321,
+    "number": 5339,
     "stats": {
       "hp": 100,
       "atk": 170,
@@ -830,9 +830,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ouryumon"
+    "slug": "ouryumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5321.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5339.png",
   "effects": [],
   "_id": "CEu5O8oyHkkrakkP"
 }

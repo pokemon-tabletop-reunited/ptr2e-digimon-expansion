@@ -20,7 +20,7 @@
       "bipedal",
       "arcane"
     ],
-    "number": 5319,
+    "number": 5393,
     "stats": {
       "hp": 80,
       "atk": 95,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lotosmon"
+    "slug": "lotosmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5319.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5393.png",
   "effects": [],
   "_id": "fzEDcn0px0gfx0WI"
 }
