@@ -37,7 +37,7 @@
           "fire"
         ],
         "category": "status",
-        "summon": "Compendium.ptr2e.core-summons.Item.k6Trv0PKk45HA0fA",
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.k6Trv0PKk45HA0fA",
         "predicate": [],
         "description": "<p>This attack conjures a Summon for 3 Activations, which inflicts Burn on all enemy targets, and applies @Tick[-2] of damage to all enemies on the field when it's Activation occurs.</p>"
       }

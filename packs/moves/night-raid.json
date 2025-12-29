@@ -33,7 +33,7 @@
           "ghost"
         ],
         "category": "status",
-        "summon": "Compendium.ptr2e.core-summons.YlsZm28LC6EMHSyc",
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.YlsZm28LC6EMHSyc",
         "predicate": [],
         "description": "<p>The user summons a Night Raid, conjuring swarming bats to assault their foes. This summon has a base AV of 125 and lasts for 4 activations, and attacks all enemies present with a power 65 [Ghost] attack, based on the summoner's Special Attack. This attack has the [Drain 3/16] trait.</p>",
         "range": {

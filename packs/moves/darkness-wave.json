@@ -32,7 +32,7 @@
           "dark"
         ],
         "category": "status",
-        "summon": "Compendium.ptr2e.core-summons.2wvQk3Wh46wP7cSe",
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.2wvQk3Wh46wP7cSe",
         "predicate": [],
         "description": "<p>Summons a Darkness Wave with a base AV of 60 and a duration of 5 activations. On it's activations, the Darkness Wave attacks all enemies on the field with a 70 power special attack with an accuracy score of 100. Only one Darkness Wave summon may be active at any given time, with subsequent uses simply failing to activate.</p>",
         "range": {

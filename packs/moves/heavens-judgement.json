@@ -32,7 +32,7 @@
           "fairy"
         ],
         "category": "status",
-        "summon": "Compendium.ptr2e.core-summons.wHALaVSelP6JqkUl",
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.wHALaVSelP6JqkUl",
         "predicate": [],
         "description": "<p>This attack summons Heaven's Judgement. It rains down power 120 special attacks on all enemies on the field on it's activation. It has a base AV of 100 and lasts for 3 activations. The Summon has the @Trait[crit-1] trait. <br><br>Only 1 Heaven's Judgement can be in effect at any one time. New summons overwrite the existing one.</p>",
         "range": {
