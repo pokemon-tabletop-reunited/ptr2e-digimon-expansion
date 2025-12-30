@@ -1,6 +1,6 @@
 {
   "name": "Jupitermon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -814,41 +814,27 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "punish-judge",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "wide-plasment",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "dios-thunder",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "keraunos-divide",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "jupitermon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5366.png",
   "effects": [
     {
       "name": "Wrath Mode",
       "type": "form",
       "_id": "GIBJhDimNI7gqBAo",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5366_burst.png",
       "system": {
         "changes": [
           {
@@ -872,7 +858,7 @@
               "forme:wrath-mode:active"
             ],
             "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.5wialgI2y5Jn9La4",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.oAEgDj3bfv0iZsD7",
             "alterations": [
               {
                 "mode": 5,
@@ -898,7 +884,7 @@
               "forme:wrath-mode:active"
             ],
             "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.oAEgDj3bfv0iZsD7",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.5wialgI2y5Jn9La4",
             "alterations": [
               {
                 "mode": 5,
@@ -963,13 +949,96 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": 1764678802065,
-        "modifiedTime": 1764678802065,
+        "modifiedTime": 1767136005512,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    },
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "hR1VNHgPFla8iLUv",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.F9dTe33zTa2hfh8g",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:jupitermon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.wwDl1c4c79lxwMGW",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:jupitermon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767135915202,
+        "modifiedTime": 1767135956924,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
       }
     }
   ],
-  "flags": {},
   "_id": "sPkxvIIi6OduDpZT"
 }
