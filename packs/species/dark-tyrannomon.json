@@ -1,6 +1,6 @@
 {
   "name": "DarkTyrannomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.113,
@@ -803,16 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "atomic-flamethrower",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "dragon-rush",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "breaking-swipe",
           "level": 23,
           "gen": null
@@ -846,16 +836,92 @@
           "name": "tainted-earth",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "dragon-rush",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "dark-tyrannomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
-  "flags": {},
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5468.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "wbOmsNKXBHw9MWo5",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.aiiOKtCnjc2Zpq3I",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:dark-tyrannomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "createdTime": 1767092844144,
+        "modifiedTime": 1767092909910,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "uOEyNMvZulXWno9v"
 }

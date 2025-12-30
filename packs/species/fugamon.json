@@ -1,6 +1,6 @@
 {
   "name": "Fugamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "champion",
       "bipedal"
     ],
-    "number": 5185,
+    "number": 5184,
     "stats": {
       "hp": 80,
       "atk": 105,
@@ -802,18 +802,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bone-smash",
-          "level": 0,
+          "name": "sucker-punch",
+          "level": 24,
           "gen": null
         },
         {
           "name": "turbulence",
           "level": 25,
-          "gen": null
-        },
-        {
-          "name": "sucker-punch",
-          "level": 24,
           "gen": null
         },
         {
@@ -832,7 +827,7 @@
           "gen": null
         },
         {
-          "name": "evil-hurricane",
+          "name": "bone-smash",
           "level": 34,
           "gen": null
         },
@@ -846,10 +841,81 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "fugamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
-  "flags": {},
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5184.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "pg3KZk2VckiJeZXI",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.VeWVow0WQrAmwW3P",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:fugamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "createdTime": 1767096763703,
+        "modifiedTime": 1767096796321,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "LpCdtMId0BKi5BCh"
 }
