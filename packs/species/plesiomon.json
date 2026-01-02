@@ -23,7 +23,7 @@
       "deep-diver",
       "wavesense-30"
     ],
-    "number": 5289,
+    "number": 5385,
     "stats": {
       "hp": 140,
       "atk": 65,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "plesiomon"
+    "slug": "plesiomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5289.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5385.png",
   "effects": [],
   "_id": "Ju9s0aqrf7Lbsopv"
 }

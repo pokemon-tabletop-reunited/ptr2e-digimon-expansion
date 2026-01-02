@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5235,
+    "number": 5441,
     "stats": {
       "hp": 95,
       "atk": 120,
@@ -828,9 +828,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "valkyrimon"
+    "slug": "valkyrimon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5235.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5441.png",
   "effects": [],
   "_id": "m0PjHOjEr7sRSXrb"
 }

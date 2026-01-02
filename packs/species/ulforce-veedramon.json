@@ -22,7 +22,7 @@
       "horned",
       "royal-knight"
     ],
-    "number": 5230,
+    "number": 5334,
     "stats": {
       "hp": 140,
       "atk": 165,
@@ -826,9 +826,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ulforce-veedramon"
+    "slug": "ulforce-veedramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5230.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5334.png",
   "effects": [],
   "_id": "5dRp6TNplZoifvHA"
 }

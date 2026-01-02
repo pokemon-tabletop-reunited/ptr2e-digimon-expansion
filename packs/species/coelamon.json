@@ -18,10 +18,9 @@
       "data",
       "champion",
       "natural-swimmer",
-      "gilled",
-      "underdog"
+      "gilled"
     ],
-    "number": 5108,
+    "number": 5144,
     "stats": {
       "hp": 105,
       "atk": 90,
@@ -849,9 +848,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "coelamon"
+    "slug": "coelamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5108.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5144.png",
   "effects": [],
   "_id": "HrHoU4dupFlHWV7M"
 }

@@ -21,7 +21,7 @@
       "winged",
       "guster"
     ],
-    "number": 5162,
+    "number": 5225,
     "stats": {
       "hp": 70,
       "atk": 95,
@@ -857,9 +857,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "garudamon"
+    "slug": "garudamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5162.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5225.png",
   "effects": [],
   "_id": "a0MopduSSgquIs0l"
 }

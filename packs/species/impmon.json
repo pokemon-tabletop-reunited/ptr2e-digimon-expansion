@@ -18,10 +18,9 @@
       "virus",
       "rookie",
       "bipedal",
-      "hover",
-      "underdog"
+      "hover"
     ],
-    "number": 5022,
+    "number": 5065,
     "stats": {
       "hp": 35,
       "atk": 50,
@@ -862,9 +861,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "impmon"
+    "slug": "impmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5022.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5065.png",
   "effects": [],
   "_id": "BeKREg7859oMgMNL"
 }

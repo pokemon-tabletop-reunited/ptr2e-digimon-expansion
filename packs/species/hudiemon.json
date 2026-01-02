@@ -18,10 +18,9 @@
       "free",
       "champion",
       "winged",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
-    "number": 5130,
+    "number": 5098,
     "stats": {
       "hp": 75,
       "atk": 90,
@@ -850,9 +849,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hudiemon"
+    "slug": "hudiemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5130.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5098.png",
   "effects": [],
   "_id": "BNKQc69lsd1MJjOm"
 }

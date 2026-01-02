@@ -20,7 +20,7 @@
       "winged",
       "bipedal"
     ],
-    "number": 5299,
+    "number": 5363,
     "stats": {
       "hp": 105,
       "atk": 135,
@@ -831,9 +831,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "mastemon"
+    "slug": "mastemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5299.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5363.png",
   "effects": [],
   "_id": "04Ap0LzG53i4VLHX"
 }

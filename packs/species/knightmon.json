@@ -19,7 +19,7 @@
       "ultimate",
       "bipedal"
     ],
-    "number": 5190,
+    "number": 5270,
     "stats": {
       "hp": 80,
       "atk": 115,
@@ -854,9 +854,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "knightmon"
+    "slug": "knightmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5190.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5270.png",
   "effects": [],
   "_id": "it6Aqe0RHM5H1gNi"
 }

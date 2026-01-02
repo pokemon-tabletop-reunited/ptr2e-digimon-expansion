@@ -19,7 +19,7 @@
       "champion",
       "bipedal"
     ],
-    "number": 5185,
+    "number": 5184,
     "stats": {
       "hp": 80,
       "atk": 105,
@@ -807,13 +807,13 @@
           "gen": null
         },
         {
-          "name": "turbulence",
-          "level": 25,
+          "name": "sucker-punch",
+          "level": 24,
           "gen": null
         },
         {
-          "name": "sucker-punch",
-          "level": 24,
+          "name": "turbulence",
+          "level": 25,
           "gen": null
         },
         {
@@ -846,10 +846,16 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "fugamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5185.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5184.png",
   "effects": [],
-  "flags": {},
   "_id": "LpCdtMId0BKi5BCh"
 }

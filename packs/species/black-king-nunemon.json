@@ -20,7 +20,7 @@
       "legless",
       "dark"
     ],
-    "number": 5199,
+    "number": 5309,
     "stats": {
       "hp": 150,
       "atk": 55,
@@ -848,9 +848,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "black-king-nunemon"
+    "slug": "black-king-nunemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5199.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5309.png",
   "effects": [],
   "_id": "TM3Dke25IVAqRA2H"
 }

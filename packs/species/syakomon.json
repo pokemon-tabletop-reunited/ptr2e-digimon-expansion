@@ -18,10 +18,9 @@
       "gilled",
       "digimon",
       "virus",
-      "rookie",
-      "underdog"
+      "rookie"
     ],
-    "number": 5035,
+    "number": 5072,
     "stats": {
       "hp": 50,
       "atk": 30,
@@ -863,9 +862,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "syakomon"
+    "slug": "syakomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5035.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5072.png",
   "effects": [],
   "_id": "vxp7079scMYOUHpG"
 }

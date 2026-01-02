@@ -19,7 +19,7 @@
       "mega",
       "awkward-flyer"
     ],
-    "number": 5286,
+    "number": 5338,
     "stats": {
       "hp": 135,
       "atk": 145,
@@ -835,9 +835,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "black-war-greymon"
+    "slug": "black-war-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5286.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5338.png",
   "effects": [],
   "_id": "kWxVydfXQnFUqVkP"
 }

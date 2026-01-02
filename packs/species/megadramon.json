@@ -814,16 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "genocidal-gears",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "genocide-attack",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "chemical-bomb",
           "level": 47,
           "gen": null
@@ -859,9 +849,100 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "megadramon"
+    "slug": "megadramon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5316.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "fc19t8Hl9IBa7H4V",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.iNcGh7izDXjQtlzz",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:megadramon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.6uDhcCEYBqGO481s",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:megadramon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767308223775,
+        "modifiedTime": 1767308260038,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "GsKqK3lg1dbFGpFT"
 }

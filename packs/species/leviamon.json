@@ -23,7 +23,7 @@
       "lumbering",
       "quadrupedal"
     ],
-    "number": 5312,
+    "number": 5436,
     "stats": {
       "hp": 150,
       "atk": 135,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "leviamon"
+    "slug": "leviamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5312.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5436.png",
   "effects": [],
   "_id": "IpaKYFyTL9cJfHr8"
 }

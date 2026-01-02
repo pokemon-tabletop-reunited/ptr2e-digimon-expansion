@@ -21,7 +21,7 @@
       "horned",
       "tailed"
     ],
-    "number": 5211,
+    "number": 5243,
     "stats": {
       "hp": 115,
       "atk": 145,
@@ -856,9 +856,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "metal-greymon"
+    "slug": "metal-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5211.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
   "effects": [],
   "_id": "fqo0n45ILXogf4Ov"
 }

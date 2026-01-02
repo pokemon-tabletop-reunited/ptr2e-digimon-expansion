@@ -21,7 +21,7 @@
       "tail",
       "horned"
     ],
-    "number": 5074,
+    "number": 5195,
     "stats": {
       "hp": 115,
       "atk": 85,
@@ -849,9 +849,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ankylomon"
+    "slug": "ankylomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5074.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5195.png",
   "effects": [],
   "_id": "oQEw7Z6QpKcQ6W49"
 }

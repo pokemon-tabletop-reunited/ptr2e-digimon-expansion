@@ -20,7 +20,7 @@
       "bipedal",
       "tailed"
     ],
-    "number": 5311,
+    "number": 5435,
     "stats": {
       "hp": 130,
       "atk": 155,
@@ -827,9 +827,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "rust-tyrannomon"
+    "slug": "rust-tyrannomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5311.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5435.png",
   "effects": [],
   "_id": "4VretticVtuguVfg"
 }

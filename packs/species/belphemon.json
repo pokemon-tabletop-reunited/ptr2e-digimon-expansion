@@ -21,7 +21,7 @@
       "hover",
       "winged"
     ],
-    "number": 5293,
+    "number": 5426,
     "stats": {
       "hp": 165,
       "atk": 65,
@@ -820,15 +820,21 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "belphemon"
+    "slug": "belphemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5293.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426.png",
   "effects": [
     {
       "name": "Sleep Mode",
       "type": "passive",
       "_id": "Epm5rfjwHwOUuRG7",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426.png",
       "system": {
         "changes": [
           {
@@ -884,17 +890,18 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020731824
       }
     },
     {
       "name": "Rage Mode",
       "type": "form",
       "_id": "aMJT4xJaaPLrW1k8",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426_rage.png",
       "system": {
         "changes": [
           {
@@ -1089,10 +1096,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767020744076
       }
     }
   ],

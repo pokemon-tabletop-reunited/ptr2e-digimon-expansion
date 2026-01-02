@@ -20,7 +20,7 @@
       "quadrupedal",
       "winged"
     ],
-    "number": 5189,
+    "number": 5269,
     "stats": {
       "hp": 110,
       "atk": 135,
@@ -859,9 +859,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "doru-greymon"
+    "slug": "doru-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5189.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5269.png",
   "effects": [],
   "_id": "GOTwjvAcyW5kz22w"
 }

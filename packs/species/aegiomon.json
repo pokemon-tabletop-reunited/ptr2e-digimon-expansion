@@ -9,7 +9,8 @@
     "node": {
       "x": 0,
       "y": 0,
-      "connected": []
+      "connected": [],
+      "prerequisites": []
     },
     "publication": {
       "source": "Digidex",
@@ -808,18 +809,8 @@
     "moves": {
       "levelUp": [
         {
-          "name": "attract-echo",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "flower-trick",
           "level": 21,
-          "gen": null
-        },
-        {
-          "name": "stun-beat-blow",
-          "level": 0,
           "gen": null
         },
         {
@@ -862,10 +853,95 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "aegiomon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5099.png",
-  "effects": [],
-  "flags": {},
+  "effects": [
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "LgJnKgOcffQDkEKs",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.SIe8ArsuxQLcRMek",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.vCFvvCEOJib4MFze",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "createdTime": 1767033037121,
+        "modifiedTime": 1767034347789,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "qmgjurOcEme4lWxa"
 }

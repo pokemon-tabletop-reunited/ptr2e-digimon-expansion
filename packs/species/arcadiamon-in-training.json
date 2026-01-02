@@ -2,7 +2,7 @@
   "name": "Arcadiamon (In-Training)",
   "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
-    "number": 5006,
+    "number": 5008,
     "_migration": {
       "version": 0.111,
       "previous": null
@@ -19,8 +19,7 @@
       "in-training",
       "many-legged",
       "wallclimber",
-      "digimon",
-      "underdog"
+      "digimon"
     ],
     "stats": {
       "hp": 35,
@@ -858,9 +857,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "arcadiamon-in-training"
+    "slug": "arcadiamon-in-training",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5006.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5008.png",
   "effects": [],
   "_id": "Fs2iLfcKzX48XbQI"
 }

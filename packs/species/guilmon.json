@@ -18,10 +18,9 @@
       "rookie",
       "virus",
       "bipedal",
-      "tail",
-      "underdog"
+      "tail"
     ],
-    "number": 5029,
+    "number": 5069,
     "stats": {
       "hp": 70,
       "atk": 100,
@@ -849,9 +848,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "guilmon"
+    "slug": "guilmon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5029.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5069.png",
   "effects": [],
   "_id": "daqwjOzltGCS3UDv"
 }

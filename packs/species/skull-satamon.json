@@ -20,7 +20,7 @@
       "bipedal",
       "winged"
     ],
-    "number": 5177,
+    "number": 5301,
     "stats": {
       "hp": 90,
       "atk": 120,
@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "imprison",
-          "level": 51,
-          "gen": null
-        },
-        {
           "name": "nail-bone",
           "level": 0,
           "gen": null
@@ -831,6 +826,11 @@
         {
           "name": "night-daze",
           "level": 50,
+          "gen": null
+        },
+        {
+          "name": "imprison",
+          "level": 51,
           "gen": null
         },
         {
@@ -859,9 +859,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "skull-satamon"
+    "slug": "skull-satamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5177.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5301.png",
   "effects": [],
   "_id": "EeM3kiKX6l3IJ4Gb"
 }

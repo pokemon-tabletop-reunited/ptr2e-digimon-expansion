@@ -808,16 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bear-fist",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "heart-break-attack",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "night-storm",
           "level": 64,
           "gen": null
@@ -863,10 +853,95 @@
       "y": null,
       "connected": [],
       "prerequisites": []
-    }
+    },
+    "slug": "waru-monzaemon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5218.png",
-  "effects": [],
-  "flags": {},
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "Zmw2ks6gJCuQxM71",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.mlrxsSngGyCBUbft",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:waru-monzaemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.2Heab6YKOpgVkqZo",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:waru-monzaemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767303640464,
+        "modifiedTime": 1767303733368,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
   "_id": "kbeKo9KGpzSHKru5"
 }
