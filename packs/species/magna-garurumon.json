@@ -1,6 +1,6 @@
 {
   "name": "MagnaGarurumon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -821,32 +821,27 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "machinegun-destroyer",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "starlight-velocity",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "magna-garurumon"
+    "slug": "magna-garurumon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5447.png",
   "effects": [
     {
       "name": "Starlight Velocity",
       "type": "form",
       "_id": "gJsx1IaPhonWekSQ",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5447_sv.png",
       "system": {
         "changes": [
           {
@@ -937,10 +932,95 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767307392136
+      }
+    },
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "Mgo4LgGsFSbrG8wC",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.dSSWVUrh5McpxvsB",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:magna-garurumon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.qV8LGyoPsNjN6sd6",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:magna-garurumon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767307404425,
+        "modifiedTime": 1767307444391,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
       }
     }
   ],

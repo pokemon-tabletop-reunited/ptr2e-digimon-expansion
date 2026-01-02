@@ -1,6 +1,6 @@
 {
   "name": "Metal Etemon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -19,7 +19,7 @@
       "mega",
       "semi-bipedal"
     ],
-    "number": 5306,
+    "number": 5432,
     "stats": {
       "hp": 125,
       "atk": 115,
@@ -814,21 +814,86 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "banana-slip",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "metal-etemon"
+    "slug": "metal-etemon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5432.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "D1zJJABRIalx00gu",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.3EUltc3TxMrl5X5q",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:metal-etemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767309051051,
+        "modifiedTime": 1767309071237,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "I1QO2N8lTWJRarRA"
 }
