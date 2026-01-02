@@ -1,7 +1,7 @@
 {
   "folder": null,
   "name": "Saberdramon",
-  "type": "./ptr2e-digimon-expansion",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.113,
