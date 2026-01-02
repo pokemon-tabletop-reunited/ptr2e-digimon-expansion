@@ -48,22 +48,18 @@
     "abilities": {
       "starting": [
         {
-          "slug": "covert",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.H2cLIvhLbnXtzMhj"
+          "slug": "covert"
         },
         {
-          "slug": "trickster",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.RCSnbau25ch2YFfz"
+          "slug": "trickster"
         }
       ],
       "basic": [
         {
-          "slug": "infiltrator",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.lwzM23P0sNChuCx6"
+          "slug": "infiltrator"
         },
         {
-          "slug": "feline-prowess",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.ijconvWIJ7Cg89Qy"
+          "slug": "feline-prowess"
         }
       ],
       "advanced": [],
@@ -813,61 +809,51 @@
       "levelUp": [
         {
           "name": "clone-counter-jutsu",
-          "uuid": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.D0SA5EbWAtadCgLA",
           "level": 0,
           "gen": null
         },
         {
           "name": "spine-dart",
-          "uuid": "Compendium.ptr2e.core-moves.Item.6jtlvFgpTtlM1HzN",
           "level": 38,
           "gen": null
         },
         {
           "name": "poison-jab",
-          "uuid": "Compendium.ptr2e.core-moves.Item.4wFEqQDdZyWTRHRL",
           "level": 21,
           "gen": null
         },
         {
           "name": "blade-clash",
-          "uuid": "Compendium.ptr2e.core-moves.Item.XYnUAGlKJUVYHuYS",
           "level": 24,
           "gen": null
         },
         {
           "name": "bullet-seed",
-          "uuid": "Compendium.ptr2e.core-moves.Item.2YEbEFu2qPjs32tF",
           "level": 27,
           "gen": null
         },
         {
           "name": "bramble-shot",
-          "uuid": "Compendium.ptr2e.core-moves.Item.lFR412cPGvZ3M7zk",
           "level": 28,
           "gen": null
         },
         {
           "name": "kowtow-cleave",
-          "uuid": "Compendium.ptr2e.core-moves.Item.ZEfROnpUJBwEEWAt",
           "level": 30,
           "gen": null
         },
         {
           "name": "leaf-tornado",
-          "uuid": "Compendium.ptr2e.core-moves.Item.twCmpfibti0a7kPm",
           "level": 31,
           "gen": null
         },
         {
           "name": "acrobatics",
-          "uuid": "Compendium.ptr2e.core-moves.Item.UjHMbt9e98EuLulz",
           "level": 33,
           "gen": null
         },
         {
           "name": "leaf-blade",
-          "uuid": "Compendium.ptr2e.core-moves.Item.AO8ABcakgLIp4Fuz",
           "level": 36,
           "gen": null
         }
