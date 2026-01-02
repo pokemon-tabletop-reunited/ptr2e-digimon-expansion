@@ -810,58 +810,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "bolt-break-knockdown",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "lightning-pile",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "bramble-bite",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "plant-zone-cradle",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "triangler",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "plasmadness",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "powered-ignition",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "penetra-laser",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "lightning-shower",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "circlet-defense",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -980,6 +929,58 @@
             "inMemoryOnly": false,
             "track": false,
             "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:green:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.buGlsrghVely9x5A",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "reevaluateOnUpdate": true,
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:green:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.tpLDv5D2DSoYsxmN",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "reevaluateOnUpdate": true,
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1010,9 +1011,9 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
+        "systemVersion": "1.4.12.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020809083
+        "modifiedTime": 1767032462720
       }
     },
     {
@@ -1118,6 +1119,58 @@
             "spe": 25,
             "mode": 2,
             "ignored": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:dark:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.DWQzOaSON16SV7Ta",
+            "allowDuplicate": false,
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:dark:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.YAPnjWn4NVI3dg2R",
+            "allowDuplicate": false,
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1148,9 +1201,9 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
+        "systemVersion": "1.4.12.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020817752
+        "modifiedTime": 1767032320631
       }
     },
     {
@@ -1256,6 +1309,58 @@
             "spe": -20,
             "mode": 2,
             "ignored": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:blue:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Z8ejPuSntJyX8ucm",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:blue:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.9gcoXQou3hzKuFdO",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1286,9 +1391,9 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
+        "systemVersion": "1.4.12.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020827412
+        "modifiedTime": 1767032393540
       }
     },
     {
@@ -1394,6 +1499,46 @@
             "spe": null,
             "mode": 2,
             "ignored": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:holy:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.TQF8PKSy1df3MyMQ",
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:holy:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.NdBn30cal9c051UP",
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1424,9 +1569,118 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
+        "systemVersion": "1.4.12.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020846034
+        "modifiedTime": 1767032566652
+      }
+    },
+    {
+      "name": "Red",
+      "type": "form",
+      "_id": "P51i399xNodGf138",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-option",
+            "key": "manual-forme-toggle",
+            "value": "forme:red:active",
+            "domain": "all",
+            "toggleable": true,
+            "label": "Toggle: Red Forme",
+            "predicate": [],
+            "alwaysActive": false,
+            "count": false,
+            "mode": 2,
+            "ignored": false,
+            "suboptions": [],
+            "state": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:red:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.tXgsQZ1UxIWISEGv",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "predicate": [
+              "forme:red:active"
+            ],
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.zso54rT1n7hAJdlh",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.actions.0.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "allowDuplicate": false,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "trigger": "manual",
+        "conditions": []
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.4.12.beta",
+        "createdTime": 1767032157707,
+        "modifiedTime": 1767032282193,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
       }
     }
   ],
