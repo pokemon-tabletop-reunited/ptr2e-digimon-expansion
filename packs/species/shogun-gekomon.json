@@ -1,6 +1,6 @@
 {
   "name": "ShogunGekomon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -22,7 +22,7 @@
       "gilled",
       "natural-swimmer"
     ],
-    "number": 5187,
+    "number": 5306,
     "stats": {
       "hp": 180,
       "atk": 95,
@@ -812,11 +812,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "musical-fist",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "chatter",
           "level": 48,
           "gen": null
@@ -857,9 +852,80 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "shogun-gekomon"
+    "slug": "shogun-gekomon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5306.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "zm5ZKLfjlOwXv8Ca",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.MtRkNWI6vxgOBTUR",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:shogun-gekomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767407642459,
+        "modifiedTime": 1767407665233,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
   "_id": "IjUZHTNHf7qS4V6S"
 }

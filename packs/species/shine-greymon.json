@@ -1,6 +1,6 @@
 {
   "name": "ShineGreymon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -23,7 +23,7 @@
       "hover",
       "ufo"
     ],
-    "number": 5258,
+    "number": 5348,
     "stats": {
       "hp": 160,
       "atk": 170,
@@ -822,27 +822,27 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "geo-grey-sword",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "shine-greymon"
+    "slug": "shine-greymon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5348.png",
   "effects": [
     {
       "name": "Burst Mode",
       "type": "form",
       "_id": "ODsaa6hv5MnsjnEF",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5348_burst.png",
       "system": {
         "changes": [
           {
@@ -955,10 +955,75 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1767024438811
+      }
+    },
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "Z2unzfsywFkG9QCW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.qBm6HKlN6cnLJ5tl",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:shine-greymon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767407749455,
+        "modifiedTime": 1767407775636,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
       }
     }
   ],
