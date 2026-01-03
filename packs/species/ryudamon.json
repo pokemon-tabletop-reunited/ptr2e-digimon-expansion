@@ -1,6 +1,6 @@
 {
   "name": "Ryudamon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -20,7 +20,8 @@
       "bipedal",
       "tail",
       "horned",
-      "wielder"
+      "wielder",
+      "underdog"
     ],
     "number": 5042,
     "stats": {
@@ -862,11 +863,6 @@
           "name": "dragon-claw",
           "level": 14,
           "gen": null
-        },
-        {
-          "name": "iai-blade",
-          "level": 0,
-          "gen": null
         }
       ],
       "tutor": []
@@ -874,9 +870,80 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ryudamon"
+    "slug": "ryudamon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5042.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "YXS2qnPK7h2bAVt4",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.gLRX2MCOMrfuCb7L",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:ryudamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767397165910,
+        "modifiedTime": 1767397183910,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "8NM6xfXUDd4sH134"
 }

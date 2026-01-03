@@ -1,6 +1,6 @@
 {
   "name": "Ogremon",
-  "type": "species",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.111,
@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5163,
     "stats": {
@@ -811,11 +812,6 @@
           "gen": null
         },
         {
-          "name": "pummel-whack",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "pursuit",
           "level": 0,
           "gen": null
@@ -846,9 +842,80 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ogremon"
+    "slug": "ogremon",
+    "node": {
+      "x": null,
+      "y": null,
+      "connected": [],
+      "prerequisites": []
+    }
   },
-  "img": "systems/ptr2e/img/icons/species_icon.webp",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5163.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "wvSEiTP2i1Moa6CL",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.fffKFC3gvkAkbq5L",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:ogremon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767394938656,
+        "modifiedTime": 1767394957120,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "Ta6GCnYfy6xkLMZm"
 }
