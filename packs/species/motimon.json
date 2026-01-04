@@ -19,7 +19,8 @@
       "digimon",
       "legless",
       "free",
-      "in-training"
+      "in-training",
+      "underdog"
     ],
     "number": 5020,
     "stats": {
@@ -210,7 +211,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "motimon"
+    "slug": "motimon",
+    "node": {
+      "x": 21,
+      "y": 81,
+      "connected": [
+        "pabumon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5020.png",
   "effects": [],

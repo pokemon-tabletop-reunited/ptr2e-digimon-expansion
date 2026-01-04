@@ -19,7 +19,8 @@
       "baby",
       "in-training",
       "speech",
-      "quadrupedal"
+      "quadrupedal",
+      "underdog"
     ],
     "number": 5011,
     "stats": {
@@ -194,7 +195,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "tanemon"
+    "slug": "tanemon",
+    "node": {
+      "x": 20,
+      "y": 74,
+      "connected": [
+        "pabumon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5011.png",
   "effects": [],

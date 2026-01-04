@@ -21,7 +21,8 @@
       "many-legged",
       "speech",
       "darkvision-15",
-      "wallclimber"
+      "wallclimber",
+      "underdog"
     ],
     "number": 5013,
     "stats": {
@@ -172,9 +173,11 @@
     "habitats": [],
     "slug": "tsumemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 22,
+      "y": 19,
+      "connected": [
+        "kuramon"
+      ],
       "prerequisites": []
     }
   },

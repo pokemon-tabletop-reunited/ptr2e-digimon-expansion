@@ -19,7 +19,8 @@
       "in-training",
       "many-legged",
       "wallclimber",
-      "digimon"
+      "digimon",
+      "underdog"
     ],
     "stats": {
       "hp": 35,
@@ -859,9 +860,11 @@
     "habitats": [],
     "slug": "arcadiamon-in-training",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 22,
+      "y": 12,
+      "connected": [
+        "kuramon"
+      ],
       "prerequisites": []
     }
   },
