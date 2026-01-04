@@ -807,7 +807,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "kuramon"
+    "slug": "kuramon",
+    "node": {
+      "x": 9,
+      "y": 14,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "_id": "VjZffT7WBKjd7rMX",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5001.png",

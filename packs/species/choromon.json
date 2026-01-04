@@ -800,8 +800,8 @@
     "habitats": [],
     "slug": "choromon",
     "node": {
-      "x": null,
-      "y": null,
+      "x": 8,
+      "y": 35,
       "connected": [],
       "prerequisites": []
     }
