@@ -939,9 +939,11 @@
     "habitats": [],
     "slug": "lucemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 160,
+      "connected": [
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

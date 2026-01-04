@@ -16,7 +16,8 @@
     "traits": [
       "digimon",
       "vaccine",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5033,
     "stats": {
@@ -800,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "toy-flame",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "pound",
           "level": 1,
           "gen": null
@@ -850,9 +846,82 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "toy-agumon"
+    "slug": "toy-agumon",
+    "node": {
+      "x": 34,
+      "y": 34,
+      "connected": [
+        "kapurimon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5033.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "OxNFtRWO7bjNYT0G",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.86W4dbZOy3X59v0b",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:toy-agumon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767400173977,
+        "modifiedTime": 1767400206383,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
   "_id": "yFqhDyzaSk1szT8P"
 }

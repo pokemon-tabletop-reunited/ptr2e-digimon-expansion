@@ -21,7 +21,8 @@
       "winged",
       "horned",
       "awkward-flyer",
-      "tailed"
+      "tailed",
+      "underdog"
     ],
     "number": 5054,
     "stats": {
@@ -852,9 +853,11 @@
     "habitats": [],
     "slug": "dracomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 133,
+      "connected": [
+        "koromon"
+      ],
       "prerequisites": []
     }
   },

@@ -856,9 +856,11 @@
     "habitats": [],
     "slug": "hyokomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 62,
+      "connected": [
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },

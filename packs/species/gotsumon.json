@@ -841,9 +841,11 @@
     "habitats": [],
     "slug": "gotsumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 85,
+      "connected": [
+        "motimon"
+      ],
       "prerequisites": []
     }
   },

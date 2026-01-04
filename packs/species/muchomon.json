@@ -851,9 +851,11 @@
     "habitats": [],
     "slug": "muchomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 30,
+      "y": 65,
+      "connected": [
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },

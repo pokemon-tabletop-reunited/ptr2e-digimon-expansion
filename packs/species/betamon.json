@@ -862,9 +862,11 @@
     "habitats": [],
     "slug": "betamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 136,
+      "connected": [
+        "koromon"
+      ],
       "prerequisites": []
     }
   },

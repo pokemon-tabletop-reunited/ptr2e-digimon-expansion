@@ -874,9 +874,11 @@
     "habitats": [],
     "slug": "falcomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 28,
+      "y": 64,
+      "connected": [
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },

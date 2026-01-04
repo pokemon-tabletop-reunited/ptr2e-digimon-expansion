@@ -851,9 +851,11 @@
     "habitats": [],
     "slug": "candlemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 142,
+      "connected": [
+        "demi-meramon"
+      ],
       "prerequisites": []
     }
   },

@@ -858,9 +858,11 @@
     "habitats": [],
     "slug": "arcadiamon-rookie",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 7,
+      "connected": [
+        "arcadiamon-in-training"
+      ],
       "prerequisites": []
     }
   },

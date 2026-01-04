@@ -144,9 +144,11 @@
       }
     },
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 30,
+      "y": 83,
+      "connected": [
+        "motimon"
+      ],
       "prerequisites": []
     }
   },

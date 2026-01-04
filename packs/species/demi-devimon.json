@@ -20,7 +20,8 @@
       "rookie",
       "virus",
       "evil-touch",
-      "venomous"
+      "venomous",
+      "underdog"
     ],
     "number": 5077,
     "stats": {
@@ -844,9 +845,11 @@
     "habitats": [],
     "slug": "demi-devimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 38,
+      "y": 24,
+      "connected": [
+        "pagumon"
+      ],
       "prerequisites": []
     }
   },

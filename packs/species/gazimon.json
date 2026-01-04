@@ -18,7 +18,8 @@
       "digimon",
       "rookie",
       "virus",
-      "pack-mon"
+      "pack-mon",
+      "underdog"
     ],
     "number": 5067,
     "stats": {
@@ -864,9 +865,11 @@
     "habitats": [],
     "slug": "gazimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 37,
+      "y": 29,
+      "connected": [
+        "pagumon"
+      ],
       "prerequisites": []
     }
   },

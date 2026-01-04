@@ -861,9 +861,11 @@
     "habitats": [],
     "slug": "armadillomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 162,
+      "connected": [
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

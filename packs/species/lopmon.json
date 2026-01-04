@@ -866,9 +866,11 @@
     "habitats": [],
     "slug": "lopmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 52,
+      "connected": [
+        "dorimon"
+      ],
       "prerequisites": []
     }
   },

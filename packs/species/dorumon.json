@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "rookie",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5055,
     "stats": {
@@ -849,9 +850,11 @@
     "habitats": [],
     "slug": "dorumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 46,
+      "connected": [
+        "dorimon"
+      ],
       "prerequisites": []
     }
   },

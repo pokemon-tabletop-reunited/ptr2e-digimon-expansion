@@ -17,8 +17,7 @@
       "digimon",
       "data",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5059,
     "stats": {
@@ -59,7 +58,16 @@
       "advanced": [],
       "master": []
     },
-    "movement": [],
+    "movement": [
+      {
+        "type": "overland",
+        "value": 6
+      },
+      {
+        "type": "swim",
+        "value": 3
+      }
+    ],
     "skills": [
       {
         "slug": "accounting",
@@ -793,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "leaf-shield",
-          "level": 15,
-          "gen": null
-        },
-        {
           "name": "absorb",
           "level": 3,
           "gen": null
@@ -838,6 +841,11 @@
           "gen": null
         },
         {
+          "name": "leaf-shield",
+          "level": 15,
+          "gen": null
+        },
+        {
           "name": "magical-leaf",
           "level": 17,
           "gen": null
@@ -850,9 +858,11 @@
     "habitats": [],
     "slug": "floramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 29,
+      "y": 77,
+      "connected": [
+        "tanemon"
+      ],
       "prerequisites": []
     }
   },

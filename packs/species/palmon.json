@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "rookie",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5058,
     "stats": {
@@ -802,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "poison-ivy",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "grass-whistle",
           "level": 1,
           "gen": null
@@ -857,9 +853,82 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "palmon"
+    "slug": "palmon",
+    "node": {
+      "x": 33,
+      "y": 74,
+      "connected": [
+        "tanemon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5058.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "fhIz1v5UGpcdFxaN",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.3WaQotkLujFlHPhW",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:palmon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767395438861,
+        "modifiedTime": 1767395455606,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
   "_id": "XAI2YWLwkApyNwyT"
 }

@@ -875,9 +875,11 @@
     "habitats": [],
     "slug": "mushroomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 29,
+      "y": 67,
+      "connected": [
+        "tanemon"
+      ],
       "prerequisites": []
     }
   },

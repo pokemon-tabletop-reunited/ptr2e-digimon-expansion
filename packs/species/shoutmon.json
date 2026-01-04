@@ -17,7 +17,8 @@
       "digimon",
       "free",
       "rookie",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5053,
     "stats": {
@@ -802,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "fiery-fastball",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "bark",
           "level": 1,
           "gen": null
@@ -867,9 +863,83 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "shoutmon"
+    "slug": "shoutmon",
+    "node": {
+      "x": 32,
+      "y": 140,
+      "connected": [
+        "koromon",
+        "demi-meramon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5053.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "Fk7zKyAW0tJJlnH4",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.vrSWG1zx5xkdQXW5",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:shoutmon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767407556570,
+        "modifiedTime": 1767407595152,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
   "_id": "rgsSigdVr8k2x0EK"
 }

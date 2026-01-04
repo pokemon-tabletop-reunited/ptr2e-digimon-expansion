@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "rookie",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5041,
     "stats": {
@@ -858,9 +859,11 @@
     "habitats": [],
     "slug": "monodramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 30,
+      "y": 43,
+      "connected": [
+        "dorimon"
+      ],
       "prerequisites": []
     }
   },

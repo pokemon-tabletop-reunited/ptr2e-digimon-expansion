@@ -845,9 +845,11 @@
     "habitats": [],
     "slug": "bearmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 57,
+      "connected": [
+        "wanyamon"
+      ],
       "prerequisites": []
     }
   },
