@@ -18,7 +18,8 @@
       "baby",
       "free",
       "speech",
-      "digimon"
+      "digimon",
+      "underdog"
     ],
     "number": 5005,
     "stats": {
@@ -807,7 +808,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "punimon"
+    "slug": "punimon",
+    "node": {
+      "x": 7,
+      "y": 96,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "_id": "S13kZwvSVallxzq2",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5005.png",

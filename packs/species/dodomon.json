@@ -799,8 +799,8 @@
     "habitats": [],
     "slug": "dodomon",
     "node": {
-      "x": null,
-      "y": null,
+      "x": 8,
+      "y": 53,
       "connected": [],
       "prerequisites": []
     }

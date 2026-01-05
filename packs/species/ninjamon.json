@@ -805,6 +805,11 @@
     "moves": {
       "levelUp": [
         {
+          "name": "clone-counter-jutsu",
+          "level": 0,
+          "gen": null
+        },
+        {
           "name": "spine-dart",
           "level": 38,
           "gen": null
