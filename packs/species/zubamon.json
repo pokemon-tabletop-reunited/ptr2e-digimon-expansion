@@ -858,9 +858,11 @@
     "habitats": [],
     "slug": "zubamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 86,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

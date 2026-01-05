@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "kamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 169,
+      "connected": [
+        "bukamon"
+      ],
       "prerequisites": []
     }
   },

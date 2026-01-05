@@ -880,9 +880,11 @@
     "habitats": [],
     "slug": "sistermon-blanc",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 158,
+      "connected": [
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

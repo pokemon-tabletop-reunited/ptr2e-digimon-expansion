@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "kotemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 30,
+      "y": 123,
+      "connected": [
+        "koromon"
+      ],
       "prerequisites": []
     }
   },

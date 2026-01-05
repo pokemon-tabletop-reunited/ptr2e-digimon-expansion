@@ -18,7 +18,8 @@
       "virus",
       "rookie",
       "bipedal",
-      "hover"
+      "hover",
+      "underdog"
     ],
     "number": 5065,
     "stats": {
@@ -863,9 +864,12 @@
     "habitats": [],
     "slug": "impmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 40,
+      "y": 27,
+      "connected": [
+        "pagumon",
+        "demi-meramon"
+      ],
       "prerequisites": []
     }
   },

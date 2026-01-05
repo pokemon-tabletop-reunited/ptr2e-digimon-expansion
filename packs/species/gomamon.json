@@ -862,9 +862,11 @@
     "habitats": [],
     "slug": "gomamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 35,
+      "y": 172,
+      "connected": [
+        "bukamon"
+      ],
       "prerequisites": []
     }
   },

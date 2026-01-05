@@ -18,7 +18,8 @@
       "free",
       "rookie",
       "bipedal",
-      "winged"
+      "winged",
+      "underdog"
     ],
     "number": 5093,
     "stats": {
@@ -853,9 +854,11 @@
     "habitats": [],
     "slug": "hawkmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 59,
+      "connected": [
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },

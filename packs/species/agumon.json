@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "agumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 127,
+      "connected": [
+        "koromon"
+      ],
       "prerequisites": []
     }
   },

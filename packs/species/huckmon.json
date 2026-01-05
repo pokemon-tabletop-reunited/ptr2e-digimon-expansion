@@ -871,9 +871,11 @@
     "habitats": [],
     "slug": "huckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 109,
+      "connected": [
+        "nyaromon"
+      ],
       "prerequisites": []
     }
   },

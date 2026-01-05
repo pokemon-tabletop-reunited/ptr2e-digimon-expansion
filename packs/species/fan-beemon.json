@@ -21,7 +21,8 @@
       "many-legged",
       "wallclimber",
       "keen-scent",
-      "pack-mon"
+      "pack-mon",
+      "underdog"
     ],
     "number": 5088,
     "stats": {
@@ -883,9 +884,11 @@
     "habitats": [],
     "slug": "fan-beemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 35,
+      "y": 71,
+      "connected": [
+        "tanemon"
+      ],
       "prerequisites": []
     }
   },

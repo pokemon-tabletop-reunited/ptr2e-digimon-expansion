@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "kokuwamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 40,
+      "connected": [
+        "kapurimon"
+      ],
       "prerequisites": []
     }
   },

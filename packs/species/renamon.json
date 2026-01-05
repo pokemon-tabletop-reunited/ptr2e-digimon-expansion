@@ -18,7 +18,8 @@
       "data",
       "rookie",
       "bipedal",
-      "rapid"
+      "rapid",
+      "underdog"
     ],
     "number": 5063,
     "stats": {
@@ -872,7 +873,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "renamon"
+    "slug": "renamon",
+    "node": {
+      "x": 29,
+      "y": 58,
+      "connected": [
+        "wanyamon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5063.png",
   "effects": [],

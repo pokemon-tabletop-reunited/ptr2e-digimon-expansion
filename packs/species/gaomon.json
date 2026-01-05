@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "gaomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 29,
+      "y": 54,
+      "connected": [
+        "wanyamon"
+      ],
       "prerequisites": []
     }
   },

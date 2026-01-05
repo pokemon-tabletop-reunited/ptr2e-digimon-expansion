@@ -18,7 +18,8 @@
       "rookie",
       "virus",
       "bipedal",
-      "tail"
+      "tail",
+      "underdog"
     ],
     "number": 5069,
     "stats": {
@@ -850,9 +851,11 @@
     "habitats": [],
     "slug": "guilmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 130,
+      "connected": [
+        "koromon"
+      ],
       "prerequisites": []
     }
   },
