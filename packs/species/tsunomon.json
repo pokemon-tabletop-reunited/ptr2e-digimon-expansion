@@ -20,7 +20,8 @@
       "legless",
       "speech",
       "free",
-      "horned"
+      "horned",
+      "underdog"
     ],
     "number": 5012,
     "stats": {
@@ -175,7 +176,15 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "tsunomon"
+    "slug": "tsunomon",
+    "node": {
+      "x": 19,
+      "y": 92,
+      "connected": [
+        "punimon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5012.png",
   "effects": [],

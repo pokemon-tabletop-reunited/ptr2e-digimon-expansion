@@ -801,9 +801,11 @@
     "habitats": [],
     "slug": "dorimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 20,
+      "y": 49,
+      "connected": [
+        "dodomon"
+      ],
       "prerequisites": []
     }
   },

@@ -18,7 +18,8 @@
       "in-training",
       "free",
       "hover",
-      "glow-2"
+      "glow-2",
+      "underdog"
     ],
     "number": 5081,
     "stats": {
@@ -809,10 +810,18 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "demi-meramon",
+    "node": {
+      "x": 24,
+      "y": 145,
+      "connected": [
+        "botamon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5081.png",
   "effects": [],
-  "flags": {},
   "_id": "z0SsLMQHjeeRXBhm"
 }

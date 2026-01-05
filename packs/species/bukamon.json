@@ -19,7 +19,8 @@
       "free",
       "fountain",
       "digimon",
-      "in-training"
+      "in-training",
+      "underdog"
     ],
     "number": 5019,
     "stats": {
@@ -140,9 +141,11 @@
     "habitats": [],
     "slug": "bukamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 21,
+      "y": 174,
+      "connected": [
+        "poyomon"
+      ],
       "prerequisites": []
     }
   },

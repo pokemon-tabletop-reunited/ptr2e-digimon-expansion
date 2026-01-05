@@ -18,7 +18,8 @@
       "in-training",
       "free",
       "legless",
-      "awkward-flyer"
+      "awkward-flyer",
+      "underdog"
     ],
     "stats": {
       "hp": 15,
@@ -209,7 +210,15 @@
     "genderRatio": 1,
     "habitats": [],
     "slug": "pagumon",
-    "number": 5017
+    "number": 5017,
+    "node": {
+      "x": 21,
+      "y": 25,
+      "connected": [
+        "kuramon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5017.png",
   "effects": [],

@@ -18,7 +18,8 @@
       "baby",
       "digimon",
       "in-training",
-      "free"
+      "free",
+      "underdog"
     ],
     "number": 5010,
     "stats": {
@@ -187,9 +188,11 @@
     "habitats": [],
     "slug": "koromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 22,
+      "y": 132,
+      "connected": [
+        "botamon"
+      ],
       "prerequisites": []
     }
   },

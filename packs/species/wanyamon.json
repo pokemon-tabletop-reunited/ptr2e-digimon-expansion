@@ -17,7 +17,8 @@
     "traits": [
       "digimon",
       "in-training",
-      "free"
+      "free",
+      "underdog"
     ],
     "number": 5021,
     "stats": {
@@ -820,7 +821,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "wanyamon"
+    "slug": "wanyamon",
+    "node": {
+      "x": 22,
+      "y": 57,
+      "connected": [
+        "dodomon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5021.png",
   "effects": [],
