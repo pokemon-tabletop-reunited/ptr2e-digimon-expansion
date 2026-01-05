@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "aquilamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 69,
+      "y": 61,
+      "connected": [
+        "hawkmon",
+        "penmon",
+        "biyomon"
+      ],
       "prerequisites": []
     }
   },

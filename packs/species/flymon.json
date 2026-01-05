@@ -851,9 +851,15 @@
     "habitats": [],
     "slug": "flymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 146,
+      "connected": [
+        "kunemon",
+        "gizamon",
+        "mushroomon",
+        "fan-beemon",
+        "dokunemon"
+      ],
       "prerequisites": []
     }
   },

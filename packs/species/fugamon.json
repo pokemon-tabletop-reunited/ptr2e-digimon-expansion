@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5184,
     "stats": {
@@ -849,9 +850,13 @@
     "habitats": [],
     "slug": "fugamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 57,
+      "y": 18,
+      "connected": [
+        "gabumon-black",
+        "shamamon",
+        "muchomon"
+      ],
       "prerequisites": []
     }
   },

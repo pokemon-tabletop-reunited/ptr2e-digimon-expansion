@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "black-gatomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 20,
+      "connected": [
+        "gazimon",
+        "gabumon-black",
+        "chuumon"
+      ],
       "prerequisites": []
     }
   },

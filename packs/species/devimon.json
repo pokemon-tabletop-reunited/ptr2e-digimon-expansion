@@ -850,9 +850,14 @@
     "habitats": [],
     "slug": "devimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 12,
+      "connected": [
+        "demi-devimon",
+        "agumon-black",
+        "impmon",
+        "betamon"
+      ],
       "prerequisites": []
     }
   },
