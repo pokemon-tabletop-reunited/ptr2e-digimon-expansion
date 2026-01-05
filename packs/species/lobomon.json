@@ -844,9 +844,11 @@
     "habitats": [],
     "slug": "lobomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 109,
+      "connected": [
+        "kudamon"
+      ],
       "prerequisites": []
     }
   },

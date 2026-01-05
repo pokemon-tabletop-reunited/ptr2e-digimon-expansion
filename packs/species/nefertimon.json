@@ -820,9 +820,11 @@
     "habitats": [],
     "slug": "nefertimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 101,
+      "connected": [
+        "gatomon"
+      ],
       "prerequisites": []
     }
   },
