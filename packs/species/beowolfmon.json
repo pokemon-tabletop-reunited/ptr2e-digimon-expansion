@@ -815,9 +815,11 @@
     "habitats": [],
     "slug": "beowolfmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 107,
+      "connected": [
+        "kendo-garurumon"
+      ],
       "prerequisites": []
     }
   },

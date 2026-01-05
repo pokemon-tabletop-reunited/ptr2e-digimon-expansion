@@ -853,9 +853,12 @@
     "habitats": [],
     "slug": "dinobeemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 73,
+      "connected": [
+        "stingmon",
+        "ex-veemon"
+      ],
       "prerequisites": []
     }
   },
