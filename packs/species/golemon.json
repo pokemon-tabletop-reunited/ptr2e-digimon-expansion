@@ -843,9 +843,13 @@
     "habitats": [],
     "slug": "golemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 90,
+      "connected": [
+        "goblimon",
+        "gotsumon",
+        "armadillomon"
+      ],
       "prerequisites": []
     }
   },

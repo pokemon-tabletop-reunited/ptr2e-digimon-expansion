@@ -842,9 +842,13 @@
     "habitats": [],
     "slug": "geremon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 97,
+      "connected": [
+        "gizamon",
+        "gabumon",
+        "chuumon"
+      ],
       "prerequisites": []
     }
   },

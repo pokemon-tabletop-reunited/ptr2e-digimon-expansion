@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "winged",
-      "legless"
+      "legless",
+      "underdog"
     ],
     "number": 5171,
     "stats": {
@@ -845,7 +846,16 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gold-nunemon"
+    "slug": "gold-nunemon",
+    "node": {
+      "x": 66,
+      "y": 54,
+      "connected": [
+        "fan-beemon",
+        "solarmon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5171.png",
   "effects": [],

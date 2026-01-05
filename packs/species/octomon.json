@@ -850,9 +850,14 @@
     "habitats": [],
     "slug": "octomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 170,
+      "connected": [
+        "kamemon",
+        "crabmon",
+        "syakomon",
+        "keramon"
+      ],
       "prerequisites": []
     }
   },

@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "togemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 77,
+      "connected": [
+        "floramon",
+        "palmon",
+        "lalamon"
+      ],
       "prerequisites": []
     }
   },

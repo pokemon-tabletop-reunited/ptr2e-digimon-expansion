@@ -854,9 +854,13 @@
     "habitats": [],
     "slug": "wendigomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 39,
+      "connected": [
+        "lopmon",
+        "keramon",
+        "goblimon"
+      ],
       "prerequisites": []
     }
   },
