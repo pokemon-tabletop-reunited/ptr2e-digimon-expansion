@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "mori-shellmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 113,
+      "connected": [
+        "psychemon",
+        "betamon",
+        "crabmon"
+      ],
       "prerequisites": []
     }
   },

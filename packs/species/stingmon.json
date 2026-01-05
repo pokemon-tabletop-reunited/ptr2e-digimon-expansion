@@ -852,7 +852,16 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "stingmon"
+    "slug": "stingmon",
+    "node": {
+      "x": 59,
+      "y": 72,
+      "connected": [
+        "wormmon",
+        "fan-beemon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5198.png",
   "effects": [],

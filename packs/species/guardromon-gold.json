@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "guardromon-gold",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 42,
+      "connected": [
+        "solarmon",
+        "shoutmon",
+        "zubamon"
+      ],
       "prerequisites": []
     }
   },

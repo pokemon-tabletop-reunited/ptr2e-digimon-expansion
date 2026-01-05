@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "bipedal",
-      "tailed"
+      "tailed",
+      "underdog"
     ],
     "number": 5468,
     "stats": {
@@ -850,9 +851,13 @@
     "habitats": [],
     "slug": "dark-tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 123,
+      "connected": [
+        "agumon",
+        "dracomon",
+        "guilmon"
+      ],
       "prerequisites": []
     }
   },

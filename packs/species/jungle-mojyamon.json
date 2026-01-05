@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "jungle-mojyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 75,
+      "connected": [
+        "palmon",
+        "gotsumon",
+        "gizamon"
+      ],
       "prerequisites": []
     }
   },
