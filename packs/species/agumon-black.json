@@ -17,7 +17,8 @@
       "virus",
       "digimon",
       "rookie",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5025,
     "stats": {
@@ -844,9 +845,11 @@
     "habitats": [],
     "slug": "agumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 14,
+      "connected": [
+        "tsumemon"
+      ],
       "prerequisites": []
     }
   },

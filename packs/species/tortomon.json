@@ -19,7 +19,8 @@
       "champion",
       "quadrupedal",
       "lumbering",
-      "deep-breath"
+      "deep-breath",
+      "underdog"
     ],
     "number": 5478,
     "stats": {
@@ -806,11 +807,6 @@
           "gen": null
         },
         {
-          "name": "shell-phalanx",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "flame-wheel",
           "level": 22,
           "gen": null
@@ -851,10 +847,75 @@
       "y": null,
       "connected": [],
       "prerequisites": []
-    }
+    },
+    "slug": "tortomon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5478.png",
-  "effects": [],
-  "flags": {},
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "t7EiAgI3jvOYF7mw",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Mr6pXNhqOEY0V0Kv",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:tortomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767400253183,
+        "modifiedTime": 1767400292312,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
   "_id": "ETCans8ZpGfNXOPJ"
 }

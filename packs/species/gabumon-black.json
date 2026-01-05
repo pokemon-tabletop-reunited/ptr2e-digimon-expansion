@@ -856,9 +856,11 @@
     "habitats": [],
     "slug": "gabumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 16,
+      "connected": [
+        "tsumemon"
+      ],
       "prerequisites": []
     }
   },

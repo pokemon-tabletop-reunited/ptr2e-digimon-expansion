@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "rookie",
-      "hover"
+      "hover",
+      "underdog"
     ],
     "number": 5076,
     "stats": {
@@ -869,9 +870,11 @@
     "habitats": [],
     "slug": "hagurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 36,
+      "connected": [
+        "kapurimon"
+      ],
       "prerequisites": []
     }
   },

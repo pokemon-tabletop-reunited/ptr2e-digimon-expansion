@@ -18,7 +18,8 @@
       "legless",
       "digimon",
       "in-training",
-      "free"
+      "free",
+      "underdog"
     ],
     "stats": {
       "hp": 65,
@@ -821,7 +822,15 @@
     "genderRatio": -1,
     "habitats": [],
     "slug": "yokomon",
-    "number": 5018
+    "number": 5018,
+    "node": {
+      "x": 21,
+      "y": 65,
+      "connected": [
+        "pabumon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5018.png",
   "effects": [],

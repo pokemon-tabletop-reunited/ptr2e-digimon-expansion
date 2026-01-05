@@ -843,9 +843,12 @@
     "habitats": [],
     "slug": "dracmon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 11,
+      "connected": [
+        "tsumemon",
+        "keramon"
+      ],
       "prerequisites": []
     }
   },

@@ -18,7 +18,8 @@
       "in-training",
       "legless",
       "baby",
-      "free"
+      "free",
+      "underdog"
     ],
     "number": 5016,
     "stats": {
@@ -827,9 +828,11 @@
     "habitats": [],
     "slug": "nyaromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 19,
+      "y": 103,
+      "connected": [
+        "punimon"
+      ],
       "prerequisites": []
     }
   },

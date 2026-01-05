@@ -18,7 +18,8 @@
       "legless",
       "speech",
       "free",
-      "digimon"
+      "digimon",
+      "underdog"
     ],
     "number": 5006,
     "stats": {
@@ -807,7 +808,13 @@
     "eggGroups": [],
     "genderRatio": 1,
     "habitats": [],
-    "slug": "botamon"
+    "slug": "botamon",
+    "node": {
+      "x": 9,
+      "y": 136,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "_id": "k9gxXptKCSJ4GijW",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5006.png",

@@ -865,9 +865,11 @@
     "habitats": [],
     "slug": "elecmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 96,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

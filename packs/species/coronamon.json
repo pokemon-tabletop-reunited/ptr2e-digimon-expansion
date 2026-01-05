@@ -847,9 +847,12 @@
     "habitats": [],
     "slug": "coronamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 28,
+      "y": 151,
+      "connected": [
+        "demi-meramon",
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

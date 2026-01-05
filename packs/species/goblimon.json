@@ -840,9 +840,11 @@
     "habitats": [],
     "slug": "goblimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 89,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

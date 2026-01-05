@@ -864,9 +864,11 @@
     "habitats": [],
     "slug": "chuumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 31,
+      "y": 79,
+      "connected": [
+        "motimon"
+      ],
       "prerequisites": []
     }
   },

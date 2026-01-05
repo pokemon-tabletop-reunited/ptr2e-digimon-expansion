@@ -16,7 +16,8 @@
       "free",
       "speech",
       "baby",
-      "digimon"
+      "digimon",
+      "underdog"
     ],
     "number": 5004,
     "stats": {
@@ -807,8 +808,8 @@
     "habitats": [],
     "slug": "pabumon",
     "node": {
-      "x": null,
-      "y": null,
+      "x": 8,
+      "y": 75,
       "connected": [],
       "prerequisites": []
     }

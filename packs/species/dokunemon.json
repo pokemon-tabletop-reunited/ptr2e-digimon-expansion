@@ -850,9 +850,11 @@
     "habitats": [],
     "slug": "dokunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 36,
+      "y": 80,
+      "connected": [
+        "motimon"
+      ],
       "prerequisites": []
     }
   },

@@ -18,7 +18,8 @@
       "vaccine",
       "rookie",
       "bipedal",
-      "wielder"
+      "wielder",
+      "underdog"
     ],
     "number": 5023,
     "stats": {
@@ -802,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "divine-pierce",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "protect",
           "level": 0,
           "gen": null
@@ -882,7 +878,15 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "sistermon-blanc"
+    "slug": "sistermon-blanc",
+    "node": {
+      "x": 33,
+      "y": 158,
+      "connected": [
+        "tokomon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
   "effects": [
@@ -957,13 +961,77 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.2.1.beta",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "exportSource": null
+      }
+    },
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "SaOVOOC136FLPGEY",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.dBepc88qKzmj8m6c",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:sistermon-blanc"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767407101734,
+        "modifiedTime": 1767407131697,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
       }
     }
   ],

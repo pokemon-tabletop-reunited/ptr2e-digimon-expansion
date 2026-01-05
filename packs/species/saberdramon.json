@@ -1,7 +1,7 @@
 {
   "folder": null,
   "name": "Saberdramon",
-  "type": "./ptr2e-digimon-expansion",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
   "system": {
     "_migration": {
       "version": 0.113,
@@ -47,18 +47,15 @@
     "abilities": {
       "starting": [
         {
-          "slug": "phoenix-feathers",
-          "uuid": "Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.7n03UDYcmneaTimH"
+          "slug": "phoenix-feathers"
         }
       ],
       "basic": [
         {
-          "slug": "terrorbird",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.SJN5jgee5QozcK1A"
+          "slug": "terrorbird"
         },
         {
-          "slug": "raw-firepower",
-          "uuid": "Compendium.ptr2e.core-abilities.Item.ipanoZVSXiG5mh17"
+          "slug": "raw-firepower"
         }
       ],
       "advanced": [],
@@ -808,49 +805,41 @@
       "levelUp": [
         {
           "name": "crimson-flare",
-          "uuid": "Compendium.ptr2e.core-moves.Item.INzyfHmEPKoG0GrM",
           "level": 33,
           "gen": null
         },
         {
           "name": "aerial-spike",
-          "uuid": "Compendium.ptr2e.core-moves.Item.0cAN07CiUkS8bH40",
           "level": 22,
           "gen": null
         },
         {
           "name": "brutal-swing",
-          "uuid": "Compendium.ptr2e.core-moves.Item.3ctJ9HFWI8TXA5FQ",
           "level": 24,
           "gen": null
         },
         {
           "name": "ancient-power",
-          "uuid": "Compendium.ptr2e.core-moves.Item.12C8q5imCTlohajn",
           "level": 27,
           "gen": null
         },
         {
           "name": "ancient-roar",
-          "uuid": "Compendium.ptr2e.core-moves.Item.JXRibhGmDnVpNh1t",
           "level": 28,
           "gen": null
         },
         {
           "name": "air-raid",
-          "uuid": "Compendium.ptr2e.core-moves.Item.xwk1Zm5233VHiy4O",
           "level": 31,
           "gen": null
         },
         {
           "name": "blazing-torque",
-          "uuid": "Compendium.ptr2e.core-moves.Item.1weTUUASBWwNogEn",
           "level": 36,
           "gen": null
         },
         {
           "name": "nitro-arrow",
-          "uuid": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.rqCraIN7vodMm8F3",
           "level": 0,
           "gen": null
         }

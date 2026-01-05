@@ -841,9 +841,11 @@
     "habitats": [],
     "slug": "crabmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 35,
+      "y": 174,
+      "connected": [
+        "bukamon"
+      ],
       "prerequisites": []
     }
   },

@@ -19,7 +19,8 @@
       "speech",
       "digimon",
       "quadrupedal",
-      "free"
+      "free",
+      "underdog"
     ],
     "number": 5014,
     "stats": {
@@ -172,9 +173,11 @@
     "habitats": [],
     "slug": "tokomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 21,
+      "y": 162,
+      "connected": [
+        "poyomon"
+      ],
       "prerequisites": []
     }
   },

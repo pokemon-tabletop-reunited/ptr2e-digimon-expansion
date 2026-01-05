@@ -19,7 +19,8 @@
       "speech",
       "baby",
       "amorphous",
-      "digimon"
+      "digimon",
+      "underdog"
     ],
     "number": 5007,
     "stats": {
@@ -808,7 +809,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "poyomon"
+    "slug": "poyomon",
+    "node": {
+      "x": 9,
+      "y": 167,
+      "connected": [],
+      "prerequisites": []
+    }
   },
   "_id": "fRQzQ6Lz9Fc0YCsX",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5007.png",

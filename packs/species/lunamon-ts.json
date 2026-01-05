@@ -847,9 +847,11 @@
     "habitats": [],
     "slug": "lunamon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 100,
+      "connected": [
+        "nyaromon"
+      ],
       "prerequisites": []
     }
   },
