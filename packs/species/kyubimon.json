@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "kyubimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 58,
+      "connected": [
+        "renamon",
+        "tapirmon",
+        "gabumon"
+      ],
       "prerequisites": []
     }
   },

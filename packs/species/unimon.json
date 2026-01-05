@@ -856,9 +856,14 @@
     "habitats": [],
     "slug": "unimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 46,
+      "connected": [
+        "tapirmon",
+        "biyomon",
+        "elecmon",
+        "patamon"
+      ],
       "prerequisites": []
     }
   },

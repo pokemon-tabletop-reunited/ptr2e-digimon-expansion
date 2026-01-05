@@ -841,9 +841,13 @@
     "habitats": [],
     "slug": "tankmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 40,
+      "connected": [
+        "hagurumon",
+        "toy-agumon",
+        "zubamon"
+      ],
       "prerequisites": []
     }
   },

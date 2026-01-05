@@ -843,9 +843,13 @@
     "habitats": [],
     "slug": "starmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 25,
+      "connected": [
+        "dracmon-ts",
+        "solarmon",
+        "gotsumon"
+      ],
       "prerequisites": []
     }
   },
