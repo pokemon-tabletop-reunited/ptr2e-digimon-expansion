@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "ikkakumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 106,
+      "connected": [
+        "salamon",
+        "gabumon",
+        "gomamon"
+      ],
       "prerequisites": []
     }
   },

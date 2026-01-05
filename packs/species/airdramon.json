@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "airdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 50,
+      "connected": [
+        "dorumon",
+        "muchomon",
+        "kudamon"
+      ],
       "prerequisites": []
     }
   },

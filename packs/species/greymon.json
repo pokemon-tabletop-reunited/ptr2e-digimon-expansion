@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 116,
+      "connected": [
+        "agumon",
+        "huckmon",
+        "ryudamon"
+      ],
       "prerequisites": []
     }
   },
