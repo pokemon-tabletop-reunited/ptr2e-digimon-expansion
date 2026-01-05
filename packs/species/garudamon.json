@@ -859,9 +859,14 @@
     "habitats": [],
     "slug": "garudamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 102,
+      "y": 62,
+      "connected": [
+        "aquilamon",
+        "birdramon",
+        "buraimon",
+        "fugamon"
+      ],
       "prerequisites": []
     }
   },

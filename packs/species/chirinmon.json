@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "chirinmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 142,
+      "connected": [
+        "reppamon",
+        "unimon",
+        "peckmon"
+      ],
       "prerequisites": []
     }
   },

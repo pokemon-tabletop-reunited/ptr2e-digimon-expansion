@@ -847,9 +847,13 @@
     "habitats": [],
     "slug": "andromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 37,
+      "connected": [
+        "guardromon",
+        "centarumon",
+        "clockmon"
+      ],
       "prerequisites": []
     }
   },
