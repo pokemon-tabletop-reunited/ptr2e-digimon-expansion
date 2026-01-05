@@ -857,9 +857,13 @@
     "habitats": [],
     "slug": "rapidmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 153,
+      "connected": [
+        "centarumon",
+        "waspmon",
+        "gargomon"
+      ],
       "prerequisites": []
     }
   },

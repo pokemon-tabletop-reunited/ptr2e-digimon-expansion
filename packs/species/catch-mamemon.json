@@ -858,9 +858,13 @@
     "habitats": [],
     "slug": "catch-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 93,
+      "connected": [
+        "guardromon",
+        "gargomon",
+        "geremon"
+      ],
       "prerequisites": []
     }
   },

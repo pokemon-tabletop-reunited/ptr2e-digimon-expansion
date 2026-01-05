@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "frost-slash",
-          "level": 48,
-          "gen": null
-        },
-        {
           "name": "blizzard",
           "level": 40,
           "gen": null
@@ -836,6 +831,11 @@
         {
           "name": "darkest-lariat",
           "level": 45,
+          "gen": null
+        },
+        {
+          "name": "frost-slash",
+          "level": 48,
           "gen": null
         },
         {
@@ -861,9 +861,14 @@
     "habitats": [],
     "slug": "crescemon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 115,
+      "y": 139,
+      "connected": [
+        "lekismon-ts",
+        "frigimon",
+        "ice-devimon",
+        "icemon"
+      ],
       "prerequisites": []
     }
   },

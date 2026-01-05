@@ -789,13 +789,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "upheaval",
-          "level": 51,
+          "name": "snow-cannon",
+          "level": 48,
           "gen": null
         },
         {
-          "name": "snow-cannon",
-          "level": 48,
+          "name": "upheaval",
+          "level": 51,
           "gen": null
         },
         {
@@ -831,9 +831,14 @@
     "habitats": [],
     "slug": "mammothmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 101,
+      "connected": [
+        "golemon",
+        "monochromon",
+        "frigimon",
+        "mojyamon"
+      ],
       "prerequisites": []
     }
   },
