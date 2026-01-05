@@ -856,9 +856,11 @@
     "habitats": [],
     "slug": "penmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 30,
+      "y": 61,
+      "connected": [
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },
