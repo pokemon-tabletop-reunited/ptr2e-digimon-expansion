@@ -833,9 +833,13 @@
     "habitats": [],
     "slug": "lilithmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 115,
+      "connected": [
+        "lilamon",
+        "arukenimon",
+        "lady-devimon"
+      ],
       "prerequisites": []
     }
   },

@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "crusadermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 112,
+      "connected": [
+        "crescemon-ts",
+        "knightmon"
+      ],
       "prerequisites": []
     }
   },

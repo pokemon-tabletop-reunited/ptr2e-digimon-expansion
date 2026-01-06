@@ -819,9 +819,13 @@
     "habitats": [],
     "slug": "avenge-kidmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 11,
+      "connected": [
+        "mummymon",
+        "skull-meramon",
+        "vademon"
+      ],
       "prerequisites": []
     }
   },

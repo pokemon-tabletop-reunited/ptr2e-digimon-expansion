@@ -819,9 +819,12 @@
     "habitats": [],
     "slug": "diaboromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 148,
+      "y": 5,
+      "connected": [
+        "datamon",
+        "infermon"
+      ],
       "prerequisites": []
     }
   },
