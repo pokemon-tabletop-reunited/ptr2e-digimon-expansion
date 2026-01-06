@@ -820,9 +820,13 @@
     "habitats": [],
     "slug": "beel-starmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 88,
+      "connected": [
+        "lady-devimon",
+        "dark-super-starmon",
+        "silphymon"
+      ],
       "prerequisites": []
     }
   },

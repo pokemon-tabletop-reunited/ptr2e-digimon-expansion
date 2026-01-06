@@ -824,9 +824,14 @@
     "habitats": [],
     "slug": "platinum-nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 159,
+      "connected": [
+        "big-mamemon",
+        "catch-mamemon",
+        "deramon",
+        "black-king-nunemon"
+      ],
       "prerequisites": []
     }
   },
