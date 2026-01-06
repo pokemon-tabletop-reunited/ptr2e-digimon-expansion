@@ -852,9 +852,14 @@
     "habitats": [],
     "slug": "mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 87,
+      "connected": [
+        "starmon",
+        "sukamon",
+        "nanimon",
+        "platinum-sukamon"
+      ],
       "prerequisites": []
     }
   },

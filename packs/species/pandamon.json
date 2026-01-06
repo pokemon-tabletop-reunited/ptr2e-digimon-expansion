@@ -851,9 +851,14 @@
     "habitats": [],
     "slug": "pandamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 78,
+      "connected": [
+        "black-gatomon",
+        "shell-nunemon",
+        "deputymon",
+        "garurumon-black"
+      ],
       "prerequisites": []
     }
   },

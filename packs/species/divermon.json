@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "pile-driver",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "lariat",
           "level": 48,
           "gen": null
@@ -842,6 +837,11 @@
           "name": "volt-tackle",
           "level": 59,
           "gen": null
+        },
+        {
+          "name": "pile-driver",
+          "level": 62,
+          "gen": null
         }
       ],
       "tutor": []
@@ -851,9 +851,14 @@
     "habitats": [],
     "slug": "divermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 178,
+      "connected": [
+        "gawappamon",
+        "coelamon",
+        "octomon",
+        "gekomon"
+      ],
       "prerequisites": []
     }
   },
