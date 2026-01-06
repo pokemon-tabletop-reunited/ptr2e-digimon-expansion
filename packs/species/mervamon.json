@@ -822,9 +822,11 @@
     "habitats": [],
     "slug": "mervamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 63,
+      "connected": [
+        "minervamon"
+      ],
       "prerequisites": []
     }
   },

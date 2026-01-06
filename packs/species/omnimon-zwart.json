@@ -826,9 +826,13 @@
     "habitats": [],
     "slug": "omnimon-zwart",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 10,
+      "connected": [
+        "omnimon",
+        "black-war-greymon",
+        "metal-garurumon-black"
+      ],
       "prerequisites": []
     }
   },

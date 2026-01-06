@@ -801,9 +801,11 @@
     "habitats": [],
     "slug": "agumon-bond-of-bravery",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 98,
+      "connected": [
+        "agumon"
+      ],
       "prerequisites": []
     }
   },
