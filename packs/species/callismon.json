@@ -822,9 +822,12 @@
     "habitats": [],
     "slug": "callismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 112,
+      "connected": [
+        "monzaemon",
+        "great-grizzlymon"
+      ],
       "prerequisites": []
     }
   },

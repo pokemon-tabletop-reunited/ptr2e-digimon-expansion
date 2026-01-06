@@ -820,9 +820,12 @@
     "habitats": [],
     "slug": "gran-dracmon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 17,
+      "connected": [
+        "matadormon-ts",
+        "kimeramon"
+      ],
       "prerequisites": []
     }
   },

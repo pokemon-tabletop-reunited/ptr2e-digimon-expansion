@@ -821,9 +821,14 @@
     "habitats": [],
     "slug": "pile-volcamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 21,
+      "connected": [
+        "volcanomon",
+        "etemon",
+        "omni-shoutmon",
+        "were-garurumon-black"
+      ],
       "prerequisites": []
     }
   },

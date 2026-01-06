@@ -824,9 +824,11 @@
     "habitats": [],
     "slug": "ancient-wisemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 12,
+      "connected": [
+        "wisemon"
+      ],
       "prerequisites": []
     }
   },
