@@ -815,9 +815,12 @@
     "habitats": [],
     "slug": "alphamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 43,
+      "connected": [
+        "grademon",
+        "doru-greymon"
+      ],
       "prerequisites": []
     }
   },

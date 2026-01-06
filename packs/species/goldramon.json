@@ -824,9 +824,14 @@
     "habitats": [],
     "slug": "goldramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 79,
+      "connected": [
+        "super-starmon",
+        "magna-angemon",
+        "aero-veedramon",
+        "shakkoumon"
+      ],
       "prerequisites": []
     }
   },
