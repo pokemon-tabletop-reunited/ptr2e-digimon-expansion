@@ -823,9 +823,12 @@
     "habitats": [],
     "slug": "sakuyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 56,
+      "connected": [
+        "taomon",
+        "phantomon"
+      ],
       "prerequisites": []
     }
   },

@@ -822,9 +822,13 @@
     "habitats": [],
     "slug": "neptunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 176,
+      "connected": [
+        "whamon",
+        "divermon",
+        "sharkmon"
+      ],
       "prerequisites": []
     }
   },

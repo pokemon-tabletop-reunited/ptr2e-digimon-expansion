@@ -821,9 +821,13 @@
     "habitats": [],
     "slug": "grand-locomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 26,
+      "connected": [
+        "big-mamemon",
+        "locomon",
+        "master-blimpmon"
+      ],
       "prerequisites": []
     }
   },

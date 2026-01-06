@@ -825,9 +825,12 @@
     "habitats": [],
     "slug": "phoenixmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 70,
+      "connected": [
+        "garudamon",
+        "parrotmon"
+      ],
       "prerequisites": []
     }
   },

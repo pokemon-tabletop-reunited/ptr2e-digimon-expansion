@@ -817,9 +817,13 @@
     "habitats": [],
     "slug": "durandamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 49,
+      "connected": [
+        "grademon",
+        "omni-shoutmon",
+        "duramon"
+      ],
       "prerequisites": []
     }
   },

@@ -833,9 +833,12 @@
     "habitats": [],
     "slug": "mastemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 103,
+      "connected": [
+        "angewomon",
+        "lady-devimon"
+      ],
       "prerequisites": []
     }
   },
