@@ -812,11 +812,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "punishing-flame",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "overdrive",
           "level": 48,
           "gen": null
@@ -842,6 +837,11 @@
           "gen": null
         },
         {
+          "name": "punishing-flame",
+          "level": 60,
+          "gen": null
+        },
+        {
           "name": "hydro-cannon",
           "level": 62,
           "gen": null
@@ -854,9 +854,13 @@
     "habitats": [],
     "slug": "skull-seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 176,
+      "connected": [
+        "coelamon",
+        "ikkakumon",
+        "seadramon"
+      ],
       "prerequisites": []
     }
   },

@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "datamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 10,
+      "connected": [
+        "centarumon",
+        "wizardmon",
+        "mekanorimon"
+      ],
       "prerequisites": []
     }
   },

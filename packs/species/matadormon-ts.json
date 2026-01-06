@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "matadormon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 24,
+      "connected": [
+        "sangloupmon-ts",
+        "turuiemon",
+        "dobermon"
+      ],
       "prerequisites": []
     }
   },

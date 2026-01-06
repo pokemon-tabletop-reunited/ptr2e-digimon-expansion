@@ -847,9 +847,14 @@
     "habitats": [],
     "slug": "cherrymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 105,
+      "y": 69,
+      "connected": [
+        "togemon",
+        "kuwagamon",
+        "woodmon",
+        "kiwimon"
+      ],
       "prerequisites": []
     }
   },
