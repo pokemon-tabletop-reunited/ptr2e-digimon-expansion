@@ -840,9 +840,13 @@
     "habitats": [],
     "slug": "deltamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 100,
+      "connected": [
+        "goblimon",
+        "dracomon",
+        "monodramon"
+      ],
       "prerequisites": []
     }
   },
