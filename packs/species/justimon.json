@@ -824,9 +824,13 @@
     "habitats": [],
     "slug": "justimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 46,
+      "connected": [
+        "pandamon",
+        "super-starmon",
+        "cyberdramon"
+      ],
       "prerequisites": []
     }
   },

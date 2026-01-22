@@ -822,9 +822,14 @@
     "habitats": [],
     "slug": "skull-mammothmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 28,
+      "connected": [
+        "skull-baluchimon",
+        "skull-greymon",
+        "mammothmon",
+        "enbarrmon"
+      ],
       "prerequisites": []
     }
   },

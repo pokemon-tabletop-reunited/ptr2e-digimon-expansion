@@ -819,9 +819,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 106,
+      "connected": [
+        "myotismon",
+        "were-garurumon",
+        "piximon"
+      ],
       "prerequisites": []
     },
     "slug": "jijimon"

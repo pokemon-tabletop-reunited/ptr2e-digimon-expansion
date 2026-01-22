@@ -825,9 +825,13 @@
     "habitats": [],
     "slug": "slash-angemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 131,
+      "connected": [
+        "knightmon",
+        "matadormon-ts",
+        "magna-angemon"
+      ],
       "prerequisites": []
     }
   },
