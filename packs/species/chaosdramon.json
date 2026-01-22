@@ -824,9 +824,13 @@
     "habitats": [],
     "slug": "chaosdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 157,
+      "connected": [
+        "war-growlmon",
+        "gigadramon",
+        "loader-leomon"
+      ],
       "prerequisites": []
     }
   },
