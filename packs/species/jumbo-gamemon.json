@@ -823,9 +823,13 @@
     "habitats": [],
     "slug": "jumbo-gamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 165,
+      "connected": [
+        "shaujinmon",
+        "mega-seadramon",
+        "garbagemon"
+      ],
       "prerequisites": []
     }
   },

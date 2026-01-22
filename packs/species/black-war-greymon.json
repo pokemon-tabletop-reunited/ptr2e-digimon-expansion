@@ -837,9 +837,12 @@
     "habitats": [],
     "slug": "black-war-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 11,
+      "connected": [
+        "metal-greymon-blue",
+        "flaremon"
+      ],
       "prerequisites": []
     }
   },

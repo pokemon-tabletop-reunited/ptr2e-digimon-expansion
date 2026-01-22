@@ -847,9 +847,12 @@
     "habitats": [],
     "slug": "kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 74,
+      "connected": [
+        "fan-beemon",
+        "tentomon"
+      ],
       "prerequisites": []
     }
   },

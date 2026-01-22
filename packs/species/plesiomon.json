@@ -829,9 +829,13 @@
     "habitats": [],
     "slug": "plesiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 172,
+      "connected": [
+        "whamon",
+        "zudomon",
+        "divermon"
+      ],
       "prerequisites": []
     }
   },

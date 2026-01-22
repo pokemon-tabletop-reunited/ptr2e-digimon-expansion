@@ -851,9 +851,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 32,
+      "connected": [
+        "blimpmon",
+        "mekanorimon",
+        "clockmon"
+      ],
       "prerequisites": []
     },
     "slug": "giromon"

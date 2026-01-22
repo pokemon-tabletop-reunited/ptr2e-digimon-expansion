@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "bao-huckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 70,
+      "y": 79,
+      "connected": [
+        "gazimon",
+        "huckmon",
+        "coronamon"
+      ],
       "prerequisites": []
     }
   },

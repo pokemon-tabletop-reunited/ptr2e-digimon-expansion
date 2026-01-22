@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "cannon-beemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 84,
+      "connected": [
+        "kabuterimon",
+        "waspmon",
+        "guardromon-gold"
+      ],
       "prerequisites": []
     }
   },

@@ -829,9 +829,11 @@
     "habitats": [],
     "slug": "magna-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 107,
+      "connected": [
+        "beowolfmon"
+      ],
       "prerequisites": []
     }
   },

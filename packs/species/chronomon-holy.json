@@ -816,9 +816,11 @@
     "habitats": [],
     "slug": "chronomon-holy",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 54,
+      "connected": [
+        "butenmon"
+      ],
       "prerequisites": []
     }
   },

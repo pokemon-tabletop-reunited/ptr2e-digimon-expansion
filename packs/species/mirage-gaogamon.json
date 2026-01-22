@@ -835,9 +835,12 @@
     "habitats": [],
     "slug": "mirage-gaogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 48,
+      "connected": [
+        "pandamon",
+        "panjyamon"
+      ],
       "prerequisites": []
     }
   },

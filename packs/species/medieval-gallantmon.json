@@ -826,9 +826,11 @@
     "habitats": [],
     "slug": "medieval-gallantmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 85,
+      "connected": [
+        "mistymon"
+      ],
       "prerequisites": []
     }
   },

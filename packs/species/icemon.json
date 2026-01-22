@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "waterwalker",
-      "rapid"
+      "rapid",
+      "underdog"
     ],
     "number": 5133,
     "stats": {
@@ -846,9 +847,13 @@
     "habitats": [],
     "slug": "icemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 81,
+      "connected": [
+        "gotsumon",
+        "snow-goblimon",
+        "lunamon-ts"
+      ],
       "prerequisites": []
     }
   },

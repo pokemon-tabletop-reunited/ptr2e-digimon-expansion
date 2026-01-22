@@ -846,9 +846,12 @@
     "habitats": [],
     "slug": "geo-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 125,
+      "connected": [
+        "agumon",
+        "huckmon"
+      ],
       "prerequisites": []
     }
   },

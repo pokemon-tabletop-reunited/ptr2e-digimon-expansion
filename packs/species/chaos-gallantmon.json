@@ -822,9 +822,13 @@
     "habitats": [],
     "slug": "chaos-gallantmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 145,
+      "connected": [
+        "mistymon",
+        "war-growlmon",
+        "wisemon"
+      ],
       "prerequisites": []
     }
   },

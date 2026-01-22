@@ -829,9 +829,14 @@
     "habitats": [],
     "slug": "hi-andromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 31,
+      "connected": [
+        "locomon",
+        "mummymon",
+        "andromon",
+        "rapidmon"
+      ],
       "prerequisites": []
     }
   },

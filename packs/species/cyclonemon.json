@@ -846,9 +846,12 @@
     "habitats": [],
     "slug": "cyclonemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 164,
+      "connected": [
+        "gizamon",
+        "monodramon"
+      ],
       "prerequisites": []
     }
   },

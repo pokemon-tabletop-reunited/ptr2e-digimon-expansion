@@ -855,9 +855,12 @@
     "habitats": [],
     "slug": "crowmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 102,
+      "y": 67,
+      "connected": [
+        "aquilamon",
+        "peckmon"
+      ],
       "prerequisites": []
     }
   },

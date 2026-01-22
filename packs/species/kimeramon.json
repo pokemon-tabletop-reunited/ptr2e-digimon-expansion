@@ -822,9 +822,15 @@
     "habitats": [],
     "slug": "kimeramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 106,
+      "y": 35,
+      "connected": [
+        "garurumon",
+        "deltamon",
+        "kabuterimon",
+        "greymon",
+        "kuwagamon"
+      ],
       "prerequisites": []
     }
   },

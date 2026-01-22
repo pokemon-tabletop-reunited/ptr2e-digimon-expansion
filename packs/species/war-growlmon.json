@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "war-growlmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 127,
+      "connected": [
+        "growlmon",
+        "coredramon-green",
+        "zubaeagermon"
+      ],
       "prerequisites": []
     }
   },

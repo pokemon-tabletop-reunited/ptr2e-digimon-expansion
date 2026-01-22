@@ -838,9 +838,13 @@
     "habitats": [],
     "slug": "ravemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 19,
+      "connected": [
+        "dark-super-starmon",
+        "phantomon",
+        "crowmon"
+      ],
       "prerequisites": []
     }
   },

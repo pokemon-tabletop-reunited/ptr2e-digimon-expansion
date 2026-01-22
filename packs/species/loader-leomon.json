@@ -17,8 +17,7 @@
       "digimon",
       "vaccine",
       "ultimate",
-      "quadrupedal",
-      "underdog"
+      "quadrupedal"
     ],
     "number": 5249,
     "stats": {
@@ -861,9 +860,13 @@
     "habitats": [],
     "slug": "loader-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 45,
+      "connected": [
+        "leomon",
+        "bao-huckmon",
+        "drimogemon"
+      ],
       "prerequisites": []
     }
   },

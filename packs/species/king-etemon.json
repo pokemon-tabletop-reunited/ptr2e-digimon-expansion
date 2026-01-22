@@ -817,9 +817,14 @@
     "habitats": [],
     "slug": "king-etemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 37,
+      "connected": [
+        "monzaemon",
+        "waru-monzaemon",
+        "etemon",
+        "shogun-gekomon"
+      ],
       "prerequisites": []
     }
   },

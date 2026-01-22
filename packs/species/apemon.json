@@ -18,10 +18,9 @@
       "vaccine",
       "champion",
       "cloud-surf",
-      "semi-bipedal",
-      "underdog"
+      "semi-bipedal"
     ],
-    "number": 5464,
+    "number": 5494,
     "stats": {
       "hp": 130,
       "atk": 95,
@@ -808,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "squall-hammer",
-          "level": 33,
-          "gen": null
-        },
-        {
           "name": "agility",
           "level": 22,
           "gen": null
@@ -838,6 +832,11 @@
           "gen": null
         },
         {
+          "name": "squall-hammer",
+          "level": 33,
+          "gen": null
+        },
+        {
           "name": "sky-drop",
           "level": 35,
           "gen": null
@@ -850,13 +849,17 @@
     "habitats": [],
     "slug": "apemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 102,
+      "connected": [
+        "kudamon",
+        "kotemon",
+        "armadillomon"
+      ],
       "prerequisites": []
     }
   },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5464.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
   "effects": [
     {
       "name": "Signature Move",

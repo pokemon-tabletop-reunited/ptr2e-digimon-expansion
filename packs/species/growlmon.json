@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "growlmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 129,
+      "connected": [
+        "guilmon",
+        "huckmon",
+        "coronamon"
+      ],
       "prerequisites": []
     }
   },

@@ -827,9 +827,11 @@
     "habitats": [],
     "slug": "craniamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 23,
+      "connected": [
+        "andromon"
+      ],
       "prerequisites": []
     }
   },

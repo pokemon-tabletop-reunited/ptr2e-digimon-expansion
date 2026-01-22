@@ -827,9 +827,12 @@
     "habitats": [],
     "slug": "dorugoramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 51,
+      "connected": [
+        "doru-greymon",
+        "paildramon"
+      ],
       "prerequisites": []
     }
   },

@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "dorugamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 32,
+      "connected": [
+        "gabumon-black",
+        "gazimon",
+        "dorumon"
+      ],
       "prerequisites": []
     }
   },

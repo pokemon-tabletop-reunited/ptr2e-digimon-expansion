@@ -837,9 +837,14 @@
     "habitats": [],
     "slug": "metal-seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 180,
+      "connected": [
+        "mega-seadramon",
+        "waru-seadramon",
+        "sharkmon",
+        "skull-seadramon"
+      ],
       "prerequisites": []
     }
   },

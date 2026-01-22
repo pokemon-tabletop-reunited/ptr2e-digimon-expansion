@@ -808,12 +808,12 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rollout",
+          "name": "body-press",
           "level": 1,
           "gen": null
         },
         {
-          "name": "body-press",
+          "name": "rollout",
           "level": 1,
           "gen": null
         },
@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "big-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 102,
+      "connected": [
+        "meramon",
+        "mekanorimon",
+        "tankmon"
+      ],
       "prerequisites": []
     }
   },

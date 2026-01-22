@@ -832,9 +832,12 @@
     "habitats": [],
     "slug": "piedmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 154,
+      "y": 14,
+      "connected": [
+        "skull-satamon",
+        "phantomon"
+      ],
       "prerequisites": []
     }
   },

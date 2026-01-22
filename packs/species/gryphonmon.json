@@ -828,9 +828,13 @@
     "habitats": [],
     "slug": "gryphonmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 64,
+      "connected": [
+        "hippo-gryphonmon",
+        "garudamon",
+        "butenmon"
+      ],
       "prerequisites": []
     }
   },

@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "deramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 120,
+      "connected": [
+        "sunflowmon",
+        "kiwimon",
+        "mud-frigimon"
+      ],
       "prerequisites": []
     }
   },

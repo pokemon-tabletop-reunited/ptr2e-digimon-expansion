@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "metal-greymon-blue",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 8,
+      "connected": [
+        "greymon-blue",
+        "dorugamon",
+        "veedramon"
+      ],
       "prerequisites": []
     }
   },

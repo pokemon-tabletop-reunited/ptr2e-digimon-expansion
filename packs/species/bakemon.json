@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "hover",
-      "arcane"
+      "arcane",
+      "underdog"
     ],
     "number": 5182,
     "stats": {
@@ -844,9 +845,13 @@
     "habitats": [],
     "slug": "bakemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 24,
+      "connected": [
+        "impmon",
+        "demi-devimon",
+        "tapirmon"
+      ],
       "prerequisites": []
     }
   },

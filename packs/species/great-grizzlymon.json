@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "magnitude",
-          "level": 57,
-          "gen": null
-        },
-        {
           "name": "hypersonic-fist",
           "level": 48,
           "gen": null
@@ -826,6 +821,11 @@
         {
           "name": "belly-drum",
           "level": 54,
+          "gen": null
+        },
+        {
+          "name": "magnitude",
+          "level": 57,
           "gen": null
         },
         {
@@ -856,9 +856,12 @@
     "habitats": [],
     "slug": "great-grizzlymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 55,
+      "connected": [
+        "grizzlymon",
+        "dorugamon"
+      ],
       "prerequisites": []
     }
   },

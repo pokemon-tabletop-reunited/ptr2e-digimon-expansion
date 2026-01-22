@@ -833,9 +833,14 @@
     "habitats": [],
     "slug": "tiger-vespamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 95,
+      "connected": [
+        "dinobeemon",
+        "savior-huckmon",
+        "jewel-beemon",
+        "cannon-beemon"
+      ],
       "prerequisites": []
     }
   },

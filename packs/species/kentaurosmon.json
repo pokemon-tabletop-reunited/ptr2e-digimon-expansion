@@ -825,9 +825,13 @@
     "habitats": [],
     "slug": "kentaurosmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 59,
+      "connected": [
+        "rize-greymon",
+        "chirinmon",
+        "enbarrmon"
+      ],
       "prerequisites": []
     }
   },

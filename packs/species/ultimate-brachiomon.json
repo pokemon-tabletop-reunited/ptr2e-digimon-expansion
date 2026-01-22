@@ -823,9 +823,13 @@
     "habitats": [],
     "slug": "ultimate-brachiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 117,
+      "connected": [
+        "triceramon",
+        "metal-tyrannomon",
+        "brachiomon"
+      ],
       "prerequisites": []
     }
   },

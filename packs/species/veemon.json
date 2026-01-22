@@ -855,9 +855,11 @@
     "habitats": [],
     "slug": "veemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 36,
+      "y": 92,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },
