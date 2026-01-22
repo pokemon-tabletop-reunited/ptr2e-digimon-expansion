@@ -20,7 +20,7 @@
       "winged",
       "bladed"
     ],
-    "number": 5192,
+    "number": 5327,
     "stats": {
       "hp": 110,
       "atk": 120,
@@ -820,9 +820,12 @@
     "habitats": [],
     "slug": "paildramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 76,
+      "connected": [
+        "stingmon",
+        "ex-veemon"
+      ],
       "prerequisites": []
     }
   },

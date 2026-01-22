@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "arcadiamon-ultimate",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 3,
+      "connected": [
+        "arcadiamon-champion",
+        "kurisarimon",
+        "ice-devimon"
+      ],
       "prerequisites": []
     }
   },

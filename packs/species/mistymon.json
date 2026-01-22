@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "mistymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 85,
+      "connected": [
+        "firamon",
+        "mojyamon",
+        "wizardmon"
+      ],
       "prerequisites": []
     }
   },
