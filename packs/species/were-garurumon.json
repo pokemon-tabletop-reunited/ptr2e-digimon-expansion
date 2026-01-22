@@ -847,9 +847,13 @@
     "habitats": [],
     "slug": "were-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 82,
+      "connected": [
+        "lekismon",
+        "garurumon",
+        "grizzlymon"
+      ],
       "prerequisites": []
     }
   },

@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "antylamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 29,
+      "connected": [
+        "wendigomon",
+        "turuiemon",
+        "mud-frigimon"
+      ],
       "prerequisites": []
     }
   },

@@ -851,9 +851,14 @@
     "habitats": [],
     "slug": "savior-huckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 68,
+      "connected": [
+        "strikedramon",
+        "gao-gamon",
+        "bao-huckmon",
+        "firamon"
+      ],
       "prerequisites": []
     }
   },

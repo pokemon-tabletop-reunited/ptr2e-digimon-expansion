@@ -854,9 +854,14 @@
     "habitats": [],
     "slug": "rize-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 109,
+      "connected": [
+        "geo-greymon",
+        "bao-huckmon",
+        "ex-veemon",
+        "dorugamon"
+      ],
       "prerequisites": []
     }
   },

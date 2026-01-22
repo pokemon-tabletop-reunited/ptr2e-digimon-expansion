@@ -858,9 +858,13 @@
     "habitats": [],
     "slug": "metal-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 104,
+      "connected": [
+        "deltamon",
+        "greymon",
+        "tyrannomon"
+      ],
       "prerequisites": []
     }
   },
