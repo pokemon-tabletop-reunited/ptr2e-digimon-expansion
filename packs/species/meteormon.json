@@ -846,9 +846,14 @@
     "habitats": [],
     "slug": "meteormon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 98,
+      "connected": [
+        "golemon",
+        "frigimon",
+        "ankylomon",
+        "icemon"
+      ],
       "prerequisites": []
     }
   },

@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "mach-gaogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 49,
+      "connected": [
+        "gao-gamon",
+        "turuiemon",
+        "gargomon"
+      ],
       "prerequisites": []
     }
   },

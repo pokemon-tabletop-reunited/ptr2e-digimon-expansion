@@ -854,9 +854,14 @@
     "habitats": [],
     "slug": "etemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 44,
+      "connected": [
+        "minotarumon",
+        "numemon",
+        "sukamon",
+        "nanimon"
+      ],
       "prerequisites": []
     }
   },

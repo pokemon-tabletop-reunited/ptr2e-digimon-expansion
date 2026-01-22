@@ -858,9 +858,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 102,
+      "y": 17,
+      "connected": [
+        "octomon",
+        "ogremon",
+        "tuskmon"
+      ],
       "prerequisites": []
     }
   },

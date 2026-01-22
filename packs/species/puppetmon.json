@@ -827,9 +827,13 @@
     "habitats": [],
     "slug": "puppetmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 163,
+      "connected": [
+        "lilamon",
+        "shaujinmon",
+        "cherrymon"
+      ],
       "prerequisites": []
     }
   },

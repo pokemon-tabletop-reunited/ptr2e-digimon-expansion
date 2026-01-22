@@ -850,9 +850,14 @@
     "habitats": [],
     "slug": "dokugumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 67,
+      "y": 77,
+      "connected": [
+        "dokunemon",
+        "fan-beemon",
+        "wormmon",
+        "keramon"
+      ],
       "prerequisites": []
     }
   },

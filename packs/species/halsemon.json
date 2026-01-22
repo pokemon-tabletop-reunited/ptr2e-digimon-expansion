@@ -820,9 +820,11 @@
     "habitats": [],
     "slug": "halsemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 49,
+      "y": 56,
+      "connected": [
+        "hawkmon"
+      ],
       "prerequisites": []
     }
   },

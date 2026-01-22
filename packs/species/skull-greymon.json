@@ -857,9 +857,13 @@
     "habitats": [],
     "slug": "skull-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 90,
+      "connected": [
+        "ginryumon",
+        "coredramon-green",
+        "greymon"
+      ],
       "prerequisites": []
     }
   },

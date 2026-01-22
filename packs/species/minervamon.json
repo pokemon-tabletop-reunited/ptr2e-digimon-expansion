@@ -822,9 +822,12 @@
     "habitats": [],
     "slug": "minervamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 167,
+      "connected": [
+        "orochimon",
+        "silphymon"
+      ],
       "prerequisites": []
     }
   },

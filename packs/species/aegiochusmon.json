@@ -818,9 +818,11 @@
     "habitats": [],
     "slug": "aegiochusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 92,
+      "connected": [
+        "aegiomon"
+      ],
       "prerequisites": []
     }
   },

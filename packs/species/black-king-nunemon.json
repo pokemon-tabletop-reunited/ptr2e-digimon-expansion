@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "black-king-nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 119,
+      "connected": [
+        "gold-nunemon",
+        "shell-nunemon",
+        "raremon"
+      ],
       "prerequisites": []
     }
   },

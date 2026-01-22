@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "legless"
+      "legless",
+      "underdog"
     ],
     "number": 5175,
     "stats": {
@@ -844,9 +845,13 @@
     "habitats": [],
     "slug": "sukamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 69,
+      "y": 66,
+      "connected": [
+        "dracmon-ts",
+        "chuumon",
+        "mushroomon"
+      ],
       "prerequisites": []
     }
   },

@@ -825,8 +825,8 @@
     "habitats": [],
     "slug": "barbamon",
     "node": {
-      "x": null,
-      "y": null,
+      "x": 156,
+      "y": 174,
       "connected": [],
       "prerequisites": []
     }

@@ -823,9 +823,12 @@
     "habitats": [],
     "slug": "apollomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 84,
+      "connected": [
+        "volcanomon",
+        "flaremon"
+      ],
       "prerequisites": []
     }
   },

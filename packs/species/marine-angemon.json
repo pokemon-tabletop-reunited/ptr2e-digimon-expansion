@@ -825,9 +825,12 @@
     "habitats": [],
     "slug": "marine-angemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 160,
+      "connected": [
+        "whamon",
+        "sirenmon"
+      ],
       "prerequisites": []
     }
   },

@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "dragomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 168,
+      "connected": [
+        "octomon",
+        "raremon",
+        "kurisarimon"
+      ],
       "prerequisites": []
     }
   },

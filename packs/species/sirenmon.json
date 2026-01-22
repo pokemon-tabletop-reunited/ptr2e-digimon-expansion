@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "ear-splitter",
-          "level": 64,
-          "gen": null
-        },
-        {
           "name": "sea-shanty",
           "level": 48,
           "gen": null
@@ -837,6 +832,11 @@
           "name": "perish-song",
           "level": 58,
           "gen": null
+        },
+        {
+          "name": "ear-splitter",
+          "level": 64,
+          "gen": null
         }
       ],
       "tutor": []
@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "sirenmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 125,
+      "connected": [
+        "angemon",
+        "gekomon",
+        "kiwimon"
+      ],
       "prerequisites": []
     }
   },

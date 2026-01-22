@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "ginryumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 82,
+      "connected": [
+        "ryudamon",
+        "falcomon",
+        "kudamon"
+      ],
       "prerequisites": []
     }
   },

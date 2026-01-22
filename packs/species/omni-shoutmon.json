@@ -824,9 +824,11 @@
     "habitats": [],
     "slug": "omni-shoutmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 110,
+      "connected": [
+        "shoutmon"
+      ],
       "prerequisites": []
     }
   },

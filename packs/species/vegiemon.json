@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "legless",
-      "reach"
+      "reach",
+      "underdog"
     ],
     "number": 5188,
     "stats": {
@@ -841,9 +842,13 @@
     "habitats": [],
     "slug": "vegiemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 86,
+      "connected": [
+        "palmon",
+        "floramon",
+        "betamon"
+      ],
       "prerequisites": []
     }
   },

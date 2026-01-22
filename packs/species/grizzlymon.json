@@ -850,9 +850,12 @@
     "habitats": [],
     "slug": "grizzlymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 57,
+      "connected": [
+        "bearmon",
+        "lopmon"
+      ],
       "prerequisites": []
     }
   },

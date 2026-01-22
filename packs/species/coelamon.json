@@ -18,7 +18,8 @@
       "data",
       "champion",
       "natural-swimmer",
-      "gilled"
+      "gilled",
+      "underdog"
     ],
     "number": 5144,
     "stats": {
@@ -850,9 +851,14 @@
     "habitats": [],
     "slug": "coelamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 157,
+      "connected": [
+        "crabmon",
+        "betamon",
+        "syakomon",
+        "ryudamon"
+      ],
       "prerequisites": []
     }
   },

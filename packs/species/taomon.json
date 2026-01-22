@@ -854,9 +854,13 @@
     "habitats": [],
     "slug": "taomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 106,
+      "y": 60,
+      "connected": [
+        "garurumon",
+        "woodmon",
+        "kyubimon"
+      ],
       "prerequisites": []
     }
   },

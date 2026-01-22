@@ -831,9 +831,11 @@
     "habitats": [],
     "slug": "gallantmon-cm",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 56,
+      "connected": [
+        "gallantmon"
+      ],
       "prerequisites": []
     }
   },

@@ -852,9 +852,11 @@
     "habitats": [],
     "slug": "rapidmon-armour",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 46,
+      "y": 156,
+      "connected": [
+        "terriermon"
+      ],
       "prerequisites": []
     }
   },

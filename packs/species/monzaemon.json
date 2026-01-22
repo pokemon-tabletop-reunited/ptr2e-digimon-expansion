@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "monzaemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 61,
+      "connected": [
+        "nunemon",
+        "sukamon",
+        "geremon"
+      ],
       "prerequisites": []
     }
   },

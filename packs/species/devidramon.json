@@ -859,9 +859,13 @@
     "habitats": [],
     "slug": "devidramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 22,
+      "connected": [
+        "demi-devimon",
+        "gazimon",
+        "veemon"
+      ],
       "prerequisites": []
     }
   },

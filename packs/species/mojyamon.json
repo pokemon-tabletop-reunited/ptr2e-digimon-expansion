@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "champion",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5126,
     "stats": {
@@ -843,9 +844,14 @@
     "habitats": [],
     "slug": "mojyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 71,
+      "connected": [
+        "bearmon",
+        "gomamon",
+        "palmon",
+        "terriermon"
+      ],
       "prerequisites": []
     }
   },

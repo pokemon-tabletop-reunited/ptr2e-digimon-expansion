@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "arcadiamon-champion",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 4,
+      "connected": [
+        "arcadiamon-rookie",
+        "dracmon-ts",
+        "keramon"
+      ],
       "prerequisites": []
     }
   },

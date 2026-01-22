@@ -861,9 +861,11 @@
     "habitats": [],
     "slug": "shamamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 19,
+      "connected": [
+        "tsumemon"
+      ],
       "prerequisites": []
     }
   },

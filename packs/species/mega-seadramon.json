@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "mega-seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 115,
+      "y": 173,
+      "connected": [
+        "reppamon",
+        "ikkakumon",
+        "seadramon"
+      ],
       "prerequisites": []
     }
   },

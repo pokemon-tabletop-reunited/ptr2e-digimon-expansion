@@ -827,9 +827,13 @@
     "habitats": [],
     "slug": "eaglemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 52,
+      "connected": [
+        "hippo-gryphonmon",
+        "chirinmon",
+        "parrotmon"
+      ],
       "prerequisites": []
     }
   },

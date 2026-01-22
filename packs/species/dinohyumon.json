@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "dinohyumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 109,
+      "connected": [
+        "kotemon",
+        "hyokomon",
+        "kamemon"
+      ],
       "prerequisites": []
     }
   },

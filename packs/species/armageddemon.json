@@ -821,8 +821,8 @@
     "habitats": [],
     "slug": "armageddemon",
     "node": {
-      "x": null,
-      "y": null,
+      "x": 244,
+      "y": 80,
       "connected": [],
       "prerequisites": []
     }

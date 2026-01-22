@@ -829,9 +829,14 @@
     "habitats": [],
     "slug": "prince-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 87,
+      "connected": [
+        "big-mamemon",
+        "catch-mamemon",
+        "super-starmon",
+        "mamemon"
+      ],
       "prerequisites": []
     }
   },

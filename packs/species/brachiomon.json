@@ -858,9 +858,13 @@
     "habitats": [],
     "slug": "brachiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 124,
+      "connected": [
+        "drimogemon",
+        "cyclonemon",
+        "ankylomon"
+      ],
       "prerequisites": []
     }
   },

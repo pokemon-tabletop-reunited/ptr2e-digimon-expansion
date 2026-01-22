@@ -854,9 +854,14 @@
     "habitats": [],
     "slug": "zudomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 175,
+      "connected": [
+        "ikkakumon",
+        "mojyamon",
+        "clockmon",
+        "hyogamon"
+      ],
       "prerequisites": []
     }
   },

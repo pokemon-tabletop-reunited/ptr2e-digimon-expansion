@@ -823,9 +823,11 @@
     "habitats": [],
     "slug": "aldamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 150,
+      "connected": [
+        "agunimon"
+      ],
       "prerequisites": []
     }
   },

@@ -18,7 +18,8 @@
       "data",
       "champion",
       "bipedal",
-      "deep-breath"
+      "deep-breath",
+      "underdog"
     ],
     "number": 5137,
     "stats": {
@@ -844,9 +845,13 @@
     "habitats": [],
     "slug": "gawappamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 168,
+      "connected": [
+        "terriermon",
+        "crabmon",
+        "kamemon"
+      ],
       "prerequisites": []
     }
   },

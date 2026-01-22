@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "metal-tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 134,
+      "connected": [
+        "geo-greymon",
+        "tyrannomon",
+        "coelamon"
+      ],
       "prerequisites": []
     }
   },

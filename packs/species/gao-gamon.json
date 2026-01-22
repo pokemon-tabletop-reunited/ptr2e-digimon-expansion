@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "gao-gamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 57,
+      "y": 31,
+      "connected": [
+        "gazimon",
+        "gaomon",
+        "bearmon"
+      ],
       "prerequisites": []
     }
   },

@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "malo-myotismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 4,
+      "connected": [
+        "myotismon",
+        "infermon"
+      ],
       "prerequisites": []
     }
   },

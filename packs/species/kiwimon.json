@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "kiwimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 68,
+      "connected": [
+        "floramon",
+        "penmon",
+        "falcomon"
+      ],
       "prerequisites": []
     }
   },

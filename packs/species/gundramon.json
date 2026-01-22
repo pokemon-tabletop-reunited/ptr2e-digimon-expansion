@@ -823,9 +823,14 @@
     "habitats": [],
     "slug": "gundramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 120,
+      "connected": [
+        "orochimon",
+        "gigadramon",
+        "master-blimpmon",
+        "tankdramon"
+      ],
       "prerequisites": []
     }
   },

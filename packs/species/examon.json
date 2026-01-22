@@ -824,9 +824,12 @@
     "habitats": [],
     "slug": "examon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 51,
+      "connected": [
+        "slayerdramon",
+        "breakdramon"
+      ],
       "prerequisites": []
     }
   },

@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rage-fist",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "battle-cry",
           "level": 50,
           "gen": null
@@ -843,6 +838,11 @@
           "name": "pile-driver",
           "level": 62,
           "gen": null
+        },
+        {
+          "name": "rage-fist",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "flaremon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 105,
+      "y": 64,
+      "connected": [
+        "leomon",
+        "firamon",
+        "birdramon"
+      ],
       "prerequisites": []
     }
   },
