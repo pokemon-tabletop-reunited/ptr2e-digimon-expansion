@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "sorcermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 111,
+      "connected": [
+        "lunamon-ts",
+        "kudamon",
+        "kamemon"
+      ],
       "prerequisites": []
     }
   },

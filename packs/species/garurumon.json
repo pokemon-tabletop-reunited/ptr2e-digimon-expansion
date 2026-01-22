@@ -843,9 +843,13 @@
     "habitats": [],
     "slug": "garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 93,
+      "connected": [
+        "lunamon-ts",
+        "gabumon",
+        "tapirmon"
+      ],
       "prerequisites": []
     }
   },
