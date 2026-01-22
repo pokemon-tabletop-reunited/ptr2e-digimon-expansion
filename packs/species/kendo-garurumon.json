@@ -852,9 +852,11 @@
     "habitats": [],
     "slug": "kendo-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 107,
+      "connected": [
+        "lobomon"
+      ],
       "prerequisites": []
     }
   },

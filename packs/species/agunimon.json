@@ -844,9 +844,11 @@
     "habitats": [],
     "slug": "agunimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 52,
+      "y": 148,
+      "connected": [
+        "coronamon"
+      ],
       "prerequisites": []
     }
   },

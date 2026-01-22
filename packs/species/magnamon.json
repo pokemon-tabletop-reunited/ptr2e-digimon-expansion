@@ -826,9 +826,11 @@
     "habitats": [],
     "slug": "magnamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 57,
+      "y": 92,
+      "connected": [
+        "veemon"
+      ],
       "prerequisites": []
     }
   },

@@ -816,9 +816,11 @@
     "habitats": [],
     "slug": "lighdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 53,
+      "y": 90,
+      "connected": [
+        "veemon"
+      ],
       "prerequisites": []
     }
   },
