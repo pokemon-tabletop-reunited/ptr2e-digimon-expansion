@@ -861,9 +861,14 @@
     "habitats": [],
     "slug": "skull-satamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 105,
+      "y": 6,
+      "connected": [
+        "devimon",
+        "ogremon",
+        "fugamon",
+        "garurumon-black"
+      ],
       "prerequisites": []
     }
   },

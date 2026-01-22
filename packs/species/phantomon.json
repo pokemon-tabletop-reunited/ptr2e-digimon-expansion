@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "phantomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 105,
+      "y": 21,
+      "connected": [
+        "bakemon",
+        "hyogamon",
+        "snimon"
+      ],
       "prerequisites": []
     }
   },

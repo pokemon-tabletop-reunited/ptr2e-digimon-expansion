@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "neutron-pulse",
-          "level": 57,
-          "gen": null
-        },
-        {
           "name": "glare",
           "level": 47,
           "gen": null
@@ -824,6 +819,11 @@
         {
           "name": "fusillade",
           "level": 55,
+          "gen": null
+        },
+        {
+          "name": "neutron-pulse",
+          "level": 57,
           "gen": null
         },
         {
@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "tankdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 129,
+      "connected": [
+        "raptordramon",
+        "waspmon",
+        "tankmon"
+      ],
       "prerequisites": []
     }
   },
