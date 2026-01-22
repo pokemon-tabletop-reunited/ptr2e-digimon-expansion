@@ -823,9 +823,13 @@
     "habitats": [],
     "slug": "arcadiamon-mega",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 149,
+      "y": 1,
+      "connected": [
+        "arcadiamon-ultimate",
+        "myotismon",
+        "infermon"
+      ],
       "prerequisites": []
     }
   },

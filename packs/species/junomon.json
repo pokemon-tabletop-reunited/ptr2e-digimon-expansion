@@ -818,9 +818,12 @@
     "habitats": [],
     "slug": "junomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 133,
+      "connected": [
+        "angewomon",
+        "shakkoumon"
+      ],
       "prerequisites": []
     }
   },

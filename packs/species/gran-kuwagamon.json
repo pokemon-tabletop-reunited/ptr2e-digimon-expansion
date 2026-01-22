@@ -831,9 +831,13 @@
     "habitats": [],
     "slug": "gran-kuwagamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 154,
+      "y": 130,
+      "connected": [
+        "dinobeemon",
+        "cherrymon",
+        "okuwamon"
+      ],
       "prerequisites": []
     }
   },
