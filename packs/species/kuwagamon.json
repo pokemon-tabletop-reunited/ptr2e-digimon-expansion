@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "kuwagamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 69,
+      "y": 83,
+      "connected": [
+        "tentomon",
+        "elecmon",
+        "kokuwamon"
+      ],
       "prerequisites": []
     }
   },

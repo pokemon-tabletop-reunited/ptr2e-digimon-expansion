@@ -835,9 +835,13 @@
     "habitats": [],
     "slug": "woodmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 79,
+      "connected": [
+        "palmon",
+        "mushroomon",
+        "floramon"
+      ],
       "prerequisites": []
     }
   },

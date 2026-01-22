@@ -851,9 +851,11 @@
     "habitats": [],
     "slug": "blimpmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 51,
+      "y": 32,
+      "connected": [
+        "hagurumon"
+      ],
       "prerequisites": []
     }
   },
