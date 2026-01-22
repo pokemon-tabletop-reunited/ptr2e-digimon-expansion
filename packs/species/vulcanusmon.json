@@ -822,9 +822,12 @@
     "habitats": [],
     "slug": "vulcanusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 168,
+      "connected": [
+        "dragomon",
+        "scorpiomon"
+      ],
       "prerequisites": []
     }
   },

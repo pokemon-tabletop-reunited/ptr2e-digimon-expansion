@@ -819,9 +819,13 @@
     "habitats": [],
     "slug": "bancho-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 35,
+      "connected": [
+        "volcanomon",
+        "grap-leomon",
+        "loader-leomon"
+      ],
       "prerequisites": []
     }
   },

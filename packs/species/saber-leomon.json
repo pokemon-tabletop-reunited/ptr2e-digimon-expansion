@@ -828,9 +828,13 @@
     "habitats": [],
     "slug": "saber-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 40,
+      "connected": [
+        "cerberusmon",
+        "grap-leomon",
+        "panjyamon"
+      ],
       "prerequisites": []
     }
   },

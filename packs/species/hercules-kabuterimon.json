@@ -835,9 +835,13 @@
     "habitats": [],
     "slug": "hercules-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 66,
+      "connected": [
+        "mega-kabuterimon",
+        "okuwamon",
+        "jewel-beemon"
+      ],
       "prerequisites": []
     }
   },
