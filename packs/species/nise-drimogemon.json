@@ -853,9 +853,12 @@
     "habitats": [],
     "slug": "nise-drimogemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 80,
+      "connected": [
+        "dokunemon",
+        "gabumon"
+      ],
       "prerequisites": []
     }
   },

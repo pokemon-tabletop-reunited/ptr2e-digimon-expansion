@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "kokatorimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 85,
+      "connected": [
+        "elecmon",
+        "dokunemon",
+        "muchomon"
+      ],
       "prerequisites": []
     }
   },
