@@ -856,9 +856,14 @@
     "habitats": [],
     "slug": "grap-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 107,
+      "y": 52,
+      "connected": [
+        "lekismon",
+        "minotarumon",
+        "leomon",
+        "grizzlymon"
+      ],
       "prerequisites": []
     }
   },

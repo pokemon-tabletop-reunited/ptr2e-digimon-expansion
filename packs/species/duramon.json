@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "duramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 66,
+      "connected": [
+        "buraimon",
+        "zubaeagermon",
+        "guardromon-gold"
+      ],
       "prerequisites": []
     }
   },

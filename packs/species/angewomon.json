@@ -863,9 +863,14 @@
     "habitats": [],
     "slug": "angewomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 140,
+      "connected": [
+        "reppamon",
+        "gatomon",
+        "frigimon",
+        "witchmon"
+      ],
       "prerequisites": []
     }
   },

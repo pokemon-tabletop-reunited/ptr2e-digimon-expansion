@@ -827,9 +827,13 @@
     "habitats": [],
     "slug": "metal-garurumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 15,
+      "connected": [
+        "were-garurumon-black",
+        "catch-mamemon",
+        "cerberusmon"
+      ],
       "prerequisites": []
     }
   },

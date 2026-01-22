@@ -843,9 +843,13 @@
     "habitats": [],
     "slug": "garurumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 18,
+      "connected": [
+        "gabumon-black",
+        "renamon",
+        "bearmon"
+      ],
       "prerequisites": []
     }
   },
