@@ -820,9 +820,12 @@
     "habitats": [],
     "slug": "gallantmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 74,
+      "connected": [
+        "war-growlmon",
+        "duramon"
+      ],
       "prerequisites": []
     }
   },

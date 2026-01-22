@@ -829,9 +829,12 @@
     "habitats": [],
     "slug": "beelzemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 105,
+      "connected": [
+        "astamon",
+        "skull-meramon"
+      ],
       "prerequisites": []
     }
   },

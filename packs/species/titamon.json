@@ -828,9 +828,13 @@
     "habitats": [],
     "slug": "titamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 155,
+      "connected": [
+        "dark-super-starmon",
+        "digitamamon",
+        "skull-greymon"
+      ],
       "prerequisites": []
     }
   },
