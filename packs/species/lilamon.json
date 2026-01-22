@@ -842,9 +842,13 @@
     "habitats": [],
     "slug": "lilamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 107,
+      "y": 58,
+      "connected": [
+        "sunflowmon",
+        "kabuterimon",
+        "kiwimon"
+      ],
       "prerequisites": []
     }
   },

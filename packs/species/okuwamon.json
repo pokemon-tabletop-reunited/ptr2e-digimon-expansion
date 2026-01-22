@@ -853,9 +853,14 @@
     "habitats": [],
     "slug": "okuwamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 71,
+      "connected": [
+        "stingmon",
+        "kuwagamon",
+        "flymon",
+        "snimon"
+      ],
       "prerequisites": []
     }
   },

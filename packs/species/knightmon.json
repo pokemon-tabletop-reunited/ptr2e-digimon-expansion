@@ -856,9 +856,13 @@
     "habitats": [],
     "slug": "knightmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 103,
+      "y": 51,
+      "connected": [
+        "clockmon",
+        "dinohyumon",
+        "zubaeagermon"
+      ],
       "prerequisites": []
     }
   },

@@ -861,9 +861,13 @@
     "habitats": [],
     "slug": "doru-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 106,
+      "y": 43,
+      "connected": [
+        "reppamon",
+        "growlmon",
+        "dorugamon"
+      ],
       "prerequisites": []
     }
   },

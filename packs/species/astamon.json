@@ -817,11 +817,6 @@
           "gen": null
         },
         {
-          "name": "tractor-beam",
-          "level": 58,
-          "gen": null
-        },
-        {
           "name": "fickle-beam",
           "level": 49,
           "gen": null
@@ -847,6 +842,11 @@
           "gen": null
         },
         {
+          "name": "tractor-beam",
+          "level": 58,
+          "gen": null
+        },
+        {
           "name": "make-it-rain",
           "level": 60,
           "gen": null
@@ -864,9 +864,13 @@
     "habitats": [],
     "slug": "astamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 107,
+      "y": 18,
+      "connected": [
+        "sangloupmon",
+        "devimon",
+        "psychemon"
+      ],
       "prerequisites": []
     }
   },
