@@ -858,9 +858,11 @@
     "habitats": [],
     "slug": "tapirmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 55,
+      "connected": [
+        "wanyamon"
+      ],
       "prerequisites": []
     }
   },

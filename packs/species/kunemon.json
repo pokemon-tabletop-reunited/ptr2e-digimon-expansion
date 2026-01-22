@@ -847,9 +847,11 @@
     "habitats": [],
     "slug": "kunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 145,
+      "connected": [
+        "demi-meramon"
+      ],
       "prerequisites": []
     }
   },

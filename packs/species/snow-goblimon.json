@@ -855,9 +855,11 @@
     "habitats": [],
     "slug": "snow-goblimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 49,
+      "connected": [
+        "dorimon"
+      ],
       "prerequisites": []
     }
   },

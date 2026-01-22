@@ -855,9 +855,11 @@
     "habitats": [],
     "slug": "solarmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 32,
+      "y": 33,
+      "connected": [
+        "kapurimon"
+      ],
       "prerequisites": []
     }
   },
