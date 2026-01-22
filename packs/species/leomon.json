@@ -844,9 +844,12 @@
     "habitats": [],
     "slug": "leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 56,
+      "connected": [
+        "gaomon",
+        "lopmon"
+      ],
       "prerequisites": []
     }
   },
