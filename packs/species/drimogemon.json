@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "drimogemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 68,
+      "y": 74,
+      "connected": [
+        "gabumon",
+        "dorumon",
+        "salamon"
+      ],
       "prerequisites": []
     }
   },

@@ -823,9 +823,11 @@
     "habitats": [],
     "slug": "imperialdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 100,
+      "connected": [
+        "paildramon"
+      ],
       "prerequisites": []
     }
   },

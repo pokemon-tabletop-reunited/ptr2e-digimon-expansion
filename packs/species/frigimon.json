@@ -844,9 +844,13 @@
     "habitats": [],
     "slug": "frigimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 157,
+      "connected": [
+        "gomamon",
+        "lunamon-ts",
+        "snow-goblimon"
+      ],
       "prerequisites": []
     }
   },

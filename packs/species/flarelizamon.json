@@ -849,9 +849,14 @@
     "habitats": [],
     "slug": "flarelizamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 130,
+      "connected": [
+        "candlemon",
+        "goblimon",
+        "kotemon",
+        "toy-agumon"
+      ],
       "prerequisites": []
     }
   },

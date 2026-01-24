@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "minotarumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 57,
+      "y": 21,
+      "connected": [
+        "shamamon",
+        "gabumon-black",
+        "lopmon"
+      ],
       "prerequisites": []
     }
   },

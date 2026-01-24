@@ -856,9 +856,14 @@
     "habitats": [],
     "slug": "lady-devimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 23,
+      "connected": [
+        "black-gatomon",
+        "ice-devimon",
+        "devimon",
+        "witchmon"
+      ],
       "prerequisites": []
     }
   },

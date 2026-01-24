@@ -858,7 +858,18 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hisyaryumon"
+    "slug": "hisyaryumon",
+    "node": {
+      "x": 111,
+      "y": 117,
+      "connected": [
+        "airdramon",
+        "ginryumon",
+        "musyamon",
+        "seadramon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5237.png",
   "effects": [],

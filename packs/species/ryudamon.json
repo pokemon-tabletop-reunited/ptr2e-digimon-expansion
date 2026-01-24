@@ -872,9 +872,11 @@
     "habitats": [],
     "slug": "ryudamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 91,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

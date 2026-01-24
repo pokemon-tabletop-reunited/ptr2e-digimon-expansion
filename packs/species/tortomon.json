@@ -843,9 +843,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 54,
+      "connected": [
+        "otamamon",
+        "tentomon",
+        "kamemon"
+      ],
       "prerequisites": []
     },
     "slug": "tortomon"

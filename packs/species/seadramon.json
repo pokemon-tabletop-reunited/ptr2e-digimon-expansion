@@ -852,9 +852,14 @@
     "habitats": [],
     "slug": "seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 130,
+      "connected": [
+        "betamon",
+        "dracomon",
+        "elecmon",
+        "otamamon"
+      ],
       "prerequisites": []
     }
   },

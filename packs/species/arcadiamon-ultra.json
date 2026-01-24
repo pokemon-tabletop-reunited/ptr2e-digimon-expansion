@@ -822,9 +822,11 @@
     "habitats": [],
     "slug": "arcadiamon-ultra",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 243,
+      "y": 4,
+      "connected": [
+        "arcadiamon-mega"
+      ],
       "prerequisites": []
     }
   },

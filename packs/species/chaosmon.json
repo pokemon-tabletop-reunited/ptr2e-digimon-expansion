@@ -824,9 +824,12 @@
     "habitats": [],
     "slug": "chaosmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 23,
+      "connected": [
+        "bancho-leomon",
+        "darkdramon"
+      ],
       "prerequisites": []
     }
   },

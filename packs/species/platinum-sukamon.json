@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "legless",
-      "no-buoyancy"
+      "no-buoyancy",
+      "underdog"
     ],
     "number": 5186,
     "stats": {
@@ -843,9 +844,13 @@
     "habitats": [],
     "slug": "platinum-sukamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 74,
+      "connected": [
+        "chuumon",
+        "palmon",
+        "otamamon"
+      ],
       "prerequisites": []
     }
   },

@@ -822,9 +822,11 @@
     "habitats": [],
     "slug": "digmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 43,
+      "y": 160,
+      "connected": [
+        "armadillomon"
+      ],
       "prerequisites": []
     }
   },

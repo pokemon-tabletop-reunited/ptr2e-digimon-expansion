@@ -822,9 +822,13 @@
     "habitats": [],
     "slug": "belphemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 169,
+      "connected": [
+        "ex-tyrannomon",
+        "astamon",
+        "phantomon"
+      ],
       "prerequisites": []
     }
   },

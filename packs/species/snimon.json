@@ -854,9 +854,13 @@
     "habitats": [],
     "slug": "snimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 88,
+      "connected": [
+        "tentomon",
+        "wormmon",
+        "crabmon"
+      ],
       "prerequisites": []
     }
   },

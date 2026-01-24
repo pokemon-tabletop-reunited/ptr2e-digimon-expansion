@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "tuskmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 67,
+      "y": 95,
+      "connected": [
+        "goblimon",
+        "betamon",
+        "agumon-black"
+      ],
       "prerequisites": []
     }
   },

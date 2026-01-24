@@ -850,9 +850,12 @@
     "habitats": [],
     "slug": "metal-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 107,
+      "y": 95,
+      "connected": [
+        "blimpmon",
+        "platinum-sukamon"
+      ],
       "prerequisites": []
     }
   },

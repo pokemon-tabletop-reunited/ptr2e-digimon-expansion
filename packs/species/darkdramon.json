@@ -829,9 +829,13 @@
     "habitats": [],
     "slug": "darkdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 25,
+      "connected": [
+        "paildramon",
+        "tankdramon",
+        "metal-greymon-blue"
+      ],
       "prerequisites": []
     }
   },

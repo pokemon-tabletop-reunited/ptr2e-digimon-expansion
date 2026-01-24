@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "greymon-blue",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 10,
+      "connected": [
+        "agumon-black",
+        "guilmon",
+        "demi-devimon"
+      ],
       "prerequisites": []
     }
   },

@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "lekismon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 65,
+      "y": 138,
+      "connected": [
+        "terriermon",
+        "lunamon-ts",
+        "renamon"
+      ],
       "prerequisites": []
     }
   },

@@ -819,9 +819,13 @@
     "habitats": [],
     "slug": "pharoahmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 81,
+      "connected": [
+        "blue-meramon",
+        "mummymon",
+        "datamon"
+      ],
       "prerequisites": []
     }
   },

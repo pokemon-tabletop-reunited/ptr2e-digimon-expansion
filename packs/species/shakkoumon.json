@@ -859,9 +859,12 @@
     "slug": "shakkoumon",
     "captureRate": 1,
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 144,
+      "connected": [
+        "angemon",
+        "ankylomon"
+      ],
       "prerequisites": []
     }
   },

@@ -865,9 +865,12 @@
     "habitats": [],
     "slug": "shoutmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 35,
+      "y": 135,
+      "connected": [
+        "koromon",
+        "demi-meramon"
+      ],
       "prerequisites": []
     }
   },

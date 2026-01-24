@@ -827,9 +827,12 @@
     "habitats": [],
     "slug": "magnadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 142,
+      "connected": [
+        "angewomon",
+        "shakkoumon"
+      ],
       "prerequisites": []
     }
   },

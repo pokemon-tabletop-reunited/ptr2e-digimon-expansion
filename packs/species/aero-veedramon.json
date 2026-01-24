@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "aero-veedramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 89,
+      "connected": [
+        "airdramon",
+        "coredramon-blue",
+        "veedramon"
+      ],
       "prerequisites": []
     }
   },

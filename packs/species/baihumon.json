@@ -821,9 +821,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 38,
+      "connected": [
+        "meteormon",
+        "loader-leomon",
+        "cerberusmon"
+      ],
       "prerequisites": []
     },
     "slug": "baihumon"

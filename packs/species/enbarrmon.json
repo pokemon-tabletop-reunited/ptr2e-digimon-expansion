@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "night-storm",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "arcane-storm",
           "level": 48,
           "gen": null
@@ -847,6 +842,11 @@
           "name": "lunar-ray",
           "level": 60,
           "gen": null
+        },
+        {
+          "name": "night-storm",
+          "level": 63,
+          "gen": null
         }
       ],
       "tutor": []
@@ -856,9 +856,13 @@
     "habitats": [],
     "slug": "enbarrmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 103,
+      "y": 8,
+      "connected": [
+        "bakemon",
+        "kyubimon",
+        "ice-devimon"
+      ],
       "prerequisites": []
     }
   },

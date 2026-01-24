@@ -822,9 +822,11 @@
     "habitats": [],
     "slug": "jupitermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 92,
+      "connected": [
+        "aegiochusmon"
+      ],
       "prerequisites": []
     }
   },

@@ -836,9 +836,12 @@
     "habitats": [],
     "slug": "shine-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 72,
+      "connected": [
+        "rize-greymon",
+        "wingdramon"
+      ],
       "prerequisites": []
     }
   },

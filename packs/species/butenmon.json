@@ -815,11 +815,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mow-down",
-          "level": 66,
-          "gen": null
-        },
-        {
           "name": "whirling-rondé",
           "level": 48,
           "gen": null
@@ -848,6 +843,11 @@
           "name": "pile-driver",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "mow-down",
+          "level": 66,
+          "gen": null
         }
       ],
       "tutor": []
@@ -857,9 +857,13 @@
     "habitats": [],
     "slug": "butenmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 104,
+      "y": 58,
+      "connected": [
+        "ginryumon",
+        "buraimon",
+        "musyamon"
+      ],
       "prerequisites": []
     }
   },

@@ -857,9 +857,14 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 158,
+      "connected": [
+        "dolphmon",
+        "gesomon",
+        "coelamon",
+        "ice-devimon"
+      ],
       "prerequisites": []
     },
     "slug": "marine-devimon"

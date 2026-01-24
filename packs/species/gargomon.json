@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "gargomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 152,
+      "connected": [
+        "terriermon",
+        "shoutmon",
+        "toy-agumon"
+      ],
       "prerequisites": []
     }
   },

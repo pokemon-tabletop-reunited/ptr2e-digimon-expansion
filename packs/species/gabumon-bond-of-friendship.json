@@ -818,9 +818,11 @@
     "habitats": [],
     "slug": "gabumon-bond-of-friendship",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 109,
+      "connected": [
+        "gabumon"
+      ],
       "prerequisites": []
     }
   },

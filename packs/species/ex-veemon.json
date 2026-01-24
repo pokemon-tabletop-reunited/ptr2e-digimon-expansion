@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "ex-veemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 69,
+      "y": 90,
+      "connected": [
+        "veemon",
+        "dorumon",
+        "guilmon"
+      ],
       "prerequisites": []
     }
   },

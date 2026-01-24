@@ -844,9 +844,12 @@
     "habitats": [],
     "slug": "centarumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 142,
+      "connected": [
+        "patamon",
+        "kokuwamon"
+      ],
       "prerequisites": []
     }
   },

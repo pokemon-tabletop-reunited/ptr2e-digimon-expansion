@@ -819,9 +819,12 @@
     "habitats": [],
     "slug": "zanbamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 77,
+      "connected": [
+        "mistymon",
+        "knightmon"
+      ],
       "prerequisites": []
     }
   },

@@ -18,8 +18,7 @@
       "virus",
       "rookie",
       "bipedal",
-      "darkvision-20",
-      "underdog"
+      "darkvision-20"
     ],
     "number": 5075,
     "stats": {
@@ -801,11 +800,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "hypnosis",
-          "level": 15,
-          "gen": null
-        },
-        {
           "name": "fake-out",
           "level": 1,
           "gen": null
@@ -831,6 +825,11 @@
           "gen": null
         },
         {
+          "name": "hypnosis",
+          "level": 15,
+          "gen": null
+        },
+        {
           "name": "false-surrender",
           "level": 18,
           "gen": null
@@ -846,8 +845,7 @@
       "x": 33,
       "y": 11,
       "connected": [
-        "tsumemon",
-        "keramon"
+        "tsumemon"
       ],
       "prerequisites": []
     }

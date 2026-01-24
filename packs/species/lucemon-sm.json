@@ -822,9 +822,11 @@
     "habitats": [],
     "slug": "lucemon-sm",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 72,
+      "connected": [
+        "lucemon-falldown-mode"
+      ],
       "prerequisites": []
     }
   },

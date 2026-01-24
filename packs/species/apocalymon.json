@@ -816,9 +816,11 @@
     "habitats": [],
     "slug": "apocalymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 89,
+      "connected": [
+        "piedmon"
+      ],
       "prerequisites": []
     }
   },

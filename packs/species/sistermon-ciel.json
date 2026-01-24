@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "sistermon-ciel",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 62,
+      "y": 147,
+      "connected": [
+        "sistermon-blanc",
+        "lunamon-ts",
+        "dracmon-ts"
+      ],
       "prerequisites": []
     }
   },

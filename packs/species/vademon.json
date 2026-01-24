@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "vademon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 154,
+      "connected": [
+        "gold-nunemon",
+        "vegiemon",
+        "platinum-sukamon"
+      ],
       "prerequisites": []
     }
   },

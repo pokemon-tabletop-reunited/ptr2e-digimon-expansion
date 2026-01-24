@@ -850,9 +850,13 @@
     "habitats": [],
     "slug": "dobermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 28,
+      "connected": [
+        "gazimon",
+        "gabumon-black",
+        "salamon"
+      ],
       "prerequisites": []
     }
   },

@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane"
+      "arcane",
+      "underdog"
     ],
     "number": 5134,
     "stats": {
@@ -852,9 +853,13 @@
     "habitats": [],
     "slug": "wizardmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 57,
+      "y": 14,
+      "connected": [
+        "dracmon-ts",
+        "impmon",
+        "biyomon"
+      ],
       "prerequisites": []
     }
   },

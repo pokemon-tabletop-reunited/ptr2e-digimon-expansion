@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "champion",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5140,
     "stats": {
@@ -849,9 +850,13 @@
     "habitats": [],
     "slug": "clockmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 55,
+      "y": 36,
+      "connected": [
+        "kokuwamon",
+        "impmon",
+        "hagurumon"
+      ],
       "prerequisites": []
     }
   },

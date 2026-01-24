@@ -846,9 +846,12 @@
     "habitats": [],
     "slug": "guardromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 45,
+      "connected": [
+        "hagurumon",
+        "gotsumon"
+      ],
       "prerequisites": []
     }
   },

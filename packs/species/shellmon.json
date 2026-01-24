@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "shellmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 175,
+      "connected": [
+        "crabmon",
+        "syakomon",
+        "kamemon"
+      ],
       "prerequisites": []
     }
   },

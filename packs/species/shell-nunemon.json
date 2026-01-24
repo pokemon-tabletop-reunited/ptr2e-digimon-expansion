@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "shell-nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 58,
+      "y": 178,
+      "connected": [
+        "kamemon",
+        "syakomon",
+        "otamamon"
+      ],
       "prerequisites": []
     }
   },

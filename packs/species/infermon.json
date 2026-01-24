@@ -849,9 +849,13 @@
     "habitats": [],
     "slug": "infermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 16,
+      "connected": [
+        "devimon",
+        "dokugumon",
+        "kurisarimon"
+      ],
       "prerequisites": []
     }
   },

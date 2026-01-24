@@ -829,9 +829,13 @@
     "habitats": [],
     "slug": "cherubimon-virtue",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 63,
+      "connected": [
+        "ex-tyrannomon",
+        "crescemon",
+        "antylamon"
+      ],
       "prerequisites": []
     }
   },
