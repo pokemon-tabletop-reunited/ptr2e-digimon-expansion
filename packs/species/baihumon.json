@@ -29,8 +29,8 @@
       "spe": 80
     },
     "types": [
-      "normal",
-      "fairy"
+      "fairy",
+      "steel"
     ],
     "size": {
       "category": "medium",
@@ -821,10 +821,21 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 38,
+      "connected": [
+        "meteormon",
+        "loader-leomon",
+        "cerberusmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     },
     "slug": "baihumon"
   },

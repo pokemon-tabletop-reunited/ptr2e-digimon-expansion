@@ -817,10 +817,20 @@
     "habitats": [],
     "slug": "chronomon-destruction",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 53,
+      "connected": [
+        "aegiochusmon",
+        "butenmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            80
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5405.png",

@@ -819,10 +819,21 @@
     "habitats": [],
     "slug": "bacchusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 155,
+      "y": 170,
+      "connected": [
+        "orochimon",
+        "digitamamon",
+        "shogun-gekomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",

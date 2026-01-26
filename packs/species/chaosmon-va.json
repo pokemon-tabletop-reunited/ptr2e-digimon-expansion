@@ -824,10 +824,16 @@
     "habitats": [],
     "slug": "chaosmon-va",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 29,
+      "connected": [
+        "bancho-leomon",
+        "varodurumon"
+      ],
+      "prerequisites": [
+        "equipment:bancho-leomon-dna",
+        "equipment:varodurumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5453.png",

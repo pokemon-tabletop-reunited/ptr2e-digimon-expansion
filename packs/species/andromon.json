@@ -847,10 +847,21 @@
     "habitats": [],
     "slug": "andromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 37,
+      "connected": [
+        "guardromon",
+        "centarumon",
+        "clockmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5220.png",

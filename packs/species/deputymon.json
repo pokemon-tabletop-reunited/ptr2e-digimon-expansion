@@ -18,8 +18,7 @@
       "vaccine",
       "champion",
       "bipedal",
-      "natural-steel",
-      "underdog"
+      "natural-steel"
     ],
     "number": 5130,
     "stats": {
@@ -804,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "tri-attack",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "dizzy-punch",
           "level": 22,
           "gen": null
@@ -821,6 +815,11 @@
         {
           "name": "snapshot",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "tri-attack",
+          "level": 28,
           "gen": null
         },
         {
@@ -851,10 +850,21 @@
     "habitats": [],
     "slug": "deputymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 52,
+      "connected": [
+        "toy-agumon",
+        "lalamon",
+        "kotemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5130.png",

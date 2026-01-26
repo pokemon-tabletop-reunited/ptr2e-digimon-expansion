@@ -857,10 +857,20 @@
     "habitats": [],
     "slug": "burning-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 52,
+      "y": 144,
+      "connected": [
+        "agunimon",
+        "aldamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5211.png",

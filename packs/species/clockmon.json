@@ -849,10 +849,21 @@
     "habitats": [],
     "slug": "clockmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 55,
+      "y": 36,
+      "connected": [
+        "kokuwamon",
+        "impmon",
+        "hagurumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5140.png",

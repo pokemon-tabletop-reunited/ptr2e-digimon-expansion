@@ -822,10 +822,20 @@
     "habitats": [],
     "slug": "callismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 112,
+      "connected": [
+        "monzaemon",
+        "great-grizzlymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5401.png",

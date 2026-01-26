@@ -828,10 +828,21 @@
     "habitats": [],
     "slug": "dynasmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 122,
+      "connected": [
+        "grademon",
+        "hippo-gryphonmon",
+        "mistymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5380.png",

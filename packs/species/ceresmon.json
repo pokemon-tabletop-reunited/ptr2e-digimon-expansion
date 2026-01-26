@@ -825,10 +825,21 @@
     "habitats": [],
     "slug": "ceresmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 61,
+      "connected": [
+        "sirenmon",
+        "lilymon",
+        "deramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",

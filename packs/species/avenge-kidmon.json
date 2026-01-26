@@ -819,10 +819,21 @@
     "habitats": [],
     "slug": "avenge-kidmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 11,
+      "connected": [
+        "mummymon",
+        "skull-meramon",
+        "vademon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5394.png",

@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "semi-bipedal",
-      "horned",
-      "underdog"
+      "horned"
     ],
     "number": 5173,
     "stats": {
@@ -846,10 +845,20 @@
     "habitats": [],
     "slug": "cyclonemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 164,
+      "connected": [
+        "gizamon",
+        "monodramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5173.png",

@@ -850,10 +850,22 @@
     "habitats": [],
     "slug": "devimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 12,
+      "connected": [
+        "demi-devimon",
+        "agumon-black",
+        "impmon",
+        "betamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5177.png",

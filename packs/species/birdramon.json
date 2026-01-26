@@ -842,10 +842,22 @@
     "habitats": [],
     "slug": "birdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 60,
+      "connected": [
+        "coronamon",
+        "hyokomon",
+        "biyomon",
+        "muchomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5121.png",

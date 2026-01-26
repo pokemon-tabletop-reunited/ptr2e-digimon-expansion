@@ -829,10 +829,21 @@
     "habitats": [],
     "slug": "darkdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 25,
+      "connected": [
+        "paildramon",
+        "tankdramon",
+        "metal-greymon-blue"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5408.png",

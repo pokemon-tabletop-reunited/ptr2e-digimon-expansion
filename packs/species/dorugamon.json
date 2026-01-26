@@ -850,10 +850,21 @@
     "habitats": [],
     "slug": "dorugamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 32,
+      "connected": [
+        "gabumon-black",
+        "gazimon",
+        "dorumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5154.png",

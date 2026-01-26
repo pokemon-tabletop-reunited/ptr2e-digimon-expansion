@@ -853,10 +853,21 @@
     "habitats": [],
     "slug": "chirinmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 142,
+      "connected": [
+        "reppamon",
+        "unimon",
+        "peckmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            42
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5233.png",

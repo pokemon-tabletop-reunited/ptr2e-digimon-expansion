@@ -856,10 +856,22 @@
     "habitats": [],
     "slug": "cyberdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 46,
+      "connected": [
+        "strikedramon",
+        "geo-greymon",
+        "veedramon",
+        "cyclonemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5230.png",

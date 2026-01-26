@@ -812,11 +812,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "dusk-embrace",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "banish",
           "level": 22,
           "gen": null
@@ -829,6 +824,11 @@
         {
           "name": "breaking-swipe",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "dusk-embrace",
+          "level": 28,
           "gen": null
         },
         {
@@ -859,10 +859,21 @@
     "habitats": [],
     "slug": "devidramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 22,
+      "connected": [
+        "demi-devimon",
+        "gazimon",
+        "veemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5466.png",
