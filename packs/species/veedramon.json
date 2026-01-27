@@ -845,9 +845,13 @@
     "slug": "veedramon",
     "captureRate": 1,
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 91,
+      "connected": [
+        "veemon",
+        "salamon",
+        "dracomon"
+      ],
       "prerequisites": []
     }
   },

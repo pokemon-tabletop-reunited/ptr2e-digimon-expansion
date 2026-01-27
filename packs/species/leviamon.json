@@ -829,9 +829,14 @@
     "habitats": [],
     "slug": "leviamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 182,
+      "connected": [
+        "whamon",
+        "waru-seadramon",
+        "skull-seadramon",
+        "marine-devimon"
+      ],
       "prerequisites": []
     }
   },

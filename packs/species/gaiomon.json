@@ -820,9 +820,13 @@
     "habitats": [],
     "slug": "gaiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 110,
+      "connected": [
+        "hisyaryumon",
+        "metal-greymon",
+        "butenmon"
+      ],
       "prerequisites": []
     }
   },

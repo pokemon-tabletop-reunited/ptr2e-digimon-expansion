@@ -846,9 +846,13 @@
     "habitats": [],
     "slug": "gesomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 164,
+      "connected": [
+        "gizamon",
+        "syakomon",
+        "otamamon"
+      ],
       "prerequisites": []
     }
   },

@@ -828,9 +828,12 @@
     "habitats": [],
     "slug": "venom-myotismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 6,
+      "connected": [
+        "myotismon",
+        "astamon"
+      ],
       "prerequisites": []
     }
   },

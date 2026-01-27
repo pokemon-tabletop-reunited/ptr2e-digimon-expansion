@@ -818,9 +818,11 @@
     "habitats": [],
     "slug": "psychemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 35,
+      "y": 90,
+      "connected": [
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

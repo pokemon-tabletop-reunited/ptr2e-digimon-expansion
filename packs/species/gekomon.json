@@ -20,7 +20,8 @@
       "bipedal",
       "gilled",
       "deafening",
-      "natural-swimmer"
+      "natural-swimmer",
+      "underdog"
     ],
     "number": 5169,
     "stats": {
@@ -852,9 +853,13 @@
     "habitats": [],
     "slug": "gekomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 67,
+      "y": 88,
+      "connected": [
+        "chuumon",
+        "elecmon",
+        "otamamon"
+      ],
       "prerequisites": []
     }
   },

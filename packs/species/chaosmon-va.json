@@ -824,9 +824,12 @@
     "habitats": [],
     "slug": "chaosmon-va",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 29,
+      "connected": [
+        "bancho-leomon",
+        "varodurumon"
+      ],
       "prerequisites": []
     }
   },

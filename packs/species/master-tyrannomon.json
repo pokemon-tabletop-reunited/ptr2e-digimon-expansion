@@ -862,9 +862,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 131,
+      "connected": [
+        "tyrannomon",
+        "dark-tyrannomon",
+        "cyclonemon"
+      ],
       "prerequisites": []
     },
     "slug": "master-tyrannomon"

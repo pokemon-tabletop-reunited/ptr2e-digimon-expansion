@@ -849,9 +849,11 @@
     "habitats": [],
     "slug": "snow-agumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 112,
+      "connected": [
+        "nyaromon"
+      ],
       "prerequisites": []
     }
   },

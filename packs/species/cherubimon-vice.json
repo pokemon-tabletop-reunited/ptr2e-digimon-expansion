@@ -824,9 +824,14 @@
     "habitats": [],
     "slug": "cherubimon-vice",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 10,
+      "connected": [
+        "great-grizzlymon",
+        "infermon",
+        "antylamon",
+        "metal-greymon-blue"
+      ],
       "prerequisites": []
     }
   },

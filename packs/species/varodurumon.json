@@ -820,9 +820,13 @@
     "habitats": [],
     "slug": "varodurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 68,
+      "connected": [
+        "wingdramon",
+        "deramon",
+        "crowmon"
+      ],
       "prerequisites": []
     }
   },

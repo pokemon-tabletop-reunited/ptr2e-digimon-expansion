@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "gigadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 75,
+      "connected": [
+        "airdramon",
+        "raptordramon",
+        "coredramon-blue"
+      ],
       "prerequisites": []
     }
   },

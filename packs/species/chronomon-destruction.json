@@ -817,9 +817,12 @@
     "habitats": [],
     "slug": "chronomon-destruction",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 53,
+      "connected": [
+        "aegiochusmon",
+        "butenmon"
+      ],
       "prerequisites": []
     }
   },

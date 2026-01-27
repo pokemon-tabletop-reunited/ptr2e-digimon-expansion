@@ -805,16 +805,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "heat-seeker",
-          "level": 27,
-          "gen": null
-        },
-        {
-          "name": "heat-wave",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "aerial-spike",
           "level": 23,
           "gen": null
@@ -825,8 +815,18 @@
           "gen": null
         },
         {
+          "name": "heat-seeker",
+          "level": 27,
+          "gen": null
+        },
+        {
           "name": "meditate",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "heat-wave",
+          "level": 31,
           "gen": null
         },
         {
@@ -847,9 +847,12 @@
     "habitats": [],
     "slug": "firamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 96,
+      "connected": [
+        "hawkmon",
+        "coronamon"
+      ],
       "prerequisites": []
     }
   },

@@ -857,9 +857,14 @@
     "habitats": [],
     "slug": "groundramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 105,
+      "connected": [
+        "growlmon",
+        "coredramon-green",
+        "tyrannomon",
+        "tuskmon"
+      ],
       "prerequisites": []
     }
   },

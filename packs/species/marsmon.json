@@ -823,9 +823,12 @@
     "habitats": [],
     "slug": "marsmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 33,
+      "connected": [
+        "blue-meramon",
+        "grap-leomon"
+      ],
       "prerequisites": []
     }
   },

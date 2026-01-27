@@ -860,9 +860,11 @@
     "habitats": [],
     "slug": "lucemon-falldown-mode",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 162,
+      "connected": [
+        "lucemon"
+      ],
       "prerequisites": []
     }
   },

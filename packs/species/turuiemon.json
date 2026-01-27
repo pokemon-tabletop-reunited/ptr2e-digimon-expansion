@@ -845,9 +845,14 @@
     "habitats": [],
     "slug": "turuiemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 68,
+      "y": 59,
+      "connected": [
+        "gaomon",
+        "lalamon",
+        "lopmon",
+        "kotemon"
+      ],
       "prerequisites": []
     }
   },

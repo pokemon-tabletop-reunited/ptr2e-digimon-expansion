@@ -823,9 +823,13 @@
     "habitats": [],
     "slug": "tyrant-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 86,
+      "connected": [
+        "arukenimon",
+        "mega-kabuterimon",
+        "okuwamon"
+      ],
       "prerequisites": []
     }
   },

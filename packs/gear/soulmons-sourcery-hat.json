@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Soulmon's Sourcery Hat",
   "type": "equipment",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "soulmons-sourcery-hat",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,6 @@
     ],
     "actions": [],
     "description": "<p>Effect: Can only be equipped by @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.EL9aV88HwNmhrDab]{Bakemon}, turning them into Soulmon whilst worn.<br><br>Grants the user the Necro Magic move, along with the @UUID[Compendium.ptr2e.core-abilities.ghiixlqE2L93imKm]{Raw Might} ability as a connected, extra ability.</p>",
-    "container": null,
     "crafting": {
       "skill": "",
       "spans": null,
@@ -47,7 +45,6 @@
     "quantity": 1,
     "rarity": "rare",
     "ammoType": [],
-    "ammo": null,
     "identification": {
       "misidentified": null,
       "status": "identified",
@@ -58,7 +55,7 @@
       }
     }
   },
-  "img": "systems/ptr2e/img/icons/equipment_icon.webp",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182_soul.png",
   "effects": [
     {
       "name": "Soulmon",
@@ -168,22 +165,5 @@
       }
     }
   ],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.12.beta",
-    "createdTime": 1766966540456,
-    "modifiedTime": 1766966540456,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "O0Aq9tB43TFwCH47",
-  "sort": 0
+  "_id": "O0Aq9tB43TFwCH47"
 }

@@ -856,9 +856,14 @@
     "habitats": [],
     "slug": "cyberdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 46,
+      "connected": [
+        "strikedramon",
+        "geo-greymon",
+        "veedramon",
+        "cyclonemon"
+      ],
       "prerequisites": []
     }
   },

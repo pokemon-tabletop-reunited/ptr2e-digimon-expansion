@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "clavis-angemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 138,
+      "connected": [
+        "magna-angemon",
+        "piximon"
+      ],
       "prerequisites": []
     }
   },

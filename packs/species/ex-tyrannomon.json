@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "perish-song",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "lucky-chant",
           "level": 46,
           "gen": null
@@ -844,6 +839,11 @@
           "gen": null
         },
         {
+          "name": "perish-song",
+          "level": 63,
+          "gen": null
+        },
+        {
           "name": "cast-off",
           "level": 66,
           "gen": null
@@ -856,9 +856,13 @@
     "habitats": [],
     "slug": "ex-tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 96,
+      "connected": [
+        "tyrannomon",
+        "clockmon",
+        "raremon"
+      ],
       "prerequisites": []
     }
   },

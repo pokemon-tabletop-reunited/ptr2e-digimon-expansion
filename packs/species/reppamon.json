@@ -18,7 +18,8 @@
       "vaccine",
       "champion",
       "quadrupedal",
-      "bladed"
+      "bladed",
+      "underdog"
     ],
     "number": 5132,
     "stats": {
@@ -846,9 +847,13 @@
     "habitats": [],
     "slug": "reppamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 103,
+      "connected": [
+        "ryudamon",
+        "kudamon",
+        "renamon"
+      ],
       "prerequisites": []
     }
   },

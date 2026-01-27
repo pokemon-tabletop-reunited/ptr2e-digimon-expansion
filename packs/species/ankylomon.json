@@ -851,9 +851,13 @@
     "habitats": [],
     "slug": "ankylomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 60,
+      "y": 159,
+      "connected": [
+        "armadillomon",
+        "gizamon",
+        "zubamon"
+      ],
       "prerequisites": []
     }
   },

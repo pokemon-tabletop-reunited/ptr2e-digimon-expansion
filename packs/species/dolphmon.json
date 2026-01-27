@@ -845,9 +845,13 @@
     "habitats": [],
     "slug": "dolphmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 172,
+      "connected": [
+        "betamon",
+        "kamemon",
+        "crabmon"
+      ],
       "prerequisites": []
     }
   },

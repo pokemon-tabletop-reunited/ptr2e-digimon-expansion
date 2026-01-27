@@ -832,9 +832,13 @@
     "habitats": [],
     "slug": "ouryumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 125,
+      "connected": [
+        "mega-seadramon",
+        "hisyaryumon",
+        "brachiomon"
+      ],
       "prerequisites": []
     }
   },

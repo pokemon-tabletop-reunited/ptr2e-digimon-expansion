@@ -824,9 +824,13 @@
     "habitats": [],
     "slug": "boltmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 45,
+      "connected": [
+        "andromon",
+        "skull-meramon",
+        "meteormon"
+      ],
       "prerequisites": []
     }
   },

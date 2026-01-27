@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sea-shanty",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "bubble-storm",
           "level": 48,
           "gen": null
@@ -828,6 +823,11 @@
         {
           "name": "mist",
           "level": 52,
+          "gen": null
+        },
+        {
+          "name": "sea-shanty",
+          "level": 54,
           "gen": null
         },
         {
@@ -853,9 +853,13 @@
     "habitats": [],
     "slug": "scorpiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 166,
+      "connected": [
+        "coelamon",
+        "kuwagamon",
+        "shellmon"
+      ],
       "prerequisites": []
     }
   },

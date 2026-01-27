@@ -823,9 +823,12 @@
     "habitats": [],
     "slug": "daemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 8,
+      "connected": [
+        "myotismon",
+        "wisemon"
+      ],
       "prerequisites": []
     }
   },

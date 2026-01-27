@@ -827,9 +827,13 @@
     "habitats": [],
     "slug": "metal-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 99,
+      "connected": [
+        "were-garurumon",
+        "loader-leomon",
+        "metal-mamemon"
+      ],
       "prerequisites": []
     }
   },

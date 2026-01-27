@@ -855,9 +855,13 @@
     "habitats": [],
     "slug": "lilymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 56,
+      "connected": [
+        "sunflowmon",
+        "togemon",
+        "witchmon"
+      ],
       "prerequisites": []
     }
   },

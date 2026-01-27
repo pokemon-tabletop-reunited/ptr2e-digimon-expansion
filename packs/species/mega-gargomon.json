@@ -821,9 +821,13 @@
     "habitats": [],
     "slug": "mega-gargomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 90,
+      "connected": [
+        "mach-gaogamon",
+        "rapidmon",
+        "cannon-beemon"
+      ],
       "prerequisites": []
     }
   },

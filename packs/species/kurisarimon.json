@@ -847,9 +847,13 @@
     "habitats": [],
     "slug": "kurisarimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 16,
+      "connected": [
+        "keramon",
+        "monodramon",
+        "palmon"
+      ],
       "prerequisites": []
     }
   },

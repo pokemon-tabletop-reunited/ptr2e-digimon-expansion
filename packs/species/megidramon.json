@@ -827,9 +827,14 @@
     "habitats": [],
     "slug": "megidramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 152,
+      "connected": [
+        "waru-seadramon",
+        "war-growlmon",
+        "groundramon",
+        "megadramon"
+      ],
       "prerequisites": []
     }
   },

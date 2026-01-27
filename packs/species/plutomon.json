@@ -827,9 +827,13 @@
     "habitats": [],
     "slug": "plutomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 30,
+      "connected": [
+        "cerberusmon",
+        "marine-devimon",
+        "astamon"
+      ],
       "prerequisites": []
     }
   },

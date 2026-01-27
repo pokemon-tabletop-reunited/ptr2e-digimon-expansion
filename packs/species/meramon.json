@@ -846,9 +846,14 @@
     "habitats": [],
     "slug": "meramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 49,
+      "connected": [
+        "solarmon",
+        "tapirmon",
+        "coronamon",
+        "candlemon"
+      ],
       "prerequisites": []
     }
   },

@@ -828,9 +828,11 @@
     "habitats": [],
     "slug": "calmaramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 54,
+      "y": 184,
+      "connected": [
+        "lanamon"
+      ],
       "prerequisites": []
     }
   },

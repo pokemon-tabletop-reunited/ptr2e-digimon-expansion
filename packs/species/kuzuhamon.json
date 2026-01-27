@@ -829,9 +829,13 @@
     "habitats": [],
     "slug": "kuzuhamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 57,
+      "connected": [
+        "matadormon-ts",
+        "taomon",
+        "crowmon"
+      ],
       "prerequisites": []
     }
   },

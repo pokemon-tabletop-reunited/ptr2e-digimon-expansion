@@ -844,9 +844,13 @@
     "habitats": [],
     "slug": "monochromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 87,
+      "connected": [
+        "gotsumon",
+        "ryudamon",
+        "snow-goblimon"
+      ],
       "prerequisites": []
     }
   },

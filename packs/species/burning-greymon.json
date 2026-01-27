@@ -857,9 +857,11 @@
     "habitats": [],
     "slug": "burning-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 52,
+      "y": 144,
+      "connected": [
+        "agunimon"
+      ],
       "prerequisites": []
     }
   },

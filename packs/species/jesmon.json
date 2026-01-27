@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "jesmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 65,
+      "connected": [
+        "savior-huckmon",
+        "garudamon"
+      ],
       "prerequisites": []
     }
   },

@@ -819,9 +819,13 @@
     "habitats": [],
     "slug": "bacchusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 170,
+      "connected": [
+        "orochimon",
+        "digitamamon",
+        "shogun-gekomon"
+      ],
       "prerequisites": []
     }
   },

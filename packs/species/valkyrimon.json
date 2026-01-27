@@ -830,9 +830,12 @@
     "habitats": [],
     "slug": "valkyrimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 146,
+      "connected": [
+        "chirinmon",
+        "silphymon"
+      ],
       "prerequisites": []
     }
   },

@@ -7,9 +7,11 @@
       "previous": null
     },
     "node": {
-      "x": 0,
-      "y": 0,
-      "connected": [],
+      "x": 59,
+      "y": 90,
+      "connected": [
+        "elecmon"
+      ],
       "prerequisites": []
     },
     "publication": {

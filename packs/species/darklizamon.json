@@ -839,9 +839,13 @@
     "habitats": [],
     "slug": "darklizamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 137,
+      "connected": [
+        "candlemon",
+        "kunemon",
+        "gotsumon"
+      ],
       "prerequisites": []
     }
   },

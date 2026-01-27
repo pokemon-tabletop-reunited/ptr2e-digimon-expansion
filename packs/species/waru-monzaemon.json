@@ -849,9 +849,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 59,
+      "connected": [
+        "bakemon",
+        "geremon",
+        "nunemon"
+      ],
       "prerequisites": []
     },
     "slug": "waru-monzaemon"

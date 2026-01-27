@@ -830,9 +830,11 @@
     "habitats": [],
     "slug": "alphamon-ouryuken",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 248,
+      "y": 43,
+      "connected": [
+        "alphamon"
+      ],
       "prerequisites": []
     }
   },

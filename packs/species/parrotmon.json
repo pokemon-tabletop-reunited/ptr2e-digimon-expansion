@@ -815,11 +815,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "zap-cannon",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "chatter",
           "level": 48,
           "gen": null
@@ -853,6 +848,11 @@
           "name": "hurricane",
           "level": 60,
           "gen": null
+        },
+        {
+          "name": "zap-cannon",
+          "level": 63,
+          "gen": null
         }
       ],
       "tutor": []
@@ -862,9 +862,12 @@
     "habitats": [],
     "slug": "parrotmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 110,
+      "y": 63,
+      "connected": [
+        "aquilamon",
+        "birdramon"
+      ],
       "prerequisites": []
     }
   },
