@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "construct",
-      "breathless",
-      "underdog"
+      "breathless"
     ],
     "number": 5172,
     "stats": {
@@ -850,7 +849,14 @@
         "gotsumon",
         "armadillomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5172.png",

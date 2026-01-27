@@ -21,8 +21,7 @@
       "many-legged",
       "wallclimber",
       "keen-scent",
-      "pack-mon",
-      "underdog"
+      "pack-mon"
     ],
     "number": 5088,
     "stats": {
@@ -889,7 +888,14 @@
       "connected": [
         "tanemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            8
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5088.png",

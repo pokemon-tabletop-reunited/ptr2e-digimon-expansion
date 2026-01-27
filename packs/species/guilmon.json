@@ -18,8 +18,7 @@
       "rookie",
       "virus",
       "bipedal",
-      "tail",
-      "underdog"
+      "tail"
     ],
     "number": 5069,
     "stats": {
@@ -856,7 +855,14 @@
       "connected": [
         "koromon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5069.png",
