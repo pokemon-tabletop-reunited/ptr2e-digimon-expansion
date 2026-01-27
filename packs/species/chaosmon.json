@@ -830,7 +830,10 @@
         "bancho-leomon",
         "darkdramon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:darkdramon-dna",
+        "equipment:bancho-leomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5452.png",

@@ -826,8 +826,16 @@
       "connected": [
         "were-garurumon"
       ],
-      "prerequisites": []
-    }
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
+    },
+    "slug": "cres-garurumon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5485.png",
   "effects": [
@@ -914,6 +922,5 @@
       }
     }
   ],
-  "flags": {},
   "_id": "4G2TXgPS00cUMNiK"
 }

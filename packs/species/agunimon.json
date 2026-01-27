@@ -849,7 +849,9 @@
       "connected": [
         "coronamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:human-spirit-of-flame"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5208.png",
