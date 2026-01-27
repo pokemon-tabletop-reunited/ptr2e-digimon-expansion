@@ -852,10 +852,14 @@
     "habitats": [],
     "slug": "kendo-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 107,
+      "connected": [
+        "lobomon"
+      ],
+      "prerequisites": [
+        "equipment:beast-spirit-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5213.png",

@@ -857,10 +857,22 @@
     "habitats": [],
     "slug": "groundramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 105,
+      "connected": [
+        "growlmon",
+        "coredramon-green",
+        "tyrannomon",
+        "tuskmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5296.png",

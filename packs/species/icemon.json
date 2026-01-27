@@ -846,10 +846,21 @@
     "habitats": [],
     "slug": "icemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 81,
+      "connected": [
+        "gotsumon",
+        "snow-goblimon",
+        "lunamon-ts"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",

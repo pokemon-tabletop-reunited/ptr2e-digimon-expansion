@@ -844,10 +844,21 @@
     "habitats": [],
     "slug": "gawappamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 168,
+      "connected": [
+        "terriermon",
+        "crabmon",
+        "kamemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5137.png",

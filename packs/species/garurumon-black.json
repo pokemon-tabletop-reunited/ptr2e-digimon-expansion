@@ -843,10 +843,21 @@
     "habitats": [],
     "slug": "garurumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 18,
+      "connected": [
+        "gabumon-black",
+        "renamon",
+        "bearmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5106.png",

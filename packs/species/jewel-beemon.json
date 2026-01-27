@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rage-powder",
-          "level": 52,
-          "gen": null
-        },
-        {
           "name": "compost-bomb",
           "level": 47,
           "gen": null
@@ -826,6 +821,11 @@
         {
           "name": "noxious-acid",
           "level": 50,
+          "gen": null
+        },
+        {
+          "name": "rage-powder",
+          "level": 52,
           "gen": null
         },
         {
@@ -861,10 +861,21 @@
     "habitats": [],
     "slug": "jewel-beemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 65,
+      "connected": [
+        "stingmon",
+        "flymon",
+        "snimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5231.png",

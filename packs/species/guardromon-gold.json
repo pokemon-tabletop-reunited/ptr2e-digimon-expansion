@@ -845,10 +845,21 @@
     "habitats": [],
     "slug": "guardromon-gold",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 42,
+      "connected": [
+        "solarmon",
+        "shoutmon",
+        "zubamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5197.png",

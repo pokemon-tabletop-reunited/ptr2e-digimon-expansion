@@ -824,10 +824,21 @@
     "habitats": [],
     "slug": "justimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 46,
+      "connected": [
+        "pandamon",
+        "super-starmon",
+        "cyberdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349.png",

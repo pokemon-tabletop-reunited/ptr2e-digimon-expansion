@@ -829,10 +829,22 @@
     "habitats": [],
     "slug": "hi-andromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 31,
+      "connected": [
+        "locomon",
+        "mummymon",
+        "andromon",
+        "rapidmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            70
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5358.png",

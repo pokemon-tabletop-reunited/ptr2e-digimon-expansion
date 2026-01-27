@@ -859,10 +859,22 @@
     "habitats": [],
     "slug": "garudamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 102,
+      "y": 62,
+      "connected": [
+        "aquilamon",
+        "birdramon",
+        "buraimon",
+        "fugamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5225.png",

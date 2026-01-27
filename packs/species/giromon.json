@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "tetra-guard",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "shell-shock",
           "level": 52,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "tetra-guard",
+          "level": 62,
+          "gen": null
+        },
+        {
           "name": "sorrowful-strike",
           "level": 64,
           "gen": null
@@ -851,10 +851,21 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 32,
+      "connected": [
+        "blimpmon",
+        "mekanorimon",
+        "clockmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     },
     "slug": "giromon"
   },

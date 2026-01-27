@@ -994,7 +994,24 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "ice-devimon"
+    "slug": "ice-devimon",
+    "node": {
+      "x": 64,
+      "y": 34,
+      "connected": [
+        "snow-goblimon",
+        "demi-devimon",
+        "gomamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5160.png",
   "effects": [],

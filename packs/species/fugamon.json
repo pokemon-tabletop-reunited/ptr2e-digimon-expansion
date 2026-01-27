@@ -849,10 +849,21 @@
     "habitats": [],
     "slug": "fugamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 57,
+      "y": 18,
+      "connected": [
+        "gabumon-black",
+        "shamamon",
+        "muchomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5184.png",

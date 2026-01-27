@@ -825,10 +825,21 @@
     "habitats": [],
     "slug": "kentaurosmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 59,
+      "connected": [
+        "rize-greymon",
+        "chirinmon",
+        "enbarrmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5352.png",

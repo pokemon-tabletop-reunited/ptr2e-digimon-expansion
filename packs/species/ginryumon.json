@@ -849,10 +849,21 @@
     "habitats": [],
     "slug": "ginryumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 82,
+      "connected": [
+        "ryudamon",
+        "falcomon",
+        "kudamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5107.png",

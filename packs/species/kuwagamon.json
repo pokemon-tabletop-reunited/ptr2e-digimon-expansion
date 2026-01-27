@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "champion",
-      "winged",
-      "underdog"
+      "winged"
     ],
     "number": 5168,
     "stats": {
@@ -850,10 +849,21 @@
     "habitats": [],
     "slug": "kuwagamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 69,
+      "y": 83,
+      "connected": [
+        "tentomon",
+        "elecmon",
+        "kokuwamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5168.png",

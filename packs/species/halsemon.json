@@ -820,10 +820,14 @@
     "habitats": [],
     "slug": "halsemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 49,
+      "y": 56,
+      "connected": [
+        "hawkmon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-love"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5206.png",

@@ -858,7 +858,23 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hippo-gryphonmon"
+    "slug": "hippo-gryphonmon",
+    "node": {
+      "x": 112,
+      "y": 148,
+      "connected": [
+        "angemon",
+        "unimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5276.png",
   "effects": [],

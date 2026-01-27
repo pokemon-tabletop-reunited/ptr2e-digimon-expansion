@@ -835,10 +835,21 @@
     "habitats": [],
     "slug": "hercules-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 66,
+      "connected": [
+        "mega-kabuterimon",
+        "okuwamon",
+        "jewel-beemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5360.png",

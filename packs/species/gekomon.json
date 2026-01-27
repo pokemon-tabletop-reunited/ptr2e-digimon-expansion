@@ -852,10 +852,21 @@
     "habitats": [],
     "slug": "gekomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 67,
+      "y": 88,
+      "connected": [
+        "chuumon",
+        "elecmon",
+        "otamamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5169.png",
