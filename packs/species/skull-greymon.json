@@ -857,10 +857,21 @@
     "habitats": [],
     "slug": "skull-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 90,
+      "connected": [
+        "ginryumon",
+        "coredramon-green",
+        "greymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5300.png",

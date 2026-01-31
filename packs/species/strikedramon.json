@@ -844,10 +844,21 @@
     "habitats": [],
     "slug": "strikedramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 37,
+      "connected": [
+        "monodramon",
+        "gaomon",
+        "agumon-black"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5115.png",

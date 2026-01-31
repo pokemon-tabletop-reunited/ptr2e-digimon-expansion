@@ -844,10 +844,21 @@
     "habitats": [],
     "slug": "sukamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 69,
+      "y": 66,
+      "connected": [
+        "dracmon-ts",
+        "chuumon",
+        "mushroomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            15
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5175.png",

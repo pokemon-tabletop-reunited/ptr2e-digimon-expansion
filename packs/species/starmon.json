@@ -843,10 +843,21 @@
     "habitats": [],
     "slug": "starmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 25,
+      "connected": [
+        "dracmon-ts",
+        "solarmon",
+        "gotsumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5146.png",

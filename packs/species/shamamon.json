@@ -18,8 +18,7 @@
       "virus",
       "rookie",
       "bipedal",
-      "well-built",
-      "underdog"
+      "well-built"
     ],
     "number": 5071,
     "stats": {
@@ -804,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bonk",
-          "level": 7,
-          "gen": null
-        },
-        {
           "name": "growl",
           "level": 2,
           "gen": null
@@ -831,6 +825,11 @@
         {
           "name": "sudden-strike",
           "level": 5,
+          "gen": null
+        },
+        {
+          "name": "bonk",
+          "level": 7,
           "gen": null
         },
         {
@@ -861,10 +860,19 @@
     "habitats": [],
     "slug": "shamamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 33,
+      "y": 19,
+      "connected": [
+        "tsumemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5071.png",

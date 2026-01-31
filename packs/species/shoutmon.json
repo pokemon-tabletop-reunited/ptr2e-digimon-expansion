@@ -17,8 +17,7 @@
       "digimon",
       "free",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5053,
     "stats": {
@@ -865,10 +864,20 @@
     "habitats": [],
     "slug": "shoutmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 35,
+      "y": 135,
+      "connected": [
+        "koromon",
+        "demi-meramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            12
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5053.png",

@@ -848,10 +848,21 @@
     "habitats": [],
     "slug": "skull-meramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 78,
+      "connected": [
+        "meramon",
+        "wendigomon",
+        "birdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            42
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5266.png",

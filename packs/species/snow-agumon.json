@@ -17,8 +17,7 @@
       "digimon",
       "rookie",
       "vaccine",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5078,
     "stats": {
@@ -849,10 +848,19 @@
     "habitats": [],
     "slug": "snow-agumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 34,
+      "y": 112,
+      "connected": [
+        "nyaromon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5078.png",

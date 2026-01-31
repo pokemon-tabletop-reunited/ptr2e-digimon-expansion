@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "bipedal",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5097,
     "stats": {
@@ -845,10 +844,21 @@
     "habitats": [],
     "slug": "sistermon-ciel",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 147,
+      "connected": [
+        "sistermon-blanc",
+        "lunamon-ts",
+        "dracmon-ts"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5097.png",

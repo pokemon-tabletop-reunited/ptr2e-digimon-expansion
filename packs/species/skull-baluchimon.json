@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "decimate",
-          "level": 61,
-          "gen": null
-        },
-        {
           "name": "bravado",
           "level": 51,
           "gen": null
@@ -844,6 +839,11 @@
           "gen": null
         },
         {
+          "name": "decimate",
+          "level": 61,
+          "gen": null
+        },
+        {
           "name": "head-smash",
           "level": 63,
           "gen": null
@@ -856,10 +856,22 @@
     "habitats": [],
     "slug": "skull-baluchimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 106,
+      "y": 14,
+      "connected": [
+        "black-gatomon",
+        "deltamon",
+        "raremon",
+        "greymon-blue"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5261.png",

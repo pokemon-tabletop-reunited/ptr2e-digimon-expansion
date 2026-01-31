@@ -813,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "unshackled-mind",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "magick-scintilla",
           "level": 49,
           "gen": null
@@ -846,6 +841,11 @@
           "name": "sludge-bomb",
           "level": 56,
           "gen": null
+        },
+        {
+          "name": "unshackled-mind",
+          "level": 60,
+          "gen": null
         }
       ],
       "tutor": []
@@ -855,10 +855,20 @@
     "habitats": [],
     "slug": "shaujinmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 161,
+      "connected": [
+        "gawappamon",
+        "dinohyumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5298.png",
