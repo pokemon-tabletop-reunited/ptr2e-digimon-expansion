@@ -862,10 +862,21 @@
     "habitats": [],
     "slug": "magna-angemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 114,
+      "y": 146,
+      "connected": [
+        "angemon",
+        "unimon",
+        "sorcermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            49
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5241.png",

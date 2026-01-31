@@ -855,10 +855,21 @@
     "habitats": [],
     "slug": "lilymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 56,
+      "connected": [
+        "sunflowmon",
+        "togemon",
+        "witchmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5285.png",

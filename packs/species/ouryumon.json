@@ -832,10 +832,21 @@
     "habitats": [],
     "slug": "ouryumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 125,
+      "connected": [
+        "mega-seadramon",
+        "hisyaryumon",
+        "brachiomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5339.png",

@@ -63,6 +63,10 @@
       {
         "type": "overland",
         "value": 6
+      },
+      {
+        "type": "swim",
+        "value": 3
       }
     ],
     "skills": [
@@ -845,10 +849,20 @@
     "habitats": [],
     "slug": "nanimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 67,
+      "y": 56,
+      "connected": [
+        "gaomon",
+        "mushroomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            17
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5180.png",

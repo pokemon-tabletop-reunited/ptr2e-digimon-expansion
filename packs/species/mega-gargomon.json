@@ -821,10 +821,21 @@
     "habitats": [],
     "slug": "mega-gargomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 90,
+      "connected": [
+        "mach-gaogamon",
+        "rapidmon",
+        "cannon-beemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5355.png",

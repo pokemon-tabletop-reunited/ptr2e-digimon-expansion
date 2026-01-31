@@ -833,10 +833,21 @@
     "habitats": [],
     "slug": "lilithmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 115,
+      "connected": [
+        "lilamon",
+        "arukenimon",
+        "lady-devimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",

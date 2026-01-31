@@ -826,10 +826,20 @@
     "habitats": [],
     "slug": "malo-myotismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 155,
+      "y": 4,
+      "connected": [
+        "myotismon",
+        "infermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5423.png",

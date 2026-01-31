@@ -829,10 +829,22 @@
     "habitats": [],
     "slug": "prince-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 87,
+      "connected": [
+        "big-mamemon",
+        "catch-mamemon",
+        "super-starmon",
+        "mamemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5384.png",

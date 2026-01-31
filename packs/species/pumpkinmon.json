@@ -851,10 +851,21 @@
     "habitats": [],
     "slug": "pumpkinmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 83,
+      "connected": [
+        "sunflowmon",
+        "togemon",
+        "woodmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5273.png",

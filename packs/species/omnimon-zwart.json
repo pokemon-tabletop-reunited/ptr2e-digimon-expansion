@@ -38,8 +38,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 3.3,
+      "weight": 200
     },
     "diet": [],
     "abilities": {
@@ -826,10 +826,18 @@
     "habitats": [],
     "slug": "omnimon-zwart",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 10,
+      "connected": [
+        "omnimon",
+        "black-war-greymon",
+        "metal-garurumon-black"
+      ],
+      "prerequisites": [
+        "equipment:black-war-greymon-dna",
+        "equipment:metal-garurumon-black-dna",
+        "species:omnimon"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5451.png",

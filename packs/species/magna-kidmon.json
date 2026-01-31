@@ -822,10 +822,21 @@
     "habitats": [],
     "slug": "magna-kidmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 175,
+      "connected": [
+        "rize-greymon",
+        "metal-mamemon",
+        "omni-shoutmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            69
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5427.png",

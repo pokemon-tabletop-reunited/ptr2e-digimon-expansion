@@ -858,10 +858,21 @@
     "habitats": [],
     "slug": "mega-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 70,
+      "connected": [
+        "kabuterimon",
+        "flymon",
+        "dokugumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5219.png",

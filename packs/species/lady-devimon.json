@@ -856,10 +856,22 @@
     "habitats": [],
     "slug": "lady-devimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 23,
+      "connected": [
+        "black-gatomon",
+        "ice-devimon",
+        "devimon",
+        "witchmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5320.png",

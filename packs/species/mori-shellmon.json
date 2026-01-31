@@ -17,8 +17,7 @@
       "digimon",
       "data",
       "champion",
-      "gilled",
-      "underdog"
+      "gilled"
     ],
     "number": 5473,
     "stats": {
@@ -845,10 +844,21 @@
     "habitats": [],
     "slug": "mori-shellmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 113,
+      "connected": [
+        "psychemon",
+        "betamon",
+        "crabmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5473.png",

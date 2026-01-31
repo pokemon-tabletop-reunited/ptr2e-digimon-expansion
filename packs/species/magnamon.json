@@ -826,10 +826,14 @@
     "habitats": [],
     "slug": "magnamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 57,
+      "y": 92,
+      "connected": [
+        "veemon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-miracles"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",

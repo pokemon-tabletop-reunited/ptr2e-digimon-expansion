@@ -826,10 +826,14 @@
     "habitats": [],
     "slug": "lanamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 54,
+      "y": 181,
+      "connected": [
+        "gizamon"
+      ],
+      "prerequisites": [
+        "equipment:human-spirit-of-water"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5210.png",

@@ -860,10 +860,19 @@
     "habitats": [],
     "slug": "lucemon-falldown-mode",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 114,
+      "y": 162,
+      "connected": [
+        "lucemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            55
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5319.png",

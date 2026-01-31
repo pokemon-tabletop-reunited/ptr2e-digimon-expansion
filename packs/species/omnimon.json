@@ -826,10 +826,18 @@
     "habitats": [],
     "slug": "omnimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 17,
+      "connected": [
+        "war-greymon",
+        "metal-garurumon",
+        "omnimon-zwart"
+      ],
+      "prerequisites": [
+        "equipment:metal-garurumon-dna",
+        "equipment:war-greymon-dna",
+        "species:omnimon-zwart"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5450.png",

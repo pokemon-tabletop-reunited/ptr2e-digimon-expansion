@@ -846,10 +846,22 @@
     "habitats": [],
     "slug": "meteormon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 98,
+      "connected": [
+        "golemon",
+        "frigimon",
+        "ankylomon",
+        "icemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5255.png",

@@ -827,10 +827,22 @@
     "habitats": [],
     "slug": "megidramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 152,
+      "connected": [
+        "waru-seadramon",
+        "war-growlmon",
+        "groundramon",
+        "megadramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5431.png",

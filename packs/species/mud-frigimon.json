@@ -18,8 +18,7 @@
       "data",
       "champion",
       "bipedal",
-      "mud-runner",
-      "underdog"
+      "mud-runner"
     ],
     "number": 5148,
     "stats": {
@@ -841,10 +840,21 @@
     "habitats": [],
     "slug": "mud-frigimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 64,
+      "connected": [
+        "lalamon",
+        "lopmon",
+        "gotsumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5148.png",

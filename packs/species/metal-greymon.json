@@ -858,10 +858,21 @@
     "habitats": [],
     "slug": "metal-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 108,
+      "y": 104,
+      "connected": [
+        "deltamon",
+        "greymon",
+        "tyrannomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",

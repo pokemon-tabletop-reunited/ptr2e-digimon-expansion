@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "shell-shock",
-          "level": 59,
-          "gen": null
-        },
-        {
           "name": "car-crash",
           "level": 1,
           "gen": null
@@ -832,6 +827,11 @@
           "gen": null
         },
         {
+          "name": "shell-shock",
+          "level": 59,
+          "gen": null
+        },
+        {
           "name": "mow-down",
           "level": 64,
           "gen": null
@@ -844,10 +844,22 @@
     "habitats": [],
     "slug": "locomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 21,
+      "connected": [
+        "strikedramon",
+        "guardromon",
+        "blimpmon",
+        "tankmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5286.png",
