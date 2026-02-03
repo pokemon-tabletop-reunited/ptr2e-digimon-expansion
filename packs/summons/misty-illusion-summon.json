@@ -1,0 +1,43 @@
+{
+  "folder": null,
+  "name": "Misty Illusion (Summon)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "slug": "misty-illusion",
+    "traits": [],
+    "description": "<p>Effect: Creatures not allied to this Summon's creator that start their Activation in or Move through at least one space containing a Misty Illusion Hazard during a single Activation gain @Affliction[hindered 4] and lose -2 ATK, SPATK, and SPDEF Stages for 4 Activations.</p>",
+    "actions": [],
+    "baseAV": 300,
+    "duration": 1,
+    "owner": null
+  },
+  "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770078063545,
+    "modifiedTime": 1770078240218,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "WPJyXl7F3OoDSbQn",
+  "sort": 800000
+}
