@@ -862,7 +862,7 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "sangloupmon-ts",
+    "slug": "sangloupmon",
     "node": {
       "x": 59,
       "y": 15,
@@ -897,7 +897,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.IydF0iC3sdhe9AU8",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:sangloupmon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:sangloupmon"
             ],
             "allowDuplicate": false,
             "alterations": [],

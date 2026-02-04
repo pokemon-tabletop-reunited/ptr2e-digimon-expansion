@@ -846,7 +846,7 @@
       "x": 60,
       "y": 25,
       "connected": [
-        "dracmon-ts",
+        "dracmon",
         "solarmon",
         "gotsumon"
       ],
