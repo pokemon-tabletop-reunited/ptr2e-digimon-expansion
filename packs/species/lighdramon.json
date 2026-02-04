@@ -821,7 +821,9 @@
       "connected": [
         "veemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-friendship"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5207.png",

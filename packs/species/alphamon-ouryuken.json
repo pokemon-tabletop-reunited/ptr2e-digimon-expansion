@@ -835,7 +835,9 @@
       "connected": [
         "alphamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:ouryumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5448.png",

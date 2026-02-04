@@ -16,8 +16,7 @@
     "traits": [
       "digimon",
       "data",
-      "champion",
-      "underdog"
+      "champion"
     ],
     "number": 5145,
     "stats": {
@@ -802,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rock-blast",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "riptide",
           "level": 22,
           "gen": null
@@ -824,6 +818,11 @@
         {
           "name": "rain-dance",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "rock-blast",
+          "level": 31,
           "gen": null
         },
         {
@@ -856,7 +855,14 @@
         "syakomon",
         "kamemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5145.png",

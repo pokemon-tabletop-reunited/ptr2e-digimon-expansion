@@ -822,7 +822,9 @@
       "connected": [
         "armadillomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-reliability"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5200.png",
