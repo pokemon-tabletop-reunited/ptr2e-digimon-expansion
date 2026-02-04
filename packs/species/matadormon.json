@@ -853,12 +853,12 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "matadormon-ts",
+    "slug": "matadormon",
     "node": {
       "x": 104,
       "y": 24,
       "connected": [
-        "sangloupmon-ts",
+        "sangloupmon",
         "turuiemon",
         "dobermon"
       ],
@@ -886,7 +886,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.AGr6AT672ZS88QMI",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:matadormon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:matadormon"
             ],
             "allowDuplicate": false,
             "alterations": [],
