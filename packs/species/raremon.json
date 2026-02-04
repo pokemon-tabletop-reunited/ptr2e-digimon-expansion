@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "legless"
+      "legless",
+      "underdog"
     ],
     "number": 5192,
     "stats": {
@@ -846,9 +847,13 @@
     "habitats": [],
     "slug": "raremon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 161,
+      "connected": [
+        "syakomon",
+        "crabmon",
+        "toy-agumon"
+      ],
       "prerequisites": []
     }
   },

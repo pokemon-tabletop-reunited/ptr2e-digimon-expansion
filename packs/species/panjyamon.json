@@ -858,9 +858,15 @@
     "habitats": [],
     "slug": "panjyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 49,
+      "connected": [
+        "leomon",
+        "frigimon",
+        "hyogamon",
+        "ice-devimon",
+        "icemon"
+      ],
       "prerequisites": []
     }
   },

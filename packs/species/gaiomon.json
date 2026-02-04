@@ -820,10 +820,21 @@
     "habitats": [],
     "slug": "gaiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 110,
+      "connected": [
+        "hisyaryumon",
+        "metal-greymon",
+        "butenmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5398.png",

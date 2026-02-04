@@ -822,9 +822,13 @@
     "habitats": [],
     "slug": "magna-kidmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 175,
+      "connected": [
+        "rize-greymon",
+        "metal-mamemon",
+        "omni-shoutmon"
+      ],
       "prerequisites": []
     }
   },

@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "war-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 156,
+      "y": 114,
+      "connected": [
+        "metal-greymon",
+        "duramon"
+      ],
       "prerequisites": []
     }
   },

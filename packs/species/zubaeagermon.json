@@ -844,9 +844,13 @@
     "habitats": [],
     "slug": "zubaeagermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 64,
+      "y": 134,
+      "connected": [
+        "zubamon",
+        "gizamon",
+        "shoutmon"
+      ],
       "prerequisites": []
     }
   },

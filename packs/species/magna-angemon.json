@@ -862,9 +862,13 @@
     "habitats": [],
     "slug": "magna-angemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 114,
+      "y": 146,
+      "connected": [
+        "angemon",
+        "unimon",
+        "sorcermon"
+      ],
       "prerequisites": []
     }
   },

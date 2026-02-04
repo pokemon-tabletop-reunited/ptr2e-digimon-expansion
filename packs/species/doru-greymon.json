@@ -861,10 +861,21 @@
     "habitats": [],
     "slug": "doru-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 106,
+      "y": 43,
+      "connected": [
+        "reppamon",
+        "growlmon",
+        "dorugamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5269.png",

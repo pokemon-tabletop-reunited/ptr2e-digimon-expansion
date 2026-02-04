@@ -844,9 +844,13 @@
     "habitats": [],
     "slug": "strikedramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 37,
+      "connected": [
+        "monodramon",
+        "gaomon",
+        "agumon-black"
+      ],
       "prerequisites": []
     }
   },

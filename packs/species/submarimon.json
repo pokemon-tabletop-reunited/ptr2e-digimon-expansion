@@ -817,9 +817,11 @@
     "habitats": [],
     "slug": "submarimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 41,
+      "y": 163,
+      "connected": [
+        "armadillomon"
+      ],
       "prerequisites": []
     }
   },

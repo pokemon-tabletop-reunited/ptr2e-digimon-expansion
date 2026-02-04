@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "champion",
-      "well-built",
-      "underdog"
+      "well-built"
     ],
     "number": 5183,
     "stats": {
@@ -845,10 +844,21 @@
     "habitats": [],
     "slug": "hyogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 106,
+      "connected": [
+        "lunamon-ts",
+        "gomamon",
+        "snow-goblimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5183.png",

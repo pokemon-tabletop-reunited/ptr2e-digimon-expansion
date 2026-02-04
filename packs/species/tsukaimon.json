@@ -855,9 +855,11 @@
     "habitats": [],
     "slug": "tsukaimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 165,
+      "connected": [
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

@@ -848,9 +848,11 @@
     "habitats": [],
     "slug": "toy-agumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 33,
+      "y": 38,
+      "connected": [
+        "kapurimon"
+      ],
       "prerequisites": []
     }
   },

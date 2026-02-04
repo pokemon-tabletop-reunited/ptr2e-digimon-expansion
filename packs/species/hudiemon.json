@@ -18,7 +18,8 @@
       "free",
       "champion",
       "winged",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5098,
     "stats": {
@@ -851,10 +852,20 @@
     "habitats": [],
     "slug": "hudiemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 78,
+      "connected": [
+        "lalamon",
+        "wormmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5098.png",

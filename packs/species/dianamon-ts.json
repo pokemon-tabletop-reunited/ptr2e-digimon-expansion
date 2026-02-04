@@ -825,9 +825,12 @@
     "habitats": [],
     "slug": "dianamon-ts",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 128,
+      "connected": [
+        "crescemon-ts",
+        "antylamon"
+      ],
       "prerequisites": []
     }
   },

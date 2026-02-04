@@ -820,9 +820,12 @@
     "habitats": [],
     "slug": "leopardmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 42,
+      "connected": [
+        "grap-leomon",
+        "knightmon"
+      ],
       "prerequisites": []
     }
   },

@@ -7,10 +7,19 @@
       "previous": null
     },
     "node": {
-      "x": 0,
-      "y": 0,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 90,
+      "connected": [
+        "elecmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     },
     "publication": {
       "source": "Digidex",

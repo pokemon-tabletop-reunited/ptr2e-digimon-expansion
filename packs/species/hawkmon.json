@@ -18,8 +18,7 @@
       "free",
       "rookie",
       "bipedal",
-      "winged",
-      "underdog"
+      "winged"
     ],
     "number": 5093,
     "stats": {
@@ -859,7 +858,14 @@
       "connected": [
         "yokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5093.png",

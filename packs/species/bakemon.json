@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "hover",
-      "arcane"
+      "arcane",
+      "underdog"
     ],
     "number": 5182,
     "stats": {
@@ -844,10 +845,21 @@
     "habitats": [],
     "slug": "bakemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 65,
+      "y": 24,
+      "connected": [
+        "impmon",
+        "demi-devimon",
+        "tapirmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            17
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182.png",

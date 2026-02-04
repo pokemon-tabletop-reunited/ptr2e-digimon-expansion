@@ -847,10 +847,22 @@
     "habitats": [],
     "slug": "cherrymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 105,
+      "y": 69,
+      "connected": [
+        "togemon",
+        "kuwagamon",
+        "woodmon",
+        "kiwimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            69
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5299.png",

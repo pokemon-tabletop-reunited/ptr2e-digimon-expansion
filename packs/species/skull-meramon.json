@@ -848,9 +848,13 @@
     "habitats": [],
     "slug": "skull-meramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 78,
+      "connected": [
+        "meramon",
+        "wendigomon",
+        "birdramon"
+      ],
       "prerequisites": []
     }
   },

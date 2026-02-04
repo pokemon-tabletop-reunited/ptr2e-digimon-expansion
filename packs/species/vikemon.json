@@ -829,9 +829,13 @@
     "habitats": [],
     "slug": "vikemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 171,
+      "connected": [
+        "zudomon",
+        "mammothmon",
+        "shakkoumon"
+      ],
       "prerequisites": []
     }
   },

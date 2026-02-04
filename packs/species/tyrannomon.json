@@ -846,9 +846,11 @@
     "habitats": [],
     "slug": "tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 133,
+      "connected": [
+        "dracomon"
+      ],
       "prerequisites": []
     }
   },

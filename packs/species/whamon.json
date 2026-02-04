@@ -854,9 +854,13 @@
     "habitats": [],
     "slug": "whamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 170,
+      "connected": [
+        "ikkakumon",
+        "seadramon",
+        "shellmon"
+      ],
       "prerequisites": []
     }
   },

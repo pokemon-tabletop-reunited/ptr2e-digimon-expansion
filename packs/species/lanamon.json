@@ -826,9 +826,11 @@
     "habitats": [],
     "slug": "lanamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 54,
+      "y": 181,
+      "connected": [
+        "gizamon"
+      ],
       "prerequisites": []
     }
   },

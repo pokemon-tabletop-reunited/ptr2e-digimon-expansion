@@ -829,10 +829,21 @@
     "habitats": [],
     "slug": "cherubimon-virtue",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 63,
+      "connected": [
+        "ex-tyrannomon",
+        "crescemon",
+        "antylamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            70
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5346.png",

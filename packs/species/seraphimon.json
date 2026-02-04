@@ -826,9 +826,12 @@
     "habitats": [],
     "slug": "seraphimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 160,
+      "y": 136,
+      "connected": [
+        "magna-angemon",
+        "flaremon"
+      ],
       "prerequisites": []
     }
   },

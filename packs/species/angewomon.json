@@ -863,10 +863,22 @@
     "habitats": [],
     "slug": "angewomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 140,
+      "connected": [
+        "reppamon",
+        "gatomon",
+        "frigimon",
+        "witchmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5224.png",

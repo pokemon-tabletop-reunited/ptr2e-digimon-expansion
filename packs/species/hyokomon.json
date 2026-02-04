@@ -20,8 +20,7 @@
       "bipedal",
       "winged",
       "awkward-flyer",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5035,
     "stats": {
@@ -809,11 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "jet-strike",
-          "level": 5,
-          "gen": null
-        },
-        {
           "name": "bullet-punch",
           "level": 3,
           "gen": null
@@ -821,6 +815,11 @@
         {
           "name": "false-swipe",
           "level": 4,
+          "gen": null
+        },
+        {
+          "name": "jet-strike",
+          "level": 5,
           "gen": null
         },
         {
@@ -861,7 +860,14 @@
       "connected": [
         "yokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5035.png",

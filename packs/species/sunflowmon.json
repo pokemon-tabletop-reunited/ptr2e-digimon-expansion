@@ -843,9 +843,14 @@
     "habitats": [],
     "slug": "sunflowmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 61,
+      "y": 70,
+      "connected": [
+        "floramon",
+        "lalamon",
+        "renamon",
+        "tentomon"
+      ],
       "prerequisites": []
     }
   },

@@ -859,9 +859,14 @@
     "habitats": [],
     "slug": "shogun-gekomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 111,
+      "y": 156,
+      "connected": [
+        "gawappamon",
+        "vegiemon",
+        "gekomon",
+        "raremon"
+      ],
       "prerequisites": []
     }
   },

@@ -845,9 +845,13 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 59,
+      "y": 69,
+      "connected": [
+        "tentomon",
+        "dokunemon",
+        "lalamon"
+      ],
       "prerequisites": []
     },
     "slug": "yanmamon"

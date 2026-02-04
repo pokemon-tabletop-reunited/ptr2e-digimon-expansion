@@ -828,9 +828,14 @@
     "habitats": [],
     "slug": "metal-etemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 147,
+      "connected": [
+        "etemon",
+        "garbagemon",
+        "black-king-nunemon",
+        "meteormon"
+      ],
       "prerequisites": []
     }
   },

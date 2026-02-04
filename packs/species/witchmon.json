@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "hover",
-      "arcane"
+      "arcane",
+      "underdog"
     ],
     "number": 5135,
     "stats": {
@@ -856,10 +857,18 @@
     },
     "eggGroups": [],
     "genderRatio": -1,
-    "habitats": []
+    "habitats": [],
+    "slug": "witchmon",
+    "node": {
+      "x": 55,
+      "y": 20,
+      "connected": [
+        "impmon"
+      ],
+      "prerequisites": []
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",
   "effects": [],
-  "flags": {},
   "_id": "Cmq7pt83B2cGcPgv"
 }
