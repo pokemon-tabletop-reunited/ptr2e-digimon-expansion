@@ -824,9 +824,10 @@
     "slug": "imperialdramon",
     "node": {
       "x": 160,
-      "y": 100,
+      "y": 98,
       "connected": [
-        "paildramon"
+        "paildramon",
+        "dinobeemon"
       ],
       "prerequisites": [
         {
