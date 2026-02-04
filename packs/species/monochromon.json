@@ -17,8 +17,7 @@
       "digimon",
       "data",
       "champion",
-      "horned",
-      "underdog"
+      "horned"
     ],
     "number": 5158,
     "stats": {
@@ -851,7 +850,14 @@
         "ryudamon",
         "snow-goblimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5158.png",

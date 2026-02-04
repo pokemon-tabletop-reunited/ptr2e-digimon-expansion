@@ -857,7 +857,9 @@
       "connected": [
         "lobomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:beast-spirit-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5213.png",

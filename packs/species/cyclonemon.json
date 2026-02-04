@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "semi-bipedal",
-      "horned",
-      "underdog"
+      "horned"
     ],
     "number": 5173,
     "stats": {
@@ -852,7 +851,14 @@
         "gizamon",
         "monodramon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5173.png",

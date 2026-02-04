@@ -18,8 +18,7 @@
       "data",
       "rookie",
       "bipedal",
-      "deep-breath",
-      "underdog"
+      "deep-breath"
     ],
     "number": 5060,
     "stats": {
@@ -804,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "ice-hammer",
-          "level": 20,
-          "gen": null
-        },
-        {
           "name": "confide",
           "level": 3,
           "gen": null
@@ -842,6 +836,11 @@
           "name": "feint",
           "level": 17,
           "gen": null
+        },
+        {
+          "name": "ice-hammer",
+          "level": 20,
+          "gen": null
         }
       ],
       "tutor": []
@@ -856,7 +855,14 @@
       "connected": [
         "yokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            8
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5060.png",

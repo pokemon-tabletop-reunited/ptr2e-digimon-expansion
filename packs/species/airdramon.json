@@ -18,8 +18,7 @@
       "vaccine",
       "champion",
       "serpentine",
-      "winged",
-      "underdog"
+      "winged"
     ],
     "number": 5101,
     "stats": {
@@ -857,7 +856,14 @@
         "muchomon",
         "kudamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5101.png",

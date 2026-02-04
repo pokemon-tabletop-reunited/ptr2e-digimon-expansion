@@ -833,7 +833,11 @@
         "metal-garurumon",
         "omnimon-zwart"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:metal-garurumon-dna",
+        "equipment:war-greymon-dna",
+        "species:omnimon-zwart"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5450.png",

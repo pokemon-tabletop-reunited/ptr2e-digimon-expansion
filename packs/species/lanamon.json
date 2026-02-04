@@ -831,7 +831,9 @@
       "connected": [
         "gizamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:human-spirit-of-water"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5210.png",

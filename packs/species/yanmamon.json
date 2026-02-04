@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "tail-glow",
-          "level": 30,
-          "gen": null
-        },
-        {
           "name": "charge",
           "level": 22,
           "gen": null
@@ -821,6 +816,11 @@
         {
           "name": "echo-chirp",
           "level": 27,
+          "gen": null
+        },
+        {
+          "name": "tail-glow",
+          "level": 30,
           "gen": null
         },
         {
@@ -852,7 +852,14 @@
         "dokunemon",
         "lalamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     },
     "slug": "yanmamon"
   },
