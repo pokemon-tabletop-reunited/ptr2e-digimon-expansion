@@ -840,7 +840,7 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "dracmon-ts",
+    "slug": "dracmon",
     "node": {
       "x": 33,
       "y": 11,
@@ -871,7 +871,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.KDfjIv5STQco0KrW",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:dracmon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:dracmon"
             ],
             "allowDuplicate": false,
             "alterations": [],

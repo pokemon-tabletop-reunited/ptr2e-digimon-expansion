@@ -847,13 +847,13 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lekismon-ts",
+    "slug": "lekismon",
     "node": {
       "x": 65,
       "y": 138,
       "connected": [
         "terriermon",
-        "lunamon-ts",
+        "lunamon",
         "renamon"
       ],
       "prerequisites": [
@@ -880,7 +880,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.S9zpXGy1Y0n6IETl",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:lekismon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:lekismon"
             ],
             "allowDuplicate": false,
             "alterations": [],

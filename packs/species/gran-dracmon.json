@@ -818,12 +818,12 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "gran-dracmon-ts",
+    "slug": "gran-dracmon",
     "node": {
       "x": 157,
       "y": 17,
       "connected": [
-        "matadormon-ts",
+        "matadormon",
         "kimeramon"
       ],
       "prerequisites": [
@@ -850,7 +850,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.4eH6XQZynvoPQScF",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:gran-dracmon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:gran-dracmon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -870,7 +870,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.KDfjIv5STQco0KrW",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:gran-dracmon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:gran-dracmon"
             ],
             "allowDuplicate": false,
             "alterations": [],

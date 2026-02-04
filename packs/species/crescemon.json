@@ -859,12 +859,12 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "crescemon-ts",
+    "slug": "crescemon",
     "node": {
       "x": 115,
       "y": 139,
       "connected": [
-        "lekismon-ts",
+        "lekismon",
         "frigimon",
         "ice-devimon",
         "icemon"
@@ -893,7 +893,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.AourPTTtoPUg4FD4",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:crescemon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:crescemon"
             ],
             "allowDuplicate": false,
             "alterations": [],
