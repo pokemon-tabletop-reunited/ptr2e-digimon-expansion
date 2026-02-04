@@ -828,9 +828,12 @@
     "habitats": [],
     "slug": "ulforce-veedramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 97,
+      "connected": [
+        "aeroveedramon",
+        "cyberdramon"
+      ],
       "prerequisites": []
     }
   },

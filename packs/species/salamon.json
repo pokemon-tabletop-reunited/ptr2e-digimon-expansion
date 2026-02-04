@@ -869,9 +869,11 @@
     "habitats": [],
     "slug": "salamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 34,
+      "y": 103,
+      "connected": [
+        "nyaromon"
+      ],
       "prerequisites": []
     }
   },

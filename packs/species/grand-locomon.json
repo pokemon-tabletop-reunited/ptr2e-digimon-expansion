@@ -821,10 +821,21 @@
     "habitats": [],
     "slug": "grand-locomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 26,
+      "connected": [
+        "big-mamemon",
+        "locomon",
+        "master-blimpmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5373.png",

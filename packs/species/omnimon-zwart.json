@@ -38,8 +38,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 3.3,
+      "weight": 200
     },
     "diet": [],
     "abilities": {
@@ -826,9 +826,13 @@
     "habitats": [],
     "slug": "omnimon-zwart",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 244,
+      "y": 10,
+      "connected": [
+        "omnimon",
+        "black-war-greymon",
+        "metal-garurumon-black"
+      ],
       "prerequisites": []
     }
   },

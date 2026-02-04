@@ -820,10 +820,21 @@
     "habitats": [],
     "slug": "beel-starmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 88,
+      "connected": [
+        "lady-devimon",
+        "dark-super-starmon",
+        "silphymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5424.png",

@@ -828,10 +828,21 @@
     "habitats": [],
     "slug": "gryphonmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 155,
+      "y": 64,
+      "connected": [
+        "hippo-gryphonmon",
+        "garudamon",
+        "butenmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5374.png",

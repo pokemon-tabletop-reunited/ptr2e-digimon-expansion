@@ -820,9 +820,11 @@
     "habitats": [],
     "slug": "pegasusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 48,
+      "y": 151,
+      "connected": [
+        "patamon"
+      ],
       "prerequisites": []
     }
   },

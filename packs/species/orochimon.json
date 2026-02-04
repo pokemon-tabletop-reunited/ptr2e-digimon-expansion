@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "dragonic-raze",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "hydra-strike",
           "level": 1,
           "gen": null
@@ -843,6 +838,11 @@
           "name": "fusillade",
           "level": 60,
           "gen": null
+        },
+        {
+          "name": "dragonic-raze",
+          "level": 62,
+          "gen": null
         }
       ],
       "tutor": []
@@ -852,9 +852,13 @@
     "habitats": [],
     "slug": "orochimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 81,
+      "connected": [
+        "deltamon",
+        "shell-nunemon",
+        "kurisarimon"
+      ],
       "prerequisites": []
     }
   },

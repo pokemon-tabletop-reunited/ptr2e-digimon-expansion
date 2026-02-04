@@ -829,9 +829,12 @@
     "habitats": [],
     "slug": "lotosmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 155,
+      "y": 62,
+      "connected": [
+        "arukenimon",
+        "pumpkinmon"
+      ],
       "prerequisites": []
     }
   },

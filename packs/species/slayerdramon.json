@@ -818,9 +818,12 @@
     "habitats": [],
     "slug": "slayerdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 75,
+      "connected": [
+        "wingdramon",
+        "aero-veedramon"
+      ],
       "prerequisites": []
     }
   },

@@ -852,9 +852,14 @@
     "habitats": [],
     "slug": "triceramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 113,
+      "y": 114,
+      "connected": [
+        "minotarumon",
+        "monochromon",
+        "drimogemon",
+        "tuskmon"
+      ],
       "prerequisites": []
     }
   },

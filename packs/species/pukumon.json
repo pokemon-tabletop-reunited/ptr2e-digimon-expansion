@@ -821,9 +821,13 @@
     "habitats": [],
     "slug": "pukumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 159,
+      "y": 178,
+      "connected": [
+        "scorpiomon",
+        "shogun-gekomon",
+        "mamemon"
+      ],
       "prerequisites": []
     }
   },

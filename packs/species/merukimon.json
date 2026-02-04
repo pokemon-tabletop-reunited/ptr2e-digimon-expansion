@@ -825,9 +825,12 @@
     "habitats": [],
     "slug": "merukimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 140,
+      "connected": [
+        "pandamon",
+        "were-garurumon"
+      ],
       "prerequisites": []
     }
   },

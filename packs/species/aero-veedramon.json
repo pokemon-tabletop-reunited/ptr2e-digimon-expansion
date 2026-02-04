@@ -855,10 +855,21 @@
     "habitats": [],
     "slug": "aero-veedramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 89,
+      "connected": [
+        "airdramon",
+        "coredramon-blue",
+        "veedramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            42
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5222.png",

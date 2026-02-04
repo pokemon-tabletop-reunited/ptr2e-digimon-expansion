@@ -826,10 +826,20 @@
     "habitats": [],
     "slug": "crusadermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 155,
+      "y": 112,
+      "connected": [
+        "crescemon-ts",
+        "knightmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5438.png",

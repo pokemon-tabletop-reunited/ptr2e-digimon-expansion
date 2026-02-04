@@ -844,9 +844,14 @@
     "habitats": [],
     "slug": "peckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 66,
+      "y": 65,
+      "connected": [
+        "hyokomon",
+        "falcomon",
+        "penmon",
+        "muchomon"
+      ],
       "prerequisites": []
     }
   },

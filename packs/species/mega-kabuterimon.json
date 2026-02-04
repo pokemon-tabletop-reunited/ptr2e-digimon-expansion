@@ -858,9 +858,13 @@
     "habitats": [],
     "slug": "mega-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 109,
+      "y": 70,
+      "connected": [
+        "kabuterimon",
+        "flymon",
+        "dokugumon"
+      ],
       "prerequisites": []
     }
   },

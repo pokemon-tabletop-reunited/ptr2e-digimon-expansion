@@ -851,9 +851,14 @@
     "habitats": [],
     "slug": "megadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 112,
+      "y": 122,
+      "connected": [
+        "greymon",
+        "mekanorimon",
+        "flymon",
+        "airdramon"
+      ],
       "prerequisites": []
     }
   },

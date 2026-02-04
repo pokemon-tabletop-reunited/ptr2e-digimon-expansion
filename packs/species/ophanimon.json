@@ -829,9 +829,12 @@
     "habitats": [],
     "slug": "ophanimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 157,
+      "y": 135,
+      "connected": [
+        "angewomon",
+        "piximon"
+      ],
       "prerequisites": []
     }
   },

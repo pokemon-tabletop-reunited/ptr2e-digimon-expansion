@@ -827,10 +827,21 @@
     "habitats": [],
     "slug": "eaglemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 52,
+      "connected": [
+        "hippo-gryphonmon",
+        "chirinmon",
+        "parrotmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            69
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5343.png",

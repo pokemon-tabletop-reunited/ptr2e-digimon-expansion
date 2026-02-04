@@ -847,9 +847,13 @@
     "habitats": [],
     "slug": "raptordramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 63,
+      "y": 43,
+      "connected": [
+        "monodramon",
+        "dorumon",
+        "agumon"
+      ],
       "prerequisites": []
     }
   },

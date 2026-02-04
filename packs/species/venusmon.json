@@ -820,9 +820,12 @@
     "habitats": [],
     "slug": "venusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 161,
+      "y": 149,
+      "connected": [
+        "taomon",
+        "piximon"
+      ],
       "prerequisites": []
     }
   },

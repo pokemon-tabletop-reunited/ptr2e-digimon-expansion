@@ -871,9 +871,11 @@
     "habitats": [],
     "slug": "terriermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 37,
+      "y": 154,
+      "connected": [
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

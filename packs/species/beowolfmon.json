@@ -815,10 +815,19 @@
     "habitats": [],
     "slug": "beowolfmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 107,
+      "connected": [
+        "kendo-garurumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5330.png",
