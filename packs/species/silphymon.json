@@ -862,7 +862,10 @@
         "aquilamon",
         "gatomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:aquilamon-dna",
+        "equipment:gatomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5325.png",
