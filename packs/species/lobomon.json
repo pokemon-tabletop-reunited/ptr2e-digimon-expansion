@@ -849,7 +849,9 @@
       "connected": [
         "kudamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:human-spirit-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5209.png",

@@ -798,11 +798,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "surf",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "snore",
           "level": 22,
           "gen": null
@@ -815,6 +810,11 @@
         {
           "name": "metal-sound",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "surf",
+          "level": 31,
           "gen": null
         },
         {
@@ -852,7 +852,14 @@
         "kamemon",
         "crabmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5467.png",

@@ -862,7 +862,9 @@
       "connected": [
         "veemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-courage"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5204.png",

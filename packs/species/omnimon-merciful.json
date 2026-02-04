@@ -830,8 +830,11 @@
       "connected": [
         "omnimon"
       ],
-      "prerequisites": []
-    }
+      "prerequisites": [
+        "GM Permission"
+      ]
+    },
+    "slug": "omnimon-merciful"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5495.png",
   "effects": [
@@ -918,6 +921,5 @@
       }
     }
   ],
-  "flags": {},
   "_id": "dScFgU2bOaBKb3zJ"
 }

@@ -828,8 +828,13 @@
         "cres-garurumon",
         "omnimon-alter-b"
       ],
-      "prerequisites": []
-    }
+      "prerequisites": [
+        "equipment:blitz-greymon-dna",
+        "equipment:cres-garurumon-dna",
+        "species:omnimon-alter-b"
+      ]
+    },
+    "slug": "omnimon-alter-s"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5487.png",
   "effects": [
@@ -916,6 +921,5 @@
       }
     }
   ],
-  "flags": {},
   "_id": "UwH6yBTYIsfOMtkD"
 }

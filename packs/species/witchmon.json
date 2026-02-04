@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "hover",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
     "number": 5135,
     "stats": {
@@ -813,11 +812,6 @@
           "gen": null
         },
         {
-          "name": "secret-force",
-          "level": 29,
-          "gen": null
-        },
-        {
           "name": "hyperfocus",
           "level": 22,
           "gen": null
@@ -835,6 +829,11 @@
         {
           "name": "air-cutter",
           "level": 27,
+          "gen": null
+        },
+        {
+          "name": "secret-force",
+          "level": 29,
           "gen": null
         },
         {
@@ -865,7 +864,14 @@
       "connected": [
         "impmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",

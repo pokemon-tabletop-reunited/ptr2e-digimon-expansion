@@ -825,7 +825,9 @@
       "connected": [
         "hawkmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-sincerity"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5201.png",

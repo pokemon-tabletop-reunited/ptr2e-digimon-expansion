@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "legless",
-      "reach",
-      "underdog"
+      "reach"
     ],
     "number": 5188,
     "stats": {
@@ -849,7 +848,14 @@
         "floramon",
         "betamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            17
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5188.png",

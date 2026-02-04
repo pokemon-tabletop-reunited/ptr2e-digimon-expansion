@@ -823,8 +823,17 @@
     "node": {
       "x": 244,
       "y": 80,
-      "connected": [],
-      "prerequisites": []
+      "connected": [
+        "diaboromon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            101
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",

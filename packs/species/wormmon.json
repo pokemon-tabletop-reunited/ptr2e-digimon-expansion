@@ -19,8 +19,7 @@
       "digimon",
       "many-legged",
       "wallclimber",
-      "jump-2",
-      "underdog"
+      "jump-2"
     ],
     "number": 5094,
     "stats": {
@@ -149,7 +148,14 @@
       "connected": [
         "motimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5094.png",

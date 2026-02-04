@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
     "number": 5134,
     "stats": {
@@ -856,11 +855,18 @@
       "x": 57,
       "y": 14,
       "connected": [
-        "dracmon-ts",
+        "dracmon",
         "impmon",
         "biyomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5134.png",
