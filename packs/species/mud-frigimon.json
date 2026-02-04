@@ -18,8 +18,7 @@
       "data",
       "champion",
       "bipedal",
-      "mud-runner",
-      "underdog"
+      "mud-runner"
     ],
     "number": 5148,
     "stats": {
@@ -848,7 +847,14 @@
         "lopmon",
         "gotsumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5148.png",

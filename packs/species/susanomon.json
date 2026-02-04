@@ -828,7 +828,10 @@
         "kaiser-greymon",
         "magna-garurumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:kaiser-greymon-dna",
+        "equipment:magna-garurumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5455.png",

@@ -865,7 +865,10 @@
         "angemon",
         "ankylomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:angemon-dna",
+        "equipment:ankylomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5324.png",
