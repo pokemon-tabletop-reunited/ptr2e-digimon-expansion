@@ -844,7 +844,7 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "lunamon-ts",
+    "slug": "lunamon",
     "node": {
       "x": 34,
       "y": 100,
@@ -875,7 +875,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.9VCh8peHmRVg2Va1",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:lunamon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:lunamon"
             ],
             "allowDuplicate": false,
             "alterations": [],

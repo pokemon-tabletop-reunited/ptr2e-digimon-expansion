@@ -829,7 +829,7 @@
       "x": 155,
       "y": 112,
       "connected": [
-        "crescemon-ts",
+        "crescemon",
         "knightmon"
       ],
       "prerequisites": [

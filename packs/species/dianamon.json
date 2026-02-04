@@ -823,12 +823,12 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "dianamon-ts",
+    "slug": "dianamon",
     "node": {
       "x": 159,
       "y": 128,
       "connected": [
-        "crescemon-ts",
+        "crescemon",
         "antylamon"
       ],
       "prerequisites": [
@@ -855,7 +855,7 @@
             "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.XJWNR9wnFlarJC5V",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:dianamon-ts"
+              "item:ptr2e-digimon-expansion.digimonSpecies:dianamon"
             ],
             "allowDuplicate": false,
             "alterations": [],
