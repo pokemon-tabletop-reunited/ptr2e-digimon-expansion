@@ -1,0 +1,154 @@
+{
+  "folder": null,
+  "name": "Felt Made",
+  "type": "effect",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "felt-made",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Neo"
+      ],
+      "notes": ""
+    },
+    "description": "<p>The Afflicted creature has +4 default EVA Stages, +1 default DEF, SPDEF, and SPD Stage, and +20% RES. Each time the user is hit by a Physical- or Special-Category Attack, the Afflicted creature has a 50% chance of losing -1 EVA Stage for 3 Activations. When this effect expires, the user loses -1 DEF, SPDEF, and SPD Stage for 5 Activations and is @Affliction[delay 50].</p>",
+    "traits": [
+      "minor-affliction"
+    ]
+  },
+  "img": "icons/commodities/leather/fur-simple-brown.webp",
+  "effects": [
+    {
+      "name": "Felt Made",
+      "type": "affliction",
+      "_id": "rIlMJsCzEzymNhtX",
+      "img": "icons/commodities/leather/fur-simple-brown.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "basic",
+            "key": "system.battleStats.evasion.stage",
+            "value": 4,
+            "predicate": [],
+            "label": "Felt Made (EVA)",
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.attributes.def.stage",
+            "value": 1,
+            "predicate": [],
+            "label": "Felt Made (DEF)",
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.attributes.spd.stage",
+            "value": 1,
+            "predicate": [],
+            "label": "Felt Made (SPDEF)",
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.attributes.spe.stage",
+            "value": 1,
+            "predicate": [],
+            "label": "Felt Made (SPE)",
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.modifiers.effectResistance",
+            "value": 20,
+            "predicate": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "damaging-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.hIE6W3Y5E9CyHiTy",
+            "predicate": [],
+            "affects": "defensive",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 3
+              }
+            ],
+            "chance": 50,
+            "isFixedChance": false,
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage"
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "turns": 5,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770771299368,
+    "modifiedTime": 1770771393270,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "qgouM0nn36vYhz2D",
+  "sort": 200000
+}
