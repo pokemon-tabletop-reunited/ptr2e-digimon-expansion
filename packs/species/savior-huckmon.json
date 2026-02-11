@@ -18,7 +18,9 @@
       "data",
       "ultimate",
       "bladed",
-      "bipedal"
+      "bipedal",
+      "horned",
+      "tailed"
     ],
     "number": 5262,
     "stats": {
@@ -30,7 +32,8 @@
       "spe": 110
     },
     "types": [
-      "steel"
+      "steel",
+      "fighting"
     ],
     "size": {
       "category": "medium",
@@ -859,7 +862,14 @@
         "bao-huckmon",
         "firamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5262.png",

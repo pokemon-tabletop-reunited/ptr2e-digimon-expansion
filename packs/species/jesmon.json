@@ -21,7 +21,8 @@
       "royal-knight",
       "bladed",
       "horned",
-      "natural-steel"
+      "natural-steel",
+      "tailed"
     ],
     "number": 5377,
     "stats": {
@@ -832,7 +833,14 @@
         "savior-huckmon",
         "garudamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5377.png",
