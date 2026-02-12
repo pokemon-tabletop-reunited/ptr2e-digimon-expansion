@@ -857,9 +857,17 @@
       "connected": [
         "bakemon",
         "hyogamon",
-        "snimon"
+        "snimon",
+        "saberdramon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5308.png",
