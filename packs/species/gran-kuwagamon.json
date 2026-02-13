@@ -817,13 +817,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "dimension-scissor",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
