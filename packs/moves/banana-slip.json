@@ -21,28 +21,30 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/normal_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "priority-30"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 9
+          "powerPoints": 6
         },
         "types": [
           "normal"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack has an 80% chance to inflict @Affliction[frozen 1].</p>",
+        "description": "<p>Effect: On hit, the target loses -2 SPD Stages for 5 Activations, and has a 30% of gaining @Affliction[delay 60].</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 3,
           "unit": "m"
         },
-        "power": 115,
-        "accuracy": 100
+        "power": 40,
+        "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "C",
+    "slug": "banana-slip"
   },
   "img": "systems/ptr2e/img/svg/normal_icon.svg",
   "effects": [
@@ -56,12 +58,31 @@
           {
             "type": "roll-effect",
             "key": "banana-slip-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
+            "value": "Compendium.ptr2e.core-effects.Item.9FlxAAlUW2PrKOd0",
             "predicate": [],
-            "chance": 80,
+            "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "banana-slip-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.amount",
+                "value": -60
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false
@@ -95,13 +116,13 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771263095563
       }
     }
   ],
-  "flags": {},
   "_id": "3EUltc3TxMrl5X5q"
 }

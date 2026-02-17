@@ -26,7 +26,7 @@
         ],
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 6,
           "unit": "m"
         },
         "cost": {
@@ -37,10 +37,10 @@
           "fire"
         ],
         "category": "physical",
-        "power": 85,
+        "power": 100,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance each to inflict @Affliction[poison 5] to the target, and +1 Attack Stage for 5 Activations to the user.</p>"
+        "description": "<p>Effect: On hit, the target has a 10% chance of gaining @Affliction[poison 5].</p>"
       }
     ],
     "grade": "C",
@@ -63,25 +63,11 @@
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "exhaust-flame-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
-            "predicate": [],
-            "chance": 10,
-            "affects": "self",
-            "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
+            "ignored": false
           }
         ],
         "slug": null,
@@ -108,16 +94,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1771287134013,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
         "exportSource": null
       }
     }

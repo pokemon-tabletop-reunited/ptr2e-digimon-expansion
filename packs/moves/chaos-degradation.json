@@ -19,31 +19,33 @@
         "name": "Chaos Degradation",
         "slug": "chaos-degradation",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/shadow_icon.svg",
+        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "flinch-40"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 11
         },
         "types": [
-          "shadow"
+          "untyped"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack deals @Tick[-6].</p>",
+        "description": "<p>Effect: Oh hit, all valid targets lose @Tick[-6] and @Tick[-2 pp].</p>",
         "range": {
           "target": "wide-line",
-          "distance": 10,
+          "distance": 18,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "chaos-degradation"
   },
-  "img": "systems/ptr2e/img/svg/shadow_icon.svg",
+  "img": "systems/ptr2e/img/svg/untyped_icon.svg",
   "effects": [
     {
       "name": "Chaos Degradation",
@@ -57,7 +59,7 @@
             "key": "chaos-degradation-attack",
             "value": "Compendium.ptr2e.core-effects.Item.4DlXFTVooz07YcDm",
             "predicate": [],
-            "chance": 10,
+            "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
@@ -65,6 +67,25 @@
                 "mode": 5,
                 "property": "system.changes.0.value",
                 "value": -6
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "chaos-degradation-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.LHUTMAC0nCJWDRFt",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.changes.0.value",
+                "value": -2
               }
             ],
             "dontMerge": false,
@@ -100,13 +121,13 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771268422316
       }
     }
   ],
-  "flags": {},
   "_id": "8wg1P1YK1fkz149W"
 }

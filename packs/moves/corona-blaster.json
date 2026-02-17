@@ -22,8 +22,8 @@
         "img": "systems/ptr2e/img/svg/fire_icon.svg",
         "traits": [
           "ray",
-          "5-strike",
-          "digimon"
+          "digimon",
+          "6-strike"
         ],
         "cost": {
           "activation": "complex",
@@ -34,14 +34,14 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack has a 15% chance to apply @UUID[Compendium.ptr2e.core-effects.wA5oCsgHmZLcHHSn]{-1 Accuracy Stage for 5 activations}</p>",
+        "description": "<p>Effect: On hit, the target has a 15% chance to lose -1 ACC Stage for 5 Activations.</p>",
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 12,
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 95
       }
     ],
     "grade": "B",
@@ -94,7 +94,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.3.3.beta",
         "lastModifiedBy": null

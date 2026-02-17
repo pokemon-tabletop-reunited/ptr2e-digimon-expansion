@@ -23,7 +23,9 @@
         "traits": [
           "danger-close",
           "friendly",
-          "digimon"
+          "digimon",
+          "pulse",
+          "flinch-40"
         ],
         "cost": {
           "activation": "complex",
@@ -34,13 +36,14 @@
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>On resolution, this attack cleanses all @Trait[major-affliction]s and @Trait[minor-affliction]s from the user.</p>",
+        "description": "<p>On resolution, this attack cleanses all @Trait[major-affliction]s, @Trait[minor-affliction]s, and negative @Trait[stage-change] effects from the user.</p>",
         "range": {
           "target": "emanation",
-          "distance": 10,
+          "distance": 4,
           "unit": "m"
         },
-        "power": 110
+        "power": 110,
+        "accuracy": 100
       }
     ],
     "grade": "S",

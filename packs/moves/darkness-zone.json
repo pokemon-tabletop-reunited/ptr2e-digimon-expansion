@@ -22,11 +22,12 @@
         "img": "systems/ptr2e/img/svg/shadow_icon.svg",
         "traits": [
           "digimon",
-          "summon"
+          "summon",
+          "flinch-90"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 20
+          "powerPoints": 16
         },
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.akIZVqFP7eWahuAT",
         "types": [
@@ -34,17 +35,17 @@
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>This attack summons the Darkness Zone. Darkness Zone expires when the user is @Affliction[fainted]. Whilst the Darkness Zone is active, creatures take @Tick[-4] each time they end an activation.</p>",
+        "description": "<p>Effect: The user creates a Darkness Zone Summon@UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.akIZVqFP7eWahuAT]{Darkness Zone (Summon)}. This Summon only expires if when the user gains @Affliction[fainted]. While this Summon is Active, creatures lose @Tick[-4] at the end of each of their Activations.</p>",
         "range": {
           "target": "field",
           "unit": "m"
         }
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "darkness-zone"
   },
   "img": "systems/ptr2e/img/svg/shadow_icon.svg",
   "effects": [],
-  "flags": {},
   "_id": "XreDSYRiVgSrXYck"
 }

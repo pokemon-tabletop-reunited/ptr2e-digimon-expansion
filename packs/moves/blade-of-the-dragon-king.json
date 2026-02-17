@@ -19,7 +19,7 @@
         "name": "Blade of the Dragon King",
         "slug": "blade-of-the-dragon-king",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "traits": [
           "contact",
           "sharp",
@@ -31,7 +31,7 @@
           "powerPoints": 8
         },
         "types": [
-          "fairy"
+          "steel"
         ],
         "category": "physical",
         "predicate": [],
@@ -41,13 +41,83 @@
           "unit": "m"
         },
         "power": 150,
-        "accuracy": 100
+        "accuracy": 100,
+        "description": "<p>Effect: This Attack is one-step more effective against and deals +30% more damage to @Trait[royal-knight] creatures.</p>"
       }
     ],
     "grade": "S",
     "slug": "blade-of-the-dragon-king"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
+  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "effects": [
+    {
+      "name": "Blade of the Dragon King",
+      "type": "passive",
+      "_id": "3qfzKD9q2Gu6P8D5",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "blade-of-the-dragon-king-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:royal-knight"
+            ],
+            "label": "Vs Royal Knight",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "blade-of-the-dragon-king-attack-damage",
+            "value": 30,
+            "predicate": [
+              "target:trait:royal-knight"
+            ],
+            "label": "Vs Royal Knight",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771265078112,
+        "modifiedTime": 1771287897869,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "tBWpFO33y2Zca2zk"
 }

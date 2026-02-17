@@ -23,30 +23,86 @@
         "traits": [
           "contact",
           "drain-1-2",
-          "digimon"
+          "digimon",
+          "flinch-15"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5
+          "powerPoints": 6
         },
         "types": [
           "ghost"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack inflicts 100 fixed damage to the target. The amount of health recovered on a successful hit is thus always 50.</p>",
+        "description": "<p>Effect: This Attack deals additional damage equal to half of the user's level.</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 90,
+        "power": 85
       }
     ],
     "grade": "C",
     "slug": "death-claw"
   },
   "img": "systems/ptr2e/img/svg/ghost_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Death Claw",
+      "type": "passive",
+      "_id": "S4j20jKRmSh4HwJS",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "death-claw-attack-damage-flat",
+            "value": "floor(@actor.system.advancement.level * 0.5)",
+            "predicate": [],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771277997499,
+        "modifiedTime": 1771278017754,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "hNyf1CTQOwW8PDEs"
 }

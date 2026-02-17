@@ -1,0 +1,53 @@
+{
+  "name": "Blindead",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Blindead",
+        "slug": "blindead",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "traits": [
+          "digimon",
+          "ray",
+          "crit-1",
+          "flinch-30"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 200,
+        "accuracy": 90
+      }
+    ],
+    "grade": "A",
+    "slug": "blindead"
+  },
+  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "effects": [],
+  "_id": "L0vdtG7gXNBThHUe"
+}

@@ -22,8 +22,8 @@
         "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "traits": [
           "digimon",
-          "double-strike",
-          "missile"
+          "missile",
+          "3-strike"
         ],
         "cost": {
           "activation": "complex",
@@ -36,11 +36,11 @@
         "predicate": [],
         "range": {
           "target": "cone",
-          "distance": 4,
+          "distance": 6,
           "unit": "m"
         },
-        "power": 90,
-        "accuracy": 100
+        "power": 65,
+        "accuracy": 90
       }
     ],
     "grade": "S",

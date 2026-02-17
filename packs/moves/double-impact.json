@@ -19,34 +19,37 @@
         "name": "Double Impact",
         "slug": "double-impact",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "traits": [
           "digimon",
-          "10-strike",
-          "missile"
+          "missile",
+          "8-strike",
+          "firearm",
+          "crit-1"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 9
+          "powerPoints": 7
         },
         "types": [
-          "dark"
+          "steel"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On hit, the target is inflicted with @Affliction[stunted 5] and @Affliction[bleed 5]. On resolution, even if the attack missed, the target gains @Affliction[fear 5].</p>",
+        "description": "<p>Effect: On hit, the target gains @Affliction[stunted 5] and @Affliction[bleed 5].</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 8,
           "unit": "m"
         },
-        "power": 20,
+        "power": 35,
         "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "double-impact"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "systems/ptr2e/img/svg/steel_icon.svg",
   "effects": [
     {
       "name": "Double Impact",
@@ -80,19 +83,6 @@
             "dontMerge": false,
             "mode": 2,
             "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "double-impact-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.fearconditioitem",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
           }
         ],
         "slug": null,
@@ -114,18 +104,22 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771285217670
       }
     }
   ],
-  "flags": {},
   "_id": "GPPtKRXcQYui6301"
 }

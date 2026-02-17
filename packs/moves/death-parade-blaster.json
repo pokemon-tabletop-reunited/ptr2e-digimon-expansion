@@ -1,0 +1,53 @@
+{
+  "name": "Death Parade Blaster",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Death Parade Blaster",
+        "slug": "death-parade-blaster",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+        "traits": [
+          "missile",
+          "digimon",
+          "4-strike",
+          "flinch-25"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "untyped"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "range": {
+          "target": "wide-line",
+          "distance": 14,
+          "unit": "m"
+        },
+        "power": 35,
+        "accuracy": 85
+      }
+    ],
+    "grade": "B",
+    "slug": "death-parade-blaster"
+  },
+  "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+  "effects": [],
+  "_id": "4D9vXLCSUXstld3k"
+}

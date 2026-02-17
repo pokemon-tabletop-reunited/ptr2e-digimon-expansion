@@ -24,14 +24,15 @@
           "digimon",
           "contact",
           "horn",
-          "pierce",
           "dash",
-          "5-strike",
-          "crit-2"
+          "sharp",
+          "hammer",
+          "crit-1",
+          "8-strike"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 9
+          "powerPoints": 8
         },
         "types": [
           "ground"
@@ -43,14 +44,14 @@
           "distance": 1,
           "unit": "m"
         },
-        "power": 25,
-        "accuracy": 100
+        "power": 30,
+        "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "destroyed-rush"
   },
   "img": "systems/ptr2e/img/svg/ground_icon.svg",
   "effects": [],
-  "flags": {},
   "_id": "misUQDYyErQ6OAvv"
 }

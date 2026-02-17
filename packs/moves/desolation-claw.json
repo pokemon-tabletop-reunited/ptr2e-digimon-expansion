@@ -21,26 +21,26 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
-          "contact",
-          "digimon"
+          "digimon",
+          "flinch-20"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 5
         },
         "types": [
           "dragon"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to apply @Affliction[perish 3].</p>",
+        "description": "<p>Effect: This Attack deals +50% more damage to @Trait[data] creatures.</p>",
         "range": {
-          "target": "enemy",
-          "distance": 1,
+          "target": "creature",
+          "distance": 6,
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 95
       }
     ],
     "grade": "A",
@@ -56,23 +56,15 @@
       "system": {
         "changes": [
           {
-            "type": "roll-effect",
-            "key": "desolation-claw-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
+            "type": "flat-modifier",
+            "key": "desolation-claw-damage-flat",
+            "value": 50,
+            "predicate": [
+              "target:trait:data"
             ],
-            "dontMerge": false,
             "mode": 2,
             "ignored": false,
-            "isFixedChance": false
+            "hideIfDisabled": false
           }
         ],
         "slug": null,
@@ -94,15 +86,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.4.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771278328868
       }
     }
   ],

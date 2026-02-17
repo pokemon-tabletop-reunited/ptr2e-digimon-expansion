@@ -22,14 +22,15 @@
         "img": "systems/ptr2e/img/svg/bug_icon.svg",
         "traits": [
           "double-strike",
-          "pierce",
           "contact",
           "crit-1",
-          "digimon"
+          "digimon",
+          "jaw",
+          "sharp"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5
+          "powerPoints": 4
         },
         "types": [
           "bug"
@@ -42,7 +43,8 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 95,
+        "description": "<p>Effect: If this Attack would be resisted, it deals 50% more damage.</p>"
       }
     ],
     "grade": "A",

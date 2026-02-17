@@ -23,30 +23,128 @@
         "traits": [
           "digimon",
           "sonic",
-          "pierce"
+          "flinch-20"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10
+          "powerPoints": 9
         },
         "types": [
           "psychic"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>The damage value for this attack is equal to UserLevel x 1.75<br><br>This attack inflicts @Affliction[drowsy 7] on all valid targets. If the target already has @Affliction[drowsy], instead apply @Affliction[nightmares] with the appropriate duration.</p>",
+        "description": "<p>Effect: On hit, all valid targets gain @Affliction[drowsy 7]. Valid targets that already have @Affliction[drowsy] instead gain @Affliction[nightmares 7].</p>",
         "range": {
           "target": "emanation",
           "distance": 6,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 95,
+        "power": 65
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "eternal-nightmare"
   },
   "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
-  "flags": {},
+  "effects": [
+    {
+      "name": "Eternal Nightmare",
+      "type": "passive",
+      "_id": "r84wy5htipkWbrXF",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "eternal-nightmare-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.drowsycondititem",
+            "predicate": [
+              {
+                "nor": [
+                  "effect:affliction:drowsy",
+                  "effect:affliction:nightmares"
+                ]
+              }
+            ],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "eternal-nightmare-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.nightmarescoitem",
+            "predicate": [
+              {
+                "or": [
+                  "effect:affliction:drowsy",
+                  "effect:affliction:nightmares"
+                ]
+              }
+            ],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771286753700,
+        "modifiedTime": 1771287034851,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "SK8wrizob1mlXXrh"
 }

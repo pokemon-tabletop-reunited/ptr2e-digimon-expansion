@@ -22,16 +22,17 @@
         "img": "systems/ptr2e/img/svg/electric_icon.svg",
         "traits": [
           "crit-1",
-          "digimon"
+          "digimon",
+          "pulse"
         ],
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 8,
           "unit": "m"
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 5
         },
         "types": [
           "electric"
@@ -40,7 +41,7 @@
         "power": 80,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 20% chance to inflict @Affliction[tased 5]</p>"
+        "description": "<p>Effect: On hit, the target has a 30% chance to gain @Affliction[disabled 5] (selected randomly) if the target is a @Trait[virus] creature.</p>"
       }
     ],
     "grade": "C",
@@ -58,16 +59,18 @@
           {
             "type": "roll-effect",
             "key": "electro-shocker-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.tasedconditiitem",
-            "predicate": [],
-            "chance": 20,
+            "value": "Compendium.ptr2e.core-effects.Item.disabledconditem",
+            "predicate": [
+              "target:trait:virus"
+            ],
+            "chance": 30,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "mode": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -94,16 +97,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1771286349637,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
         "exportSource": null
       }
     }

@@ -24,7 +24,10 @@
           "digimon",
           "contact",
           "grapple",
-          "jaw"
+          "jaw",
+          "crit-2",
+          "crash-1-2",
+          "flinch-20"
         ],
         "cost": {
           "activation": "complex",
@@ -35,17 +38,18 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: This attack has a 15% Fixed Chance to inflict @Affliction[perish 1].</p>",
+        "description": "<p>Effect: On hit, the target has a 20% chance of losing -1 DEF and SPDEF Stage for 7 Activations. This Attack gains +20 Accuracy while the user is @Affliction[grapple].</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
-        "power": 145,
-        "accuracy": 100
+        "power": 215,
+        "accuracy": 80
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "biting-crush"
   },
   "img": "systems/ptr2e/img/svg/water_icon.svg",
   "effects": [
@@ -57,18 +61,49 @@
       "system": {
         "changes": [
           {
+            "type": "flat-modifier",
+            "key": "biting-crush-attack-accuracy",
+            "value": 20,
+            "predicate": [
+              "effect:affliction:grapple"
+            ],
+            "label": "Biting Crush (Grapple)",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
             "type": "roll-effect",
             "key": "biting-crush-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects.Item.bdYCJcqjMNqTpJJQ",
             "predicate": [],
-            "chance": 15,
+            "chance": 20,
             "isFixedChance": true,
             "affects": "target",
             "alterations": [
               {
                 "mode": 5,
                 "property": "duration.turns",
-                "value": 1
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "biting-crush-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.qe5aLBJuwb9eYqvv",
+            "predicate": [],
+            "chance": 20,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
               }
             ],
             "dontMerge": false,
@@ -104,13 +139,13 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771264000712
       }
     }
   ],
-  "flags": {},
   "_id": "p3BLJ4Md3gXXkCZk"
 }

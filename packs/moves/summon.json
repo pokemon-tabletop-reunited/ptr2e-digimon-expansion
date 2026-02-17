@@ -21,11 +21,13 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "arcane",
+          "flinch-20"
         ],
         "range": {
           "target": "creature",
-          "distance": 5,
+          "distance": 6,
           "unit": "m"
         },
         "cost": {
@@ -33,12 +35,14 @@
           "powerPoints": 4
         },
         "types": [
-          "dark"
+          "fire",
+          "ice"
         ],
         "category": "special",
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>Effect: This attack deals flat damage based on the user's level. It also has a 30% chance to grant the user +1 Special Defense Stage for 3 activations.<br><br>Damage Formula: Damage = 1.5 x UserLevel.</p>"
+        "description": "<p>Effect: On hit, the target has a 30% chance of gaining @Affliction[burn 5] and @Affliction[frostbite 5].</p>",
+        "power": 90
       }
     ],
     "grade": "C",
@@ -56,22 +60,29 @@
           {
             "type": "roll-effect",
             "key": "summon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
+            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
             "predicate": [],
             "chance": 30,
-            "affects": "self",
+            "affects": "target",
             "dontMerge": false,
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "mode": 2,
+            "alterations": [],
             "priority": null,
-            "ignored": false,
-            "isFixedChance": false
+            "isFixedChance": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "summon-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.frostbiteconitem",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -98,16 +109,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1771265578968,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
         "exportSource": null
       }
     }

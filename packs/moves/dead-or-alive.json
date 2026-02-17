@@ -21,7 +21,8 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/untyped_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "crit-1"
         ],
         "cost": {
           "activation": "complex",
@@ -32,13 +33,13 @@
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack has a 30% chance to apply @Affliction[stunted 5], and a 5% fixed chance to apply @Affliction[perish 1].</p>",
+        "description": "<p>Effect: This Attack is unaffected by the effects of a target's @Trait[defensive] Abilities. On hit, the target has a 30% chance of being afflicted with @Affliction[wracked 5]. On a Critical Hit, this Attack deals +150% damage, and the target gains @Affliction[perish 3].</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 11,
           "unit": "m"
         },
-        "power": 130,
+        "power": 60,
         "accuracy": 100
       }
     ],
@@ -57,7 +58,7 @@
           {
             "type": "roll-effect",
             "key": "dead-or-alive-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
+            "value": "Compendium.ptr2e.core-effects.Item.wrackedcondiitem",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -69,17 +70,17 @@
           },
           {
             "type": "roll-effect",
-            "key": "dead-or-alive-attack",
+            "key": "dead-or-alive-attack-crit",
             "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
             "predicate": [],
-            "chance": 5,
-            "isFixedChance": true,
+            "chance": 100,
+            "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
                 "mode": 5,
                 "property": "duration.turns",
-                "value": 1
+                "value": 3
               }
             ],
             "dontMerge": false,
@@ -106,15 +107,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771277912595
       }
     }
   ],

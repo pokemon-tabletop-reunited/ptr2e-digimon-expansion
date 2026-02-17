@@ -22,11 +22,11 @@
         "img": "systems/ptr2e/img/svg/electric_icon.svg",
         "traits": [
           "digimon",
-          "pierce"
+          "crit-2"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10
+          "powerPoints": 5
         },
         "types": [
           "steel",
@@ -34,10 +34,10 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack is considered both @Trait[electric] and @Trait[steel] type. On hit, this attack inflicts @Affliction[blight 8].</p>",
+        "description": "<p>This attack is considered both @Trait[electric] and @Trait[steel] type. On hit, this attack inflicts @Affliction[blight 6].</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 4,
           "unit": "m"
         },
         "power": 150,
@@ -64,7 +64,13 @@
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
-            "alterations": [],
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 6
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false
@@ -89,15 +95,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771278590334
       }
     }
   ],

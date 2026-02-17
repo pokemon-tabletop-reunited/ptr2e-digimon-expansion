@@ -23,7 +23,6 @@
         "traits": [
           "digimon",
           "contact",
-          "pass-15",
           "dash",
           "crushing"
         ],
@@ -36,20 +35,20 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: On hit, any owned creatures are returned to their respective capture devices.</p>",
+        "description": "<p>Effect: On resolution, the user may freely relocates themself to open space(s) at the end of this Attack's template.</p>",
         "range": {
-          "target": "creature",
-          "distance": 1,
+          "target": "wide-line",
+          "distance": 15,
           "unit": "m"
         },
         "power": 135,
-        "accuracy": 100
+        "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "dragonic-impact"
   },
   "img": "systems/ptr2e/img/svg/dragon_icon.svg",
   "effects": [],
-  "flags": {},
   "_id": "DlNASN6Ui2OHKnu1"
 }

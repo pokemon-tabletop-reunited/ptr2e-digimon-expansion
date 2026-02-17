@@ -25,11 +25,13 @@
           "contact",
           "digimon",
           "pierce",
-          "crit-2"
+          "crit-2",
+          "jaw",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 9
+          "powerPoints": 8
         },
         "types": [
           "bug"

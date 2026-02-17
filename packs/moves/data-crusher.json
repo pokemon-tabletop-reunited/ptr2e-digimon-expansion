@@ -25,7 +25,7 @@
           "digimon"
         ],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 3,
           "unit": "m"
         },
@@ -37,10 +37,10 @@
           "dark"
         ],
         "category": "physical",
-        "power": 90,
-        "accuracy": 100,
+        "power": 80,
+        "accuracy": 90,
         "predicate": [],
-        "description": "<p>This attack has a 5% fixed chance to apply @Affliction[perish 1].</p>"
+        "description": "<p>Effect: Oh hit, the target has a 10% chance of losing -1 ATK, DEF, SPATK, SPDEF, SPD, ACC, EVA, and CRIT Stage for 5 Activations.</p>"
       }
     ],
     "grade": "C",
@@ -58,18 +58,103 @@
           {
             "type": "roll-effect",
             "key": "data-crusher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects.Item.wA5oCsgHmZLcHHSn",
             "predicate": [],
-            "chance": 5,
-            "isFixedChance": true,
+            "chance": 10,
+            "isFixedChance": false,
             "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 1
-              }
-            ],
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.64WFzbAdyfOZBrlv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.bdYCJcqjMNqTpJJQ",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.hIE6W3Y5E9CyHiTy",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.1JXumQz0QqthT9Iv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.qe5aLBJuwb9eYqvv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.HLAV9dhz632Rfp1K",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
             "dontMerge": false,
             "mode": 2,
             "ignored": false
@@ -94,17 +179,21 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": 1754299948146,
-        "modifiedTime": 1754299989858,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1771277671419,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
       }
     }
   ],
