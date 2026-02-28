@@ -833,7 +833,8 @@
       "y": 62,
       "connected": [
         "arukenimon",
-        "pumpkinmon"
+        "pumpkinmon",
+        "meicrackmon-vm"
       ],
       "prerequisites": [
         {

@@ -32,7 +32,8 @@
       "spe": 85
     },
     "types": [
-      "steel"
+      "steel",
+      "fighting"
     ],
     "size": {
       "category": "medium",
