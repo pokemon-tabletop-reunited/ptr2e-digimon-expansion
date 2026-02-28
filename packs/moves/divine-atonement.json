@@ -25,24 +25,25 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 18
+          "powerPoints": 16
         },
         "types": [
           "shadow"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>On hit, this attack inflicts @UUID[Compendium.ptr2e.core-effects.PYz1Z32uiXoulkW2]{-2 Special Defense Stages} to affected targets for 5 activations.</p>",
+        "description": "<p>Effect: On hit, all valid targets have a 30% chance to gain @Affliction[perish 5]. The user then loses -2 SPATK Stages for 7 Activations.</p>",
         "range": {
           "target": "emanation",
-          "distance": 10,
+          "distance": 18,
           "unit": "m"
         },
         "power": 270,
         "accuracy": 90
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "divine-atonement"
   },
   "img": "systems/ptr2e/img/svg/shadow_icon.svg",
   "effects": [
@@ -56,12 +57,37 @@
           {
             "type": "roll-effect",
             "key": "divine-atonement-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
+            "value": "Compendium.ptr2e.core-effects.Item.EYmp1DeE1Lwzi0D1",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
+            "affects": "self",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "divine-atonement-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
             "affects": "target",
-            "alterations": [],
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 5
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false
@@ -95,13 +121,13 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771279255949
       }
     }
   ],
-  "flags": {},
   "_id": "BON7EsyO9Y8n4flE"
 }

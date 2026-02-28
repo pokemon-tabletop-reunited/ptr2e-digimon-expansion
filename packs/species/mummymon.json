@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "last-respects",
-          "level": 51,
-          "gen": null
-        },
-        {
           "name": "chatter",
           "level": 47,
           "gen": null
@@ -818,6 +813,11 @@
         {
           "name": "imprison",
           "level": 49,
+          "gen": null
+        },
+        {
+          "name": "last-respects",
+          "level": 51,
           "gen": null
         },
         {
@@ -848,10 +848,21 @@
     "habitats": [],
     "slug": "mummymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 164,
+      "connected": [
+        "dobermon",
+        "ogremon",
+        "dokugumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5313.png",

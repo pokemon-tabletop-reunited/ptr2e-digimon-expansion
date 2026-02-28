@@ -858,10 +858,23 @@
     "habitats": [],
     "slug": "panjyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 49,
+      "connected": [
+        "leomon",
+        "frigimon",
+        "hyogamon",
+        "ice-devimon",
+        "icemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5236.png",

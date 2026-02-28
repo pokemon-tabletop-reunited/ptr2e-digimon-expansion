@@ -23,18 +23,20 @@
         "traits": [
           "digimon",
           "explode",
-          "blast-4"
+          "blast-4",
+          "pulse"
         ],
         "cost": {
           "activation": "complex",
           "powerPoints": 11
         },
         "types": [
+          "fire",
           "dark"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, the user has a 30% chance to gain @UUID[Compendium.ptr2e.core-effects.DYJyYbH3EVwM4P90]{+2 Defense Stages for 5 activations}.</p>",
+        "description": "<p>Effect: On resolution, the user has a 30% chance to gain +1 DEF Stage for 5 Activations. This Attack is one more effective against the @Trait[fairy] Type.</p>",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -44,7 +46,8 @@
         "accuracy": 100
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "dark-terra-force"
   },
   "img": "systems/ptr2e/img/svg/dark_icon.svg",
   "effects": [
@@ -58,7 +61,7 @@
           {
             "type": "roll-effect",
             "key": "dark-terra-force-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.DYJyYbH3EVwM4P90",
+            "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -67,6 +70,18 @@
             "dontMerge": false,
             "mode": 2,
             "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "dark-terra-force-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
           }
         ],
         "slug": null,
@@ -88,18 +103,22 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771270002326
       }
     }
   ],
-  "flags": {},
   "_id": "umkDeJkaVHweJssZ"
 }

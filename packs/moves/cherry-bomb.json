@@ -34,7 +34,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack doubles it's power when Foggy Weather is in play.</p>",
+        "description": "<p>Effect: This Attack's Power is doubled if the user is affected by Foggy Weather.</p>",
         "range": {
           "target": "blast",
           "distance": 12,
@@ -42,40 +42,69 @@
         },
         "power": 80,
         "accuracy": 100
-      },
-      {
-        "name": "Cherry Bomb (Foggy)",
-        "slug": "cherry-bomb-foggy",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
-        "traits": [
-          "blast-4",
-          "explode"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "variant": "cherry-bomb",
-        "types": [
-          "grass"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack doubles it's power when Foggy Weather is in play.</p>",
-        "range": {
-          "target": "blast",
-          "distance": 12,
-          "unit": "m"
-        },
-        "power": 160,
-        "accuracy": 100
       }
     ],
     "grade": "A",
     "slug": "cherry-bomb"
   },
   "img": "systems/ptr2e/img/svg/grass_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Cherry Bomb",
+      "type": "passive",
+      "_id": "StxYJNszwzZmPo1P",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "alter-attack",
+            "key": "cherry-bomb-attack",
+            "value": 80,
+            "predicate": [
+              "effect:summon:foggy-weather"
+            ],
+            "property": "power",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771268627842,
+        "modifiedTime": 1771268657513,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "JwtUwTpaO6oBFdR5"
 }

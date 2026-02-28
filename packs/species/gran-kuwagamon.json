@@ -817,13 +817,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "dimension-scissor",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -831,10 +825,21 @@
     "habitats": [],
     "slug": "gran-kuwagamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 154,
+      "y": 130,
+      "connected": [
+        "dinobeemon",
+        "cherrymon",
+        "okuwamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            69
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5442.png",

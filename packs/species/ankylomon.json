@@ -851,10 +851,21 @@
     "habitats": [],
     "slug": "ankylomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 159,
+      "connected": [
+        "armadillomon",
+        "gizamon",
+        "zubamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5195.png",

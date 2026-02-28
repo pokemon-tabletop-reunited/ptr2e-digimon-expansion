@@ -828,10 +828,21 @@
     "habitats": [],
     "slug": "ebemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 82,
+      "connected": [
+        "skull-satamon",
+        "dragomon",
+        "vademon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5395.png",

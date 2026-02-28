@@ -1,0 +1,165 @@
+{
+  "folder": null,
+  "name": "Vicious Mode",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "vicious-mode",
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>The user deals +40% more damage and +1 default CRIT with its @Trait[contact] Attacks, deals +20% damage and has +5 flat Accuracy with its non-@Trait[contact] Attacks, and has a 10% chance of losing @Tick[-1] and a 5% chance of gaining @Affliction[hyper-mode 7] when resolving a Physical- or Special-Category Attack.</p>",
+    "container": null,
+    "free": true,
+    "slot": null
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "effects": [
+    {
+      "name": "Vicious Mode",
+      "type": "passive",
+      "_id": "2Q54jQeBfg0y1fEI",
+      "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "key": "contact-trait-attack-damage",
+            "value": 40,
+            "predicate": [],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "stage-modifier",
+            "key": "contact-trait-attack-crit",
+            "value": 1,
+            "predicate": [],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "percentile-modifier",
+            "key": "attack-damage",
+            "value": 20,
+            "predicate": [
+              {
+                "not": "self:action:trait:contact"
+              }
+            ],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "attack-accuracy",
+            "value": 5,
+            "predicate": [
+              {
+                "not": "self:action:trait:contact"
+              }
+            ],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "damaging-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.4DlXFTVooz07YcDm",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "damaging-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.hypermodeconitem",
+            "predicate": [],
+            "chance": 5,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770771655790,
+    "modifiedTime": 1770771656169,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "LFIszRgw07pU3HyZ",
+  "sort": 200000
+}

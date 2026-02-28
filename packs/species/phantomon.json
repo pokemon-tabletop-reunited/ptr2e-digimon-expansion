@@ -852,10 +852,22 @@
     "habitats": [],
     "slug": "phantomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 105,
+      "y": 21,
+      "connected": [
+        "bakemon",
+        "hyogamon",
+        "snimon",
+        "saberdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5308.png",

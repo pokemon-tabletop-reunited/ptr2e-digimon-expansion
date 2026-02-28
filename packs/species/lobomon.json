@@ -844,10 +844,14 @@
     "habitats": [],
     "slug": "lobomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 109,
+      "connected": [
+        "kudamon"
+      ],
+      "prerequisites": [
+        "equipment:human-spirit-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5209.png",

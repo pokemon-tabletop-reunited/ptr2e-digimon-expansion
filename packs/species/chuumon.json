@@ -19,8 +19,7 @@
       "virus",
       "bipedal",
       "rapid",
-      "volatile-bomb",
-      "underdog"
+      "volatile-bomb"
     ],
     "number": 5074,
     "stats": {
@@ -869,7 +868,14 @@
       "connected": [
         "motimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            7
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5074.png",

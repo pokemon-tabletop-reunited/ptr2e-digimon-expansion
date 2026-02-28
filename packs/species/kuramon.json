@@ -792,7 +792,7 @@
     "moves": {
       "levelUp": [
         {
-          "name": "leech-life",
+          "name": "drain-life",
           "level": 1,
           "gen": null
         },
