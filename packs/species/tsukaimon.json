@@ -18,8 +18,7 @@
       "virus",
       "rookie",
       "quadrupedal",
-      "winged",
-      "underdog"
+      "winged"
     ],
     "number": 5084,
     "stats": {
@@ -808,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "shin-kick",
-          "level": 11,
-          "gen": null
-        },
-        {
           "name": "growl",
           "level": 1,
           "gen": null
@@ -838,6 +832,11 @@
           "gen": null
         },
         {
+          "name": "shin-kick",
+          "level": 11,
+          "gen": null
+        },
+        {
           "name": "tear-down",
           "level": 14,
           "gen": null
@@ -860,7 +859,14 @@
       "connected": [
         "tokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5084.png",

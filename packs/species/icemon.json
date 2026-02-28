@@ -852,9 +852,16 @@
       "connected": [
         "gotsumon",
         "snow-goblimon",
-        "lunamon-ts"
+        "lunamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",

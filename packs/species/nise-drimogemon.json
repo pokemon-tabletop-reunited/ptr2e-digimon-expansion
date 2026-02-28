@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "meteor-mash",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "earthsplitter",
           "level": 24,
           "gen": null
@@ -844,6 +839,11 @@
           "name": "bonebreaker",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "meteor-mash",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
@@ -859,7 +859,14 @@
         "dokunemon",
         "gabumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5474.png",

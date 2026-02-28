@@ -825,7 +825,9 @@
       "connected": [
         "gatomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5203.png",

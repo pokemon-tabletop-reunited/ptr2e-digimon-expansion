@@ -808,11 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "night-storm",
-          "level": 64,
-          "gen": null
-        },
-        {
           "name": "perish-song",
           "level": 48,
           "gen": null
@@ -841,6 +836,11 @@
           "name": "lunar-ray",
           "level": 61,
           "gen": null
+        },
+        {
+          "name": "night-storm",
+          "level": 64,
+          "gen": null
         }
       ],
       "tutor": []
@@ -856,7 +856,14 @@
         "geremon",
         "nunemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     },
     "slug": "waru-monzaemon"
   },

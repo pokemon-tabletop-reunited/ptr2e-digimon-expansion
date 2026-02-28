@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sacred-sword",
-          "level": 35,
-          "gen": null
-        },
-        {
           "name": "diamond-cutter",
           "level": 21,
           "gen": null
@@ -838,6 +833,11 @@
           "gen": null
         },
         {
+          "name": "sacred-sword",
+          "level": 35,
+          "gen": null
+        },
+        {
           "name": "mirage-edge",
           "level": 37,
           "gen": null
@@ -857,7 +857,14 @@
         "kotemon",
         "shamamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5190.png",

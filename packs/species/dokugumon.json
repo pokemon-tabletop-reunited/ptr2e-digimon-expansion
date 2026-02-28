@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "many-legged",
-      "wallclimber",
-      "underdog"
+      "wallclimber"
     ],
     "number": 5179,
     "stats": {
@@ -808,13 +807,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "web-ball",
-          "level": 22,
+          "name": "leech-life",
+          "level": 21,
           "gen": null
         },
         {
-          "name": "leech-life",
-          "level": 21,
+          "name": "web-ball",
+          "level": 22,
           "gen": null
         },
         {
@@ -858,7 +857,14 @@
         "wormmon",
         "keramon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5179.png",

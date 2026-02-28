@@ -831,7 +831,9 @@
       "connected": [
         "veemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:digi-egg-of-miracles"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",
