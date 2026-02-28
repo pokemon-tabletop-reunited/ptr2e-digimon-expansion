@@ -9,8 +9,10 @@
     },
     "slug": null,
     "publication": {
-      "source": "",
-      "authors": [],
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
       "notes": ""
     },
     "traits": [],
@@ -78,7 +80,7 @@
     "systemId": "ptr2e",
     "systemVersion": "1.5.0.beta",
     "createdTime": 1770466186602,
-    "modifiedTime": 1770466225726,
+    "modifiedTime": 1771028065643,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR"
   },
   "_id": "NYdtiaVX0zDK29l7",
