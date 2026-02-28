@@ -832,11 +832,18 @@
       "x": 157,
       "y": 57,
       "connected": [
-        "matadormon-ts",
+        "matadormon",
         "taomon",
         "crowmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5371.png",

@@ -811,13 +811,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "unshackled-mind",
-          "level": 49,
+          "name": "arcane-storm",
+          "level": 47,
           "gen": null
         },
         {
-          "name": "arcane-storm",
-          "level": 47,
+          "name": "unshackled-mind",
+          "level": 49,
           "gen": null
         },
         {
@@ -860,7 +860,14 @@
         "mojyamon",
         "wizardmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5315.png",

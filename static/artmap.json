@@ -583,7 +583,7 @@
       ]
     }
   },
-  "lunamon-ts": {
+  "lunamon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5062",
       "extensions": [
@@ -671,7 +671,7 @@
       ]
     }
   },
-  "dracmon-ts": {
+  "dracmon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5075",
       "extensions": [
@@ -1383,7 +1383,7 @@
       ]
     }
   },
-  "lekismon-ts": {
+  "lekismon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5159",
       "extensions": [
@@ -1519,7 +1519,7 @@
       ]
     }
   },
-  "sangloupmon-ts": {
+  "sangloupmon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5174",
       "extensions": [
@@ -2239,7 +2239,7 @@
       ]
     }
   },
-  "crescemon-ts": {
+  "crescemon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5259",
       "extensions": [
@@ -2751,7 +2751,7 @@
       ]
     }
   },
-  "matadormon-ts": {
+  "matadormon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5312",
       "extensions": [
@@ -3207,7 +3207,7 @@
       ]
     }
   },
-  "dianamon-ts": {
+  "dianamon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5379",
       "extensions": [
@@ -3351,7 +3351,7 @@
       ]
     }
   },
-  "gran-dracmon-ts": {
+  "gran-dracmon": {
     "data": {
       "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5404",
       "extensions": [

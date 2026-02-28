@@ -860,9 +860,17 @@
       "x": 52,
       "y": 144,
       "connected": [
-        "agunimon"
+        "agunimon",
+        "aldamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5211.png",

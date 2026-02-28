@@ -18,8 +18,7 @@
       "data",
       "champion",
       "bipedal",
-      "rapid",
-      "underdog"
+      "rapid"
     ],
     "number": 5138,
     "stats": {
@@ -804,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "grassy-terrain",
-          "level": 26,
-          "gen": null
-        },
-        {
           "name": "flame-charge",
           "level": 22,
           "gen": null
@@ -821,6 +815,11 @@
         {
           "name": "grav-apple",
           "level": 25,
+          "gen": null
+        },
+        {
+          "name": "grassy-terrain",
+          "level": 26,
           "gen": null
         },
         {
@@ -858,7 +857,14 @@
         "penmon",
         "falcomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5138.png",

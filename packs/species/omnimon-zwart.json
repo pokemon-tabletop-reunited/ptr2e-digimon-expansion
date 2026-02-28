@@ -833,7 +833,11 @@
         "black-war-greymon",
         "metal-garurumon-black"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:black-war-greymon-dna",
+        "equipment:metal-garurumon-black-dna",
+        "species:omnimon"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5451.png",

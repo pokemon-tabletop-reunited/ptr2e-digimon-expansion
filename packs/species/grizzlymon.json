@@ -17,8 +17,7 @@
       "digimon",
       "vaccine",
       "champion",
-      "quadrupedal",
-      "underdog"
+      "quadrupedal"
     ],
     "number": 5108,
     "stats": {
@@ -803,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rock-climb",
-          "level": 26,
-          "gen": null
-        },
-        {
           "name": "brutal-swing",
           "level": 21,
           "gen": null
@@ -820,6 +814,11 @@
         {
           "name": "bulk-up",
           "level": 25,
+          "gen": null
+        },
+        {
+          "name": "rock-climb",
+          "level": 26,
           "gen": null
         },
         {
@@ -856,7 +855,14 @@
         "bearmon",
         "lopmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5108.png",

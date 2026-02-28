@@ -859,7 +859,10 @@
         "stingmon",
         "ex-veemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:ex-veemon-dna",
+        "equipment:stingmon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5326.png",

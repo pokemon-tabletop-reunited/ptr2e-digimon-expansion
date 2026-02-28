@@ -833,7 +833,10 @@
         "apollomon",
         "dianamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:apollomon-dna",
+        "equipment:dianamon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5454.png",
