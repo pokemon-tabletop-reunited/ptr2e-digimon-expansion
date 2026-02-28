@@ -822,10 +822,16 @@
     "habitats": [],
     "slug": "susanomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 43,
+      "connected": [
+        "kaiser-greymon",
+        "magna-garurumon"
+      ],
+      "prerequisites": [
+        "equipment:kaiser-greymon-dna",
+        "equipment:magna-garurumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5455.png",

@@ -852,9 +852,15 @@
     "habitats": [],
     "slug": "grademon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 105,
+      "y": 87,
+      "connected": [
+        "raptordramon",
+        "musyamon",
+        "cyclonemon",
+        "dinohyumon",
+        "zubaeagermon"
+      ],
       "prerequisites": []
     }
   },

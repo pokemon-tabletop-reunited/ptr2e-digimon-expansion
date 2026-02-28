@@ -822,10 +822,20 @@
     "habitats": [],
     "slug": "vulcanusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 168,
+      "connected": [
+        "dragomon",
+        "scorpiomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5369.png",

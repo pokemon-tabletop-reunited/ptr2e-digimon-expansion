@@ -21,8 +21,7 @@
       "bladed",
       "blindsight-30",
       "blind",
-      "quadrupedal",
-      "underdog"
+      "quadrupedal"
     ],
     "number": 5116,
     "stats": {
@@ -854,10 +853,21 @@
     "habitats": [],
     "slug": "snimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 88,
+      "connected": [
+        "tentomon",
+        "wormmon",
+        "crabmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5116.png",

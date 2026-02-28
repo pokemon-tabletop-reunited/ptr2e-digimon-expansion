@@ -21,7 +21,8 @@
       "royal-knight",
       "bladed",
       "horned",
-      "natural-steel"
+      "natural-steel",
+      "tailed"
     ],
     "number": 5377,
     "stats": {
@@ -826,10 +827,20 @@
     "habitats": [],
     "slug": "jesmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 65,
+      "connected": [
+        "savior-huckmon",
+        "garudamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5377.png",

@@ -820,10 +820,14 @@
     "habitats": [],
     "slug": "pegasusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 48,
+      "y": 151,
+      "connected": [
+        "patamon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-hope"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5205.png",

@@ -855,7 +855,17 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "flamedramon"
+    "slug": "flamedramon",
+    "node": {
+      "x": 55,
+      "y": 98,
+      "connected": [
+        "veemon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-courage"
+      ]
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5204.png",
   "effects": [],

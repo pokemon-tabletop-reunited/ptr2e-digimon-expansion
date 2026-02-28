@@ -19,8 +19,7 @@
       "digimon",
       "legless",
       "free",
-      "in-training",
-      "underdog"
+      "in-training"
     ],
     "number": 5020,
     "stats": {
@@ -218,7 +217,14 @@
       "connected": [
         "pabumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            5
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5020.png",

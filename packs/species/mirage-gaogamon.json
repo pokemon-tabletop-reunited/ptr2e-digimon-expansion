@@ -835,10 +835,20 @@
     "habitats": [],
     "slug": "mirage-gaogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 48,
+      "connected": [
+        "pandamon",
+        "panjyamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            78
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",

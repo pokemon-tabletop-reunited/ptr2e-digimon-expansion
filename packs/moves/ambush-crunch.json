@@ -24,11 +24,12 @@
           "jaw",
           "crit-1",
           "contact",
-          "digimon"
+          "digimon",
+          "priority-20"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 3
+          "powerPoints": 4
         },
         "types": [
           "steel"
@@ -40,7 +41,7 @@
           "distance": 1,
           "unit": "m"
         },
-        "power": 90,
+        "power": 70,
         "accuracy": 100
       }
     ],

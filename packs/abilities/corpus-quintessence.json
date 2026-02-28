@@ -1,0 +1,162 @@
+{
+  "folder": null,
+  "name": "Corpus Quintessence",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "corpus-quintessence",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Neo"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "sovereign",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>Effect: The user’s Base DEF and SPDEF are increased by 75%, the user has +30% RES against Actions from non-allied creatures, and they take <code>30+Level/2</code> less damage from non-allied creatures’ Attacks.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "img": "icons/commodities/gems/gem-faceted-rough-yellow.webp",
+  "effects": [
+    {
+      "name": "Corpus Quintessence",
+      "type": "passive",
+      "_id": "5HqQzpUwdnDQhsrM",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "basic",
+            "key": "system.attributes.def.base",
+            "value": 1.75,
+            "predicate": [],
+            "mode": 1,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.attributes.spd.base",
+            "value": 1.75,
+            "predicate": [],
+            "mode": 1,
+            "ignored": false
+          },
+          {
+            "type": "ephemeral-effect",
+            "key": "generic",
+            "value": "Compendium.ptr2e.core-effects.Item.CekJx2L2a3x60g1b",
+            "predicate": [
+              {
+                "not": "origin:ally"
+              }
+            ],
+            "affects": "defensive",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.changes.0.value",
+                "value": 30
+              }
+            ],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "ephemeral-effect",
+            "key": "attack",
+            "value": "Compendium.ptr2e.core-effects.Item.CekJx2L2a3x60g1b",
+            "predicate": [
+              {
+                "not": "origin:ally"
+              }
+            ],
+            "affects": "defensive",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.changes.0.value",
+                "value": 30
+              }
+            ],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "ephemeral-modifier",
+            "key": "attack-damage-flat",
+            "value": "-30 - floor(@actor.system.advancement.level*0.5)",
+            "predicate": [
+              {
+                "not": "target:ally"
+              }
+            ],
+            "label": "Corpus Quintessence",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770082949550,
+    "modifiedTime": 1770082949550,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "43EgqRkmuLfuV0Rq",
+  "sort": 0
+}

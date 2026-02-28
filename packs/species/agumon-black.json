@@ -17,8 +17,7 @@
       "virus",
       "digimon",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5025,
     "stats": {
@@ -850,7 +849,14 @@
       "connected": [
         "tsumemon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            12
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5025.png",

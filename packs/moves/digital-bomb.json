@@ -27,14 +27,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7
+          "powerPoints": 8
         },
         "types": [
           "electric"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack has a 10% chance each to inflict -1 to each of a hit creature's combat stages for 5 activations.</p>",
+        "description": "<p>Effect: Oh hit, all valid targets have a 10% chance of losing -1 ATK, DEF, SPATK, SPDEF, SPD, ACC, EVA, and CRIT Stage for 5 Activations.</p>",
         "range": {
           "target": "blast",
           "distance": 8,
@@ -65,9 +65,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -78,9 +78,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -91,9 +91,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -104,9 +104,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -117,9 +117,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -130,9 +130,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -143,9 +143,22 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "digital-bomb-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.64WFzbAdyfOZBrlv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -167,15 +180,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.4.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771278863725
       }
     }
   ],

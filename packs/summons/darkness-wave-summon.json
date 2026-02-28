@@ -22,7 +22,7 @@
     ],
     "actions": [
       {
-        "name": "Darkness Wave (Summon) Action (#1)",
+        "name": "Darkness Wave (Summon) Action",
         "slug": "darkness-wave-summon-action",
         "traits": [],
         "type": "summon",
@@ -40,7 +40,7 @@
         ],
         "category": "special",
         "predicate": [],
-        "targetType": "all",
+        "targetType": "enemy",
         "damageType": "power",
         "attackStat": "owner",
         "power": 70,

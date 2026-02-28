@@ -847,10 +847,21 @@
     "habitats": [],
     "slug": "were-garurumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 19,
+      "connected": [
+        "garurumon-black",
+        "sangloupmon",
+        "black-gatomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            52
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5251.png",
