@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
     "number": 5118,
     "stats": {
@@ -851,10 +850,21 @@
     "habitats": [],
     "slug": "sorcermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 111,
+      "connected": [
+        "lunamon",
+        "kudamon",
+        "kamemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5118.png",

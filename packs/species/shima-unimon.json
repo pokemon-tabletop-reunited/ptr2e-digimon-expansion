@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "extreme-speed",
-          "level": 26,
-          "gen": null
-        },
-        {
           "name": "horn-attack",
           "level": 21,
           "gen": null
@@ -825,6 +820,11 @@
         {
           "name": "crackling-zap",
           "level": 25,
+          "gen": null
+        },
+        {
+          "name": "extreme-speed",
+          "level": 26,
           "gen": null
         },
         {
@@ -849,10 +849,21 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 119,
+      "connected": [
+        "snow-agumon",
+        "candlemon",
+        "kokuwamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     },
     "slug": "shima-unimon"
   },

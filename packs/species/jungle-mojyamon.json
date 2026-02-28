@@ -17,8 +17,7 @@
       "digimon",
       "data",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5471,
     "stats": {
@@ -802,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "wood-hammer",
-          "level": 34,
-          "gen": null
-        },
-        {
           "name": "aloe-palm",
           "level": 21,
           "gen": null
@@ -837,6 +831,11 @@
           "gen": null
         },
         {
+          "name": "wood-hammer",
+          "level": 34,
+          "gen": null
+        },
+        {
           "name": "thrash",
           "level": 36,
           "gen": null
@@ -849,10 +848,21 @@
     "habitats": [],
     "slug": "jungle-mojyamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 75,
+      "connected": [
+        "palmon",
+        "gotsumon",
+        "gizamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5471.png",

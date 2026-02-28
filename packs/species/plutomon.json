@@ -827,10 +827,21 @@
     "habitats": [],
     "slug": "plutomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 30,
+      "connected": [
+        "cerberusmon",
+        "marine-devimon",
+        "astamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5421.png",

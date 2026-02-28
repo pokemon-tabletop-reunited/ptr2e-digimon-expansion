@@ -835,10 +835,21 @@
     "habitats": [],
     "slug": "woodmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 79,
+      "connected": [
+        "palmon",
+        "mushroomon",
+        "floramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5162.png",

@@ -820,10 +820,20 @@
     "habitats": [],
     "slug": "leopardmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 42,
+      "connected": [
+        "grap-leomon",
+        "knightmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5381.png",

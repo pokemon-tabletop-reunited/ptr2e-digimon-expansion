@@ -820,10 +820,21 @@
     "habitats": [],
     "slug": "varodurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 68,
+      "connected": [
+        "wingdramon",
+        "deramon",
+        "crowmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",

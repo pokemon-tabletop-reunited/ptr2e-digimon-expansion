@@ -852,10 +852,21 @@
     "habitats": [],
     "slug": "mega-seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 115,
+      "y": 173,
+      "connected": [
+        "reppamon",
+        "ikkakumon",
+        "seadramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5282.png",

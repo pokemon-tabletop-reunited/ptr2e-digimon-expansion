@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "champion",
-      "many-legged",
-      "underdog"
+      "many-legged"
     ],
     "number": 5164,
     "stats": {
@@ -803,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "snipe-shot",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "powder",
           "level": 22,
           "gen": null
@@ -825,6 +819,11 @@
         {
           "name": "shell-side-arm",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "snipe-shot",
+          "level": 31,
           "gen": null
         },
         {
@@ -850,10 +849,22 @@
     "habitats": [],
     "slug": "octomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 58,
+      "y": 170,
+      "connected": [
+        "kamemon",
+        "crabmon",
+        "syakomon",
+        "keramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5164.png",

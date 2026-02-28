@@ -822,10 +822,21 @@
     "habitats": [],
     "slug": "chaos-gallantmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 145,
+      "connected": [
+        "mistymon",
+        "war-growlmon",
+        "wisemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5399.png",

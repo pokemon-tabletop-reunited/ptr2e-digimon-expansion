@@ -846,10 +846,20 @@
     "habitats": [],
     "slug": "geo-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 125,
+      "connected": [
+        "agumon",
+        "huckmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5114.png",

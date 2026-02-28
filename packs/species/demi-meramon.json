@@ -18,8 +18,7 @@
       "in-training",
       "free",
       "hover",
-      "glow-2",
-      "underdog"
+      "glow-2"
     ],
     "number": 5081,
     "stats": {
@@ -818,7 +817,14 @@
       "connected": [
         "botamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            5
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5081.png",

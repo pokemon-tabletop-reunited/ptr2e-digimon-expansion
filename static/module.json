@@ -1,7 +1,7 @@
 {
   "id": "ptr2e-digimon-expansion",
   "title": "PTR2e - Digimon Expansion",
-  "version": "0.11",
+  "version": "0.13",
   "compatibility": {
     "minimum": "13.351",
     "verified": "13.351",

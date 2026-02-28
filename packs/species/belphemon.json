@@ -822,10 +822,21 @@
     "habitats": [],
     "slug": "belphemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 169,
+      "connected": [
+        "ex-tyrannomon",
+        "astamon",
+        "phantomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426.png",

@@ -17,8 +17,7 @@
       "digimon",
       "vaccine",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5127,
     "stats": {
@@ -844,10 +843,21 @@
     "habitats": [],
     "slug": "frigimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 157,
+      "connected": [
+        "gomamon",
+        "lunamon",
+        "snow-goblimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5127.png",

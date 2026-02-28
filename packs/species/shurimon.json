@@ -820,10 +820,14 @@
     "habitats": [],
     "slug": "shurimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 47,
+      "y": 59,
+      "connected": [
+        "hawkmon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-sincerity"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5201.png",
