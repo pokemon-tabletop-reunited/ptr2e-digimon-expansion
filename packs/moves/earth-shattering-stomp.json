@@ -14,18 +14,21 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
-          "5-strike",
           "drain-1-4",
-          "digimon"
+          "digimon",
+          "dash",
+          "kick",
+          "6-strike",
+          "contact"
         ],
         "range": {
-          "target": "enemy",
-          "distance": 3,
+          "target": "creature",
+          "distance": 1,
           "unit": "m"
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 3
+          "powerPoints": 4
         },
         "types": [
           "dark"

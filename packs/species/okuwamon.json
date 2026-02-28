@@ -853,10 +853,22 @@
     "habitats": [],
     "slug": "okuwamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 71,
+      "connected": [
+        "stingmon",
+        "kuwagamon",
+        "flymon",
+        "snimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5291.png",

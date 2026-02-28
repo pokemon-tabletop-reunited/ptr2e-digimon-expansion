@@ -828,10 +828,21 @@
     "habitats": [],
     "slug": "titamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 155,
+      "connected": [
+        "dark-super-starmon",
+        "digitamamon",
+        "skull-greymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",

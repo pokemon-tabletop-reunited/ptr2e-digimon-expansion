@@ -837,10 +837,20 @@
     "habitats": [],
     "slug": "black-war-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 11,
+      "connected": [
+        "metal-greymon-blue",
+        "flaremon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5338.png",

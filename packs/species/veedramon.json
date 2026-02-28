@@ -845,10 +845,21 @@
     "slug": "veedramon",
     "captureRate": 1,
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 91,
+      "connected": [
+        "veemon",
+        "salamon",
+        "dracomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5123.png",

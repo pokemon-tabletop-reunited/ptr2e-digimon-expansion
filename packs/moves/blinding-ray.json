@@ -31,7 +31,7 @@
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 1
+          "powerPoints": 2
         },
         "types": [
           "fairy"
@@ -39,13 +39,72 @@
         "category": "special",
         "power": 65,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "description": "<p>Effect: On hit, the target has a 30% chance of losing -1 ACC for 5 Activations.</p>"
       }
     ],
     "grade": "D",
     "slug": "blinding-ray"
   },
   "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Blinding Ray",
+      "type": "passive",
+      "_id": "itFDgoa9Gb9JtfMy",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "blinding-ray-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.wA5oCsgHmZLcHHSn",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771266193260,
+        "modifiedTime": 1771266220717,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "lxna2ZvbR6Dn5LrE"
 }

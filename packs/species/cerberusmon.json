@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "infernal-parade",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "heroic-rally",
           "level": 50,
           "gen": null
@@ -823,6 +818,11 @@
         {
           "name": "astro-sphere",
           "level": 54,
+          "gen": null
+        },
+        {
+          "name": "infernal-parade",
+          "level": 55,
           "gen": null
         },
         {
@@ -848,10 +848,21 @@
     "habitats": [],
     "slug": "cerberusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 108,
+      "y": 26,
+      "connected": [
+        "dobermon",
+        "monochromon",
+        "kyubimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229.png",

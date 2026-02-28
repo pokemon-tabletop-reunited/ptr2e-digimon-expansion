@@ -25,7 +25,7 @@
           "digimon"
         ],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 6,
           "unit": "m"
         },
@@ -40,7 +40,7 @@
         "power": 65,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to reduce the target's Defense Stages by 1 for 5 activations.</p>"
+        "description": "<p>Effect: On hit, the target has a 10% chance of losing -1 DEF Stage for 5 activations.</p>"
       }
     ],
     "grade": "D",
@@ -98,7 +98,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.2.1.beta",
         "createdTime": null,

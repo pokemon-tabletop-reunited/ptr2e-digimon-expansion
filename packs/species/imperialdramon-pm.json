@@ -824,9 +824,11 @@
     "habitats": [],
     "slug": "imperialdramon-pm",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 248,
+      "y": 100,
+      "connected": [
+        "imperialdramon"
+      ],
       "prerequisites": []
     }
   },

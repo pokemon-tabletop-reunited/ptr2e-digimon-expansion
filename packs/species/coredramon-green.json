@@ -851,10 +851,20 @@
     "habitats": [],
     "slug": "coredramon-green",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 132,
+      "connected": [
+        "agumon",
+        "dracomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5113.png",

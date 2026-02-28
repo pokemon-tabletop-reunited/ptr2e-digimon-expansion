@@ -820,9 +820,11 @@
     "slug": "kaiser-greymon",
     "number": 5446,
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 158,
+      "y": 150,
+      "connected": [
+        "aldamon"
+      ],
       "prerequisites": []
     }
   },

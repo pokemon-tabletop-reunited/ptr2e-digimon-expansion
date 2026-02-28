@@ -26,7 +26,7 @@
         ],
         "range": {
           "target": "creature",
-          "distance": 8,
+          "distance": 6,
           "unit": "m"
         },
         "cost": {
@@ -40,7 +40,7 @@
         "power": 60,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance each to inflict @Affliction[burn 5] and @Affliction[frostbite 5].</p>"
+        "description": "<p>Effect: On hit, the target has a 10% to gain @Affliction[burn 5] and @Affliction[frostbite 5].</p>"
       }
     ],
     "grade": "D",
@@ -112,7 +112,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.2.1.beta",
         "createdTime": null,

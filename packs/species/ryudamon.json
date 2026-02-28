@@ -20,8 +20,7 @@
       "bipedal",
       "tail",
       "horned",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5042,
     "stats": {
@@ -872,10 +871,19 @@
     "habitats": [],
     "slug": "ryudamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 33,
+      "y": 91,
+      "connected": [
+        "tsunomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            11
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5042.png",

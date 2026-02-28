@@ -24,18 +24,19 @@
           "punch",
           "push-3",
           "contact",
-          "digimon"
+          "digimon",
+          "priority-30"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 3
+          "powerPoints": 4
         },
         "types": [
           "fire"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack has a 30% chance each to inflict @Affliction[burn 5] and grant the user @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage for 5 Activations.}</p>",
+        "description": "<p>Effect: On hit, the target has a 30% chance to gain @Affliction[burn 5]. On resolution, the user has a 30% chance to gain +1 ATK Stage for 5 Activations.</p>",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -108,7 +109,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.3.0.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
