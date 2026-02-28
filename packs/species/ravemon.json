@@ -838,10 +838,21 @@
     "habitats": [],
     "slug": "ravemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 19,
+      "connected": [
+        "dark-super-starmon",
+        "phantomon",
+        "crowmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            78
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",

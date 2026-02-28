@@ -841,10 +841,21 @@
     "habitats": [],
     "slug": "tankmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 40,
+      "connected": [
+        "hagurumon",
+        "toy-agumon",
+        "zubamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5147.png",

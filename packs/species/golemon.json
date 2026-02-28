@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "construct",
-      "breathless",
-      "underdog"
+      "breathless"
     ],
     "number": 5172,
     "stats": {
@@ -843,10 +842,21 @@
     "habitats": [],
     "slug": "golemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 90,
+      "connected": [
+        "goblimon",
+        "gotsumon",
+        "armadillomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5172.png",

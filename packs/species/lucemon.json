@@ -944,7 +944,15 @@
       "connected": [
         "tokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            35
+          ]
+        },
+        "GM Permission"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5043.png",

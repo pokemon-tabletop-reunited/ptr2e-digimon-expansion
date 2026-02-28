@@ -830,10 +830,14 @@
     "habitats": [],
     "slug": "alphamon-ouryuken",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 248,
+      "y": 43,
+      "connected": [
+        "alphamon"
+      ],
+      "prerequisites": [
+        "equipment:ouryumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5448.png",

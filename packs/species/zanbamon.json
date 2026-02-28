@@ -819,10 +819,20 @@
     "habitats": [],
     "slug": "zanbamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 77,
+      "connected": [
+        "mistymon",
+        "knightmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5406.png",

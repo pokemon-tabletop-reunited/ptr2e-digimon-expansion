@@ -856,10 +856,21 @@
     "habitats": [],
     "slug": "knightmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 103,
+      "y": 51,
+      "connected": [
+        "clockmon",
+        "dinohyumon",
+        "zubaeagermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            42
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5270.png",

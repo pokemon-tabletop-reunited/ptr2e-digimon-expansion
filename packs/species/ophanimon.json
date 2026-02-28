@@ -829,10 +829,20 @@
     "habitats": [],
     "slug": "ophanimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 135,
+      "connected": [
+        "angewomon",
+        "piximon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5340.png",

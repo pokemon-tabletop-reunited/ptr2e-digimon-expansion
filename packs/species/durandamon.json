@@ -817,10 +817,21 @@
     "habitats": [],
     "slug": "durandamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 49,
+      "connected": [
+        "grademon",
+        "omni-shoutmon",
+        "duramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5356.png",

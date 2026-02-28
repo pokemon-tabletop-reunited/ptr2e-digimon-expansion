@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5163,
     "stats": {
@@ -844,10 +843,20 @@
     "habitats": [],
     "slug": "ogremon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 68,
+      "connected": [
+        "goblimon",
+        "demi-devimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5163.png",

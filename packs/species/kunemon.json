@@ -18,8 +18,7 @@
       "virus",
       "rookie",
       "many-legged",
-      "wallclimber",
-      "underdog"
+      "wallclimber"
     ],
     "number": 5082,
     "stats": {
@@ -790,11 +789,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "web-ball",
-          "level": 15,
-          "gen": null
-        },
-        {
           "name": "poison-sting",
           "level": 2,
           "gen": null
@@ -835,6 +829,11 @@
           "gen": null
         },
         {
+          "name": "web-ball",
+          "level": 15,
+          "gen": null
+        },
+        {
           "name": "parasite-swarm",
           "level": 17,
           "gen": null
@@ -847,10 +846,19 @@
     "habitats": [],
     "slug": "kunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 34,
+      "y": 145,
+      "connected": [
+        "demi-meramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5082.png",

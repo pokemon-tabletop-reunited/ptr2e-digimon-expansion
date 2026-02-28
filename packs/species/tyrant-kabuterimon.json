@@ -823,10 +823,21 @@
     "habitats": [],
     "slug": "tyrant-kabuterimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 86,
+      "connected": [
+        "arukenimon",
+        "mega-kabuterimon",
+        "okuwamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5411.png",

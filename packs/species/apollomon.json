@@ -823,10 +823,20 @@
     "habitats": [],
     "slug": "apollomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 84,
+      "connected": [
+        "volcanomon",
+        "flaremon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5332.png",

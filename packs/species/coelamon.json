@@ -18,7 +18,8 @@
       "data",
       "champion",
       "natural-swimmer",
-      "gilled"
+      "gilled",
+      "underdog"
     ],
     "number": 5144,
     "stats": {
@@ -850,10 +851,22 @@
     "habitats": [],
     "slug": "coelamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 65,
+      "y": 157,
+      "connected": [
+        "crabmon",
+        "betamon",
+        "syakomon",
+        "ryudamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5144.png",
