@@ -852,10 +852,21 @@
     "habitats": [],
     "slug": "wizardmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 57,
+      "y": 14,
+      "connected": [
+        "dracmon",
+        "impmon",
+        "biyomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5134.png",

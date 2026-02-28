@@ -824,10 +824,21 @@
     "habitats": [],
     "slug": "chaosdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 157,
+      "connected": [
+        "war-growlmon",
+        "gigadramon",
+        "loader-leomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            77
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5400.png",

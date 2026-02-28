@@ -844,10 +844,21 @@
     "habitats": [],
     "slug": "zubaeagermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 134,
+      "connected": [
+        "zubamon",
+        "gizamon",
+        "shoutmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5117.png",

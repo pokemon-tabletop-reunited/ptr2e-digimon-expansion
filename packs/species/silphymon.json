@@ -856,10 +856,16 @@
     "habitats": [],
     "slug": "silphymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 137,
+      "connected": [
+        "aquilamon",
+        "gatomon"
+      ],
+      "prerequisites": [
+        "equipment:aquilamon-dna",
+        "equipment:gatomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5325.png",

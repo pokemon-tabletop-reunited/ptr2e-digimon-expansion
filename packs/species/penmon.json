@@ -18,8 +18,7 @@
       "vaccine",
       "rookie",
       "bipedal",
-      "deep-breath",
-      "underdog"
+      "deep-breath"
     ],
     "number": 5040,
     "stats": {
@@ -31,8 +30,8 @@
       "spe": 65
     },
     "types": [
-      "ice",
-      "flying"
+      "flying",
+      "ice"
     ],
     "size": {
       "category": "medium",
@@ -856,10 +855,19 @@
     "habitats": [],
     "slug": "penmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 30,
+      "y": 61,
+      "connected": [
+        "yokomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5040.png",

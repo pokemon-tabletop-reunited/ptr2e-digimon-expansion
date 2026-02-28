@@ -823,10 +823,22 @@
     "habitats": [],
     "slug": "gundramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 120,
+      "connected": [
+        "orochimon",
+        "gigadramon",
+        "master-blimpmon",
+        "tankdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5402.png",

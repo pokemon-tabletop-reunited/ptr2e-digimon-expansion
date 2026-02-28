@@ -18,8 +18,7 @@
       "in-training",
       "legless",
       "baby",
-      "free",
-      "underdog"
+      "free"
     ],
     "number": 5016,
     "stats": {
@@ -833,7 +832,14 @@
       "connected": [
         "punimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            5
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5016.png",

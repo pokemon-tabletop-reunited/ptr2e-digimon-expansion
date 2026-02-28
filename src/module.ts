@@ -230,6 +230,36 @@ function DigimonSpeciesSheet(base: typeof foundry.applications.api.DocumentSheet
         label: "PTR2E.SpeciesSheet.Tabs.forms.label",
       }
     };
+
+    override _prepareSubmitData(event: SubmitEvent, form: HTMLFormElement, formData: FormDataExtended): Record<string, unknown> {
+      const data = super._prepareSubmitData(event, form, formData);
+
+      // Handle predicate processing
+      data.system ??= {};
+      //@ts-expect-error - Type narrowing
+      data.system.node ??= {};
+      //@ts-expect-error - Type narrowing
+      const predicate = data.system?.node?.prerequisites;
+      if(typeof predicate === "string") {
+        if(predicate.trim().length === 0) {
+          (data.system as {node: {prerequisites: unknown[]}}).node.prerequisites = [];
+        } else {
+          try {
+            (data.system as {node: {prerequisites: unknown[]}}).node.prerequisites = JSON.parse(predicate);
+          } catch (error) {
+            if(error instanceof Error) {
+              // @ts-expect-error - Missing Foundry Type
+              ui.notifications.error(
+                game.i18n.format("PTR2E.EffectSheet.ChangeEditor.Errors.ChangeSyntax", { message: error.message })
+              )
+              throw error;
+            }
+          }
+        }
+      }
+
+      return data;
+    }
   }
 }
 
