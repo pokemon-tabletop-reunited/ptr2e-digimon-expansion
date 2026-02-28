@@ -1,0 +1,258 @@
+{
+  "folder": null,
+  "name": "Numen Duodenus",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "numen-duodenus",
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "sovereign",
+      "innate"
+    ],
+    "actions": [
+      {
+        "name": "Numen Duodenus (Trigger)",
+        "slug": "numen-duodenus-trigger",
+        "description": "<p>Trigger: The user meets the @Trait[desperation-1-4] Condition for the first time in the current Combat.</p><p>Effect: The user loses @Tick[-2 pp] and is @Affliction[delay 60], and gains @Tick[6 shield] and @Affliction[regen 7].</p>",
+        "traits": [
+          "digimon",
+          "sovereign",
+          "innate"
+        ],
+        "type": "generic",
+        "img": "icons/magic/light/explosion-star-blue-small.webp",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": 0,
+          "unit": "m"
+        }
+      },
+      {
+        "name": "Numen Duodenus",
+        "slug": "numen-duodenus-passive",
+        "description": "<p>Effect: The user possesses the following bonuses, which decrease based on how little HP they have, reaching their minimum at @Trait[desperation-1-4]:<br><br>- 10+30% more damage dealt<br>- 5+30% less damage taken<br>- 15+35% additional EHR<br>- 10+20% additional RES</p>",
+        "traits": [
+          "digimon",
+          "sovereign",
+          "innate"
+        ],
+        "type": "passive",
+        "img": "icons/magic/light/explosion-star-blue-small.webp",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": 0,
+          "unit": "m"
+        },
+        "hidden": true
+      }
+    ],
+    "description": "<p>Effect: The user possesses the following bonuses, which decrease based on how little HP they have, reaching their minimum at @Trait[desperation-1-4]:<br><br>- 10+30% more damage dealt<br>- 5+30% less damage taken<br>- 15+35% additional EHR<br>- 10+20% additional RES<br><br>Upon meeting the @Trait[desperation-1-4] Condition for the first time in the current Combat, the user loses @Tick[-2 pp] and is @Affliction[delay 60], and gains @Tick[6 shield] and @Affliction[regen 7].</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "img": "icons/magic/light/explosion-star-blue-small.webp",
+  "effects": [
+    {
+      "name": "Numen Duodenus",
+      "type": "passive",
+      "_id": "REihrXqItkb0qwVm",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "key": "attack-damage",
+            "value": "10 + max(0, 0.4* (@actor.system.health.percent - 25))",
+            "predicate": [],
+            "label": "Numen Duodenus (Dam)",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "ephemeral-modifier",
+            "key": "attack-damage-percentile",
+            "value": "-5 - max(0, 0.4 * (@target.system.health.percent - 25))",
+            "predicate": [],
+            "label": "Numen Duodenus (Dam)",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "basic",
+            "key": "system.modifiers.effectHitRate",
+            "value": "15 + max(0, (7/15) * (@actor.system.health.percent - 25))",
+            "predicate": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.modifiers.effectResistance",
+            "value": "10 + max(0, (4/15) * (@actor.system.health.percent - 25))",
+            "predicate": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "numen-duodenus-trigger-generic",
+            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.amount",
+                "value": -60
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "numen-duodenus-trigger-generic",
+            "value": "Compendium.ptr2e.core-effects.Item.LHUTMAC0nCJWDRFt",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.changes.0.value",
+                "value": -2
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "numen-duodenus-trigger-generic",
+            "value": "Compendium.ptr2e.core-effects.Item.k1FukpHKnZGqjSNc",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.changes.0.value",
+                "value": 6
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "numen-duodenus-trigger-generic",
+            "value": "Compendium.ptr2e.core-effects.Item.ringedcondititem",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770077648627,
+    "modifiedTime": 1770077648627,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "sJlhD9y2yg2v9YBg",
+  "sort": 0
+}

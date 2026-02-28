@@ -37,15 +37,16 @@
         "description": "<p>Effect: The user gains @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} and @UUID[Compendium.ptr2e.core-effects.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations and sets-up.</p>",
         "range": {
           "target": "self",
-          "unit": "m"
+          "unit": "m",
+          "distance": 10
         }
       },
       {
         "name": "Striver Cannon (Resolution)",
         "slug": "striver-cannon-resolution",
-        "description": "<p>Effect: The user gains @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} and @UUID[Compendium.ptr2e.core-effects.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations and sets-up.</p>",
+        "description": "<p>The resolution attack gains +50% damage vs @Trait[ace] creatures.</p>",
         "traits": [],
-        "type": "generic",
+        "type": "attack",
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "cost": {
           "activation": "complex",
@@ -55,10 +56,18 @@
           "target": "creature",
           "distance": 15,
           "unit": "m"
-        }
+        },
+        "types": [
+          "dragon"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "power": 155,
+        "accuracy": 100
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "striver-cannon"
   },
   "img": "systems/ptr2e/img/svg/dragon_icon.svg",
   "effects": [
@@ -94,6 +103,18 @@
             "dontMerge": false,
             "mode": 2,
             "ignored": false
+          },
+          {
+            "type": "percentile-modifier",
+            "key": "striver-cannon-resolution-attack-damage",
+            "value": 50,
+            "predicate": [
+              "target:trait:ace"
+            ],
+            "label": "Vs Ace",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
           }
         ],
         "slug": null,
@@ -124,13 +145,13 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1769275496003
       }
     }
   ],
-  "flags": {},
   "_id": "s7xTcddKug0iinCr"
 }

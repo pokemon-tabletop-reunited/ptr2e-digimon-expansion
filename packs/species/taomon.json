@@ -854,10 +854,21 @@
     "habitats": [],
     "slug": "taomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 106,
+      "y": 60,
+      "connected": [
+        "garurumon",
+        "woodmon",
+        "kyubimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5264.png",

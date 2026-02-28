@@ -825,10 +825,22 @@
     "habitats": [],
     "slug": "rosemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 59,
+      "connected": [
+        "lilamon",
+        "lilymon",
+        "cherrymon",
+        "pumpkinmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            74
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392.png",

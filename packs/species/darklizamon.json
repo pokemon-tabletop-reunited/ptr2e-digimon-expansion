@@ -797,13 +797,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "dark-pulse",
-          "level": 25,
+          "name": "blaze-kick",
+          "level": 23,
           "gen": null
         },
         {
-          "name": "blaze-kick",
-          "level": 23,
+          "name": "dark-pulse",
+          "level": 25,
           "gen": null
         },
         {
@@ -839,10 +839,21 @@
     "habitats": [],
     "slug": "darklizamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 137,
+      "connected": [
+        "candlemon",
+        "kunemon",
+        "gotsumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5465.png",

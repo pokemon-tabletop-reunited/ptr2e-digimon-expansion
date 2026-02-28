@@ -853,10 +853,21 @@
     "habitats": [],
     "slug": "dragomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 114,
+      "y": 168,
+      "connected": [
+        "octomon",
+        "raremon",
+        "kurisarimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5304.png",

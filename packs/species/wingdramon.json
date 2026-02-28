@@ -852,10 +852,21 @@
     "habitats": [],
     "slug": "wingdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 112,
+      "connected": [
+        "coredramon-blue",
+        "veedramon",
+        "greymon-blue"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5221.png",

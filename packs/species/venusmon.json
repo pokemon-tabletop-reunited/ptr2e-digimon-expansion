@@ -820,10 +820,20 @@
     "habitats": [],
     "slug": "venusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 149,
+      "connected": [
+        "taomon",
+        "piximon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5336.png",

@@ -828,10 +828,19 @@
     "habitats": [],
     "slug": "calmaramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 54,
+      "y": 184,
+      "connected": [
+        "lanamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            35
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5212.png",

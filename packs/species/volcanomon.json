@@ -848,10 +848,22 @@
     "habitats": [],
     "slug": "volcanomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 35,
+      "connected": [
+        "golemon",
+        "starmon",
+        "nanimon",
+        "fugamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5278.png",

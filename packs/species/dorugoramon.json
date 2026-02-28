@@ -827,10 +827,20 @@
     "habitats": [],
     "slug": "dorugoramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 51,
+      "connected": [
+        "doru-greymon",
+        "paildramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",

@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "neutron-pulse",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "zen-recovery",
           "level": 0,
           "gen": null
@@ -854,6 +849,11 @@
           "name": "head-smash",
           "level": 61,
           "gen": null
+        },
+        {
+          "name": "neutron-pulse",
+          "level": 63,
+          "gen": null
         }
       ],
       "tutor": []
@@ -862,10 +862,21 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 131,
+      "connected": [
+        "tyrannomon",
+        "dark-tyrannomon",
+        "cyclonemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     },
     "slug": "master-tyrannomon"
   },

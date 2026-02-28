@@ -17,8 +17,7 @@
       "digimon",
       "free",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5092,
     "stats": {
@@ -855,10 +854,19 @@
     "habitats": [],
     "slug": "veemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 36,
+      "y": 92,
+      "connected": [
+        "tsunomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5092.png",

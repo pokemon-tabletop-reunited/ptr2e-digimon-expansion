@@ -815,11 +815,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "zap-cannon",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "chatter",
           "level": 48,
           "gen": null
@@ -853,6 +848,11 @@
           "name": "hurricane",
           "level": 60,
           "gen": null
+        },
+        {
+          "name": "zap-cannon",
+          "level": 63,
+          "gen": null
         }
       ],
       "tutor": []
@@ -862,10 +862,20 @@
     "habitats": [],
     "slug": "parrotmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 63,
+      "connected": [
+        "aquilamon",
+        "birdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5235.png",
