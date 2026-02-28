@@ -868,6 +868,26 @@
             "inMemoryOnly": false,
             "track": false,
             "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.93DUs3lOR8wkmGMp",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:vikemon"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "allowDuplicate": false,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -902,7 +922,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1769834827082,
-        "modifiedTime": 1769834903323,
+        "modifiedTime": 1771262332955,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
       }
     }

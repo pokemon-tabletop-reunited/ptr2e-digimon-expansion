@@ -857,7 +857,10 @@
       "x": 34,
       "y": 165,
       "connected": [
-        "tokomon"
+        "tokomon",
+        "devimon",
+        "devidramon",
+        "saberdramon"
       ],
       "prerequisites": [
         {

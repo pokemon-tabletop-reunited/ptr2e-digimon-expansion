@@ -844,7 +844,10 @@
       "connected": [
         "candlemon",
         "kunemon",
-        "gotsumon"
+        "gotsumon",
+        "ex-tyrannomon",
+        "war-growlmon",
+        "metal-tyrannomon"
       ],
       "prerequisites": [
         {
