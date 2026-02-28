@@ -839,7 +839,10 @@
         "angewomon",
         "lady-devimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:angewomon-dna",
+        "equipment:lady-devimon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5363.png",

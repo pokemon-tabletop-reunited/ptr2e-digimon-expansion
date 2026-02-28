@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "rookie",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5073,
     "stats": {
@@ -803,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "power-up-punch",
-          "level": 7,
-          "gen": null
-        },
-        {
           "name": "bonk",
           "level": 3,
           "gen": null
@@ -825,6 +819,11 @@
         {
           "name": "bone-club",
           "level": 6,
+          "gen": null
+        },
+        {
+          "name": "power-up-punch",
+          "level": 7,
           "gen": null
         },
         {
@@ -860,7 +859,14 @@
       "connected": [
         "dorimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            8
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5073.png",

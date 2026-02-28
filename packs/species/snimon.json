@@ -21,8 +21,7 @@
       "bladed",
       "blindsight-30",
       "blind",
-      "quadrupedal",
-      "underdog"
+      "quadrupedal"
     ],
     "number": 5116,
     "stats": {
@@ -861,7 +860,14 @@
         "wormmon",
         "crabmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5116.png",

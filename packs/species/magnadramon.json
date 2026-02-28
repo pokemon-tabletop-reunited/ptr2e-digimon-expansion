@@ -831,9 +831,17 @@
       "y": 142,
       "connected": [
         "angewomon",
-        "shakkoumon"
+        "shakkoumon",
+        "meicrackmon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5362.png",

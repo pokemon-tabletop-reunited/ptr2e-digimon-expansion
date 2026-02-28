@@ -19,8 +19,7 @@
       "in-training",
       "many-legged",
       "wallclimber",
-      "digimon",
-      "underdog"
+      "digimon"
     ],
     "stats": {
       "hp": 35,
@@ -865,7 +864,14 @@
       "connected": [
         "kuramon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            7
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5008.png",

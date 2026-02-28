@@ -830,7 +830,10 @@
         "bancho-leomon",
         "varodurumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        "equipment:bancho-leomon-dna",
+        "equipment:varodurumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5453.png",

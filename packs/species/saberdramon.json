@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "crimson-flare",
-          "level": 33,
-          "gen": null
-        },
-        {
           "name": "aerial-spike",
           "level": 22,
           "gen": null
@@ -831,6 +826,11 @@
           "gen": null
         },
         {
+          "name": "crimson-flare",
+          "level": 33,
+          "gen": null
+        },
+        {
           "name": "blazing-torque",
           "level": 36,
           "gen": null
@@ -849,7 +849,14 @@
         "gabumon-black",
         "demi-devimon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5476.png",
