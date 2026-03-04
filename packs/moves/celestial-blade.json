@@ -23,14 +23,17 @@
         "traits": [
           "digimon",
           "sharp",
-          "missile"
+          "ray",
+          "missile",
+          "flinch-20"
         ],
         "cost": {
           "activation": "complex",
           "powerPoints": 9
         },
         "types": [
-          "electric"
+          "electric",
+          "fairy"
         ],
         "category": "special",
         "predicate": [],
@@ -39,8 +42,8 @@
           "distance": 7,
           "unit": "m"
         },
-        "power": 120,
-        "accuracy": 100
+        "power": 125,
+        "accuracy": 90
       }
     ],
     "grade": "S"

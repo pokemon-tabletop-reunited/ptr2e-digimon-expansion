@@ -24,24 +24,25 @@
           "3-strike",
           "digimon",
           "missile",
-          "flinch-30"
+          "explode",
+          "flinch-60"
         ],
         "cost": {
-          "activation": "simple"
+          "activation": "complex"
         },
         "types": [
           "fire"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, after all attack rolls have been made, the user gains @Affliction[bound 2]. This is not automated.</p>",
+        "description": "<p>Effect: This attack's Power ranges based on how healthy the user is, ranging from 35 to 115.</p>",
         "range": {
           "target": "creature",
-          "distance": 12,
+          "distance": 16,
           "unit": "m"
         },
-        "power": 80,
-        "accuracy": 100
+        "power": 115,
+        "accuracy": 95
       }
     ],
     "grade": "S"

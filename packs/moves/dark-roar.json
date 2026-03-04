@@ -23,7 +23,7 @@
         "traits": [
           "digimon",
           "missile",
-          "crit-1"
+          "crit-2"
         ],
         "cost": {
           "activation": "complex",
@@ -35,7 +35,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack is considered both @Trait[nuclear] & @Trait[dark].</p>",
+        "description": "<p>Effect: On hit, the target has a 30% chance of being @Affliction[grounded 5].</p>",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -49,6 +49,64 @@
     "slug": "dark-roar"
   },
   "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Dark Roar",
+      "type": "passive",
+      "_id": "LuFbsTPJeF4QQlUt",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "dark-roar-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.groundedconditem",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771269770331,
+        "modifiedTime": 1771269796253,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "3ddQH7d5Iok3KuIG"
 }

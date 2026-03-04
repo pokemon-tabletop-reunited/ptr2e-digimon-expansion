@@ -22,7 +22,7 @@
         "img": "systems/ptr2e/img/svg/fire_icon.svg",
         "traits": [
           "ray",
-          "5-strike",
+          "6-strike",
           "digimon"
         ],
         "cost": {
@@ -36,12 +36,12 @@
         "predicate": [],
         "description": "<p>This attack has a 15% chance to apply @UUID[Compendium.ptr2e.core-effects.wA5oCsgHmZLcHHSn]{-1 Accuracy Stage for 5 activations}</p>",
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 12,
           "unit": "m"
         },
-        "power": 30,
-        "accuracy": 100
+        "power": 35,
+        "accuracy": 95
       }
     ],
     "grade": "B",

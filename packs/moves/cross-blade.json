@@ -22,8 +22,7 @@
         "img": "systems/ptr2e/img/svg/fairy_icon.svg",
         "traits": [
           "contact",
-          "danger-close",
-          "crit-1",
+          "crit-2",
           "digimon"
         ],
         "cost": {
@@ -31,7 +30,8 @@
           "powerPoints": 6
         },
         "types": [
-          "fairy"
+          "fairy",
+          "steel"
         ],
         "category": "physical",
         "predicate": [],

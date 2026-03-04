@@ -21,11 +21,12 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/ice_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "pulse"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 6
         },
         "types": [
           "fire",
@@ -33,10 +34,10 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, the user gains @UUID[Compendium.ptr2e.core-effects.Item.1TqcwIUNl32wJCAa]{+1 Special Attack Stage for 5 activations} and <em>@UUID[Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3]{+1 Special Defense Stage for 5 activations}. This attack counts as both Fire and Ice Type.</em></p>",
+        "description": "<p>Effect: On resolution, the user gains +1 SPATK Stage for 5 Activations. This Attack is one more effective against the @Trait[ice] Type, and two steps more effective against the @Trait[fire] Type.</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 8,
           "unit": "m"
         },
         "power": 100,
@@ -69,17 +70,28 @@
             "ignored": false
           },
           {
-            "type": "roll-effect",
-            "key": "cold-flame-digimon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
+            "type": "flat-modifier",
+            "key": "cold-flame-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:ice"
+            ],
+            "label": "Vs Ice",
             "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "cold-flame-attack-effectiveness-stage",
+            "value": 2,
+            "predicate": [
+              "target:trait:fire"
+            ],
+            "label": "Vs Fire",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
           }
         ],
         "slug": null,

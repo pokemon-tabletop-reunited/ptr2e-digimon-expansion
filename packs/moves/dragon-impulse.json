@@ -22,23 +22,27 @@
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
           "recoil-1-2",
+          "dash",
+          "contact",
+          "flinch-30",
           "digimon"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 4
         },
         "types": [
-          "dragon"
+          "dragon",
+          "flying"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack does 130 fixed flat damage to the target.</p>",
         "range": {
-          "target": "enemy",
-          "distance": 5,
+          "target": "creature",
+          "distance": 1,
           "unit": "m"
         },
+        "power": 170,
         "accuracy": 100
       }
     ],

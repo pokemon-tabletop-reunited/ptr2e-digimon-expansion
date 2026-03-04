@@ -16,44 +16,15 @@
     "traits": [],
     "actions": [
       {
-        "name": "Brave Metal",
-        "slug": "brave-metal-resolution",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
-        "traits": [
-          "digimon",
-          "set-up",
-          "contact",
-          "dash",
-          "flinch-60",
-          "partial-automation"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "steel"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Resolution: The user moves up to 1.5x their preferred Movement Allowance and resolved Brave Metal.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 200,
-        "accuracy": 100
-      },
-      {
         "name": "Brave Metal (Set-Up)",
-        "slug": "brave-metal-setup",
-        "description": "<p>Effect: The User converts @Tick[-2] into @Tick[2 shield], gains [Contempt] and @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} for 5 activations.</p>",
+        "slug": "brave-metal-set-up",
+        "description": "<p>Effect: The user gains +2 ATK Stages for 3 Activations.</p>",
         "traits": [
-          "priority-30"
+          "priority-30",
+          "set-up",
+          "digimon"
         ],
-        "type": "generic",
+        "type": "attack",
         "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "cost": {
           "activation": "complex",
@@ -62,7 +33,46 @@
         "range": {
           "target": "self",
           "unit": "m"
-        }
+        },
+        "types": [
+          "steel"
+        ],
+        "category": "status",
+        "predicate": []
+      },
+      {
+        "name": "Brave Metal (Resolution)",
+        "slug": "brave-metal-resolution",
+        "description": "<p>Trigger: The user used Brave Metal (Set-Up) as their last Action.</p><p>Effect: The user may freely Move Up to 1.5x the Movement Score of their choice as they resolve this Attack. This Attack is one step more effective against @Trait[dragon] and @Trait[fire] creatures.</p>",
+        "traits": [
+          "flinch-60",
+          "set-up",
+          "digimon",
+          "contact",
+          "dash",
+          "pass-4",
+          "crushing"
+        ],
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "The user used Brave Metal (Set-Up) as their last Action."
+        },
+        "range": {
+          "target": "creature",
+          "unit": "m",
+          "distance": 1
+        },
+        "variant": "brave-metal-set-up",
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "power": 200,
+        "accuracy": 90
       }
     ],
     "grade": "S"
@@ -78,8 +88,8 @@
         "changes": [
           {
             "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.4DlXFTVooz07YcDm",
+            "key": "brave-metal-set-up-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.g1Gt9mJWimAqrqZ0",
             "predicate": [],
             "chance": 100,
             "isFixedChance": true,
@@ -87,8 +97,8 @@
             "alterations": [
               {
                 "mode": 5,
-                "property": "system.changes.0.value",
-                "value": -2
+                "property": "duration.turns",
+                "value": 3
               }
             ],
             "dontMerge": false,
@@ -96,36 +106,28 @@
             "ignored": false
           },
           {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.k1FukpHKnZGqjSNc",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "self",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "system.changes.0.value",
-                "value": 2
-              }
+            "type": "flat-modifier",
+            "key": "brave-metal-resolution-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:dragon"
             ],
-            "dontMerge": false,
+            "label": "Vs Dragon",
             "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "hideIfDisabled": false
           },
           {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
+            "type": "flat-modifier",
+            "key": "brave-metal-resolution-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fire"
+            ],
+            "label": "Vs Fire",
             "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "hideIfDisabled": false
           }
         ],
         "slug": null,

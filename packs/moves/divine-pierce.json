@@ -23,7 +23,7 @@
         "traits": [
           "contact",
           "weapon",
-          "pierce",
+          "crit-1",
           "digimon"
         ],
         "range": {
@@ -42,40 +42,105 @@
         "power": 65,
         "accuracy": 100,
         "predicate": []
-      },
-      {
-        "name": "Divine Pierce (Awake)",
-        "slug": "divine-pierce-awake",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "contact",
-          "weapon",
-          "pierce"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 2,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2
-        },
-        "variant": "divine-pierce",
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "power": 65,
-        "accuracy": 100,
-        "predicate": []
       }
     ],
     "grade": "D",
     "slug": "divine-pierce"
   },
   "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Divine Pierce",
+      "type": "passive",
+      "_id": "6c7L7RJX15nsJwkz",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "alter-attack",
+            "key": "divine-pierce-attack",
+            "value": 45,
+            "predicate": [
+              "forme:awake:active"
+            ],
+            "property": "power",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "key": "divine-pierce-attack",
+            "value": "priority-20",
+            "predicate": [
+              "forme:awake:active"
+            ],
+            "property": "traits",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "key": "divine-pierce-attack",
+            "value": "pierce",
+            "predicate": [
+              "forme:awake:active"
+            ],
+            "property": "traits",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "key": "divine-pierce-attack",
+            "value": 4,
+            "predicate": [
+              "forme:awake:active"
+            ],
+            "property": "pp-cost",
+            "definition": [],
+            "mode": 5,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771284861256,
+        "modifiedTime": 1771285063637,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "dBepc88qKzmj8m6c"
 }

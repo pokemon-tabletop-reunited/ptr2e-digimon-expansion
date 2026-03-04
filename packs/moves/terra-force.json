@@ -23,18 +23,20 @@
         "traits": [
           "digimon",
           "explode",
-          "blast-4"
+          "blast-4",
+          "pulse"
         ],
         "cost": {
           "activation": "complex",
           "powerPoints": 11
         },
         "types": [
+          "fighting",
           "fire"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, the user has a 30% chance to gain @UUID[Compendium.ptr2e.core-effects.g1Gt9mJWimAqrqZ0]{+2 Attack Stages for 5 activations}.</p>",
+        "description": "<p>On resolution, the user has a 30% chance to gain +1 ATK Stage for 5 Activations.</p>",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -59,7 +61,7 @@
           {
             "type": "roll-effect",
             "key": "terra-force-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.g1Gt9mJWimAqrqZ0",
+            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,

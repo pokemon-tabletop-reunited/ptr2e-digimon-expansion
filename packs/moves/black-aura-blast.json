@@ -21,24 +21,28 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "pulse",
+          "aura",
+          "priority-20"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10
+          "powerPoints": 9
         },
         "types": [
-          "psychic"
+          "psychic",
+          "dark"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>On hit, this attack inflicts @UUID[Compendium.ptr2e.core-effects.B79G2s6TauIlmsno]{-2 Defense Stages for 5 activations} to the target.</p>",
+        "description": "<p>Effect: On hit, the target has a 50% chance of gaining @Affliction[confused 7]. This attack is more powerful the slower the user is compared to the target ranging from 80 to 180.</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 9,
           "unit": "m"
         },
-        "power": 110,
+        "power": 80,
         "accuracy": 100
       }
     ],
@@ -54,14 +58,30 @@
       "system": {
         "changes": [
           {
+            "type": "flat-modifier",
+            "key": "black-aura-blast-attack-power",
+            "value": "-round(min(100,max(0,3*((@actor.system.attributes.spe.final*3.5-@target.system.attributes.spe.final)/@actor.system.attributes.spe.final))))",
+            "predicate": [],
+            "label": "Black Aura Blast Scaling",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
             "type": "roll-effect",
             "key": "black-aura-blast-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
+            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
             "predicate": [],
-            "chance": 100,
+            "chance": 50,
             "isFixedChance": false,
             "affects": "target",
-            "alterations": [],
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false

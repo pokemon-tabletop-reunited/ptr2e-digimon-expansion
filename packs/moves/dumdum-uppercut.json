@@ -34,13 +34,14 @@
           "powerPoints": 3
         },
         "types": [
-          "nuclear"
+          "nuclear",
+          "steel"
         ],
         "category": "physical",
         "power": 90,
-        "accuracy": 100,
+        "accuracy": 95,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to delay the target's activation by 30%</p>"
+        "description": "<p>Effect: On hit, the target has a 10% change of being @Affliction[delay 30].</p>"
       }
     ],
     "grade": "C",
@@ -58,7 +59,7 @@
           {
             "type": "roll-effect",
             "key": "dumdum-uppercut-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
             "predicate": [],
             "chance": 10,
             "affects": "target",
@@ -68,11 +69,6 @@
                 "mode": 5,
                 "property": "system.amount",
                 "value": -30
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 30%"
               }
             ],
             "mode": 2,

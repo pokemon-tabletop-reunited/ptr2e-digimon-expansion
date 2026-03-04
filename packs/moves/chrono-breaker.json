@@ -21,30 +21,119 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "flat",
+          "flinch-20"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 6
         },
         "types": [
           "psychic"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack deals a fixed 50 flat damage, bypassing Special Defense.</p>",
+        "description": "<p>Effect: On hit, the target has a 50% chance of gaining @Affliction[delay 50] and a 20% chance of gaining @Affliction[drowsy 5]. This attack deals flat damage based on the user's level.</p><blockquote><p>Damage Formula: Damage = 2 x UserLevel</p></blockquote></p>",
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 6,
           "unit": "m"
         },
         "accuracy": 100
       }
     ],
-    "grade": "C",
+    "grade": "A",
     "slug": "chrono-breaker"
   },
   "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Chrono Breaker",
+      "type": "passive",
+      "_id": "kmmuhQFGBbnOBune",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "chrono-breaker-attack-damage-flat",
+            "value": "floor(@actor.system.advancement.level * 2)",
+            "predicate": [],
+            "label": "Chrono Breaker",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "chrono-breaker-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "predicate": [],
+            "chance": 50,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.amount",
+                "value": -50
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "chrono-breaker-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.drowsycondititem",
+            "predicate": [],
+            "chance": 20,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771268835398,
+        "modifiedTime": 1771268952092,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "eCVDx08dhdJ7nNI2"
 }

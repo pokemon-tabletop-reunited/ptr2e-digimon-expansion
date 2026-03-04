@@ -16,29 +16,90 @@
     "traits": [],
     "actions": [
       {
-        "name": "Black Rain",
-        "slug": "black-rain",
+        "name": "Black Rain (Set-Up)",
+        "slug": "black-rain-set-up",
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "priority-20",
+          "set-up",
+          "environ"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 15
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "types": [
+          "dark"
+        ],
+        "category": "status",
+        "predicate": [],
+        "description": "<p>Effect: The user gains @Affliction[braced 2]. If Gloomy or Shady Weather is present, the user may use Black Rain (Resolution) as a Free Action upon resolving this Attack.</p>",
+        "range": {
+          "target": "self",
+          "unit": "m",
+          "distance": 0
+        },
+        "power": null,
+        "accuracy": null,
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null
+      },
+      {
+        "name": "Black Rain (Resolution)",
+        "slug": "black-rain-resolution",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "traits": [
+          "digimon",
+          "ray",
+          "crit-1",
+          "flinch-60"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
         },
         "types": [
           "dark"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack launches an artillery bombardment into the sky that descends like rain. This attack targets friend and foe alike indiscriminately, but cannot affect the user.<br><br>Targets cannot claim Cover against this attack. This attack has a 20% chance to apply @Affliction[confused 5].</p>",
+        "description": "<p>Trigger: The user used Black Rain (Set-Up) as their last Action.</p><p>Effect: This Attack targets foes' SPD, rather than DEF. On hit, all valid targets have a 40% chance of gaining @Affliction[confused 5] and a 20% chance of gaining @Affliction[wracked 5].</p>",
         "range": {
           "target": "field",
-          "unit": "m"
+          "unit": "m",
+          "distance": null
         },
-        "power": 150,
-        "accuracy": 100
+        "power": 200,
+        "accuracy": 90,
+        "variant": "black-rain-set-up",
+        "ephemeralVariant": false,
+        "summon": null,
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": "spe"
       }
     ],
     "grade": "S"
@@ -54,11 +115,37 @@
         "changes": [
           {
             "type": "roll-effect",
-            "key": "black-rain-attack",
+            "key": "black-rain-resolution-attack",
             "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
+            "predicate": [],
+            "chance": 40,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "black-rain-resolution-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.wrackedcondiitem",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "black-rain-set-up-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.bracedcondititem",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,

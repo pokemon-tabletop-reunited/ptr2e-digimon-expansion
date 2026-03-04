@@ -21,7 +21,7 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
-          "reach",
+          "crushing",
           "dash",
           "crit-1",
           "contact",
@@ -38,7 +38,7 @@
         "predicate": [],
         "range": {
           "target": "creature",
-          "distance": 1,
+          "distance": 2,
           "unit": "m"
         },
         "power": 140,

@@ -21,9 +21,9 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/ice_icon.svg",
         "traits": [
-          "contact",
-          "crushing",
-          "digimon"
+          "digimon",
+          "wind",
+          "friendly"
         ],
         "cost": {
           "activation": "complex",
@@ -32,15 +32,14 @@
         "types": [
           "ice"
         ],
-        "category": "physical",
+        "category": "status",
         "predicate": [],
-        "description": "<p>This attack has a 40% chance to inflict @Affliction[frozen 1].</p>",
+        "description": "<p>>Effect: On hit, all valid targets have a 20% chance of gaining @Affliction[frozen 2], and have a 70% chance of gaining @Affliction[frozen 1].</p>",
         "range": {
-          "target": "creature",
-          "distance": 1,
+          "target": "emanation",
+          "distance": 6,
           "unit": "m"
         },
-        "power": 125,
         "accuracy": 100
       }
     ],
@@ -61,11 +60,30 @@
             "key": "arctic-blizzard-attack",
             "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
             "predicate": [],
-            "chance": 40,
+            "chance": 20,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 2
+              }
+            ],
+            "dontMerge": true,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "arctic-blizzard-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
+            "predicate": [],
+            "chance": 70,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
-            "dontMerge": false,
+            "dontMerge": true,
             "mode": 2,
             "ignored": false
           }

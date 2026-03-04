@@ -23,7 +23,8 @@
         "traits": [
           "digimon",
           "ray",
-          "crit-1"
+          "crit-1",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",
@@ -39,8 +40,8 @@
           "distance": 10,
           "unit": "m"
         },
-        "power": 115,
-        "accuracy": 100
+        "power": 200,
+        "accuracy": 90
       }
     ],
     "grade": "A"

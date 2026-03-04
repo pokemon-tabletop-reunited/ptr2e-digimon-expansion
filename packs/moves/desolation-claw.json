@@ -21,7 +21,7 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
-          "contact",
+          "flinch-20",
           "digimon"
         ],
         "cost": {
@@ -33,10 +33,10 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to apply @Affliction[perish 3].</p>",
+        "description": "<p>Effect: This Attack deals +50% more damage to @Trait[data] creatures.</p",
         "range": {
-          "target": "enemy",
-          "distance": 1,
+          "target": "creature",
+          "distance": 6,
           "unit": "m"
         },
         "power": 115,
@@ -56,23 +56,15 @@
       "system": {
         "changes": [
           {
-            "type": "roll-effect",
-            "key": "desolation-claw-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
+            "type": "flat-modifier",
+            "key": "desolation-claw-damage-flat",
+            "value": 50,
+            "predicate": [
+              "target:trait:data"
             ],
-            "dontMerge": false,
             "mode": 2,
             "ignored": false,
-            "isFixedChance": false
+            "hideIfDisabled": false
           }
         ],
         "slug": null,

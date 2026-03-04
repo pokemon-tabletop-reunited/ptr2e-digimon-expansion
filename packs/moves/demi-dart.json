@@ -23,25 +23,25 @@
         "traits": [
           "missile",
           "drain-1-4",
-          "digimon"
+          "digimon",
+          "3-strike"
         ],
         "range": {
-          "target": "enemy",
-          "distance": 10,
+          "target": "creature",
+          "distance": 5,
           "unit": "m"
         },
         "cost": {
-          "activation": "simple",
-          "powerPoints": 2
+          "activation": "complex",
+          "powerPoints": 3
         },
         "types": [
           "poison"
         ],
         "category": "physical",
-        "power": 60,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>Fires a poisonous, life-draining dart at the opponent.</p>"
+        "power": 40,
+        "accuracy": 90,
+        "predicate": []
       }
     ],
     "grade": "D",

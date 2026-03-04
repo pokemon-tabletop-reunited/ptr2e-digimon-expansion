@@ -34,7 +34,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack inflicts -1 Defense Stage for 5 Activations.</p>",
+        "description": "<p>Effect: On hit, the target has a 40% chance to lose -1 DEF Stage for 5 Activations. This Attack is one step more effective against the @Trait[fairy] Type.</p>",
         "range": {
           "target": "creature",
           "distance": 5,
@@ -57,17 +57,29 @@
       "system": {
         "changes": [
           {
+            "type": "flat-modifier",
+            "key": "blue-flare-breath-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
             "type": "roll-effect",
             "key": "blue-flare-breath-attack",
             "value": "Compendium.ptr2e.core-effects.Item.bdYCJcqjMNqTpJJQ",
             "predicate": [],
-            "chance": 100,
+            "chance": 40,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
+            "isFixedChance": false,
             "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "ignored": false
           }
         ],
         "slug": null,
