@@ -41,7 +41,7 @@
         "power": 90,
         "accuracy": 95,
         "predicate": [],
-        "description": "<p>Effect: On hit, the target has a 10% change of being @Affliction[delay 30].</p>"
+        "description": "<p>Effect: On hit, the target has a 10% chanCe of being @Affliction[delay 30].</p>"
       }
     ],
     "grade": "C",
