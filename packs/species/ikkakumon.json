@@ -21,7 +21,9 @@
       "deep-breath",
       "natural-swimmer",
       "horned",
-      "lumbering"
+      "lumbering",
+      "beast",
+      "aquatic"
     ],
     "number": 5100,
     "stats": {
@@ -848,10 +850,21 @@
     "habitats": [],
     "slug": "ikkakumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 106,
+      "connected": [
+        "salamon",
+        "gabumon",
+        "gomamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5100.png",

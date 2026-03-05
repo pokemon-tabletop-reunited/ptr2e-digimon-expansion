@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "champion",
-      "bipedal"
+      "bipedal",
+      "unknown"
     ],
     "number": 5146,
     "stats": {
@@ -843,10 +844,21 @@
     "habitats": [],
     "slug": "starmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 25,
+      "connected": [
+        "dracmon",
+        "solarmon",
+        "gotsumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5146.png",

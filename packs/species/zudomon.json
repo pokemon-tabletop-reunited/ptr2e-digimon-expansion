@@ -20,7 +20,8 @@
       "deep-diver",
       "bipedal",
       "horned",
-      "natural-swimmer"
+      "natural-swimmer",
+      "ultimate"
     ],
     "number": 5232,
     "stats": {
@@ -854,10 +855,22 @@
     "habitats": [],
     "slug": "zudomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 114,
+      "y": 175,
+      "connected": [
+        "ikkakumon",
+        "mojyamon",
+        "clockmon",
+        "hyogamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            46
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5232.png",

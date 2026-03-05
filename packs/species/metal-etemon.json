@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "mega",
-      "semi-bipedal"
+      "semi-bipedal",
+      "construct"
     ],
     "number": 5432,
     "stats": {
@@ -828,10 +829,22 @@
     "habitats": [],
     "slug": "metal-etemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 147,
+      "connected": [
+        "etemon",
+        "garbagemon",
+        "black-king-nunemon",
+        "meteormon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            69
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5432.png",

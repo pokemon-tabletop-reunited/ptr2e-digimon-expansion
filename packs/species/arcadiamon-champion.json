@@ -17,7 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "beast",
+      "unknown"
     ],
     "number": 5096,
     "stats": {
@@ -845,10 +847,21 @@
     "habitats": [],
     "slug": "arcadiamon-champion",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 4,
+      "connected": [
+        "arcadiamon-rookie",
+        "dracmon",
+        "keramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            25
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5096.png",

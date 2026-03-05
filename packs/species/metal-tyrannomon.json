@@ -18,7 +18,8 @@
       "virus",
       "ultimate",
       "bipedal",
-      "tailed"
+      "tailed",
+      "construct"
     ],
     "number": 5318,
     "stats": {
@@ -852,10 +853,21 @@
     "habitats": [],
     "slug": "metal-tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 134,
+      "connected": [
+        "geo-greymon",
+        "tyrannomon",
+        "coelamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5318.png",

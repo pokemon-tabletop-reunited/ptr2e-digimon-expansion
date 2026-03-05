@@ -18,7 +18,8 @@
       "virus",
       "mega",
       "hover",
-      "arcane"
+      "arcane",
+      "fossil"
     ],
     "number": 5397,
     "stats": {
@@ -824,10 +825,19 @@
     "habitats": [],
     "slug": "ancient-wisemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 12,
+      "connected": [
+        "wisemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            67
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",

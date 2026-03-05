@@ -846,10 +846,22 @@
     "habitats": [],
     "slug": "gatomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 98,
+      "connected": [
+        "salamon",
+        "chuumon",
+        "huckmon",
+        "snow-goblimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5119.png",

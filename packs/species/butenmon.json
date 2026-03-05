@@ -19,7 +19,8 @@
       "ultimate",
       "bipedal",
       "winged",
-      "awkward-flyer"
+      "awkward-flyer",
+      "deity"
     ],
     "number": 5238,
     "stats": {
@@ -815,11 +816,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mow-down",
-          "level": 66,
-          "gen": null
-        },
-        {
           "name": "whirling-rondé",
           "level": 48,
           "gen": null
@@ -848,6 +844,11 @@
           "name": "pile-driver",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "mow-down",
+          "level": 66,
+          "gen": null
         }
       ],
       "tutor": []
@@ -857,10 +858,21 @@
     "habitats": [],
     "slug": "butenmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 104,
+      "y": 58,
+      "connected": [
+        "ginryumon",
+        "buraimon",
+        "musyamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",

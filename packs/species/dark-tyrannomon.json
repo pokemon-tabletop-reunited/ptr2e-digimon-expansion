@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "bipedal",
-      "tailed"
+      "tailed",
+      "dinosaur"
     ],
     "number": 5468,
     "stats": {
@@ -850,10 +851,21 @@
     "habitats": [],
     "slug": "dark-tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 60,
+      "y": 123,
+      "connected": [
+        "agumon",
+        "dracomon",
+        "guilmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5468.png",

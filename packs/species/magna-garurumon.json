@@ -20,7 +20,8 @@
       "bipedal",
       "ufo",
       "hybrid",
-      "forme-change"
+      "forme-change",
+      "construct"
     ],
     "number": 5447,
     "stats": {
@@ -829,10 +830,19 @@
     "habitats": [],
     "slug": "magna-garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 107,
+      "connected": [
+        "beowolfmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            75
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5447.png",

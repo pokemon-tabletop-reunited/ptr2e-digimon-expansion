@@ -18,7 +18,8 @@
       "virus",
       "mega",
       "quadrupedal",
-      "winged"
+      "winged",
+      "construct"
     ],
     "number": 5389,
     "stats": {
@@ -827,10 +828,21 @@
     "habitats": [],
     "slug": "metal-garurumon-black",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 15,
+      "connected": [
+        "were-garurumon-black",
+        "catch-mamemon",
+        "cerberusmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5389.png",

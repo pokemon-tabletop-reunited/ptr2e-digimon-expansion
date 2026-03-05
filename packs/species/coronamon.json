@@ -20,7 +20,7 @@
       "bipedal",
       "firestarter",
       "glow-2",
-      "underdog"
+      "beast"
     ],
     "number": 5028,
     "stats": {
@@ -800,11 +800,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "fire-punch",
-          "level": 16,
-          "gen": null
-        },
-        {
           "name": "pound",
           "level": 3,
           "gen": null
@@ -838,6 +833,11 @@
           "name": "rocket-kick",
           "level": 14,
           "gen": null
+        },
+        {
+          "name": "fire-punch",
+          "level": 16,
+          "gen": null
         }
       ],
       "tutor": []
@@ -853,7 +853,14 @@
         "demi-meramon",
         "tokomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            11
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5028.png",

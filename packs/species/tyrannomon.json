@@ -846,10 +846,19 @@
     "habitats": [],
     "slug": "tyrannomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 133,
+      "connected": [
+        "dracomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5150.png",

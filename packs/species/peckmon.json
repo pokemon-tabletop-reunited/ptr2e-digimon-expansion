@@ -18,7 +18,8 @@
       "vaccine",
       "champion",
       "bipedal",
-      "rapid"
+      "rapid",
+      "ninja"
     ],
     "number": 5125,
     "stats": {
@@ -844,10 +845,22 @@
     "habitats": [],
     "slug": "peckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 65,
+      "connected": [
+        "hyokomon",
+        "falcomon",
+        "penmon",
+        "muchomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5125.png",

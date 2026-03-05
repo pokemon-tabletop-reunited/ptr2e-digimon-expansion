@@ -869,10 +869,19 @@
     "habitats": [],
     "slug": "salamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 34,
+      "y": 103,
+      "connected": [
+        "nyaromon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            8
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5038.png",

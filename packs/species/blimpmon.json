@@ -19,7 +19,7 @@
       "champion",
       "vehicle",
       "hover",
-      "underdog"
+      "construct"
     ],
     "number": 5156,
     "stats": {
@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "chemical-bomb",
-          "level": 34,
-          "gen": null
-        },
-        {
           "name": "electrostun",
           "level": 22,
           "gen": null
@@ -834,6 +829,11 @@
           "gen": null
         },
         {
+          "name": "chemical-bomb",
+          "level": 34,
+          "gen": null
+        },
+        {
           "name": "blazing-torque",
           "level": 36,
           "gen": null
@@ -851,10 +851,19 @@
     "habitats": [],
     "slug": "blimpmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 51,
+      "y": 32,
+      "connected": [
+        "hagurumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5156.png",

@@ -19,7 +19,9 @@
       "ultimate",
       "gilled",
       "many-legged",
-      "lumbering"
+      "lumbering",
+      "fossil",
+      "antibody"
     ],
     "number": 5252,
     "stats": {
@@ -811,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sea-shanty",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "bubble-storm",
           "level": 48,
           "gen": null
@@ -828,6 +825,11 @@
         {
           "name": "mist",
           "level": 52,
+          "gen": null
+        },
+        {
+          "name": "sea-shanty",
+          "level": 54,
           "gen": null
         },
         {
@@ -853,10 +855,21 @@
     "habitats": [],
     "slug": "scorpiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 114,
+      "y": 166,
+      "connected": [
+        "coelamon",
+        "kuwagamon",
+        "shellmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5252.png",

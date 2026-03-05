@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "ultimate",
-      "bipedal"
+      "bipedal",
+      "beast"
     ],
     "number": 5226,
     "stats": {
@@ -856,10 +857,22 @@
     "habitats": [],
     "slug": "grap-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 107,
+      "y": 52,
+      "connected": [
+        "lekismon",
+        "minotarumon",
+        "leomon",
+        "grizzlymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5226.png",

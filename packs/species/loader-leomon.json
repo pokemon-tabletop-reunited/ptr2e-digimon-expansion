@@ -18,7 +18,7 @@
       "vaccine",
       "ultimate",
       "quadrupedal",
-      "underdog"
+      "construct"
     ],
     "number": 5249,
     "stats": {
@@ -861,10 +861,21 @@
     "habitats": [],
     "slug": "loader-leomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 104,
+      "y": 45,
+      "connected": [
+        "leomon",
+        "bao-huckmon",
+        "drimogemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            45
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5249.png",

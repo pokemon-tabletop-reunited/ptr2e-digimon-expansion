@@ -18,7 +18,8 @@
       "vaccine",
       "ultimate",
       "tripod",
-      "winged"
+      "winged",
+      "arcane"
     ],
     "number": 5246,
     "stats": {
@@ -855,10 +856,21 @@
     "habitats": [],
     "slug": "crowmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 102,
+      "y": 67,
+      "connected": [
+        "aquilamon",
+        "peckmon",
+        "saberdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5246.png",

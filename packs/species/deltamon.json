@@ -19,7 +19,7 @@
       "champion",
       "3-headed",
       "tailed",
-      "underdog"
+      "unknown"
     ],
     "number": 5178,
     "stats": {
@@ -46,7 +46,14 @@
           "slug": "multi-headed"
         }
       ],
-      "basic": [],
+      "basic": [
+        {
+          "slug": "cascade"
+        },
+        {
+          "slug": "jaws-of-carnage"
+        }
+      ],
       "advanced": [],
       "master": []
     },
@@ -840,10 +847,21 @@
     "habitats": [],
     "slug": "deltamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 100,
+      "connected": [
+        "goblimon",
+        "dracomon",
+        "monodramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5178.png",

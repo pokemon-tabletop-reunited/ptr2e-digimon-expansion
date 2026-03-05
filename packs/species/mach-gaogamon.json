@@ -18,7 +18,8 @@
       "data",
       "ultimate",
       "bipedal",
-      "ufo"
+      "ufo",
+      "construct"
     ],
     "number": 5280,
     "stats": {
@@ -849,10 +850,21 @@
     "habitats": [],
     "slug": "mach-gaogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 104,
+      "y": 49,
+      "connected": [
+        "gao-gamon",
+        "turuiemon",
+        "gargomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5280.png",

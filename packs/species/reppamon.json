@@ -18,7 +18,8 @@
       "vaccine",
       "champion",
       "quadrupedal",
-      "bladed"
+      "bladed",
+      "beast"
     ],
     "number": 5132,
     "stats": {
@@ -846,10 +847,21 @@
     "habitats": [],
     "slug": "reppamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 103,
+      "connected": [
+        "ryudamon",
+        "kudamon",
+        "renamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5132.png",

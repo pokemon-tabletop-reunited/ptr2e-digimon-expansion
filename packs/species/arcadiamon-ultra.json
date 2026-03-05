@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "ultra-digimon",
-      "hover"
+      "hover",
+      "unknown"
     ],
     "number": 5461,
     "stats": {
@@ -822,10 +823,19 @@
     "habitats": [],
     "slug": "arcadiamon-ultra",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 243,
+      "y": 4,
+      "connected": [
+        "arcadiamon-mega"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            103
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5461.png",
@@ -851,6 +861,26 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.KSfN3NwE3ZT9A2CZ",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:arcadiamon-ultra"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "allowDuplicate": false,
             "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
@@ -888,10 +918,10 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": 1767037939097,
-        "modifiedTime": 1767037954634,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1771276517536,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
       }
     }
   ],

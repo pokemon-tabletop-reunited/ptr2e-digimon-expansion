@@ -20,7 +20,8 @@
       "bipedal",
       "winged",
       "natural-steel",
-      "underdog"
+      "antibody",
+      "construct"
     ],
     "number": 5129,
     "stats": {
@@ -847,10 +848,21 @@
     "habitats": [],
     "slug": "raptordramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 43,
+      "connected": [
+        "monodramon",
+        "dorumon",
+        "agumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5129.png",

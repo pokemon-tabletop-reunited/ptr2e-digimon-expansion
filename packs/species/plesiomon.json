@@ -21,7 +21,8 @@
       "invisibility",
       "deep-breath",
       "deep-diver",
-      "wavesense-30"
+      "wavesense-30",
+      "dinosaur"
     ],
     "number": 5385,
     "stats": {
@@ -829,10 +830,21 @@
     "habitats": [],
     "slug": "plesiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 172,
+      "connected": [
+        "whamon",
+        "zudomon",
+        "divermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5385.png",

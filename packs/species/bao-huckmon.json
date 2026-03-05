@@ -20,7 +20,8 @@
       "quadrupedal",
       "horned",
       "bladed",
-      "tailed"
+      "tailed",
+      "dinosaur"
     ],
     "number": 5155,
     "stats": {
@@ -32,6 +33,7 @@
       "spe": 85
     },
     "types": [
+      "fighting",
       "steel"
     ],
     "size": {
@@ -846,10 +848,21 @@
     "habitats": [],
     "slug": "bao-huckmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 70,
+      "y": 79,
+      "connected": [
+        "gazimon",
+        "huckmon",
+        "coronamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5155.png",

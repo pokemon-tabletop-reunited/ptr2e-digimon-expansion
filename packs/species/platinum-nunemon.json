@@ -18,7 +18,8 @@
       "virus",
       "mega",
       "legless",
-      "winged"
+      "winged",
+      "unknown"
     ],
     "number": 5420,
     "stats": {
@@ -824,10 +825,22 @@
     "habitats": [],
     "slug": "platinum-nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 161,
+      "y": 159,
+      "connected": [
+        "big-mamemon",
+        "catch-mamemon",
+        "deramon",
+        "black-king-nunemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            65
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5420.png",

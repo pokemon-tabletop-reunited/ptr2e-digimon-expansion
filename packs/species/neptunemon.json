@@ -18,7 +18,10 @@
       "vaccine",
       "mega",
       "natural-swimmer",
-      "gilled"
+      "gilled",
+      "olympos-12",
+      "aquatic",
+      "deity"
     ],
     "number": 5357,
     "stats": {
@@ -822,10 +825,21 @@
     "habitats": [],
     "slug": "neptunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 176,
+      "connected": [
+        "whamon",
+        "divermon",
+        "sharkmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5357.png",

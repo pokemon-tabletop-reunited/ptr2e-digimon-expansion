@@ -18,7 +18,9 @@
       "vaccine",
       "ultimate",
       "hover",
-      "serpentine"
+      "serpentine",
+      "beast",
+      "antibody"
     ],
     "number": 5237,
     "stats": {
@@ -858,7 +860,25 @@
     "eggGroups": [],
     "genderRatio": -1,
     "habitats": [],
-    "slug": "hisyaryumon"
+    "slug": "hisyaryumon",
+    "node": {
+      "x": 111,
+      "y": 117,
+      "connected": [
+        "airdramon",
+        "ginryumon",
+        "musyamon",
+        "seadramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            42
+          ]
+        }
+      ]
+    }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5237.png",
   "effects": [],

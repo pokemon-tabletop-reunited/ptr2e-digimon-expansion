@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "legless"
+      "legless",
+      "underdog"
     ],
     "number": 5181,
     "stats": {
@@ -844,10 +845,21 @@
     "habitats": [],
     "slug": "nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 56,
+      "y": 135,
+      "connected": [
+        "betamon",
+        "agumon",
+        "otamamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            15
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5181.png",

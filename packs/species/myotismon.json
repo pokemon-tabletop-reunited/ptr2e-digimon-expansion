@@ -19,7 +19,8 @@
       "ultimate",
       "bipedal",
       "hover",
-      "breathless"
+      "breathless",
+      "immortal"
     ],
     "number": 5289,
     "stats": {
@@ -853,10 +854,22 @@
     "habitats": [],
     "slug": "myotismon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 105,
+      "y": 27,
+      "connected": [
+        "bakemon",
+        "sangloupmon",
+        "devimon",
+        "peckmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            47
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5289.png",

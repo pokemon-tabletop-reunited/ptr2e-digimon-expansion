@@ -852,10 +852,22 @@
     "habitats": [],
     "slug": "seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 65,
+      "y": 130,
+      "connected": [
+        "betamon",
+        "dracomon",
+        "elecmon",
+        "otamamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5143.png",

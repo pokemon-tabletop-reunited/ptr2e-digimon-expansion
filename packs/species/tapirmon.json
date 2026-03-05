@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "shock-awe",
-          "level": 18,
-          "gen": null
-        },
-        {
           "name": "hypnosis",
           "level": 1,
           "gen": null
@@ -849,6 +844,11 @@
           "name": "psybeam",
           "level": 15,
           "gen": null
+        },
+        {
+          "name": "shock-awe",
+          "level": 18,
+          "gen": null
         }
       ],
       "tutor": []
@@ -858,10 +858,19 @@
     "habitats": [],
     "slug": "tapirmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 32,
+      "y": 55,
+      "connected": [
+        "wanyamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5034.png",

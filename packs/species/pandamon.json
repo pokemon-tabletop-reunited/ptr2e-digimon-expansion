@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "ultimate",
-      "bipedal"
+      "bipedal",
+      "puppet"
     ],
     "number": 5272,
     "stats": {
@@ -851,10 +852,22 @@
     "habitats": [],
     "slug": "pandamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 108,
+      "y": 78,
+      "connected": [
+        "black-gatomon",
+        "shell-nunemon",
+        "deputymon",
+        "garurumon-black"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5272.png",

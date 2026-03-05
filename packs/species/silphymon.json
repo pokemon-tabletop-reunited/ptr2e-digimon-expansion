@@ -19,7 +19,8 @@
       "ultimate",
       "bipedal",
       "winged",
-      "em-sense-30"
+      "em-sense-30",
+      "beast"
     ],
     "number": 5325,
     "stats": {
@@ -856,10 +857,16 @@
     "habitats": [],
     "slug": "silphymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 137,
+      "connected": [
+        "aquilamon",
+        "gatomon"
+      ],
+      "prerequisites": [
+        "equipment:aquilamon-dna",
+        "equipment:gatomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5325.png",

@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sewing-fang",
-          "level": 10,
-          "gen": null
-        },
-        {
           "name": "defense-curl",
           "level": 1,
           "gen": null
@@ -826,6 +821,11 @@
         {
           "name": "pursuit",
           "level": 7,
+          "gen": null
+        },
+        {
+          "name": "sewing-fang",
+          "level": 10,
           "gen": null
         },
         {
@@ -861,7 +861,14 @@
       "connected": [
         "bukamon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            8
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5068.png",

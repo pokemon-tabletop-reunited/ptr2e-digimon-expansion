@@ -18,7 +18,9 @@
       "vaccine",
       "ultimate",
       "quadrupedal",
-      "horned"
+      "horned",
+      "beast",
+      "fossil"
     ],
     "number": 5242,
     "stats": {
@@ -789,13 +791,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "upheaval",
-          "level": 51,
+          "name": "snow-cannon",
+          "level": 48,
           "gen": null
         },
         {
-          "name": "snow-cannon",
-          "level": 48,
+          "name": "upheaval",
+          "level": 51,
           "gen": null
         },
         {
@@ -831,10 +833,22 @@
     "habitats": [],
     "slug": "mammothmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 101,
+      "connected": [
+        "golemon",
+        "monochromon",
+        "frigimon",
+        "mojyamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5242.png",

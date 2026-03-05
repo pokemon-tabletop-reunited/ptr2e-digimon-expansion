@@ -18,7 +18,9 @@
       "virus",
       "mega",
       "bipedal",
-      "winged"
+      "winged",
+      "antibody",
+      "construct"
     ],
     "number": 5409,
     "stats": {
@@ -833,10 +835,22 @@
     "habitats": [],
     "slug": "tiger-vespamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 95,
+      "connected": [
+        "dinobeemon",
+        "savior-huckmon",
+        "jewel-beemon",
+        "cannon-beemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5409.png",

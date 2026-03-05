@@ -19,7 +19,8 @@
       "ultimate",
       "bipedal",
       "horned",
-      "awkward-flyer"
+      "awkward-flyer",
+      "deity"
     ],
     "number": 5214,
     "stats": {
@@ -818,10 +819,19 @@
     "habitats": [],
     "slug": "aegiochusmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 109,
+      "y": 92,
+      "connected": [
+        "aegiomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",

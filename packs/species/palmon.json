@@ -18,7 +18,7 @@
       "data",
       "rookie",
       "bipedal",
-      "underdog"
+      "vegetation"
     ],
     "number": 5058,
     "stats": {
@@ -855,10 +855,19 @@
     "habitats": [],
     "slug": "palmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 32,
+      "y": 74,
+      "connected": [
+        "tanemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5058.png",

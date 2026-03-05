@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "champion",
-      "quadrupedal"
+      "quadrupedal",
+      "beast"
     ],
     "number": 5105,
     "stats": {
@@ -843,10 +844,21 @@
     "habitats": [],
     "slug": "garurumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 59,
+      "y": 93,
+      "connected": [
+        "lunamon",
+        "gabumon",
+        "tapirmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5105.png",

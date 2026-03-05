@@ -18,7 +18,9 @@
       "data",
       "mega",
       "quadrupedal",
-      "lumbering"
+      "lumbering",
+      "construct",
+      "antibody"
     ],
     "number": 5368,
     "stats": {
@@ -823,10 +825,21 @@
     "habitats": [],
     "slug": "ultimate-brachiomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 117,
+      "connected": [
+        "triceramon",
+        "metal-tyrannomon",
+        "brachiomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5368.png",

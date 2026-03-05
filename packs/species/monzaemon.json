@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "ultimate",
-      "bipedal"
+      "bipedal",
+      "puppet"
     ],
     "number": 5245,
     "stats": {
@@ -855,10 +856,21 @@
     "habitats": [],
     "slug": "monzaemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 61,
+      "connected": [
+        "nunemon",
+        "sukamon",
+        "geremon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            40
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5245.png",

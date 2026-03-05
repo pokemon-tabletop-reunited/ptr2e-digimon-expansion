@@ -809,13 +809,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "thunder-tail",
-          "level": 48,
+          "name": "iron-fangs",
+          "level": 1,
           "gen": null
         },
         {
-          "name": "iron-fangs",
-          "level": 1,
+          "name": "thunder-tail",
+          "level": 48,
           "gen": null
         },
         {
@@ -851,10 +851,20 @@
     "habitats": [],
     "slug": "sharkmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 116,
+      "y": 180,
+      "connected": [
+        "deltamon",
+        "seadramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5297.png",

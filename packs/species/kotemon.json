@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "tear-down",
-          "level": 18,
-          "gen": null
-        },
-        {
           "name": "bullet-punch",
           "level": 3,
           "gen": null
@@ -840,6 +835,11 @@
           "name": "refocus",
           "level": 14,
           "gen": null
+        },
+        {
+          "name": "tear-down",
+          "level": 18,
+          "gen": null
         }
       ],
       "tutor": []
@@ -854,7 +854,14 @@
       "connected": [
         "koromon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5052.png",

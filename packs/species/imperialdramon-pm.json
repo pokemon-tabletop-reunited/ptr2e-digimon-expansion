@@ -18,7 +18,8 @@
       "vaccine",
       "ultra-digimon",
       "winged",
-      "bipedal"
+      "bipedal",
+      "fossil"
     ],
     "number": 5449,
     "stats": {
@@ -824,9 +825,11 @@
     "habitats": [],
     "slug": "imperialdramon-pm",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 248,
+      "y": 100,
+      "connected": [
+        "imperialdramon"
+      ],
       "prerequisites": []
     }
   },

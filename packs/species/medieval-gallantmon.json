@@ -20,7 +20,8 @@
       "bipedal",
       "arcane",
       "hover",
-      "guster"
+      "guster",
+      "antibody"
     ],
     "number": 5391,
     "stats": {
@@ -826,10 +827,19 @@
     "habitats": [],
     "slug": "medieval-gallantmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 85,
+      "connected": [
+        "mistymon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5391.png",

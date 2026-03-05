@@ -19,7 +19,7 @@
       "champion",
       "quadrupedal",
       "keen-scent",
-      "underdog"
+      "beast"
     ],
     "number": 5120,
     "stats": {
@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "howl",
-          "level": 35,
-          "gen": null
-        },
-        {
           "name": "crunch",
           "level": 22,
           "gen": null
@@ -838,6 +833,11 @@
           "gen": null
         },
         {
+          "name": "howl",
+          "level": 35,
+          "gen": null
+        },
+        {
           "name": "vampire-fang",
           "level": 38,
           "gen": null
@@ -850,10 +850,21 @@
     "habitats": [],
     "slug": "dobermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 28,
+      "connected": [
+        "gazimon",
+        "gabumon-black",
+        "salamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5120.png",

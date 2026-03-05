@@ -18,7 +18,8 @@
       "free",
       "ultra-digimon",
       "bipedal",
-      "horned"
+      "horned",
+      "unknown"
     ],
     "number": 5462,
     "stats": {
@@ -801,10 +802,19 @@
     "habitats": [],
     "slug": "agumon-bond-of-bravery",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 98,
+      "connected": [
+        "agumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            95
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5462.png",

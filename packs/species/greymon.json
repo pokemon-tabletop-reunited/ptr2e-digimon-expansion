@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "tail",
-      "horned"
+      "horned",
+      "dinosaur"
     ],
     "number": 5109,
     "stats": {
@@ -845,10 +846,21 @@
     "habitats": [],
     "slug": "greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 116,
+      "connected": [
+        "agumon",
+        "huckmon",
+        "ryudamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5109.png",

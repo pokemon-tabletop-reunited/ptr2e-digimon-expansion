@@ -19,7 +19,8 @@
       "mega",
       "bipedal",
       "hover",
-      "deity"
+      "deity",
+      "olympos-12"
     ],
     "number": 5366,
     "stats": {
@@ -822,10 +823,19 @@
     "habitats": [],
     "slug": "jupitermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 92,
+      "connected": [
+        "aegiochusmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            78
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5366.png",

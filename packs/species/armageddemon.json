@@ -20,7 +20,8 @@
       "many-legged",
       "tailed",
       "horned",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5460,
     "stats": {
@@ -821,10 +822,19 @@
     "habitats": [],
     "slug": "armageddemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 80,
+      "connected": [
+        "diaboromon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            101
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",

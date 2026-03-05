@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "mega",
-      "bipedal"
+      "bipedal",
+      "puppet"
     ],
     "number": 5403,
     "stats": {
@@ -817,10 +818,22 @@
     "habitats": [],
     "slug": "king-etemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 37,
+      "connected": [
+        "monzaemon",
+        "waru-monzaemon",
+        "etemon",
+        "shogun-gekomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            68
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5403.png",

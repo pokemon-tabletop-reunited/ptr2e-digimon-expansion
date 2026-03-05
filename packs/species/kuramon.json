@@ -18,7 +18,8 @@
       "speech",
       "many-legged",
       "free",
-      "digimon"
+      "digimon",
+      "unknown"
     ],
     "number": 5001,
     "stats": {
@@ -792,7 +793,7 @@
     "moves": {
       "levelUp": [
         {
-          "name": "leech-life",
+          "name": "drain-life",
           "level": 1,
           "gen": null
         },

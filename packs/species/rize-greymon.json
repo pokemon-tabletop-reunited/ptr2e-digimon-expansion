@@ -21,7 +21,8 @@
       "bipedal",
       "horned",
       "tailed",
-      "ufo"
+      "ufo",
+      "construct"
     ],
     "number": 5247,
     "stats": {
@@ -854,10 +855,22 @@
     "habitats": [],
     "slug": "rize-greymon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 109,
+      "connected": [
+        "geo-greymon",
+        "bao-huckmon",
+        "ex-veemon",
+        "dorugamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            48
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5247.png",

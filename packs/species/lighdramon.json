@@ -18,7 +18,8 @@
       "free",
       "quadrupedal",
       "horned",
-      "armour-digimon"
+      "armour-digimon",
+      "beast"
     ],
     "number": 5207,
     "stats": {
@@ -816,10 +817,14 @@
     "habitats": [],
     "slug": "lighdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 53,
+      "y": 90,
+      "connected": [
+        "veemon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-friendship"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5207.png",

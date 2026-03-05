@@ -19,7 +19,9 @@
       "champion",
       "quadrupedal",
       "spooky",
-      "firestarter"
+      "firestarter",
+      "beast",
+      "arcane"
     ],
     "number": 5139,
     "stats": {
@@ -846,10 +848,21 @@
     "habitats": [],
     "slug": "kyubimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 58,
+      "connected": [
+        "renamon",
+        "tapirmon",
+        "gabumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            21
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5139.png",

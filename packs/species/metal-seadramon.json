@@ -21,7 +21,8 @@
       "gilled",
       "natural-swimmer",
       "dark-master",
-      "jet"
+      "jet",
+      "construct"
     ],
     "number": 5390,
     "stats": {
@@ -837,10 +838,22 @@
     "habitats": [],
     "slug": "metal-seadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 180,
+      "connected": [
+        "mega-seadramon",
+        "waru-seadramon",
+        "sharkmon",
+        "skull-seadramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            72
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5390.png",

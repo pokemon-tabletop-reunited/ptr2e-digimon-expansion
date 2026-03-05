@@ -18,7 +18,8 @@
       "data",
       "champion",
       "quadrupedal",
-      "horned"
+      "horned",
+      "beast"
     ],
     "number": 5153,
     "stats": {
@@ -848,10 +849,21 @@
     "habitats": [],
     "slug": "drimogemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 68,
+      "y": 74,
+      "connected": [
+        "gabumon",
+        "dorumon",
+        "salamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5153.png",

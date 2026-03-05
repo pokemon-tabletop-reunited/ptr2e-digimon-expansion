@@ -843,10 +843,22 @@
     "habitats": [],
     "slug": "sunflowmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 61,
+      "y": 70,
+      "connected": [
+        "floramon",
+        "lalamon",
+        "renamon",
+        "tentomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5142.png",

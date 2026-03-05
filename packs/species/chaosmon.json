@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "ultra-digimon",
-      "bipedal"
+      "bipedal",
+      "unknown"
     ],
     "number": 5452,
     "stats": {
@@ -824,10 +825,16 @@
     "habitats": [],
     "slug": "chaosmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 23,
+      "connected": [
+        "bancho-leomon",
+        "darkdramon"
+      ],
+      "prerequisites": [
+        "equipment:darkdramon-dna",
+        "equipment:bancho-leomon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5452.png",

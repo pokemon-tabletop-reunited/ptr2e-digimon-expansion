@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "ultimate",
-      "quadrupedal"
+      "quadrupedal",
+      "construct"
     ],
     "number": 5307,
     "stats": {
@@ -851,10 +852,21 @@
     "habitats": [],
     "slug": "datamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 104,
+      "y": 10,
+      "connected": [
+        "centarumon",
+        "wizardmon",
+        "mekanorimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            44
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5307.png",

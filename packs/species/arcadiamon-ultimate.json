@@ -18,7 +18,9 @@
       "virus",
       "ultimate",
       "bipedal",
-      "winged"
+      "winged",
+      "beast",
+      "unknown"
     ],
     "number": 5314,
     "stats": {
@@ -852,10 +854,21 @@
     "habitats": [],
     "slug": "arcadiamon-ultimate",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 3,
+      "connected": [
+        "arcadiamon-champion",
+        "kurisarimon",
+        "ice-devimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            50
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5314.png",

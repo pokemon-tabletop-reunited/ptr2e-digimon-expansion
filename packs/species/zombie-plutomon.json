@@ -18,7 +18,9 @@
       "virus",
       "mega",
       "bipedal",
-      "hover"
+      "hover",
+      "deity",
+      "immortal"
     ],
     "number": 5407,
     "stats": {
@@ -826,10 +828,19 @@
     "habitats": [],
     "slug": "zombie-plutomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 30,
+      "connected": [
+        "plutomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5407.png",

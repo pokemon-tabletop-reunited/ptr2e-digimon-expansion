@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "mega",
-      "bipedal"
+      "bipedal",
+      "arcane"
     ],
     "number": 5418,
     "stats": {
@@ -819,10 +820,21 @@
     "habitats": [],
     "slug": "pharoahmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 159,
+      "y": 81,
+      "connected": [
+        "blue-meramon",
+        "mummymon",
+        "datamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5418.png",

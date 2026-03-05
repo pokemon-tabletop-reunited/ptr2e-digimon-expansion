@@ -19,7 +19,7 @@
       "champion",
       "legless",
       "gilled",
-      "underdog"
+      "antibody"
     ],
     "number": 5166,
     "stats": {
@@ -846,10 +846,21 @@
     "habitats": [],
     "slug": "shell-nunemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 58,
+      "y": 178,
+      "connected": [
+        "kamemon",
+        "syakomon",
+        "otamamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            16
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5166.png",

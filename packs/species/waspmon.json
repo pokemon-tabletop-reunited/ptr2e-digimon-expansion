@@ -17,7 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "winged"
+      "winged",
+      "construct",
+      "antibody"
     ],
     "number": 5193,
     "stats": {
@@ -844,10 +846,23 @@
     "habitats": [],
     "slug": "waspmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 69,
+      "y": 69,
+      "connected": [
+        "fan-beemon",
+        "tentomon",
+        "kokuwamon",
+        "dokunemon",
+        "kunemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            18
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5193.png",

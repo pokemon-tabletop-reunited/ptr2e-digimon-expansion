@@ -19,7 +19,7 @@
       "digimon",
       "in-training",
       "free",
-      "underdog"
+      "vegetation"
     ],
     "stats": {
       "hp": 65,
@@ -829,7 +829,14 @@
       "connected": [
         "pabumon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            5
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5018.png",

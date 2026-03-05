@@ -18,7 +18,8 @@
       "free",
       "quadrupedal",
       "winged",
-      "armour-digimon"
+      "armour-digimon",
+      "beast"
     ],
     "number": 5203,
     "stats": {
@@ -820,10 +821,14 @@
     "habitats": [],
     "slug": "nefertimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 101,
+      "connected": [
+        "gatomon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-light"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5203.png",

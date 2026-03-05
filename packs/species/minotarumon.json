@@ -21,7 +21,7 @@
       "horned",
       "direction-sense",
       "tremorsense-20",
-      "underdog"
+      "beast"
     ],
     "number": 5189,
     "stats": {
@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "devious-shot",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "flint-arrow",
           "level": 22,
           "gen": null
@@ -836,6 +831,11 @@
           "gen": null
         },
         {
+          "name": "devious-shot",
+          "level": 31,
+          "gen": null
+        },
+        {
           "name": "flying-haymaker",
           "level": 34,
           "gen": null
@@ -853,10 +853,21 @@
     "habitats": [],
     "slug": "minotarumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 57,
+      "y": 21,
+      "connected": [
+        "shamamon",
+        "gabumon-black",
+        "lopmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5189.png",

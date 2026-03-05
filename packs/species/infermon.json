@@ -18,7 +18,8 @@
       "virus",
       "ultimate",
       "many-legged",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5328,
     "stats": {
@@ -849,10 +850,21 @@
     "habitats": [],
     "slug": "infermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 111,
+      "y": 16,
+      "connected": [
+        "devimon",
+        "dokugumon",
+        "kurisarimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5328.png",

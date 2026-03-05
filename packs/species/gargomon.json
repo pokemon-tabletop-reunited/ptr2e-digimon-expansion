@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "champion",
-      "bipedal"
+      "bipedal",
+      "beast"
     ],
     "number": 5104,
     "stats": {
@@ -848,10 +849,21 @@
     "habitats": [],
     "slug": "gargomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 63,
+      "y": 152,
+      "connected": [
+        "terriermon",
+        "shoutmon",
+        "toy-agumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            22
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5104.png",

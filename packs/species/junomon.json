@@ -19,7 +19,8 @@
       "mega",
       "bipedal",
       "hover",
-      "deity"
+      "deity",
+      "olympos-12"
     ],
     "number": 5434,
     "stats": {
@@ -818,10 +819,20 @@
     "habitats": [],
     "slug": "junomon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 133,
+      "connected": [
+        "angewomon",
+        "shakkoumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5434.png",

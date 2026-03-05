@@ -20,7 +20,8 @@
       "bipedal",
       "tail",
       "horned",
-      "pack-mon"
+      "pack-mon",
+      "dinosaur"
     ],
     "number": 5110,
     "stats": {
@@ -846,10 +847,21 @@
     "habitats": [],
     "slug": "greymon-blue",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 10,
+      "connected": [
+        "agumon-black",
+        "guilmon",
+        "demi-devimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            23
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5110.png",
