@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "zen-recovery",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "noble-roar",
           "level": 46,
           "gen": null

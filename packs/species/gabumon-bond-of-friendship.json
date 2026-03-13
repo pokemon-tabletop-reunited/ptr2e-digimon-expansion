@@ -20,7 +20,8 @@
       "bipedal",
       "propulsion",
       "vehicle",
-      "rapid"
+      "rapid",
+      "unknown"
     ],
     "number": 5463,
     "stats": {
@@ -799,18 +800,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "cool-edge",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "raddle-star",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -834,6 +824,91 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "tjHSKVWEqyR40XEb",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QHrLiNPF3pNwCt4z",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:gabumon-bond-of-friendship"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e.core-moves.Item.YTdNpVU98HPHGdR7",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:gabumon-bond-of-friendship"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773350491613,
+        "modifiedTime": 1773350574910,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "eKU1P3olVDLz8hPZ"
 }

@@ -811,13 +811,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "thorn-whip",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -967,6 +961,70 @@
         "systemVersion": "1.4.3.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
         "modifiedTime": 1767024342981
+      }
+    },
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "Y4VANJpi2jE0zu48",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.ALQJJN184wfSvCkG",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:rosemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773362246547,
+        "modifiedTime": 1773362271604,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
       }
     }
   ],
