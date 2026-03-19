@@ -1,0 +1,163 @@
+{
+  "folder": null,
+  "name": "Lightning Whip",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Lightning Whip",
+        "slug": "lightning-whip",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "traits": [
+          "digimon",
+          "sky",
+          "environ",
+          "blast-2",
+          "crushing",
+          "sovereign"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, the target has a 40% chance of gaining @Affliction[paralysis 7]. If Rainy Weather is active, this attack gains +25 base Accuracy.</p>",
+        "range": {
+          "target": "blast",
+          "distance": 14,
+          "unit": "m"
+        },
+        "power": 135,
+        "accuracy": 75
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "E"
+  },
+  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "effects": [
+    {
+      "name": "Lightning Whip",
+      "type": "passive",
+      "_id": "rUmjunOP10hfY02T",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "alter-attack",
+            "key": "lightning-whip-attack",
+            "value": 25,
+            "predicate": [
+              "effect:summon:rainy-weather"
+            ],
+            "property": "accuracy",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "sourai-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "predicate": [],
+            "chance": 40,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "label": "Paralysis",
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Bk6N5iKyebvEVXhL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770077880209,
+    "modifiedTime": 1770077993795,
+    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+  },
+  "_id": "Q3UFE4DzZFKnttPB",
+  "sort": 200000
+}

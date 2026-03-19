@@ -26,13 +26,13 @@
           "digimon"
         ],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 1,
           "unit": "m"
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 2
+          "powerPoints": 3
         },
         "types": [
           "rock"
@@ -42,7 +42,7 @@
         "accuracy": 100,
         "offensiveStat": "def",
         "predicate": [],
-        "description": "<p>Diamond Shell uses Defense as it's attacking stat. Has a 10% chance of granting the user +1 Defense Stage for 5 Activations. (can only trigger once per attack, even if used as Pass.)</p>"
+        "description": "<p>Effect: On resolution, the user has a 20% chance to gain +1 DEF Stage for 5 Activations. This Attack uses the user's DEF in calculating damage, rather than their ATK.</p>"
       }
     ],
     "grade": "D",
@@ -62,14 +62,14 @@
             "key": "diamond-shell-attack",
             "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
             "predicate": [],
-            "chance": 10,
+            "chance": 20,
             "affects": "self",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "mode": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -96,16 +96,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1771278785108,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
         "exportSource": null
       }
     }

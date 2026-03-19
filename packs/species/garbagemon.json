@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "strange-steam",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "barb-barrage",
           "level": 48,
           "gen": null
@@ -829,6 +824,11 @@
           "gen": null
         },
         {
+          "name": "strange-steam",
+          "level": 55,
+          "gen": null
+        },
+        {
           "name": "toxicrash",
           "level": 57,
           "gen": null
@@ -846,10 +846,21 @@
     "habitats": [],
     "slug": "garbagemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 103,
+      "y": 35,
+      "connected": [
+        "sukamon",
+        "vegiemon",
+        "mud-frigimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            37
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5293.png",

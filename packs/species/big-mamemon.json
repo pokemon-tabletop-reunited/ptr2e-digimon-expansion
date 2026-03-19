@@ -808,12 +808,12 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rollout",
+          "name": "body-press",
           "level": 1,
           "gen": null
         },
         {
-          "name": "body-press",
+          "name": "rollout",
           "level": 1,
           "gen": null
         },
@@ -855,10 +855,21 @@
     "habitats": [],
     "slug": "big-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 110,
+      "y": 102,
+      "connected": [
+        "meramon",
+        "mekanorimon",
+        "tankmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            41
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5274.png",

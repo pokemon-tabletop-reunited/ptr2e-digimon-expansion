@@ -26,7 +26,7 @@
           "digimon"
         ],
         "cost": {
-          "activation": "simple",
+          "activation": "complex",
           "powerPoints": 3
         },
         "types": [
@@ -107,7 +107,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
         "systemVersion": "1.3.0.beta",
         "lastModifiedBy": null

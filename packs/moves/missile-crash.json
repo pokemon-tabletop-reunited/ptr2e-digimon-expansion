@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Missile Crash",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Missile Crash",
+        "slug": "missile-crash",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "traits": [
+          "digimon",
+          "contact",
+          "explode",
+          "pierce"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 1,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dragon"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On resolution, the user suffers @Tick[-16].</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "E"
+  },
+  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1771416803511,
+    "modifiedTime": 1771416859491,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "KuoWvKpJR7dGH3Iz",
+  "sort": 1100000
+}
