@@ -19,8 +19,7 @@
       "rapid",
       "bladed",
       "virus",
-      "rookie",
-      "underdog"
+      "rookie"
     ],
     "number": 5022,
     "stats": {
@@ -863,7 +862,14 @@
       "connected": [
         "arcadiamon-in-training"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            15
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5022.png",

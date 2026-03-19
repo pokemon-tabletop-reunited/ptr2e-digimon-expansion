@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "legless",
-      "no-buoyancy"
+      "no-buoyancy",
+      "unknown"
     ],
     "number": 5186,
     "stats": {
@@ -796,11 +797,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rare-metal-poop",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "iron-defense",
           "level": 24,
           "gen": null
@@ -843,13 +839,89 @@
     "habitats": [],
     "slug": "platinum-sukamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 64,
+      "y": 74,
+      "connected": [
+        "chuumon",
+        "palmon",
+        "otamamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            16
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5186.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "UG10RHp1GQNlbqhK",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.R9T2JAFom6Qqvx0b",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:platinum-sukamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773361997570,
+        "modifiedTime": 1773362033380,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "57dgesJcx645AlEw"
 }

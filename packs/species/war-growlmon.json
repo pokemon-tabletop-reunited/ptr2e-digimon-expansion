@@ -853,10 +853,21 @@
     "habitats": [],
     "slug": "war-growlmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 127,
+      "connected": [
+        "growlmon",
+        "coredramon-green",
+        "zubaeagermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            50
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5317.png",

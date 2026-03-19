@@ -826,10 +826,20 @@
     "habitats": [],
     "slug": "seraphimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 136,
+      "connected": [
+        "magna-angemon",
+        "flaremon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            74
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5354.png",

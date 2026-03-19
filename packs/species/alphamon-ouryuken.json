@@ -811,18 +811,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "blade-of-the-dragon-king",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "soul-digitalization",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -830,13 +819,102 @@
     "habitats": [],
     "slug": "alphamon-ouryuken",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 248,
+      "y": 43,
+      "connected": [
+        "alphamon"
+      ],
+      "prerequisites": [
+        "equipment:ouryumon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5448.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Passive Effect",
+      "type": "passive",
+      "_id": "ctC3XUzqOduLXIqQ",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.tBWpFO33y2Zca2zk",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:alphamon-ouryuken"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.YjwbFnQVpulmT66U",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:alphamon-ouryuken"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.15Xg7miMf7azhYf4.ActiveEffect.ctC3XUzqOduLXIqQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1770951077431,
+        "modifiedTime": 1770951243201,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "15Xg7miMf7azhYf4"
 }

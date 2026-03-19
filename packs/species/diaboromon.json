@@ -819,10 +819,20 @@
     "habitats": [],
     "slug": "diaboromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 148,
+      "y": 5,
+      "connected": [
+        "datamon",
+        "infermon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            77
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",

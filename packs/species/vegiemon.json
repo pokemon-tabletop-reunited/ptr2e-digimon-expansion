@@ -841,10 +841,21 @@
     "habitats": [],
     "slug": "vegiemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 65,
+      "y": 86,
+      "connected": [
+        "palmon",
+        "floramon",
+        "betamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            17
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5188.png",

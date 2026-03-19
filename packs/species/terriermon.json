@@ -19,8 +19,7 @@
       "rookie",
       "bipedal",
       "winged",
-      "horned",
-      "underdog"
+      "horned"
     ],
     "number": 5031,
     "stats": {
@@ -871,10 +870,19 @@
     "habitats": [],
     "slug": "terriermon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 37,
+      "y": 154,
+      "connected": [
+        "tokomon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5031.png",

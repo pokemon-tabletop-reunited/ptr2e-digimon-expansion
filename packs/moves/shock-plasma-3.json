@@ -1,0 +1,87 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Shock Plasma 3",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Shock Plasma 3",
+        "slug": "shock-plasma-3",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "traits": [
+          "digimon",
+          "pulse",
+          "3-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": 35,
+        "accuracy": 95
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1772901270370,
+    "modifiedTime": 1772901270562,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "zYwUqz62mtt1uQdS",
+  "sort": 200000
+}

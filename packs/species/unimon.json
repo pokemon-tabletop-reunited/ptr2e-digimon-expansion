@@ -19,8 +19,7 @@
       "champion",
       "quadrupedal",
       "winged",
-      "horned",
-      "underdog"
+      "horned"
     ],
     "number": 5128,
     "stats": {
@@ -856,10 +855,22 @@
     "habitats": [],
     "slug": "unimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 62,
+      "y": 46,
+      "connected": [
+        "tapirmon",
+        "biyomon",
+        "elecmon",
+        "patamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            17
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5128.png",

@@ -808,18 +808,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "breath-of-god",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "end-waltz",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -827,10 +816,19 @@
     "habitats": [],
     "slug": "craniamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 23,
+      "connected": [
+        "andromon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342.png",

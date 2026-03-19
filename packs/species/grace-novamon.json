@@ -827,10 +827,16 @@
     "habitats": [],
     "slug": "grace-novamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 35,
+      "connected": [
+        "apollomon",
+        "dianamon"
+      ],
+      "prerequisites": [
+        "equipment:apollomon-dna",
+        "equipment:dianamon-dna"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5454.png",

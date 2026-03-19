@@ -25,10 +25,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
         "types": [
           "normal"
@@ -40,26 +37,11 @@
           "target": "self",
           "unit": "m",
           "distance": 10
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "power": null,
-        "accuracy": null,
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null
+        }
       }
     ],
     "grade": "C",
-    "slug": "acceleration-digimon",
-    "description": "",
-    "container": null
+    "slug": "acceleration-digimon"
   },
   "img": "systems/ptr2e/img/svg/normal_icon.svg",
   "effects": [
@@ -121,24 +103,6 @@
       }
     }
   ],
-  "flags": {
-    "core": {}
-  },
   "_id": "pT5HsMVcB2FvG0l5",
-  "_stats": {
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.10.beta",
-    "createdTime": null,
-    "modifiedTime": 1766930193263,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf",
-    "compendiumSource": "Compendium.ptr2e.digimon-moves.Item.pT5HsMVcB2FvG0l5",
-    "duplicateSource": null,
-    "exportSource": null
-  },
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  }
+  "folder": "XK1oSrx7aibYRWkd"
 }

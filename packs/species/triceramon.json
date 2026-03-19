@@ -852,10 +852,22 @@
     "habitats": [],
     "slug": "triceramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 113,
+      "y": 114,
+      "connected": [
+        "minotarumon",
+        "monochromon",
+        "drimogemon",
+        "tuskmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            49
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5268.png",

@@ -823,10 +823,21 @@
     "habitats": [],
     "slug": "jumbo-gamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 158,
+      "y": 165,
+      "connected": [
+        "shaujinmon",
+        "mega-seadramon",
+        "garbagemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            71
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5378.png",

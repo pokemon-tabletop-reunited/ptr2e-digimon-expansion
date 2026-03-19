@@ -850,10 +850,20 @@
     "habitats": [],
     "slug": "metal-mamemon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 107,
+      "y": 95,
+      "connected": [
+        "blimpmon",
+        "platinum-sukamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5283.png",

@@ -846,10 +846,20 @@
     "habitats": [],
     "slug": "guardromon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 66,
+      "y": 45,
+      "connected": [
+        "hagurumon",
+        "gotsumon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            19
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5165.png",

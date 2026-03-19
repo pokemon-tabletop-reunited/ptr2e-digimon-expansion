@@ -822,10 +822,14 @@
     "habitats": [],
     "slug": "digmon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 43,
+      "y": 160,
+      "connected": [
+        "armadillomon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-knowledge"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5202.png",

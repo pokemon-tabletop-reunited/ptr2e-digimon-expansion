@@ -823,10 +823,20 @@
     "habitats": [],
     "slug": "imperialdramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 160,
+      "y": 98,
+      "connected": [
+        "paildramon",
+        "dinobeemon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            74
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5439.png",

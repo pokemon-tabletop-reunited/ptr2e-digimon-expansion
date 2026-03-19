@@ -1,0 +1,86 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Tidal Stream 1",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Tidal Stream 1",
+        "slug": "tidal-stream",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "traits": [
+          "digimon",
+          "4-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "cone",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 10,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1770466225539,
+    "modifiedTime": 1770466225726,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "M2m9NyK7xtLlN1I2",
+  "sort": 500000
+}
