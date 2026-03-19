@@ -18,8 +18,7 @@
       "digimon",
       "virus",
       "bipedal",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5070,
     "stats": {
@@ -845,7 +844,14 @@
       "connected": [
         "tsunomon"
       ],
-      "prerequisites": []
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5070.png",

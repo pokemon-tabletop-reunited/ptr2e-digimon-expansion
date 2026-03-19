@@ -1,0 +1,86 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Shine Burst 2",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Shine Burst 2",
+        "slug": "shine-burst-2",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "traits": [
+          "digimon",
+          "friendly"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fairy"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "emanation",
+          "distance": 2,
+          "unit": "m"
+        },
+        "power": 55,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "C"
+  },
+  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1772901256454,
+    "modifiedTime": 1772901256454,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "25bindLsC0kaxQ8D",
+  "sort": 0
+}

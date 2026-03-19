@@ -862,9 +862,13 @@
     "habitats": [],
     "slug": "piximon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
+      "x": 108,
+      "y": 148,
+      "connected": [
+        "shellmon",
+        "mojyamon",
+        "sorcermon"
+      ],
       "prerequisites": []
     }
   },

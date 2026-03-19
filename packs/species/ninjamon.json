@@ -805,16 +805,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "clone-counter-jutsu",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "spine-dart",
-          "level": 38,
-          "gen": null
-        },
-        {
           "name": "poison-jab",
           "level": 21,
           "gen": null
@@ -853,6 +843,11 @@
           "name": "leaf-blade",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "spine-dart",
+          "level": 38,
+          "gen": null
         }
       ],
       "tutor": []
@@ -861,10 +856,21 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 58,
+      "y": 64,
+      "connected": [
+        "falcomon",
+        "floramon",
+        "tsukaimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            20
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5475.png",

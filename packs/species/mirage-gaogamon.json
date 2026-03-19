@@ -816,18 +816,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "full-moon-blaster",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "full-moon-meteor-impact",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -835,10 +824,20 @@
     "habitats": [],
     "slug": "mirage-gaogamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 157,
+      "y": 48,
+      "connected": [
+        "pandamon",
+        "panjyamon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            78
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",
@@ -989,6 +988,90 @@
         "systemVersion": "1.4.3.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
         "modifiedTime": 1767023726532
+      }
+    },
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "GLCdwy0jdHFlRLZM",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Uam1aRT0kj7Jegko",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:mirage-gaogamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Q4Lu9XDK8kUUXVsk",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:mirage-gaogamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773351927489,
+        "modifiedTime": 1773352024553,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
       }
     }
   ],

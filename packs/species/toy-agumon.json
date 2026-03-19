@@ -16,8 +16,7 @@
     "traits": [
       "digimon",
       "vaccine",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5033,
     "stats": {
@@ -848,10 +847,19 @@
     "habitats": [],
     "slug": "toy-agumon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 33,
+      "y": 38,
+      "connected": [
+        "kapurimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5033.png",

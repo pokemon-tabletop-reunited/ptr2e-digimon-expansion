@@ -844,10 +844,14 @@
     "habitats": [],
     "slug": "agunimon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 52,
+      "y": 148,
+      "connected": [
+        "coronamon"
+      ],
+      "prerequisites": [
+        "equipment:human-spirit-of-flame"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5208.png",

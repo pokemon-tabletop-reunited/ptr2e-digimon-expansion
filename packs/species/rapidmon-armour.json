@@ -852,10 +852,14 @@
     "habitats": [],
     "slug": "rapidmon-armour",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 46,
+      "y": 156,
+      "connected": [
+        "terriermon"
+      ],
+      "prerequisites": [
+        "equipment:digi-egg-of-destiny"
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5444.png",

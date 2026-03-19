@@ -22,19 +22,20 @@
         "img": "systems/ptr2e/img/svg/fairy_icon.svg",
         "traits": [
           "pierce",
-          "missile",
-          "digimon"
+          "digimon",
+          "ray",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10
+          "powerPoints": 9
         },
         "types": [
           "fairy"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack has, on resolution, a 30% chance to grant @UUID[Compendium.ptr2e.core-effects.1TqcwIUNl32wJCAZ]{+2 Special Attack Stage for 5 activations}</p>",
+        "description": "<p>Effect: On hit, the target has a 75% chance to lose -1 ATK and SPATK Stage for 5 Activations if they are a @Trait[virus] creature.</p>",
         "range": {
           "target": "creature",
           "distance": 12,
@@ -58,12 +59,29 @@
         "changes": [
           {
             "type": "roll-effect",
-            "key": "edens-javelin",
-            "value": "Compendium.ptr2e.core-effects.Item.1TqcwIUNl32wJCAZ",
-            "predicate": [],
-            "chance": 30,
+            "key": "edens-javelin-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
+            "predicate": [
+              "target:trait:virus"
+            ],
+            "chance": 75,
             "isFixedChance": false,
-            "affects": "self",
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "edens-javelin-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.1JXumQz0QqthT9Iv",
+            "predicate": [
+              "target:trait:virus"
+            ],
+            "chance": 75,
+            "isFixedChance": false,
+            "affects": "target",
             "alterations": [],
             "dontMerge": false,
             "mode": 2,
@@ -89,15 +107,20 @@
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771286073200
       }
     }
   ],

@@ -824,10 +824,20 @@
     "habitats": [],
     "slug": "examon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 244,
+      "y": 51,
+      "connected": [
+        "slayerdramon",
+        "breakdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            100
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5456.png",
@@ -862,7 +872,7 @@
           {
             "type": "grant-item",
             "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.DUDenFA5nc572rvN",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.KEjTeVhOdkW8TjW3",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:examon"
             ],
@@ -910,10 +920,10 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
+        "systemVersion": "1.5.0.beta",
         "createdTime": 1767095851487,
-        "modifiedTime": 1767095886304,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1771435162418,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
       }
     }
   ],

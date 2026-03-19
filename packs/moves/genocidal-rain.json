@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Genocidal Rain",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Genocidal Rain",
+        "slug": "genocidal-rain",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "traits": [
+          "digimon",
+          "20-strike",
+          "weapon",
+          "firearm"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 10,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "nuclear"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": "def",
+        "predicate": [],
+        "description": "<p>This attack targets Defense.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 15,
+        "accuracy": 80
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1771416800456,
+    "modifiedTime": 1771416800456,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "iuMPn3TYTt9ugP3z",
+  "sort": 0
+}

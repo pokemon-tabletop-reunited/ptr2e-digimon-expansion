@@ -851,10 +851,23 @@
     "habitats": [],
     "slug": "megadramon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 112,
+      "y": 122,
+      "connected": [
+        "greymon",
+        "mekanorimon",
+        "flymon",
+        "airdramon",
+        "saberdramon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            43
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5316.png",
