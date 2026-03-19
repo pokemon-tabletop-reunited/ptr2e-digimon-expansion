@@ -816,13 +816,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "infinity-cannon",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],
@@ -849,6 +843,71 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5430.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "form",
+      "_id": "uNrHqLseZIVx4EoN",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.43c6qKezUaXAM2P0",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:machinedramon",
+              "forme:signature-moves:active",
+              "forme:signature-move:active"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "trigger": "manual",
+        "conditions": []
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1772424154809,
+        "modifiedTime": 1772424191530,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "bJ4ctsn5ko6qWT4E"
 }
