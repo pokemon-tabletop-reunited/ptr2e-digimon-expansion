@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "hover",
-      "arcane"
+      "arcane",
+      "underdog"
     ],
     "number": 5135,
     "stats": {
@@ -807,11 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "balaluna-gale",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "hyperfocus",
           "level": 22,
           "gen": null
@@ -875,6 +871,71 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "wc9KB5QEPj87nuHu",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.sh5PqfjuGGbU1wMy",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:witchmon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773362938980,
+        "modifiedTime": 1773362965792,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "Cmq7pt83B2cGcPgv"
 }

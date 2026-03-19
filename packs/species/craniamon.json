@@ -808,18 +808,7 @@
       }
     ],
     "moves": {
-      "levelUp": [
-        {
-          "name": "breath-of-god",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "end-waltz",
-          "level": 0,
-          "gen": null
-        }
-      ],
+      "levelUp": [],
       "tutor": []
     },
     "eggGroups": [],

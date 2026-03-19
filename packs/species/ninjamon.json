@@ -805,11 +805,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "clone-counter-jutsu",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "poison-jab",
           "level": 21,
           "gen": null
