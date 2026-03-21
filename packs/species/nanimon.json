@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "underdog"
     ],
     "number": 5180,
     "stats": {
@@ -802,16 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "party-time",
-          "level": 0,
-          "gen": null
-        },
-        {
-          "name": "poop-dunk",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "poison-jab",
           "level": 23,
           "gen": null
@@ -866,6 +857,91 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5180.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "fsQTYYQrSbEsufbV",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.m94DnxYxWWJJkmot",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:nanimon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.SSJ3yBXnss3CWux5",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:nanimon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1773352138444,
+        "modifiedTime": 1773352194775,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "7S5xHOxYK2ORqqdH"
 }

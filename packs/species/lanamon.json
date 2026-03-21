@@ -18,7 +18,9 @@
       "free",
       "hybrid",
       "bipedal",
-      "gilled"
+      "gilled",
+      "aquatic",
+      "arcane"
     ],
     "number": 5210,
     "stats": {

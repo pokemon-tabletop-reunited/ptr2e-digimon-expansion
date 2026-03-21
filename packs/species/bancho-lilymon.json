@@ -16,7 +16,8 @@
     "traits": [
       "digimon",
       "data",
-      "mega"
+      "mega",
+      "bancho"
     ],
     "number": 5489,
     "stats": {

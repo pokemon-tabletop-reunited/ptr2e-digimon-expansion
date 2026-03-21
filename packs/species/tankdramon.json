@@ -19,7 +19,9 @@
       "ultimate",
       "treads",
       "rapid",
-      "mud-runner"
+      "mud-runner",
+      "vehicle",
+      "construct"
     ],
     "number": 5305,
     "stats": {

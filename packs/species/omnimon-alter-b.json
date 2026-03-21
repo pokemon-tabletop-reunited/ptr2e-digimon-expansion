@@ -18,7 +18,8 @@
       "virus",
       "ultra-digimon",
       "bipedal",
-      "hover"
+      "hover",
+      "royal-knight"
     ],
     "number": 5488,
     "stats": {
@@ -833,7 +834,8 @@
         "omnimon-alter-s"
       ],
       "prerequisites": []
-    }
+    },
+    "slug": "omnimon-alter-b"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5488.png",
   "effects": [
@@ -920,6 +922,5 @@
       }
     }
   ],
-  "flags": {},
   "_id": "BvT2Cagf5DwmioUV"
 }

@@ -18,7 +18,8 @@
       "data",
       "champion",
       "vehicle",
-      "hover"
+      "hover",
+      "construct"
     ],
     "number": 5156,
     "stats": {

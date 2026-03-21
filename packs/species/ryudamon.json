@@ -20,7 +20,9 @@
       "bipedal",
       "tail",
       "horned",
-      "wielder"
+      "wielder",
+      "beast",
+      "antibody"
     ],
     "number": 5042,
     "stats": {

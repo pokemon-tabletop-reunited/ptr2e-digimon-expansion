@@ -21,7 +21,8 @@
       "many-legged",
       "speech",
       "darkvision-15",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5013,
     "stats": {
@@ -45,8 +46,7 @@
       "datavore"
     ],
     "abilities": {
-      "starting": [],
-      "basic": [
+      "starting": [
         {
           "slug": "cheap-tactics"
         },
@@ -54,6 +54,7 @@
           "slug": "creepy"
         }
       ],
+      "basic": [],
       "advanced": [],
       "master": []
     },

@@ -19,7 +19,9 @@
       "champion",
       "mudrunner",
       "treads",
-      "rapid"
+      "rapid",
+      "vehicle",
+      "construct"
     ],
     "number": 5147,
     "stats": {

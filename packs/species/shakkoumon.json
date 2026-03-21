@@ -20,7 +20,8 @@
       "hover",
       "winged",
       "telepath",
-      "teleporter"
+      "teleporter",
+      "unknown"
     ],
     "number": 5324,
     "stats": {

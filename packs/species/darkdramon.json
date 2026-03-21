@@ -20,7 +20,8 @@
       "bipedal",
       "hover",
       "propulsion",
-      "ufo"
+      "ufo",
+      "construct"
     ],
     "number": 5408,
     "stats": {
