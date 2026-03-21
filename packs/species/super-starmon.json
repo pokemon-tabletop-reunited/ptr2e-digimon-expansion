@@ -18,7 +18,8 @@
       "data",
       "ultimate",
       "bipedal",
-      "hover"
+      "hover",
+      "unknown"
     ],
     "number": 5260,
     "stats": {

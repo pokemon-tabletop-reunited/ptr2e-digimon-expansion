@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "3-headed",
-      "tailed"
+      "tailed",
+      "unknown"
     ],
     "number": 5178,
     "stats": {
@@ -45,7 +46,14 @@
           "slug": "multi-headed"
         }
       ],
-      "basic": [],
+      "basic": [
+        {
+          "slug": "cascade"
+        },
+        {
+          "slug": "jaws-of-carnage"
+        }
+      ],
       "advanced": [],
       "master": []
     },

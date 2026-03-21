@@ -18,7 +18,9 @@
       "free",
       "bipedal",
       "hover",
-      "armour-digimon"
+      "armour-digimon",
+      "unknown",
+      "ninja"
     ],
     "number": 5201,
     "stats": {

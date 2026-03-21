@@ -17,7 +17,9 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "beast",
+      "unknown"
     ],
     "number": 5096,
     "stats": {

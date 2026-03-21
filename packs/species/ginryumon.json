@@ -18,7 +18,9 @@
       "vaccine",
       "champion",
       "hover",
-      "quadrupedal"
+      "quadrupedal",
+      "beast",
+      "antibody"
     ],
     "number": 5107,
     "stats": {

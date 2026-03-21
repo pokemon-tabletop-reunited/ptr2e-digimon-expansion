@@ -20,7 +20,8 @@
       "many-legged",
       "tailed",
       "horned",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5460,
     "stats": {

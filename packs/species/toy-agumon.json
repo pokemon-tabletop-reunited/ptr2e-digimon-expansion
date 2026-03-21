@@ -16,7 +16,8 @@
     "traits": [
       "digimon",
       "vaccine",
-      "bipedal"
+      "bipedal",
+      "puppet"
     ],
     "number": 5033,
     "stats": {

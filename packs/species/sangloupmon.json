@@ -20,7 +20,9 @@
       "quadrupedal",
       "keen-scent",
       "darkvision-20",
-      "teleporter"
+      "teleporter",
+      "beast",
+      "antibody"
     ],
     "number": 5174,
     "stats": {

@@ -19,7 +19,8 @@
       "ultra-digimon",
       "bipedal",
       "hover",
-      "berserker"
+      "berserker",
+      "royal-knight"
     ],
     "number": 5486,
     "stats": {
@@ -834,7 +835,8 @@
         "omnimon-alter-b"
       ],
       "prerequisites": []
-    }
+    },
+    "slug": "omnimon-zwart-defeat"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5486.png",
   "effects": [
@@ -921,6 +923,5 @@
       }
     }
   ],
-  "flags": {},
   "_id": "xakiPGGMsafgs1BP"
 }

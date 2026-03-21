@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "direction-sense",
-      "tremorsense-20"
+      "tremorsense-20",
+      "beast"
     ],
     "number": 5189,
     "stats": {

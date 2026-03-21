@@ -18,7 +18,9 @@
       "virus",
       "mega",
       "bipedal",
-      "winged"
+      "winged",
+      "beast",
+      "unknown"
     ],
     "number": 5331,
     "stats": {
