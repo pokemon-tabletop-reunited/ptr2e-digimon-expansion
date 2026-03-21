@@ -820,8 +820,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 163,
-      "y": 74,
+      "x": null,
+      "y": null,
       "connected": [
         "gallantmon",
         "medieval-gallantmon"

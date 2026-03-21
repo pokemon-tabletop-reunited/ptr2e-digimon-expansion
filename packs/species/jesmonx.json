@@ -821,8 +821,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 162,
-      "y": 65,
+      "x": null,
+      "y": null,
       "connected": [
         "jesmon"
       ],

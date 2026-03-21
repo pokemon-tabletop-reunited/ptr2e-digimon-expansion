@@ -826,8 +826,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 247,
-      "y": 13,
+      "x": null,
+      "y": null,
       "connected": [
         "omnimon"
       ],

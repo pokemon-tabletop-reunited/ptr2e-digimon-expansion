@@ -823,8 +823,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 57,
-      "y": 89,
+      "x": null,
+      "y": null,
       "connected": [
         "magnamon",
         "veemon"

@@ -822,8 +822,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 164,
-      "y": 97,
+      "x": null,
+      "y": null,
       "connected": [
         "ulforce-veedramon"
       ],
