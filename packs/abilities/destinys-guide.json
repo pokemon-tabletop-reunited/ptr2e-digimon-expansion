@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Destiny's Guide",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [
+      {
+        "name": "Destiny's Guide",
+        "slug": "destinys-guide",
+        "description": "<p>Passive Effect: When the user is hit by a @Trait[virus] creature, the @Trait[virus] creature in question is afflicted with @Affliction[destined 999].<br><br>This effect can only trigger once per @Trait[virus] creature per Combat Encounter.</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "passive",
+        "img": "icons/svg/daze.svg",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        },
+        "hidden": false
+      }
+    ],
+    "description": "<p>Passive Effect: When the user is hit by a @Trait[virus] creature, the @Trait[virus] creature in question is afflicted with @Affliction[destined 999].<br><br>This effect can only trigger once per @Trait[virus] creature per Combat Encounter.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "img": "icons/svg/daze.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "mK35yvCqCgiTUvKf": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.4.12.beta",
+    "createdTime": 1767013428163,
+    "modifiedTime": 1767013428163,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf"
+  },
+  "_id": "TV6Uwbzf9HrVdLLA",
+  "sort": 0
+}

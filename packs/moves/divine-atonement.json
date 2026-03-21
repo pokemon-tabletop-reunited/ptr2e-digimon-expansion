@@ -1,0 +1,133 @@
+{
+  "name": "Divine Atonement",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Divine Atonement",
+        "slug": "divine-atonement",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/shadow_icon.svg",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 16
+        },
+        "types": [
+          "shadow"
+        ],
+        "category": "special",
+        "predicate": [],
+        "description": "<p>Effect: On hit, all valid targets have a 30% chance to gain @Affliction[perish 5]. The user then loses -2 SPATK Stages for 7 Activations.</p>",
+        "range": {
+          "target": "emanation",
+          "distance": 18,
+          "unit": "m"
+        },
+        "power": 270,
+        "accuracy": 90
+      }
+    ],
+    "grade": "S",
+    "slug": "divine-atonement"
+  },
+  "img": "systems/ptr2e/img/svg/shadow_icon.svg",
+  "effects": [
+    {
+      "name": "Divine Atonement",
+      "type": "passive",
+      "_id": "Wv9jRdAmNh1HAppP",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "divine-atonement-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.EYmp1DeE1Lwzi0D1",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "divine-atonement-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 5
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771279255949
+      }
+    }
+  ],
+  "_id": "BON7EsyO9Y8n4flE"
+}

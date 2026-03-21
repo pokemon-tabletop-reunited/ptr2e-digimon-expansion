@@ -1,0 +1,41 @@
+# IDE
+.idea/
+.vscode/
+/.vs
+
+
+# Node Modules
+node_modules/
+npm-debug.log
+foundry.js
+
+# Release
+system.zip
+foundry-0.8.3.js
+
+/packs/**/_source/*
+/packs/*.json
+/packs/.gitignore
+/packs/README.md
+dist/
+
+index.html
+
+module.mjs
+
+vendor.mjs
+
+styles/module.css
+
+docs/
+
+docstyles.css
+
+static/raw/
+
+static/images/
+
+temp.json
+
+.vscode/
+json-assets/

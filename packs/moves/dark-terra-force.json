@@ -1,0 +1,124 @@
+{
+  "name": "Dark Terra Force",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Dark Terra Force",
+        "slug": "dark-terra-force",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "traits": [
+          "digimon",
+          "explode",
+          "blast-4",
+          "pulse"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 11
+        },
+        "types": [
+          "fire",
+          "dark"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "description": "<p>Effect: On resolution, the user has a 30% chance to gain +1 DEF Stage for 5 Activations. This Attack is one more effective against the @Trait[fairy] Type.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S",
+    "slug": "dark-terra-force"
+  },
+  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "effects": [
+    {
+      "name": "Dark Terra Force",
+      "type": "passive",
+      "_id": "Vxv6bNPTHCs25xmV",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "dark-terra-force-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "dark-terra-force-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "modifiedTime": 1771270002326
+      }
+    }
+  ],
+  "_id": "umkDeJkaVHweJssZ"
+}

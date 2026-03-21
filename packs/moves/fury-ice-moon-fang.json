@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Fury: Ice Moon Fang",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Fury: Ice Moon Fang",
+        "slug": "fury-ice-moon-fang",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "traits": [
+          "digimon",
+          "missile",
+          "20-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": 10,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "mK35yvCqCgiTUvKf": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1767807784843,
+    "modifiedTime": 1767807784843,
+    "lastModifiedBy": "mK35yvCqCgiTUvKf"
+  },
+  "_id": "0nVbcU2VHSBgoFEF",
+  "sort": 0
+}

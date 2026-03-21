@@ -1,0 +1,118 @@
+{
+  "name": "Diamond Shell",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Diamond Shell",
+        "slug": "diamond-shell",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/rock_icon.svg",
+        "traits": [
+          "curl",
+          "pass-2",
+          "digimon"
+        ],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "rock"
+        ],
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "offensiveStat": "def",
+        "predicate": [],
+        "description": "<p>Effect: On resolution, the user has a 20% chance to gain +1 DEF Stage for 5 Activations. This Attack uses the user's DEF in calculating damage, rather than their ATK.</p>"
+      }
+    ],
+    "grade": "D",
+    "slug": "diamond-shell"
+  },
+  "img": "systems/ptr2e/img/svg/rock_icon.svg",
+  "effects": [
+    {
+      "name": "Diamond Shell",
+      "type": "passive",
+      "_id": "gsWYh3pZv5FBMlnf",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "diamond-shell-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
+            "predicate": [],
+            "chance": 20,
+            "affects": "self",
+            "dontMerge": false,
+            "priority": null,
+            "alterations": [],
+            "isFixedChance": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "stacks": 0,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": null,
+        "modifiedTime": 1771278785108,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
+        "exportSource": null
+      }
+    }
+  ],
+  "_id": "JutOluwRGex1rsp3"
+}

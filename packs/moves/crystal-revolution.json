@@ -1,0 +1,110 @@
+{
+  "name": "Crystal Revolution",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.109,
+      "previous": null
+    },
+    "actions": [
+      {
+        "name": "Crystal Revolution",
+        "slug": "crystal-revolution",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "traits": [
+          "drain-1-4",
+          "missile",
+          "digimon"
+        ],
+        "range": {
+          "target": "emanation",
+          "distance": 5,
+          "unit": "m"
+        },
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8
+        },
+        "types": [
+          "ice"
+        ],
+        "category": "special",
+        "power": 90,
+        "accuracy": 90,
+        "description": "<p>Effect: This Attack is one step more effective against the @Trait[fairy] Type.</p>",
+        "predicate": []
+      }
+    ],
+    "grade": "A",
+    "slug": "crystal-revolution",
+    "traits": [],
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "PTR 2e Team"
+      ],
+      "notes": ""
+    }
+  },
+  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "effects": [
+    {
+      "name": "Crystal Revolution",
+      "type": "passive",
+      "_id": "wxXLxoBCzC0NwQCr",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "crystal-revolution-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771269585681,
+        "modifiedTime": 1771269618582,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
+  "_id": "4eH6XQZynvoPQScF"
+}

@@ -1,0 +1,87 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Rune Forest 2",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Rune Forest 2",
+        "slug": "rune-forest-2",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/grass_icon.svg",
+        "traits": [
+          "digimon",
+          "blast-2",
+          "earthbound"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "grass"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "blast",
+          "distance": 8,
+          "unit": "m"
+        },
+        "power": 65,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "C"
+  },
+  "img": "systems/ptr2e/img/svg/grass_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1772901153066,
+    "modifiedTime": 1772901153066,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "i7ryvIPOZOJBWS1P",
+  "sort": 0
+}

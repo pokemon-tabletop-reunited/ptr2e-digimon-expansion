@@ -1,0 +1,84 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Ignition Flare 3",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ignition Flare 3",
+        "slug": "ignition-flare-3",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "traits": [
+          "digimon",
+          "4-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "cone",
+          "distance": 5,
+          "unit": "m"
+        },
+        "power": 30,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "ptr2e",
+    "systemVersion": "1.5.0.beta",
+    "createdTime": 1772901008246,
+    "modifiedTime": 1772901008246,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+  },
+  "_id": "hNrqX6P9W2nYtjN3",
+  "sort": 0
+}

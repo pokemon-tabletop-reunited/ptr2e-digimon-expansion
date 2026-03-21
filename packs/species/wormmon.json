@@ -1,0 +1,229 @@
+{
+  "name": "Wormmon",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "PTR 2e Team",
+        "Stitched"
+      ],
+      "notes": ""
+    },
+    "slug": "wormmon",
+    "traits": [
+      "digimon",
+      "many-legged",
+      "wallclimber",
+      "jump-2"
+    ],
+    "number": 5094,
+    "stats": {
+      "hp": 40,
+      "atk": 70,
+      "def": 80,
+      "spa": 70,
+      "spd": 60,
+      "spe": 40
+    },
+    "types": [
+      "bug"
+    ],
+    "size": {
+      "category": "medium",
+      "type": "height",
+      "height": 0.49,
+      "weight": 2.9
+    },
+    "diet": [
+      "herbivore"
+    ],
+    "abilities": {
+      "starting": [
+        {
+          "slug": "shield-dust"
+        },
+        {
+          "slug": "run-away"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "unnerve"
+        },
+        {
+          "slug": "swarm"
+        }
+      ],
+      "advanced": [
+        {
+          "slug": "anticipation"
+        },
+        {
+          "slug": "angry-buzz"
+        }
+      ],
+      "master": [
+        {
+          "slug": "coward"
+        },
+        {
+          "slug": "gluttony"
+        }
+      ]
+    },
+    "movement": [
+      {
+        "type": "overland",
+        "value": 6
+      },
+      {
+        "type": "threaded",
+        "value": 6
+      },
+      {
+        "type": "swim",
+        "value": 3
+      }
+    ],
+    "skills": [],
+    "moves": {
+      "levelUp": [
+        {
+          "name": "string-shot",
+          "level": 1,
+          "gen": null
+        },
+        {
+          "name": "tackle",
+          "level": 1,
+          "gen": null
+        },
+        {
+          "name": "bug-bite",
+          "level": 9,
+          "gen": null
+        },
+        {
+          "name": "toxic-thread",
+          "level": 15,
+          "gen": null
+        }
+      ],
+      "tutor": [
+        {
+          "name": "electroweb",
+          "gen": null
+        }
+      ]
+    },
+    "eggGroups": [],
+    "genderRatio": -1,
+    "habitats": [
+      "forest"
+    ],
+    "evolutions": {
+      "name": "wormon",
+      "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.96aj7EQR3e6HYQt8",
+      "methods": [],
+      "evolutions": [],
+      "details": {
+        "gender": null,
+        "item": null,
+        "level": null,
+        "knownMove": null
+      },
+      "perk": {
+        "x": 26,
+        "y": 26
+      }
+    },
+    "node": {
+      "x": 30,
+      "y": 83,
+      "connected": [
+        "motimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            10
+          ]
+        }
+      ]
+    }
+  },
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5094.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "m5OdPYiDQ0TttKaY",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.xsp0fBBTgChEdCel",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:wormmon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767345456650,
+        "modifiedTime": 1767345479740,
+        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+      }
+    }
+  ],
+  "_id": "96aj7EQR3e6HYQt8"
+}

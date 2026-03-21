@@ -1,0 +1,132 @@
+{
+  "name": "Animal Nail",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Animal Nail",
+        "slug": "animal-nail",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "traits": [
+          "contact",
+          "sharp",
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4
+        },
+        "types": [
+          "fighting"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 60,
+        "accuracy": 100,
+        "description": "<p>Effect: This Attack's Power increases by +20 for every allied creature that has @Affliction[fainted] this battle, up to a maximum Power of 300. This Attack is one step more effective against the @Trait[grass] Type.</p>"
+      }
+    ],
+    "grade": "B",
+    "slug": "animal-nail"
+  },
+  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "effects": [
+    {
+      "name": "Animal Nail",
+      "type": "passive",
+      "_id": "ruqb0y5LVtkw7N1o",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "create-clock",
+            "key": "animalNailClockU",
+            "value": 0,
+            "predicate": [],
+            "label": "Animal Nail KO",
+            "max": 12,
+            "color": "#ce416b",
+            "private": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "key": "animal-nail-attack",
+            "value": "20*@actor.clocks.animalNailClockU",
+            "predicate": [],
+            "property": "power",
+            "definition": [],
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "animal-nail-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:grass"
+            ],
+            "label": "Vs Grass",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771261483192,
+        "modifiedTime": 1771262201370,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
+  "_id": "aAkm7Wuaksk2IBn8"
+}

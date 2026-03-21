@@ -1,0 +1,221 @@
+{
+  "name": "Tentomon",
+  "type": "ptr2e-digimon-expansion.digimonSpecies",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "PTR 2e Team",
+        "Stitched"
+      ],
+      "notes": ""
+    },
+    "slug": "tentomon",
+    "traits": [
+      "digimon",
+      "rookie",
+      "em-sense-15",
+      "bipedal",
+      "zapper",
+      "jump-3",
+      "wallclimber",
+      "winged",
+      "vaccine"
+    ],
+    "number": 5032,
+    "stats": {
+      "hp": 45,
+      "atk": 60,
+      "def": 80,
+      "spa": 70,
+      "spd": 75,
+      "spe": 30
+    },
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "size": {
+      "category": "medium",
+      "type": "height",
+      "height": 0.6,
+      "weight": 23
+    },
+    "diet": [
+      "herbivore"
+    ],
+    "abilities": {
+      "starting": [
+        {
+          "slug": "swarm"
+        },
+        {
+          "slug": "early-bird"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "static"
+        },
+        {
+          "slug": "shell-armor"
+        }
+      ],
+      "advanced": [],
+      "master": []
+    },
+    "movement": [
+      {
+        "type": "flight",
+        "value": 7
+      },
+      {
+        "type": "overland",
+        "value": 5
+      },
+      {
+        "type": "swim",
+        "value": 3
+      }
+    ],
+    "skills": [],
+    "moves": {
+      "levelUp": [
+        {
+          "name": "fluster",
+          "level": 1,
+          "gen": null
+        },
+        {
+          "name": "struggle-bug",
+          "level": 1,
+          "gen": null
+        },
+        {
+          "name": "thunder-shock",
+          "level": 6,
+          "gen": null
+        },
+        {
+          "name": "calm-mind",
+          "level": 10,
+          "gen": null
+        },
+        {
+          "name": "metal-claw",
+          "level": 14,
+          "gen": null
+        }
+      ],
+      "tutor": []
+    },
+    "eggGroups": [],
+    "genderRatio": -1,
+    "habitats": [
+      "forest"
+    ],
+    "evolutions": {
+      "name": "tentomon",
+      "uuid": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.i9NfMUoGAiE96p7D",
+      "methods": [],
+      "evolutions": [],
+      "details": {
+        "gender": null,
+        "item": null,
+        "level": null,
+        "knownMove": null
+      },
+      "perk": {
+        "x": 26,
+        "y": 26
+      }
+    },
+    "node": {
+      "x": 32,
+      "y": 81,
+      "connected": [
+        "motimon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            9
+          ]
+        }
+      ]
+    }
+  },
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5032.png",
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "sQJ8jrovSzD97sbW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "key": "",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.9Y3TbfF5IVLcjox8",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:tentomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "mode": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1767400779585,
+        "modifiedTime": 1767400915308,
+        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+      }
+    }
+  ],
+  "_id": "i9NfMUoGAiE96p7D"
+}
