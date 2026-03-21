@@ -825,10 +825,20 @@
     "habitats": [],
     "slug": "barbamon",
     "node": {
-      "x": null,
-      "y": null,
-      "connected": [],
-      "prerequisites": []
+      "x": 156,
+      "y": 174,
+      "connected": [
+        "skull-satamon",
+        "shaujinmon"
+      ],
+      "prerequisites": [
+        {
+          "gte": [
+            "{actor|level}",
+            73
+          ]
+        }
+      ]
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5415.png",
