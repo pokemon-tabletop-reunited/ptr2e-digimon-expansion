@@ -279,3 +279,67 @@ Hooks.once("ready", () => {
     speciesPerks: new Map<string, ItemPTR2e<PerkSystem>>(),
   }
 })
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.displayEffectiveness", (effectiveness: Record<string, { value: number, name: string }[]>, actor: {traits: Map<string, {}>}) => {
+  const isDigimon = actor.traits.has("digimon");
+  if(!isDigimon) return;
+
+  const isVirus = actor.traits.has("virus");
+  const isData = actor.traits.has("data");
+  const isVaccine = actor.traits.has("vaccine");
+  if(isVirus) {
+    effectiveness.effective.push({ value: 1.5, name: "data"});
+    effectiveness.ineffective.push({ value: 0.5, name: "vaccine"});
+  }
+  else if(isData) {
+    effectiveness.effective.push({ value: 1.5, name: "vaccine"});
+    effectiveness.ineffective.push({ value: 0.5, name: "virus"});
+  } else if(isVaccine) {
+    effectiveness.effective.push({ value: 1.5, name: "virus"});
+    effectiveness.ineffective.push({ value: 0.5, name: "data"});
+  }
+});
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.getTypeIcon", ({img, type}: {type: { images: { icon: string; bar: string } }, img: string}) => {
+  if(img === "virus") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/virus.png";
+    return;
+  }
+  if(img === "data") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/data.png";
+    return;
+  }
+  if(img === "vaccine") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/vaccine.png";
+    return;
+  }
+  if(img === "free") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/free.png";
+    return;
+  }
+});
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.getExtraTypeIcons", (extraTypeIcons: {icons: Set<string>}, species: {traits: Map<string, {}>}) => {
+  const isDigimon = species.traits.has("digimon");
+  if(!isDigimon) return;
+
+  const isVirus = species.traits.has("virus");
+  const isData = species.traits.has("data");
+  const isVaccine = species.traits.has("vaccine");
+  const isFree = species.traits.has("free");
+  if(isVirus) {
+    extraTypeIcons.icons.add("virus");
+  }
+  if(isData) {
+    extraTypeIcons.icons.add("data");
+  }
+  if(isVaccine) {
+    extraTypeIcons.icons.add("vaccine");
+  }
+  if(isFree) {
+    extraTypeIcons.icons.add("free");
+  }
+});
