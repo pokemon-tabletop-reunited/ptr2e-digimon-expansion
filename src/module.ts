@@ -289,15 +289,15 @@ Hooks.on("ptr2e.displayEffectiveness", (effectiveness: Record<string, { value: n
   const isData = actor.traits.has("data");
   const isVaccine = actor.traits.has("vaccine");
   if(isVirus) {
-    effectiveness.effective.push({ value: 0.5, name: "data"});
-    effectiveness.ineffective.push({ value: 1.5, name: "vaccine"});
+    effectiveness.ineffective.push({ value: 0.5, name: "data"});
+    effectiveness.effective.push({ value: 1.5, name: "vaccine"});
   }
   else if(isData) {
-    effectiveness.effective.push({ value: 0.5, name: "vaccine"});
-    effectiveness.ineffective.push({ value: 1.5, name: "virus"});
+    effectiveness.ineffective.push({ value: 0.5, name: "vaccine"});
+    effectiveness.effective.push({ value: 1.5, name: "virus"});
   } else if(isVaccine) {
-    effectiveness.effective.push({ value: 0.5, name: "virus"});
-    effectiveness.ineffective.push({ value: 1.5, name: "data"});
+    effectiveness.ineffective.push({ value: 0.5, name: "virus"});
+    effectiveness.effective.push({ value: 1.5, name: "data"});
   }
 });
 
