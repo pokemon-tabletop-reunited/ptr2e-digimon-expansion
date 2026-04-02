@@ -18,7 +18,8 @@
       "virus",
       "rookie",
       "many-legged",
-      "wallclimber"
+      "wallclimber",
+      "underdog"
     ],
     "number": 5082,
     "stats": {
@@ -41,8 +42,22 @@
     },
     "diet": [],
     "abilities": {
-      "starting": [],
-      "basic": [],
+      "starting": [
+        {
+          "slug": "venom-glands"
+        },
+        {
+          "slug": "electric-surge"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "shield-dust"
+        },
+        {
+          "slug": "spider-lair"
+        }
+      ],
       "advanced": [],
       "master": []
     },
@@ -884,11 +899,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -901,8 +917,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -919,13 +937,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.358",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767137218051,
         "modifiedTime": 1767137237682,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "5vbTKR7LZlom4il4"
