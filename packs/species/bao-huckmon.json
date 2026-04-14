@@ -20,7 +20,8 @@
       "quadrupedal",
       "horned",
       "bladed",
-      "tailed"
+      "tailed",
+      "dinosaur"
     ],
     "number": 5155,
     "stats": {
@@ -32,8 +33,8 @@
       "spe": 85
     },
     "types": [
-      "steel",
-      "fighting"
+      "fighting",
+      "steel"
     ],
     "size": {
       "category": "medium",

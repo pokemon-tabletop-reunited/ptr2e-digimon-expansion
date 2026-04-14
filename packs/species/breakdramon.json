@@ -20,7 +20,8 @@
       "quadrupedal",
       "horned",
       "tailed",
-      "no-buoyancy"
+      "no-buoyancy",
+      "construct"
     ],
     "number": 5422,
     "stats": {

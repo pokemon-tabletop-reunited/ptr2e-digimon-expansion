@@ -19,7 +19,9 @@
       "champion",
       "bipedal",
       "winged",
-      "natural-steel"
+      "natural-steel",
+      "antibody",
+      "construct"
     ],
     "number": 5129,
     "stats": {

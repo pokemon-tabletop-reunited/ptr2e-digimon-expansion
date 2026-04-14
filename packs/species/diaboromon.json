@@ -18,7 +18,8 @@
       "free",
       "mega",
       "semi-bipedal",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5443,
     "stats": {

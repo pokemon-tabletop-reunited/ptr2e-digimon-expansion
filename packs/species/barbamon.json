@@ -827,7 +827,10 @@
     "node": {
       "x": 156,
       "y": 174,
-      "connected": [],
+      "connected": [
+        "skull-satamon",
+        "shaujinmon"
+      ],
       "prerequisites": [
         {
           "gte": [

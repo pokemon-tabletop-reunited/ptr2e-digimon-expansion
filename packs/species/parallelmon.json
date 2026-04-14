@@ -20,7 +20,8 @@
       "reach",
       "semi-bipedal",
       "teleporter",
-      "wallclimber"
+      "wallclimber",
+      "unknown"
     ],
     "number": 5483,
     "stats": {

@@ -19,7 +19,9 @@
       "in-training",
       "many-legged",
       "wallclimber",
-      "digimon"
+      "digimon",
+      "beast",
+      "unknown"
     ],
     "stats": {
       "hp": 35,
