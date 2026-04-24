@@ -835,8 +835,7 @@
       ],
       "prerequisites": [
         "item:equipment:metal-garurumon-dna",
-        "item:equipment:war-greymon-dna",
-        "item:species:omnimon-zwart"
+        "item:equipment:war-greymon-dna"
       ]
     }
   },
