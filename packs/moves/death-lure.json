@@ -1,0 +1,176 @@
+{
+  "folder": null,
+  "name": "Death Lure",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Death Lure",
+        "slug": "death-lure",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "traits": [
+          "digimon",
+          "arcane"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 10,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "psychic"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.j1vZh1Oo54KdyJIR]{-3 Special Defense Stages} for 3 activations.<br><br>This attack has an 80% chance on hit to apply @UUID[Compendium.ptr2e.core-effects.tks8Fa9ZmwYOSr4Z]{Puppet 1}.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 7,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "oyzINb8kI1SzHwtq",
+  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "effects": [
+    {
+      "name": "Death Lure",
+      "type": "passive",
+      "_id": "PJGoSvwE2SD2BGtL",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "death-lure-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.j1vZh1Oo54KdyJIR",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "property": "duration.turns",
+                "value": 3,
+                "method": 2
+              }
+            ],
+            "dontMerge": false,
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
+          },
+          {
+            "type": "roll-effect",
+            "key": "death-lure-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.tks8Fa9ZmwYOSr4Z",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "property": "duration.turns",
+                "value": 3,
+                "method": 2
+              }
+            ],
+            "dontMerge": false,
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515500707,
+        "modifiedTime": 1775515500707,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515500707,
+    "modifiedTime": 1775515500707,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

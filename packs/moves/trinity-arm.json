@@ -1,0 +1,297 @@
+{
+  "folder": null,
+  "name": "Trinity Arm",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Trinity Arm",
+        "slug": "trinity-arm",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "untyped"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Roll d3 to determine which variant of Trinity Arm will be activated.</p>",
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      },
+      {
+        "name": "Critical Arm",
+        "slug": "critical-arm",
+        "description": "",
+        "traits": [
+          "digimon",
+          "crit-2",
+          "sharp"
+        ],
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "types": [
+          "fighting"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": 135,
+        "accuracy": 100
+      },
+      {
+        "name": "Blitz Arm",
+        "slug": "blitz-arm",
+        "description": "<p>Effect: This attack inflicts @Affliction[paralysis 5].</p>",
+        "traits": [
+          "digimon",
+          "dash",
+          "punch"
+        ],
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": 140,
+        "accuracy": 100
+      },
+      {
+        "name": "Accel Arm",
+        "slug": "accel-arm",
+        "description": "<p>Effect: This attack gains +50% damage vs @Trait[ground] and @Trait[data] creatures, stacking cumulatively.</p>",
+        "traits": [
+          "digimon",
+          "punch",
+          "earthbound"
+        ],
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 4,
+          "unit": "m"
+        },
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": 145,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "d6lQ7ueBuQUxA5Vj",
+  "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+  "effects": [
+    {
+      "name": "Trinity Arm",
+      "type": "passive",
+      "_id": "5F6B6m0FFg1ppnTK",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "phase": "initial",
+            "predicate": [],
+            "key": "blitz-arm-attack",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "percentile-modifier",
+            "value": 50,
+            "phase": "initial",
+            "predicate": [
+              "target:trait:ground"
+            ],
+            "label": "Accel Arm (Ground)",
+            "key": "accel-arm-attack-damage",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "percentile-modifier",
+            "value": 50,
+            "phase": "initial",
+            "predicate": [
+              "target:trait:data"
+            ],
+            "label": "Accel Arm (Data)",
+            "key": "accel-arm-attack-damage",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515650773,
+        "modifiedTime": 1775515650773,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515650773,
+    "modifiedTime": 1775516419844,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 4400000
+}

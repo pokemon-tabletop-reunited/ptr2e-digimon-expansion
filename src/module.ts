@@ -275,7 +275,90 @@ Hooks.once("init", () => {
 Hooks.once("ready", () => {
   console.log("PTR2e Digimon Expansion | Ready");
 
+  // If Digimon Species pack has not yet been created in compendiumBrowserPacks settings, create it and enable it.
+  const compendiumBrowserPacks = game.settings.get("ptr2e", "compendiumBrowserPacks") as Record<string, Record<string, {load: boolean, name: string, package: string}>>;
+  if(compendiumBrowserPacks["species"] && compendiumBrowserPacks.species["ptr2e-digimon-expansion.digimon-species"] === undefined) {
+    compendiumBrowserPacks.species["ptr2e-digimon-expansion.digimon-species"] = {
+      load: true,
+      name: "PTR 2e Digimon Species",
+      package: "ptr2e-digimon-expansion"
+    }
+    game.settings.set("ptr2e", "compendiumBrowserPacks", compendiumBrowserPacks);
+  }
+  const compendiumBrowserSources = game.settings.get("ptr2e", "compendiumBrowserSources") as {sources: Record<string, {load: boolean, name: string}>};
+  if(compendiumBrowserSources.sources && compendiumBrowserSources.sources["ptr-2e-digimon-supplement-digi-dex"] === undefined) {
+    compendiumBrowserSources.sources["ptr-2e-digimon-supplement-digi-dex"] = {
+      load: true,
+      name: "PTR 2e Digimon Supplement - Digi Dex"
+    }
+    game.settings.set("ptr2e", "compendiumBrowserSources", compendiumBrowserSources);
+  }
+
   game.digimon = {
     speciesPerks: new Map<string, ItemPTR2e<PerkSystem>>(),
   }
 })
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.displayEffectiveness", (effectiveness: Record<string, { value: number, name: string }[]>, actor: {traits: Map<string, {}>}) => {
+  const isDigimon = actor.traits.has("digimon");
+  if(!isDigimon) return;
+
+  const isVirus = actor.traits.has("virus");
+  const isData = actor.traits.has("data");
+  const isVaccine = actor.traits.has("vaccine");
+  if(isVirus) {
+    effectiveness.ineffective.push({ value: 0.5, name: "data"});
+    effectiveness.effective.push({ value: 1.5, name: "vaccine"});
+  }
+  else if(isData) {
+    effectiveness.ineffective.push({ value: 0.5, name: "vaccine"});
+    effectiveness.effective.push({ value: 1.5, name: "virus"});
+  } else if(isVaccine) {
+    effectiveness.ineffective.push({ value: 0.5, name: "virus"});
+    effectiveness.effective.push({ value: 1.5, name: "data"});
+  }
+});
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.getTypeIcon", ({img, type}: {type: { images: { icon: string; bar: string } }, img: string}) => {
+  if(img === "virus") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/virus.png";
+    return;
+  }
+  if(img === "data") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/data.png";
+    return;
+  }
+  if(img === "vaccine") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/vaccine.png";
+    return;
+  }
+  if(img === "free") {
+    type.images.icon = "modules/ptr2e-digimon-expansion/img/type-symbols/free.png";
+    return;
+  }
+});
+
+//@ts-expect-error - Missing types
+Hooks.on("ptr2e.getExtraTypeIcons", (extraTypeIcons: {icons: Set<string>}, species: {traits: Map<string, {}>}) => {
+  const isDigimon = species.traits.has("digimon");
+  if(!isDigimon) return;
+
+  const isVirus = species.traits.has("virus");
+  const isData = species.traits.has("data");
+  const isVaccine = species.traits.has("vaccine");
+  const isFree = species.traits.has("free");
+  if(isVirus) {
+    extraTypeIcons.icons.add("virus");
+  }
+  if(isData) {
+    extraTypeIcons.icons.add("data");
+  }
+  if(isVaccine) {
+    extraTypeIcons.icons.add("vaccine");
+  }
+  if(isFree) {
+    extraTypeIcons.icons.add("free");
+  }
+});
