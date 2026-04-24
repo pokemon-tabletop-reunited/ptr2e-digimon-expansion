@@ -834,8 +834,8 @@
         "lady-devimon"
       ],
       "prerequisites": [
-        "equipment:angewomon-dna",
-        "equipment:lady-devimon-dna"
+        "item:equipment:angewomon-dna",
+        "item:equipment:lady-devimon-dna"
       ]
     }
   },

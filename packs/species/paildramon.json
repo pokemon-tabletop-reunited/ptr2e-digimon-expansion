@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "volt-tackle",
-          "level": 58,
-          "gen": null
-        },
-        {
           "name": "rage-powder",
           "level": 45,
           "gen": null
@@ -849,6 +844,11 @@
           "gen": null
         },
         {
+          "name": "volt-tackle",
+          "level": 58,
+          "gen": null
+        },
+        {
           "name": "dragonic-raze",
           "level": 59,
           "gen": null
@@ -868,8 +868,8 @@
         "ex-veemon"
       ],
       "prerequisites": [
-        "equipment:ex-veemon-dna",
-        "stingmon-dna"
+        "item:equipment:ex-veemon-dna",
+        "item:stingmon-dna"
       ]
     }
   },
