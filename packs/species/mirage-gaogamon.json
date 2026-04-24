@@ -859,10 +859,11 @@
             "predicate": [],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
             "ignored": false,
             "suboptions": [],
-            "state": false
+            "state": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "stats-alteration",
@@ -877,8 +878,9 @@
             "spa": 75,
             "spd": 25,
             "spe": -30,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "basic",
@@ -887,8 +889,9 @@
             ],
             "key": "system.type.types",
             "value": "flying",
-            "mode": 6,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "basic",
@@ -897,8 +900,9 @@
             ],
             "key": "system.type.types",
             "value": "fairy",
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "remove-trait",
@@ -907,8 +911,9 @@
             ],
             "key": "",
             "value": "flying",
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "add-trait",
@@ -917,8 +922,9 @@
             ],
             "key": "",
             "value": "UFO",
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "basic",
@@ -927,8 +933,9 @@
             ],
             "key": "system.movement.flight.value",
             "value": 24,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -940,9 +947,9 @@
             "allowDuplicate": false,
             "alterations": [
               {
-                "mode": 5,
                 "property": "system.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -950,11 +957,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -969,8 +977,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -983,12 +993,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
         "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767023726532
-      }
+        "modifiedTime": 1767023726532,
+        "createdTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Signature Moves",
@@ -999,7 +1013,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Uam1aRT0kj7Jegko",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:mirage-gaogamon"
@@ -1011,7 +1024,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1019,7 +1034,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.Q4Lu9XDK8kUUXVsk",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:mirage-gaogamon"
@@ -1031,7 +1045,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.IQxiukSKmX8r5L9j",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:mirage-gaogamon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1048,8 +1085,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1066,13 +1105,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1773351927489,
-        "modifiedTime": 1773352024553,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1775551733076,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "y33FuS9Uo1h3I9lD"

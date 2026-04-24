@@ -846,7 +846,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.hF3OdWCDPs49dovU",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:kaiser-greymon"
@@ -858,6 +857,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.TQA6OvPOyLmH5Jrr",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:kaiser-greymon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -896,12 +919,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.358",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1767136195098,
-        "modifiedTime": 1767136214310,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1775554016759,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
       },
       "start": null,
       "showIcon": 1,

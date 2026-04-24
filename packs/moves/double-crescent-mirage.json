@@ -21,7 +21,7 @@
         "name": "Double Crescent Mirage",
         "slug": "double-crescent-mirage",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
         "traits": [
           "digimon",
           "sharp",
@@ -39,7 +39,7 @@
         "ephemeralVariant": false,
         "summon": null,
         "types": [
-          "psychic"
+          "fighting"
         ],
         "category": "physical",
         "contestType": "",
@@ -66,7 +66,7 @@
     "grade": "S"
   },
   "_id": "IQxiukSKmX8r5L9j",
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
   "effects": [
     {
       "name": "Double Crescent Mirage",
@@ -136,11 +136,11 @@
     "systemId": "ptr2e",
     "systemVersion": "1.7.2.beta",
     "createdTime": 1775515505600,
-    "modifiedTime": 1775515505600,
+    "modifiedTime": 1775551780483,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0
+  "sort": 700000
 }
