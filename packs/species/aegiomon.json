@@ -69,7 +69,7 @@
           "slug": "iron-fist"
         },
         {
-          "slug": "limber"
+          "slug": "rock-head"
         }
       ],
       "advanced": [],
@@ -876,10 +876,9 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.SIe8ArsuxQLcRMek",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiomon"
             ],
             "alterations": [],
             "onDeleteActions": {
@@ -888,19 +887,19 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.vCFvvCEOJib4MFze",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiomon"
             ],
             "alterations": [],
             "onDeleteActions": {
@@ -909,12 +908,13 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -947,12 +947,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.358",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1767033037121,
-        "modifiedTime": 1767034347789,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1776174723084,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
       },
       "start": null,
       "showIcon": 1,

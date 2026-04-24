@@ -18,7 +18,8 @@
       "virus",
       "mega",
       "bipedal",
-      "seven-deadly-digimon"
+      "seven-deadly-digimon",
+      "darkvision-20"
     ],
     "number": 5425,
     "stats": {
@@ -842,124 +843,6 @@
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5425.png",
   "effects": [
     {
-      "name": "Burst Mode",
-      "type": "form",
-      "_id": "gKJ8y6NkZX1rqHYx",
-      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5425_burst.png",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-option",
-            "key": "manual-forme-toggle",
-            "value": "forme:burst-mode:active",
-            "domain": "all",
-            "toggleable": true,
-            "label": "Toggle: Burst Mode Forme",
-            "predicate": [],
-            "alwaysActive": false,
-            "count": false,
-            "mode": 2,
-            "ignored": false,
-            "suboptions": [],
-            "state": false
-          },
-          {
-            "type": "stats-alteration",
-            "predicate": [
-              "forme:burst-mode:active"
-            ],
-            "key": "",
-            "value": 0,
-            "hp": null,
-            "atk": null,
-            "def": 5,
-            "spa": 90,
-            "spd": 5,
-            "spe": null,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "add-trait",
-            "predicate": [
-              "forme:burst-mode:active"
-            ],
-            "key": "",
-            "value": "winged",
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "basic",
-            "predicate": [
-              "forme:burst-mode:active"
-            ],
-            "key": "system.movement.flight.value",
-            "value": 21,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "grant-item",
-            "predicate": [
-              "forme:burst-mode:active"
-            ],
-            "key": "",
-            "value": "Compendium.ptr2e.core-abilities.Item.xieDMfUtsRm6RaW1",
-            "allowDuplicate": false,
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "system.free",
-                "value": "true"
-              }
-            ],
-            "onDeleteActions": {
-              "grantee": "detach",
-              "granter": "cascade"
-            },
-            "reevaluateOnUpdate": true,
-            "mode": 2,
-            "ignored": false,
-            "inMemoryOnly": false,
-            "track": false,
-            "replaceSelf": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0,
-        "trigger": "manual",
-        "conditions": []
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020787832
-      }
-    },
-    {
       "name": "Signature Move",
       "type": "passive",
       "_id": "KUDPk5RFF4KtbjUZ",
@@ -968,8 +851,7 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.aPiCteTzXnfDqBqj",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.GPPtKRXcQYui6301",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:beelzemon"
             ],
@@ -980,7 +862,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.oICGxcKrDCq6RuGs",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:beelzemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -997,8 +902,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1015,13 +922,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1773349270340,
-        "modifiedTime": 1773349299007,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1775550584479,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "aPiCteTzXnfDqBqj"

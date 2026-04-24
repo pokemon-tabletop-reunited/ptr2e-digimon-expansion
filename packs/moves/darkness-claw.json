@@ -1,0 +1,163 @@
+{
+  "folder": null,
+  "name": "Darkness Claw",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Darkness Claw",
+        "slug": "darkness-claw",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "traits": [
+          "digimon",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dark"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack has a 80% chance to inflict @Affliction[stunted 5].<br><br>This attack gains +1 Effectiveness Stage vs @Trait[fairy] creatures.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 125,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "oICGxcKrDCq6RuGs",
+  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "effects": [
+    {
+      "name": "Darkness Claw",
+      "type": "passive",
+      "_id": "W2EiQNSUupSGgnmW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "darkness-claw-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "ignored": false,
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
+          },
+          {
+            "type": "roll-effect",
+            "key": "darkness-claw-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
+            "predicate": [],
+            "chance": 80,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515494611,
+        "modifiedTime": 1775515494611,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515494611,
+    "modifiedTime": 1775515494611,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

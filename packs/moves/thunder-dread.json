@@ -1,0 +1,166 @@
+{
+  "folder": null,
+  "name": "Thunder Dread",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "thunder-dread",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Thunder Dread",
+        "slug": "thunder-dread",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "traits": [
+          "digimon",
+          "horn",
+          "pulse"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fighting",
+          "electric"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>This attack has a 10% chance each to inflict @Affliction[tased 5] to the target, and +1 Attack Stage for 5 Activations to the user.</p>",
+        "range": {
+          "target": "cone",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 90,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "C"
+  },
+  "_id": "Joua7XrgvRd6Irto",
+  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "effects": [
+    {
+      "name": "Thunder Dread",
+      "type": "affliction",
+      "_id": "pcPWNtOIWy4dr7ep",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects.Item.tasedconditiitem",
+            "method": 0,
+            "phase": "initial",
+            "predicate": [],
+            "key": "thunder-dread",
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
+            "phase": "initial",
+            "predicate": [],
+            "key": "thunder-dread",
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage"
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.360",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1776412468359,
+        "modifiedTime": 1776412468359,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1776412468359,
+    "modifiedTime": 1776412468359,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}
