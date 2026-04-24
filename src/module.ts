@@ -275,6 +275,25 @@ Hooks.once("init", () => {
 Hooks.once("ready", () => {
   console.log("PTR2e Digimon Expansion | Ready");
 
+  // If Digimon Species pack has not yet been created in compendiumBrowserPacks settings, create it and enable it.
+  const compendiumBrowserPacks = game.settings.get("ptr2e", "compendiumBrowserPacks") as Record<string, Record<string, {load: boolean, name: string, package: string}>>;
+  if(compendiumBrowserPacks["species"] && compendiumBrowserPacks.species["ptr2e-digimon-expansion.digimon-species"] === undefined) {
+    compendiumBrowserPacks.species["ptr2e-digimon-expansion.digimon-species"] = {
+      load: true,
+      name: "PTR 2e Digimon Species",
+      package: "ptr2e-digimon-expansion"
+    }
+    game.settings.set("ptr2e", "compendiumBrowserPacks", compendiumBrowserPacks);
+  }
+  const compendiumBrowserSources = game.settings.get("ptr2e", "compendiumBrowserSources") as {sources: Record<string, {load: boolean, name: string}>};
+  if(compendiumBrowserSources.sources && compendiumBrowserSources.sources["ptr-2e-digimon-supplement-digi-dex"] === undefined) {
+    compendiumBrowserSources.sources["ptr-2e-digimon-supplement-digi-dex"] = {
+      load: true,
+      name: "PTR 2e Digimon Supplement - Digi Dex"
+    }
+    game.settings.set("ptr2e", "compendiumBrowserSources", compendiumBrowserSources);
+  }
+
   game.digimon = {
     speciesPerks: new Map<string, ItemPTR2e<PerkSystem>>(),
   }
