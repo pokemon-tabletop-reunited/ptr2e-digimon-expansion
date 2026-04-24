@@ -1,0 +1,151 @@
+{
+  "folder": null,
+  "name": "Dark Prominence",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Dark Prominence",
+        "slug": "dark-prominence",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "traits": [
+          "digimon",
+          "contact",
+          "sharp"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dark"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack has a 60% chance to apply @Affliction[suppressed 5].</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "rWz2nl5fEF3QGE3I",
+  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "effects": [
+    {
+      "name": "Dark Prominence",
+      "type": "passive",
+      "_id": "Ow1LeuOotoZcKqPz",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "dark-prominence-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.suppressedcoitem",
+            "predicate": [],
+            "chance": 60,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515494564,
+        "modifiedTime": 1775515494564,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515494564,
+    "modifiedTime": 1775515497338,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 300000
+}

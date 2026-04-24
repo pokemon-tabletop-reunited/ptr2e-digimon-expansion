@@ -954,7 +954,8 @@
               {
                 "method": 5,
                 "property": "system.actions.0.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -969,7 +970,9 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "suppress-ability",
@@ -1015,7 +1018,8 @@
               {
                 "method": 2,
                 "property": "system.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -1029,7 +1033,9 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -1041,7 +1047,8 @@
               {
                 "method": 5,
                 "property": "system.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -1056,7 +1063,9 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -1068,7 +1077,8 @@
               {
                 "method": 5,
                 "property": "system.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -1083,7 +1093,9 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
