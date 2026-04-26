@@ -63,18 +63,35 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
-            "type": "flat-modifier",
-            "key": "attack-damage",
-            "value": 50,
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+            "phase": "initial",
             "predicate": [],
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": false
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.isFlat",
+                "value": "true"
+              },
+              {
+                "method": 5,
+                "property": "system.changes.0.value",
+                "value": -50
+              }
+            ],
+            "dontMerge": false,
+            "key": "lightning-paw-attack",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -87,8 +104,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -101,11 +120,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777229626609,
+        "modifiedTime": 1777242859000
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "6QUjvL03dufWVBVI"
