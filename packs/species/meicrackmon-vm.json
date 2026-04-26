@@ -872,7 +872,9 @@
       "connected": [
         "black-gatomon",
         "meicoomon",
-        "meicrackmon"
+        "meicrackmon",
+        "ophanimon",
+        "rosemon"
       ],
       "prerequisites": [
         {
@@ -907,11 +909,12 @@
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -927,11 +930,12 @@
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -947,11 +951,12 @@
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -964,8 +969,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -982,15 +989,17 @@
         "compendiumSource": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.kutWRPXBKkvP2l3g.ActiveEffect.peufFJoRUgSZWlef",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770771562661,
         "modifiedTime": 1770772573037,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "y3yuXEN7pOyYL8zI"
 }

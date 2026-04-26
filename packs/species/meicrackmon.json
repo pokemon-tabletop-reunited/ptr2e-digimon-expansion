@@ -48,30 +48,9 @@
     },
     "diet": [],
     "abilities": {
-      "starting": [
-        {
-          "slug": "feline-prowess"
-        },
-        {
-          "slug": "homogeny"
-        }
-      ],
-      "basic": [
-        {
-          "slug": "berserk"
-        },
-        {
-          "slug": "fur-coat"
-        }
-      ],
-      "advanced": [
-        {
-          "slug": "blink"
-        },
-        {
-          "slug": "friend-guard"
-        }
-      ],
+      "starting": [],
+      "basic": [],
+      "advanced": [],
       "master": []
     },
     "movement": [
@@ -837,7 +816,7 @@
         },
         {
           "name": "shocking-stab",
-          "level": 48,
+          "level": 50,
           "gen": null
         },
         {
@@ -867,11 +846,12 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 110,
-      "y": 135,
+      "x": null,
+      "y": null,
       "connected": [
         "meicoomon",
-        "gatomon"
+        "gatomon",
+        "war-greymon"
       ],
       "prerequisites": [
         {
@@ -884,72 +864,6 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5498.png",
-  "effects": [
-    {
-      "name": "Signature Move",
-      "type": "passive",
-      "_id": "peufFJoRUgSZWlef",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.4VlSHcP7WRjx9uqA",
-            "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:meicrackmon"
-            ],
-            "alterations": [],
-            "onDeleteActions": {
-              "grantee": "detach",
-              "granter": "cascade"
-            },
-            "reevaluateOnUpdate": true,
-            "allowDuplicate": false,
-            "mode": 2,
-            "ignored": false,
-            "inMemoryOnly": false,
-            "track": false,
-            "replaceSelf": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "createdTime": 1770771201168,
-        "modifiedTime": 1770771524919,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
-    }
-  ],
-  "flags": {},
+  "effects": [],
   "_id": "kutWRPXBKkvP2l3g"
 }
