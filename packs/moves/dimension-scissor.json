@@ -25,7 +25,9 @@
           "contact",
           "digimon",
           "pierce",
-          "crit-2"
+          "crit-2",
+          "jaw",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",

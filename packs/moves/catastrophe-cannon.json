@@ -16,47 +16,35 @@
     "traits": [],
     "actions": [
       {
-        "name": "Catastrophe Cannon (Resolution)",
-        "slug": "catastrophe-cannon-resolution",
+        "name": "Catastrophe Cannon",
+        "slug": "catastrophe-cannon",
         "type": "attack",
         "img": "systems/ptr2e/img/svg/fire_icon.svg",
         "traits": [
           "3-strike",
           "digimon",
-          "missile"
+          "missile",
+          "explode",
+          "flinch-60"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 10
         },
         "types": [
           "fire"
         ],
         "category": "physical",
         "predicate": [],
+        "description": "<p>Effect: This attack's Power ranges based on how healthy the user is, ranging from 50 to 120.</p>",
         "range": {
           "target": "creature",
-          "distance": 12,
+          "distance": 16,
           "unit": "m"
         },
-        "power": 80,
-        "accuracy": 100
-      },
-      {
-        "name": "Catastrophe Cannon (Set-Up)",
-        "slug": "catastrophe-cannon-set-up",
-        "description": "<p>Effect: The user sets up and gains @UUID[Compendium.ptr2e.core-effects.Item.regenconditiitem]{Regen 5} and @UUID[Compendium.ptr2e.core-effects.Item.XeiSuS3APUcN0MLM]{+1 Speed Stage} for 5 activations.</p>",
-        "traits": [],
-        "type": "generic",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "range": {
-          "target": "self",
-          "unit": "m"
-        }
+        "power": 120,
+        "accuracy": 95,
+        "defensiveStat": "spd"
       }
     ],
     "grade": "S",
@@ -72,32 +60,14 @@
       "system": {
         "changes": [
           {
-            "type": "roll-effect",
-            "key": "catastrophe-cannon-set-up-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.regenconditiitem",
-            "phase": "initial",
+            "type": "flat-modifier",
+            "key": "catastrophe-cannon-attack-power",
+            "value": "min(-70, 0.7 * (@actor.system.health.percent-100))",
             "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "catastrophe-cannon-set-up-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.XeiSuS3APUcN0MLM",
-            "phase": "initial",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
+            "label": "Catastrophe Cannon",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
           }
         ],
         "slug": null,

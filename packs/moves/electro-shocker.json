@@ -26,12 +26,12 @@
         ],
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 8,
           "unit": "m"
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 5
         },
         "types": [
           "electric"
@@ -40,7 +40,7 @@
         "power": 80,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 20% chance to inflict @Affliction[tased 5]</p>"
+        "description": "<p>Effect: On hit, the target has a 20% chance to be @Affliction[tased 5], and if they are a @Trait[virus] creature they have a 20% chance to gain @Affliction[disabled 5] (selected randomly).</p>"
       }
     ],
     "grade": "C",
@@ -58,7 +58,7 @@
           {
             "type": "roll-effect",
             "key": "electro-shocker-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.tasedconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
             "predicate": [],
             "chance": 20,
             "affects": "target",
@@ -68,6 +68,22 @@
             "ignored": false,
             "alterations": [],
             "isFixedChance": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "electro-shocker-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.disabledconditio",
+            "predicate": [
+              "target:trait:virus"
+            ],
+            "chance": 20,
+            "affects": "target",
+            "dontMerge": false,
+            "priority": null,
+            "alterations": [],
+            "isFixedChance": false,
+            "mode": 2,
+            "ignored": false
           }
         ],
         "slug": null,

@@ -22,8 +22,8 @@
         "img": "systems/ptr2e/img/svg/fairy_icon.svg",
         "traits": [
           "contact",
-          "danger-close",
-          "crit-1",
+          "sharp",
+          "crit-2",
           "digimon"
         ],
         "cost": {
@@ -31,12 +31,13 @@
           "powerPoints": 6
         },
         "types": [
-          "fairy"
+          "fairy",
+          "steel"
         ],
         "category": "physical",
         "predicate": [],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 1,
           "unit": "m"
         },

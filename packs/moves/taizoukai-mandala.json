@@ -22,11 +22,13 @@
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
           "danger-close",
-          "digimon"
+          "digimon",
+          "arcane",
+          "flinch-50"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 9
+          "powerPoints": 8
         },
         "types": [
           "psychic",
@@ -34,19 +36,76 @@
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack counts as both @Trait[psychic] and @Trait[dark] type. Removes all positive Accuracy, Evasion and Critical @Trait[stage-change] effects from targets.</p>",
+        "description": "<p>Effect: This attack removes all negative @Trait[stage-change] effects from the user and all allies in range. This attack is two steps more effective against the @Trait[fairy] Type.</p>",
         "range": {
           "target": "emanation",
           "distance": 5,
           "unit": "m"
         },
-        "power": 90
+        "power": 100
       }
     ],
     "grade": "S",
     "slug": "taizoukai-mandala"
   },
   "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Amethyst Mandala",
+      "type": "passive",
+      "_id": "uNHW4Km2s1qImAn2",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "amethyst-mandala-attack-effectiveness-stage",
+            "value": 2,
+            "predicate": [
+              "target:trait:fairy"
+            ],
+            "label": "Vs Fairy",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771261243539,
+        "modifiedTime": 1771261273207,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "uNHW4Km2s1qIgUy1"
 }

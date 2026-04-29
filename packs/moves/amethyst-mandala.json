@@ -22,11 +22,13 @@
         "img": "systems/ptr2e/img/svg/fairy_icon.svg",
         "traits": [
           "digimon",
-          "friendly"
+          "friendly",
+          "arcane",
+          "flinch-50"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10
+          "powerPoints": 8
         },
         "types": [
           "psychic",
@@ -34,7 +36,7 @@
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack is both @Trait[fairy] and @Trait[psychic]. On hit, this attack removes all positive @Trait[stage-change] effects from affected targets.</p>",
+        "description": "<p>Effect: On hit, this attack removes all positive @Trait[stage-change] effects from affected targets. This attack is one step more effective against the @Trait[ghost] Type.</p>",
         "range": {
           "target": "emanation",
           "distance": 5,
@@ -48,6 +50,63 @@
     "slug": "amethyst-mandala"
   },
   "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Amethyst Mandala",
+      "type": "passive",
+      "_id": "KCA0ukkrOJBDZsoj",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "amethyst-mandala-attack-effectiveness-stage",
+            "value": 1,
+            "predicate": [
+              "target:trait:ghost"
+            ],
+            "label": "Vs Ghost",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771261243539,
+        "modifiedTime": 1771261273207,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "ezREwZ8X0FHOdGFJ"
 }

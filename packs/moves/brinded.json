@@ -23,11 +23,13 @@
         "traits": [
           "digimon",
           "ray",
-          "crit-1"
+          "sharp",
+          "crit-1",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 7
         },
         "types": [
           "steel"
@@ -39,8 +41,8 @@
           "distance": 10,
           "unit": "m"
         },
-        "power": 115,
-        "accuracy": 100
+        "power": 200,
+        "accuracy": 90
       }
     ],
     "grade": "A"

@@ -24,12 +24,12 @@
           "contact",
           "crit-1",
           "double-strike",
-          "dash",
+          "hamemr",
           "digimon"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5
+          "powerPoints": 4
         },
         "types": [
           "flying"
@@ -37,12 +37,12 @@
         "category": "physical",
         "predicate": [],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 1,
           "unit": "m"
         },
-        "power": 55,
-        "accuracy": 100
+        "power": 65,
+        "accuracy": 90
       }
     ],
     "grade": "B",

@@ -23,7 +23,8 @@
         "traits": [
           "contact",
           "weapon",
-          "pierce",
+          "horn",
+          "crit-1",
           "digimon"
         ],
         "range": {
@@ -51,6 +52,9 @@
         "traits": [
           "contact",
           "weapon",
+          "horn",
+          "crit-2",
+          "priority-20",
           "pierce"
         ],
         "range": {
@@ -60,16 +64,18 @@
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 2
+          "powerPoints": 6
         },
         "variant": "divine-pierce",
         "types": [
           "fairy"
         ],
         "category": "special",
-        "power": 65,
+        "power": 110,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [
+           "forme:awake:active"
+        ]
       }
     ],
     "grade": "D",

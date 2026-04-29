@@ -25,7 +25,7 @@
         ],
         "range": {
           "target": "creature",
-          "distance": 15,
+          "distance": 12,
           "unit": "m"
         },
         "cost": {
@@ -39,7 +39,7 @@
         "power": 55,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to inflict @Affliction[paralysis] 5.</p>"
+        "description": "<p>Effect: On hit, the target has a 20% chance of gaining @Affliction[paralysis 5].</p>"
       }
     ],
     "grade": "D",
@@ -56,10 +56,10 @@
         "changes": [
           {
             "type": "roll-effect",
-            "key": "electric-shock-betamon",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "key": "electric-shock-betamon-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
-            "chance": 10,
+            "chance": 20,
             "affects": "target",
             "dontMerge": false,
             "mode": 2,

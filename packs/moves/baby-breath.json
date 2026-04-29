@@ -21,12 +21,12 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
-          "missile",
+          "pulse",
           "digimon"
         ],
         "range": {
           "target": "creature",
-          "distance": 5,
+          "distance": 4,
           "unit": "m"
         },
         "cost": {
@@ -37,9 +37,10 @@
           "dragon"
         ],
         "category": "physical",
-        "power": 75,
+        "power": 65,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "defensiveStat": "spd"
       }
     ],
     "grade": "D",

@@ -21,26 +21,25 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/ice_icon.svg",
         "traits": [
-          "contact",
-          "crushing",
-          "digimon"
+          "digimon",
+          "wind",
+          "friendly"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7
+          "powerPoints": 8
         },
         "types": [
           "ice"
         ],
-        "category": "physical",
+        "category": "status",
         "predicate": [],
-        "description": "<p>This attack has a 40% chance to inflict @Affliction[frozen 1].</p>",
+        "description": "<p>Effect: On hit, all valid targets have a 80% chance of gaining @Affliction[frozen 1], and have a 30% chance of gaining a further @Affliction[frozen 1].</p>",
         "range": {
-          "target": "creature",
-          "distance": 1,
+          "target": "emanation",
+          "distance": 4,
           "unit": "m"
         },
-        "power": 125,
         "accuracy": 100
       }
     ],
@@ -59,13 +58,38 @@
           {
             "type": "roll-effect",
             "key": "arctic-blizzard-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
             "predicate": [],
-            "chance": 40,
+            "chance": 80,
             "isFixedChance": false,
             "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 1
+              }
+            ],
+            "dontMerge": true,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "arctic-blizzard-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 1
+              }
+            ],
+            "dontMerge": true,
             "mode": 2,
             "ignored": false
           }

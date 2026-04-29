@@ -26,19 +26,20 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 9
         },
         "types": [
           "dark"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack deals 2x UserLevel Flat Damage to all targets within range.</p>",
+        "description": "<p>Effect: This Attack deals additional damage equal to the user's level.</p>",
         "range": {
           "target": "emanation",
-          "distance": 3,
+          "distance": 4,
           "unit": "m"
         },
+        "power": 55,
         "accuracy": 100
       }
     ],
@@ -46,6 +47,61 @@
     "slug": "dot-matrix"
   },
   "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Dot Matrix",
+      "type": "passive",
+      "_id": "rV7Qu3Dreeiw89XW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "dot-matrix-damage-flat",
+            "value": "@actor.system.advancement.level",
+            "predicate": [],
+            "label": "Dot Matrix",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771276557915,
+        "modifiedTime": 1771276734641,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "yMy5n5qCmUydlKiS"
 }

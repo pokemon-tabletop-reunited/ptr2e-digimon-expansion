@@ -33,20 +33,98 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack has a 40% chance to inflict @Affliction[delay 50] and a 60% chance to inflict @Affliction[quantum-entanglement].</p>",
+        "description": "<p>Effect: On hit, the target has a 40% chance of being @Affliction[delay 40] and a 30% chance of gaining @Affliction[desync 1].</p>",
         "range": {
           "target": "creature",
           "distance": 15,
           "unit": "m"
         },
         "power": 125,
-        "accuracy": 100
+        "accuracy": 100,
+        "defensiveStat": "spd"
       }
     ],
     "grade": "S"
   },
   "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Atomic Ray",
+      "type": "passive",
+      "_id": "pRCd3LrWzRhpiBtW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "atomic-ray-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+            "predicate": [],
+            "chance": 40,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "system.amount",
+                "value": -40
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "atomic-ray-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
+            "predicate": [],
+            "chance": 30,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771262568415,
+        "modifiedTime": 1771262649375,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "flags": {},
   "_id": "KRdqmPfOcJAF8uhx"
 }

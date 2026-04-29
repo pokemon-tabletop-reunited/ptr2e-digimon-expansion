@@ -21,26 +21,26 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/fire_icon.svg",
         "traits": [
-          "sonic",
+          "pulse",
           "digimon"
         ],
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 8,
           "unit": "m"
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 5
         },
         "types": [
           "fire"
         ],
         "category": "physical",
-        "power": 85,
+        "power": 100,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance each to inflict @Affliction[poison 5] to the target, and +1 Attack Stage for 5 Activations to the user.</p>"
+        "description": "<p>Effect: On hit, the target has a 10% chance of gaining @Affliction[poison 5], and on resolution, the user has a 20% chance to gain +1 ATK Stage for 5 Activations.</p>"
       }
     ],
     "grade": "C",
@@ -58,7 +58,7 @@
           {
             "type": "roll-effect",
             "key": "exhaust-flame-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.poisoncondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
             "predicate": [],
             "chance": 10,
             "affects": "target",
@@ -72,9 +72,9 @@
           {
             "type": "roll-effect",
             "key": "exhaust-flame-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
             "predicate": [],
-            "chance": 10,
+            "chance": 20,
             "affects": "self",
             "dontMerge": false,
             "mode": 2,

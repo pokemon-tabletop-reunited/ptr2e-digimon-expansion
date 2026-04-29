@@ -21,7 +21,9 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "arcane",
+          "flinch-20"
         ],
         "range": {
           "target": "creature",
@@ -33,12 +35,13 @@
           "powerPoints": 4
         },
         "types": [
-          "dark"
+          "fire",
+          "ice"
         ],
         "category": "special",
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>Effect: This attack deals flat damage based on the user's level. It also has a 30% chance to grant the user +1 Special Defense Stage for 3 activations.<br><br>Damage Formula: Damage = 1.5 x UserLevel.</p>"
+        "description": "<p>Effect: On hit, the target has a 15% chance of gaining @Affliction[burn 5] and @Affliction[frostbite 5].</p>"
       }
     ],
     "grade": "C",
@@ -56,18 +59,26 @@
           {
             "type": "roll-effect",
             "key": "summon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
-            "chance": 30,
-            "affects": "self",
+            "chance": 15,
+            "affects": "target",
             "dontMerge": false,
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
+            "alterations": [],
+            "mode": 2,
+            "priority": null,
+            "ignored": false,
+            "isFixedChance": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "summon-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frostbiteconditi",
+            "predicate": [],
+            "chance": 15,
+            "affects": "target",
+            "dontMerge": false,
+            "alterations": [],
             "mode": 2,
             "priority": null,
             "ignored": false,

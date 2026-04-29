@@ -22,7 +22,9 @@
         "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
         "traits": [
           "contact",
-          "digimon"
+          "digimon",
+          "punch",
+          "hammer"
         ],
         "range": {
           "target": "creature",
@@ -31,16 +33,17 @@
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 3
+          "powerPoints": 4
         },
         "types": [
-          "nuclear"
+          "nuclear",
+          "steel"
         ],
         "category": "physical",
         "power": 90,
-        "accuracy": 100,
+        "accuracy": 90,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance to delay the target's activation by 30%</p>"
+        "description": "<pEffect: On hit, the target has a 30% chance of being @Affliction[delay 30].</p>"
       }
     ],
     "grade": "C",
@@ -58,9 +61,9 @@
           {
             "type": "roll-effect",
             "key": "dumdum-uppercut-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
-            "chance": 10,
+            "chance": 30,
             "affects": "target",
             "dontMerge": false,
             "alterations": [
@@ -68,11 +71,6 @@
                 "mode": 5,
                 "property": "system.amount",
                 "value": -30
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 30%"
               }
             ],
             "mode": 2,

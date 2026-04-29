@@ -22,18 +22,20 @@
         "img": "systems/ptr2e/img/svg/fairy_icon.svg",
         "traits": [
           "digimon",
-          "missile"
+          "missile",
+          "priority-20"
         ],
         "cost": {
           "activation": "complex",
           "powerPoints": 10
         },
         "types": [
-          "fairy"
+          "fairy",
+          "fire"
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>On resolution, this attack grants the user @UUID[Compendium.ptr2e.core-effects.XeiSuS3APUcN0MLM]{+1 Speed Stage for 5 activations}.</p>",
+        "description": "<p>Effect: On hit, the target has a 50% chance of gaining @Affliction[burn 7]. On resolution, the user has a 40% chance of gaining +1 SPD Stage for 7 Activations..</p>",
         "range": {
           "target": "creature",
           "distance": 15,
@@ -58,12 +60,37 @@
           {
             "type": "roll-effect",
             "key": "bifrost-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.XeiSuS3APUcN0MLM",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
-            "chance": 100,
+            "chance": 50,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "bifrost-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
+            "predicate": [],
+            "chance": 40,
             "isFixedChance": false,
             "affects": "self",
-            "alterations": [],
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 7
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false

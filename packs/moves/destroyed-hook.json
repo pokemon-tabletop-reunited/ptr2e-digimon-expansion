@@ -22,7 +22,9 @@
         "img": "systems/ptr2e/img/svg/electric_icon.svg",
         "traits": [
           "digimon",
-          "pierce"
+          "pierce",
+          "crit-2",
+          "flinch-30"
         ],
         "cost": {
           "activation": "complex",
@@ -34,17 +36,17 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack is considered both @Trait[electric] and @Trait[steel] type. On hit, this attack inflicts @Affliction[blight 8].</p>",
+        "description": "<p>>Effect: On hit, this attack inflicts @Affliction[blight 6].</p>",
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 4,
           "unit": "m"
         },
         "power": 150,
         "accuracy": 80
       }
     ],
-    "grade": "E",
+    "grade": "S",
     "slug": "destroyed-hook"
   },
   "img": "systems/ptr2e/img/svg/electric_icon.svg",
@@ -59,12 +61,18 @@
           {
             "type": "roll-effect",
             "key": "destroyed-hook-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.blightcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.blightcondition0",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
-            "alterations": [],
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 6
+              }
+            ],
             "dontMerge": false,
             "mode": 2,
             "ignored": false

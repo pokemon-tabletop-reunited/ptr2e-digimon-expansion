@@ -21,10 +21,9 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "traits": [
-          "sonic",
-          "pulse",
           "digimon",
-          "5-strike"
+          "sky",
+          "wind"
         ],
         "cost": {
           "activation": "complex",
@@ -36,18 +35,74 @@
         "category": "physical",
         "predicate": [],
         "range": {
-          "target": "cone",
-          "distance": 5,
+          "target": "emanation",
+          "distance": 2,
           "unit": "m"
         },
-        "power": 35,
-        "accuracy": 100
+        "power": 195,
+        "accuracy": 100,
+        "description": "<p>Effect: This attack is more powerful the slower the user is compared to the target ranging from 55 to 195.</p>"
       }
     ],
     "grade": "S",
     "slug": "end-waltz"
   },
   "img": "systems/ptr2e/img/svg/steel_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "End Waltz",
+      "type": "passive",
+      "_id": "WIfnTCM7u1ocLyc7",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "waltz-end-attack-power-flat",
+            "value": "-round(min(140,max(0,42*((@actor.system.attributes.spe.final*3.5-@target.system.attributes.spe.final)/@actor.system.attributes.spe.final))))",
+            "predicate": [],
+            "label": "End Waltz Scaling",
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771286513507,
+        "modifiedTime": 1771288878356,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "_id": "aBC1dpW32mQveiyQ"
 }

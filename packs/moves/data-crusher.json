@@ -25,7 +25,7 @@
           "digimon"
         ],
         "range": {
-          "target": "enemy",
+          "target": "creature",
           "distance": 3,
           "unit": "m"
         },
@@ -40,7 +40,7 @@
         "power": 90,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 5% fixed chance to apply @Affliction[perish 1].</p>"
+        "description": "<p>Effect: The target has a 10% chance to lose -1 ATK, DEF, SPATK, SPDEF, SPD, ACC, EVA, and CRIT for 5 Activations.</p>"
       }
     ],
     "grade": "C",
@@ -58,18 +58,103 @@
           {
             "type": "roll-effect",
             "key": "data-crusher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.wA5oCsgHmZLcHHSn",
             "predicate": [],
-            "chance": 5,
-            "isFixedChance": true,
+            "chance": 10,
+            "isFixedChance": false,
             "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 1
-              }
-            ],
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ikCAv5w4iNfHHqaE",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.64WFzbAdyfOZBrlv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.bdYCJcqjMNqTpJJQ",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.hIE6W3Y5E9CyHiTy",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.1JXumQz0QqthT9Iv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.qe5aLBJuwb9eYqvv",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "data-crusher-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.HLAV9dhz632Rfp1K",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
             "dontMerge": false,
             "mode": 2,
             "ignored": false

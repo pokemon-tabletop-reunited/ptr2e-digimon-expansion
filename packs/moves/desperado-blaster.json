@@ -21,26 +21,27 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
-          "double-strike",
+          "4-strike",
           "missile",
-          "digimon"
+          "digimon",
+          "flinch-25"
         ],
         "cost": {
           "activation": "complex",
           "powerPoints": 6
         },
         "types": [
-          "dragon"
+          "untyped"
         ],
         "category": "physical",
         "predicate": [],
         "range": {
-          "target": "cone",
-          "distance": 4,
+          "target": "wide-line",
+          "distance": 14,
           "unit": "m"
         },
-        "power": 60,
-        "accuracy": 100
+        "power": 40,
+        "accuracy": 85
       }
     ],
     "grade": "B",

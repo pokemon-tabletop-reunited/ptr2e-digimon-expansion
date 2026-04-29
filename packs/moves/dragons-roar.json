@@ -22,9 +22,7 @@
         "img": "systems/ptr2e/img/svg/dragon_icon.svg",
         "traits": [
           "digimon",
-          "double-strike",
-          "sonic",
-          "drain-1-2",
+          "ray",
           "pierce"
         ],
         "cost": {
@@ -38,17 +36,82 @@
         "predicate": [],
         "range": {
           "target": "creature",
-          "distance": 10,
+          "distance": 7,
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "defensiveStat": "spd",
+        "description": "<p>Effect: This Attack deals additional flat damage equal to the target's BST / 9, and has +10 Power per positive Stage the target has.</p>"
       }
     ],
     "grade": "S"
   },
   "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Dragon's Roar",
+      "type": "passive",
+      "_id": "ecb5OWh9hUnKHfFW",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "dragons-roar-power-flat",
+            "value": "10 * (max(0,@target.system.attributes.atk.stage)+max(0,@target.system.attributes.def.stage)+max(0,@target.system.attributes.spa.stage)+max(0,@target.system.attributes.spd.stage)+max(0,@target.system.attributes.spd.stage)+max(0,@target.system.battleStats.accuracy.stage)+max(0,@target.system.battleStats.evasion.stage)+max(0,round(@target.system.battleStats.critRate.stage*1.5)))",
+            "predicate": [],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "dragons-roar-damage-flat",
+            "value": "floor((@target.system.attributes.atk.base/9)+(@target.system.attributes.def.base/9)+(@target.system.attributes.hp.base/9)+(@target.system.attributes.spa.base/9)+(@target.system.attributes.spd.base/9)+(@target.system.attributes.spe.base/9))",
+            "predicate": [],
+            "mode": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "ptr2e",
+        "systemVersion": "1.5.0.beta",
+        "createdTime": 1771285535852,
+        "modifiedTime": 1771285699718,
+        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+      }
+    }
+  ],
   "flags": {},
   "_id": "GAH3ybWa5ybkVFxc"
 }
