@@ -22,7 +22,6 @@
         "img": "systems/ptr2e/img/svg/dark_icon.svg",
         "traits": [
           "digimon",
-          "10-strike",
           "8-strike",
           "missile",
           "weapon",
@@ -31,20 +30,20 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7
+          "powerPoints": 8
         },
         "types": [
           "steel"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: On hit, the target has a 40% chance of gaining @Affliction[stunted 7] and @Affliction[bleed 7].</p>",
+        "description": "<p>Effect: On hit, the target has a 40% chance of gaining @Affliction[stunted 7] and @Affliction[bleed 7]. The target gain @Affliction[fear 4], even if this Attack misses.</p>",
         "range": {
           "target": "creature",
           "distance": 8,
           "unit": "m"
         },
-        "power": 30,
+        "power": 32,
         "accuracy": 90
       }
     ],
@@ -91,6 +90,25 @@
                 "mode": 5,
                 "property": "duration.turns",
                 "value": 7
+              }
+            ],
+            "dontMerge": false,
+            "mode": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "double-impact-attack",
+            "value": "Compendium.ptr2e.core-effects.Item.fearconditioitem",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "mode": 5,
+                "property": "duration.turns",
+                "value": 4
               }
             ],
             "dontMerge": false,
