@@ -849,7 +849,9 @@
       "connected": [
         "sistermon-blanc",
         "lunamon",
-        "dracmon"
+        "dracmon",
+        "lady-devimon",
+        "pandamon"
       ],
       "prerequisites": [
         {
@@ -877,20 +879,23 @@
             "domain": "all",
             "toggleable": true,
             "label": "Toggle: Awakened Forme",
-            "predicate": [],
+            "predicate": [
+              "item:equipment:divine-spark"
+            ],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "suboptions": [],
-            "state": false
+            "state": true
           },
           {
             "type": "stats-alteration",
             "predicate": [
-              "forme:awakened:active"
+              "forme:awakened:active",
+              "item:equipment:divine-spark"
             ],
-            "key": "",
             "value": 0,
             "hp": 70,
             "atk": 75,
@@ -898,7 +903,9 @@
             "spa": 5,
             "spd": 5,
             "spe": 30,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -908,14 +915,18 @@
         "removeOnRecall": false,
         "stacks": 0,
         "trigger": "manual",
-        "conditions": [],
+        "conditions": [
+          "item:equipment:divine-spark"
+        ],
         "removeAfterAttacking": false,
         "removeAfterAttacked": false
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -928,11 +939,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.2.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777028426305,
+        "modifiedTime": 1777028426305
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Signature Move",
@@ -955,11 +971,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -972,8 +989,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -990,13 +1009,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767406766710,
         "modifiedTime": 1767406818725,
         "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "2oE9Gtwre9cFLks7"
