@@ -27,7 +27,7 @@
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       },
       {
         "type": "percentile-modifier",
@@ -36,7 +36,7 @@
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       }
     ]
   },
@@ -58,7 +58,7 @@
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       },
       {
         "type": "percentile-modifier",
@@ -67,7 +67,7 @@
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       }
     ]
   },
@@ -89,7 +89,7 @@
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       },
       {
         "type": "percentile-modifier",
@@ -98,7 +98,7 @@
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": false
       }
     ]
   },
@@ -196,5 +196,33 @@
       "digimon"
     ],
     "description": "Ultra Digimon are true rarities, being temporary states of Mega Digimon, or DNA Fusions of multiple Mega Digimon."
+  },
+    {
+    "slug": "armour-digimon",
+    "label": "Armour Digimon",
+    "related": [
+      "baby",
+      "in-training",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "digimon"
+    ],
+    "description": "Armour Digimon are true rarities, requiring the use of Digi-Eggs in order to digivolve."
+  },
+    {
+    "slug": "hybrid",
+    "label": "Hybrid",
+    "related": [
+      "baby",
+      "in-training",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "digimon"
+    ],
+    "description": "Hybrid Digimon are strange and rare Digimon, resulting from the fusion of a Digimon and a Spirit."
   }
 ]
