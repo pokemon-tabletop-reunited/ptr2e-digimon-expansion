@@ -863,8 +863,13 @@
       "x": 112,
       "y": 144,
       "connected": [
+        "azulongmon",
+        "goldramon",
+        "junomon",
+        "magnadramon",
         "angemon",
-        "ankylomon"
+        "ankylomon",
+        "vikemon"
       ],
       "prerequisites": [
         "item:equipment:angemon-dna",

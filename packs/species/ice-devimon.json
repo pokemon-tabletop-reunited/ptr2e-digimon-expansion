@@ -999,9 +999,15 @@
       "x": 64,
       "y": 34,
       "connected": [
+        "arcadiamon-ultimate",
+        "crescemon",
+        "enbarrmon",
         "snow-goblimon",
         "demi-devimon",
-        "gomamon"
+        "gomamon",
+        "lady-devimon",
+        "marine-devimon",
+        "panjyamon"
       ],
       "prerequisites": [
         {

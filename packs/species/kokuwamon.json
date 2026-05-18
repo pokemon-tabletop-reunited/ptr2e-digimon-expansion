@@ -852,7 +852,14 @@
       "x": 31,
       "y": 40,
       "connected": [
-        "kapurimon"
+        "centarumon",
+        "clockmon",
+        "hi-commandramon",
+        "kapurimon",
+        "kuwagamon",
+        "mekanorimon",
+        "shima-unimon",
+        "waspmon"
       ],
       "prerequisites": [
         {

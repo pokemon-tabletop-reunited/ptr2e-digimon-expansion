@@ -854,10 +854,14 @@
       "x": 113,
       "y": 101,
       "connected": [
+        "apemon",
         "golemon",
         "monochromon",
         "frigimon",
-        "mojyamon"
+        "mojyamon",
+        "shima-unimon",
+        "skull-mammothmon",
+        "vikemon"
       ],
       "prerequisites": [
         {

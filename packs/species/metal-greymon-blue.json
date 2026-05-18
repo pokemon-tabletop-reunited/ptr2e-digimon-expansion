@@ -852,6 +852,9 @@
       "x": 111,
       "y": 8,
       "connected": [
+        "black-war-greymon",
+        "cherubimon-vice",
+        "darkdramon",
         "greymon-blue",
         "dorugamon",
         "veedramon"

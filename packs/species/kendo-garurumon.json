@@ -857,6 +857,7 @@
       "x": 64,
       "y": 107,
       "connected": [
+        "beowolfmon",
         "lobomon"
       ],
       "prerequisites": [

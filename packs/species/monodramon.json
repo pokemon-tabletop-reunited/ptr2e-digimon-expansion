@@ -862,7 +862,12 @@
       "x": 30,
       "y": 43,
       "connected": [
-        "dorimon"
+        "cyclonemon",
+        "deltamon",
+        "kurisarimon",
+        "dorimon",
+        "raptordramon",
+        "strikedramon"
       ],
       "prerequisites": [
         {

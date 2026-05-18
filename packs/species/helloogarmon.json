@@ -873,9 +873,9 @@
       "x": 114,
       "y": 194,
       "connected": [
+        "fenriloogamon",
         "loogarmon",
-        "tyrannomon",
-        "fenriloogamon"
+        "tyrannomon"
       ],
       "prerequisites": [
         {

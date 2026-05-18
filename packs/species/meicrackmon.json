@@ -849,9 +849,12 @@
       "x": null,
       "y": null,
       "connected": [
+        "magnadramon",
+        "meicrackmon-vm",
         "meicoomon",
         "gatomon",
-        "war-greymon"
+        "war-greymon",
+        "rasielmon"
       ],
       "prerequisites": [
         {

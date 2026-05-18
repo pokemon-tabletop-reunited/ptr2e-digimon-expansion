@@ -852,9 +852,12 @@
       "x": 108,
       "y": 104,
       "connected": [
+        "blitz-greymon",
+        "gaiomon",
         "deltamon",
         "greymon",
-        "tyrannomon"
+        "tyrannomon",
+        "war-greymon"
       ],
       "prerequisites": [
         {

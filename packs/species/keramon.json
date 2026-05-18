@@ -872,7 +872,14 @@
       "x": 33,
       "y": 22,
       "connected": [
-        "tsumemon"
+        "arcadiamon-champion",
+        "dokugumon",
+        "tsumemon",
+        "kurisarimon",
+        "meicoomon",
+        "mekanorimon",
+        "octomon",
+        "wendigomon"
       ],
       "prerequisites": [
         {

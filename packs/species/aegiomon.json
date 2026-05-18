@@ -10,6 +10,7 @@
       "x": 59,
       "y": 90,
       "connected": [
+        "aegiochusmon",
         "elecmon"
       ],
       "prerequisites": [

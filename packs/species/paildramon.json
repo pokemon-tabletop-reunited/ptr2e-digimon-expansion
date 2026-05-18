@@ -864,6 +864,9 @@
       "x": 110,
       "y": 76,
       "connected": [
+        "darkdramon",
+        "dorugoramon",
+        "imperialdramon",
         "stingmon",
         "ex-veemon"
       ],

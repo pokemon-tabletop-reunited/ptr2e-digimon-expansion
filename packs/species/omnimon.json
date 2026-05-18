@@ -829,9 +829,11 @@
       "x": 244,
       "y": 17,
       "connected": [
+        "omnimon-merciful",
+        "omnimon-zwart",
         "war-greymon",
         "metal-garurumon",
-        "omnimon-zwart"
+        "omnimonx"
       ],
       "prerequisites": [
         "item:equipment:metal-garurumon-dna",

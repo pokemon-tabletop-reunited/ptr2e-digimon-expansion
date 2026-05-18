@@ -865,9 +865,13 @@
       "x": 108,
       "y": 148,
       "connected": [
+        "clavis-angemon",
+        "jijimon",
+        "ophanimon",
         "shellmon",
         "mojyamon",
-        "sorcermon"
+        "sorcermon",
+        "venusmon"
       ],
       "prerequisites": [
         {
