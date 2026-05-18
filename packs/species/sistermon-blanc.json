@@ -883,7 +883,9 @@
       "x": 33,
       "y": 158,
       "connected": [
-        "tokomon"
+        "tokomon",
+        "gargomon",
+        "lekismon"
       ],
       "prerequisites": [
         {
@@ -1043,7 +1045,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407101734,
