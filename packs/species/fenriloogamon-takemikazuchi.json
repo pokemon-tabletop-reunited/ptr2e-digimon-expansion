@@ -833,8 +833,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 244,
+      "y": 188,
       "connected": [
         "fenriloogamon",
         "kazuchimon"
@@ -935,6 +935,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

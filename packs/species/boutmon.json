@@ -889,8 +889,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 114,
+      "y": 191,
       "connected": [
         "pulsemon",
         "bulkmon",
@@ -996,6 +996,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

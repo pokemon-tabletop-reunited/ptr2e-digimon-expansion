@@ -19,7 +19,8 @@
       "baby",
       "mollusk",
       "zapper",
-      "legless"
+      "legless",
+      "underdog"
     ],
     "number": 5527,
     "stats": {
@@ -809,16 +810,16 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 12,
+      "y": 190,
       "connected": [
         "bibimon"
       ],
       "prerequisites": []
-    }
+    },
+    "slug": "dokimon"
   },
   "_id": "ysauABMb9n4SIWSf",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5527.png",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }
