@@ -74,7 +74,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.IMkv0gbwXcgkXfCJ",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.IMkv0gbwXcgkXfCJ",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -117,7 +117,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1777045818759,
-        "modifiedTime": 1777045818759,
+        "modifiedTime": 1777549635473,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

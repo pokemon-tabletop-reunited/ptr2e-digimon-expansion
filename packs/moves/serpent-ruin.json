@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Serpent Ruin",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "serpent-ruin",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -27,39 +26,22 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "poison"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.Item.IMkv0gbwXcgkXfCJ]{-3 Defense Stages} and @UUID[Compendium.ptr2e.core-effects.Item.j1vZh1Oo54KdyJIR]{-3 Special Defense Stages} for 3 activations each.</p>",
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.IMkv0gbwXcgkXfCJ]{-3 Defense Stages} and @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.j1vZh1Oo54KdyJIR]{-3 Special Defense Stages} for 3 activations each.</p>",
         "range": {
           "target": "creature",
           "distance": 4,
           "unit": "m"
         },
-        "power": null,
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "vDdR5IpYqxUXcRvc",
@@ -74,7 +56,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.IMkv0gbwXcgkXfCJ",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.IMkv0gbwXcgkXfCJ",
             "phase": "initial",
             "predicate": [],
             "key": "serpent-ruin-attack",
@@ -94,7 +76,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.j1vZh1Oo54KdyJIR",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.j1vZh1Oo54KdyJIR",
             "phase": "initial",
             "predicate": [],
             "key": "serpent-ruin-attack",
@@ -139,33 +121,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515634605,
-        "modifiedTime": 1775515634605,
+        "modifiedTime": 1777549815735,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515634605,
-    "modifiedTime": 1775516419841,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 3400000
+  ]
 }

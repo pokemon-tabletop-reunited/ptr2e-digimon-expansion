@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Howling Burst",
   "type": "move",
   "system": {
@@ -31,26 +30,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 7
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fire"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: On hit, the target has a 50% chance of gaining @Affliction[burn] 5.</p>",
         "range": {
@@ -62,8 +47,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "ndr9f82simw8kdPS",
@@ -79,7 +62,7 @@
           {
             "type": "roll-effect",
             "key": "howling-burst-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
             "chance": 50,
             "isFixedChance": false,
@@ -100,7 +83,8 @@
         "stacks": 0,
         "priority": 50,
         "formula": "",
-        "type": "damage"
+        "type": "damage",
+        "predicate": []
       },
       "disabled": false,
       "start": null,
@@ -120,34 +104,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775140142381,
-        "modifiedTime": 1775140142381,
+        "modifiedTime": 1777545640721,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775140142381,
-    "modifiedTime": 1775140142381,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

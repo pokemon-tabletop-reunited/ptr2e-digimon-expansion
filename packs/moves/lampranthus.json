@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Lampranthus",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "lampranthus",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -27,28 +26,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "dark"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.Item.HLAV9dhz632Rfp1K]{-1 Speed Stage} for 5 activations, and @Affliction[delay 15].</p>",
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.HLAV9dhz632Rfp1K]{-1 Speed Stage} for 5 activations, and @Affliction[delay 15].</p>",
         "range": {
           "target": "emanation",
           "distance": 3,
@@ -58,8 +43,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "ysC6ZdbOC2oq8Saf",
@@ -74,7 +57,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.HLAV9dhz632Rfp1K",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.HLAV9dhz632Rfp1K",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -88,7 +71,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -133,33 +116,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515607082,
-        "modifiedTime": 1775515607082,
+        "modifiedTime": 1777546444874,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515607082,
-    "modifiedTime": 1775515607082,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

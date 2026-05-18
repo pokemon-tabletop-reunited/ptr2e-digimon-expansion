@@ -62,7 +62,7 @@
           {
             "type": "roll-effect",
             "key": "good-night-moon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.drowsycondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
             "phase": "initial",
             "predicate": [],
             "chance": 50,
@@ -100,11 +100,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.358",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.0.beta.rc.2",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1774793028113,
-        "modifiedTime": 1774793049882,
+        "modifiedTime": 1777539394539,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

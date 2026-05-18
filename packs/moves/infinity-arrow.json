@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Infinity Arrow",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "infinity-arrow",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -29,26 +28,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "rock"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>This attack has a 30% chance each to apply @Affliction[paralysis 5] and @Affliction[grounded 5].</p>",
         "range": {
@@ -60,8 +45,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "yrFsKyP4WNIKN9RT",
@@ -77,7 +60,7 @@
           {
             "type": "roll-effect",
             "key": "infinity-arrow-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "phase": "initial",
             "predicate": [],
             "chance": 30,
@@ -91,7 +74,7 @@
           {
             "type": "roll-effect",
             "key": "infinity-arrow-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.groundedconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
             "phase": "initial",
             "predicate": [],
             "chance": 30,
@@ -129,33 +112,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515601679,
-        "modifiedTime": 1775515601679,
+        "modifiedTime": 1777546152601,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515601679,
-    "modifiedTime": 1775515601679,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

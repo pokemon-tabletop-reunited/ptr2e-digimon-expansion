@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Mercurial Spirit",
   "type": "summon",
   "system": {
@@ -12,17 +11,16 @@
       "authors": [],
       "notes": ""
     },
-    "slug": null,
+    "slug": "mercurial-spirit",
     "traits": [
       "digimon",
       "summon"
     ],
-    "description": "",
     "actions": [
       {
         "name": "Mercurial Spirit",
         "slug": "mercurial-spirit",
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno]{-2 Defense Stages} and @Affliction[stunted] for 3 activations.</p>",
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.B79G2s6TauIlmsno]{-2 Defense Stages} and @Affliction[stunted] for 3 activations.</p>",
         "traits": [
           "digimon",
           "summon"
@@ -30,15 +28,8 @@
         "type": "summon",
         "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
         "cost": {
-          "activation": "simple",
-          "powerPoints": 0,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "activation": "simple"
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 10,
@@ -48,27 +39,16 @@
           "fighting"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "targetType": "target",
-        "targetUuid": null,
         "damageType": "power",
-        "damageFormula": "",
         "attackStat": "owner",
         "power": 80,
         "accuracy": 100
       }
     ],
     "baseAV": 50,
-    "duration": 3,
-    "owner": null
+    "duration": 3
   },
   "_id": "FeHjUxHUSeLZjhll",
   "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
@@ -82,7 +62,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
             "phase": "initial",
             "predicate": [],
             "key": "mercurial-spirit-summon",
@@ -102,7 +82,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
             "phase": "initial",
             "predicate": [],
             "key": "mercurial-spirit-summon",
@@ -147,33 +127,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515569119,
-        "modifiedTime": 1775515569119,
+        "modifiedTime": 1777534635754,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515569119,
-    "modifiedTime": 1775515569119,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

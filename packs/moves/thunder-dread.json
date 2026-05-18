@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Thunder Dread",
   "type": "move",
   "system": {
@@ -29,27 +28,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fighting",
           "electric"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>This attack has a 10% chance each to inflict @Affliction[tased 5] to the target, and +1 Attack Stage for 5 Activations to the user.</p>",
         "range": {
@@ -61,8 +46,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "_id": "Joua7XrgvRd6Irto",
@@ -77,7 +60,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.tasedconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
             "method": 0,
             "phase": "initial",
             "predicate": [],
@@ -91,7 +74,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
             "phase": "initial",
             "predicate": [],
             "key": "thunder-dread",
@@ -113,7 +96,8 @@
         "stacks": 0,
         "priority": 50,
         "formula": "",
-        "type": "damage"
+        "type": "damage",
+        "predicate": []
       },
       "disabled": false,
       "start": null,
@@ -135,32 +119,14 @@
       "_stats": {
         "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1776412468359,
-        "modifiedTime": 1776412468359,
+        "modifiedTime": 1777554133054,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.360",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1776412468359,
-    "modifiedTime": 1776412468359,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }
