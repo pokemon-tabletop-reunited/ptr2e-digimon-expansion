@@ -27,7 +27,8 @@
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Vaccine vs Virus"
       },
       {
         "type": "percentile-modifier",
@@ -36,7 +37,8 @@
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Vaccine vs Data"
       }
     ]
   },
@@ -58,7 +60,8 @@
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Vaccine vs Virus"
       },
       {
         "type": "percentile-modifier",
@@ -67,7 +70,8 @@
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Vaccine vs Data"
       }
     ]
   },
@@ -89,7 +93,8 @@
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Virus vs Data"
       },
       {
         "type": "percentile-modifier",
@@ -98,7 +103,8 @@
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": false
+        "hideIfDisabled": false,
+        "label": "Virus vs Vaccine"
       }
     ]
   },
