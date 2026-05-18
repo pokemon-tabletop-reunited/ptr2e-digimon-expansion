@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Shido Ittetsu",
   "type": "move",
   "system": {
@@ -29,39 +28,22 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "<p>Effect: The target gains @Affliction[duel 5], @Affliction[hindered 5] and @UUID[Compendium.ptr2e.core-effects.Item.sq9cnHBPVLDPYnno]{Vulnerable (Electric)}<br>An Obscuring Barrier of lightning is created in an [Emanation 5m] area for 5 rounds. A creature that moves Overland and exits or enters the Hazard must first succeed at an Intense Lift Skill Check, or Difficult Thaumaturgy Skill Check taken as a Simple Action</p>",
+        "description": "<p>Effect: The target gains @Affliction[duel 5], @Affliction[hindered 5] and @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.sq9cnHBPVLDPYnno]{Vulnerable (Electric)}<br>An Obscuring Barrier of lightning is created in an [Emanation 5m] area for 5 rounds. A creature that moves Overland and exits or enters the Hazard must first succeed at an Intense Lift Skill Check, or Difficult Thaumaturgy Skill Check taken as a Simple Action</p>",
         "range": {
           "target": "creature",
           "distance": 5,
           "unit": "m"
         },
-        "power": null,
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "u4orMTmf8gPy4ooE",
@@ -76,7 +58,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.duelconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.duelcondition000",
             "phase": "initial",
             "predicate": [],
             "key": "shido-ittetsu-attack",
@@ -90,7 +72,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.hinderedconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.hinderedconditio",
             "phase": "initial",
             "predicate": [],
             "key": "shido-ittetsu-attack",
@@ -104,7 +86,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.sq9cnHBPVLDPYnno",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.sq9cnHBPVLDPYnno",
             "phase": "initial",
             "predicate": [],
             "key": "shido-ittetsu-attack",
@@ -128,7 +110,8 @@
         "stacks": 0,
         "priority": 50,
         "formula": "",
-        "type": "damage"
+        "type": "damage",
+        "predicate": []
       },
       "disabled": false,
       "start": null,
@@ -150,32 +133,14 @@
       "_stats": {
         "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1776412458122,
-        "modifiedTime": 1776412458122,
+        "modifiedTime": 1777549994738,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.360",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1776412458122,
-    "modifiedTime": 1776412458122,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

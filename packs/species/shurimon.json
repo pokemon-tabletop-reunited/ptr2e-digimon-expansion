@@ -814,7 +814,53 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "missile-kick",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "giga-drain",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "extreme-speed",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "bramble-shot",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "meteor-mash",
+          "level": 27,
+          "gen": null
+        },
+        {
+          "name": "energy-ball",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "devious-shot",
+          "level": 33,
+          "gen": null
+        },
+        {
+          "name": "false-image",
+          "level": 36,
+          "gen": null
+        },
+        {
+          "name": "pepper-powder",
+          "level": 0,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -893,7 +939,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407484930,

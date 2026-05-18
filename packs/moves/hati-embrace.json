@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Hati Embrace",
   "type": "move",
   "system": {
@@ -32,27 +31,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 2
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fire",
           "dark"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack is considered to be both Fire and Dark type.</p><p>On hit, the target has a 30% chance to gain @Affliction[burn 5].</p>",
         "range": {
@@ -64,8 +49,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
   "_id": "J0Lgrygbpy2FkSBR",
@@ -81,7 +64,7 @@
           {
             "type": "roll-effect",
             "key": "hati-embrace-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -102,7 +85,8 @@
         "stacks": 0,
         "priority": 50,
         "formula": "",
-        "type": "damage"
+        "type": "damage",
+        "predicate": []
       },
       "disabled": false,
       "start": null,
@@ -122,34 +106,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775140097011,
-        "modifiedTime": 1775140097011,
+        "modifiedTime": 1777545094056,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775140097011,
-    "modifiedTime": 1775140097011,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

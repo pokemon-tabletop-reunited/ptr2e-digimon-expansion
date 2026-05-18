@@ -38,7 +38,7 @@
       "category": "medium",
       "type": "height",
       "height": 1.1,
-      "weight": 35
+      "weight": 36
     },
     "diet": [],
     "abilities": {
@@ -809,7 +809,153 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "acupressure",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "confusion",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "dazzle",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "draining-kiss",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "flirty-slap",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "disable",
+          "level": 14,
+          "gen": null
+        },
+        {
+          "name": "fairy-jinx",
+          "level": 15,
+          "gen": null
+        },
+        {
+          "name": "heal-block",
+          "level": 16,
+          "gen": null
+        },
+        {
+          "name": "mana-shot",
+          "level": 17,
+          "gen": null
+        },
+        {
+          "name": "horn-drill",
+          "level": 18,
+          "gen": null
+        },
+        {
+          "name": "psych-up",
+          "level": 19,
+          "gen": null
+        },
+        {
+          "name": "barrier",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "psyshield-bash",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "psycho-cut",
+          "level": 21,
+          "gen": null
+        },
+        {
+          "name": "arcane-empowerment",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "light-screen",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "reflect",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "arcane-fury",
+          "level": 23,
+          "gen": null
+        },
+        {
+          "name": "zen-headbutt",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "extrasensory",
+          "level": 27,
+          "gen": null
+        },
+        {
+          "name": "baddy-bad",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "glitzy-glow",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "future-sight",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "invigoration-room",
+          "level": 33,
+          "gen": null
+        },
+        {
+          "name": "reverb-room",
+          "level": 36,
+          "gen": null
+        },
+        {
+          "name": "box-in",
+          "level": 38,
+          "gen": null
+        },
+        {
+          "name": "psy-dunk",
+          "level": 38,
+          "gen": null
+        },
+        {
+          "name": "cursed-claw",
+          "level": 39,
+          "gen": null
+        },
+        {
+          "name": "gravity",
+          "level": 41,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -897,7 +1043,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767396303257,

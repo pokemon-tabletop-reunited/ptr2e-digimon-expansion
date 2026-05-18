@@ -839,10 +839,11 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "beelzemon-bm"
   },
   "_id": "Gd7G8qRWKld0dC5I",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5425_burst.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5534.png",
   "effects": [
     {
       "name": "Signature Moves",
@@ -931,6 +932,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

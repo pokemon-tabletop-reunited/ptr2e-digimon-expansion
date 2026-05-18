@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Trinity Arm",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "trinity-arm",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -26,41 +25,22 @@
           "digimon"
         ],
         "cost": {
-          "activation": "free",
-          "powerPoints": 0,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "activation": "free"
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "untyped"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: Roll d3 to determine which variant of Trinity Arm will be activated.</p>",
         "range": {
           "target": "self",
-          "distance": null,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       },
       {
         "name": "Critical Arm",
         "slug": "critical-arm",
-        "description": "",
         "traits": [
           "digimon",
           "crit-2",
@@ -70,14 +50,8 @@
         "img": "systems/ptr2e/img/svg/fighting_icon.svg",
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 1,
@@ -87,14 +61,6 @@
           "fighting"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 135,
         "accuracy": 100
@@ -112,14 +78,8 @@
         "img": "systems/ptr2e/img/svg/electric_icon.svg",
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 1,
@@ -129,14 +89,6 @@
           "electric"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 140,
         "accuracy": 100
@@ -154,14 +106,8 @@
         "img": "systems/ptr2e/img/svg/steel_icon.svg",
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 4,
@@ -171,21 +117,11 @@
           "steel"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 145,
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "d6lQ7ueBuQUxA5Vj",
@@ -200,7 +136,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "phase": "initial",
             "predicate": [],
             "key": "blitz-arm-attack",
@@ -265,33 +201,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515650773,
-        "modifiedTime": 1775515650773,
+        "modifiedTime": 1777554303296,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515650773,
-    "modifiedTime": 1775516419844,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 4400000
+  ]
 }

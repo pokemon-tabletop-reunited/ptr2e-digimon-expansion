@@ -837,10 +837,11 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "rosemon-bm"
   },
   "_id": "O3smDDXnJaJjv4O4",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392_burst.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5537.png",
   "effects": [
     {
       "name": "Signature Moves",
@@ -929,6 +930,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

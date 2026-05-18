@@ -859,13 +859,14 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 36,
+      "y": 191,
       "connected": [
         "bulkmon",
         "boutmon",
         "bibimon",
-        "sukamon"
+        "sukamon",
+        "geremon"
       ],
       "prerequisites": [
         {
@@ -935,7 +936,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775684768222,
@@ -946,6 +947,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

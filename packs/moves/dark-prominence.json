@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Dark Prominence",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "dark-prominence",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -29,26 +28,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "dark"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack has a 60% chance to apply @Affliction[suppressed 5].</p>",
         "range": {
@@ -60,8 +45,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "rWz2nl5fEF3QGE3I",
@@ -77,16 +60,16 @@
           {
             "type": "roll-effect",
             "key": "dark-prominence-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.suppressedcoitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
             "predicate": [],
             "chance": 60,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "ignored": false,
+            "phase": "initial",
             "method": 2,
-            "phase": "initial"
+            "ignored": false
           }
         ],
         "slug": null,
@@ -116,11 +99,11 @@
         }
       },
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515494564,
-        "modifiedTime": 1775515494564,
+        "modifiedTime": 1777535404583,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
@@ -130,22 +113,5 @@
       "showIcon": 1,
       "folder": null
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515494564,
-    "modifiedTime": 1775515497338,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 300000
+  ]
 }

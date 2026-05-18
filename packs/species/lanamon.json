@@ -32,6 +32,7 @@
       "spe": 80
     },
     "types": [
+      "poison",
       "water"
     ],
     "size": {
@@ -811,13 +812,48 @@
     "moves": {
       "levelUp": [
         {
+          "name": "hemlock",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "scald",
+          "level": 20,
+          "gen": null
+        },
+        {
           "name": "rain-dance",
           "level": 1,
           "gen": null
         },
         {
+          "name": "chemical-burn",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "acid-armor",
+          "level": 26,
+          "gen": null
+        },
+        {
+          "name": "acid-spray",
+          "level": 29,
+          "gen": null
+        },
+        {
+          "name": "brine",
+          "level": 31,
+          "gen": null
+        },
+        {
           "name": "thunder",
           "level": 35,
+          "gen": null
+        },
+        {
+          "name": "chemical-bomb",
+          "level": 37,
           "gen": null
         }
       ],
@@ -920,7 +956,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767137718009,

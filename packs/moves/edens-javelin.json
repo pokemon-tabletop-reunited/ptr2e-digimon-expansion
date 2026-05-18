@@ -60,7 +60,7 @@
           {
             "type": "roll-effect",
             "key": "edens-javelin-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ikCAv5w4iNfHHqaE",
             "predicate": [
               "target:trait:virus"
             ],
@@ -69,13 +69,14 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "edens-javelin-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.1JXumQz0QqthT9Iv",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.1JXumQz0QqthT9Iv",
             "predicate": [
               "target:trait:virus"
             ],
@@ -84,7 +85,8 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -98,8 +100,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -116,12 +120,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
-        "modifiedTime": 1771286073200
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777537292151,
+        "createdTime": 1777537285258
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "kgqX2KbNDSlZsygP"

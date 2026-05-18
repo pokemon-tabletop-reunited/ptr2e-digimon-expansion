@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Hell Howling",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "hell-howling",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -28,28 +27,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "nuclear"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "<p>Effect: This attack has a 70% chance each to inflict @UUID[Compendium.ptr2e.core-effects.Item.EYmp1DeE1Lwzi0D1]{-2 Special Attack Stages} for 5 Activations and @UUID[Compendium.ptr2e.core-effects.Item.fearconditioitem]{Fear 5}</p>",
+        "description": "<p>Effect: This attack has a 70% chance each to inflict @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.EYmp1DeE1Lwzi0D1]{-2 Special Attack Stages} for 5 Activations and @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.fearconditioitem]{Fear 5}</p>",
         "range": {
           "target": "creature",
           "distance": 6,
@@ -59,8 +44,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "alxkpjHQiutQCvZf",
@@ -75,7 +58,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.EYmp1DeE1Lwzi0D1",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
             "phase": "initial",
             "predicate": [],
             "chance": 70,
@@ -89,7 +72,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.fearconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.fearcondition000",
             "phase": "initial",
             "predicate": [],
             "chance": 70,
@@ -128,33 +111,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515960201,
-        "modifiedTime": 1775515999404,
+        "modifiedTime": 1777545305600,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515555465,
-    "modifiedTime": 1775515555465,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Dragon Veins",
   "type": "summon",
   "system": {
@@ -12,18 +11,16 @@
       "authors": [],
       "notes": ""
     },
-    "slug": null,
+    "slug": "dragon-veins",
     "traits": [
       "digimon",
       "summon",
       "earthbound"
     ],
-    "description": "",
     "actions": [
       {
         "name": "Dragon Veins",
         "slug": "dragon-veins",
-        "description": "",
         "traits": [
           "digimon",
           "summon",
@@ -32,15 +29,8 @@
         "type": "summon",
         "img": "systems/ptr2e/img/perk-icons/Touched.svg",
         "cost": {
-          "activation": "simple",
-          "powerPoints": 0,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "activation": "simple"
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 10,
@@ -50,27 +40,15 @@
           "fire"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "targetType": "target",
-        "targetUuid": null,
         "damageType": "power",
-        "damageFormula": "",
         "attackStat": "owner",
-        "power": 85,
-        "accuracy": null
+        "power": 85
       }
     ],
     "baseAV": 90,
-    "duration": 3,
-    "owner": null
+    "duration": 3
   },
   "_id": "7JNK7G4EzioqzRNm",
   "img": "systems/ptr2e/img/perk-icons/Touched.svg",
@@ -97,7 +75,7 @@
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.I1z28u5ma3IItySu",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.I1z28u5ma3IItySu",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -136,33 +114,16 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1775515516477,
-        "modifiedTime": 1775515516477,
+        "modifiedTime": 1777534415859,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515516477,
-    "modifiedTime": 1775515516477,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

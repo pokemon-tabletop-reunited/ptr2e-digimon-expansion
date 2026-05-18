@@ -18,7 +18,8 @@
       "free",
       "in-training",
       "quadrupedal",
-      "beast"
+      "beast",
+      "underdog"
     ],
     "number": 5528,
     "stats": {
@@ -826,8 +827,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 22,
+      "y": 190,
       "connected": [
         "dokimon",
         "kudamon",
@@ -842,10 +843,10 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "bibimon"
   },
   "_id": "To0kMSvGKQn87znk",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5528.png",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }

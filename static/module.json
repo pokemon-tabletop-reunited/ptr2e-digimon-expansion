@@ -1,11 +1,11 @@
 {
   "id": "ptr2e-digimon-expansion",
   "title": "PTR2e - Digimon Expansion",
-  "version": "0.21",
+  "version": "0.22",
   "compatibility": {
-    "minimum": "13.351",
-    "verified": "14.360",
-    "maximum": "14"
+    "minimum": "14.361",
+    "verified": "14.361",
+    "maximum": "15"
   },
   "description": "<p>Expansion Module for the <a href=\"https://github.com/pokemon-tabletop-reunited/ptr2e\">PTR2e system</a> adding Digimon and their associated content to the game!</p>",
   "authors": [

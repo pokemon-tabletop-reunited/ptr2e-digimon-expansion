@@ -18,7 +18,7 @@
       "cerberusmon"
     ],
     "actions": [],
-    "description": "<p>Effect: The user may switch between Beast form and Werewolf form as a Simple Action.</p><p>While in Beast form, the user gains @UUID[Compendium.ptr2e.core-abilities.Item.eGZcJTw1v8xbodTK]{Self Sufficient} as a Free Ability. While in Werewolf form, the user instead gains @UUID[Compendium.ptr2e.core-abilities.Item.jXsgiVvlZju6eoNm]{Pure Power} as a Free Ability.</p>",
+    "description": "<p>Effect: The user may switch between Beast form and Werewolf form as a Simple Action.</p><p>While in Beast form, the user gains @UUID[Compendium.ptr2e-digimon-expansion.core-abilities.Item.eGZcJTw1v8xbodTK]{Self Sufficient} as a Free Ability. While in Werewolf form, the user instead gains @UUID[Compendium.ptr2e-digimon-expansion.core-abilities.Item.jXsgiVvlZju6eoNm]{Pure Power} as a Free Ability.</p>",
     "slug": "werewolf"
   },
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
@@ -32,16 +32,24 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.eGZcJTw1v8xbodTK",
             "phase": "initial",
-            "predicate": [],
-            "alterations": [],
+            "predicate": [
+              "item:ability:werewolf"
+            ],
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.free",
+                "value": "true"
+              }
+            ],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
             "allowDuplicate": false,
+            "key": "",
             "method": 2,
             "ignored": false,
             "reevaluateOnUpdate": false,
@@ -76,11 +84,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.358",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.0.beta.rc.2",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1774804841764,
-        "modifiedTime": 1774804883808,
+        "modifiedTime": 1777486553754,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

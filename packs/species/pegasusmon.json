@@ -813,7 +813,63 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "agility",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "defog",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "empathy-pulse",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "secret-force",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "topsy-turvy",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "derecho",
+          "level": 27,
+          "gen": null
+        },
+        {
+          "name": "moonblast",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "crescent-ray",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "box-in",
+          "level": 34,
+          "gen": null
+        },
+        {
+          "name": "ferric-flow",
+          "level": 37,
+          "gen": null
+        },
+        {
+          "name": "dazzling-burst",
+          "level": 39,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -892,7 +948,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767395676754,

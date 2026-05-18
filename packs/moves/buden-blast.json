@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Buden Blast",
   "type": "move",
   "system": {
@@ -31,26 +30,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>On hit, all valid targets have a 30% chance of being Flinched, and a 20% chance of being @Affliction[tased 5]</p>",
         "range": {
@@ -62,8 +47,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "JQNpGyt63u4cj4mf",
@@ -78,27 +61,21 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects.Item.tasedconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
             "phase": "initial",
             "predicate": [],
             "key": "buden-blast",
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
-            "alterations": [
-              {
-                "method": 2,
-                "property": "",
-                "value": 0
-              }
-            ],
+            "alterations": [],
             "dontMerge": false,
             "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.advancecondition",
             "phase": "initial",
             "predicate": [],
             "key": "buden-blast",
@@ -131,7 +108,8 @@
         "stacks": 0,
         "priority": 50,
         "formula": "",
-        "type": "damage"
+        "type": "damage",
+        "predicate": []
       },
       "disabled": false,
       "start": null,
@@ -153,32 +131,14 @@
       "_stats": {
         "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1776412451659,
-        "modifiedTime": 1776412451659,
+        "modifiedTime": 1777502282399,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.360",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1776412451659,
-    "modifiedTime": 1776412451659,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }
