@@ -813,7 +813,48 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "air-raid",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "brave-bird",
+          "level": 34,
+          "gen": null
+        },
+        {
+          "name": "beak-smash",
+          "level": 21,
+          "gen": null
+        },
+        {
+          "name": "air-cutter",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "air-slash",
+          "level": 26,
+          "gen": null
+        },
+        {
+          "name": "aura-sphere",
+          "level": 29,
+          "gen": null
+        },
+        {
+          "name": "bitter-wind",
+          "level": 31,
+          "gen": null
+        },
+        {
+          "name": "bolt-arrow",
+          "level": 37,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -892,7 +933,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767134162168,
