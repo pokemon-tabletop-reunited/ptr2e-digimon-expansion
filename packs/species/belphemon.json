@@ -839,11 +839,11 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.D8JyOIVe0QKg3Yr8",
             "predicate": [],
             "alterations": [
               {
+                "method": 5,
                 "property": "system.free",
                 "value": "true",
                 "method": 2
@@ -854,6 +854,9 @@
               "granter": "cascade"
             },
             "allowDuplicate": false,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "reevaluateOnUpdate": false,
             "inMemoryOnly": false,
@@ -893,12 +896,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020731824,
-        "createdTime": null
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777485376313,
+        "createdTime": 1777485363952
       },
       "start": null,
       "showIcon": 1,
@@ -949,7 +952,7 @@
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "value": "Compendium.ptr2e.core-moves.Item.QFOJB00Ym1lwUVZK",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QFOJB00Ym1lwUVZK",
             "alterations": [
               {
                 "method": 5,
@@ -1016,7 +1019,7 @@
             "allowDuplicate": false,
             "alterations": [
               {
-                "method": 2,
+                "method": 5,
                 "property": "system.free",
                 "value": "true",
                 "method": 2
@@ -1126,11 +1129,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.2.beta",
+        "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "modifiedTime": 1775554945967,
+        "modifiedTime": 1777485502041,
         "createdTime": 1775554922346
       },
       "start": null,
@@ -1238,7 +1241,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1773349325020,
