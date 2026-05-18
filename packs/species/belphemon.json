@@ -843,10 +843,9 @@
             "predicate": [],
             "alterations": [
               {
-                "method": 5,
+                "method": 2,
                 "property": "system.free",
-                "value": "true",
-                "method": 2
+                "value": "true"
               }
             ],
             "onDeleteActions": {
@@ -861,9 +860,7 @@
             "reevaluateOnUpdate": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -955,10 +952,9 @@
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QFOJB00Ym1lwUVZK",
             "alterations": [
               {
-                "method": 5,
+                "method": 2,
                 "property": "system.actions.0.free",
-                "value": "true",
-                "method": 2
+                "value": "true"
               }
             ],
             "onDeleteActions": {
@@ -973,9 +969,7 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           },
           {
             "type": "suppress-ability",
@@ -1019,10 +1013,9 @@
             "allowDuplicate": false,
             "alterations": [
               {
-                "method": 5,
+                "method": 2,
                 "property": "system.free",
-                "value": "true",
-                "method": 2
+                "value": "true"
               }
             ],
             "onDeleteActions": {
@@ -1036,9 +1029,7 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           },
           {
             "type": "grant-item",
@@ -1048,10 +1039,9 @@
             "value": "Compendium.ptr2e.core-abilities.Item.0slSWf8A2NVtWyqZ",
             "alterations": [
               {
-                "method": 5,
+                "method": 2,
                 "property": "system.free",
-                "value": "true",
-                "method": 2
+                "value": "true"
               }
             ],
             "onDeleteActions": {
@@ -1066,9 +1056,7 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           },
           {
             "type": "grant-item",
@@ -1078,10 +1066,9 @@
             "value": "Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.H5Bj6BH9PXRl0ryU",
             "alterations": [
               {
-                "method": 5,
+                "method": 2,
                 "property": "system.free",
-                "value": "true",
-                "method": 2
+                "value": "true"
               }
             ],
             "onDeleteActions": {
@@ -1096,9 +1083,7 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           }
         ],
         "slug": null,

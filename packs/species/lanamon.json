@@ -867,6 +867,7 @@
       "x": 54,
       "y": 181,
       "connected": [
+        "calmaramon",
         "gizamon"
       ],
       "prerequisites": [

@@ -842,7 +842,13 @@
       "x": 32,
       "y": 89,
       "connected": [
-        "tsunomon"
+        "deltamon",
+        "flarelizamon",
+        "tsunomon",
+        "golemon",
+        "ogremon",
+        "tuskmon",
+        "wendigomon"
       ],
       "prerequisites": [
         {

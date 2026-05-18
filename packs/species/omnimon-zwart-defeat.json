@@ -831,8 +831,9 @@
       "x": 235,
       "y": 12,
       "connected": [
-        "omnimon-zwart",
-        "omnimon-alter-b"
+        "jijimon",
+        "omnimon-alter-b",
+        "omnimon-zwart"
       ],
       "prerequisites": [
         {

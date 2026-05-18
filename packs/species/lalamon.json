@@ -857,7 +857,14 @@
       "x": 35,
       "y": 68,
       "connected": [
-        "tanemon"
+        "deputymon",
+        "hudiemon",
+        "tanemon",
+        "mud-frigimon",
+        "sunflowmon",
+        "togemon",
+        "turuiemon",
+        "yanmamon"
       ],
       "prerequisites": [
         {

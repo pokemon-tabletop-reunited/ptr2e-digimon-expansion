@@ -839,7 +839,8 @@
       "x": 22,
       "y": 186,
       "connected": [
-        "fusamon"
+        "fusamon",
+        "loogamon"
       ],
       "prerequisites": [
         {

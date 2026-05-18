@@ -860,8 +860,11 @@
       "x": 112,
       "y": 137,
       "connected": [
+        "beel-starmon",
+        "minervamon",
         "aquilamon",
-        "gatomon"
+        "gatomon",
+        "valkyrimon"
       ],
       "prerequisites": [
         "item:equipment:aquilamon-dna",

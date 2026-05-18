@@ -828,6 +828,7 @@
       "x": 157,
       "y": 48,
       "connected": [
+        "mirage-gaogamon-bm",
         "pandamon",
         "panjyamon"
       ],

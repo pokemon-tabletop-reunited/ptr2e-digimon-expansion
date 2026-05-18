@@ -865,7 +865,11 @@
       "connected": [
         "sangloupmon",
         "devimon",
-        "psychemon"
+        "psychemon",
+        "beelzemon",
+        "belphemon",
+        "plutomon",
+        "venom-myotismon"
       ],
       "prerequisites": [
         {

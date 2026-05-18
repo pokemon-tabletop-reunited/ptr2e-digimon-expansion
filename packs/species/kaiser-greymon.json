@@ -823,7 +823,8 @@
       "x": 158,
       "y": 150,
       "connected": [
-        "aldamon"
+        "aldamon",
+        "susanomon"
       ],
       "prerequisites": [
         {
@@ -884,9 +885,7 @@
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           }
         ],
         "slug": null,

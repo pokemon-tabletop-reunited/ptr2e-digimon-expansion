@@ -847,7 +847,9 @@
       "x": 52,
       "y": 148,
       "connected": [
-        "coronamon"
+        "coronamon",
+        "aldamon",
+        "burning-greymon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-flame"

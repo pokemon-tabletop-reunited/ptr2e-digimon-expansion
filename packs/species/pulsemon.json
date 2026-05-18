@@ -862,9 +862,9 @@
       "x": 36,
       "y": 191,
       "connected": [
-        "bulkmon",
-        "boutmon",
         "bibimon",
+        "boutmon",
+        "bulkmon",
         "sukamon",
         "geremon"
       ],

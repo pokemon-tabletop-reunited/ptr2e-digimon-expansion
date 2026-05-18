@@ -853,7 +853,10 @@
       "connected": [
         "gazimon",
         "huckmon",
-        "coronamon"
+        "coronamon",
+        "loader-leomon",
+        "rize-greymon",
+        "savior-huckmon"
       ],
       "prerequisites": [
         {

@@ -858,7 +858,10 @@
       "y": 73,
       "connected": [
         "stingmon",
-        "ex-veemon"
+        "ex-veemon",
+        "gran-kuwagamon",
+        "imperialdramon",
+        "tiger-vespamon"
       ],
       "prerequisites": [
         "item:equipment:ex-veemon-dna",

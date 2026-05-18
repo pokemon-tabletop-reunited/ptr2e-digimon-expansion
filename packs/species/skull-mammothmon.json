@@ -829,10 +829,12 @@
       "x": 157,
       "y": 28,
       "connected": [
+        "master-tyrannomon",
         "skull-baluchimon",
         "skull-greymon",
         "mammothmon",
-        "enbarrmon"
+        "enbarrmon",
+        "vermilimon"
       ],
       "prerequisites": [
         {

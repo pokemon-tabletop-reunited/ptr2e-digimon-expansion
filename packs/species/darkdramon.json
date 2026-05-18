@@ -833,6 +833,7 @@
       "x": 156,
       "y": 25,
       "connected": [
+        "chaosmon",
         "paildramon",
         "tankdramon",
         "metal-greymon-blue"

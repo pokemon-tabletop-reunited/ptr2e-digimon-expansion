@@ -829,7 +829,8 @@
       "x": 57,
       "y": 92,
       "connected": [
-        "veemon"
+        "veemon",
+        "magnamonx"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-miracles"

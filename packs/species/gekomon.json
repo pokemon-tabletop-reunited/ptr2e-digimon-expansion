@@ -857,9 +857,12 @@
       "x": 67,
       "y": 88,
       "connected": [
+        "divermon",
         "chuumon",
         "elecmon",
-        "otamamon"
+        "otamamon",
+        "shogun-gekomon",
+        "sirenmon"
       ],
       "prerequisites": [
         {

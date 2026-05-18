@@ -847,6 +847,7 @@
       "x": 62,
       "y": 109,
       "connected": [
+        "kendo-garurumon",
         "kudamon"
       ],
       "prerequisites": [

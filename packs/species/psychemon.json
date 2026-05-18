@@ -966,6 +966,8 @@
       "x": 35,
       "y": 90,
       "connected": [
+        "astamon",
+        "mori-shellmon",
         "tsunomon",
         "garurumon",
         "kyubimon",

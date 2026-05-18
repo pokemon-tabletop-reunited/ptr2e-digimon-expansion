@@ -851,9 +851,13 @@
       "x": 108,
       "y": 26,
       "connected": [
+        "baihumon",
         "dobermon",
         "monochromon",
-        "kyubimon"
+        "kyubimon",
+        "metal-garurumon-black",
+        "plutomon",
+        "saber-leomon"
       ],
       "prerequisites": [
         {

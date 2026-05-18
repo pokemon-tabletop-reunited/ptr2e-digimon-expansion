@@ -828,7 +828,8 @@
       "y": 101,
       "connected": [
         "triceramon",
-        "groundramon"
+        "groundramon",
+        "examon"
       ],
       "prerequisites": [
         {

@@ -860,7 +860,8 @@
       "x": 22,
       "y": 12,
       "connected": [
-        "kuramon"
+        "kuramon",
+        "arcadiamon-rookie"
       ],
       "prerequisites": [
         {

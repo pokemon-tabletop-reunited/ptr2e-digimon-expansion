@@ -850,9 +850,14 @@
       "x": 108,
       "y": 120,
       "connected": [
+        "ceresmon",
         "sunflowmon",
         "kiwimon",
-        "mud-frigimon"
+        "mud-frigimon",
+        "ebonwumon",
+        "kokatorimon",
+        "platinum-nunemon",
+        "varodurumon"
       ],
       "prerequisites": [
         {

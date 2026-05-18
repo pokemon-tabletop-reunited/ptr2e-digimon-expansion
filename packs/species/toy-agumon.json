@@ -851,6 +851,11 @@
       "x": 33,
       "y": 38,
       "connected": [
+        "deputymon",
+        "flarelizamon",
+        "gargomon",
+        "raremon",
+        "tankmon",
         "kapurimon"
       ],
       "prerequisites": [

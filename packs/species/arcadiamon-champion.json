@@ -852,7 +852,8 @@
       "connected": [
         "arcadiamon-rookie",
         "dracmon",
-        "keramon"
+        "keramon",
+        "arcadiamon-ultimate"
       ],
       "prerequisites": [
         {

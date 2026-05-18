@@ -823,6 +823,9 @@
       "x": 156,
       "y": 59,
       "connected": [
+        "blossomon",
+        "meicrackmon-vm",
+        "rosemon-bm",
         "lilamon",
         "lilymon",
         "cherrymon",

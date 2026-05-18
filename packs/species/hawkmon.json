@@ -857,7 +857,11 @@
       "x": 31,
       "y": 59,
       "connected": [
-        "yokomon"
+        "aquilamon",
+        "firamon",
+        "halsemon",
+        "yokomon",
+        "shurimon"
       ],
       "prerequisites": [
         {

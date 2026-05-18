@@ -822,7 +822,9 @@
       "x": 109,
       "y": 92,
       "connected": [
-        "aegiomon"
+        "aegiomon",
+        "chronomon-destruction",
+        "jupitermon"
       ],
       "prerequisites": [
         {

@@ -825,9 +825,9 @@
       "x": 235,
       "y": 15,
       "connected": [
+        "omnimon-alter-b",
         "blitz-greymon",
-        "cres-garurumon",
-        "omnimon-alter-b"
+        "cres-garurumon"
       ],
       "prerequisites": [
         "item:equipment:blitz-greymon-dna",

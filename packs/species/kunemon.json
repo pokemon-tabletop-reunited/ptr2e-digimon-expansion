@@ -864,7 +864,10 @@
       "x": 34,
       "y": 145,
       "connected": [
-        "demi-meramon"
+        "darklizamon",
+        "flymon",
+        "demi-meramon",
+        "waspmon"
       ],
       "prerequisites": [
         {

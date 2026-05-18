@@ -832,6 +832,7 @@
       "x": 156,
       "y": 19,
       "connected": [
+        "ravemon-bm",
         "dark-super-starmon",
         "phantomon",
         "crowmon"

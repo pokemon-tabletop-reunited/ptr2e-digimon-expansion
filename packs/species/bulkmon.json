@@ -862,8 +862,8 @@
       "x": 62,
       "y": 189,
       "connected": [
-        "pulsemon",
         "boutmon",
+        "pulsemon",
         "omni-shoutmon",
         "shoutmon"
       ],

@@ -845,10 +845,14 @@
       "x": 62,
       "y": 8,
       "connected": [
+        "crowmon",
+        "megadramon",
+        "phantomon",
         "agumon-black",
         "gabumon-black",
         "demi-devimon",
-        "garudamon"
+        "garudamon",
+        "tsukaimon"
       ],
       "prerequisites": [
         {

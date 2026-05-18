@@ -826,6 +826,8 @@
       "x": 157,
       "y": 135,
       "connected": [
+        "meicrackmon-vm",
+        "ophanimon-fm",
         "angewomon",
         "piximon"
       ],

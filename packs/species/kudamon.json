@@ -857,7 +857,15 @@
       "x": 34,
       "y": 106,
       "connected": [
-        "nyaromon"
+        "airdramon",
+        "angemon",
+        "apemon",
+        "bibimon",
+        "ginryumon",
+        "nyaromon",
+        "lobomon",
+        "reppamon",
+        "sorcermon"
       ],
       "prerequisites": [
         {

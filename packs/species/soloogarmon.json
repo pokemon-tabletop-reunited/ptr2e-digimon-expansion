@@ -878,11 +878,11 @@
       "x": 113,
       "y": 188,
       "connected": [
+        "fenriloogamon",
         "loogarmon",
         "tyrannomon",
         "boltmon",
-        "callismon",
-        "fenriloogamon"
+        "callismon"
       ],
       "prerequisites": [
         {

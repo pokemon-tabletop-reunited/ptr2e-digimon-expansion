@@ -855,7 +855,10 @@
       "y": 132,
       "connected": [
         "agumon",
-        "dracomon"
+        "dracomon",
+        "groundramon",
+        "skull-greymon",
+        "war-growlmon"
       ],
       "prerequisites": [
         {
