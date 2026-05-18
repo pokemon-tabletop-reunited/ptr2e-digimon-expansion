@@ -20,7 +20,8 @@
       "bipedal",
       "arcane",
       "evil-touch",
-      "psycher"
+      "psycher",
+      "wielder"
     ],
     "number": 5287,
     "stats": {
@@ -812,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mad-dog-salvo",
-          "level": 0,
-          "gen": null
-        },
-        {
           "name": "fickle-beam",
           "level": 49,
           "gen": null
@@ -904,11 +900,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -921,8 +918,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -939,13 +938,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767038820661,
         "modifiedTime": 1767038852804,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "d9oUZNWrG4Inbd2A"
