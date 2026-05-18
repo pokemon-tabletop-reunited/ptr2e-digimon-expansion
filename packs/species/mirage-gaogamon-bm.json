@@ -840,10 +840,11 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "mirage-gaogamon-bm"
   },
   "_id": "mUgzPVUDpgVbF8bI",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387_burst.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5535.png",
   "effects": [
     {
       "name": "Signature Moves",
@@ -932,6 +933,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

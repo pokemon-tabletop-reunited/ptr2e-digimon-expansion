@@ -846,10 +846,11 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "shine-greymon-bm"
   },
   "_id": "It2qMHQP2BP9cMh4",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5348_burst.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5538.png",
   "effects": [
     {
       "name": "Signature Moves",
@@ -938,6 +939,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

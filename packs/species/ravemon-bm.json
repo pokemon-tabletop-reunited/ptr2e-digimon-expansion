@@ -845,10 +845,11 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "ravemon-bm"
   },
   "_id": "ll35rVLXt5hKPF5F",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367_burst.png",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5536.png",
   "effects": [
     {
       "name": "Signature Moves",
@@ -937,6 +938,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }
