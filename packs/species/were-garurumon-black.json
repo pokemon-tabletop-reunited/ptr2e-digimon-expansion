@@ -850,6 +850,8 @@
       "x": 113,
       "y": 19,
       "connected": [
+        "metal-garurumon-black",
+        "pile-volcamon",
         "garurumon-black",
         "sangloupmon",
         "black-gatomon"

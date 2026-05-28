@@ -855,10 +855,14 @@
       "x": 113,
       "y": 114,
       "connected": [
+        "azulongmon",
+        "breakdramon",
+        "flarelizamon",
         "minotarumon",
         "monochromon",
         "drimogemon",
-        "tuskmon"
+        "tuskmon",
+        "ultimate-brachiomon"
       ],
       "prerequisites": [
         {

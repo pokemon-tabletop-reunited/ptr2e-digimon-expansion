@@ -61,11 +61,13 @@
         },
         "range": {
           "target": "self",
-          "unit": "m"
+          "unit": "m",
+          "distance": 10
         }
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "brave-metal"
   },
   "img": "systems/ptr2e/img/svg/steel_icon.svg",
   "effects": [
@@ -79,52 +81,69 @@
           {
             "type": "roll-effect",
             "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.4DlXFTVooz07YcDm",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
             "predicate": [],
             "chance": 100,
             "isFixedChance": true,
             "affects": "self",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.changes.0.value",
                 "value": -2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.k1FukpHKnZGqjSNc",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
             "predicate": [],
             "chance": 100,
             "isFixedChance": true,
             "affects": "self",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.changes.0.value",
                 "value": 2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "brave-metal-setup-generic",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.5M3gNCpB5xXi9lO9",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -138,8 +157,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -152,15 +173,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1754521552389,
-        "modifiedTime": 1754521701690,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+        "modifiedTime": 1777492172295,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "RjMCwTYD4kKnkg0J"
 }

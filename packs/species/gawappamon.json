@@ -848,9 +848,12 @@
       "x": 63,
       "y": 168,
       "connected": [
+        "divermon",
         "terriermon",
         "crabmon",
-        "kamemon"
+        "kamemon",
+        "shaujinmon",
+        "shogun-gekomon"
       ],
       "prerequisites": [
         {

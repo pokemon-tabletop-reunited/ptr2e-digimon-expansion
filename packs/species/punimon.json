@@ -812,7 +812,10 @@
     "node": {
       "x": 7,
       "y": 96,
-      "connected": [],
+      "connected": [
+        "nyaromon",
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

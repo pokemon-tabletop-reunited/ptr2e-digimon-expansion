@@ -858,7 +858,11 @@
       "x": 31,
       "y": 62,
       "connected": [
-        "yokomon"
+        "birdramon",
+        "buraimon",
+        "dinohyumon",
+        "yokomon",
+        "peckmon"
       ],
       "prerequisites": [
         {

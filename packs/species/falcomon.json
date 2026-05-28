@@ -876,7 +876,11 @@
       "x": 28,
       "y": 64,
       "connected": [
-        "yokomon"
+        "yokomon",
+        "ginryumon",
+        "kiwimon",
+        "ninjamon",
+        "peckmon"
       ],
       "prerequisites": [
         {
