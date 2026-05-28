@@ -850,7 +850,13 @@
       "connected": [
         "impmon",
         "demi-devimon",
-        "tapirmon"
+        "tapirmon",
+        "blue-meramon",
+        "enbarrmon",
+        "loogamon",
+        "myotismon",
+        "phantomon",
+        "waru-monzaemon"
       ],
       "prerequisites": [
         {

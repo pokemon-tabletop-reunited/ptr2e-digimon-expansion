@@ -813,7 +813,63 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "air-cutter",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "bewitch",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "mana-burst",
+          "level": 41,
+          "gen": null
+        },
+        {
+          "name": "alluring-voice",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "ancient-power",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "ancient-roar",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "calm-mind",
+          "level": 26,
+          "gen": null
+        },
+        {
+          "name": "future-sight",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "crescent-ray",
+          "level": 33,
+          "gen": null
+        },
+        {
+          "name": "eerie-spell",
+          "level": 35,
+          "gen": null
+        },
+        {
+          "name": "astro-sphere",
+          "level": 38,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -827,7 +883,7 @@
         "gatomon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-light"
+        "item:equipment:digi-egg-of-light"
       ]
     }
   },
@@ -854,11 +910,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -871,8 +928,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -889,13 +948,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767311395205,
         "modifiedTime": 1767311413879,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "TxrHdxcGXogvT2AQ"

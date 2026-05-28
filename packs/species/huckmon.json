@@ -873,6 +873,11 @@
       "x": 34,
       "y": 109,
       "connected": [
+        "bao-huckmon",
+        "gatomon",
+        "geo-greymon",
+        "greymon",
+        "growlmon",
         "nyaromon"
       ],
       "prerequisites": [

@@ -818,7 +818,8 @@
       "x": 110,
       "y": 107,
       "connected": [
-        "kendo-garurumon"
+        "kendo-garurumon",
+        "magna-garurumon"
       ],
       "prerequisites": [
         {

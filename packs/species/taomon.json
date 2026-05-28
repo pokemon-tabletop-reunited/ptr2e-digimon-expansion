@@ -857,9 +857,13 @@
       "x": 106,
       "y": 60,
       "connected": [
+        "apemon",
+        "kuzuhamon",
+        "sakuyamon",
         "garurumon",
         "woodmon",
-        "kyubimon"
+        "kyubimon",
+        "venusmon"
       ],
       "prerequisites": [
         {
