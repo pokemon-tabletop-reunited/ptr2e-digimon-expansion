@@ -33,7 +33,7 @@
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>Unique Targeting: This move may only be used to target creatures that the user has flown over during the current activation.<br><br>Infinity Dream has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] and @Affliction[paralysis 5] on enemy targets.<br><br>Allied targets passed over heal @Tick[1] and has a 10% chance per Affliction to be cured of that affliction.</p>",
+        "description": "<p>Unique Targeting: This move may only be used to target creatures that the user has flown over during the current activation.<br><br>Infinity Dream has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] and @Affliction[paralysis 5] on enemy targets.<br><br>Allied targets passed over heal @Tick[1] and has a 10% chance to be cured of @Trait[major-affliction]s.</p>",
         "range": {
           "target": "creature",
           "distance": 5,
@@ -58,7 +58,9 @@
             "type": "roll-effect",
             "key": "infinity-dream-attack",
             "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
-            "predicate": [],
+            "predicate": [
+              "origin:enemy"
+            ],
             "chance": 50,
             "affects": "target",
             "alterations": [],
@@ -72,7 +74,9 @@
             "type": "roll-effect",
             "key": "infinity-dream-attack",
             "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "predicate": [],
+            "predicate": [
+              "origin:enemy"
+            ],
             "chance": 50,
             "affects": "target",
             "alterations": [],
@@ -86,13 +90,59 @@
             "type": "roll-effect",
             "key": "infinity-dream-attack",
             "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
-            "predicate": [],
+            "predicate": [
+              "origin:enemy"
+            ],
             "chance": 50,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
             "isFixedChance": false,
             "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+            "phase": "initial",
+            "predicate": [
+              "origin:ally"
+            ],
+            "key": "infinity-dream-attack",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.value",
+                "value": 1
+              }
+            ],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+            "phase": "initial",
+            "predicate": [
+              "origin:ally"
+            ],
+            "chance": 10,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.key",
+                "value": "major-affliction-trait"
+              }
+            ],
+            "dontMerge": false,
+            "key": "infinity-dream-attack",
             "method": 2,
             "ignored": false
           }
@@ -123,12 +173,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.362",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
+        "systemVersion": "1.7.6.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "createdTime": 1777546170161,
-        "modifiedTime": 1777546181297
+        "modifiedTime": 1779492229736
       },
       "start": null,
       "showIcon": 1,

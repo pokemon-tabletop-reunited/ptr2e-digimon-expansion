@@ -23,8 +23,7 @@
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
           "digimon",
-          "healing",
-          "partial-automation"
+          "healing"
         ],
         "cost": {
           "activation": "complex",
@@ -73,6 +72,46 @@
             "phase": "initial",
             "method": 2,
             "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.key",
+                "value": "weary"
+              }
+            ],
+            "dontMerge": false,
+            "key": "hang-on-attack",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.key",
+                "value": "perish"
+              }
+            ],
+            "dontMerge": false,
+            "key": "hang-on-attack",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -105,12 +144,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.362",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
+        "systemVersion": "1.7.6.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "createdTime": 1777545051327,
-        "modifiedTime": 1777545052924
+        "modifiedTime": 1779492713661
       },
       "start": null,
       "showIcon": 1,
