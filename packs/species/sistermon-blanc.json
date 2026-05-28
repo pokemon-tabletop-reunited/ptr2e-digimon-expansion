@@ -18,7 +18,8 @@
       "vaccine",
       "rookie",
       "bipedal",
-      "wielder"
+      "wielder",
+      "underdog"
     ],
     "number": 5023,
     "stats": {
@@ -882,7 +883,10 @@
       "x": 33,
       "y": 158,
       "connected": [
-        "tokomon"
+        "tokomon",
+        "gargomon",
+        "lekismon",
+        "sistermon-ciel"
       ],
       "prerequisites": [
         {
@@ -910,21 +914,24 @@
             "domain": "all",
             "toggleable": true,
             "label": "Toggle: Awake Forme",
-            "predicate": [],
+            "predicate": [
+              "item:equipment:divine-spark"
+            ],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
             "priority": null,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "suboptions": [],
-            "state": false
+            "state": true
           },
           {
             "type": "stats-alteration",
             "predicate": [
-              "forme:awake:active"
+              "forme:awake:active",
+              "item:equipment:divine-spark"
             ],
-            "key": "",
             "value": 0,
             "hp": 35,
             "atk": 15,
@@ -932,8 +939,10 @@
             "spa": 70,
             "spd": 60,
             "spe": 85,
-            "mode": 2,
             "priority": null,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -943,19 +952,18 @@
         "removeOnRecall": false,
         "stacks": 0,
         "trigger": "manual",
-        "conditions": [],
+        "conditions": [
+          "item:equipment:divine-spark"
+        ],
         "removeAfterAttacking": false,
         "removeAfterAttacked": false
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -967,14 +975,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1777028404629,
+        "modifiedTime": 1777028404629,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Signature Move",
@@ -997,11 +1008,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -1014,8 +1026,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1032,13 +1046,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407101734,
         "modifiedTime": 1767407131697,
         "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "IP2IQiMhD6XxVN2M"

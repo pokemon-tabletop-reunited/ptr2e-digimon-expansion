@@ -850,9 +850,14 @@
       "x": 64,
       "y": 161,
       "connected": [
+        "black-king-nunemon",
+        "dragomon",
+        "ex-tyrannomon",
         "syakomon",
         "crabmon",
-        "toy-agumon"
+        "toy-agumon",
+        "shogun-gekomon",
+        "skull-baluchimon"
       ],
       "prerequisites": [
         {
