@@ -847,7 +847,14 @@
       "x": 38,
       "y": 24,
       "connected": [
-        "pagumon"
+        "bakemon",
+        "pagumon",
+        "devidramon",
+        "devimon",
+        "greymon-blue",
+        "ice-devimon",
+        "ogremon",
+        "saberdramon"
       ],
       "prerequisites": [
         {

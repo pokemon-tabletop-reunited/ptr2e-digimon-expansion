@@ -844,9 +844,14 @@
       "x": 62,
       "y": 97,
       "connected": [
+        "catch-mamemon",
         "gizamon",
         "gabumon",
-        "chuumon"
+        "chuumon",
+        "monzaemon",
+        "pulsemon",
+        "super-starmon",
+        "waru-monzaemon"
       ],
       "prerequisites": [
         {

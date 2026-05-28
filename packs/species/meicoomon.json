@@ -862,8 +862,13 @@
       "x": 60,
       "y": 100,
       "connected": [
+        "angewomon",
+        "lady-devimon",
         "salamon",
-        "keramon"
+        "keramon",
+        "meicrackmon-vm",
+        "meicrackmon",
+        "pumpkinmon"
       ],
       "prerequisites": [
         {

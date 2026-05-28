@@ -833,7 +833,8 @@
       "x": 158,
       "y": 107,
       "connected": [
-        "beowolfmon"
+        "beowolfmon",
+        "susanomon"
       ],
       "prerequisites": [
         {

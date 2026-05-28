@@ -855,17 +855,17 @@
             "predicate": [],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "suboptions": [],
-            "state": false
+            "state": true
           },
           {
             "type": "stats-alteration",
             "predicate": [
               "forme:leopard-mode:active"
             ],
-            "key": "",
             "value": 0,
             "hp": 25,
             "atk": 40,
@@ -873,7 +873,9 @@
             "spa": -30,
             "spd": -15,
             "spe": 40,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           },
           {
@@ -881,9 +883,10 @@
             "predicate": [
               "forme:leopard-mode:active"
             ],
-            "key": "",
             "value": "bipedal",
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           },
           {
@@ -891,9 +894,10 @@
             "predicate": [
               "forme:leopard-mode:active"
             ],
-            "key": "",
             "value": "quadrupedal",
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           },
           {
@@ -903,7 +907,8 @@
             ],
             "key": "system.movement.overland.value",
             "value": 14,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -911,12 +916,11 @@
             "predicate": [
               "forme:leopard-mode:active"
             ],
-            "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.c8e1Irb9Jal4wWCi",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.c8e1Irb9Jal4wWCi",
             "allowDuplicate": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.actions.0.free",
                 "value": "true"
               }
@@ -926,7 +930,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -939,7 +945,8 @@
             ],
             "key": "system.movement.swim.value",
             "value": 2,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -949,7 +956,8 @@
             ],
             "key": "system.type.types",
             "value": "psychic",
-            "mode": 6,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -957,9 +965,10 @@
             "predicate": [
               "forme:leopard-mode:active"
             ],
-            "key": "",
             "value": "psychic",
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           },
           {
@@ -969,7 +978,8 @@
             ],
             "key": "system.type.types",
             "value": "ground",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -985,8 +995,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -999,12 +1011,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1754495826711
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777485262819,
+        "createdTime": 1777485262819
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Signature Moves",
@@ -1027,11 +1043,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -1047,11 +1064,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -1067,11 +1085,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -1084,8 +1103,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1102,13 +1123,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767137986492,
         "modifiedTime": 1767138030244,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "bzYihLPZwRWftenV"

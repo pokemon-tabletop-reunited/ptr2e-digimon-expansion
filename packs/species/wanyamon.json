@@ -825,6 +825,10 @@
       "x": 22,
       "y": 57,
       "connected": [
+        "bearmon",
+        "gaomon",
+        "renamon",
+        "tapirmon",
         "dodomon"
       ],
       "prerequisites": [

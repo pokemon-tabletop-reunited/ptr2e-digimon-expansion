@@ -852,9 +852,12 @@
       "x": 68,
       "y": 74,
       "connected": [
+        "brachiomon",
         "gabumon",
         "dorumon",
-        "salamon"
+        "salamon",
+        "loader-leomon",
+        "triceramon"
       ],
       "prerequisites": [
         {

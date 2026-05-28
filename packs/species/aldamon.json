@@ -827,7 +827,8 @@
       "y": 150,
       "connected": [
         "agunimon",
-        "burning-greymon"
+        "burning-greymon",
+        "kaiser-greymon"
       ],
       "prerequisites": [
         {

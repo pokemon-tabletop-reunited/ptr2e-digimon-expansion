@@ -199,6 +199,11 @@
       "x": 20,
       "y": 74,
       "connected": [
+        "fan-beemon",
+        "floramon",
+        "lalamon",
+        "mushroomon",
+        "palmon",
         "pabumon"
       ],
       "prerequisites": [
