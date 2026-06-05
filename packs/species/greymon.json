@@ -851,7 +851,11 @@
       "connected": [
         "agumon",
         "huckmon",
-        "ryudamon"
+        "ryudamon",
+        "kimeramon",
+        "megadramon",
+        "metal-greymon",
+        "skull-greymon"
       ],
       "prerequisites": [
         {
