@@ -19,7 +19,7 @@
         "name": "Eclipse Finger",
         "slug": "eclipse-finger",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5454.png",
         "traits": [
           "digimon"
         ],
@@ -38,13 +38,14 @@
           "unit": "m"
         },
         "power": 130,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "eclipse-finger"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5454.png",
   "effects": [],
-  "flags": {},
   "_id": "wXo7FolunZBlkIxb"
 }

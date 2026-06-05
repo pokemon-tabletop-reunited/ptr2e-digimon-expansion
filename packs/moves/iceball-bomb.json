@@ -19,7 +19,7 @@
         "name": "Iceball Bomb",
         "slug": "iceball-bomb",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",
         "traits": [
           "explode",
           "blast-2",
@@ -42,13 +42,14 @@
         "power": 80,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 20% chance to inflict 20% Flinch.</p>"
+        "description": "<p>This attack has a 20% chance to inflict @Affliction[delay 20].</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "iceball-bomb"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5133.png",
   "effects": [
     {
       "name": "Iceball Bomb",
@@ -60,27 +61,23 @@
           {
             "type": "roll-effect",
             "key": "iceball-bomb-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 20,
             "affects": "target",
             "dontMerge": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -20
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 20%"
               }
             ],
-            "mode": 2,
             "priority": null,
-            "ignored": false,
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -93,13 +90,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -111,14 +105,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777546111059,
+        "modifiedTime": 1777546113698,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "m2xPfCIW7xJCb0nz"

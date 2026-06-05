@@ -19,7 +19,7 @@
         "name": "Black Pearl Blast",
         "slug": "black-pearl-blast",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5072.png",
         "traits": [
           "blast-2",
           "digimon"
@@ -39,13 +39,14 @@
         "category": "special",
         "power": 40,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "black-pearl-blast"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5072.png",
   "effects": [],
   "_id": "dO5Xk6wuGHNfinss"
 }

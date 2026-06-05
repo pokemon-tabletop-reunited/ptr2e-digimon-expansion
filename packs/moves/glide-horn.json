@@ -19,7 +19,7 @@
         "name": "Glide Horn",
         "slug": "glide-horn",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5194.png",
         "traits": [
           "contact",
           "horn",
@@ -45,13 +45,14 @@
         "accuracy": 100,
         "offensiveStat": "spe",
         "predicate": [],
-        "description": "<p>This attack uses your Speed as it's Offensive Stat, and your opponent's Speed as their defensive stat. This attack has a 15% chance to inflict a 50% Flinch to the target.</p>"
+        "description": "<p>This attack uses your Speed as it's Offensive Stat, and your opponent's Speed as their defensive stat. This attack has a 15% chance to inflict a 50% Flinch to the target.</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "glide-horn"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5194.png",
   "effects": [
     {
       "name": "Glide Horn",
@@ -63,27 +64,23 @@
           {
             "type": "roll-effect",
             "key": "glide-horn-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 15,
             "affects": "target",
             "dontMerge": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -50
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 50%"
               }
             ],
-            "mode": 2,
             "priority": null,
-            "ignored": false,
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -96,13 +93,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -114,14 +108,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1746200306727,
-        "modifiedTime": 1746200350628,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
+        "modifiedTime": 1777539284731,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "Lg1HOEBQlC9sN2Sh"

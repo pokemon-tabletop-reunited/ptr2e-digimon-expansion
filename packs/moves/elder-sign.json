@@ -19,7 +19,7 @@
         "name": "Elder Sign",
         "slug": "elder-sign",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
         "traits": [
           "digimon",
           "arcane",
@@ -41,12 +41,14 @@
           "unit": "m"
         },
         "power": 100,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "elder-sign"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
   "effects": [
     {
       "name": "Elder Sign",
@@ -62,65 +64,69 @@
             "predicate": [
               "target:trait:fairy"
             ],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
           {
             "type": "roll-effect",
             "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.boundconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.boundcondition00",
             "predicate": [],
             "chance": 50,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.bleedconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.bleedcondition00",
             "predicate": [],
             "chance": 50,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
             "predicate": [],
             "chance": 70,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -134,8 +140,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -152,13 +160,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777537321331,
+        "modifiedTime": 1777537344726
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "Sx09zeezqdACJlsc"
 }

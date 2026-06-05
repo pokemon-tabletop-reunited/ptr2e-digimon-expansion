@@ -1,0 +1,53 @@
+{
+  "name": "Demon's Crystal",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "demons-crystal",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Demon's Crystal",
+        "slug": "demons-crystal",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5496.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.3stdyCQf4nFLmGzR",
+        "types": [
+          "dark"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: This attack summons a Demon Crystal which persists until the target gains @Affliction[fainted] or combat ends, whichever comes first. It has 80 AV, and uses the summoner's Special Attack in order to attack with a power of 110 against the target when it activates.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 7,
+          "unit": "m"
+        },
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "4yIoyMeAnWtTMBr9",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5496.png",
+  "effects": []
+}

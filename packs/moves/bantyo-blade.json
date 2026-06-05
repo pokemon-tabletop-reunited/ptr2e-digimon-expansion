@@ -19,7 +19,7 @@
         "name": "Bantyo Blade",
         "slug": "bantyo-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5452.png",
         "traits": [
           "digimon",
           "sharp",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 150,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "bantyo-blade"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5452.png",
   "effects": [],
-  "flags": {},
   "_id": "2C5JxLlzHRH4TTG6"
 }

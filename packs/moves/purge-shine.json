@@ -1,0 +1,51 @@
+{
+  "name": "Purge Shine",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "purge-shine",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Purge Shine",
+        "slug": "purge-shine",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.dlipp5wiMthJeHhV",
+        "types": [
+          "flying"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: This attack creates a Purge Shine summon which renders the user and all allies immune to negative @Trait[stage-change] effects, @Trait[major-affliction] & @Trait[minor-affliction].</p>",
+        "range": {
+          "target": "field",
+          "unit": "m"
+        }
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "jGz38ZTjLqn57t9M",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",
+  "effects": []
+}

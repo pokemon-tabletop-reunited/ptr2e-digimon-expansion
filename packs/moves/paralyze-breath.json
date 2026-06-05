@@ -19,7 +19,7 @@
         "name": "Paralyze Breath",
         "slug": "paralyze-breath",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5067.png",
         "traits": [
           "hazard",
           "blast-2",
@@ -41,13 +41,14 @@
         "power": 65,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>Effect: Creates a cloud in the Blast Area for 3 rounds. Any creature that starts their activation in or enters a space containing this Hazard has a 15% chance to gain @Affliction[paralysis] 5 per tile. The initial attack also possesses this 15% chance to apply the affliction.</p>"
+        "description": "<p>Effect: Creates a cloud in the Blast Area for 3 rounds. Any creature that starts their activation in or enters a space containing this Hazard has a 15% chance to gain @Affliction[paralysis] 5 per tile. The initial attack also possesses this 15% chance to apply the affliction.</p>",
+        "free": true
       }
     ],
     "grade": "B",
     "slug": "paralyze-breath"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5067.png",
   "effects": [
     {
       "name": "Paralyze Breath",
@@ -59,16 +60,17 @@
           {
             "type": "roll-effect",
             "key": "paralyze-breath-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 15,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -81,13 +83,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -99,14 +98,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777548096078,
+        "modifiedTime": 1777548096078,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "Ug2caoRxuWMgzrtP"

@@ -19,7 +19,7 @@
         "name": "Rock Fist",
         "slug": "rock-fist",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/rock_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5051.png",
         "traits": [
           "punch",
           "missile",
@@ -41,13 +41,14 @@
         "power": 65,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>After making this attack, the user has a 10% chance to gain +1 Defense Stage for 5 activations.</p>"
+        "description": "<p>After making this attack, the user has a 10% chance to gain +1 Defense Stage for 5 activations.</p>",
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "rock-fist"
   },
-  "img": "systems/ptr2e/img/svg/rock_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5051.png",
   "effects": [
     {
       "name": "Rock Fist",
@@ -59,16 +60,17 @@
           {
             "type": "roll-effect",
             "key": "rock-fist-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.sMystTj3FBJ00AZp",
             "predicate": [],
             "chance": 10,
             "affects": "self",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -81,13 +83,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -99,14 +98,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777549562207,
+        "modifiedTime": 1777549562207,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "tEXFkcBD9bUUwhFj"

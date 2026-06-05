@@ -19,7 +19,7 @@
         "name": "Lightning Spear",
         "slug": "lightning-spear",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5345.png",
         "traits": [
           "digimon",
           "pierce",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 135,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "lightning-spear"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5345.png",
   "effects": [],
   "_id": "BY6l5feAgeZDX22a"
 }

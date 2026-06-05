@@ -19,7 +19,7 @@
         "name": "Melt Wax",
         "slug": "melt-wax",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5079.png",
         "traits": [
           "digimon",
           "5-strike",
@@ -41,12 +41,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "melt-wax"
   },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5079.png",
   "effects": [
     {
       "name": "Melt Wax",
@@ -58,14 +60,15 @@
           {
             "type": "roll-effect",
             "key": "melt-wax-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -79,8 +82,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -97,13 +102,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.8.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777547149677,
+        "modifiedTime": 1777547149677
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "Bjq06152VdBn5RfX"
 }

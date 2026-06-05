@@ -1,0 +1,52 @@
+{
+  "name": "Spiritual Enchantment",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "spiritual-enchantment",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Spiritual Enchantment",
+        "slug": "spiritual-enchantment",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.FeHjUxHUSeLZjhll",
+        "types": [
+          "fighting"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: Summons the Mercurial Spirit to harass the designated target. This summon has an AV of 50, lasts for 3 activations and attacks with the user's ATK stat. It attacks at power 80, and applies @UUID[Compendium.ptr2e.core-effects-new.B79G2s6TauIlmsno]{-2 Defense Stages} and @Affliction[stunted] for 3 activations when it hits.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 3,
+          "unit": "m"
+        }
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "UoYDt4zBlcK48p3w",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
+  "effects": []
+}

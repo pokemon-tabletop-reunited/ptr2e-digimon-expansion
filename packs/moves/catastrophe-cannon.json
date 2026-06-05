@@ -16,38 +16,129 @@
     "traits": [],
     "actions": [
       {
-        "name": "Catastrophe Cannon",
-        "slug": "catastrophe-cannon",
+        "name": "Catastrophe Cannon (Resolution)",
+        "slug": "catastrophe-cannon-resolution",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
         "traits": [
           "3-strike",
           "digimon",
-          "missile",
-          "flinch-30"
+          "missile"
         ],
         "cost": {
-          "activation": "simple"
+          "activation": "complex",
+          "powerPoints": 4
         },
         "types": [
           "fire"
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, after all attack rolls have been made, the user gains @Affliction[bound 2]. This is not automated.</p>",
         "range": {
           "target": "creature",
           "distance": 12,
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
+      },
+      {
+        "name": "Catastrophe Cannon (Set-Up)",
+        "slug": "catastrophe-cannon-set-up",
+        "description": "<p>Effect: The user sets up and gains @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.regenconditiitem]{Regen 5} and @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.XeiSuS3APUcN0MLM]{+1 Speed Stage} for 5 activations.</p>",
+        "traits": [],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4
+        },
+        "range": {
+          "target": "self",
+          "unit": "m",
+          "distance": 10
+        }
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "catastrophe-cannon"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [],
-  "flags": {},
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
+  "effects": [
+    {
+      "name": "Catastrophe Cannon",
+      "type": "passive",
+      "_id": "6iAMP3IOJu55Ym83",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "catastrophe-cannon-set-up-generic",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.regencondition00",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "catastrophe-cannon-set-up-generic",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1774797740830,
+        "modifiedTime": 1777502483028,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
   "_id": "IPHVqHf62ReMfVqc"
 }

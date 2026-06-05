@@ -1,0 +1,55 @@
+{
+  "name": "Spiral Bite",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "spiral-bite",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Spiral Bite",
+        "slug": "spiral-bite",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+        "traits": [
+          "jaw",
+          "contact",
+          "grapple",
+          "dash",
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2
+        },
+        "types": [
+          "dark"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "grade": "D"
+  },
+  "_id": "zmwEW99DI9d1aumA",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+  "effects": []
+}

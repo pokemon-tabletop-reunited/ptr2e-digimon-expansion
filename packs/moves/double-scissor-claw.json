@@ -19,7 +19,7 @@
         "name": "Double Scissor Claw",
         "slug": "double-scissor-claw",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5291.png",
         "traits": [
           "double-strike",
           "pierce",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "double-scissor-claw"
   },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5291.png",
   "effects": [],
   "_id": "KCRf8bWrk54HeGNu"
 }

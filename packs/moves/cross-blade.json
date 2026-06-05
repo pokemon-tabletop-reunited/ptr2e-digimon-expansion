@@ -19,7 +19,7 @@
         "name": "Cross Blade",
         "slug": "cross-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5227.png",
         "traits": [
           "contact",
           "danger-close",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "cross-blade"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5227.png",
   "effects": [],
   "_id": "hXPHmN3DvvUoY5P4"
 }

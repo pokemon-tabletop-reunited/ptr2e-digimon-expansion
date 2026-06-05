@@ -19,7 +19,7 @@
         "name": "Mad Dog Fire",
         "slug": "mad-dog-fire",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229.png",
         "traits": [
           "digimon"
         ],
@@ -40,12 +40,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "mad-dog-fire"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229.png",
   "effects": [
     {
       "name": "Mad Dog Fire",
@@ -57,14 +59,15 @@
           {
             "type": "roll-effect",
             "key": "mad-dog-fire-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.suppressedcoitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -78,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -96,13 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777546873712,
+        "modifiedTime": 1777546873712
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "lBzqhVSaGEb3IZoB"
 }

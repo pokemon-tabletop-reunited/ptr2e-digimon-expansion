@@ -19,7 +19,7 @@
         "name": "Brown Stinger",
         "slug": "brown-stinger",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5185.png",
         "traits": [
           "digimon",
           "missile"
@@ -40,12 +40,14 @@
           "unit": "m"
         },
         "power": 85,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "brown-stinger"
   },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5185.png",
   "effects": [
     {
       "name": "Brown Stinger",
@@ -57,14 +59,15 @@
           {
             "type": "roll-effect",
             "key": "brown-stinger-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 10,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -78,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -96,13 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777502237796,
+        "modifiedTime": 1777502237796
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "ByPCFxHVWwr2mI2a"
 }

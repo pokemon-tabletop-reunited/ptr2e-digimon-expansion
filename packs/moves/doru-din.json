@@ -1,0 +1,55 @@
+{
+  "name": "DORU Din",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "doru-din",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "DORU Din",
+        "slug": "doru-din",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+        "traits": [
+          "digimon",
+          "sonic",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7
+        },
+        "types": [
+          "fire",
+          "dragon"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "description": "<p>This move is both @Trait[fire]-type & @Trait[dragon]-type.</p>",
+        "range": {
+          "target": "wide-line",
+          "distance": 14,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "TS9Q5ktG5tbxLBKf",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+  "effects": []
+}

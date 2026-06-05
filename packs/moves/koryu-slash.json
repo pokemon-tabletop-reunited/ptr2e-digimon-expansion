@@ -19,7 +19,7 @@
         "name": "Koryu Slash",
         "slug": "koryu-slash",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5353.png",
         "traits": [
           "digimon",
           "sharp",
@@ -34,19 +34,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.B79G2s6TauIlmsno]{-2 Defense Stages} for 3 activations and gains +1 Effectiveness Stage vs @Trait[dragon].</p>",
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects-new.B79G2s6TauIlmsno]{-2 Defense Stages} for 3 activations and gains +1 Effectiveness Stage vs @Trait[dragon].</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
         "power": 105,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "koryu-slash"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5353.png",
   "effects": [
     {
       "name": "Koryu Slash",
@@ -62,27 +64,29 @@
             "predicate": [
               "target:trait:dragon"
             ],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
           {
             "type": "roll-effect",
             "key": "koryu-slash-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -96,8 +100,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -114,13 +120,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777546354639,
+        "modifiedTime": 1777546356674
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "WPTocXurf6rA7vTX"
 }

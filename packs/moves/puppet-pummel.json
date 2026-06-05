@@ -19,7 +19,7 @@
         "name": "Puppet Pummel",
         "slug": "puppet-pummel",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5417.png",
         "traits": [
           "digimon",
           "hammer",
@@ -41,12 +41,14 @@
           "unit": "m"
         },
         "power": 125,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "puppet-pummel"
   },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5417.png",
   "effects": [
     {
       "name": "Puppet Pummel",
@@ -58,20 +60,21 @@
           {
             "type": "roll-effect",
             "key": "puppet-pummel-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 50,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -75
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -85,8 +88,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -99,13 +104,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777549136063,
+        "modifiedTime": 1777549137312
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "Lf2yTJhFeUR10pP1"
 }

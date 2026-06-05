@@ -19,7 +19,7 @@
         "name": "Wolf Claw",
         "slug": "wolf-claw",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5250.png",
         "traits": [
           "sharp",
           "crit-1",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "wolf-claw"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5250.png",
   "effects": [],
   "_id": "bLBlqnw7HMczSQbC"
 }

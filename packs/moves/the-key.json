@@ -19,7 +19,7 @@
         "name": "The Key",
         "slug": "the-key",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5341.png",
         "traits": [
           "digimon",
           "friendly"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "the-key"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5341.png",
   "effects": [],
-  "flags": {},
   "_id": "eQk3W7raIaJ5P81b"
 }

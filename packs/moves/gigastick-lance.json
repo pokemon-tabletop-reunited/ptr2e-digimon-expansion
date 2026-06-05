@@ -1,0 +1,54 @@
+{
+  "name": "Gigastick Lance",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "gigastick-lance",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Gigastick Lance",
+        "slug": "gigastick-lance",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5408.png",
+        "traits": [
+          "digimon",
+          "pierce",
+          "contact",
+          "dash"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "nuclear"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 135,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "3ijgEf8yD46JhQRV",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5408.png",
+  "effects": []
+}

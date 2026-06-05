@@ -1,0 +1,113 @@
+{
+  "name": "Double Crescent Mirage",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "double-crescent-mirage",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Double Crescent Mirage",
+        "slug": "double-crescent-mirage",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",
+        "traits": [
+          "digimon",
+          "sharp",
+          "wind",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "fighting"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "description": "<p>This attack deals +50% Damage vs @Trait[royal-knight] creatures.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 8,
+          "unit": "m"
+        },
+        "power": 65,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "IQxiukSKmX8r5L9j",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",
+  "effects": [
+    {
+      "name": "Double Crescent Mirage",
+      "type": "passive",
+      "_id": "jo2v43YcGgHvGwzq",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "key": "double-crescent-mirage-attack-damage",
+            "value": 50,
+            "phase": "initial",
+            "predicate": [
+              "target:trait:royal-knight"
+            ],
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515505600,
+        "modifiedTime": 1775515505600,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Victory Sword",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "victory-sword",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Victory Sword",
+        "slug": "victory-sword",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5334.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "dash",
+          "sharp",
+          "3-strike",
+          "crit-1",
+          "drain-1-10"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "flying"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 50,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "qMnX7abXnv2wcT0r",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5334.png",
+  "effects": []
+}

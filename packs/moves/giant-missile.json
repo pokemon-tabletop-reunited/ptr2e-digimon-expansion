@@ -1,0 +1,54 @@
+{
+  "name": "Giant Missile",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "giant-missile",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Giant Missile",
+        "slug": "giant-missile",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5355.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "explode",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "nuclear"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 55,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "r9IbStigt69LSiWR",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5355.png",
+  "effects": []
+}

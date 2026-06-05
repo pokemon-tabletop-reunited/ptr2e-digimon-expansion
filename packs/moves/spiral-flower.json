@@ -1,0 +1,54 @@
+{
+  "name": "Spiral Flower",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "spiral-flower",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Spiral Flower",
+        "slug": "spiral-flower",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5533.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "sharp",
+          "5-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "grass"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "cone",
+          "distance": 5,
+          "unit": "m"
+        },
+        "power": 25,
+        "accuracy": 100
+      }
+    ],
+    "grade": "A"
+  },
+  "_id": "liKk7TUCtKfUKA60",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5533.png",
+  "effects": []
+}

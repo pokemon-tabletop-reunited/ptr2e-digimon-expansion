@@ -19,7 +19,7 @@
         "name": "Genocidal Gears",
         "slug": "genocidal-gears",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5294.png",
         "traits": [
           "missile",
           "double-strike",
@@ -47,7 +47,7 @@
     "grade": "A",
     "slug": "genocidal-gears"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5294.png",
   "effects": [],
   "_id": "iNcGh7izDXjQtlzz"
 }

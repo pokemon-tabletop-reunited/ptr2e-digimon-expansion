@@ -19,7 +19,7 @@
         "name": "Dead Or Alive",
         "slug": "dead-or-alive",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5319.png",
         "traits": [
           "digimon"
         ],
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 130,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "dead-or-alive"
   },
-  "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5319.png",
   "effects": [
     {
       "name": "Dead Or Alive",
@@ -57,33 +58,35 @@
           {
             "type": "roll-effect",
             "key": "dead-or-alive-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "dead-or-alive-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
             "predicate": [],
             "chance": 5,
             "isFixedChance": true,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 1
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -97,8 +100,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -111,11 +116,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777535835289,
+        "modifiedTime": 1777535844084
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "nS3YSL1K8l9ZQYD7"

@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Bronze Cannon",
   "type": "move",
   "system": {
@@ -19,7 +18,7 @@
         "name": "Bronze Cannon",
         "slug": "bronze-cannon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5481.png",
         "traits": [
           "digimon",
           "missile",
@@ -29,26 +28,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 7
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "steel"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: On hit, all valid targets are @Affliction[delay 30] and have a 20% chance of gaining @Affliction[desync 1].</p>",
         "range": {
@@ -57,14 +42,13 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5481.png",
   "effects": [
     {
       "name": "Bronze Cannon",
@@ -76,33 +60,35 @@
           {
             "type": "roll-effect",
             "key": "bronze-cannon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -30
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "bronze-cannon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.desynccondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -116,8 +102,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -134,29 +122,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777502206883,
+        "modifiedTime": 1777502217417
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770077744099,
-    "modifiedTime": 1770077960675,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "i28ChNG6xhBv7Uta",
-  "sort": 500000
+  "_id": "i28ChNG6xhBv7Uta"
 }

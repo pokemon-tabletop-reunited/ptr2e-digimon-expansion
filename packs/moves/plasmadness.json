@@ -19,7 +19,7 @@
         "name": "Plasmadness",
         "slug": "plasmadness",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_unholy.png",
         "traits": [
           "digimon",
           "contact",
@@ -34,19 +34,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.26IPhMibQ0lzvAqS]{Vulnerable (Dark)} and gains +1 Effectiveness Stage vs @Trait[data] and @Trait[angel] creatures, stacking cumulatively.</p>",
+        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.26IPhMibQ0lzvAqS]{Vulnerable (Dark)} and gains +1 Effectiveness Stage vs @Trait[data] and @Trait[fairy] creatures, stacking cumulatively.</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
         "power": 100,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "plasmadness"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_unholy.png",
   "effects": [
     {
       "name": "Plasmadness",
@@ -58,14 +60,15 @@
           {
             "type": "roll-effect",
             "key": "plasmadness-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.26IPhMibQ0lzvAqS",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.26IPhMibQ0lzvAqS",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -76,7 +79,8 @@
               "target:trait:data"
             ],
             "label": "Vs Data",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
@@ -85,10 +89,11 @@
             "key": "plasmadness-attack-effectiveness-stage",
             "value": 1,
             "predicate": [
-              "target:trait:angel"
+              "target:trait:fairy"
             ],
-            "label": "Vs Angel",
-            "mode": 2,
+            "label": "Vs Fairy",
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           }
@@ -103,8 +108,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -121,13 +128,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777548760969,
+        "modifiedTime": 1777548778288
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "DWQzOaSON16SV7Ta"
 }

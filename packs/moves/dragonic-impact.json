@@ -19,7 +19,7 @@
         "name": "Dragonic Impact",
         "slug": "dragonic-impact",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5456.png",
         "traits": [
           "digimon",
           "contact",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 135,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "dragonic-impact"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5456.png",
   "effects": [],
-  "flags": {},
   "_id": "DlNASN6Ui2OHKnu1"
 }

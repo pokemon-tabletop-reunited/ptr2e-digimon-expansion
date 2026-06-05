@@ -19,7 +19,7 @@
         "name": "Rare Metal Poop",
         "slug": "rare-metal-poop",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5186.png",
         "traits": [
           "digimon"
         ],
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "rare-metal-poop"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5186.png",
   "effects": [],
   "_id": "R9T2JAFom6Qqvx0b"
 }

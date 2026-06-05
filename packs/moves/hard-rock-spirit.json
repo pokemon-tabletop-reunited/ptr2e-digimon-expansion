@@ -19,7 +19,7 @@
         "name": "Hard Rock Spirit",
         "slug": "hard-rock-spirit",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5256.png",
         "traits": [
           "digimon",
           "sonic"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 65,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "hard-rock-spirit"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5256.png",
   "effects": [],
-  "flags": {},
   "_id": "nGdkcyOzpeeHWlR2"
 }

@@ -830,7 +830,8 @@
       "y": 11,
       "connected": [
         "metal-greymon-blue",
-        "flaremon"
+        "flaremon",
+        "omnimon-zwart"
       ],
       "prerequisites": [
         {
@@ -852,21 +853,7 @@
       "system": {
         "changes": [
           {
-            "type": "roll-option",
-            "key": "manual-forme-toggle",
-            "value": "forme:signature-moves:active",
-            "domain": "all",
-            "toggleable": true,
-            "label": "Toggle: Signature Moves Forme",
-            "mode": 2,
-            "predicate": [],
-            "ignored": false,
-            "suboptions": [],
-            "state": false
-          },
-          {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.hfQUOT9qtYOvbGPB",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:black-war-greymon",
@@ -879,7 +866,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -887,7 +876,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.umkDeJkaVHweJssZ",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:black-war-greymon",
@@ -900,7 +888,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -919,8 +909,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -933,13 +925,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.6.beta",
         "createdTime": 1772423701337,
-        "modifiedTime": 1772423774946,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1780587110960,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "kWxVydfXQnFUqVkP"

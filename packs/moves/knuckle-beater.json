@@ -1,0 +1,53 @@
+{
+  "name": "Knuckle Beater",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "knuckle-beater",
+    "publication": {
+      "source": "Digimon",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Knuckle Beater",
+        "slug": "knuckle-beater",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5041.png",
+        "traits": [
+          "digimon",
+          "punch",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2
+        },
+        "types": [
+          "dragon"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 60,
+        "accuracy": 100
+      }
+    ],
+    "grade": "D"
+  },
+  "_id": "ywfOIgy2oRBHm0VZ",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5041.png",
+  "effects": []
+}

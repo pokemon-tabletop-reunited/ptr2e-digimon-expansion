@@ -19,7 +19,7 @@
         "name": "Freezing Breath",
         "slug": "freezing-breath",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
         "traits": [
           "digimon"
         ],
@@ -39,12 +39,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "freezing-breath"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
   "effects": [
     {
       "name": "Freezing Breath",
@@ -56,14 +58,15 @@
           {
             "type": "roll-effect",
             "key": "freezing-breath-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
             "predicate": [],
             "chance": 25,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -77,8 +80,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -95,13 +100,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777538925870,
+        "modifiedTime": 1777538925870
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "MRyUEM2jNg89WbOx"
 }

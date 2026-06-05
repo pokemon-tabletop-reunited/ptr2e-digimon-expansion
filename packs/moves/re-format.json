@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Re-Format",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "re-format",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,66 +20,32 @@
         "name": "Re-Format",
         "slug": "re-format",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5480.png",
         "traits": [
           "digimon",
           "friendly"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "dragon"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This attack removes all Positive @Trait[stage-change] effects.</p>",
         "range": {
           "target": "emanation",
           "distance": 5,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5480.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.12.beta",
-    "createdTime": 1767006456353,
-    "modifiedTime": 1767006456353,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "HtVr2y7VwkWcHsn9",
-  "sort": 0
+  "_id": "HtVr2y7VwkWcHsn9"
 }

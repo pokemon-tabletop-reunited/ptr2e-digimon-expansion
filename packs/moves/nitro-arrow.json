@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Nitro Arrow",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "nitro-arrow",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Nitro Arrow",
         "slug": "nitro-arrow",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5476.png",
         "traits": [
           "digimon",
           "summon",
@@ -29,59 +28,25 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.h1uTIL1QhsL9nT38",
         "types": [
           "flying"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: Summons Nitro Arrows with 75 AV. The summon lasts for 3 activations and makes Physical Attacks against enemies at power 65, with a 30% chance to inflict @Affliction[burn 5].</p>",
         "range": {
           "target": "field",
-          "distance": null,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5476.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.11.beta",
-    "createdTime": 1766943834371,
-    "modifiedTime": 1766943838912,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "rqCraIN7vodMm8F3",
-  "sort": 200000
+  "_id": "rqCraIN7vodMm8F3"
 }

@@ -19,11 +19,12 @@
         "name": "Vortex Penetration",
         "slug": "vortex-penetration",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5357.png",
         "traits": [
           "digimon",
           "pierce",
-          "danger-close"
+          "danger-close",
+          "flat"
         ],
         "cost": {
           "activation": "complex",
@@ -39,13 +40,72 @@
           "target": "creature",
           "distance": 10,
           "unit": "m"
-        }
+        },
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "vortex-penetration"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
-  "effects": [],
-  "flags": {},
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5357.png",
+  "effects": [
+    {
+      "name": "Vortex Penetration",
+      "type": "passive",
+      "_id": "tVrRYHQG49eCdkrl",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "vortex-penetration-attack-damage-flat",
+            "value": "floor(@actor.system.advancement.level * 2)",
+            "label": "Vortex Penetration",
+            "priority": null,
+            "phase": "initial",
+            "predicate": [],
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777555430516,
+        "modifiedTime": 1777555456559,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
   "_id": "ADPFr6hKf51PYSe0"
 }

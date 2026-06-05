@@ -19,7 +19,7 @@
         "name": "Air Shot",
         "slug": "air-shot",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5056.png",
         "traits": [
           "wind",
           "digimon"
@@ -40,13 +40,14 @@
         "power": 50,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>On resolution, the user has a 10% chance of gaining +1 Speed Stage for 5 activations.</p>"
+        "description": "<p>On resolution, the user has a 10% chance of gaining +1 Speed Stage for 5 activations.</p>",
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "air-shot"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5056.png",
   "effects": [
     {
       "name": "Air Shot",
@@ -58,16 +59,17 @@
           {
             "type": "roll-effect",
             "key": "air-shot-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.XeiSuS3APUcN0MLM",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
             "predicate": [],
             "chance": 10,
             "affects": "self",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -80,13 +82,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -98,14 +97,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777488314096,
+        "modifiedTime": 1777488314096,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "Oale17mBUm43zGRZ"

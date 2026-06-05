@@ -1,0 +1,53 @@
+{
+  "name": "Elec Rush",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "elec-rush",
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Elec Rush",
+        "slug": "elec-rush",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5529.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "dash",
+          "pulse",
+          "priority-20"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 65,
+        "accuracy": 100
+      }
+    ],
+    "grade": "D"
+  },
+  "_id": "8fI6NqmXJnv2pJbR",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5529.png",
+  "effects": []
+}

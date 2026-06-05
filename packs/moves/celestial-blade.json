@@ -19,7 +19,7 @@
         "name": "Celestial Blade",
         "slug": "celestial-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",
         "traits": [
           "digimon",
           "sharp",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "celestial-blade"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",
   "effects": [],
-  "flags": {},
   "_id": "2kYTE83yNgsc6oWL"
 }

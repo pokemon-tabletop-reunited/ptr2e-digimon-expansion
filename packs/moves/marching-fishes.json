@@ -19,7 +19,7 @@
         "name": "Marching Fishes",
         "slug": "marching-fishes",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5027.png",
         "traits": [
           "5-strike",
           "digimon"
@@ -40,13 +40,14 @@
         "power": 20,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>5-Strike for this move is rolled once for all targets.</p>"
+        "description": "<p>Effect: During the turn this attack is declared, the user may move using their Swim Movement Allowance.</p>",
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "marching-fishes"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5027.png",
   "effects": [],
   "_id": "ul4WCGTrikWcXUbX"
 }

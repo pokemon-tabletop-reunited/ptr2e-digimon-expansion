@@ -1,0 +1,52 @@
+{
+  "name": "Illuminator",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "illuminator",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Illuminator",
+        "slug": "illuminator",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5372.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.PPDtrhoMcNS57J8K",
+        "types": [
+          "ghost"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>This attack summons an Illuminator which harasses the target creature. It has an AV of 80, a power of 90 and lasts for 3 activations. The Illuminator gains +50% damage vs @Trait[grass] creatures.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        }
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "DRZIayhH65AxaJSa",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5372.png",
+  "effects": []
+}

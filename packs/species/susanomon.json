@@ -845,8 +845,7 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.2kYTE83yNgsc6oWL",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.TclkATJC12SC7JpL",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:susanomon"
             ],
@@ -857,7 +856,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -865,7 +866,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.mmGJoRl4DJBp4uG1",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:susanomon"
@@ -877,7 +877,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -894,8 +896,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -912,13 +916,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.6.beta",
         "createdTime": 1767402245130,
-        "modifiedTime": 1767402325411,
-        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+        "modifiedTime": 1780658474620,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "IsA4Rg4LIqZ5zF7h"

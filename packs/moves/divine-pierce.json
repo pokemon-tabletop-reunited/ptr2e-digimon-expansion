@@ -19,7 +19,7 @@
         "name": "Divine Pierce",
         "slug": "divine-pierce",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
         "traits": [
           "contact",
           "weapon",
@@ -41,13 +41,14 @@
         "category": "special",
         "power": 65,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       },
       {
         "name": "Divine Pierce (Awake)",
         "slug": "divine-pierce-awake",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023_awake.png",
         "traits": [
           "contact",
           "weapon",
@@ -67,15 +68,16 @@
           "fairy"
         ],
         "category": "special",
-        "power": 65,
+        "power": 90,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "divine-pierce"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
   "effects": [],
   "_id": "dBepc88qKzmj8m6c"
 }

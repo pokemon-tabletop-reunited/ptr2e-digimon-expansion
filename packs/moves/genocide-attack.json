@@ -19,7 +19,7 @@
         "name": "Genocide Attack",
         "slug": "genocide-attack",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5316.png",
         "traits": [
           "pierce",
           "crit-1",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "genocide-attack"
   },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5316.png",
   "effects": [],
   "_id": "6uDhcCEYBqGO481s"
 }

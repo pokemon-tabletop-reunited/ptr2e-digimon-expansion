@@ -19,7 +19,7 @@
         "name": "Terrier Tornado",
         "slug": "terrier-tornado",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5031.png",
         "traits": [
           "pass-3",
           "contact",
@@ -40,13 +40,14 @@
         "category": "special",
         "power": 40,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "terrier-tornado"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5031.png",
   "effects": [],
   "_id": "Sisuyg6zURQH03e9"
 }

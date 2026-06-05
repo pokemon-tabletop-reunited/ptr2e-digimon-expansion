@@ -19,7 +19,7 @@
         "name": "Great Tornado",
         "slug": "great-tornado",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5337.png",
         "traits": [
           "digimon",
           "pierce",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 150,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "great-tornado"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5337.png",
   "effects": [],
   "_id": "hfQUOT9qtYOvbGPB"
 }

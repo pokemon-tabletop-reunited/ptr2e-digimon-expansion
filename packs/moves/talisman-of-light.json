@@ -19,7 +19,7 @@
         "name": "Talisman of Light",
         "slug": "talisman-of-light",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5264.png",
         "traits": [
           "arcane",
           "digimon"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 105,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "talisman-of-light"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5264.png",
   "effects": [],
   "_id": "tHtGgZHpYyBcCE4T"
 }

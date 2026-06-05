@@ -1,0 +1,53 @@
+{
+  "name": "Feather Slash",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "feather-slash",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Feather Slash",
+        "slug": "feather-slash",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5093.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "sharp"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2
+        },
+        "types": [
+          "flying"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 75,
+        "accuracy": 100
+      }
+    ],
+    "grade": "D"
+  },
+  "_id": "QifXTqi6mjsuJbkl",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5093.png",
+  "effects": []
+}

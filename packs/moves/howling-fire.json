@@ -1,0 +1,53 @@
+{
+  "name": "Howling Fire",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "howling-fire",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Howling Fire",
+        "slug": "howling-fire",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+        "traits": [
+          "digimon",
+          "arcane",
+          "missile"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2
+        },
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "grade": "D"
+  },
+  "_id": "adiOeXY6e1Ayz2CY",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+  "effects": []
+}

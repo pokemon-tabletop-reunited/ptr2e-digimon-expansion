@@ -19,7 +19,7 @@
         "name": "D-Grenade",
         "slug": "d-grenade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5165.png",
         "traits": [
           "blast-3",
           "danger-close",
@@ -40,13 +40,14 @@
         ],
         "category": "physical",
         "power": 60,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "d-grenade"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5165.png",
   "effects": [],
   "_id": "6QrKVPuyENZLUGpg"
 }

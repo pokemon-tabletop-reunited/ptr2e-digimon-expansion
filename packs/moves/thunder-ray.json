@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Thunder Ray",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "thunder-ray",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,35 +20,21 @@
         "name": "Thunder Ray",
         "slug": "thunder-ray",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5479.png",
         "traits": [
           "digimon",
           "ray"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "wide-line",
           "distance": 7,
@@ -59,28 +44,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5479.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.12.beta",
-    "createdTime": 1766966941809,
-    "modifiedTime": 1766966941809,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "XzyEGsxe9sCauAXq",
-  "sort": 0
+  "_id": "XzyEGsxe9sCauAXq"
 }

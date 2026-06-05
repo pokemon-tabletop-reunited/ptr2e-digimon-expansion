@@ -19,7 +19,7 @@
         "name": "Cold Flame (Digimon)",
         "slug": "cold-flame-digimon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5310.png",
         "traits": [
           "digimon"
         ],
@@ -33,20 +33,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, the user gains @UUID[Compendium.ptr2e.core-effects.Item.1TqcwIUNl32wJCAa]{+1 Special Attack Stage for 5 activations} and <em>@UUID[Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3]{+1 Special Defense Stage for 5 activations}. This attack counts as both Fire and Ice Type.</em></p>",
+        "description": "<p>On resolution, the user gains @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.1TqcwIUNl32wJCAa]{+1 Special Attack Stage for 5 activations} and <em>@UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.jEX7s3GbbAtzgyS3]{+1 Special Defense Stage for 5 activations}. This attack counts as both Fire and Ice Type.</em></p>",
         "range": {
           "target": "creature",
           "distance": 10,
           "unit": "m"
         },
         "power": 100,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "cold-flame-digimon"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5310.png",
   "effects": [
     {
       "name": "Cold Flame",
@@ -58,27 +59,29 @@
           {
             "type": "roll-effect",
             "key": "cold-flame-digimon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.1TqcwIUNl32wJCAa",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.1TqcwIUNl32wJCAa",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "cold-flame-digimon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.jEX7s3GbbAtzgyS3",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -92,8 +95,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -106,11 +111,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777533748105,
+        "modifiedTime": 1777533757365
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "seMK58CNbT0Uwybn"

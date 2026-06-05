@@ -19,7 +19,7 @@
         "name": "Tusk Strikes",
         "slug": "tusk-strikes",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/rock_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5242.png",
         "traits": [
           "digimon",
           "contact",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "tusk-strikes"
   },
-  "img": "systems/ptr2e/img/svg/rock_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5242.png",
   "effects": [],
-  "flags": {},
   "_id": "hktaxlA2T8JnquZm"
 }

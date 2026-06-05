@@ -19,7 +19,7 @@
         "name": "Kirisute Gomen",
         "slug": "kirisute-gomen",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5190.png",
         "traits": [
           "digimon",
           "contact",
@@ -34,20 +34,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: If this attack faints an enemy, the user heals @Tick[8].</p>",
+        "description": "<p>Effect: If this attack faints an enemy, the user recovers @Tick[8].</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "kirisute-gomen"
   },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5190.png",
   "effects": [],
-  "flags": {},
   "_id": "5RHA9akkNeBlOabE"
 }

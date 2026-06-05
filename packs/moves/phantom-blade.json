@@ -1,0 +1,55 @@
+{
+  "name": "Phantom Blade",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "phantom-blade",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Phantom Blade",
+        "slug": "phantom-blade",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",
+        "traits": [
+          "digimon",
+          "summon",
+          "contact",
+          "pierce"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.odI3EeDYOB3TNAsA",
+        "types": [
+          "ghost"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Embeds a Phantom Blade summon in the victim. While this summon is active, the victim is @Affliction[stunted] and @Affliction[stuck]. The summon has an AV of 70 and attacks using the user's ATK stat to attack with Power 90 for 4 activations.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "BwT1fDjk33LE9I5T",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",
+  "effects": []
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Forbidden Temptation",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "forbidden-temptation",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Forbidden Temptation",
+        "slug": "forbidden-temptation",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392.png",
+        "traits": [
+          "digimon",
+          "friendly"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8
+        },
+        "types": [
+          "grass"
+        ],
+        "category": "special",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "emanation",
+          "distance": 5,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "lOsAKnSvLV0ZJcoc",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5392.png",
+  "effects": []
+}

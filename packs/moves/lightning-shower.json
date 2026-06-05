@@ -19,7 +19,7 @@
         "name": "Lightning Shower",
         "slug": "lightning-shower",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
         "traits": [
           "digimon",
           "5-strike"
@@ -43,9 +43,10 @@
         "accuracy": 100
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "lightning-shower"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
   "effects": [
     {
       "name": "Lightning Shower",
@@ -57,14 +58,15 @@
           {
             "type": "roll-effect",
             "key": "lightning-shower-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ShKXnWCV59pLsMUE",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ShKXnWCV59pLsMUE",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -78,8 +80,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -96,13 +100,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777546621785,
+        "modifiedTime": 1777546621785
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "NdBn30cal9c051UP"
 }

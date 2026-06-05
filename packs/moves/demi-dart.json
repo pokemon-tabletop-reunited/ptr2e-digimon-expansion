@@ -19,7 +19,7 @@
         "name": "Demi Dart",
         "slug": "demi-dart",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5077.png",
         "traits": [
           "missile",
           "drain-1-4",
@@ -31,7 +31,7 @@
           "unit": "m"
         },
         "cost": {
-          "activation": "simple",
+          "activation": "complex",
           "powerPoints": 2
         },
         "types": [
@@ -41,13 +41,14 @@
         "power": 60,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>Fires a poisonous, life-draining dart at the opponent.</p>"
+        "description": "<p>Fires a poisonous, life-draining dart at the opponent.</p>",
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "demi-dart"
   },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5077.png",
   "effects": [],
   "_id": "0UsOKRDUL3Sxqmhr"
 }

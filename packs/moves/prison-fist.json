@@ -19,7 +19,7 @@
         "name": "Prison Fist",
         "slug": "prison-fist",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5096.png",
         "traits": [
           "contact",
           "5-strike",
@@ -43,13 +43,70 @@
         "power": 20,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a minimum 5-strike result of 3.</p>"
+        "description": "<p>This attack has a minimum 5-strike result of 3.</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "prison-fist"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5096.png",
+  "effects": [
+    {
+      "name": "Prison Fist",
+      "type": "passive",
+      "_id": "LbuQOL0DyCte2r8q",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "flat-modifier",
+            "key": "prison-fist-attack-hits-flat",
+            "value": 2,
+            "predicate": [],
+            "phase": "initial",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777549014798,
+        "modifiedTime": 1777549042223,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
   "_id": "NTuQmviIl7EPWA69"
 }

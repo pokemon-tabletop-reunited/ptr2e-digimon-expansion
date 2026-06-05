@@ -19,11 +19,12 @@
         "name": "Lightning Blade",
         "slug": "lightning-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5207.png",
         "traits": [
           "digimon",
           "sharp",
-          "wind"
+          "wind",
+          "horn"
         ],
         "cost": {
           "activation": "complex",
@@ -40,13 +41,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "lightning-blade"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5207.png",
   "effects": [],
-  "flags": {},
   "_id": "dd4sv8NMzDwPXoWz"
 }

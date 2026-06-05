@@ -19,7 +19,7 @@
         "name": "Party of the Heavens",
         "slug": "party-of-the-heavens",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",
         "traits": [
           "digimon"
         ],
@@ -40,12 +40,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "party-of-the-heavens"
   },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",
   "effects": [
     {
       "name": "Party of the Heavens",
@@ -57,7 +59,7 @@
           {
             "type": "roll-effect",
             "key": "party-of-the-heavens-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -65,13 +67,14 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Paralysis",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "party-of-the-heavens-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.suppressedcoitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -79,13 +82,14 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Suppressed",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "party-of-the-heavens-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.unluckycondiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.unluckycondition",
             "predicate": [],
             "chance": 30,
             "isFixedChance": false,
@@ -93,7 +97,8 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Unlucky",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -107,8 +112,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -125,13 +132,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777548164957,
+        "modifiedTime": 1777548181021
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "UcibQyBupGIuF6DT"
 }

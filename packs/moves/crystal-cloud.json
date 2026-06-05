@@ -19,7 +19,7 @@
         "name": "Crystal Cloud",
         "slug": "crystal-cloud",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5118.png",
         "traits": [
           "digimon",
           "summon"
@@ -39,13 +39,14 @@
           "target": "field",
           "unit": "m",
           "distance": 10
-        }
+        },
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "crystal-cloud"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5118.png",
   "effects": [],
   "_id": "kk3LHJBJk6Fzj9nP"
 }

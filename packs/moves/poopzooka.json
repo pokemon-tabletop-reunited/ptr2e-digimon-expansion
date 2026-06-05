@@ -19,7 +19,7 @@
         "name": "Poopzooka",
         "slug": "poopzooka",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5293.png",
         "traits": [
           "digimon",
           "missile"
@@ -39,12 +39,14 @@
           "distance": 15,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "poopzooka"
   },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5293.png",
   "effects": [
     {
       "name": "Poopzooka",
@@ -56,7 +58,7 @@
           {
             "type": "roll-effect",
             "key": "poopzooka-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.4DlXFTVooz07YcDm",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
             "predicate": [],
             "chance": 100,
             "isFixedChance": true,
@@ -64,33 +66,35 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Tick Damage",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "poopzooka-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ikCAv5w4iNfHHqaE",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
             "label": "Attack Down",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "poopzooka-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
             "predicate": [],
             "chance": 70,
             "isFixedChance": false,
@@ -98,7 +102,8 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Confused?",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -112,8 +117,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -130,13 +137,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777548921241,
+        "modifiedTime": 1777548943903
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "wBONilVVJIYiPoK5"
 }

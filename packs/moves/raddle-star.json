@@ -18,7 +18,7 @@
         "name": "Raddle Star",
         "slug": "raddle-star",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
         "traits": [
           "digimon",
           "8-strike",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "E"
+    "grade": "E",
+    "slug": "raddle-star"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
   "effects": [],
-  "flags": {},
   "_id": "YTdNpVU98HPHGdR7"
 }

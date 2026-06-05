@@ -19,7 +19,7 @@
         "name": "Burst Shot",
         "slug": "burst-shot",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5355.png",
         "traits": [
           "digimon",
           "double-strike",
@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 4
         },
         "types": [
           "steel"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "burst-shot"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5355.png",
   "effects": [],
   "_id": "c2YTAUPaAWgNwBGE"
 }

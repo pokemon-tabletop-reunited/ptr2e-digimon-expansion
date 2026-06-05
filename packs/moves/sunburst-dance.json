@@ -19,7 +19,7 @@
         "name": "Sunburst Dance",
         "slug": "sunburst-dance",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
         "traits": [
           "digimon",
           "contact",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       },
       {
         "name": "Sunburst Dance 1",
         "slug": "sunburst-danceld3uj1imws-nyvntr",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
         "traits": [
           "digimon",
           "contact",
@@ -74,13 +75,14 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       },
       {
         "name": "Sunburst Dance 2",
         "slug": "sunburst-danceplqm-bwqmr-jewlvbx",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
         "traits": [
           "digimon",
           "contact",
@@ -105,13 +107,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       },
       {
         "name": "Sunburst Dance 3",
         "slug": "sunburst-dancea86elb-t5l38f3lfh",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
         "traits": [
           "digimon",
           "contact",
@@ -136,13 +139,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       },
       {
         "name": "Sunburst Dance 4",
         "slug": "sunburst-danceeg-xrnbqnv3pvw5a1",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
         "traits": [
           "digimon",
           "contact",
@@ -167,13 +171,14 @@
           "unit": "m"
         },
         "power": 150,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "sunburst-dance"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5238.png",
   "effects": [],
-  "flags": {},
   "_id": "Nw4cWBiEMSVfTErl"
 }

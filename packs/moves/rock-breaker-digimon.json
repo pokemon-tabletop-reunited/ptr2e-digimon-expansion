@@ -19,7 +19,7 @@
         "name": "Rock Breaker (Digimon)",
         "slug": "rock-breaker-digimon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5069.png",
         "traits": [
           "contact",
           "digimon"
@@ -39,13 +39,14 @@
         "category": "physical",
         "power": 70,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "rock-breaker-digimon"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5069.png",
   "effects": [],
   "_id": "nMNzV7ovndvRaZ27"
 }

@@ -1,0 +1,55 @@
+{
+  "name": "Trident Arm",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "trident-arm",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Trident Arm",
+        "slug": "trident-arm",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
+        "traits": [
+          "digimon",
+          "punch",
+          "pierce",
+          "contact",
+          "sharp"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5
+        },
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 115,
+        "accuracy": 100
+      }
+    ],
+    "grade": "A"
+  },
+  "_id": "OR9nXMS8UEtDne2m",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
+  "effects": []
+}

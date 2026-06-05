@@ -19,7 +19,7 @@
         "name": "Hand of Fate",
         "slug": "hand-of-fate",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5102.png",
         "traits": [
           "ray",
           "digimon"
@@ -40,13 +40,14 @@
         "power": 80,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>This attack has a 10% chance each of granting the user +1 Attack Stage for 5 Activations, and +1 Special Defense Stage for 5 Activations.</p>"
+        "description": "<p>This attack has a 10% chance each of granting the user +1 Attack Stage for 5 Activations, and +1 Special Defense Stage for 5 Activations.</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "hand-of-fate"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5102.png",
   "effects": [
     {
       "name": "Hand Of Fate",
@@ -58,30 +59,32 @@
           {
             "type": "roll-effect",
             "key": "hand-of-fate-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ZGwaMlzUwkSuCPyH",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
             "predicate": [],
             "chance": 10,
             "affects": "self",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "hand-of-fate-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.jEX7s3GbbAtzgyS3",
             "predicate": [],
             "chance": 10,
             "affects": "self",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -94,13 +97,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -112,14 +112,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777545028031,
+        "modifiedTime": 1777545033819,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "Hmq6lhTDJopjNyOZ"

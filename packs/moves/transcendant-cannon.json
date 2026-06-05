@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Transcendant Cannon",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "transcendant-cannon",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Transcendant Cannon",
         "slug": "transcendant-cannon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5488.png",
         "traits": [
           "digimon",
           "ray",
@@ -29,25 +28,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 8
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
+        "free": true,
         "defensiveStat": "spd",
         "predicate": [],
         "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[dragon] creatures.<br><br>This attack resolves against Special Defense.</p>",
@@ -60,11 +47,9 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5488.png",
   "effects": [
     {
       "name": "Transcendant Cannon",
@@ -81,9 +66,10 @@
               "target:trait:dragon"
             ],
             "label": "Vs Dragon",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -96,8 +82,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -114,29 +102,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1767825555827,
-    "modifiedTime": 1767825556000,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "SUZcjhmhGn4bAN72",
-  "sort": 50000
+  "_id": "SUZcjhmhGn4bAN72"
 }

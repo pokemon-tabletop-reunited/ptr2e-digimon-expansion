@@ -19,7 +19,7 @@
         "name": "Seed Blast",
         "slug": "seed-blast",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5061.png",
         "traits": [
           "double-strike",
           "digimon"
@@ -39,13 +39,14 @@
         "category": "physical",
         "power": 20,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "seed-blast"
   },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5061.png",
   "effects": [],
   "_id": "DivqfDNiKPRIpKhZ"
 }

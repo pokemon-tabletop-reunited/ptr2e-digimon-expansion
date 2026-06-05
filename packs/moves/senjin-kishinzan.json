@@ -19,7 +19,7 @@
         "name": "Senjin Kishinzan",
         "slug": "senjin-kishinzan",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410_mount.png",
         "traits": [
           "digimon",
           "contact",
@@ -46,9 +46,10 @@
         "accuracy": 100
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "senjin-kishinzan"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410_mount.png",
   "effects": [
     {
       "name": "Senjin Kishinzan",
@@ -64,21 +65,23 @@
             "predicate": [
               "target:trait:fairy"
             ],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
           {
             "type": "roll-effect",
             "key": "senjin-kishinzan-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -92,8 +95,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -110,13 +115,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777549762319,
+        "modifiedTime": 1777549762319
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "1E15Mnj4liBqV7dI"
 }

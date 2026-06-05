@@ -19,10 +19,11 @@
         "name": "Pandora Dialogue",
         "slug": "pandora-dialogue",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5322.png",
         "traits": [
           "digimon",
-          "recoil-1-8"
+          "recoil-1-8",
+          "friendly"
         ],
         "cost": {
           "activation": "complex",
@@ -33,19 +34,85 @@
         ],
         "category": "special",
         "predicate": [],
-        "description": "<p>This attack inflicts @Tick[-3] to all enemies on the field. Recoil is calculated from the sum total of all damage inflicted.</p>",
+        "description": "<p>This attack inflicts @Tick[-3] to all enemies on the field.</p>",
         "range": {
           "target": "field",
-          "unit": "m",
-          "distance": 10
+          "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "pandora-dialogue"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5322.png",
+  "effects": [
+    {
+      "name": "Pandora Dialogue",
+      "type": "passive",
+      "_id": "T5Uv3QT0vhDfx1oV",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.value",
+                "value": -3
+              }
+            ],
+            "dontMerge": false,
+            "key": "pandora-dialogue-attack",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777548036206,
+        "modifiedTime": 1777548071034,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
   "_id": "n9VZFTGRR0fOv965"
 }

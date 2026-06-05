@@ -19,7 +19,7 @@
         "name": "Firedrake Strike",
         "slug": "firedrake-strike",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5446.png",
         "traits": [
           "digimon",
           "missile",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 140,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "firedrake-strike"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5446.png",
   "effects": [],
   "_id": "hF3OdWCDPs49dovU"
 }

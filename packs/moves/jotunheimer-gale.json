@@ -1,0 +1,54 @@
+{
+  "name": "Jotunheimer Gale",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "jotunheimer-gale",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Jotunheimer Gale",
+        "slug": "jotunheimer-gale",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+        "traits": [
+          "sharp",
+          "pierce",
+          "digimon",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9
+        },
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "emanation",
+          "distance": 2,
+          "unit": "m"
+        },
+        "power": 110,
+        "accuracy": 100
+      }
+    ],
+    "grade": "A"
+  },
+  "_id": "96ODlmXVQ32SR3Wm",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+  "effects": []
+}

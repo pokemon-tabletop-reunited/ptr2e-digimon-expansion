@@ -19,7 +19,7 @@
         "name": "Flame Inferno",
         "slug": "flame-inferno",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5412.png",
         "traits": [
           "digimon",
           "sky",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "flame-inferno"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5412.png",
   "effects": [],
-  "flags": {},
   "_id": "4GnSgaVSt1vLgCej"
 }

@@ -1,0 +1,53 @@
+{
+  "name": "Gauntlet Claw",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "gauntlet-claw",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Gauntlet Claw",
+        "slug": "gauntlet-claw",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5151.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "3-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4
+        },
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 30,
+        "accuracy": 100
+      }
+    ],
+    "grade": "C"
+  },
+  "_id": "lGEEgx9r5XpRQJYR",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5151.png",
+  "effects": []
+}

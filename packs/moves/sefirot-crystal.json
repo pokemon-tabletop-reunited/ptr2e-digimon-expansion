@@ -1,0 +1,114 @@
+{
+  "name": "Sefirot Crystal",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "sefirot-crystal",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Sefirot Crystal",
+        "slug": "sefirot-crystal",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5340.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "10-strike",
+          "crit-1"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "fairy"
+        ],
+        "category": "special",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: This attack deals +50% Damage vs @Trait[ghost] creatures.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": 15,
+        "accuracy": 100
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "GmMy5aw92PAJPcGr",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5340.png",
+  "effects": [
+    {
+      "name": "Sefirot Crystal",
+      "type": "passive",
+      "_id": "3gV7rX1VrhAI5YKa",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "value": 50,
+            "phase": "initial",
+            "predicate": [
+              "target:trait:ghost"
+            ],
+            "label": "Vs Ghost",
+            "key": "sefirot-crystal-attack-damage",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.359",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.2.beta",
+        "createdTime": 1775515632026,
+        "modifiedTime": 1775515632026,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ]
+}

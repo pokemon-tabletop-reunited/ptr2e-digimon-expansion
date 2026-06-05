@@ -19,7 +19,7 @@
         "name": "Holy Fire Tornado",
         "slug": "holy-fire-tornado",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5362.png",
         "traits": [
           "digimon",
           "blast-4",
@@ -41,12 +41,14 @@
           "unit": "m"
         },
         "power": 125,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "holy-fire-tornado"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5362.png",
   "effects": [
     {
       "name": "Holy Fire Tornado",
@@ -58,13 +60,13 @@
           {
             "type": "roll-effect",
             "key": "holy-fire-tornado-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
             "predicate": [
               "target:trait:ghost"
             ],
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 1
               }
@@ -73,13 +75,14 @@
             "isFixedChance": true,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "holy-fire-tornado-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
             "predicate": [
               "target:trait:dark"
             ],
@@ -88,13 +91,14 @@
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 1
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -108,8 +112,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -126,13 +132,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777545460628,
+        "modifiedTime": 1777545470924
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "7ybSR63v6Sauky7B"
 }

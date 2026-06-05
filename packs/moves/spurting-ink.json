@@ -19,7 +19,7 @@
         "name": "Spurting Ink",
         "slug": "spurting-ink",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5164.png",
         "traits": [
           "digimon"
         ],
@@ -38,12 +38,14 @@
           "distance": 8,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "spurting-ink"
   },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5164.png",
   "effects": [
     {
       "name": "Spurting Ink",
@@ -55,7 +57,7 @@
           {
             "type": "roll-effect",
             "key": "spurting-ink-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.wA5oCsgHmZLcHHSn",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.wA5oCsgHmZLcHHSn",
             "predicate": [],
             "chance": 80,
             "isFixedChance": false,
@@ -63,20 +65,22 @@
             "alterations": [],
             "dontMerge": false,
             "label": "Accuracy Down",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "spurting-ink-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.poisoncondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
             "predicate": [],
             "chance": 50,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -90,8 +94,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -108,13 +114,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777553290656,
+        "modifiedTime": 1777553296791
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "lH8rfXdIG7ej8RsV"
 }

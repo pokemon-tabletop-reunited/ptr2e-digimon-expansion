@@ -19,7 +19,7 @@
         "name": "Mourning Dance",
         "slug": "mourning-dance",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",
         "traits": [
           "digimon",
           "dance",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 20,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "mourning-dance"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5367.png",
   "effects": [],
-  "flags": {},
   "_id": "0bGOKbY32IWa9IyM"
 }

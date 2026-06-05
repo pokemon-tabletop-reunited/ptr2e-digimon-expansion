@@ -19,7 +19,7 @@
         "name": "Giga Destroyer",
         "slug": "giga-destroyer",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
         "traits": [
           "missile",
           "explode",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "giga-destroyer"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
   "effects": [],
   "_id": "nG5lp9oir5srqTH9"
 }

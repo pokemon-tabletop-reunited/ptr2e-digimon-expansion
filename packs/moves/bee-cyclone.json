@@ -1,0 +1,51 @@
+{
+  "name": "Bee Cyclone",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "bee-cyclone",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Bee Cyclone",
+        "slug": "bee-cyclone",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5411.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.aFYtGgjVihG3wj9Q",
+        "types": [
+          "bug"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: This attack summons a defensive Bee Cyclone. This summon lasts for 3 combat rounds, and grants 20% Damage Reduction to all Allies, along with -1 Effectiveness Stage for incoming @Trait[steel]-type attacks.</p>",
+        "range": {
+          "target": "field",
+          "unit": "m"
+        }
+      }
+    ],
+    "grade": "S"
+  },
+  "_id": "vVyIKyP6tmeOI70L",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5411.png",
+  "effects": []
+}
