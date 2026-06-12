@@ -20,11 +20,11 @@
       "bipedal",
       "rapid",
       "jump-6",
-      "virus",
       "slugger",
       "booter",
       "tailed",
-      "mouthy"
+      "mouthy",
+      "free"
     ],
     "number": 5497,
     "stats": {
@@ -881,7 +881,73 @@
     }
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5497.png",
-  "effects": [],
-  "flags": {},
+  "effects": [
+    {
+      "name": "Signature Move",
+      "type": "passive",
+      "_id": "M71HzDcYeZEMPVNA",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.usA9pQlOfeprLv9R",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:meicoomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1780668642435,
+        "modifiedTime": 1780668681179,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
   "_id": "WhprtUfT0mougLeM"
 }
