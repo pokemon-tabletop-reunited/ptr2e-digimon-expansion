@@ -858,6 +858,9 @@
       "x": 55,
       "y": 20,
       "connected": [
+        "angewomon",
+        "lady-devimon",
+        "lilymon",
         "impmon"
       ],
       "prerequisites": [

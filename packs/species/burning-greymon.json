@@ -860,8 +860,8 @@
       "x": 52,
       "y": 144,
       "connected": [
-        "agunimon",
-        "aldamon"
+        "aldamon",
+        "agunimon"
       ],
       "prerequisites": [
         {

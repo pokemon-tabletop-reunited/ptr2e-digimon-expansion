@@ -863,7 +863,9 @@
         "strikedramon",
         "geo-greymon",
         "veedramon",
-        "cyclonemon"
+        "cyclonemon",
+        "justimon",
+        "ulforce-veedramon"
       ],
       "prerequisites": [
         {

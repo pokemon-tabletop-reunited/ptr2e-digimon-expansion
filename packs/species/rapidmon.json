@@ -855,6 +855,8 @@
       "x": 114,
       "y": 153,
       "connected": [
+        "hi-andromon",
+        "mega-gargomon",
         "centarumon",
         "waspmon",
         "gargomon"

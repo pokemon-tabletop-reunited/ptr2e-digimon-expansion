@@ -812,7 +812,11 @@
     "node": {
       "x": 9,
       "y": 14,
-      "connected": [],
+      "connected": [
+        "arcadiamon-in-training",
+        "pagumon",
+        "tsumemon"
+      ],
       "prerequisites": []
     }
   },

@@ -814,7 +814,58 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "crystal-rush",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "drill-peck",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "drill-run",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "hive-assault",
+          "level": 29,
+          "gen": null
+        },
+        {
+          "name": "brick-break",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "bunker-buster",
+          "level": 26,
+          "gen": null
+        },
+        {
+          "name": "bulldoze",
+          "level": 28,
+          "gen": null
+        },
+        {
+          "name": "defend-order",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "beetle-bash",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "headlong-rush",
+          "level": 36,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -828,7 +879,7 @@
         "armadillomon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-knowledge"
+        "item:equipment:digi-egg-of-knowledge"
       ]
     }
   },
@@ -855,11 +906,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -872,8 +924,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -890,13 +944,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767094099777,
         "modifiedTime": 1767094128723,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "3rHyWxe5hRZR7oYM"
