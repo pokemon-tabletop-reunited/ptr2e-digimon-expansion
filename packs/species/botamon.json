@@ -812,7 +812,10 @@
     "node": {
       "x": 9,
       "y": 136,
-      "connected": [],
+      "connected": [
+        "demi-meramon",
+        "koromon"
+      ],
       "prerequisites": []
     }
   },

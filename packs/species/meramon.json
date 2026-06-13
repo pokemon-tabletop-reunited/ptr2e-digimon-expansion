@@ -848,10 +848,13 @@
       "x": 64,
       "y": 49,
       "connected": [
+        "big-mamemon",
+        "blue-meramon",
         "solarmon",
         "tapirmon",
         "coronamon",
-        "candlemon"
+        "candlemon",
+        "skull-meramon"
       ],
       "prerequisites": [
         {

@@ -814,7 +814,53 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "missile-kick",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "giga-drain",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "extreme-speed",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "bramble-shot",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "meteor-mash",
+          "level": 27,
+          "gen": null
+        },
+        {
+          "name": "energy-ball",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "devious-shot",
+          "level": 33,
+          "gen": null
+        },
+        {
+          "name": "false-image",
+          "level": 36,
+          "gen": null
+        },
+        {
+          "name": "pepper-powder",
+          "level": 0,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -828,7 +874,7 @@
         "hawkmon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-sincerity"
+        "item:equipment:digi-egg-of-sincerity"
       ]
     }
   },
@@ -855,11 +901,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -872,8 +919,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -890,13 +939,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407484930,
         "modifiedTime": 1767407511145,
         "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "u9hKrnz64kvI41XE"

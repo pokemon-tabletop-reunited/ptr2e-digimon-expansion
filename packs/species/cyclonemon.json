@@ -848,8 +848,12 @@
       "x": 59,
       "y": 164,
       "connected": [
+        "brachiomon",
+        "cyberdramon",
         "gizamon",
-        "monodramon"
+        "monodramon",
+        "grademon",
+        "master-tyrannomon"
       ],
       "prerequisites": [
         {
