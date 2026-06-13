@@ -862,6 +862,7 @@
       "x": 33,
       "y": 7,
       "connected": [
+        "arcadiamon-champion",
         "arcadiamon-in-training"
       ],
       "prerequisites": [
