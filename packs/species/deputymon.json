@@ -856,7 +856,10 @@
       "connected": [
         "toy-agumon",
         "lalamon",
-        "kotemon"
+        "kotemon",
+        "pandamon",
+        "super-starmon",
+        "wisemon"
       ],
       "prerequisites": [
         {

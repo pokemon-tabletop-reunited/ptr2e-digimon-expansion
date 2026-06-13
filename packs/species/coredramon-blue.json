@@ -854,9 +854,12 @@
       "x": 64,
       "y": 121,
       "connected": [
+        "aero-veedramon",
         "kotemon",
         "dracomon",
-        "agumon-black"
+        "agumon-black",
+        "gigadramon",
+        "wingdramon"
       ],
       "prerequisites": [
         {

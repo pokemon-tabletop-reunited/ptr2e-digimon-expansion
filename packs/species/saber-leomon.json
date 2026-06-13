@@ -852,7 +852,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.MgdQqag8DasYo9FQ",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:saber-leomon"
@@ -864,7 +863,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.yrFsKyP4WNIKN9RT",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:saber-leomon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -881,8 +903,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -899,13 +923,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1773362296710,
-        "modifiedTime": 1773362322261,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1775552661142,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "w682J3hGGva6x1EK"
