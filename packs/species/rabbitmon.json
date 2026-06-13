@@ -895,20 +895,22 @@
         "changes": [
           {
             "type": "grant-item",
-            "value": "Item.UGxAoTFRcasEg6nq",
-            "phase": "initial",
-            "predicate": [],
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.UGxAoTFRcasEg6nq",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:rabbitmon"
+            ],
+            "allowDuplicate": false,
             "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
             "key": "",
             "method": 2,
             "ignored": false,
-            "reevaluateOnUpdate": false,
             "inMemoryOnly": false,
-            "allowDuplicate": true,
             "track": false,
             "replaceSelf": false
           }
@@ -943,7 +945,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1781303988334,
-        "modifiedTime": 1781303988334,
+        "modifiedTime": 1781350211018,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

@@ -883,26 +883,28 @@
     {
       "name": "Signature Move",
       "type": "passive",
-      "_id": "HKLO9t1SQnG5Mbah",
+      "_id": "imzokwRc00Pe7iHN",
       "img": "icons/svg/aura.svg",
       "system": {
         "changes": [
           {
             "type": "grant-item",
-            "value": "Item.IzmJbh5qVIwtJhJy",
-            "phase": "initial",
-            "predicate": [],
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.IzmJbh5qVIwtJhJy",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:sheepmon"
+            ],
+            "allowDuplicate": false,
             "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
             "key": "",
             "method": 2,
             "ignored": false,
-            "reevaluateOnUpdate": false,
             "inMemoryOnly": false,
-            "allowDuplicate": true,
             "track": false,
             "replaceSelf": false
           }
@@ -936,11 +938,11 @@
         "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
-        "createdTime": 1781303994594,
-        "modifiedTime": 1781303994594,
+        "createdTime": 1781350665666,
+        "modifiedTime": 1781350665666,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
-        "duplicateSource": null,
+        "duplicateSource": "Item.7UBzGO9XvvEfpLUH.ActiveEffect.HKLO9t1SQnG5Mbah",
         "exportSource": null
       }
     }
