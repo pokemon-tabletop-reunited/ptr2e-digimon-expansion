@@ -843,8 +843,14 @@
       "x": 67,
       "y": 56,
       "connected": [
+        "etemon",
+        "mamemon",
         "gaomon",
-        "mushroomon"
+        "mushroomon",
+        "psychemon",
+        "super-starmon",
+        "tekkamon",
+        "volcanomon"
       ],
       "prerequisites": [
         {

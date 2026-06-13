@@ -805,7 +805,11 @@
       "x": 19,
       "y": 32,
       "connected": [
-        "choromon"
+        "hagurumon",
+        "choromon",
+        "kokuwamon",
+        "solarmon",
+        "toy-agumon"
       ],
       "prerequisites": [
         {

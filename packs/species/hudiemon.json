@@ -18,8 +18,7 @@
       "free",
       "champion",
       "winged",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5098,
     "stats": {
@@ -851,7 +850,11 @@
       "y": 78,
       "connected": [
         "lalamon",
-        "wormmon"
+        "wormmon",
+        "cannon-beemon",
+        "lilamon",
+        "lilymon",
+        "arukenimon"
       ],
       "prerequisites": [
         {
@@ -886,11 +889,12 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -903,8 +907,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -921,13 +927,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770953792065,
         "modifiedTime": 1770953831707,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "BNKQc69lsd1MJjOm"

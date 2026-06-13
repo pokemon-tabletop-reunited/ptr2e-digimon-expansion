@@ -813,7 +813,63 @@
       }
     ],
     "moves": {
-      "levelUp": [],
+      "levelUp": [
+        {
+          "name": "agility",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "defog",
+          "level": 0,
+          "gen": null
+        },
+        {
+          "name": "empathy-pulse",
+          "level": 20,
+          "gen": null
+        },
+        {
+          "name": "secret-force",
+          "level": 22,
+          "gen": null
+        },
+        {
+          "name": "topsy-turvy",
+          "level": 24,
+          "gen": null
+        },
+        {
+          "name": "derecho",
+          "level": 27,
+          "gen": null
+        },
+        {
+          "name": "moonblast",
+          "level": 30,
+          "gen": null
+        },
+        {
+          "name": "crescent-ray",
+          "level": 32,
+          "gen": null
+        },
+        {
+          "name": "box-in",
+          "level": 34,
+          "gen": null
+        },
+        {
+          "name": "ferric-flow",
+          "level": 37,
+          "gen": null
+        },
+        {
+          "name": "dazzling-burst",
+          "level": 39,
+          "gen": null
+        }
+      ],
       "tutor": []
     },
     "eggGroups": [],
@@ -827,7 +883,7 @@
         "patamon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-hope"
+        "item:equipment:digi-egg-of-hope"
       ]
     }
   },
@@ -854,11 +910,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -871,8 +928,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -889,13 +948,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767395676754,
         "modifiedTime": 1767395701195,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "e8E9kQbK7bISSewE"

@@ -849,8 +849,11 @@
       "x": 64,
       "y": 125,
       "connected": [
+        "cyberdramon",
         "agumon",
-        "huckmon"
+        "huckmon",
+        "metal-tyrannomon",
+        "rize-greymon"
       ],
       "prerequisites": [
         {

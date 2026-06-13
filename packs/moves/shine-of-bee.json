@@ -24,7 +24,8 @@
           "explode",
           "digimon",
           "pierce",
-          "danger-close"
+          "danger-close",
+          "flinch-90"
         ],
         "cost": {
           "activation": "complex",
@@ -35,7 +36,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>On resolution, the user is Delayed 100%.</p>",
+        "description": "<p>On resolution, the user is Delayed 90%.</p>",
         "range": {
           "target": "emanation",
           "distance": 7,
