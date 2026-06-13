@@ -823,11 +823,6 @@
           "gen": null
         },
         {
-          "name": "superspread",
-          "level": 34,
-          "gen": null
-        },
-        {
           "name": "flow-hands",
           "level": 21,
           "gen": null
@@ -853,6 +848,11 @@
           "gen": null
         },
         {
+          "name": "superspread",
+          "level": 34,
+          "gen": null
+        },
+        {
           "name": "noxious-torque",
           "level": 37,
           "gen": null
@@ -873,7 +873,10 @@
       "x": 54,
       "y": 184,
       "connected": [
-        "lanamon"
+        "lanamon",
+        "ancient-mermaimon",
+        "ebidramon",
+        "shagaramon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-water"
@@ -962,7 +965,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767088192513,
