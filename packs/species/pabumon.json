@@ -810,7 +810,11 @@
     "node": {
       "x": 8,
       "y": 75,
-      "connected": [],
+      "connected": [
+        "motimon",
+        "tanemon",
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },

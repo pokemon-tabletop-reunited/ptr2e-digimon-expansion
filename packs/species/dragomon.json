@@ -858,7 +858,10 @@
       "connected": [
         "octomon",
         "raremon",
-        "kurisarimon"
+        "kurisarimon",
+        "ebemon",
+        "parallelmon",
+        "vulcanusmon"
       ],
       "prerequisites": [
         {

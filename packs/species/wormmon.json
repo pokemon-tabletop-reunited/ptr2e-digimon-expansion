@@ -146,6 +146,10 @@
       "x": 30,
       "y": 83,
       "connected": [
+        "dokugumon",
+        "hudiemon",
+        "snimon",
+        "stingmon",
         "motimon"
       ],
       "prerequisites": [

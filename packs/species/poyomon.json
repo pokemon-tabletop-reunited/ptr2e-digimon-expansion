@@ -813,7 +813,10 @@
     "node": {
       "x": 9,
       "y": 167,
-      "connected": [],
+      "connected": [
+        "bukamon",
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

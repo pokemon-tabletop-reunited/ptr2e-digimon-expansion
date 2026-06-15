@@ -843,6 +843,9 @@
       "x": 63,
       "y": 64,
       "connected": [
+        "antylamon",
+        "deramon",
+        "garbagemon",
         "lalamon",
         "lopmon",
         "gotsumon"

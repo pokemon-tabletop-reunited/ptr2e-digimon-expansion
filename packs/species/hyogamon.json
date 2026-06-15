@@ -849,7 +849,11 @@
       "connected": [
         "lunamon",
         "gomamon",
-        "snow-goblimon"
+        "snow-goblimon",
+        "panjyamon",
+        "phantomon",
+        "snow-agumon",
+        "zudomon"
       ],
       "prerequisites": [
         {
