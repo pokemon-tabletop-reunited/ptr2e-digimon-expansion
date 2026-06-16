@@ -829,8 +829,10 @@
       "x": 154,
       "y": 14,
       "connected": [
+        "apocalymon",
         "skull-satamon",
-        "phantomon"
+        "phantomon",
+        "tekkamon"
       ],
       "prerequisites": [
         {

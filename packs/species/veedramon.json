@@ -848,9 +848,14 @@
       "x": 64,
       "y": 91,
       "connected": [
+        "aero-veedramon",
+        "cyberdramon",
+        "metal-greymon-blue",
+        "tekkamon",
         "veemon",
         "salamon",
-        "dracomon"
+        "dracomon",
+        "wingdramon"
       ],
       "prerequisites": [
         {

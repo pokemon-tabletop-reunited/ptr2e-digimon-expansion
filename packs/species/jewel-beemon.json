@@ -864,9 +864,13 @@
       "x": 112,
       "y": 65,
       "connected": [
+        "bancho-stingmon",
+        "hercules-kabuterimon",
         "stingmon",
         "flymon",
-        "snimon"
+        "snimon",
+        "tiger-vespamon",
+        "yanmamon"
       ],
       "prerequisites": [
         {

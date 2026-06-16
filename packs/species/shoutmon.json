@@ -867,8 +867,14 @@
       "x": 35,
       "y": 135,
       "connected": [
+        "bibimon",
+        "bulkmon",
+        "gargomon",
+        "guardromon-gold",
+        "omni-shoutmon",
         "koromon",
-        "demi-meramon"
+        "demi-meramon",
+        "zubaeagermon"
       ],
       "prerequisites": [
         {

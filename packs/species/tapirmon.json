@@ -860,7 +860,12 @@
       "x": 32,
       "y": 55,
       "connected": [
-        "wanyamon"
+        "bakemon",
+        "garurumon",
+        "kyubimon",
+        "meramon",
+        "wanyamon",
+        "unimon"
       ],
       "prerequisites": [
         {
