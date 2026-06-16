@@ -19,8 +19,10 @@
       "armour-digimon",
       "quadrupedal",
       "burrower",
-      "lithic"
+      "lithic",
+      "jump-6"
     ],
+    "number": 5926,
     "stats": {
       "hp": 100,
       "atk": 65,

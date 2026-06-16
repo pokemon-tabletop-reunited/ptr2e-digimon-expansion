@@ -24,8 +24,10 @@
       "awkward-flyer",
       "wool-production",
       "cushioned-fall",
-      "pack-mon"
+      "pack-mon",
+      "bait"
     ],
+    "number": 5930,
     "stats": {
       "hp": 95,
       "atk": 85,
@@ -815,13 +817,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "defense-curl",
-          "level": 23,
+          "name": "hypnosis",
+          "level": 21,
           "gen": null
         },
         {
-          "name": "hypnosis",
-          "level": 21,
+          "name": "defense-curl",
+          "level": 23,
           "gen": null
         },
         {

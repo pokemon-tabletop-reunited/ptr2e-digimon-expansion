@@ -20,8 +20,10 @@
       "bipedal",
       "winged",
       "freezer",
-      "guster"
+      "guster",
+      "calming"
     ],
+    "number": 5931,
     "stats": {
       "hp": 65,
       "atk": 95,
