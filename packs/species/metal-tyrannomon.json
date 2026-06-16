@@ -856,9 +856,14 @@
       "x": 112,
       "y": 134,
       "connected": [
+        "darklizamon",
+        "flarelizamon",
+        "machinedramon",
         "geo-greymon",
         "tyrannomon",
-        "coelamon"
+        "coelamon",
+        "rust-tyrannomon",
+        "ultimate-brachiomon"
       ],
       "prerequisites": [
         {
