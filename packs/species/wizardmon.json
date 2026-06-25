@@ -851,6 +851,9 @@
       "x": 57,
       "y": 14,
       "connected": [
+        "datamon",
+        "mistymon",
+        "wisemon",
         "dracmon",
         "impmon",
         "biyomon"
