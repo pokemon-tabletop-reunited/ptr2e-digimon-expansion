@@ -869,12 +869,7 @@
         "ancient-greymon"
       ],
       "prerequisites": [
-        {
-          "gte": [
-            "{actor|level}",
-            46
-          ]
-        }
+        "item:equipment:beast-spirit-of-flame"
       ]
     }
   },
