@@ -850,8 +850,14 @@
       "x": 28,
       "y": 151,
       "connected": [
+        "agunimon",
+        "bao-huckmon",
+        "birdramon",
         "demi-meramon",
-        "tokomon"
+        "tokomon",
+        "firamon",
+        "growlmon",
+        "meramon"
       ],
       "prerequisites": [
         {

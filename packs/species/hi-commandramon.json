@@ -865,6 +865,7 @@
       "x": 65,
       "y": 118,
       "connected": [
+        "cargodramon",
         "commandramon",
         "hagurumon",
         "kokuwamon",
