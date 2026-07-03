@@ -847,7 +847,11 @@
       "x": 31,
       "y": 57,
       "connected": [
-        "wanyamon"
+        "wanyamon",
+        "gao-gamon",
+        "garurumon-black",
+        "grizzlymon",
+        "mojyamon"
       ],
       "prerequisites": [
         {

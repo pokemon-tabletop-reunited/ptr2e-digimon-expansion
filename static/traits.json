@@ -17,26 +17,28 @@
       "data",
       "virus"
     ],
-    "description": "Gain +50% Damage versus Virus-trait Digimon. Inflict 50% less Damage vs Data-trait Digimon.",
+    "description": "Gain +1 Effectiveness Stage versus Virus-trait Digimon. Lose -1 Effectiveness Stage vs Data-trait Digimon.",
     "type":"automated",
     "changes": [
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": 50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": 1,
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Vaccine vs Virus"
       },
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": -50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": -1,
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Vaccine vs Data"
       }
     ]
   },
@@ -48,26 +50,28 @@
       "digimon",
       "virus"
     ],
-    "description": "Gain +50% Damage versus Vaccine-trait Digimon. Inflict 50% less Damage vs Virus-trait Digimon.",
+    "description": "Gain +1 Effectiveness Stage versus Vaccine-trait Digimon. Lose -1 Effectiveness Stage vs Virus-trait Digimon.",
     "type":"automated",
     "changes": [
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": 50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": 1,
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Vaccine vs Virus"
       },
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": -50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": -1,
         "predicate": [
           "target:trait:virus"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Vaccine vs Data"
       }
     ]
   },
@@ -79,26 +83,28 @@
       "data",
       "digimon"
     ],
-    "description": "Gain +50% Damage versus Data-trait Digimon. Inflict 50% less Damage vs Vaccine-trait Digimon.",
+    "description": "Gain +1 Effectiveness Stage versus Data-trait Digimon. Lose -1 Effectiveness Stage vs Vaccine-trait Digimon.",
     "type":"automated",
     "changes": [
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": 50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": 1,
         "predicate": [
           "target:trait:data"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Virus vs Data"
       },
       {
-        "type": "percentile-modifier",
-        "key": "damaging-attack-damage",
-        "value": -50,
+        "type": "flat-modifier",
+        "key": "damaging-attack-effectiveness-stage",
+        "value": -1,
         "predicate": [
           "target:trait:vaccine"
         ],
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "label": "Virus vs Vaccine"
       }
     ]
   },
@@ -126,6 +132,20 @@
       "digimon"
     ],
     "description": "In Training Digimon are one step up from Baby Digimon, but are still weak and undefined. Starter Digimon are sometimes given at this stage."
+  },
+    {
+    "slug": "Fresh",
+    "label": "Fresh",
+    "related": [
+      "baby",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "ultra",
+      "digimon"
+    ],
+    "description": "Fresh Digimon are the initial form of Baby Digimon, having freshly hatched from digitama. Starter Digimon are sometimes given at this stage."
   },
   {
     "slug": "rookie",
@@ -196,5 +216,33 @@
       "digimon"
     ],
     "description": "Ultra Digimon are true rarities, being temporary states of Mega Digimon, or DNA Fusions of multiple Mega Digimon."
+  },
+    {
+    "slug": "armour-digimon",
+    "label": "Armour Digimon",
+    "related": [
+      "baby",
+      "in-training",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "digimon"
+    ],
+    "description": "Armour Digimon are true rarities, requiring the use of Digi-Eggs in order to digivolve."
+  },
+    {
+    "slug": "hybrid",
+    "label": "Hybrid",
+    "related": [
+      "baby",
+      "in-training",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "digimon"
+    ],
+    "description": "Hybrid Digimon are strange and rare Digimon, resulting from the fusion of a Digimon and a Spirit."
   }
 ]

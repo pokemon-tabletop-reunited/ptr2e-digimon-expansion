@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "speed-charge",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -27,39 +27,21 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "flying"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Target: Self or Ally<br><br>Effect: This attack applies @UUID[Compendium.ptr2e.core-effects.WhhVbyViuFnbq8Pu]{+3 Speed Stages} for 3 activations.</p>",
         "range": {
           "target": "ally",
           "distance": 10,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
   "img": "systems/ptr2e/img/svg/flying_icon.svg",
@@ -74,20 +56,21 @@
           {
             "type": "roll-effect",
             "key": "speed-charge-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.WhhVbyViuFnbq8Pu",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.WhhVbyViuFnbq8Pu",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -101,8 +84,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -119,29 +104,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777488031375,
+        "modifiedTime": 1777488032794
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 2,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770466202584,
-    "modifiedTime": 1770466225726,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "jttNgl6Gaz4xpRIb",
-  "sort": 800000
+  "_id": "jttNgl6Gaz4xpRIb"
 }

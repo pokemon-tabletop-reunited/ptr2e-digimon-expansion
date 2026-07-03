@@ -1,0 +1,88 @@
+{
+  "name": "Circlet Defense",
+  "type": "effect",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "description": "",
+    "traits": []
+  },
+  "_id": "honXNtwZdBlhHr2M",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "effects": [
+    {
+      "name": "Circlet Defense",
+      "type": "affliction",
+      "_id": "5N7tUUcWNiKoAr2L",
+      "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+      "system": {
+        "changes": [],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage",
+        "predicate": []
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": 2,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Effect: The user enters the [Circlet Defense 2] state. While in the [Circlet Defense] state, on receiving a physical attack, the user may freely use the Circlet Defense (Counter) attack.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.360",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777556624680,
+        "modifiedTime": 1777556661176,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.4.beta",
+    "createdTime": 1777556591577,
+    "modifiedTime": 1777556610353,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}
