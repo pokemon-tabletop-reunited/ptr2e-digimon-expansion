@@ -19,7 +19,7 @@
         "name": "Will-O-Wisp Slash",
         "slug": "will-o-wisp-slash",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5398.png",
         "traits": [
           "digimon",
           "contact",
@@ -28,7 +28,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 4
         },
         "types": [
           "fire"
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 70,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "will-o-wisp-slash"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5398.png",
   "effects": [],
   "_id": "FkyZeoHGiVn327T7"
 }

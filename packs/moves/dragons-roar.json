@@ -19,7 +19,7 @@
         "name": "Dragon's Roar",
         "slug": "dragons-roar",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5380.png",
         "traits": [
           "digimon",
           "double-strike",
@@ -29,7 +29,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8
+          "powerPoints": 4
         },
         "types": [
           "dragon"
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "dragons-roar"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5380.png",
   "effects": [],
-  "flags": {},
   "_id": "GAH3ybWa5ybkVFxc"
 }
