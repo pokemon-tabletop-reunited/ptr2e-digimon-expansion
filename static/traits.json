@@ -61,7 +61,7 @@
           "target:trait:vaccine"
         ],
         "hideIfDisabled": true,
-        "label": "Vaccine vs Virus"
+        "label": "Data vs Vaccine"
       },
       {
         "type": "flat-modifier",
@@ -71,7 +71,7 @@
           "target:trait:virus"
         ],
         "hideIfDisabled": true,
-        "label": "Vaccine vs Data"
+        "label": "Data vs Virus"
       }
     ]
   },
