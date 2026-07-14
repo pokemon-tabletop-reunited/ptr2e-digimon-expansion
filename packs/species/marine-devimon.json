@@ -860,10 +860,12 @@
       "x": 114,
       "y": 158,
       "connected": [
+        "leviamon",
         "dolphmon",
         "gesomon",
         "coelamon",
-        "ice-devimon"
+        "ice-devimon",
+        "plutomon"
       ],
       "prerequisites": [
         {
