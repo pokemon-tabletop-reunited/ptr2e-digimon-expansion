@@ -11,6 +11,7 @@
         "build:js": "vite build",
         "migration:1": "tsx ./build/manual-migrations/update-species.ts",
         "migration:2": "tsx ./build/manual-migrations/add-species-art.ts",
+        "migration:3": "tsx ./build/manual-migrations/add-bidirectional-evolution-link.ts",
         "clean": "tsx ./build/clean.ts",
         "watch": "vite build --watch --mode development",
         "hot": "vite serve",

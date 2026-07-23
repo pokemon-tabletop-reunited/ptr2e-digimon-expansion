@@ -854,10 +854,16 @@
       "x": 65,
       "y": 130,
       "connected": [
+        "hisyaryumon",
+        "mega-seadramon",
         "betamon",
         "dracomon",
         "elecmon",
-        "otamamon"
+        "otamamon",
+        "sharkmon",
+        "skull-seadramon",
+        "waru-seadramon",
+        "whamon"
       ],
       "prerequisites": [
         {
