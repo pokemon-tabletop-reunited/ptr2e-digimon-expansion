@@ -1004,6 +1004,27 @@
             "inMemoryOnly": false,
             "track": false,
             "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.hpYIdzBMtSIO15IZ",
+            "phase": "initial",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:marine-kimeramon"
+            ],
+            "reevaluateOnUpdate": true,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1036,7 +1057,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1784764448217,
-        "modifiedTime": 1784764448217,
+        "modifiedTime": 1784843714345,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
