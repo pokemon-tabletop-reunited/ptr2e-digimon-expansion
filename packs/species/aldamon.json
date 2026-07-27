@@ -827,15 +827,13 @@
       "y": 150,
       "connected": [
         "agunimon",
-        "burning-greymon"
+        "burning-greymon",
+        "kaiser-greymon",
+        "ancient-greymon"
       ],
       "prerequisites": [
-        {
-          "gte": [
-            "{actor|level}",
-            43
-          ]
-        }
+        "item:equipment:human-spirit-of-flame",
+        "item:equipment:beast-spirit-of-flame"
       ]
     }
   },
@@ -862,11 +860,12 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -879,8 +878,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -897,13 +898,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767034763246,
         "modifiedTime": 1767034798644,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "gtNao45hkoCr7Yf6"

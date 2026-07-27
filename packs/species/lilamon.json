@@ -845,9 +845,14 @@
       "x": 107,
       "y": 58,
       "connected": [
+        "hudiemon",
         "sunflowmon",
         "kabuterimon",
-        "kiwimon"
+        "kiwimon",
+        "lilithmon",
+        "ninjamon",
+        "puppetmon",
+        "rosemon"
       ],
       "prerequisites": [
         {

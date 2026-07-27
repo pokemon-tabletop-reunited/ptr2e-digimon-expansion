@@ -1,0 +1,109 @@
+{
+  "folder": null,
+  "name": "Callous Dimension",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Callous Dimension",
+        "slug": "callous-dimension",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5701.png",
+        "traits": [
+          "digimon",
+          "weather"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On resolution, if @UUID[Compendium.ptr2e.core-summons.8EVtue4CUOjddZIP]{Snowy Weather} is not present, summon @UUID[Compendium.ptr2e.core-summons.8EVtue4CUOjddZIP]{Snowy Weather} for 3 activations.</p>",
+        "range": {
+          "target": "emanation",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      },
+      {
+        "name": "Callous Dimension (Weather Effect)",
+        "slug": "callous-dimension-weather-effect",
+        "description": "<p>Effect: On resolution, summon @UUID[Compendium.ptr2e.core-summons.8EVtue4CUOjddZIP]{Snowy Weather} for 3 activations.</p>",
+        "traits": [],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5701.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e.core-summons.8EVtue4CUOjddZIP",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "RdLsR1s1RckQ67uw",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5701.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1784022379833,
+    "modifiedTime": 1784024344567,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 5900000
+}

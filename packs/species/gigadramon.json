@@ -855,9 +855,12 @@
       "x": 112,
       "y": 75,
       "connected": [
+        "chaosdramon",
+        "devidramon",
         "airdramon",
         "raptordramon",
-        "coredramon-blue"
+        "coredramon-blue",
+        "gundramon"
       ],
       "prerequisites": [
         {
