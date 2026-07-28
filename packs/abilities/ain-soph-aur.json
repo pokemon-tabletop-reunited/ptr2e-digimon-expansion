@@ -1,0 +1,136 @@
+{
+  "folder": "ANyTBaCvsFOl1tzn",
+  "name": "Ain Soph Aur",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [],
+    "description": "<p>Trigger: The user is hit with a Special Attack.</p><p>Effect: The user gains @Tick[2 shield].</p><p>Bonus: Grants @UUID[Compendium.ptr2e-digimon-expansion.digimon-abilities.iIyOS8b2b5LDrBao]{Miracle} as an Extra Ability.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "DjG0u5txX72zzDo9",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5927.png",
+  "effects": [
+    {
+      "name": "Ain Soph Nur",
+      "type": "passive",
+      "_id": "ApGlymRnn1YNefwT",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "defensive",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.value",
+                "value": 2
+              }
+            ],
+            "dontMerge": false,
+            "key": "special-attack",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.iIyOS8b2b5LDrBao",
+            "phase": "initial",
+            "predicate": [],
+            "allowDuplicate": false,
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "reevaluateOnUpdate": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1781303041586,
+        "modifiedTime": 1781303041586,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781303041586,
+    "modifiedTime": 1781303041586,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

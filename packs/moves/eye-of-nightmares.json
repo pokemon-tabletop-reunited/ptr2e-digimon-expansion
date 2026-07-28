@@ -58,16 +58,17 @@
           {
             "type": "roll-effect",
             "key": "eye-of-nightmares-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
             "predicate": [],
             "chance": 100,
             "affects": "target",
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "isFixedChance": false,
             "alterations": [],
-            "dontMerge": false
+            "dontMerge": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -79,17 +80,15 @@
         "formula": "",
         "type": "damage",
         "removeAfterAttacking": false,
-        "removeAfterAttacked": false
+        "removeAfterAttacked": false,
+        "predicate": []
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -101,14 +100,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "0.10.0-alpha.5.0",
+        "systemVersion": "1.7.4.beta",
         "createdTime": 1736398977431,
-        "modifiedTime": 1736399015468,
-        "lastModifiedBy": "IXsEzbSWqpGyrmcc",
+        "modifiedTime": 1777537819342,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "KDfjIv5STQco0KrW"

@@ -858,7 +858,15 @@
       "x": 35,
       "y": 177,
       "connected": [
-        "bukamon"
+        "ankylomon",
+        "cyclonemon",
+        "flymon",
+        "geremon",
+        "gesomon",
+        "bukamon",
+        "jungle-mojyamon",
+        "lanamon",
+        "zubaeagermon"
       ],
       "prerequisites": [
         {

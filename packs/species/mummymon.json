@@ -851,9 +851,12 @@
       "x": 111,
       "y": 164,
       "connected": [
+        "avenge-kidmon",
+        "hi-andromon",
         "dobermon",
         "ogremon",
-        "dokugumon"
+        "dokugumon",
+        "pharoahmon"
       ],
       "prerequisites": [
         {
