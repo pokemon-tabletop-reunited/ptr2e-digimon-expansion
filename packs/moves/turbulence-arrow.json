@@ -23,6 +23,7 @@
         "type": "attack",
         "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5724.png",
         "traits": [
+          "digimon",
           "10-strike",
           "missile"
         ],
@@ -77,7 +78,7 @@
     "systemId": "ptr2e",
     "systemVersion": "1.7.6.beta",
     "createdTime": 1784763745390,
-    "modifiedTime": 1784763745390,
+    "modifiedTime": 1785163251270,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "compendiumSource": null,
     "duplicateSource": null,
