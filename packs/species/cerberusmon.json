@@ -851,9 +851,13 @@
       "x": 108,
       "y": 26,
       "connected": [
+        "baihumon",
         "dobermon",
         "monochromon",
-        "kyubimon"
+        "kyubimon",
+        "metal-garurumon-black",
+        "plutomon",
+        "saber-leomon"
       ],
       "prerequisites": [
         {
@@ -888,7 +892,8 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -908,7 +913,8 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -925,8 +931,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -943,12 +951,185 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.358",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
+        "systemVersion": "1.7.0.beta.rc.2",
         "createdTime": 1767089746338,
-        "modifiedTime": 1767089805611,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
+        "modifiedTime": 1774799048475,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    },
+    {
+      "name": "Werewolf",
+      "type": "form",
+      "_id": "cVtWJvC7xbOJvKXo",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229_werewolf.png",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-option",
+            "key": "manual-forme-toggle",
+            "value": "forme:werewolf:active",
+            "domain": "all",
+            "toggleable": true,
+            "label": "Toggle: Werewolf Forme",
+            "predicate": [],
+            "phase": "initial",
+            "state": true,
+            "alwaysActive": false,
+            "count": false,
+            "method": 2,
+            "ignored": false,
+            "suboptions": []
+          },
+          {
+            "type": "stats-alteration",
+            "value": 0,
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "hp": null,
+            "atk": -10,
+            "def": -10,
+            "spa": 50,
+            "spd": -10,
+            "spe": null,
+            "key": "",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "suppress-ability",
+            "value": 0,
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "key": "self-sufficient",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e.core-abilities.Item.jXsgiVvlZju6eoNm",
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "reevaluateOnUpdate": true,
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.free",
+                "value": "true"
+              }
+            ],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "remove-trait",
+            "value": "quadrupedal",
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "key": "",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "add-trait",
+            "value": "bipedal",
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "key": "",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "add-trait",
+            "value": "rapid",
+            "phase": "initial",
+            "predicate": [
+              "forme:werewolf:active"
+            ],
+            "key": "",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "token-alterations",
+            "predicate": [
+              "forme:werewolf:active",
+              "forme:werewolf:active"
+            ],
+            "key": "",
+            "value": 0,
+            "priority": null,
+            "ignored": false,
+            "texture": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5229_werewolf.png",
+            "tint": null,
+            "scale": null,
+            "name": null,
+            "light": null,
+            "alpha": null,
+            "method": 2,
+            "phase": "initial"
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "trigger": "manual",
+        "conditions": []
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.358",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.0.beta.rc.3",
+        "createdTime": 1774876736995,
+        "modifiedTime": 1774877033517,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       }
     }
   ],

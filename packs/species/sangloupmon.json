@@ -869,11 +869,15 @@
       "x": 59,
       "y": 15,
       "connected": [
+        "astamon",
+        "matadormon",
+        "myotismon",
         "impmon",
         "dorumon",
         "salamon",
         "dracmon",
-        "gazimon"
+        "gazimon",
+        "were-garurumon-black"
       ],
       "prerequisites": [
         {

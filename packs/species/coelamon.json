@@ -853,7 +853,13 @@
         "crabmon",
         "betamon",
         "syakomon",
-        "ryudamon"
+        "ryudamon",
+        "divermon",
+        "marine-devimon",
+        "metal-tyrannomon",
+        "scorpiomon",
+        "skull-seadramon",
+        "waru-seadramon"
       ],
       "prerequisites": [
         {
