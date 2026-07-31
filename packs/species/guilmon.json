@@ -849,7 +849,12 @@
       "x": 32,
       "y": 130,
       "connected": [
-        "koromon"
+        "dark-tyrannomon",
+        "ex-veemon",
+        "greymon-blue",
+        "growlmon",
+        "koromon",
+        "tyrannomon"
       ],
       "prerequisites": [
         {

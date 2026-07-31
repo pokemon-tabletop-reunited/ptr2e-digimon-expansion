@@ -36,9 +36,9 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
-      "height": 0,
-      "weight": 0
+      "type": "quad",
+      "height": 1.7,
+      "weight": 70
     },
     "diet": [],
     "abilities": {
@@ -845,9 +845,14 @@
       "x": 62,
       "y": 8,
       "connected": [
+        "crowmon",
+        "megadramon",
+        "phantomon",
         "agumon-black",
         "gabumon-black",
-        "demi-devimon"
+        "demi-devimon",
+        "garudamon",
+        "tsukaimon"
       ],
       "prerequisites": [
         {
@@ -882,11 +887,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -899,8 +905,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -917,13 +925,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767607404367,
         "modifiedTime": 1767607428649,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "328fdNt5ClPDkZi8"

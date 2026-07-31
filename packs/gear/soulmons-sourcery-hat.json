@@ -74,21 +74,21 @@
             "predicate": [],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
+            "phase": "initial",
+            "state": true,
+            "method": 2,
             "ignored": false,
-            "suboptions": [],
-            "state": false
+            "suboptions": []
           },
           {
             "type": "grant-item",
             "predicate": [
               "forme:soulmon:active"
             ],
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.ghiixlqE2L93imKm",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.free",
                 "value": "true"
               }
@@ -99,7 +99,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -110,11 +112,10 @@
             "predicate": [
               "forme:soulmon:active"
             ],
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.bg3rPoBiea6oeXyZ",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.actions.0.free",
                 "value": "true"
               }
@@ -125,7 +126,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -144,8 +147,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -158,11 +163,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777484552665,
+        "modifiedTime": 1777484557473
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "O0Aq9tB43TFwCH47"
