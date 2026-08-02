@@ -858,7 +858,14 @@
       "x": 32,
       "y": 74,
       "connected": [
-        "tanemon"
+        "jungle-mojyamon",
+        "kurisarimon",
+        "mojyamon",
+        "tanemon",
+        "platinum-sukamon",
+        "togemon",
+        "vegiemon",
+        "woodmon"
       ],
       "prerequisites": [
         {

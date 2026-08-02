@@ -856,9 +856,12 @@
       "x": 113,
       "y": 90,
       "connected": [
+        "shima-unimon",
         "ginryumon",
         "coredramon-green",
-        "greymon"
+        "greymon",
+        "skull-mammothmon",
+        "titamon"
       ],
       "prerequisites": [
         {

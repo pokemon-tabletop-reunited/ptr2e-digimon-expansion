@@ -856,7 +856,10 @@
       "connected": [
         "wendigomon",
         "turuiemon",
-        "mud-frigimon"
+        "mud-frigimon",
+        "cherubimon-vice",
+        "cherubimon-virtue",
+        "dianamon"
       ],
       "prerequisites": [
         {

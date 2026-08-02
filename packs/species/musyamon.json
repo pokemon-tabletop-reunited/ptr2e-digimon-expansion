@@ -853,6 +853,9 @@
       "x": 67,
       "y": 91,
       "connected": [
+        "butenmon",
+        "grademon",
+        "hisyaryumon",
         "zubamon",
         "kotemon",
         "shamamon"

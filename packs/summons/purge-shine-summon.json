@@ -1,0 +1,46 @@
+{
+  "folder": null,
+  "name": "Purge Shine (Summon)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon"
+    ],
+    "description": "",
+    "actions": [],
+    "baseAV": 150,
+    "duration": 3,
+    "owner": null
+  },
+  "_id": "dlipp5wiMthJeHhV",
+  "img": "icons/svg/angel.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515574607,
+    "modifiedTime": 1775515574607,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}
