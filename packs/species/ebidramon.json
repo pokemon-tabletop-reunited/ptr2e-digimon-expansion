@@ -34,9 +34,9 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
-      "height": 0,
-      "weight": 0
+      "type": "quad",
+      "height": 1.7,
+      "weight": 120
     },
     "diet": [],
     "abilities": {
@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sea-shanty",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "aqua-tail",
           "level": 22,
           "gen": null
@@ -844,6 +839,11 @@
         {
           "name": "anvil-shatter",
           "level": 36,
+          "gen": null
+        },
+        {
+          "name": "sea-shanty",
+          "level": 40,
           "gen": null
         }
       ],

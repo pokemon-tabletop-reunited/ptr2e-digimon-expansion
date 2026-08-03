@@ -73,7 +73,7 @@
     "movement": [
       {
         "type": "overland",
-        "value": 13
+        "value": 18
       },
       {
         "type": "swim",
