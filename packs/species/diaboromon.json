@@ -823,6 +823,7 @@
       "x": 148,
       "y": 5,
       "connected": [
+        "armageddemon",
         "datamon",
         "infermon"
       ],

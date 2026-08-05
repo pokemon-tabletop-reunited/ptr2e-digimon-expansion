@@ -19,7 +19,8 @@
       "rookie",
       "bipedal",
       "rapid",
-      "beast"
+      "beast",
+      "darkvision-20"
     ],
     "number": 5063,
     "stats": {
@@ -878,7 +879,12 @@
       "x": 29,
       "y": 58,
       "connected": [
-        "wanyamon"
+        "garurumon-black",
+        "kyubimon",
+        "lekismon",
+        "wanyamon",
+        "reppamon",
+        "sunflowmon"
       ],
       "prerequisites": [
         {

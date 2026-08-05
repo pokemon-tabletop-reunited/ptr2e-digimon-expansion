@@ -941,6 +941,7 @@
       "x": 34,
       "y": 160,
       "connected": [
+        "lucemon-falldown-mode",
         "tokomon"
       ],
       "prerequisites": [

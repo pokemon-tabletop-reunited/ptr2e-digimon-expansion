@@ -859,9 +859,13 @@
       "x": 103,
       "y": 51,
       "connected": [
+        "crusadermon",
         "clockmon",
         "dinohyumon",
-        "zubaeagermon"
+        "zubaeagermon",
+        "leopardmon",
+        "slash-angemon",
+        "zanbamon"
       ],
       "prerequisites": [
         {

@@ -849,6 +849,8 @@
       "x": 109,
       "y": 125,
       "connected": [
+        "ceresmon",
+        "marine-angemon",
         "angemon",
         "gekomon",
         "kiwimon"

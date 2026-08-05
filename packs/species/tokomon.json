@@ -175,7 +175,14 @@
       "x": 21,
       "y": 162,
       "connected": [
-        "poyomon"
+        "armadillomon",
+        "coronamon",
+        "lucemon",
+        "patamon",
+        "sistermon-blanc",
+        "terriermon",
+        "poyomon",
+        "tsukaimon"
       ],
       "prerequisites": [
         {
