@@ -860,9 +860,13 @@
       "x": 114,
       "y": 146,
       "connected": [
+        "clavis-angemon",
+        "goldramon",
         "angemon",
         "unimon",
-        "sorcermon"
+        "sorcermon",
+        "seraphimon",
+        "slash-angemon"
       ],
       "prerequisites": [
         {

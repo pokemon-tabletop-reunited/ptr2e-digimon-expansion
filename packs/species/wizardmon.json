@@ -851,6 +851,9 @@
       "x": 57,
       "y": 14,
       "connected": [
+        "datamon",
+        "mistymon",
+        "wisemon",
         "dracmon",
         "impmon",
         "biyomon"
@@ -868,22 +871,17 @@
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5134.png",
   "effects": [
     {
-      "name": "Signature Move",
-      "type": "form",
-      "_id": "wbX40WBbyrFsaVz2",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "name": "Signature Moves",
+      "type": "passive",
+      "_id": "3WL9QheWRqf7GHs7",
+      "img": "icons/svg/aura.svg",
       "system": {
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.JY80QNQb6u4LcVla",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.mzkyEDc5TQCwm0wa",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:wizardmon",
-              "forme:signature-moves:active",
-              "forme:forme:active",
-              "weather:clear",
-              "forme:signature-move:active"
+              "item:ptr2e-digimon-expansion.digimonSpecies:wizardmon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -892,7 +890,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.yTqhvcZc3UcHwn6y",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:wizardmon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -905,34 +926,35 @@
         "removeOnRecall": false,
         "removeAfterAttacking": false,
         "removeAfterAttacked": false,
-        "stacks": 0,
-        "trigger": "manual",
-        "conditions": [
-          "weather:clear"
-        ]
+        "stacks": 0
       },
       "disabled": false,
+      "start": null,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
+      "showIcon": 1,
+      "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1784231758018,
+        "modifiedTime": 1784231811397,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "createdTime": 1772424023932,
-        "modifiedTime": 1772424090680,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+        "exportSource": null
       }
     }
   ],

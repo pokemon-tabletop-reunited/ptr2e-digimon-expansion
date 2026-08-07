@@ -1,0 +1,200 @@
+{
+  "folder": null,
+  "name": "Treasure Wheel",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Treasure Wheel (Red)",
+        "slug": "treasure-wheel-action-3",
+        "description": "<p>Effect: This attack resolves against SPDEF</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "wide-line",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "ground"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "atk",
+        "defensiveStat": "spd",
+        "predicate": [],
+        "power": 125,
+        "accuracy": 90
+      },
+      {
+        "name": "Treasure Wheel (Blue)",
+        "slug": "treasure-wheel-action-2",
+        "description": "<p>Effect: On hit, all valid targets are @Affliction[bound 7]. While @Affliction[bound], their Speed is halved. This @Affliction[bound] effect can be removed with an Intense Movement-related Skill, Acrobatics, Lift, Navigate, Natural World, Survival, or Track Skill Check taken as a Complex Action.</p>",
+        "traits": [],
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 9,
+          "unit": "m"
+        },
+        "types": [
+          "psychic"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": null,
+        "accuracy": 100
+      },
+      {
+        "name": "Treasure Wheel (Yellow)",
+        "slug": "treasure-wheel-action-4",
+        "description": "<p>Effect: The user gains a flight score equal to double their overland score for 3 Activations.</p>",
+        "traits": [],
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": 1,
+          "unit": "m"
+        },
+        "types": [
+          "psychic"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": null,
+        "accuracy": 100
+      },
+      {
+        "name": "Treasure Wheel (Green)",
+        "slug": "treasure-wheel-action-5",
+        "description": "<p>Effect: The user places 1 Green Wheel Hazard within range. If a creature is standing there, they recover @Tick[4] at the end of their turn.</p>",
+        "traits": [],
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "emanation",
+          "distance": 3,
+          "unit": "m"
+        },
+        "types": [
+          "grass"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "XC80ffdl5HTvbVYr",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785842268777,
+    "modifiedTime": 1785842268777,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

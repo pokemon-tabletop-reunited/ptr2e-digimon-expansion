@@ -850,8 +850,12 @@
       "x": 62,
       "y": 74,
       "connected": [
+        "cannon-beemon",
         "fan-beemon",
-        "tentomon"
+        "tentomon",
+        "kimeramon",
+        "lilamon",
+        "mega-kabuterimon"
       ],
       "prerequisites": [
         {

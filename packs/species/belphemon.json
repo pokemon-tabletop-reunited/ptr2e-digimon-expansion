@@ -839,12 +839,11 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.D8JyOIVe0QKg3Yr8",
             "predicate": [],
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.free",
                 "value": "true"
               }
@@ -854,7 +853,9 @@
               "granter": "cascade"
             },
             "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "reevaluateOnUpdate": false,
             "inMemoryOnly": false,
@@ -872,8 +873,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -890,12 +893,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020731824
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777485376313,
+        "createdTime": 1777485363952
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Rage Mode",
@@ -914,17 +921,17 @@
             "predicate": [],
             "alwaysActive": false,
             "count": false,
-            "mode": 2,
+            "phase": "initial",
+            "state": true,
+            "method": 2,
             "ignored": false,
-            "suboptions": [],
-            "state": false
+            "suboptions": []
           },
           {
             "type": "stats-alteration",
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "key": "",
             "value": 0,
             "hp": null,
             "atk": 160,
@@ -932,7 +939,9 @@
             "spa": -100,
             "spd": -10,
             "spe": null,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false
           },
           {
@@ -940,11 +949,10 @@
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.QFOJB00Ym1lwUVZK",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QFOJB00Ym1lwUVZK",
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.actions.0.free",
                 "value": "true"
               }
@@ -955,7 +963,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -968,7 +978,8 @@
             ],
             "key": "comatose",
             "value": 0,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -978,7 +989,8 @@
             ],
             "key": "sweet-dreams",
             "value": 0,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -988,7 +1000,8 @@
             ],
             "key": "lazy",
             "value": 0,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
@@ -996,12 +1009,11 @@
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.rSYO6GLFA2E5JQvu",
             "allowDuplicate": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.free",
                 "value": "true"
               }
@@ -1011,7 +1023,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1022,11 +1036,10 @@
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "key": "",
             "value": "Compendium.ptr2e.core-abilities.Item.0slSWf8A2NVtWyqZ",
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.free",
                 "value": "true"
               }
@@ -1037,7 +1050,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1048,11 +1063,10 @@
             "predicate": [
               "forme:rage-mode:active"
             ],
-            "key": "",
-            "value": "Compendium.ptr2e.core-abilities.Item.H5Bj6BH9PXRl0ryU",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.H5Bj6BH9PXRl0ryU",
             "alterations": [
               {
-                "mode": 5,
+                "method": 2,
                 "property": "system.free",
                 "value": "true"
               }
@@ -1063,7 +1077,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1082,8 +1098,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1096,12 +1114,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": "mK35yvCqCgiTUvKf",
-        "modifiedTime": 1767020744076
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777485502041,
+        "createdTime": 1775554922346
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "name": "Signature Moves",
@@ -1112,7 +1134,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.SK8wrizob1mlXXrh",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:belphemon"
@@ -1124,7 +1145,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1132,7 +1155,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QFOJB00Ym1lwUVZK",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:belphemon"
@@ -1144,7 +1166,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.ysC6ZdbOC2oq8Saf",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:belphemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -1161,8 +1206,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -1179,13 +1226,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1773349325020,
-        "modifiedTime": 1773349426552,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1775552891367,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "6OWmOJCIv6b2PeFC"

@@ -853,9 +853,12 @@
       "x": 69,
       "y": 90,
       "connected": [
+        "dinobeemon",
         "veemon",
         "dorumon",
-        "guilmon"
+        "guilmon",
+        "paildramon",
+        "rize-greymon"
       ],
       "prerequisites": [
         {
