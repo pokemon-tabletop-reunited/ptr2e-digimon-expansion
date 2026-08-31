@@ -847,10 +847,14 @@
       "x": 66,
       "y": 71,
       "connected": [
+        "mammothmon",
+        "mistymon",
         "bearmon",
         "gomamon",
         "palmon",
-        "terriermon"
+        "terriermon",
+        "piximon",
+        "zudomon"
       ],
       "prerequisites": [
         {

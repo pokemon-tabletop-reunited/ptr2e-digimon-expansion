@@ -855,9 +855,12 @@
       "x": 115,
       "y": 173,
       "connected": [
+        "jumbo-gamemon",
         "reppamon",
         "ikkakumon",
-        "seadramon"
+        "seadramon",
+        "metal-seadramon",
+        "ouryumon"
       ],
       "prerequisites": [
         {
