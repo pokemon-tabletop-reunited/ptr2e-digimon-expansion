@@ -857,10 +857,12 @@
       "x": 114,
       "y": 68,
       "connected": [
+        "jesmon",
         "strikedramon",
         "gao-gamon",
         "bao-huckmon",
-        "firamon"
+        "firamon",
+        "tiger-vespamon"
       ],
       "prerequisites": [
         {

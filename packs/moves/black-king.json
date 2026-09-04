@@ -1,0 +1,147 @@
+{
+  "folder": null,
+  "name": "Black King",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Black King",
+        "slug": "black-king",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5952.png",
+        "traits": [
+          "digimon",
+          "dash",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dark"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user may freely relocate themself to the far end of the Wide Line area. On hit, this attack inflicts @UUID[Compendium.ptr2e.core-effects-new.26IPhMibQ0lzvAqS]{Vulnerable (Dark)}.</p>",
+        "range": {
+          "target": "wide-line",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 125,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "a6jnU8hrR2NtkvY8",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5952.png",
+  "effects": [
+    {
+      "name": "Black King",
+      "type": "passive",
+      "_id": "rThYysEiZ1kDlG8V",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.26IPhMibQ0lzvAqS",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "black-king-attack",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1781738928710,
+        "modifiedTime": 1781738928710,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781738928710,
+    "modifiedTime": 1781738928710,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}
