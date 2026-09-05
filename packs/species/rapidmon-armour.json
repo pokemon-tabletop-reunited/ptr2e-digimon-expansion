@@ -855,7 +855,18 @@
       "x": 46,
       "y": 156,
       "connected": [
-        "terriermon"
+        "terriermon",
+        "gargomon",
+        "gold-veedramon",
+        "guardromon-gold",
+        "lopmon",
+        "makuramon",
+        "pajiramon",
+        "rapidmon",
+        "leopardmon",
+        "hercules-kabuterimon",
+        "magnamon",
+        "omni-shoutmon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-destiny"
@@ -923,7 +934,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767396708270,
