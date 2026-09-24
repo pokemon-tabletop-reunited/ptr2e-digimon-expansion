@@ -1,0 +1,171 @@
+{
+  "folder": null,
+  "name": "Digitally Innovative",
+  "type": "perk",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": "<p>While the user has @UUID[Compendium.ptr2e.core-abilities.innovativability]{Innovative} slotted, their Attacks originating from @Trait[attach-skill] items also benefit from the Ability.</p>"
+    },
+    "actions": [],
+    "slug": "digitally-innovative",
+    "description": "<p>While the user has @UUID[Compendium.ptr2e.core-abilities.innovativability]{Innovative} slotted, their Attacks originating from @Trait[attach-skill] items also benefit from the Ability.</p>",
+    "traits": [
+      "digimon"
+    ],
+    "prerequisites": [
+      "item:ability:innovative"
+    ],
+    "autoUnlock": [],
+    "cost": 3,
+    "originSlug": null,
+    "design": {
+      "arena": "mental",
+      "approach": "power",
+      "archetype": "digimon"
+    },
+    "variant": null,
+    "mode": null,
+    "global": true,
+    "webs": [],
+    "traitWebs": [],
+    "nodes": [
+      {
+        "x": 178,
+        "y": 55,
+        "hidden": false,
+        "type": "normal",
+        "connected": [
+          "belt-expansion-1",
+          "edgerunner",
+          "trained-wielder"
+        ],
+        "config": {
+          "texture": null,
+          "backgroundColor": null,
+          "borderColor": null,
+          "tint": null
+        },
+        "tier": null
+      }
+    ]
+  },
+  "_id": "80KmEnnZKYNap4lg",
+  "img": "icons/commodities/tech/phone-smart-tablet.webp",
+  "effects": [
+    {
+      "name": "Digitally Innovative",
+      "type": "passive",
+      "_id": "mw1wcCxYlYzAhbZl",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "key": "attack-power",
+            "value": 20,
+            "predicate": [
+              "actor:item:ability:innovative:active",
+              "self:action:trait:attach-skill"
+            ],
+            "priority": null,
+            "hideIfDisabled": true,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "value": "floor(@actor.system.advancement.level/9)",
+            "phase": "initial",
+            "predicate": [
+              "actor:item:ability:innovative:active",
+              "self:action:trait:attach-skill"
+            ],
+            "key": "attack-damage",
+            "hideIfDisabled": true,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "ephemeral-effect",
+            "key": "attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.auJlcV40ua09ITga",
+            "predicate": [
+              "actor:item:ability:innovative:active",
+              "self:action:trait:attach-skill"
+            ],
+            "affects": "self",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.value",
+                "value": 15
+              }
+            ],
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "stacks": 0,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false
+      },
+      "disabled": false,
+      "duration": {
+        "units": "turns",
+        "value": null,
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1790267410298,
+        "modifiedTime": 1790267410298,
+        "lastModifiedBy": "dgye2I5sN06rQmNS",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "dgye2I5sN06rQmNS": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1790267410298,
+    "modifiedTime": 1790267414248,
+    "lastModifiedBy": "dgye2I5sN06rQmNS",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 100000
+}
