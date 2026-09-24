@@ -75,7 +75,13 @@
               "equipment:skill-disc-lightning-claw-3"
             ],
             "reevaluateOnUpdate": true,
-            "alterations": [],
+            "alterations": [
+              {
+                "method": 2,
+                "property": "system.actions.0.traits",
+                "value": "attach-skill"
+              }
+            ],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"

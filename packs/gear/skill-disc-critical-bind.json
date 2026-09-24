@@ -75,7 +75,13 @@
               "equipment:skill-disc-critical-bind"
             ],
             "allowDuplicate": false,
-            "alterations": [],
+            "alterations": [
+              {
+                "method": 2,
+                "property": "system.actions.0.traits",
+                "value": "attach-skill"
+              }
+            ],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
