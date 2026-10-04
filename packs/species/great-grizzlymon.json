@@ -859,6 +859,8 @@
       "x": 109,
       "y": 55,
       "connected": [
+        "callismon",
+        "cherubimon-vice",
         "grizzlymon",
         "dorugamon"
       ],

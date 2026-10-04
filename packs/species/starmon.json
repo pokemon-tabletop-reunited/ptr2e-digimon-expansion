@@ -847,9 +847,14 @@
       "x": 60,
       "y": 25,
       "connected": [
+        "dark-super-starmon",
+        "mamemon",
         "dracmon",
         "solarmon",
-        "gotsumon"
+        "gotsumon",
+        "super-starmon",
+        "tekkamon",
+        "volcanomon"
       ],
       "prerequisites": [
         {

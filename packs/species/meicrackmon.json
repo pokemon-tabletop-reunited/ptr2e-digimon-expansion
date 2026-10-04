@@ -48,30 +48,9 @@
     },
     "diet": [],
     "abilities": {
-      "starting": [
-        {
-          "slug": "feline-prowess"
-        },
-        {
-          "slug": "homogeny"
-        }
-      ],
-      "basic": [
-        {
-          "slug": "berserk"
-        },
-        {
-          "slug": "fur-coat"
-        }
-      ],
-      "advanced": [
-        {
-          "slug": "blink"
-        },
-        {
-          "slug": "friend-guard"
-        }
-      ],
+      "starting": [],
+      "basic": [],
+      "advanced": [],
       "master": []
     },
     "movement": [
@@ -837,7 +816,7 @@
         },
         {
           "name": "shocking-stab",
-          "level": 48,
+          "level": 50,
           "gen": null
         },
         {
@@ -867,11 +846,15 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 110,
-      "y": 135,
+      "x": 112,
+      "y": 146,
       "connected": [
+        "magnadramon",
+        "meicrackmon-vm",
         "meicoomon",
-        "gatomon"
+        "gatomon",
+        "war-greymon",
+        "rasielmon"
       ],
       "prerequisites": [
         {
@@ -888,25 +871,26 @@
     {
       "name": "Signature Move",
       "type": "passive",
-      "_id": "peufFJoRUgSZWlef",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "_id": "6lXWskLlke8Ypguh",
+      "img": "icons/svg/aura.svg",
       "system": {
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.4VlSHcP7WRjx9uqA",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:meicrackmon"
             ],
+            "allowDuplicate": false,
             "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -922,34 +906,34 @@
         "stacks": 0
       },
       "disabled": false,
+      "start": null,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
+      "showIcon": 1,
+      "folder": null,
       "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
+      "flags": {},
       "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1780648615647,
+        "modifiedTime": 1780648656330,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "createdTime": 1770771201168,
-        "modifiedTime": 1770771524919,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
+        "exportSource": null
       }
     }
   ],
-  "flags": {},
   "_id": "kutWRPXBKkvP2l3g"
 }

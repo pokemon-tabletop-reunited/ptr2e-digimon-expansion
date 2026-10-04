@@ -856,6 +856,11 @@
       "x": 112,
       "y": 127,
       "connected": [
+        "chaos-gallantmon",
+        "chaosdramon",
+        "darklizamon",
+        "gallantmon",
+        "megidramon",
         "growlmon",
         "coredramon-green",
         "zubaeagermon"

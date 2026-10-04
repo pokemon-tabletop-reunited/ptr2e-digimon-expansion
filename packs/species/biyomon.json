@@ -871,7 +871,11 @@
       "x": 28,
       "y": 60,
       "connected": [
-        "yokomon"
+        "aquilamon",
+        "birdramon",
+        "yokomon",
+        "unimon",
+        "wizardmon"
       ],
       "prerequisites": [
         {

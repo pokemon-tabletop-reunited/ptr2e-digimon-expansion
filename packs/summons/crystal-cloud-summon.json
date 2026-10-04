@@ -22,7 +22,7 @@
     ],
     "actions": [
       {
-        "name": "Crystal Cloud (Summon) Action (#1)",
+        "name": "Crystal Cloud",
         "slug": "crystal-cloud-summon",
         "traits": [],
         "type": "summon",

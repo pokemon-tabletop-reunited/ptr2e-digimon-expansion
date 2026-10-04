@@ -846,9 +846,13 @@
       "x": 63,
       "y": 87,
       "connected": [
+        "cerberusmon",
+        "mammothmon",
         "gotsumon",
         "ryudamon",
-        "snow-goblimon"
+        "snow-goblimon",
+        "triceramon",
+        "vermilimon"
       ],
       "prerequisites": [
         {

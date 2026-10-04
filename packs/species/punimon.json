@@ -19,7 +19,8 @@
       "free",
       "speech",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5005,
     "stats": {
@@ -812,7 +813,10 @@
     "node": {
       "x": 7,
       "y": 96,
-      "connected": [],
+      "connected": [
+        "nyaromon",
+        "tsunomon"
+      ],
       "prerequisites": []
     }
   },

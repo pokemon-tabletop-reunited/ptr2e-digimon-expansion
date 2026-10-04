@@ -1,0 +1,91 @@
+{
+  "folder": null,
+  "name": "Full Throttle Edge",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Full Throttle Edge",
+        "slug": "full-throttle-edge",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5661.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "recoil-1-4",
+          "crash-1-2",
+          "crit-1",
+          "sharp",
+          "dash"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 115,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "_id": "GOcHrgRHn27GBaM1",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5661.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1782284615913,
+    "modifiedTime": 1782284615913,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

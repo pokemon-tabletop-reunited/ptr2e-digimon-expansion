@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Ultra Turbulence",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Mina"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ultra Turbulence",
+        "slug": "ultra-turbulence",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5947.png",
+        "traits": [
+          "digimon",
+          "wind",
+          "push-7"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "flying"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, all valid targets that collide with other creatures or suffer fall damage lose an additional @Tick[-1].</p><p>All valid targets drop their Accessory and Belt items to the ground and all @Trait[hazard] and @Trait[shield] attack effects in the attack's range are cleared.</p>",
+        "range": {
+          "target": "wide-line",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 110,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "pCCpx8KbQZqnO3qj",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5947.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "SPIreoQf6GaHVhuW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781738971009,
+    "modifiedTime": 1781738971009,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

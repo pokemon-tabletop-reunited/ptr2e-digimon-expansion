@@ -830,7 +830,8 @@
       "connected": [
         "arcadiamon-ultimate",
         "myotismon",
-        "infermon"
+        "infermon",
+        "arcadiamon-ultra"
       ],
       "prerequisites": [
         {

@@ -863,7 +863,14 @@
       "x": 37,
       "y": 29,
       "connected": [
-        "pagumon"
+        "bao-huckmon",
+        "black-gatomon",
+        "devidramon",
+        "dobermon",
+        "dorugamon",
+        "gao-gamon",
+        "pagumon",
+        "sangloupmon"
       ],
       "prerequisites": [
         {

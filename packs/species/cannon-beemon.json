@@ -858,7 +858,10 @@
       "connected": [
         "kabuterimon",
         "waspmon",
-        "guardromon-gold"
+        "guardromon-gold",
+        "hudiemon",
+        "mega-gargomon",
+        "tiger-vespamon"
       ],
       "prerequisites": [
         {

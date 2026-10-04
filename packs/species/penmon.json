@@ -858,6 +858,10 @@
       "x": 30,
       "y": 61,
       "connected": [
+        "aquilamon",
+        "buraimon",
+        "kiwimon",
+        "peckmon",
         "yokomon"
       ],
       "prerequisites": [

@@ -18,7 +18,8 @@
       "innate"
     ],
     "actions": [],
-    "description": "<p>@UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.6OWmOJCIv6b2PeFC]{Belphemon}'s attacks have a 30% chance to inflict @Affliction[drowsy 3] in addition to any other effects they may have.<br><br>Whilst in Sleep Mode, @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.6OWmOJCIv6b2PeFC]{Belphemon} gains @UUID[Compendium.ptr2e.core-abilities.D8JyOIVe0QKg3Yr8]{Comatose} as a Slotless Ability and the move @UUID[Compendium.ptr2e.core-moves.QFOJB00Ym1lwUVZK]{Gift of Darkness} is @Affliction[disabled].<br><br>Whilst in Rage Mode, @UUID[Compendium.ptr2e.core-moves.QFOJB00Ym1lwUVZK]{Gift of Darkness} becomes a Connected Move. The @UUID[Compendium.ptr2e.core-abilities.D8JyOIVe0QKg3Yr8]{Comatose}, @UUID[Compendium.ptr2e.core-abilities.f2U5Z13avChRt8wK]{Sweet Dreams} & @UUID[Compendium.ptr2e.core-abilities.3ZCH7gSdy6dr0L4N]{Lazy} Abilities become @Affliction[nullified], and in their place, Belphemon gains the @UUID[Compendium.ptr2e.core-abilities.rSYO6GLFA2E5JQvu]{Anger Point}, @UUID[Compendium.ptr2e.core-abilities.0slSWf8A2NVtWyqZ]{Rampage} and @UUID[Compendium.ptr2e.core-abilities.H5Bj6BH9PXRl0ryU]{Furious Howl} abilities.</p>"
+    "description": "<p>@UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.6OWmOJCIv6b2PeFC]{Belphemon}'s attacks have a 30% chance to inflict @Affliction[drowsy 3] in addition to any other effects they may have.<br><br>Whilst in Sleep Mode, @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.6OWmOJCIv6b2PeFC]{Belphemon} gains @UUID[Compendium.ptr2e.core-abilities.D8JyOIVe0QKg3Yr8]{Comatose} as a Slotless Ability and the move @UUID[Compendium.ptr2e.core-moves.QFOJB00Ym1lwUVZK]{Gift of Darkness} is @Affliction[disabled].<br><br>Whilst in Rage Mode, @UUID[Compendium.ptr2e.core-moves.QFOJB00Ym1lwUVZK]{Gift of Darkness} becomes a Connected Move. The @UUID[Compendium.ptr2e.core-abilities.D8JyOIVe0QKg3Yr8]{Comatose}, @UUID[Compendium.ptr2e.core-abilities.f2U5Z13avChRt8wK]{Sweet Dreams} & @UUID[Compendium.ptr2e.core-abilities.3ZCH7gSdy6dr0L4N]{Lazy} Abilities become @Affliction[nullified], and in their place, Belphemon gains the @UUID[Compendium.ptr2e.core-abilities.rSYO6GLFA2E5JQvu]{Anger Point}, @UUID[Compendium.ptr2e.core-abilities.0slSWf8A2NVtWyqZ]{Rampage} and @UUID[Compendium.ptr2e-digimon-expansion.digimon-abilities.Item.H5Bj6BH9PXRl0ryU]{Furious Howl} abilities.</p><p>Belphemon gains an Alarm Clock of 12 spans. Each time Belphemon ends an activation whilst in Sleep Mode, it ticks the Alarm Clock. When the Alarm Clock is filled, Belphemon may change into Rage Mode as a free action interrupt at any time.</p>",
+    "slug": "sloth"
   },
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "effects": [
@@ -39,13 +40,27 @@
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": true,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "create-clock",
+            "value": 0,
+            "phase": "initial",
+            "predicate": [],
+            "key": "wGRuk4Aid0p8vjGe",
+            "max": 12,
+            "private": false,
+            "label": "Alarm Clock",
+            "color": "#ff0000",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -59,8 +74,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -77,15 +94,17 @@
         "compendiumSource": "Item.TUFqHISXfDikcBxA.ActiveEffect.SnT6N1ZE31F0Q7jk",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1755529877175,
-        "modifiedTime": 1755529978359,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+        "modifiedTime": 1775555120855,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "imIsOQSIabsY9p9b"
 }

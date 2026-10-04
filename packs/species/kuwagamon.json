@@ -852,9 +852,13 @@
       "x": 69,
       "y": 83,
       "connected": [
+        "cherrymon",
+        "kimeramon",
         "tentomon",
         "elecmon",
-        "kokuwamon"
+        "kokuwamon",
+        "okuwamon",
+        "scorpiomon"
       ],
       "prerequisites": [
         {

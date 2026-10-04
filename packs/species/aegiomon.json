@@ -10,6 +10,7 @@
       "x": 59,
       "y": 90,
       "connected": [
+        "aegiochusmon",
         "elecmon"
       ],
       "prerequisites": [
@@ -31,9 +32,9 @@
     "traits": [
       "digimon",
       "vaccine",
-      "rookie",
       "deity",
-      "bipedal"
+      "bipedal",
+      "champion"
     ],
     "number": 5099,
     "stats": {
@@ -69,7 +70,7 @@
           "slug": "iron-fist"
         },
         {
-          "slug": "limber"
+          "slug": "rock-head"
         }
       ],
       "advanced": [],
@@ -876,10 +877,9 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.SIe8ArsuxQLcRMek",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiomon"
             ],
             "alterations": [],
             "onDeleteActions": {
@@ -888,7 +888,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -896,10 +898,9 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.vCFvvCEOJib4MFze",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:aegiochusmon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:aegiomon"
             ],
             "alterations": [],
             "onDeleteActions": {
@@ -908,7 +909,9 @@
             },
             "allowDuplicate": false,
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -925,8 +928,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -943,13 +948,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1767033037121,
-        "modifiedTime": 1767034347789,
-        "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+        "modifiedTime": 1776174723084,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "qmgjurOcEme4lWxa"

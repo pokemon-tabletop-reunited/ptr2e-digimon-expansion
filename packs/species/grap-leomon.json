@@ -855,10 +855,15 @@
       "x": 107,
       "y": 52,
       "connected": [
+        "bancho-leomon",
+        "ebonwumon",
         "lekismon",
         "minotarumon",
         "leomon",
-        "grizzlymon"
+        "grizzlymon",
+        "leopardmon",
+        "marsmon",
+        "saber-leomon"
       ],
       "prerequisites": [
         {

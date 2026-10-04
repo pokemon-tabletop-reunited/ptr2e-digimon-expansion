@@ -863,7 +863,12 @@
       "x": 32,
       "y": 162,
       "connected": [
-        "tokomon"
+        "ankylomon",
+        "apemon",
+        "tokomon",
+        "digmon",
+        "golemon",
+        "submarimon"
       ],
       "prerequisites": [
         {

@@ -848,10 +848,15 @@
       "x": 59,
       "y": 98,
       "connected": [
+        "angewomon",
         "salamon",
         "chuumon",
         "huckmon",
-        "snow-goblimon"
+        "snow-goblimon",
+        "meicrackmon",
+        "nefertimon",
+        "silphymon",
+        "snow-agumon"
       ],
       "prerequisites": [
         {
