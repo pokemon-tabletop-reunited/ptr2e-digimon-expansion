@@ -61,11 +61,13 @@
         },
         "range": {
           "target": "self",
-          "unit": "m"
+          "unit": "m",
+          "distance": 10
         }
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "ultimate-flare"
   },
   "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
   "effects": [
@@ -79,33 +81,35 @@
           {
             "type": "roll-effect",
             "key": "ultimate-flare-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.iv1l5qSwT9ykajV0",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.iv1l5qSwT9ykajV0",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "ultimate-flare-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.k1FukpHKnZGqjSNc",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.changes.0.value",
                 "value": 2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -119,8 +123,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -137,13 +143,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777555070937,
+        "modifiedTime": 1777555082008
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "1sVOZdD8OV1iq77J"
 }

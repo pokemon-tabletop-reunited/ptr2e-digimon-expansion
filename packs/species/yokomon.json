@@ -827,6 +827,12 @@
       "x": 21,
       "y": 65,
       "connected": [
+        "biyomon",
+        "falcomon",
+        "hawkmon",
+        "hyokomon",
+        "muchomon",
+        "penmon",
         "pabumon"
       ],
       "prerequisites": [

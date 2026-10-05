@@ -830,7 +830,8 @@
       "y": 11,
       "connected": [
         "metal-greymon-blue",
-        "flaremon"
+        "flaremon",
+        "omnimon-zwart"
       ],
       "prerequisites": [
         {

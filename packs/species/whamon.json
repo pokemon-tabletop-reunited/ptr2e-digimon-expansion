@@ -854,6 +854,10 @@
       "x": 112,
       "y": 170,
       "connected": [
+        "leviamon",
+        "marine-angemon",
+        "neptunemon",
+        "plesiomon",
         "ikkakumon",
         "seadramon",
         "shellmon"

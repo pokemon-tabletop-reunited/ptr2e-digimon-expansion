@@ -42,7 +42,8 @@
         "accuracy": 100
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "necromist"
   },
   "img": "systems/ptr2e/img/svg/ghost_icon.svg",
   "effects": [
@@ -60,21 +61,23 @@
             "predicate": [
               "target:trait:fairy"
             ],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
           {
             "type": "roll-effect",
             "key": "necromist-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
             "predicate": [],
             "chance": 60,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -88,8 +91,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -106,13 +111,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777547743602,
+        "modifiedTime": 1777547743602
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "DA8wIcZnWJgr8Epg"
 }

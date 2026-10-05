@@ -862,7 +862,8 @@
       "x": 114,
       "y": 162,
       "connected": [
-        "lucemon"
+        "lucemon",
+        "lucemon-sm"
       ],
       "prerequisites": [
         {

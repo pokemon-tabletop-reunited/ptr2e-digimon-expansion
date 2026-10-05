@@ -851,7 +851,15 @@
       "x": 32,
       "y": 127,
       "connected": [
-        "koromon"
+        "agumon-bond-of-bravery",
+        "koromon",
+        "coredramon-green",
+        "dark-tyrannomon",
+        "geo-greymon",
+        "greymon",
+        "nunemon",
+        "raptordramon",
+        "tyrannomon"
       ],
       "prerequisites": [
         {

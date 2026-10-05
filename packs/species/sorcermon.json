@@ -853,9 +853,13 @@
       "x": 63,
       "y": 111,
       "connected": [
+        "magna-angemon",
+        "piximon",
+        "snow-agumon",
         "lunamon",
         "kudamon",
-        "kamemon"
+        "kamemon",
+        "wisemon"
       ],
       "prerequisites": [
         {

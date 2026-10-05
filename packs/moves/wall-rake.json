@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Wall Rake",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Wall Rake",
+        "slug": "wall-rake",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5598.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "partial-automation"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "def",
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack uses the user's Defense as it's attacking stat. Additionally, this attack does not trigger on-contact @Trait[defensive] effects.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 65,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "aV8kCjkhTZvKz7Ml",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5598.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781083997852,
+    "modifiedTime": 1781083997852,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

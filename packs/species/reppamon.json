@@ -850,6 +850,10 @@
       "x": 64,
       "y": 103,
       "connected": [
+        "angewomon",
+        "chirinmon",
+        "doru-greymon",
+        "mega-seadramon",
         "ryudamon",
         "kudamon",
         "renamon"

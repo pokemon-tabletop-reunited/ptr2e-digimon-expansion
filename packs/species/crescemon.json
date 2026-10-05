@@ -864,10 +864,13 @@
       "x": 115,
       "y": 139,
       "connected": [
+        "cherubimon-virtue",
         "lekismon",
         "frigimon",
         "ice-devimon",
-        "icemon"
+        "icemon",
+        "crusadermon",
+        "dianamon"
       ],
       "prerequisites": [
         {

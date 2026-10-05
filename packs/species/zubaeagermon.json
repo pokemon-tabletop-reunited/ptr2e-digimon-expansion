@@ -847,6 +847,10 @@
       "x": 64,
       "y": 134,
       "connected": [
+        "duramon",
+        "grademon",
+        "knightmon",
+        "war-growlmon",
         "zubamon",
         "gizamon",
         "shoutmon"

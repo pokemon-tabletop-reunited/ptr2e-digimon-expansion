@@ -804,7 +804,11 @@
       "x": 20,
       "y": 49,
       "connected": [
-        "dodomon"
+        "dodomon",
+        "dorumon",
+        "lopmon",
+        "monodramon",
+        "snow-goblimon"
       ],
       "prerequisites": [
         {

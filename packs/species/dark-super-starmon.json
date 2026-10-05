@@ -856,10 +856,13 @@
       "x": 111,
       "y": 27,
       "connected": [
+        "beel-starmon",
         "starmon",
         "gao-gamon",
         "nunemon",
-        "dobermon"
+        "dobermon",
+        "ravemon",
+        "titamon"
       ],
       "prerequisites": [
         {

@@ -855,9 +855,12 @@
       "x": 105,
       "y": 64,
       "connected": [
+        "apollomon",
+        "black-war-greymon",
         "leomon",
         "firamon",
-        "birdramon"
+        "birdramon",
+        "seraphimon"
       ],
       "prerequisites": [
         {
