@@ -19,7 +19,9 @@
       "mega",
       "bipedal",
       "well-built",
-      "sparkler"
+      "sparkler",
+      "glow-3",
+      "detect-evil"
     ],
     "number": 5842,
     "stats": {
@@ -852,7 +854,7 @@
         "changes": [
           {
             "type": "grant-item",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.kHfFgS5LeaVDaIxh",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.kHfFgS5LeaVDaIxh",
             "phase": "initial",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:lovely-angemon"
@@ -873,7 +875,7 @@
           },
           {
             "type": "grant-item",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.t4GHO2NBKKhAamkn",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.t4GHO2NBKKhAamkn",
             "phase": "initial",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:lovely-angemon"
@@ -894,7 +896,7 @@
           },
           {
             "type": "grant-item",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.leV0yvABAJaTwGwc",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.leV0yvABAJaTwGwc",
             "phase": "initial",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:lovely-angemon"
@@ -940,11 +942,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.365",
+        "coreVersion": "14.368",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1785432787380,
-        "modifiedTime": 1785432787380,
+        "modifiedTime": 1791213930093,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
