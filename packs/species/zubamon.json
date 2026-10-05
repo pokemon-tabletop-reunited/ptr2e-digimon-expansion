@@ -860,6 +860,12 @@
       "x": 34,
       "y": 86,
       "connected": [
+        "ankylomon",
+        "buraimon",
+        "guardromon-gold",
+        "musyamon",
+        "tankmon",
+        "zubaeagermon",
         "tsunomon"
       ],
       "prerequisites": [

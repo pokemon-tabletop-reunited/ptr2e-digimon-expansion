@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "spirit-bind",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -27,26 +27,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 3,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 3
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "ghost"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.PYz1Z32uiXoulkW2]{-2 Special Defense Stages} for 3 activations.</p>",
         "range": {
@@ -54,12 +40,9 @@
           "distance": 5,
           "unit": "m"
         },
-        "power": null,
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/ghost_icon.svg",
@@ -74,20 +57,21 @@
           {
             "type": "roll-effect",
             "key": "spirit-bind-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.PYz1Z32uiXoulkW2",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -101,8 +85,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -119,29 +105,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777488063997,
+        "modifiedTime": 1777488065705
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 2,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770466209810,
-    "modifiedTime": 1770466225726,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "hlH9upVsDyEEVutS",
-  "sort": 1100000
+  "_id": "hlH9upVsDyEEVutS"
 }

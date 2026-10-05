@@ -852,7 +852,12 @@
       "connected": [
         "goblimon",
         "dracomon",
-        "monodramon"
+        "monodramon",
+        "kimeramon",
+        "metal-greymon",
+        "orochimon",
+        "sharkmon",
+        "skull-baluchimon"
       ],
       "prerequisites": [
         {

@@ -864,7 +864,12 @@
       "x": 35,
       "y": 172,
       "connected": [
-        "bukamon"
+        "frigimon",
+        "bukamon",
+        "hyogamon",
+        "ice-devimon",
+        "ikkakumon",
+        "mojyamon"
       ],
       "prerequisites": [
         {

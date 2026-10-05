@@ -1,0 +1,46 @@
+{
+  "folder": null,
+  "name": "Alchemical Nightmare",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>Effect: At the end of each activation, roll a d10. Sephirothmon gains the rolled result as a secondary typing. At combat end, Sephirothmon returns to it's default typing.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "OTCThXFzgzZVGsB1",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781738907234,
+    "modifiedTime": 1781738907234,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

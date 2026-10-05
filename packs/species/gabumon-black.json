@@ -859,7 +859,14 @@
       "x": 33,
       "y": 16,
       "connected": [
-        "tsumemon"
+        "black-gatomon",
+        "dobermon",
+        "dorugamon",
+        "fugamon",
+        "tsumemon",
+        "garurumon-black",
+        "minotarumon",
+        "saberdramon"
       ],
       "prerequisites": [
         {

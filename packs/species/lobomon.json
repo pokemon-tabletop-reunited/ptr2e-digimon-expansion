@@ -847,10 +847,14 @@
       "x": 62,
       "y": 109,
       "connected": [
-        "kudamon"
+        "kendo-garurumon",
+        "kudamon",
+        "gargomon",
+        "knightmon",
+        "were-garurumon"
       ],
       "prerequisites": [
-        "equipment:human-spirit-of-light"
+        "item:equipment:human-spirit-of-light"
       ]
     }
   },
@@ -877,11 +881,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -894,8 +899,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -912,13 +919,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767306732530,
         "modifiedTime": 1767306753986,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "x3Dtv2ZFS7cG1ZIf"

@@ -855,10 +855,14 @@
       "x": 105,
       "y": 21,
       "connected": [
+        "belphemon",
         "bakemon",
         "hyogamon",
         "snimon",
-        "saberdramon"
+        "saberdramon",
+        "piedmon",
+        "ravemon",
+        "sakuyamon"
       ],
       "prerequisites": [
         {

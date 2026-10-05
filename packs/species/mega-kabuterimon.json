@@ -861,9 +861,12 @@
       "x": 109,
       "y": 70,
       "connected": [
+        "hercules-kabuterimon",
         "kabuterimon",
         "flymon",
-        "dokugumon"
+        "dokugumon",
+        "tyrant-kabuterimon",
+        "yanmamon"
       ],
       "prerequisites": [
         {

@@ -856,6 +856,8 @@
       "x": 110,
       "y": 30,
       "connected": [
+        "grand-locomon",
+        "gundramon",
         "blimpmon",
         "guardromon-gold"
       ],

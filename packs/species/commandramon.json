@@ -843,7 +843,9 @@
       "x": 32,
       "y": 116,
       "connected": [
-        "missimon"
+        "missimon",
+        "hi-commandramon",
+        "sealsdramon"
       ],
       "prerequisites": [
         {
