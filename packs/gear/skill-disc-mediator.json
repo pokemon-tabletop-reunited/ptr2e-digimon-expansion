@@ -74,7 +74,13 @@
               "equipment:skill-disc-mediator"
             ],
             "reevaluateOnUpdate": true,
-            "alterations": [],
+            "alterations": [
+              {
+                "method": 2,
+                "property": "system.actions.0.traits",
+                "value": "attach-skill"
+              }
+            ],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"

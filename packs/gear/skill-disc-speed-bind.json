@@ -74,7 +74,13 @@
             "predicate": [
               "equipment:skill-disc-speed-bind"
             ],
-            "alterations": [],
+            "alterations": [
+              {
+                "method": 2,
+                "property": "system.actions.0.traits",
+                "value": "attach-skill"
+              }
+            ],
             "reevaluateOnUpdate": true,
             "onDeleteActions": {
               "grantee": "detach",

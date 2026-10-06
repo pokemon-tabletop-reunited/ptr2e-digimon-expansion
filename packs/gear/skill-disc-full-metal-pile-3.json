@@ -71,7 +71,13 @@
             "predicate": [
               "equipment:skill-disc-full-metal-pile-3"
             ],
-            "alterations": [],
+            "alterations": [
+              {
+                "method": 2,
+                "property": "system.actions.0.traits",
+                "value": "attach-skill"
+              }
+            ],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
