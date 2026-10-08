@@ -867,7 +867,14 @@
       "x": 31,
       "y": 79,
       "connected": [
-        "motimon"
+        "black-gatomon",
+        "motimon",
+        "gatomon",
+        "gekomon",
+        "geremon",
+        "platinum-sukamon",
+        "sukamon",
+        "tyrannomon"
       ],
       "prerequisites": [
         {

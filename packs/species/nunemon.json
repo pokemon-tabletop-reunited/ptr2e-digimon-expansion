@@ -843,9 +843,12 @@
       "x": 56,
       "y": 135,
       "connected": [
+        "dark-super-starmon",
+        "monzaemon",
         "betamon",
         "agumon",
-        "otamamon"
+        "otamamon",
+        "waru-monzaemon"
       ],
       "prerequisites": [
         {

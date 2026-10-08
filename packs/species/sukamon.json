@@ -843,6 +843,11 @@
       "x": 69,
       "y": 66,
       "connected": [
+        "etemon",
+        "garbagemon",
+        "mamemon",
+        "monzaemon",
+        "pulsemon",
         "dracmon",
         "chuumon",
         "mushroomon"

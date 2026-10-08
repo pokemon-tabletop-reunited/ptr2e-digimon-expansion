@@ -819,7 +819,8 @@
       "x": 156,
       "y": 23,
       "connected": [
-        "andromon"
+        "andromon",
+        "giromon"
       ],
       "prerequisites": [
         {

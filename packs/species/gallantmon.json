@@ -823,8 +823,10 @@
       "x": 159,
       "y": 74,
       "connected": [
+        "gallantmon-cm",
         "war-growlmon",
-        "duramon"
+        "duramon",
+        "gallantmonx"
       ],
       "prerequisites": [
         {

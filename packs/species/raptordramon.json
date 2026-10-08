@@ -851,9 +851,12 @@
       "x": 63,
       "y": 43,
       "connected": [
+        "gigadramon",
+        "grademon",
         "monodramon",
         "dorumon",
-        "agumon"
+        "agumon",
+        "tankdramon"
       ],
       "prerequisites": [
         {

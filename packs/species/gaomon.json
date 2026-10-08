@@ -852,7 +852,12 @@
       "x": 29,
       "y": 54,
       "connected": [
-        "wanyamon"
+        "gao-gamon",
+        "wanyamon",
+        "leomon",
+        "nanimon",
+        "strikedramon",
+        "turuiemon"
       ],
       "prerequisites": []
     }

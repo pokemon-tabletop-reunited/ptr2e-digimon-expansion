@@ -830,7 +830,12 @@
       "x": 19,
       "y": 103,
       "connected": [
-        "punimon"
+        "huckmon",
+        "kudamon",
+        "lunamon",
+        "punimon",
+        "salamon",
+        "snow-agumon"
       ],
       "prerequisites": [
         {

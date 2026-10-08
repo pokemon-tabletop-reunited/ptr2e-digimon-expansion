@@ -19,7 +19,8 @@
       "many-legged",
       "free",
       "digimon",
-      "unknown"
+      "unknown",
+      "fresh"
     ],
     "number": 5001,
     "stats": {
@@ -812,7 +813,11 @@
     "node": {
       "x": 9,
       "y": 14,
-      "connected": [],
+      "connected": [
+        "arcadiamon-in-training",
+        "pagumon",
+        "tsumemon"
+      ],
       "prerequisites": []
     }
   },

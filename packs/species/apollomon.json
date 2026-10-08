@@ -828,7 +828,8 @@
       "y": 84,
       "connected": [
         "volcanomon",
-        "flaremon"
+        "flaremon",
+        "grace-novamon"
       ],
       "prerequisites": [
         {

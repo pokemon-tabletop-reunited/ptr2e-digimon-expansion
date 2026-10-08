@@ -143,7 +143,12 @@
       "x": 21,
       "y": 174,
       "connected": [
-        "poyomon"
+        "poyomon",
+        "crabmon",
+        "gizamon",
+        "gomamon",
+        "kamemon",
+        "syakomon"
       ],
       "prerequisites": [
         {

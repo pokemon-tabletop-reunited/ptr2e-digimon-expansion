@@ -861,8 +861,14 @@
       "x": 40,
       "y": 27,
       "connected": [
+        "bakemon",
+        "clockmon",
+        "devimon",
         "pagumon",
-        "demi-meramon"
+        "demi-meramon",
+        "sangloupmon",
+        "witchmon",
+        "wizardmon"
       ],
       "prerequisites": [
         {

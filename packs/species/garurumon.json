@@ -847,9 +847,14 @@
       "x": 59,
       "y": 93,
       "connected": [
+        "blue-meramon",
         "lunamon",
         "gabumon",
-        "tapirmon"
+        "tapirmon",
+        "kimeramon",
+        "psychemon",
+        "taomon",
+        "were-garurumon"
       ],
       "prerequisites": [
         {

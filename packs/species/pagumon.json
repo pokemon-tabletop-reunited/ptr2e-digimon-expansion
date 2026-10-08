@@ -214,6 +214,10 @@
       "x": 21,
       "y": 25,
       "connected": [
+        "demi-devimon",
+        "gazimon",
+        "impmon",
+        "otamamon",
         "kuramon"
       ],
       "prerequisites": [

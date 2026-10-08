@@ -856,7 +856,10 @@
       "connected": [
         "armadillomon",
         "gizamon",
-        "zubamon"
+        "zubamon",
+        "brachiomon",
+        "meteormon",
+        "shakkoumon"
       ],
       "prerequisites": [
         {

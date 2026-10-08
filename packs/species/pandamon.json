@@ -855,10 +855,14 @@
       "x": 108,
       "y": 78,
       "connected": [
+        "justimon",
+        "merukimon",
+        "mirage-gaogamon",
         "black-gatomon",
         "shell-nunemon",
         "deputymon",
-        "garurumon-black"
+        "garurumon-black",
+        "sistermon-ciel"
       ],
       "prerequisites": [
         {

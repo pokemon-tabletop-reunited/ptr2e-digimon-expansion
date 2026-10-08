@@ -849,7 +849,11 @@
       "connected": [
         "hawkmon",
         "penmon",
-        "biyomon"
+        "biyomon",
+        "crowmon",
+        "garudamon",
+        "parrotmon",
+        "silphymon"
       ],
       "prerequisites": [
         {

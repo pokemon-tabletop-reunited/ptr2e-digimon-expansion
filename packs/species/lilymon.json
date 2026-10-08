@@ -858,9 +858,14 @@
       "x": 109,
       "y": 56,
       "connected": [
+        "bancho-lilymon",
+        "ceresmon",
+        "hudiemon",
         "sunflowmon",
         "togemon",
-        "witchmon"
+        "witchmon",
+        "ninjamon",
+        "rosemon"
       ],
       "prerequisites": [
         {

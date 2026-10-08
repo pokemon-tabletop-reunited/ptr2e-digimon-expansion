@@ -845,9 +845,13 @@
       "x": 64,
       "y": 81,
       "connected": [
+        "crescemon",
         "gotsumon",
         "snow-goblimon",
-        "lunamon"
+        "lunamon",
+        "meteormon",
+        "panjyamon",
+        "snow-agumon"
       ],
       "prerequisites": [
         {

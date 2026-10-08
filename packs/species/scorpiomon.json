@@ -858,9 +858,12 @@
       "x": 114,
       "y": 166,
       "connected": [
+        "mori-shellmon",
+        "pukumon",
         "coelamon",
         "kuwagamon",
-        "shellmon"
+        "shellmon",
+        "vulcanusmon"
       ],
       "prerequisites": [
         {
