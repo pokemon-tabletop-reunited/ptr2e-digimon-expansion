@@ -815,11 +815,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "synchronoise",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "zen-headbutt",
           "level": 24,
           "gen": null
@@ -868,6 +863,11 @@
           "name": "astro-sphere",
           "level": 37,
           "gen": null
+        },
+        {
+          "name": "synchronoise",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
@@ -885,7 +885,7 @@
         "pucchiemon-red"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-courage"
+        "item:equipment:digi-egg-of-courage"
       ]
     }
   },
