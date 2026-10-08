@@ -42,7 +42,8 @@
         "accuracy": 100
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "friendly-fire"
   },
   "img": "systems/ptr2e/img/svg/dark_icon.svg",
   "effects": [
@@ -56,20 +57,21 @@
           {
             "type": "roll-effect",
             "key": "friendly-fire-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.tks8Fa9ZmwYOSr4Z",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tks8Fa9ZmwYOSr4Z",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 1
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -83,8 +85,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -101,13 +105,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.8.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777538951545,
+        "modifiedTime": 1777538952984
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "PHZ4a4fSx9mGJtAB"
 }

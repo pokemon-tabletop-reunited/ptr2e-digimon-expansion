@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Calamity Vise",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Calamity Vise",
+        "slug": "calamity-vise",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5778.png",
+        "traits": [
+          "digimon",
+          "jaw",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, the user auto-succeeds on a @Affliction[grapple] Maneuver check against the target, and target also becomes @Affliction[bound]. This @Affliction[bound] effect can only be removed with a Challenging Lift or Survival Skill Check taken as a Simple Action. If either the @Affliction[grapple] or @Affliction[bound] condition ends, the target loses the other condition.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 110,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "Aw6slWxagZ8sa42V",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5778.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785364724571,
+    "modifiedTime": 1785364724571,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

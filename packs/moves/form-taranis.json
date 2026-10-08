@@ -1,0 +1,170 @@
+{
+  "folder": null,
+  "name": "Form Taranis",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Form Taranis",
+        "slug": "form-taranis",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "traits": [
+          "digimon",
+          "contact",
+          "8-strike",
+          "punch",
+          "tail",
+          "ignore-type-immunity",
+          "ignore-immunity"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fighting",
+          "poison"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On resolution, this attack inflicts @Affliction[blight 10]. This attack bypasses Type Immunity.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 20,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "eClO9cq4oJkWanPT",
+  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "effects": [
+    {
+      "name": "Form Taranis",
+      "type": "passive",
+      "_id": "RGUKx1q2SH7ETyOH",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.blightcondition0",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.stacks",
+                "value": 10
+              }
+            ],
+            "dontMerge": false,
+            "key": "form-taranis-attack",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "key": "form-taranis-attack",
+            "value": "ignore-type-immunity",
+            "predicate": [],
+            "priority": null,
+            "property": "traits",
+            "definition": [],
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.360",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777208883691,
+        "modifiedTime": 1777208883691,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.4.beta",
+    "createdTime": 1777208883691,
+    "modifiedTime": 1777208883692,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

@@ -1,0 +1,111 @@
+{
+  "folder": null,
+  "name": "Electrostatic Barrier (Summon)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "shield",
+      "summon"
+    ],
+    "description": "<p>Effect: This summon reduces incoming damage by 50%.</p>",
+    "actions": [],
+    "baseAV": 150,
+    "duration": 3,
+    "owner": null
+  },
+  "_id": "oVlNnNy5keskcTsx",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5716.png",
+  "effects": [
+    {
+      "name": "Electrostatic Barrier",
+      "type": "summon",
+      "_id": "e5eLWjw1PAGcct7j",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "ephemeral-modifier",
+            "value": -50,
+            "phase": "initial",
+            "predicate": [],
+            "key": "damaging-attack-damage-percentile",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage",
+        "predicate": [],
+        "targetType": "ally",
+        "targetUuid": null
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1784296442302,
+        "modifiedTime": 1784296442302,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1784296442302,
+    "modifiedTime": 1784296442302,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

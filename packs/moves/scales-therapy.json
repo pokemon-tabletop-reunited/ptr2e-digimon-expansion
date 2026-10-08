@@ -1,0 +1,127 @@
+{
+  "folder": null,
+  "name": "Scales Therapy",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Scales Therapy (Ally)",
+        "slug": "scales-therapy-ally",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5614.png",
+        "traits": [
+          "digimon",
+          "healing"
+        ],
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "bug"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Clears @Trait[attention] effects on the target.</p>",
+        "range": {
+          "target": "ally",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      },
+      {
+        "name": "Scales Therapy (Foe)",
+        "slug": "scales-therapy-foe",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5614.png",
+        "traits": [
+          "digimon",
+          "healing"
+        ],
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "scales-therapy-ally",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "bug"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Inflicts @Affliction[paralysis 5] on the target.</p>",
+        "range": {
+          "target": "enemy",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "ElKMsPOfPhFBTUCU",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5614.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781083988608,
+    "modifiedTime": 1781083988608,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

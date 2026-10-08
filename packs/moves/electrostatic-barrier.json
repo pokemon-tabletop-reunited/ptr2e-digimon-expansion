@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Electrostatic Barrier",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Electrostatic Barrier",
+        "slug": "electrostatic-barrier",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5716.png",
+        "traits": [
+          "digimon",
+          "summon",
+          "shield"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Creates an @UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.oVlNnNy5keskcTsx]{Electrostatic Barrier (Summon)} lasting 3 rounds.</p>",
+        "range": {
+          "target": "field",
+          "distance": null,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "XWsAonHCoLzjBs0K",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5716.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1784296457799,
+    "modifiedTime": 1784297691555,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 500000
+}

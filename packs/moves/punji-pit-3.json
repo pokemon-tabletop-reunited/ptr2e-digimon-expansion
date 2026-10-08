@@ -1,0 +1,55 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Punji Pit 3",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Punji Pit 3",
+        "slug": "punji-pit-3",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/poison_icon.svg",
+        "traits": [
+          "digimon",
+          "blast-3",
+          "hazard",
+          "earthbound"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "poison"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "description": "<p>Effect: On resolution, sets a Punji Pit Hazard in the target blast area.</p><p>Punji Pit 3 hazards inflict @Affliction[blight 5] and @Tick[-1] to creatures that move into them, or begin their activation in them.</p>",
+        "range": {
+          "target": "blast",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": 75,
+        "accuracy": 90
+      }
+    ],
+    "grade": "A"
+  },
+  "_id": "ws1prldxkzUqaluK",
+  "img": "systems/ptr2e/img/svg/poison_icon.svg",
+  "effects": [],
+  "flags": {}
+}

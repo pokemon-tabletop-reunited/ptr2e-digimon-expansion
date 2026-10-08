@@ -42,7 +42,7 @@
         "accuracy": 100,
         "offensiveStat": "def",
         "predicate": [],
-        "description": "<p>This attack utilises the user's defense as it's attacking stat. This attack has a 15% chance to apply Flinch 50%</p>"
+        "description": "<p>This attack utilises the user's defense as it's attacking stat. This attack has a 15% chance to apply @Affliction[delay 50].</p>"
       }
     ],
     "grade": "C",
@@ -60,27 +60,23 @@
           {
             "type": "roll-effect",
             "key": "tail-hammer-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 15,
             "affects": "target",
             "dontMerge": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -50
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 50%"
               }
             ],
-            "mode": 2,
             "priority": null,
-            "ignored": false,
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -93,13 +89,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -111,14 +104,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777553967321,
+        "modifiedTime": 1777553969994,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "EeWB065yNinszP9d"

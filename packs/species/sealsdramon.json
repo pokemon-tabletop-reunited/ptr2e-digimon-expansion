@@ -863,6 +863,7 @@
       "x": 65,
       "y": 140,
       "connected": [
+        "cargodramon",
         "commandramon",
         "tentomon",
         "terriermon",

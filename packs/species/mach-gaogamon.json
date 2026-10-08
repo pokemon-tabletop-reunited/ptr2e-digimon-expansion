@@ -853,9 +853,11 @@
       "x": 104,
       "y": 49,
       "connected": [
+        "fenriloogamon",
         "gao-gamon",
         "turuiemon",
-        "gargomon"
+        "gargomon",
+        "mega-gargomon"
       ],
       "prerequisites": [
         {

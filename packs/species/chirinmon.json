@@ -857,9 +857,13 @@
       "x": 113,
       "y": 142,
       "connected": [
+        "azulongmon",
         "reppamon",
         "unimon",
-        "peckmon"
+        "peckmon",
+        "eaglemon",
+        "kentaurosmon",
+        "valkyrimon"
       ],
       "prerequisites": [
         {

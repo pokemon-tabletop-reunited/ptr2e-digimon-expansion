@@ -856,10 +856,13 @@
       "x": 112,
       "y": 71,
       "connected": [
+        "gran-kuwagamon",
+        "hercules-kabuterimon",
         "stingmon",
         "kuwagamon",
         "flymon",
-        "snimon"
+        "snimon",
+        "tyrant-kabuterimon"
       ],
       "prerequisites": [
         {

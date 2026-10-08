@@ -19,7 +19,7 @@
       "champion",
       "bipedal",
       "horned",
-      "tail"
+      "tailed"
     ],
     "number": 5114,
     "stats": {
@@ -36,9 +36,9 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
-      "height": 0,
-      "weight": 0
+      "type": "quad",
+      "height": 2.4,
+      "weight": 240
     },
     "diet": [],
     "abilities": {
@@ -849,8 +849,11 @@
       "x": 64,
       "y": 125,
       "connected": [
+        "cyberdramon",
         "agumon",
-        "huckmon"
+        "huckmon",
+        "metal-tyrannomon",
+        "rize-greymon"
       ],
       "prerequisites": [
         {
@@ -885,11 +888,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -902,8 +906,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -920,13 +926,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767102548076,
         "modifiedTime": 1767102573665,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "eQejqqx0WznwsTDh"

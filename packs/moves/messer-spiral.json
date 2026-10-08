@@ -1,0 +1,148 @@
+{
+  "folder": null,
+  "name": "Messer Spiral",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Messer Spiral",
+        "slug": "messer-spiral",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5707.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "dash",
+          "pass-5"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack gains +50% Damage vs creatures in the Flying State.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 100,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "aOo95PYqWaSzqfGg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5707.png",
+  "effects": [
+    {
+      "name": "Messer Spiral",
+      "type": "passive",
+      "_id": "LcE0gwei8ILCI16T",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "value": 50,
+            "phase": "initial",
+            "predicate": [
+              "target:state:flying"
+            ],
+            "key": "messer-spiral-attack-damage",
+            "label": "Vs Flying State",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1784023112806,
+        "modifiedTime": 1784023112806,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1784023112806,
+    "modifiedTime": 1784023112806,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

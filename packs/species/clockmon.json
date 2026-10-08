@@ -848,9 +848,14 @@
       "x": 55,
       "y": 36,
       "connected": [
+        "andromon",
         "kokuwamon",
         "impmon",
-        "hagurumon"
+        "hagurumon",
+        "ex-tyrannomon",
+        "giromon",
+        "knightmon",
+        "zudomon"
       ],
       "prerequisites": [
         {

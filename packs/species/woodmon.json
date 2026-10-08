@@ -839,6 +839,9 @@
       "x": 66,
       "y": 79,
       "connected": [
+        "cherrymon",
+        "pumpkinmon",
+        "taomon",
         "palmon",
         "mushroomon",
         "floramon"

@@ -851,7 +851,10 @@
       "y": 96,
       "connected": [
         "hawkmon",
-        "coronamon"
+        "coronamon",
+        "flaremon",
+        "mistymon",
+        "savior-huckmon"
       ],
       "prerequisites": [
         {

@@ -1,0 +1,92 @@
+{
+  "folder": null,
+  "name": "Monarch Ordinance",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Monarch Ordinance",
+        "slug": "monarch-ordinance",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5960.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "weapon",
+          "firearm",
+          "sharp",
+          "pulse",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel",
+          "electric"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The second double-strike attack on this move gains @Trait[danger-close] when used against the same target as the first attack.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 60,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "gw1J3rZkO9Mal6Q1",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5960.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785417345046,
+    "modifiedTime": 1785417345046,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

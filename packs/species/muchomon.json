@@ -853,7 +853,12 @@
       "x": 30,
       "y": 65,
       "connected": [
-        "yokomon"
+        "airdramon",
+        "birdramon",
+        "fugamon",
+        "kokatorimon",
+        "yokomon",
+        "peckmon"
       ],
       "prerequisites": [
         {

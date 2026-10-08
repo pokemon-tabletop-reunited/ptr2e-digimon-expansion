@@ -58,72 +58,77 @@
           {
             "type": "roll-effect",
             "key": "fungus-cruncher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.poisoncondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
             "predicate": [],
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "fungus-cruncher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.fearconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.fearcondition000",
             "predicate": [],
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "fungus-cruncher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "fungus-cruncher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.drowsycondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
             "predicate": [],
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "fungus-cruncher-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.perishcondititem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
             "predicate": [],
             "chance": 10,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -136,13 +141,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -154,14 +156,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777539030216,
+        "modifiedTime": 1777539055397,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "2MguSbZ42rG13gDJ"
