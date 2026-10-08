@@ -824,13 +824,13 @@
       "x": 161,
       "y": 154,
       "connected": [
-        "gomamon",
         "mame-tyrannomon",
         "war-growlmon",
         "metal-greymon",
         "triceramon",
         "vulturemon",
-        "huanglongmon"
+        "huanglongmon",
+        "gogmamon"
       ],
       "prerequisites": [
         {
