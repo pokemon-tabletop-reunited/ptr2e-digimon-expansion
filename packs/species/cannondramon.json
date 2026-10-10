@@ -827,7 +827,8 @@
       "y": 129,
       "connected": [
         "tankdramon",
-        "cargodramon"
+        "cargodramon",
+        "master-tyrannomon"
       ],
       "prerequisites": [
         {

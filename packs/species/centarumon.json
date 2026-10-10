@@ -847,8 +847,11 @@
       "x": 63,
       "y": 142,
       "connected": [
+        "andromon",
         "patamon",
-        "kokuwamon"
+        "kokuwamon",
+        "datamon",
+        "rapidmon"
       ],
       "prerequisites": [
         {

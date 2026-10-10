@@ -852,8 +852,11 @@
       "x": 58,
       "y": 57,
       "connected": [
+        "grap-leomon",
+        "great-grizzlymon",
         "bearmon",
-        "lopmon"
+        "lopmon",
+        "were-garurumon"
       ],
       "prerequisites": [
         {

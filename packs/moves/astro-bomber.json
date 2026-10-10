@@ -1,0 +1,113 @@
+{
+  "folder": null,
+  "name": "Astro Bomber",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Astro Bomber (Resolution)",
+        "slug": "astro-bomber-resolution",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5647.png",
+        "traits": [
+          "digimon",
+          "set-up",
+          "sky",
+          "contact",
+          "crash-1-2"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user designates a landing zone. Anything in the landing zone, or in a cylinder immediately up from the landing zone, is attacked by the user as they descend from orbit, afflicted with @Affliction[grounded 5] and is pushed out of the landing zone as though by the appropriate @Trait[push-x] effect.</p>",
+        "range": {
+          "target": "blast",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 125,
+        "accuracy": 100
+      },
+      {
+        "name": "Astro Bomber (Set-Up)",
+        "slug": "astro-bomber-set-up",
+        "description": "<p>Effect: The user gains +1 Attack Stage and +1 Speed Stage for 5 activations, and then leaves the field until it's next activation (leave the token on the canvas and treat it as untargetable).</p>",
+        "traits": [
+          "digimon",
+          "set-up"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5647.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "E"
+  },
+  "_id": "RIaHzq3CsyX6SGYE",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5647.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1782131425083,
+    "modifiedTime": 1782131425083,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

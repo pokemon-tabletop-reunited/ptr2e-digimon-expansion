@@ -857,11 +857,14 @@
       "x": 109,
       "y": 49,
       "connected": [
+        "jungle-mojyamon",
+        "mirage-gaogamon",
         "leomon",
         "frigimon",
         "hyogamon",
         "ice-devimon",
-        "icemon"
+        "icemon",
+        "saber-leomon"
       ],
       "prerequisites": [
         {

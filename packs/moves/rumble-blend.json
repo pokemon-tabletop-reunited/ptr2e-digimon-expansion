@@ -1,0 +1,455 @@
+{
+  "folder": null,
+  "name": "Rumble Blend",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Rumble Blend (Steel)",
+        "slug": "rumble-blend-steel",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Dark)",
+        "slug": "rumble-blend-dark",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dark"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Ground)",
+        "slug": "rumble-blend-ground",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ground"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Ice)",
+        "slug": "rumble-blend-ice",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Electric)",
+        "slug": "rumble-blend-electric",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Flying)",
+        "slug": "rumble-blend-flying",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "flying"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Grass)",
+        "slug": "rumble-blend-grass",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "grass"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Fire)",
+        "slug": "rumble-blend-fire",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Fairy)",
+        "slug": "rumble-blend-fairy",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fairy"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      },
+      {
+        "name": "Rumble Blend (Water)",
+        "slug": "rumble-blend-water",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+        "traits": [
+          "digimon",
+          "ray"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "rumble-blend-steel",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: Before using this attack, roll a d10 to determine it's type.</p><p>1 - Steel<br>2 - Dark<br>3 - Ground<br>4 - Ice<br>5 - Electric<br>6 - Flying<br>7 - Grass<br>8 - Fire<br>9 - Fairy<br>10 - Water<br></p><p></p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "Br50S5HDC8rxZOgw",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781738955002,
+    "modifiedTime": 1781738955002,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

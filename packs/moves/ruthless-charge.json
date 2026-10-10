@@ -45,7 +45,8 @@
         "accuracy": 100
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "ruthless-charge"
   },
   "img": "systems/ptr2e/img/svg/ghost_icon.svg",
   "effects": [
@@ -63,21 +64,23 @@
             "predicate": [
               "target:trait:dragon"
             ],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
           {
             "type": "roll-effect",
             "key": "ruthless-charge-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ikCAv5w4iNfHHqaE",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -91,8 +94,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -109,13 +114,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777549678076,
+        "modifiedTime": 1777549678076
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "0Yy8A4bQQR3ImIsT"
 }

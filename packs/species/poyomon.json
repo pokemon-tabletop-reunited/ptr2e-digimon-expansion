@@ -20,7 +20,8 @@
       "baby",
       "amorphous",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5007,
     "stats": {
@@ -813,7 +814,10 @@
     "node": {
       "x": 9,
       "y": 167,
-      "connected": [],
+      "connected": [
+        "bukamon",
+        "tokomon"
+      ],
       "prerequisites": []
     }
   },

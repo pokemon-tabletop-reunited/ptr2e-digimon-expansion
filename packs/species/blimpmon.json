@@ -854,7 +854,12 @@
       "x": 51,
       "y": 32,
       "connected": [
-        "hagurumon"
+        "hagurumon",
+        "cargodramon",
+        "giromon",
+        "locomon",
+        "master-blimpmon",
+        "metal-mamemon"
       ],
       "prerequisites": [
         {

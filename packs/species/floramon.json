@@ -862,7 +862,14 @@
       "x": 29,
       "y": 77,
       "connected": [
-        "tanemon"
+        "blossomon",
+        "tanemon",
+        "kiwimon",
+        "ninjamon",
+        "sunflowmon",
+        "togemon",
+        "vegiemon",
+        "woodmon"
       ],
       "prerequisites": [
         {

@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Divine Spark",
+  "type": "equipment",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "forme-change",
+      "sistermon"
+    ],
+    "actions": [],
+    "description": "<p>Effect: When equipped, the Divine Spark allows @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.IP2IQiMhD6XxVN2M]{Sistermon Blanc} and @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.Item.2oE9Gtwre9cFLks7]{Sistermon Ciel} to enter their Awakened forms as a complex action. They revert back to their normal forms at combat end.</p>",
+    "container": null,
+    "crafting": {
+      "skill": "",
+      "spans": null,
+      "materials": []
+    },
+    "equipped": {
+      "carryType": "stowed",
+      "slot": "accessory",
+      "handsHeld": null
+    },
+    "grade": "S",
+    "fling": {
+      "type": "untyped",
+      "power": null,
+      "accuracy": 100,
+      "hide": true,
+      "range": {
+        "target": "creature",
+        "distance": 10,
+        "unit": "m"
+      }
+    },
+    "quantity": 1,
+    "rarity": "unique",
+    "ammoType": [],
+    "ammo": null,
+    "identification": {
+      "misidentified": null,
+      "status": "identified",
+      "unidentified": {
+        "name": "Unidentified Item",
+        "img": "systems/ptu/css/images/icons/gear_icon.png",
+        "description": "<p>Unidentified Item</p>"
+      }
+    }
+  },
+  "_id": "0SfGTFm1Eer9h4ZL",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1777027653735,
+    "modifiedTime": 1777027653735,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

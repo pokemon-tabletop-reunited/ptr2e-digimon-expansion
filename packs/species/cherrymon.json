@@ -853,7 +853,11 @@
         "togemon",
         "kuwagamon",
         "woodmon",
-        "kiwimon"
+        "kiwimon",
+        "gran-kuwagamon",
+        "ninjamon",
+        "puppetmon",
+        "rosemon"
       ],
       "prerequisites": [
         {
