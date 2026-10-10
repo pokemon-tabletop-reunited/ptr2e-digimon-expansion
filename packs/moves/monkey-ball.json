@@ -1,0 +1,180 @@
+{
+  "folder": null,
+  "name": "Monkey Ball",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Monkey Ball",
+        "slug": "monkey-ball",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5611.png",
+        "traits": [
+          "digimon",
+          "curl",
+          "crushing",
+          "pass-2",
+          "contact",
+          "flinch-15"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fighting"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: When declaring this attack, the user may freely move up to half of a total Movement Score of their choice. For each consecutive time this attack is used and hits at least one target, this Attack's Power doubles, with this progress tracked by the Clock named for this Attack.</p><p>This Clock resets if the user fails to hit at least one target with this Attack, leaves combat, gains @Affliction[fainted], or combat ends.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 20,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "lGOfcAM3VyTT2iXl",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5611.png",
+  "effects": [
+    {
+      "name": "Monkey Ball",
+      "type": "passive",
+      "_id": "zYqlnmMpJKNknWnF",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "create-clock",
+            "key": "monkeyballClock",
+            "value": 0,
+            "predicate": [],
+            "max": 4,
+            "color": "#ff8000",
+            "private": false,
+            "label": "Monkey Ball",
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "alter-attack",
+            "value": "20*pow(2,@actor.clocks.rolloutClockUser)-20",
+            "phase": "initial",
+            "predicate": [],
+            "key": "monkey-ball-attack-power",
+            "property": "power",
+            "definition": [],
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.miMt3zxPrOOJe1wF",
+            "phase": "initial",
+            "predicate": [],
+            "key": "monkey-ball-attack",
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "self",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.key",
+                "value": "monkeyballClock"
+              }
+            ],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1781083959990,
+        "modifiedTime": 1781083959990,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781083959990,
+    "modifiedTime": 1781083959990,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

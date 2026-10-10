@@ -1,0 +1,85 @@
+{
+  "folder": null,
+  "name": "Ain Sof Ayin",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ain Sof Ayin",
+        "slug": "ain-sof-ayin",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5927.png",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 11,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "nuclear"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "spd",
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>This attack uses Special Defense for the attacking stat.</p><p><br>Effect: The user consumes any Shields HP they possess. These Shields are lost and the user gains an X% damage bonus to this attack, where X is equal to the amount of Shields consumed. This consumption occurs at the Declaration stage.</p>",
+        "range": {
+          "target": "emanation",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 110,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "qWpi6JldDO2vvhEo",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5927.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781303082003,
+    "modifiedTime": 1781303089999,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 4100000
+}

@@ -20,7 +20,8 @@
       "quadrupedal",
       "bladed",
       "beast",
-      "construct"
+      "construct",
+      "hybrid"
     ],
     "number": 5213,
     "stats": {
@@ -72,7 +73,7 @@
     "movement": [
       {
         "type": "overland",
-        "value": 13
+        "value": 18
       },
       {
         "type": "swim",
@@ -858,7 +859,14 @@
       "y": 107,
       "connected": [
         "beowolfmon",
-        "lobomon"
+        "lobomon",
+        "bao-huckmon",
+        "dobermon",
+        "growlmon",
+        "grizzlymon",
+        "sangloupmon",
+        "zubaeagermon",
+        "ancient-garurumon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-light"
@@ -926,7 +934,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767136351655,

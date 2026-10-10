@@ -812,11 +812,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "electro-ball",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "water-sport",
           "level": 0,
           "gen": null
@@ -855,6 +850,11 @@
           "name": "head-charge",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "electro-ball",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
@@ -867,7 +867,9 @@
       "x": 41,
       "y": 163,
       "connected": [
-        "armadillomon"
+        "armadillomon",
+        "arukenimon",
+        "waru-seadramon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-reliability"
@@ -956,7 +958,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767403808061,

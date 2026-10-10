@@ -821,11 +821,6 @@
           "gen": null
         },
         {
-          "name": "drakon-voice",
-          "level": 42,
-          "gen": null
-        },
-        {
           "name": "crackling-hammer",
           "level": 27,
           "gen": null
@@ -859,6 +854,11 @@
           "name": "dragon-rush",
           "level": 38,
           "gen": null
+        },
+        {
+          "name": "drakon-voice",
+          "level": 42,
+          "gen": null
         }
       ],
       "tutor": []
@@ -871,7 +871,13 @@
       "x": 53,
       "y": 90,
       "connected": [
-        "veemon"
+        "veemon",
+        "flamedramon",
+        "renamon",
+        "aero-veedramon",
+        "caturamon",
+        "digitamamon",
+        "magna-angemon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-friendship"
@@ -939,7 +945,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767138112121,

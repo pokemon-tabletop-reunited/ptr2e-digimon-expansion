@@ -816,8 +816,8 @@
     "moves": {
       "levelUp": [
         {
-          "name": "missile-kick",
-          "level": 30,
+          "name": "pepper-powder",
+          "level": 0,
           "gen": null
         },
         {
@@ -841,6 +841,11 @@
           "gen": null
         },
         {
+          "name": "missile-kick",
+          "level": 30,
+          "gen": null
+        },
+        {
           "name": "energy-ball",
           "level": 32,
           "gen": null
@@ -854,11 +859,6 @@
           "name": "false-image",
           "level": 36,
           "gen": null
-        },
-        {
-          "name": "pepper-powder",
-          "level": 0,
-          "gen": null
         }
       ],
       "tutor": []
@@ -871,7 +871,10 @@
       "x": 47,
       "y": 59,
       "connected": [
-        "hawkmon"
+        "hawkmon",
+        "aquilamon",
+        "fairimon",
+        "mummymon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-sincerity"
@@ -939,7 +942,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407484930,
