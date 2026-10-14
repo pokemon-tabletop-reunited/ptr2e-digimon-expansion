@@ -21,12 +21,13 @@
       "firestarter",
       "glow-3"
     ],
+    "number": 5734,
     "stats": {
       "hp": 105,
       "atk": 90,
       "def": 135,
       "spa": 100,
-      "spd": 60,
+      "spd": 63,
       "spe": 95
     },
     "types": [
@@ -805,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "volcano-bomb",
-          "level": 49,
-          "gen": null
-        },
-        {
           "name": "aftershock",
           "level": 44,
           "gen": null
@@ -817,6 +813,11 @@
         {
           "name": "battle-cry",
           "level": 47,
+          "gen": null
+        },
+        {
+          "name": "volcano-bomb",
+          "level": 49,
           "gen": null
         },
         {
