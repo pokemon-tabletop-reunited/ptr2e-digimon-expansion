@@ -40,10 +40,35 @@
     },
     "diet": [],
     "abilities": {
-      "starting": [],
-      "basic": [],
-      "advanced": [],
-      "master": []
+      "starting": [
+        {
+          "slug": "miracle"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "ray-blaster"
+        },
+        {
+          "slug": "irradiation"
+        }
+      ],
+      "advanced": [
+        {
+          "slug": "lead-skin"
+        },
+        {
+          "slug": "illuminate"
+        }
+      ],
+      "master": [
+        {
+          "slug": "lead-jacket"
+        },
+        {
+          "slug": "prismatic-guard"
+        }
+      ]
     },
     "movement": [
       {
