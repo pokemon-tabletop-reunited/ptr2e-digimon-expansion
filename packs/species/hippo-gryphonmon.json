@@ -864,6 +864,9 @@
       "x": 112,
       "y": 148,
       "connected": [
+        "dynasmon",
+        "eaglemon",
+        "gryphonmon",
         "angemon",
         "unimon"
       ],

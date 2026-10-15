@@ -853,7 +853,12 @@
       "x": 34,
       "y": 142,
       "connected": [
-        "demi-meramon"
+        "demi-meramon",
+        "darklizamon",
+        "flarelizamon",
+        "meramon",
+        "missimon",
+        "shima-unimon"
       ],
       "prerequisites": [
         {

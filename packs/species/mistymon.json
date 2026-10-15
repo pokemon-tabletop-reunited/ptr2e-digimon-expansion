@@ -856,9 +856,13 @@
       "x": 110,
       "y": 85,
       "connected": [
+        "chaos-gallantmon",
+        "dynasmon",
+        "medieval-gallantmon",
         "firamon",
         "mojyamon",
-        "wizardmon"
+        "wizardmon",
+        "zanbamon"
       ],
       "prerequisites": [
         {

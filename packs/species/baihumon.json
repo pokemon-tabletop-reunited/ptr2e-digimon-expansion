@@ -827,7 +827,8 @@
       "connected": [
         "meteormon",
         "loader-leomon",
-        "cerberusmon"
+        "cerberusmon",
+        "huanglongmon"
       ],
       "prerequisites": [
         {

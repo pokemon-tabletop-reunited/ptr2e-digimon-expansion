@@ -853,9 +853,13 @@
       "x": 63,
       "y": 28,
       "connected": [
+        "cerberusmon",
+        "dark-super-starmon",
         "gazimon",
         "gabumon-black",
-        "salamon"
+        "salamon",
+        "matadormon",
+        "mummymon"
       ],
       "prerequisites": [
         {

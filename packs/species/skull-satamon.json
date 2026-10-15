@@ -860,6 +860,9 @@
       "x": 105,
       "y": 6,
       "connected": [
+        "barbamon",
+        "ebemon",
+        "piedmon",
         "devimon",
         "ogremon",
         "fugamon",

@@ -19,7 +19,7 @@
         "name": "Magic Monkey Fist",
         "slug": "magic-monkey-fist",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
         "traits": [
           "digimon",
           "contact",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "magic-monkey-fist"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
   "effects": [],
-  "flags": {},
   "_id": "UTJ9jpnDrhxHEENL"
 }

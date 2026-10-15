@@ -873,6 +873,12 @@
       "x": 37,
       "y": 154,
       "connected": [
+        "gargomon",
+        "gawappamon",
+        "lekismon",
+        "mojyamon",
+        "rapidmon-armour",
+        "sealsdramon",
         "tokomon"
       ],
       "prerequisites": [

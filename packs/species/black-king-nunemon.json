@@ -850,7 +850,9 @@
       "connected": [
         "gold-nunemon",
         "shell-nunemon",
-        "raremon"
+        "raremon",
+        "metal-etemon",
+        "platinum-nunemon"
       ],
       "prerequisites": [
         {

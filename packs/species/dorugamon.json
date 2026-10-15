@@ -855,9 +855,13 @@
       "x": 63,
       "y": 32,
       "connected": [
+        "doru-greymon",
         "gabumon-black",
         "gazimon",
-        "dorumon"
+        "dorumon",
+        "great-grizzlymon",
+        "metal-greymon-blue",
+        "rize-greymon"
       ],
       "prerequisites": [
         {

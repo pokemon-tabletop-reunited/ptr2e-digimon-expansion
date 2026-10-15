@@ -856,9 +856,12 @@
       "x": 102,
       "y": 17,
       "connected": [
+        "bacchusmon",
         "octomon",
         "ogremon",
-        "tuskmon"
+        "tuskmon",
+        "nise-drimogemon",
+        "titamon"
       ],
       "prerequisites": [
         {

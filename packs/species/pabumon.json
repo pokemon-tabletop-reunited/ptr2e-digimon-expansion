@@ -17,7 +17,8 @@
       "speech",
       "baby",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5004,
     "stats": {
@@ -810,7 +811,11 @@
     "node": {
       "x": 8,
       "y": 75,
-      "connected": [],
+      "connected": [
+        "motimon",
+        "tanemon",
+        "yokomon"
+      ],
       "prerequisites": []
     }
   },
