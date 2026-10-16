@@ -865,6 +865,8 @@
       "x": 111,
       "y": 115,
       "connected": [
+        "brigadramon",
+        "cannondramon",
         "blimpmon",
         "tankmon",
         "sealsdramon",

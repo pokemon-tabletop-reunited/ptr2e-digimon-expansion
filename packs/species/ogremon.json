@@ -846,8 +846,11 @@
       "x": 66,
       "y": 68,
       "connected": [
+        "digitamamon",
+        "mummymon",
         "goblimon",
-        "demi-devimon"
+        "demi-devimon",
+        "skull-satamon"
       ],
       "prerequisites": [
         {

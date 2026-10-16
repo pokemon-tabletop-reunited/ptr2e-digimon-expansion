@@ -860,9 +860,13 @@
       "x": 111,
       "y": 96,
       "connected": [
+        "belphemon",
+        "cherubimon-virtue",
+        "darklizamon",
         "tyrannomon",
         "clockmon",
-        "raremon"
+        "raremon",
+        "rust-tyrannomon"
       ],
       "prerequisites": [
         {

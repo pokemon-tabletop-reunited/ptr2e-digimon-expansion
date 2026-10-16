@@ -56,22 +56,35 @@
           {
             "type": "roll-effect",
             "key": "summon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.jEX7s3GbbAtzgyS3",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.jEX7s3GbbAtzgyS3",
             "predicate": [],
             "chance": 30,
             "affects": "self",
             "dontMerge": false,
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 3
               }
             ],
-            "mode": 2,
             "priority": null,
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "key": "summonl-attack-damage-flat",
+            "value": "floor(@actor.system.advancement.level * 1.5)",
+            "label": "Summon",
+            "priority": null,
+            "phase": "initial",
+            "predicate": [],
+            "method": 2,
             "ignored": false,
-            "isFixedChance": false
+            "hideIfDisabled": false
           }
         ],
         "slug": null,
@@ -84,13 +97,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -102,14 +112,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777553536671,
+        "modifiedTime": 1777553560091,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "O9XKyDTyJ5U4P7T2"

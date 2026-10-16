@@ -833,7 +833,8 @@
       "x": 161,
       "y": 102,
       "connected": [
-        "metal-greymon"
+        "metal-greymon",
+        "omnimon-alter-s"
       ],
       "prerequisites": [
         {

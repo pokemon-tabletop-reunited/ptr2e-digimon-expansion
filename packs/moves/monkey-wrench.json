@@ -34,7 +34,7 @@
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>This attack applies -2 Combat Stages to the target's Attack, Defense, Special Attack, Special Defense and Speed attributes.<br><br>@UUID[Compendium.ptr2e.core-effects.O0vBeDZS5Xx6xNrO]{Monkey Wrench}</p>",
+        "description": "<p>This attack applies @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.Item.O0vBeDZS5Xx6xNrO]{Monkey Wrench}.</p>",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -58,14 +58,15 @@
           {
             "type": "roll-effect",
             "key": "monkey-wrench-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.O0vBeDZS5Xx6xNrO",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects.Item.O0vBeDZS5Xx6xNrO",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -79,8 +80,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -93,11 +96,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777547359532,
+        "modifiedTime": 1777547359532
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "D4FzrPQXsRUdysnm"

@@ -852,9 +852,13 @@
       "x": 58,
       "y": 50,
       "connected": [
+        "aero-veedramon",
         "dorumon",
         "muchomon",
-        "kudamon"
+        "kudamon",
+        "gigadramon",
+        "hisyaryumon",
+        "megadramon"
       ],
       "prerequisites": [
         {

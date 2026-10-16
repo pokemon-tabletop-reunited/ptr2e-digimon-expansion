@@ -832,7 +832,8 @@
       "connected": [
         "cerberusmon",
         "marine-devimon",
-        "astamon"
+        "astamon",
+        "zombie-plutomon"
       ],
       "prerequisites": [
         {

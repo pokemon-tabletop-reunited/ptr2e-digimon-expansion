@@ -815,7 +815,14 @@
       "x": 24,
       "y": 145,
       "connected": [
-        "botamon"
+        "bommon",
+        "candlemon",
+        "coronamon",
+        "botamon",
+        "impmon",
+        "kunemon",
+        "loogamon",
+        "shoutmon"
       ],
       "prerequisites": [
         {

@@ -851,9 +851,14 @@
       "x": 61,
       "y": 16,
       "connected": [
+        "arcadiamon-ultimate",
+        "arukenimon",
+        "dragomon",
+        "infermon",
         "keramon",
         "monodramon",
-        "palmon"
+        "palmon",
+        "orochimon"
       ],
       "prerequisites": [
         {
