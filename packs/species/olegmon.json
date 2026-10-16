@@ -865,7 +865,7 @@
             "type": "grant-item",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.uQ54h9zWbAndJFnO",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:mon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:olegmon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -913,7 +913,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1792076497306,
-        "modifiedTime": 1792076497306,
+        "modifiedTime": 1792166186107,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

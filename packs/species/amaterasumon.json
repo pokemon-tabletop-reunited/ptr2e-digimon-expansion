@@ -860,7 +860,7 @@
             "type": "grant-item",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.zRMyHlYcnuSgaKZk",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:mon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:amaterasumon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -908,7 +908,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1792076489616,
-        "modifiedTime": 1792076489616,
+        "modifiedTime": 1792165987123,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

@@ -857,7 +857,7 @@
             "type": "grant-item",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.fCkXKWMzuHfyzhqi",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:mon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:taotiemon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -878,7 +878,7 @@
             "type": "grant-item",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.ys0l5GEHDVxeXjiZ",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:mon"
+              "item:ptr2e-digimon-expansion.digimonSpecies:taotiemon"
             ],
             "allowDuplicate": false,
             "alterations": [],
@@ -926,7 +926,7 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1792076498540,
-        "modifiedTime": 1792076498540,
+        "modifiedTime": 1792166211149,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
