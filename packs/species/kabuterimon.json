@@ -53,10 +53,10 @@
       ],
       "basic": [
         {
-          "slug": "soul-turbine"
+          "slug": "chitin-plates"
         },
         {
-          "slug": "chitin-plates"
+          "slug": "escher-antlers"
         }
       ],
       "advanced": [],
@@ -850,8 +850,12 @@
       "x": 62,
       "y": 74,
       "connected": [
+        "cannon-beemon",
         "fan-beemon",
-        "tentomon"
+        "tentomon",
+        "kimeramon",
+        "lilamon",
+        "mega-kabuterimon"
       ],
       "prerequisites": [
         {
@@ -886,11 +890,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -903,8 +908,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -921,13 +928,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767136149216,
         "modifiedTime": 1767136169921,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "lyqQwAOjeejO9WrJ"

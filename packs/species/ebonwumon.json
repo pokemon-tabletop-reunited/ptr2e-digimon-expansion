@@ -836,9 +836,11 @@
       "x": 157,
       "y": 67,
       "connected": [
+        "blossomon",
         "deramon",
         "grap-leomon",
-        "orochimon"
+        "orochimon",
+        "huanglongmon"
       ],
       "prerequisites": [
         {

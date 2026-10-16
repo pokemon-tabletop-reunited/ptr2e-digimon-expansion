@@ -1,0 +1,95 @@
+{
+  "folder": null,
+  "name": "Phantom Blade Summon",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon"
+    ],
+    "description": "",
+    "actions": [
+      {
+        "name": "Phantom Blade Summon",
+        "slug": "phantom-blade",
+        "description": "",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "type": "summon",
+        "img": "icons/svg/ruins.svg",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "ghost"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "target",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": 90,
+        "accuracy": null
+      }
+    ],
+    "baseAV": 70,
+    "duration": 4,
+    "owner": null
+  },
+  "_id": "odI3EeDYOB3TNAsA",
+  "img": "icons/svg/ruins.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775515571664,
+    "modifiedTime": 1775515571664,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

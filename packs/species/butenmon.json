@@ -863,7 +863,11 @@
       "connected": [
         "ginryumon",
         "buraimon",
-        "musyamon"
+        "musyamon",
+        "chronomon-destruction",
+        "chronomon-holy",
+        "gaiomon",
+        "gryphonmon"
       ],
       "prerequisites": [
         {

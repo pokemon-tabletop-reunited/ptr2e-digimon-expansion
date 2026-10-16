@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Kouen",
   "type": "move",
   "system": {
@@ -31,26 +30,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 11,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 11
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fire"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack is unaffected by the abilities of other creatures. On hit, all valid targets are @Affliction[burn 7] and have a 20% chance of gaining @Affliction[wind-shear 7]. On resolution, this Attack is @Affliction[disabled 3].</p>",
         "range": {
@@ -62,8 +47,6 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "img": "systems/ptr2e/img/svg/fire_icon.svg",
@@ -78,58 +61,61 @@
           {
             "type": "roll-effect",
             "key": "kouen-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 7
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "kouen-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.windshearconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.windshearconditi",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 7
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "kouen-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.disabledconditem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.disabledconditio",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
             "affects": "self",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 4
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -143,8 +129,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -161,29 +149,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777546388868,
+        "modifiedTime": 1777546407928
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770077856425,
-    "modifiedTime": 1770077984392,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "MXTv0oaYC12Cs71J",
-  "sort": 300000
+  "_id": "MXTv0oaYC12Cs71J"
 }

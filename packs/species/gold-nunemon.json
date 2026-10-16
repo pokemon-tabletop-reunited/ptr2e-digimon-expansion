@@ -851,8 +851,11 @@
       "x": 66,
       "y": 54,
       "connected": [
+        "black-king-nunemon",
         "fan-beemon",
-        "solarmon"
+        "solarmon",
+        "vademon",
+        "waru-seadramon"
       ],
       "prerequisites": [
         {

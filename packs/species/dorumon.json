@@ -849,7 +849,14 @@
       "x": 32,
       "y": 46,
       "connected": [
-        "dorimon"
+        "airdramon",
+        "devidramon",
+        "dorugamon",
+        "dorimon",
+        "drimogemon",
+        "ex-veemon",
+        "raptordramon",
+        "sangloupmon"
       ],
       "prerequisites": [
         {

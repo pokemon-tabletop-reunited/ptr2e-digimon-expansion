@@ -834,8 +834,8 @@
         "lady-devimon"
       ],
       "prerequisites": [
-        "equipment:angewomon-dna",
-        "equipment:lady-devimon-dna"
+        "item:equipment:angewomon-dna",
+        "item:equipment:lady-devimon-dna"
       ]
     }
   },
@@ -850,7 +850,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.8wg1P1YK1fkz149W",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:mastemon"
@@ -862,7 +861,51 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.gHNE7JXTWz2e6Ljz",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:mastemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.dn8DOC5YrVrTMWDg",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:mastemon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -879,8 +922,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -897,13 +942,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.359",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.2.beta",
         "createdTime": 1770951848887,
-        "modifiedTime": 1770951872678,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1775550357966,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "04Ap0LzG53i4VLHX"

@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Skoll Rage",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "skoll-rage",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Skoll Rage",
+        "slug": "skoll-rage",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "traits": [
+          "dash",
+          "missile",
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "DR2EQ55qTr0hUW9r",
+  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775140275391,
+    "modifiedTime": 1775140276825,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 200000
+}

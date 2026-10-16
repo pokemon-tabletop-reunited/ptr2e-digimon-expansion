@@ -830,6 +830,7 @@
       "x": 160,
       "y": 85,
       "connected": [
+        "gallantmonx",
         "mistymon"
       ],
       "prerequisites": [

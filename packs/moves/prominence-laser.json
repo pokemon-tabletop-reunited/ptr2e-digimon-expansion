@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Prominence Laser",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "prominence-laser",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Prominence Laser",
+        "slug": "prominence-laser",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "traits": [
+          "pierce",
+          "ray",
+          "double-strike",
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "icH6toXB3Y6Y4FDI",
+  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.359",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.2.beta",
+    "createdTime": 1775140235896,
+    "modifiedTime": 1775140235896,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

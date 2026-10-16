@@ -31,7 +31,7 @@
           "unit": "m"
         },
         "cost": {
-          "activation": "simple",
+          "activation": "complex",
           "powerPoints": 2
         },
         "types": [

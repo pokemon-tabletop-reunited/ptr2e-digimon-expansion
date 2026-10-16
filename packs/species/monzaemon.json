@@ -854,6 +854,8 @@
       "x": 113,
       "y": 61,
       "connected": [
+        "callismon",
+        "king-etemon",
         "nunemon",
         "sukamon",
         "geremon"

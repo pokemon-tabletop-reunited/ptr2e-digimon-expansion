@@ -857,6 +857,12 @@
       "x": 33,
       "y": 49,
       "connected": [
+        "frigimon",
+        "gatomon",
+        "hyogamon",
+        "ice-devimon",
+        "icemon",
+        "monochromon",
         "dorimon"
       ],
       "prerequisites": [

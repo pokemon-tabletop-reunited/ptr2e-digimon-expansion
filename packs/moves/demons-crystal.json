@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Demon's Crystal",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Demon's Crystal",
+        "slug": "demons-crystal",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.3stdyCQf4nFLmGzR",
+        "types": [
+          "dark"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack summons a Demon Crystal which persists until the target gains @Affliction[fainted] or combat ends, whichever comes first. It has 80 AV, and uses the summoner's Special Attack in order to attack with a power of 110 against the target when it activates.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 7,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "4yIoyMeAnWtTMBr9",
+  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.4.beta",
+    "createdTime": 1777208881492,
+    "modifiedTime": 1777208881493,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}
