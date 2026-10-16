@@ -41,10 +41,32 @@
     },
     "diet": [],
     "abilities": {
-      "starting": [],
-      "basic": [],
-      "advanced": [],
-      "master": []
+      "starting": [
+        {
+          "slug": "miracle"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "runes-of-power"
+        },
+        {
+          "slug": "sage-power"
+        }
+      ],
+      "advanced": [
+        {
+          "slug": "scornful"
+        },
+        {
+          "slug": "simple"
+        }
+      ],
+      "master": [
+        {
+          "slug": "imperious-mind"
+        }
+      ]
     },
     "movement": [
       {
