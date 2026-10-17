@@ -37,7 +37,7 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
+      "type": "quad",
       "height": 3.8,
       "weight": 340
     },
@@ -927,7 +927,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767094789117,

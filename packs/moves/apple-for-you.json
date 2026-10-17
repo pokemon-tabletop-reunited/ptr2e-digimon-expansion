@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Apple For You",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Apple For You",
+        "slug": "apple-for-you",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5757.png",
+        "traits": [
+          "digimon",
+          "blast-2",
+          "explode",
+          "hazard"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, this attack inflicts @Affliction[burn 5].</p><p>On resolution, this attack creates a @Trait[hazard] in the blast area where the floor is slick with burning alcohol. Creatures entering the @Trait[hazard] area gain @Affliction[burn 5].</p>",
+        "range": {
+          "target": "blast",
+          "distance": 7,
+          "unit": "m"
+        },
+        "power": 105,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "CmzA4r5goGN4mfPx",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5757.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785315210921,
+    "modifiedTime": 1785315223378,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 5900000
+}

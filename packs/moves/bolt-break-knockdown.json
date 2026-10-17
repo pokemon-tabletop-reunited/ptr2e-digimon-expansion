@@ -19,11 +19,12 @@
         "name": "Bolt Break Knockdown",
         "slug": "bolt-break-knockdown",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
         "traits": [
           "digimon",
           "contact",
-          "punch"
+          "punch",
+          "4-strike"
         ],
         "cost": {
           "activation": "complex",
@@ -41,13 +42,14 @@
           "unit": "m"
         },
         "power": 25,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "B",
     "slug": "bolt-break-knockdown"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
   "effects": [
     {
       "name": "Bolt Break Knockdown",
@@ -113,7 +115,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
