@@ -860,7 +860,9 @@
       "connected": [
         "airdramon",
         "coredramon-blue",
-        "veedramon"
+        "veedramon",
+        "goldramon",
+        "slayerdramon"
       ],
       "prerequisites": [
         {

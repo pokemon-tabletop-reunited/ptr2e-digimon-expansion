@@ -848,9 +848,12 @@
       "x": 59,
       "y": 42,
       "connected": [
+        "cannon-beemon",
+        "duramon",
         "solarmon",
         "shoutmon",
-        "zubamon"
+        "zubamon",
+        "master-blimpmon"
       ],
       "prerequisites": [
         {

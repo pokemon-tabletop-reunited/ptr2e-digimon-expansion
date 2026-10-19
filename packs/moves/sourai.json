@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Sourai",
   "type": "move",
   "system": {
@@ -34,26 +33,12 @@
         ],
         "cost": {
           "activation": "free",
-          "powerPoints": 0,
-          "trigger": "Activated by the effect of the Sourai Summon.",
-          "delay": null,
-          "priority": null
+          "trigger": "Activated by the effect of the Sourai Summon."
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Trigger: Activated by the effect of the Sourai Summon.</p><p>Effect: On hit, all valid targets have a 20% chance of gaining @Affliction[paralysis 7] and @Affliction[delay 20]. If Rainy Weather is active, this attack gains +35 base Accuracy.</p>",
         "range": {
@@ -73,38 +58,19 @@
         "img": "systems/ptr2e/img/svg/electric_icon.svg",
         "cost": {
           "activation": "complex",
-          "powerPoints": 16,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 16
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "field",
-          "distance": 0,
           "unit": "m"
         },
         "types": [
           "electric"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "power": null,
-        "accuracy": null
+        "predicate": []
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "img": "systems/ptr2e/img/svg/electric_icon.svg",
@@ -125,47 +91,50 @@
             ],
             "property": "accuracy",
             "definition": [],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "sourai-activation-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "duration.turns",
                 "value": 7
               }
             ],
             "dontMerge": false,
             "label": "Paralysis",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           },
           {
             "type": "roll-effect",
             "key": "sourai-activation-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.delayconditiitem",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
             "predicate": [],
             "chance": 20,
             "isFixedChance": false,
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.amount",
                 "value": -20
               }
             ],
             "dontMerge": false,
             "label": "Delay",
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -179,8 +148,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -197,29 +168,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777550369948,
+        "modifiedTime": 1777550380712
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770078191998,
-    "modifiedTime": 1770078275829,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "btzMXFIgRQZFHjGV",
-  "sort": 200000
+  "_id": "btzMXFIgRQZFHjGV"
 }

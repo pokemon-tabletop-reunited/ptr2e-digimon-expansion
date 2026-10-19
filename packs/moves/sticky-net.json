@@ -57,16 +57,17 @@
           {
             "type": "roll-effect",
             "key": "sticky-net-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.HLAV9dhz632Rfp1K",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.HLAV9dhz632Rfp1K",
             "predicate": [],
             "chance": 100,
             "affects": "target",
             "dontMerge": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
             "alterations": [],
-            "isFixedChance": false
+            "isFixedChance": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -78,17 +79,15 @@
         "formula": "",
         "type": "damage",
         "removeAfterAttacking": false,
-        "removeAfterAttacked": false
+        "removeAfterAttacked": false,
+        "predicate": []
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -100,14 +99,17 @@
       "_stats": {
         "compendiumSource": "Compendium.ptr2e.core-moves.Item.TijijTYIY2UOVWOn.ActiveEffect.UCnWrisOhzQ9nLd2",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "systemVersion": "1.7.4.beta",
+        "createdTime": 1777553376918,
+        "modifiedTime": 1777553376918,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "xsp0fBBTgChEdCel"

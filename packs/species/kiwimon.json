@@ -853,9 +853,14 @@
       "x": 63,
       "y": 68,
       "connected": [
+        "blossomon",
+        "cherrymon",
+        "deramon",
         "floramon",
         "penmon",
-        "falcomon"
+        "falcomon",
+        "lilamon",
+        "sirenmon"
       ],
       "prerequisites": [
         {

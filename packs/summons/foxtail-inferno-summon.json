@@ -22,8 +22,8 @@
     ],
     "actions": [
       {
-        "name": "Foxtail Inferno (Summon) Action (#1)",
-        "slug": "foxtail-inferno-summon-action",
+        "name": "Foxtail Inferno",
+        "slug": "foxtail-inferno",
         "traits": [],
         "type": "summon",
         "img": "systems/ptr2e/img/svg/fire_icon.svg",
@@ -60,23 +60,19 @@
       "system": {
         "changes": [
           {
-            "type": "grant-effect",
-            "key": "",
-            "value": "Compendium.ptr2e.core-effects.Item.burnconditioitem",
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
             "predicate": [],
-            "allowDuplicate": false,
-            "mode": 2,
             "priority": null,
-            "ignored": false,
-            "reevaluateOnUpdate": false,
-            "inMemoryOnly": false,
             "alterations": [],
-            "track": false,
-            "replaceSelf": false,
-            "onDeleteActions": {
-              "grantee": "detach",
-              "granter": "cascade"
-            }
+            "phase": "initial",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "dontMerge": false,
+            "key": "foxtail-inferno-summon",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -90,17 +86,15 @@
         "targetType": "all",
         "targetUuid": null,
         "removeAfterAttacking": false,
-        "removeAfterAttacked": false
+        "removeAfterAttacked": false,
+        "predicate": []
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -113,11 +107,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.11.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777534447429,
+        "modifiedTime": 1777534483644
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "k6Trv0PKk45HA0fA"
