@@ -19,7 +19,7 @@
         "name": "Crystal Cloud",
         "slug": "crystal-cloud",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5118.png",
         "traits": [
           "digimon",
           "summon"
@@ -34,18 +34,19 @@
         "category": "status",
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.zEkEiK7eoCKJY4bf",
         "predicate": [],
-        "description": "<p>This attack summons a Crystal Cloud with a base AV of 85, for 3 Activations, which hovers over the battlefield, launching ice projectiles at enemies on each of it's turns. This summon attacks with Power 30, using the user's stats, against all enemies on the Field.</p>",
+        "description": "<p>This attack summons a Crystal Cloud with a base AV of 85, for 3 Activations, which hovers over the battlefield, launching ice projectiles at enemies on each of it's turns. This summon attacks with Power 70, using the user's stats, against all enemies on the Field.</p>",
         "range": {
           "target": "field",
           "unit": "m",
           "distance": 10
-        }
+        },
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "crystal-cloud"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5118.png",
   "effects": [],
   "_id": "kk3LHJBJk6Fzj9nP"
 }

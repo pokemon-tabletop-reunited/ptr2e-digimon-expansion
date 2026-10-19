@@ -80,7 +80,7 @@
     "movement": [
       {
         "type": "overland",
-        "value": 13
+        "value": 17
       },
       {
         "type": "flight",

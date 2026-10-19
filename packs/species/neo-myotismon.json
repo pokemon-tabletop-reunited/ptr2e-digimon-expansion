@@ -84,6 +84,14 @@
       {
         "type": "flight",
         "value": 21
+      },
+      {
+        "type": "swim",
+        "value": 6
+      },
+      {
+        "type": "teleport",
+        "value": 21
       }
     ],
     "skills": [

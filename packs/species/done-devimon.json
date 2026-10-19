@@ -85,6 +85,10 @@
       {
         "type": "flight",
         "value": 11
+      },
+      {
+        "type": "swim",
+        "value": 3
       }
     ],
     "skills": [

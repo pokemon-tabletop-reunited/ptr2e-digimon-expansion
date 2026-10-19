@@ -43,7 +43,7 @@
         "targetType": "enemy",
         "damageType": "power",
         "attackStat": "owner",
-        "power": 30
+        "power": 70
       }
     ],
     "baseAV": 85,
