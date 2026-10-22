@@ -17,7 +17,8 @@
       "digimon"
     ],
     "actions": [],
-    "description": "<p>Passive: The user takes -20% Damage from Special Attacks. On being hit with a Special Attack, the user regains @Tick[2].</p>"
+    "description": "<p>Passive: The user takes -20% Damage from Special Attacks. On being hit with a Special Attack, the user regains @Tick[2].</p>",
+    "slug": "gehenna"
   },
   "img": "icons/magic/unholy/orb-glowing-purple.webp",
   "effects": [
@@ -33,7 +34,8 @@
             "key": "special-attack-damage-percentile",
             "value": -20,
             "predicate": [],
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false
           },
@@ -47,13 +49,14 @@
             "affects": "defensive",
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.changes.0.value",
                 "value": 2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
+            "phase": "initial",
+            "method": 2,
             "ignored": false
           }
         ],
@@ -67,8 +70,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -85,13 +90,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777485926987,
+        "modifiedTime": 1777485926987
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "SNhQaYRaeZyMlTvu"
 }

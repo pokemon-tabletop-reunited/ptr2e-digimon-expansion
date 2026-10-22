@@ -829,6 +829,10 @@
       "x": 156,
       "y": 114,
       "connected": [
+        "master-tyrannomon",
+        "meicrackmon",
+        "omnimon",
+        "vermilimon",
         "metal-greymon",
         "duramon"
       ],

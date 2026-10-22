@@ -858,7 +858,11 @@
       "x": 32,
       "y": 33,
       "connected": [
-        "kapurimon"
+        "gold-nunemon",
+        "guardromon-gold",
+        "meramon",
+        "kapurimon",
+        "starmon"
       ],
       "prerequisites": [
         {

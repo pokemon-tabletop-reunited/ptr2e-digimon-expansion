@@ -854,9 +854,12 @@
       "x": 59,
       "y": 82,
       "connected": [
+        "butenmon",
         "ryudamon",
         "falcomon",
-        "kudamon"
+        "kudamon",
+        "hisyaryumon",
+        "skull-greymon"
       ],
       "prerequisites": [
         {

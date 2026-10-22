@@ -176,6 +176,11 @@
       "x": 22,
       "y": 19,
       "connected": [
+        "agumon-black",
+        "dracmon",
+        "gabumon-black",
+        "keramon",
+        "shamamon",
         "kuramon"
       ],
       "prerequisites": [

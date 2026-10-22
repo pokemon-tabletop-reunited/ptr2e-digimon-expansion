@@ -876,6 +876,11 @@
       "x": 33,
       "y": 91,
       "connected": [
+        "coelamon",
+        "ginryumon",
+        "greymon",
+        "monochromon",
+        "reppamon",
         "tsunomon"
       ],
       "prerequisites": [

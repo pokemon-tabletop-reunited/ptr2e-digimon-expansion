@@ -34,7 +34,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack inflicts @Affliction[nullified 5] to the target, selecting a different ability with each hit.</p>",
+        "description": "<p>This attack inflicts @Affliction[nullified 5].</p>",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -44,7 +44,8 @@
         "accuracy": 100
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "trump-sword"
   },
   "img": "systems/ptr2e/img/svg/steel_icon.svg",
   "effects": [
@@ -65,8 +66,9 @@
             "affects": "target",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -79,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -93,13 +97,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.360",
         "systemId": "ptr2e",
         "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "HJebeUcg3mwOKwKt"
 }

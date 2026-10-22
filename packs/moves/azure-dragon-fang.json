@@ -1,0 +1,196 @@
+{
+  "folder": null,
+  "name": "Azure Dragon Fang",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Azure Dragon Fang",
+        "slug": "azure-dragon-fang",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5818.png",
+        "traits": [
+          "digimon",
+          "sky",
+          "blast-3"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water",
+          "dragon"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Increase the Power of this Attack by 50 per span on the Azure Dragon Fang Clock. After using this attack, reset the Azure Dragon Fang Clock back to 0 spans.</p>",
+        "range": {
+          "target": "blast",
+          "distance": 12,
+          "unit": "m"
+        },
+        "power": 50,
+        "accuracy": 100
+      },
+      {
+        "name": "Call of the Depths",
+        "slug": "call-of-the-depths",
+        "description": "<p>The user maintains an Azure Dragon Fang Clock of 5 spans.</p><p>Through this action, the user may spend @Tick[-1 pp] to charge the Azure Dragon Fang Clock by 1 span.</p>",
+        "traits": [
+          "special-cost"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5818.png",
+        "cost": {
+          "activation": "free",
+          "powerPoints": null,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "zRZKrFl2TDxx32GJ",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5818.png",
+  "effects": [
+    {
+      "name": "Azure Dragon Fang",
+      "type": "passive",
+      "_id": "ggKercgN5UIv4xIw",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "create-clock",
+            "value": 0,
+            "phase": "initial",
+            "predicate": [],
+            "key": "azuredragonfang1",
+            "max": 5,
+            "private": false,
+            "color": "#8080ff",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "flat-modifier",
+            "value": "50*@actor.clocks.azuredragonfang1",
+            "phase": "initial",
+            "predicate": [],
+            "key": "azure-dragon-fang-attack-power",
+            "label": "Azure Dragon Fang",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.LHUTMAC0nCJWDRFt",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "call-of-the-depths-generic",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1792236981716,
+        "modifiedTime": 1792236981716,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792236981716,
+    "modifiedTime": 1792236997506,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 3100000
+}

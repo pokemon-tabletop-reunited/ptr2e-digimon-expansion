@@ -854,6 +854,8 @@
       "x": 116,
       "y": 180,
       "connected": [
+        "metal-seadramon",
+        "neptunemon",
         "deltamon",
         "seadramon"
       ],

@@ -852,7 +852,13 @@
       "x": 36,
       "y": 80,
       "connected": [
-        "motimon"
+        "dokugumon",
+        "motimon",
+        "flymon",
+        "kokatorimon",
+        "nise-drimogemon",
+        "waspmon",
+        "yanmamon"
       ],
       "prerequisites": [
         {

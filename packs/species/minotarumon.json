@@ -856,9 +856,12 @@
       "x": 57,
       "y": 21,
       "connected": [
+        "etemon",
+        "grap-leomon",
         "shamamon",
         "gabumon-black",
-        "lopmon"
+        "lopmon",
+        "triceramon"
       ],
       "prerequisites": [
         {

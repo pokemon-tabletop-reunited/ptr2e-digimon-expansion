@@ -21,17 +21,15 @@
         "name": "Black Sabbath",
         "slug": "black-sabbath",
         "type": "attack",
-        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5868.png",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5771.png",
         "traits": [
           "digimon",
           "sonic",
-          "crushing",
-          "ignore-immunity-sonic",
-          "push-3"
+          "danger-close"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8,
+          "powerPoints": 7,
           "trigger": "",
           "delay": null,
           "priority": null
@@ -42,7 +40,7 @@
         "types": [
           "dark"
         ],
-        "category": "special",
+        "category": "status",
         "contestType": "",
         "contestEffect": "",
         "free": true,
@@ -52,22 +50,22 @@
         "offensiveStat": null,
         "defensiveStat": null,
         "predicate": [],
-        "description": "<p>Effect: This attack ignores the @UUID[Compendium.ptr2e.core-abilities.Rvu4BklCGJmPB6cf]{Soundproof} ability.</p><p>This attack inflicts a Tinitis Special Condition for 5 activations. The afflicted creature cannot benefit from @Trait[command] actions and is immune to @Trait[social] actions.</p>",
+        "description": "<p>Effect: This attack inflicts @Affliction[perish 5].</p>",
         "range": {
-          "target": "cone",
-          "distance": 8,
+          "target": "emanation",
+          "distance": 20,
           "unit": "m"
         },
-        "power": 125,
+        "power": null,
         "accuracy": 100
       }
     ],
     "description": "",
     "container": null,
-    "grade": "S"
+    "grade": "A"
   },
-  "_id": "fftk7ibSYgKeJJDA",
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5868.png",
+  "_id": "ws3AOuKIAnyurz9K",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5771.png",
   "effects": [],
   "ownership": {
     "default": 2,
@@ -75,11 +73,11 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.369",
+    "coreVersion": "14.365",
     "systemId": "ptr2e",
     "systemVersion": "1.7.6.beta",
-    "createdTime": 1792682063564,
-    "modifiedTime": 1792682063564,
+    "createdTime": 1785364721576,
+    "modifiedTime": 1785364721576,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "compendiumSource": null,
     "duplicateSource": null,

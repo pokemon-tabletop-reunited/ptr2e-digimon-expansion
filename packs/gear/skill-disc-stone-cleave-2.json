@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "skill-disc-stone-cleave-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +21,6 @@
     ],
     "actions": [],
     "description": "<p>This skill disc grants @UUID[Compendium.ptr2e-digimon-expansion.digimon-moves.beBRwZiQnHlM0GQd]{Stone Cleave 2} as a known move while equipped.</p>",
-    "container": null,
     "crafting": {
       "skill": "",
       "spans": null,
@@ -47,7 +46,6 @@
     "quantity": 1,
     "rarity": "uncommon",
     "ammoType": [],
-    "ammo": null,
     "identification": {
       "misidentified": null,
       "status": "identified",
@@ -69,8 +67,7 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Item.bVPFwWoj32rsLKG0",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.beBRwZiQnHlM0GQd",
             "predicate": [
               "equipment:skill-disc-stone-cleave-2"
             ],
@@ -81,7 +78,9 @@
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -98,8 +97,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -116,29 +117,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.5.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1779113721888,
+        "modifiedTime": 1779113721888
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1773092140072,
-    "modifiedTime": 1773092140072,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "duVQzhebV5mOf3vs",
-  "sort": 0
+  "_id": "duVQzhebV5mOf3vs"
 }
