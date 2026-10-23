@@ -19,7 +19,7 @@
         "name": "Garuru Tomahawk",
         "slug": "garuru-tomahawk",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
         "traits": [
           "digimon",
           "missile",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 140,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "garuru-tomahawk"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
   "effects": [],
-  "flags": {},
   "_id": "ujeE7yrbsBCwmi86"
 }

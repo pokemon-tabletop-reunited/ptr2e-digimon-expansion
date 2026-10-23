@@ -19,7 +19,7 @@
         "name": "Meteor Shower",
         "slug": "meteor-shower",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5146.png",
         "traits": [
           "crit-1",
           "blast-3",
@@ -46,7 +46,7 @@
     "grade": "C",
     "slug": "meteor-shower"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5146.png",
   "effects": [],
   "_id": "1g6KXqnrf4HFW8Bc"
 }

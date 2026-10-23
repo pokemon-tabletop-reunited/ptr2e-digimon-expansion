@@ -19,7 +19,7 @@
         "name": "Brinded",
         "slug": "brinded",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5234.png",
         "traits": [
           "digimon",
           "ray",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "brinded"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5234.png",
   "effects": [],
-  "flags": {},
   "_id": "L0vdtG7gXNBThHUe"
 }

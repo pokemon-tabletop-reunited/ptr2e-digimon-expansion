@@ -1,157 +1,180 @@
 {
-  "name": "Seven's Fantasia",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Seven's Fantasia",
-        "slug": "sevens-fantasia",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon",
-          "friendly",
-          "arcane",
-          "social",
-          "ignore-type-immunity"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "poison",
-          "fairy"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>This attack is both @Trait[fairy] & @Trait[poison] typed. This attack is Super Effective vs @Trait[steel].<br><br>On hit, this attack inflicts @Affliction[confused 5], @Affliction[charmed 5] and @Affliction[drowsy 5].</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 7,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "sevens-fantasia"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [
-    {
-      "name": "Seven's Fantasia",
-      "type": "passive",
-      "_id": "FXdgaLVmxywkDbDz",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "value": 2,
-            "phase": "initial",
-            "predicate": [
-              "target:trait:steel"
-            ],
-            "key": "sevens-fantasia-attack-effectiveness-stage",
-            "label": "Vs Steel",
-            "method": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "phase": "initial",
-            "predicate": [],
-            "key": "sevens-fantasia-attack",
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.charmedcondition",
-            "phase": "initial",
-            "predicate": [],
-            "key": "sevens-fantasia-attack",
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
-            "phase": "initial",
-            "predicate": [],
-            "key": "sevens-fantasia-attack",
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "start": null,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "showIcon": 1,
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777549850135,
-        "modifiedTime": 1777549923085,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "gOjQvAZGAHxzI0En"
+    "_id":  "gOjQvAZGAHxzI0En",
+    "effects":  [
+                    {
+                        "_id":  "FXdgaLVmxywkDbDz",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777549850135,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777549923085,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Seven\u0027s Fantasia",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "value":  2,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:steel"
+                                                                         ],
+                                                           "key":  "sevens-fantasia-attack-effectiveness-stage",
+                                                           "label":  "Vs Steel",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "sevens-fantasia-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.charmedcondition",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "sevens-fantasia-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "sevens-fantasia-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5393.png",
+    "name":  "Seven\u0027s Fantasia",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eThis attack is both @Trait[fairy] \u0026 @Trait[poison] typed. This attack is Super Effective vs @Trait[steel].\u003cbr\u003e\u003cbr\u003eOn hit, this attack inflicts @Affliction[confused 5], @Affliction[charmed 5] and @Affliction[drowsy 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5393.png",
+                                       "name":  "Seven\u0027s Fantasia",
+                                       "power":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  7,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "sevens-fantasia",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "friendly",
+                                                      "arcane",
+                                                      "social",
+                                                      "ignore-type-immunity"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "poison",
+                                                     "fairy"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "sevens-fantasia",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

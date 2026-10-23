@@ -19,7 +19,7 @@
         "name": "Little Blizzard",
         "slug": "little-blizzard",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5078.png",
         "traits": [
           "digimon",
           "4-strike"
@@ -42,10 +42,10 @@
         "accuracy": 100
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "little-blizzard"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5078.png",
   "effects": [],
-  "flags": {},
   "_id": "wNxxw2zbC3BVe8Z6"
 }

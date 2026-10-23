@@ -1,54 +1,59 @@
 {
-  "name": "Magic Monkey Fist",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Magic Monkey Fist",
-        "slug": "magic-monkey-fist",
-        "type": "attack",
-        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
-        "traits": [
-          "digimon",
-          "contact",
-          "punch",
-          "10-strike"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 15,
-        "accuracy": 100,
-        "free": true
-      }
-    ],
-    "grade": "B",
-    "slug": "magic-monkey-fist"
-  },
-  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
-  "effects": [],
-  "_id": "UTJ9jpnDrhxHEENL"
+    "_id":  "UTJ9jpnDrhxHEENL",
+    "effects":  [
+
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
+    "name":  "Magic Monkey Fist",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5494.png",
+                                       "name":  "Magic Monkey Fist",
+                                       "power":  15,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "magic-monkey-fist",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "punch",
+                                                      "10-strike"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "psychic"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "magic-monkey-fist",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
