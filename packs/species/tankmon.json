@@ -846,6 +846,10 @@
       "x": 61,
       "y": 40,
       "connected": [
+        "big-mamemon",
+        "cargodramon",
+        "locomon",
+        "tankdramon",
         "hagurumon",
         "toy-agumon",
         "zubamon"

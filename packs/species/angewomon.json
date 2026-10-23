@@ -865,7 +865,13 @@
         "gatomon",
         "frigimon",
         "witchmon",
-        "meicoomon"
+        "meicoomon",
+        "junomon",
+        "magnadramon",
+        "mastemon",
+        "ophanimon-fm",
+        "ophanimon",
+        "rasielmon"
       ],
       "prerequisites": [
         {

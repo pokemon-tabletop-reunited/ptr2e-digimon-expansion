@@ -19,7 +19,7 @@
         "name": "Breath of God",
         "slug": "breath-of-god",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342.png",
         "traits": [
           "interrupt-5",
           "shield",
@@ -44,7 +44,7 @@
     "grade": "S",
     "slug": "breath-of-god"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342.png",
   "effects": [],
   "_id": "G9vhUVkb5YtDEHog"
 }

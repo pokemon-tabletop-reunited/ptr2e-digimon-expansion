@@ -853,7 +853,10 @@
       "connected": [
         "kotemon",
         "hyokomon",
-        "kamemon"
+        "kamemon",
+        "grademon",
+        "knightmon",
+        "shaujinmon"
       ],
       "prerequisites": [
         {

@@ -1,51 +1,152 @@
 {
-  "name": "Pretty Attack",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Pretty Attack",
-        "slug": "pretty-attack",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
-        "traits": [
-          "digimon",
-          "healing"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "normal"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Target: Self or Ally<br><br>Effect: Restores @Tick[8] HP and cleanses all Negative [Stage Change] effects from the target.</p>",
-        "range": {
-          "target": "ally",
-          "distance": 10,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "KdB6WLCv9KBD3dO0"
+    "_id":  "KdB6WLCv9KBD3dO0",
+    "effects":  [
+                    {
+                        "_id":  "xo4ET3voIX5gLLAq",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1779493005859,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779493082948,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Pretty Attack",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  8
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "pretty-attack-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "negative-stage-change-trait"
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "key":  "pretty-attack-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5223.png",
+    "name":  "Pretty Attack",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eTarget: Self or Ally\u003cbr\u003e\u003cbr\u003eEffect: Restores @Tick[8] HP and cleanses all @Trait[negative-stage-change] effects from the target.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5223.png",
+                                       "name":  "Pretty Attack",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "ally",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "pretty-attack",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "healing"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "normal"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "pretty-attack",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

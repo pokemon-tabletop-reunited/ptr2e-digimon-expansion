@@ -1,51 +1,149 @@
 {
-  "name": "Venom Blast",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Venom Blast",
-        "slug": "venom-blast",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "poison"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has +1 Effectiveness Stage vs @Trait[bug] type creatures. If the target has the @Affliction[poison], @Affliction[blight] or @Affliction[drowsy] conditions, this attack has a 25% chance to inflict @Affliction[perish 1].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 4,
-          "unit": "m"
-        },
-        "power": 60,
-        "accuracy": 100
-      }
-    ],
-    "grade": "C"
-  },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "dC1WEeZgF6GePde6"
+    "_id":  "dC1WEeZgF6GePde6",
+    "effects":  [
+                    {
+                        "_id":  "Q0Yq0hDw34YsdUJp",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777555247485,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777555378039,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Venom Blast",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "value":  1,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:bug"
+                                                                         ],
+                                                           "key":  "venom-blast-attack-effectiveness-stage",
+                                                           "label":  "Vs Bug",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             {
+                                                                                 "or":  [
+                                                                                            "target:effect:drowsy",
+                                                                                            "target:effect:poison",
+                                                                                            "target:effect:blight"
+                                                                                        ]
+                                                                             }
+                                                                         ],
+                                                           "chance":  25,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "venom-blast-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5179.png",
+    "name":  "Venom Blast",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Venom Blast",
+                                       "slug":  "venom-blast",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5179.png",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "poison"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has +1 Effectiveness Stage vs @Trait[bug] type creatures. If the target has the @Affliction[poison], @Affliction[blight] or @Affliction[drowsy] conditions, this attack has a 25% chance to inflict @Affliction[perish 1].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "venom-blast",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

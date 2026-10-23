@@ -1,0 +1,196 @@
+{
+    "_id":  "n8dTEQIel3TAa3CN",
+    "effects":  [
+                    {
+                        "_id":  "g42he7mum6QmyRJG",
+                        "_stats":  {
+                                       "coreVersion":  "14.360",
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.2.beta",
+                                       "createdTime":  1776412471026,
+                                       "modifiedTime":  1776412471026,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "compendiumSource":  null,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Ultimate War Blade",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "ultimate-war-blade-attack",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "ultimate-war-blade-attack",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "ultimate-war-blade-attack",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "formula":  "",
+                                       "priority":  50,
+                                       "removeAfterAttacked":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "slug":  null,
+                                       "stacks":  0,
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "damage"
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5526.png",
+    "name":  "Ultimate War Blade",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  5,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: This Attack has a 30% Chance to inflict @Affliction[burn 5], @Affliction[paralysis 5], and @Affliction[tased 5]\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5526.png",
+                                       "name":  "Ultimate War Blade",
+                                       "offensiveStat":  null,
+                                       "power":  140,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "ultimate-war-blade",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sharp",
+                                                      "pulse",
+                                                      "crit-2",
+                                                      "contact",
+                                                      "reach"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire",
+                                                     "electric"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "",
+                                       "authors":  [
+
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "ultimate-war-blade",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

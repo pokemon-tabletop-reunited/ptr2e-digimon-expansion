@@ -802,7 +802,9 @@
     "node": {
       "x": 8,
       "y": 35,
-      "connected": [],
+      "connected": [
+        "kapurimon"
+      ],
       "prerequisites": []
     }
   },

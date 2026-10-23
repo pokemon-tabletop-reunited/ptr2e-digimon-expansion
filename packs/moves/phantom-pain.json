@@ -1,51 +1,171 @@
 {
-  "name": "Phantom Pain",
-  "type": "move",
-  "_id": "qziSLv5nzIEo0OwN",
-  "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-  "system": {
-    "actions": [
-      {
-        "name": "Phantom Pain",
-        "slug": "phantom-pain",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-        "traits": [
-          "digimon",
-          "flat"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "shadow"
-        ],
-        "category": "special",
-        "power": 50,
-        "accuracy": 100,
-        "description": "<p>This attack deals flat damage equal to UserLevel x 3.<br><br>Effect: This attack inflicts @Affliction[wracked 5].</p>",
-        "predicate": []
-      }
-    ],
-    "grade": "S",
-    "traits": [],
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    }
-  },
-  "effects": []
+    "_id":  "qziSLv5nzIEo0OwN",
+    "effects":  [
+                    {
+                        "_id":  "JD8echsY498Aa81a",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775516255076,
+                                       "duplicateSource":  "Item.f1kMxvTOFJlxDxTq.ActiveEffect.gOUUMMDxkPvGmKU8",
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777548376123,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Phantom Pain",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "phantom-pain-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.blightcondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "phantom-pain-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "phantom-pain-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tks8Fa9ZmwYOSr4Z",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",
+    "name":  "Phantom Pain",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @Affliction[blight 8], @Affliction[stunted 3] and @UUID[Compendium.ptr2e.core-effects.tks8Fa9ZmwYOSr4Z]{Puppet 1}\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",
+                                       "name":  "Phantom Pain",
+                                       "power":  85,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  7,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "phantom-pain",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "social"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "psychic"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "phantom-pain",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

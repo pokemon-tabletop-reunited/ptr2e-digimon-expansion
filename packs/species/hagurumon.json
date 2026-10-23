@@ -868,7 +868,14 @@
       "x": 31,
       "y": 36,
       "connected": [
-        "kapurimon"
+        "blimpmon",
+        "clockmon",
+        "guardromon",
+        "kapurimon",
+        "hi-commandramon",
+        "mekanorimon",
+        "missimon",
+        "tankmon"
       ],
       "prerequisites": [
         {

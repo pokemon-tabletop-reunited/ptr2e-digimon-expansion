@@ -1,0 +1,206 @@
+{
+    "_id":  "jwj3UmOECkkAgHeh",
+    "effects":  [
+                    {
+                        "_id":  "nSh9J2cgHz1EQrpi",
+                        "_stats":  {
+                                       "coreVersion":  "14.360",
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.2.beta",
+                                       "createdTime":  1776412459382,
+                                       "modifiedTime":  1776412459382,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "compendiumSource":  null,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Shiden Shouraiko",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "shinden-shouraiko-attack",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "value":  50,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:state:flying"
+                                                                         ],
+                                                           "key":  "shinden-shouraiko-attack",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:state:flying"
+                                                                         ],
+                                                           "key":  "shinden-shouraiko-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "shinden-shouraiko-attack",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "formula":  "",
+                                       "priority":  50,
+                                       "removeAfterAttacked":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "slug":  null,
+                                       "stacks":  0,
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "damage"
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5532.png",
+    "name":  "Shinden Shouraiko",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  8,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: On hit, all valid targets have a 30% chance of gaining @Affliction[paralysis 5] and @Affliction[tased 5].\u003cbr\u003eDeals 50% more damage and applies @Affliction[grounded 5] to targets in the Flying Movement State.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5532.png",
+                                       "name":  "Shinden Shouraiko",
+                                       "offensiveStat":  null,
+                                       "power":  120,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "blast",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "shinden-shouraiko",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "pulse",
+                                                      "sky",
+                                                      "blast-2",
+                                                      "crit-2"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "shinden-shouraiko",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

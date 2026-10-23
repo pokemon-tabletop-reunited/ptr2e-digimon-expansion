@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Pyramid Power",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Pyramid Power",
+        "slug": "pyramid-power",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5831.png",
+        "traits": [
+          "digimon",
+          "hazard",
+          "blast-7",
+          "friendly"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.l4RIRFwKdIc2jXln",
+        "types": [
+          "ghost"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: Creates a Tomb @Trait[hazard] within the blast area that lasts for 1 round (tracked via &lt;summon&gt;). Creatures within the @Trait[hazard] are inflicted with @Affliction[stuck] and @Affliction[cursed] and may not move outside of the @Trait[hazard] until it expires.</p><p></p>",
+        "range": {
+          "target": "blast",
+          "distance": 20,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "9Qy5blIbBGmRQ9Qn",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5831.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792587245289,
+    "modifiedTime": 1792587245289,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

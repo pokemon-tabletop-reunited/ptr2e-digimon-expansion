@@ -1,56 +1,131 @@
 {
-  "name": "Good Night Moon",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": {
-        "schema": null,
-        "foundry": "12.331",
-        "system": "1.1.0.beta"
-      }
-    },
-    "slug": "good-night-moon",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "PTR 2e Team",
-        "Gwen"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "slug": "good-night-moon",
-        "name": "Good Night Moon",
-        "type": "attack",
-        "traits": [
-          "digimon"
-        ],
-        "range": {
-          "target": "line",
-          "distance": 4,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "category": "special",
-        "power": 120,
-        "accuracy": 100,
-        "types": [
-          "fairy"
-        ],
-        "description": "<p>Effect: On hit, the target has a 50% chance of gaining @Affliction[drowsy] 2.</p>",
-        "img": "https://assets.forge-vtt.com/6132db9efd99d052c06b70e3/systems/ptr2e/img/svg/dark_icon.svg",
-        "predicate": []
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "_id": "XJWNR9wnFlarJC5V"
+    "_id":  "XJWNR9wnFlarJC5V",
+    "effects":  [
+                    {
+                        "_id":  "I1Ww7fK31Y2aoyqf",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1774793028113,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1780609285682,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Good Night Moon",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "chance":  50,
+                                                           "dontMerge":  false,
+                                                           "ignored":  false,
+                                                           "isFixedChance":  false,
+                                                           "key":  "good-night-moon-attack",
+                                                           "method":  2,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0"
+                                                       }
+                                                   ],
+                                       "removeAfterAttacked":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "slug":  null,
+                                       "stacks":  0,
+                                       "traits":  [
+
+                                                  ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5379.png",
+    "name":  "Good Night Moon",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  {
+                                                       "schema":  null,
+                                                       "foundry":  "12.331",
+                                                       "system":  "1.1.0.beta"
+                                                   }
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eEffect: On hit, the target has a 50% chance of gaining @Affliction[drowsy 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5379.png",
+                                       "name":  "Good Night Moon",
+                                       "power":  120,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "good-night-moon",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fairy"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "PTR 2e Team",
+                                                       "Gwen"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "good-night-moon",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

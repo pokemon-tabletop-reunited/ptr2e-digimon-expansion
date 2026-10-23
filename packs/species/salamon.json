@@ -871,7 +871,14 @@
       "x": 34,
       "y": 103,
       "connected": [
-        "nyaromon"
+        "dobermon",
+        "drimogemon",
+        "gatomon",
+        "ikkakumon",
+        "meicoomon",
+        "nyaromon",
+        "sangloupmon",
+        "veedramon"
       ],
       "prerequisites": [
         {

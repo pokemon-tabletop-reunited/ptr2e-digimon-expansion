@@ -851,7 +851,14 @@
       "x": 30,
       "y": 123,
       "connected": [
-        "koromon"
+        "apemon",
+        "coredramon-blue",
+        "deputymon",
+        "dinohyumon",
+        "flarelizamon",
+        "koromon",
+        "musyamon",
+        "turuiemon"
       ],
       "prerequisites": [
         {

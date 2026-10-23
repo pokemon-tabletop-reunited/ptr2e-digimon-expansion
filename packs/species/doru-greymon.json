@@ -860,9 +860,12 @@
       "x": 106,
       "y": 43,
       "connected": [
+        "alphamon",
         "reppamon",
         "growlmon",
-        "dorugamon"
+        "dorugamon",
+        "dorugoramon",
+        "nise-drimogemon"
       ],
       "prerequisites": [
         {

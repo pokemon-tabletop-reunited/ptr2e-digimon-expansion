@@ -844,7 +844,15 @@
       "x": 35,
       "y": 174,
       "connected": [
-        "bukamon"
+        "coelamon",
+        "bukamon",
+        "dolphmon",
+        "gawappamon",
+        "mori-shellmon",
+        "octomon",
+        "raremon",
+        "shellmon",
+        "snimon"
       ],
       "prerequisites": [
         {

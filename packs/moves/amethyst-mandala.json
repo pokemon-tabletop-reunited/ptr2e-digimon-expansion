@@ -1,53 +1,132 @@
 {
-  "name": "Amethyst Mandala",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Amethyst Mandala",
-        "slug": "amethyst-mandala",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon",
-          "friendly"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "psychic",
-          "fairy"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>This attack is both @Trait[fairy] and @Trait[psychic]. On hit, this attack removes all positive @Trait[stage-change] effects from affected targets.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 5,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "amethyst-mandala"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "_id": "ezREwZ8X0FHOdGFJ"
+    "_id":  "ezREwZ8X0FHOdGFJ",
+    "effects":  [
+                    {
+                        "_id":  "4Z3xPgE01xVbqnMs",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1779493441304,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779493480824,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Amethyst Mandala",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "amethyst-mandala-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "positive-stage-change-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5372.png",
+    "name":  "Amethyst Mandala",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eThis attack is both @Trait[fairy] and @Trait[psychic]. On hit, this attack removes all @Trait[positive-stage-change] effects from affected targets.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5372.png",
+                                       "name":  "Amethyst Mandala",
+                                       "power":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "amethyst-mandala",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "friendly"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "psychic",
+                                                     "fairy"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "amethyst-mandala",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Nightmare Raid",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Nightmare Raid",
+        "slug": "nightmare-raid",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5875.png",
+        "traits": [
+          "digimon",
+          "drain-1-4",
+          "jaw",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.1WxQDrOlRqqFFrPs",
+        "types": [
+          "dark"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>The user summons a Nightmare Raid, conjuring vampiric bats to assault their foes. This summon has a base AV of 125 and lasts for 6 activations, and attacks all enemies present with a power 105 [Dark] attack, based on the summoner's Special Attack. This attack has the [Drain 1/4] trait and a 10% to inflict @UUID[Compendium.ptr2e.core-effects-new.tks8Fa9ZmwYOSr4Z]{Puppet 1}.</p>",
+        "range": {
+          "target": "field",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "hhEsfPZ4ufLcpJZO",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5875.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792075713523,
+    "modifiedTime": 1792075713523,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

@@ -19,7 +19,7 @@
         "name": "Hunting Cannon (Set-Up)",
         "slug": "hunting-cannon-set-up",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5141.png",
         "traits": [
           "digimon",
           "set-up",
@@ -37,8 +37,10 @@
         "description": "<p>Effect: The user gains @Affliction[braced]. If the user moves (voluntarily or otherwise) after initiating this move, the move will fail.</p>",
         "range": {
           "target": "self",
-          "unit": "m"
-        }
+          "unit": "m",
+          "distance": 10
+        },
+        "free": true
       },
       {
         "name": "Hunting Cannon (Resolution)",
@@ -48,7 +50,7 @@
           "flinch-30"
         ],
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5141.png",
         "cost": {
           "activation": "complex",
           "powerPoints": 3
@@ -64,13 +66,14 @@
         "category": "physical",
         "predicate": [],
         "power": 125,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "hunting-cannon"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5141.png",
   "effects": [],
-  "flags": {},
   "_id": "5ppCh8J57qgpuUU9"
 }
