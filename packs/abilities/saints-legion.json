@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Saint's Legion",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [
+      {
+        "name": "Saint's Legion (Reinforcements)",
+        "slug": "saints-legion-reinforcements",
+        "description": "<p>As a \"wild\" creature or NPC, Saint's Legion may be used to summon a @UUID[Compendium.ptr2e-digimon-expansion.digimon-species.7ZLJhwLJCUehOojv]{Gargomon}, Piddomon and a Manticoremon to the field 5 levels lower than the user.</p><p>As an owned creature, Saint's Legion allows the owner to carry a Gargomon or a Piddomon, and a Manticoremon in addition to their normal Party size, and they may be summoned to the field as reinforcements using Saint's Legion.</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5729.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "blast",
+          "distance": 3,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "<p>As a \"wild\" creature or NPC, Saint's Legion may be used to summon reinforcements.</p><p>As an owned creature, Saint's Legion allows the owner to carry a Gargomon or Piddomon and a Manticoremon in addition to their normal Party size, and they may be summoned to the field as reinforcements using Saint's Legion.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "DMykd6QHC4YUhGxX",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5729.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1784703399432,
+    "modifiedTime": 1784703399432,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Ultimate Seibaken",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "ultimate-seibaken",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Ultimate Seibaken",
         "slug": "ultimate-seibaken",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5508.png",
         "traits": [
           "digimon",
           "sharp",
@@ -29,26 +28,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fairy"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>This attack gains +1 Effectiveness Stage vs @Trait[dark] creatures.</p>",
         "range": {
@@ -60,11 +46,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5508.png",
   "effects": [
     {
       "name": "Ultimate Seibaken",
@@ -81,9 +65,10 @@
               "target:trait:dark"
             ],
             "label": "Vs Dark",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -96,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -114,29 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1773437428437,
-    "modifiedTime": 1773437428437,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "7Gwtlzu8N3ouFKG3",
-  "sort": 0
+  "_id": "7Gwtlzu8N3ouFKG3"
 }

@@ -1,128 +1,149 @@
 {
-  "name": "Eden's Javelin",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Eden's Javelin",
-        "slug": "edens-javelin",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "pierce",
-          "digimon",
-          "ray",
-          "flinch-30"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 9
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: On hit, the target has a 75% chance to lose -1 ATK and SPATK Stage for 5 Activations if they are a @Trait[virus] creature.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 12,
-          "unit": "m"
-        },
-        "power": 120,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "edens-javelin"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [
-    {
-      "name": "Eden's Javelin",
-      "type": "passive",
-      "_id": "QEWrer9lZN7RG1Ms",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "edens-javelin-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.ikCAv5w4iNfHHqaE",
-            "predicate": [
-              "target:trait:virus"
-            ],
-            "chance": 75,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "edens-javelin-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.1JXumQz0QqthT9Iv",
-            "predicate": [
-              "target:trait:virus"
-            ],
-            "chance": 75,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL",
-        "modifiedTime": 1771286073200
-      }
-    }
-  ],
-  "_id": "kgqX2KbNDSlZsygP"
+    "_id":  "kgqX2KbNDSlZsygP",
+    "effects":  [
+                    {
+                        "_id":  "QEWrer9lZN7RG1Ms",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777537285258,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537292151,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Eden\u0027s Javelin",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "edens-javelin-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ikCAv5w4iNfHHqaE",
+                                                           "predicate":  [
+                                                                             "target:trait:virus"
+                                                                         ],
+                                                           "chance":  75,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "edens-javelin-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.1JXumQz0QqthT9Iv",
+                                                           "predicate":  [
+                                                                             "target:trait:virus"
+                                                                         ],
+                                                           "chance":  75,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5340.png",
+    "name":  "Eden\u0027s Javelin",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Eden\u0027s Javelin",
+                                       "slug":  "edens-javelin",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5340.png",
+                                       "traits":  [
+                                                      "pierce",
+                                                      "digimon",
+                                                      "ray",
+                                                      "flinch-30"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  9
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: On hit, the target has a 75% chance to lose -1 ATK and SPATK Stage for 5 Activations if they are a @Trait[virus] creature.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  12,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  120,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "slug":  "edens-javelin"
+               },
+    "type":  "move"
 }

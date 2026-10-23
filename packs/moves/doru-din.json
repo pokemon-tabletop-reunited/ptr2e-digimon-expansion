@@ -1,0 +1,85 @@
+{
+    "_id":  "TS9Q5ktG5tbxLBKf",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+    "name":  "DORU Din",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  7,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eThis move is both @Trait[fire]-type \u0026 @Trait[dragon]-type.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+                                       "name":  "DORU Din",
+                                       "offensiveStat":  null,
+                                       "power":  120,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  14,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "doru-din",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sonic",
+                                                      "ray"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire",
+                                                     "dragon"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

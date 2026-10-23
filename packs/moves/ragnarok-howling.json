@@ -1,0 +1,135 @@
+{
+    "_id":  "AxC2jRe3VLbRFQFA",
+    "effects":  [
+                    {
+                        "_id":  "aVMjVwySJ58keDTx",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775140248116,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777549394882,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Ragnarok Howling",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "ragnarok-howling-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+    "name":  "Ragnarok Howling",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  11
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack has a 30% chance to inflict @Affliction[burn 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+                                       "name":  "Ragnarok Howling",
+                                       "power":  110,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "ragnarok-howling",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sonic",
+                                                      "explode",
+                                                      "danger-close"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "ragnarok-howling",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

@@ -855,7 +855,14 @@
       "x": 32,
       "y": 133,
       "connected": [
-        "koromon"
+        "coredramon-blue",
+        "coredramon-green",
+        "dark-tyrannomon",
+        "deltamon",
+        "koromon",
+        "seadramon",
+        "tyrannomon",
+        "veedramon"
       ],
       "prerequisites": [
         {

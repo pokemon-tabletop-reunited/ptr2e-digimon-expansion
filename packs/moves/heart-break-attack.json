@@ -1,186 +1,182 @@
 {
-  "folder": null,
-  "name": "Heart Break Attack",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": null,
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Heart Break Attack",
-        "slug": "heart-break-attack",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-        "traits": [
-          "digimon",
-          "friendly",
-          "unted"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "shadow"
-        ],
-        "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "<p>Effect: Targets are inflicted with @Affliction[wracked 5] and @Affliction[destined 5]. @Trait[data] creatures additionally are inflicted with @Affliction[splinter 5] & @Affliction[stunted 5].</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 5,
-          "unit": "m"
-        },
-        "power": null,
-        "accuracy": 100
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-  "effects": [
-    {
-      "name": "Heart Break Attack",
-      "type": "passive",
-      "_id": "heVoTspG4iEKIMw4",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "heart-break-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.wrackedcondiitem",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "heart-break-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.destinedconditem",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "heart-break-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.splinterconditem",
-            "predicate": [
-              "target:trait:data"
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "heart-break-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.stuntedcondiitem",
-            "predicate": [
-              "target:trait:data"
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.12.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.12.beta",
-    "createdTime": 1767004633374,
-    "modifiedTime": 1767004633374,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "mlrxsSngGyCBUbft",
-  "sort": 0
+    "_id":  "mlrxsSngGyCBUbft",
+    "effects":  [
+                    {
+                        "_id":  "heVoTspG4iEKIMw4",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777545112384,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545130684,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Heart Break Attack",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "heart-break-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.wrackedcondition",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "heart-break-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.destinedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "heart-break-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+                                                           "predicate":  [
+                                                                             "target:trait:data"
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "heart-break-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
+                                                           "predicate":  [
+                                                                             "target:trait:data"
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5218.png",
+    "name":  "Heart Break Attack",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "description":  "\u003cp\u003eEffect: Targets are inflicted with @Affliction[wracked 5] and @Affliction[destined 5]. @Trait[data] creatures additionally are inflicted with @Affliction[splinter 5] \u0026 @Affliction[stunted 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5218.png",
+                                       "name":  "Heart Break Attack",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "heart-break-attack",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "friendly"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "shadow"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "heart-break-attack",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

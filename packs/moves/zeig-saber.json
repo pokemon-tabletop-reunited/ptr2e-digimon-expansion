@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Zeig Saber",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "zeig-saber",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Zeig Saber",
         "slug": "zeig-saber",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5507.png",
         "traits": [
           "digimon",
           "sharp",
@@ -29,26 +28,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 7
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fairy"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>This attack gains +1 Effectiveness Stage vs @Trait[ghost] creatures.</p>",
         "range": {
@@ -60,11 +46,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5507.png",
   "effects": [
     {
       "name": "Zeig Saber",
@@ -81,9 +65,10 @@
               "target:trait:ghost"
             ],
             "label": "Vs Ghost",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -96,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -114,29 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1773437445679,
-    "modifiedTime": 1773437445886,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "0lVkcCshd8l9qUzD",
-  "sort": 200000
+  "_id": "0lVkcCshd8l9qUzD"
 }

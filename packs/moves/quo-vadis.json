@@ -1,52 +1,145 @@
 {
-  "name": "Quo Vadis",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Quo Vadis",
-        "slug": "quo-vadis",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon",
-          "contact",
-          "danger-close",
-          "flat"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack deals UserLevel x 2 flat damage to the target, and has a 10% Fixed Chance to apply @Affliction[perish 1].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        }
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "FVpUkICyRIGXXWMG"
+    "_id":  "FVpUkICyRIGXXWMG",
+    "effects":  [
+                    {
+                        "_id":  "fvc8tTpZnx2qri0t",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777549329660,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777549376087,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Quo Vadis",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "quo-vadis-attack-damage-flat",
+                                                           "value":  "floor(@actor.system.advancement.level * 2)",
+                                                           "label":  "Quo Vadis",
+                                                           "priority":  null,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "quo-vadis-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5457.png",
+    "name":  "Quo Vadis",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Quo Vadis",
+                                       "slug":  "quo-vadis",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5457.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "danger-close",
+                                                      "flat"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack deals UserLevel x 2 flat damage to the target, and has a 10% Fixed Chance to apply @Affliction[perish 1].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "quo-vadis",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

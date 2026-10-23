@@ -863,6 +863,9 @@
       "x": 33,
       "y": 19,
       "connected": [
+        "fugamon",
+        "minotarumon",
+        "musyamon",
         "tsumemon"
       ],
       "prerequisites": [

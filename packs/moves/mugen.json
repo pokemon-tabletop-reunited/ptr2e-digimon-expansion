@@ -1,229 +1,217 @@
 {
-  "folder": null,
-  "name": "Mugen",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "mugen",
-    "publication": {
-      "source": "Digidex",
-      "authors": [],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Mugen",
-        "slug": "mugen",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
-        "traits": [
-          "digimon",
-          "hazard",
-          "blast-6",
-          "friendly",
-          "sovereign"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "water"
-        ],
-        "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "<p>Effect: A Misty Illusion Summon is created (AV 300), and the Misty Illusion Hazard affects non-allied creatures in the Blast area, with the Hazard disappearing when the Summon expires. Non-allied creatures that start their Activation in or Move through at least one space containing the Hazard during a single Activation gains @Affliction[hindered 4] and lose -2 ATK, SPATK, and SPDEF Stages for 4 Activations.</p>",
-        "range": {
-          "target": "blast",
-          "distance": 8,
-          "unit": "m"
-        },
-        "power": null,
-        "accuracy": 100
-      },
-      {
-        "name": "Mugen (Hazard Apply)",
-        "slug": "mugen-hazard",
-        "description": "",
-        "traits": [],
-        "type": "generic",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
-        "cost": {
-          "activation": "free",
-          "powerPoints": null,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "range": {
-          "target": "creature",
-          "distance": 0,
-          "unit": "m"
-        }
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "E"
-  },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
-  "effects": [
-    {
-      "name": "Mugen",
-      "type": "passive",
-      "_id": "xivr5wlPmGDaGhUH",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "mugen-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.hinderedconditem",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 4
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "mugen-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.Sp0TScnwSTu8Gusr",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 4
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "mugen-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.EYmp1DeE1Lwzi0D1",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 4
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "mugen-generic",
-            "value": "Compendium.ptr2e.core-effects.Item.9FlxAAlUW2PrKOd0",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 4
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770078085729,
-    "modifiedTime": 1770078085729,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "ICyyHMngu5tpZ9mc",
-  "sort": 0
+    "_id":  "ICyyHMngu5tpZ9mc",
+    "effects":  [
+                    {
+                        "_id":  "xivr5wlPmGDaGhUH",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777547519267,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1780610315846,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Mugen",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "mugen-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.hinderedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  2,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  4
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "mugen-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  4
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "mugen-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  4
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "mugen-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.9FlxAAlUW2PrKOd0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  4
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "removeAfterAttacked":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "slug":  null,
+                                       "stacks":  0,
+                                       "traits":  [
+
+                                                  ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5503.png",
+    "name":  "Mugen",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eEffect: A Misty Illusion Summon is created (AV 300), and the Misty Illusion Hazard affects non-allied creatures in the Blast area, with the Hazard disappearing when the Summon expires. Non-allied creatures that start their Activation in or Move through at least one space containing the Hazard during a single Activation gains @Affliction[hindered 4] and lose -2 ATK, SPATK, and SPDEF Stages for 4 Activations.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5503.png",
+                                       "name":  "Mugen",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "blast",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "mugen",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "hazard",
+                                                      "blast-6",
+                                                      "friendly",
+                                                      "sovereign"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "water"
+                                                 ]
+                                   },
+                                   {
+                                       "cost":  {
+                                                    "activation":  "free"
+                                                },
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5503.png",
+                                       "name":  "Mugen (Hazard Apply)",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "mugen-hazard",
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "generic"
+                                   }
+                               ],
+                   "grade":  "E",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "mugen",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

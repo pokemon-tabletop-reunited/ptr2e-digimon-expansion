@@ -1,119 +1,141 @@
 {
-  "name": "Plant Zone Cradle",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Plant Zone Cradle",
-        "slug": "plant-zone-cradle",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
-        "traits": [
-          "digimon",
-          "friendly"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "grass"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 30% chance to inflict @Affliction[drowsy 5] and has +1 Effectiveness Stage vs @Trait[steel].</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 4,
-          "unit": "m"
-        },
-        "power": 80,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
-  "effects": [
-    {
-      "name": "Plant Zone Cradle",
-      "type": "passive",
-      "_id": "uUeXy9dTWHm8siz8",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "plant-zone-cradle-attack-effectiveness-stage",
-            "value": 1,
-            "predicate": [
-              "target:trait:steel"
-            ],
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "plant-zone-cradle-attack-effectiveness-stage",
-            "value": "Compendium.ptr2e.core-effects.Item.drowsycondititem",
-            "predicate": [],
-            "chance": 30,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "tpLDv5D2DSoYsxmN"
+    "_id":  "tpLDv5D2DSoYsxmN",
+    "effects":  [
+                    {
+                        "_id":  "uUeXy9dTWHm8siz8",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777548711849,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777548716006,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Plant Zone Cradle",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "plant-zone-cradle-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:steel"
+                                                                         ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "plant-zone-cradle-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_green.png",
+    "name":  "Plant Zone Cradle",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Plant Zone Cradle",
+                                       "slug":  "plant-zone-cradle",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_green.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "friendly"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "grass"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 30% chance to inflict @Affliction[drowsy 5] and has +1 Effectiveness Stage vs @Trait[steel].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  80,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "plant-zone-cradle",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

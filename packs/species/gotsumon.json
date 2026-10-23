@@ -843,7 +843,15 @@
       "x": 31,
       "y": 85,
       "connected": [
-        "motimon"
+        "darklizamon",
+        "golemon",
+        "motimon",
+        "guardromon",
+        "icemon",
+        "jungle-mojyamon",
+        "monochromon",
+        "mud-frigimon",
+        "starmon"
       ],
       "prerequisites": [
         {

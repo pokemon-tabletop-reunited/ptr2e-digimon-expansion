@@ -1,0 +1,83 @@
+{
+    "_id":  "UoYDt4zBlcK48p3w",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
+    "name":  "Spiritual Enchantment",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  3800000,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  null,
+                                       "category":  "status",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  8,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: Summons the Mercurial Spirit to harass the designated target. This summon has an AV of 50, lasts for 3 activations and attacks with the user\u0027s ATK stat. It attacks at power 80, and applies @UUID[Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno]{-2 Defense Stages} and @Affliction[stunted] for 3 activations when it hits.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
+                                       "name":  "Spiritual Enchantment",
+                                       "offensiveStat":  null,
+                                       "power":  null,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "spiritual-enchantment",
+                                       "summon":  "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.FeHjUxHUSeLZjhll",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "summon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fighting"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

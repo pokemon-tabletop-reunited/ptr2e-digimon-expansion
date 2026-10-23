@@ -854,10 +854,13 @@
       "x": 110,
       "y": 83,
       "connected": [
+        "lotosmon",
         "sunflowmon",
         "togemon",
         "woodmon",
-        "meicoomon"
+        "meicoomon",
+        "rosemon",
+        "yanmamon"
       ],
       "prerequisites": [
         {

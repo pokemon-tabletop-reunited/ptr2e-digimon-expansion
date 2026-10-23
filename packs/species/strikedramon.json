@@ -847,6 +847,9 @@
       "x": 61,
       "y": 37,
       "connected": [
+        "cyberdramon",
+        "locomon",
+        "savior-huckmon",
         "monodramon",
         "gaomon",
         "agumon-black"

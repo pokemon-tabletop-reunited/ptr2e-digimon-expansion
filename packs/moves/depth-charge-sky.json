@@ -1,155 +1,143 @@
 {
-  "folder": null,
-  "name": "Depth Charge Sky",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": null,
-    "publication": {
-      "source": "Digimon",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Depth Charge Sky",
-        "slug": "depth-charge-sky",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
-        "traits": [
-          "digimon",
-          "blast-3",
-          "crit-2"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "bug"
-        ],
-        "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[bug] creatures. This attack inflicts @UUID[Compendium.ptr2e.core-effects.NUba7VJbIYn7MpEh]{Powder}.</p>",
-        "range": {
-          "target": "blast",
-          "distance": 8,
-          "unit": "m"
-        },
-        "power": 105,
-        "accuracy": 100
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [
-    {
-      "name": "Depth Charge Sky",
-      "type": "passive",
-      "_id": "qQw5ZsHPaR0UQunn",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "depth-charge-sky-attack-effectiveness-stage",
-            "value": 1,
-            "predicate": [
-              "target:trait:bug"
-            ],
-            "label": "Vs Bug",
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "depth-charge-sky-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.NUba7VJbIYn7MpEh",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1769096895686,
-    "modifiedTime": 1769096896938,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "6hoMuDWNsbg3NGIa",
-  "sort": 200000
+    "_id":  "6hoMuDWNsbg3NGIa",
+    "effects":  [
+                    {
+                        "_id":  "qQw5ZsHPaR0UQunn",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777536267337,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777536267337,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Depth Charge Sky",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "depth-charge-sky-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:bug"
+                                                                         ],
+                                                           "label":  "Vs Bug",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "depth-charge-sky-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.NUba7VJbIYn7MpEh",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5490.png",
+    "name":  "Depth Charge Sky",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack gains +1 Effectiveness Stage vs @Trait[bug] creatures. This attack inflicts @UUID[Compendium.ptr2e.core-effects.NUba7VJbIYn7MpEh]{Powder}.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5490.png",
+                                       "name":  "Depth Charge Sky",
+                                       "power":  105,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "blast",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "depth-charge-sky",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "blast-3",
+                                                      "crit-2"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "bug"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digimon",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "depth-charge-sky",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

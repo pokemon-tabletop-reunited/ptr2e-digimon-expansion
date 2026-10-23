@@ -858,7 +858,14 @@
       "x": 37,
       "y": 32,
       "connected": [
-        "pagumon"
+        "gekomon",
+        "gesomon",
+        "nunemon",
+        "pagumon",
+        "platinum-sukamon",
+        "seadramon",
+        "shell-nunemon",
+        "tortomon"
       ],
       "prerequisites": [
         {

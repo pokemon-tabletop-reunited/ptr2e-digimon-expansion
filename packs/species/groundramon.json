@@ -860,10 +860,12 @@
       "x": 112,
       "y": 105,
       "connected": [
+        "breakdramon",
         "growlmon",
         "coredramon-green",
         "tyrannomon",
-        "tuskmon"
+        "tuskmon",
+        "megidramon"
       ],
       "prerequisites": [
         {
