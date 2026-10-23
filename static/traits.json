@@ -244,5 +244,19 @@
       "digimon"
     ],
     "description": "Hybrid Digimon are strange and rare Digimon, resulting from the fusion of a Digimon and a Spirit."
+  },
+      {
+    "slug": "attach-skill",
+    "label": "Attach Skill",
+    "related": [
+      "baby",
+      "in-training",
+      "rookie",
+      "champion",
+      "ultimate",
+      "mega",
+      "digimon"
+    ],
+    "description": "Attach Skill discs allow the user to temporarily learn a new move for as long as they have the skill disc equipped."
   }
 ]
