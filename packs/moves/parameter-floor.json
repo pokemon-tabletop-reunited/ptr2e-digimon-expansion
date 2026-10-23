@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "parameter-floor",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,43 +24,26 @@
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
           "digimon",
-          "shield"
+          "shield",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "psychic"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: Grants the target ally @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.Item.92ROKNqfo38bo0SJ]{Parameter Floor 3}.</p>",
         "range": {
           "target": "ally",
           "distance": 3,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "_id": "HWnnVqpklvTpE5dG",
@@ -125,22 +108,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956663137,
-    "modifiedTime": 1779956663137,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

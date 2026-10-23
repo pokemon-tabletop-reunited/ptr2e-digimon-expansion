@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "mediator",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,43 +25,26 @@
         "traits": [
           "digimon",
           "social",
-          "healing"
+          "healing",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "psychic"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: Cures the target creature of all @Trait[major-affliction]s.</p>",
         "range": {
           "target": "creature",
           "distance": 10,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "_id": "TkGr0kKB9KekJwm4",
@@ -132,22 +115,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956659997,
-    "modifiedTime": 1779961083424,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 2000000
+  ]
 }
