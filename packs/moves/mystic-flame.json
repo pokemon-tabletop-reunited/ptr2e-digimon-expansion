@@ -29,7 +29,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 3
         },
         "types": [
           "normal"

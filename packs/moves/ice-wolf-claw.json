@@ -1,130 +1,118 @@
 {
-    "_id":  "fvfC6M9xtEpdJixU",
-    "effects":  [
-                    {
-                        "_id":  "adF5CZHw7PImTiuG",
-                        "_stats":  {
-                                       "compendiumSource":  null,
-                                       "coreVersion":  "14.363",
-                                       "createdTime":  1777546084094,
-                                       "duplicateSource":  null,
-                                       "exportSource":  null,
-                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
-                                       "modifiedTime":  1777546084094,
-                                       "systemId":  "ptr2e",
-                                       "systemVersion":  "1.7.4.beta"
-                                   },
-                        "description":  "",
-                        "disabled":  false,
-                        "duration":  {
-                                         "value":  null,
-                                         "units":  "seconds",
-                                         "expiry":  null,
-                                         "expired":  false
-                                     },
-                        "flags":  {
-                                      "ptr2e":  {
-                                                    "displayOnToken":  ""
-                                                }
-                                  },
-                        "folder":  null,
-                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
-                        "name":  "Ice Wolf Claw",
-                        "origin":  null,
-                        "showIcon":  1,
-                        "sort":  0,
-                        "start":  null,
-                        "statuses":  [
-
-                                     ],
-                        "system":  {
-                                       "changes":  [
-                                                       {
-                                                           "type":  "roll-effect",
-                                                           "key":  "ice-wolf-claw-attack",
-                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
-                                                           "predicate":  [
-
-                                                                         ],
-                                                           "chance":  10,
-                                                           "isFixedChance":  false,
-                                                           "affects":  "target",
-                                                           "alterations":  [
-
-                                                                           ],
-                                                           "dontMerge":  false,
-                                                           "phase":  "initial",
-                                                           "method":  2,
-                                                           "ignored":  false
-                                                       }
-                                                   ],
-                                       "slug":  null,
-                                       "traits":  [
-
-                                                  ],
-                                       "removeAfterCombat":  true,
-                                       "removeOnRecall":  false,
-                                       "removeAfterAttacking":  false,
-                                       "removeAfterAttacked":  false,
-                                       "stacks":  0
-                                   },
-                        "tint":  "#ffffff",
-                        "transfer":  true,
-                        "type":  "passive"
-                    }
-                ],
-    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
-    "name":  "Ice Wolf Claw",
-    "system":  {
-                   "_migration":  {
-                                      "version":  0.111,
-                                      "previous":  null
-                                  },
-                   "actions":  [
-                                   {
-                                       "name":  "Ice Wolf Claw",
-                                       "slug":  "ice-wolf-claw",
-                                       "type":  "attack",
-                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
-                                       "traits":  [
-                                                      "digimon",
-                                                      "missile",
-                                                      "double-strike"
-                                                  ],
-                                       "cost":  {
-                                                    "activation":  "complex",
-                                                    "powerPoints":  12
-                                                },
-                                       "types":  [
-                                                     "ice"
-                                                 ],
-                                       "category":  "physical",
-                                       "predicate":  [
-
-                                                     ],
-                                       "description":  "\u003cp\u003eSpecial Targeting: Select up to 5 enemy targets within range.\u003cbr\u003e\u003cbr\u003eEffect: This attack has a 10% chance to inflict @Affliction[frozen 1].\u003c/p\u003e",
-                                       "range":  {
-                                                     "target":  "creature",
-                                                     "distance":  10,
-                                                     "unit":  "m"
-                                                 },
-                                       "power":  60,
-                                       "accuracy":  100,
-                                       "free":  true
-                                   }
-                               ],
-                   "grade":  "S",
-                   "publication":  {
-                                       "source":  "Digidex",
-                                       "authors":  [
-                                                       "Fox"
-                                                   ],
-                                       "notes":  ""
-                                   },
-                   "slug":  "ice-wolf-claw",
-                   "traits":  [
-
-                              ]
-               },
-    "type":  "move"
+  "name": "Ice Wolf Claw",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ice Wolf Claw",
+        "slug": "ice-wolf-claw",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "types": [
+          "ice"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "description": "<p>Special Targeting: Select up to 5 enemy targets within range.<br><br>Effect: This attack has a 10% chance to inflict @Affliction[frozen 1].</p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 60,
+        "accuracy": 100,
+        "free": true
+      }
+    ],
+    "grade": "S",
+    "slug": "ice-wolf-claw"
+  },
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5388.png",
+  "effects": [
+    {
+      "name": "Ice Wolf Claw",
+      "type": "passive",
+      "_id": "adF5CZHw7PImTiuG",
+      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "ice-wolf-claw-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
+            "predicate": [],
+            "chance": 10,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.363",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1777546084094,
+        "modifiedTime": 1777546084094
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "_id": "fvfC6M9xtEpdJixU"
 }

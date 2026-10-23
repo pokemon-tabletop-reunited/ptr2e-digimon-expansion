@@ -29,7 +29,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 2
         },
         "types": [
           "steel"

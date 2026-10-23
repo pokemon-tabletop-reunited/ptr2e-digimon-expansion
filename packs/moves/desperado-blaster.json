@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 3
         },
         "types": [
           "dragon"
@@ -44,7 +44,7 @@
         "free": true
       }
     ],
-    "grade": "B",
+    "grade": "A",
     "slug": "desperado-blaster"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5327.png",

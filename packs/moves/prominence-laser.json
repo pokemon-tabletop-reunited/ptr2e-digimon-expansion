@@ -1,86 +1,54 @@
 {
-    "_id":  "icH6toXB3Y6Y4FDI",
-    "effects":  [
-
-                ],
-    "flags":  {
-
-              },
-    "folder":  null,
-    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5524.png",
-    "name":  "Prominence Laser",
-    "ownership":  {
-                      "default":  0,
-                      "VGuCUKsxs9UY3xDR":  3,
-                      "2iKdcUFZBk6SApv1":  3
-                  },
-    "sort":  0,
-    "system":  {
-                   "_migration":  {
-                                      "version":  0.113,
-                                      "previous":  null
-                                  },
-                   "actions":  [
-                                   {
-                                       "accuracy":  100,
-                                       "category":  "special",
-                                       "contestEffect":  "",
-                                       "contestType":  "",
-                                       "cost":  {
-                                                    "activation":  "complex",
-                                                    "delay":  null,
-                                                    "powerPoints":  5,
-                                                    "priority":  null,
-                                                    "trigger":  ""
-                                                },
-                                       "defaultVariant":  null,
-                                       "defensiveStat":  null,
-                                       "description":  "",
-                                       "ephemeralVariant":  false,
-                                       "flingItemId":  "",
-                                       "free":  true,
-                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5524.png",
-                                       "name":  "Prominence Laser",
-                                       "offensiveStat":  null,
-                                       "power":  70,
-                                       "predicate":  [
-
-                                                     ],
-                                       "range":  {
-                                                     "target":  "creature",
-                                                     "distance":  15,
-                                                     "unit":  "m"
-                                                 },
-                                       "slot":  null,
-                                       "slug":  "prominence-laser",
-                                       "summon":  null,
-                                       "traits":  [
-                                                      "pierce",
-                                                      "ray",
-                                                      "double-strike",
-                                                      "digimon"
-                                                  ],
-                                       "type":  "attack",
-                                       "types":  [
-                                                     "fire"
-                                                 ],
-                                       "variant":  null
-                                   }
-                               ],
-                   "container":  null,
-                   "description":  "",
-                   "grade":  "A",
-                   "publication":  {
-                                       "source":  "Digidex",
-                                       "authors":  [
-                                                       "Krueger"
-                                                   ],
-                                       "notes":  ""
-                                   },
-                   "slug":  "prominence-laser",
-                   "traits":  [
-
-                              ]
-               },
-    "type":  "move"
+  "name": "Prominence Laser",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "prominence-laser",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Prominence Laser",
+        "slug": "prominence-laser",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5524.png",
+        "traits": [
+          "pierce",
+          "ray",
+          "double-strike",
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "free": true,
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "grade": "A"
+  },
+  "_id": "icH6toXB3Y6Y4FDI",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5524.png",
+  "effects": []
 }

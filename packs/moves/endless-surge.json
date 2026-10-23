@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7
+          "powerPoints": 3
         },
         "types": [
           "fire"

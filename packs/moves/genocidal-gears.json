@@ -28,7 +28,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7
+          "powerPoints": 4
         },
         "types": [
           "steel"
@@ -41,7 +41,8 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
