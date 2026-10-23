@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "punji-pit-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -26,30 +26,17 @@
           "digimon",
           "blast-2",
           "hazard",
-          "earthbound"
+          "earthbound",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "poison"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: On resolution, sets a Punji Pit Hazard in the target blast area.</p><p>Punji Pit 2 hazards inflict @Affliction[poison 5] and @Tick[-1] to creatures that move into them, or begin their activation in them.</p>",
         "range": {
@@ -61,28 +48,9 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "_id": "ElElMTW8VpwpQ7ca",
   "img": "systems/ptr2e/img/svg/poison_icon.svg",
-  "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956671703,
-    "modifiedTime": 1779956917270,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 2800000
+  "effects": []
 }
