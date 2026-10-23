@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Fearsome Blade",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "fearsome-blade",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Fearsome Blade",
         "slug": "fearsome-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5495.png",
         "traits": [
           "digimon",
           "sharp",
@@ -30,26 +29,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 8,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 8
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fairy"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[dragon] creatures.</p>",
         "range": {
@@ -61,11 +47,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5495.png",
   "effects": [
     {
       "name": "Fearsome Blade",
@@ -82,9 +66,10 @@
               "target:trait:dragon"
             ],
             "label": "Vs Dragon",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -97,8 +82,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -115,29 +102,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1769096908471,
-    "modifiedTime": 1769096908471,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "pATzCCc31y16MXmk",
-  "sort": 0
+  "_id": "pATzCCc31y16MXmk"
 }

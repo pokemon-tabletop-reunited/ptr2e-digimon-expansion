@@ -12,7 +12,7 @@
         "name": "Earth-Shattering Stomp",
         "slug": "earth-shattering-stomp",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5312.png",
         "traits": [
           "drain-1-4",
           "digimon",
@@ -36,7 +36,8 @@
         "category": "physical",
         "power": 30,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "C",
@@ -49,7 +50,7 @@
     },
     "traits": []
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5312.png",
   "effects": [],
   "_id": "AGr6AT672ZS88QMI"
 }

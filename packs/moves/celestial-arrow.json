@@ -19,7 +19,7 @@
         "name": "Celestial Arrow",
         "slug": "celestial-arrow",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5224.png",
         "traits": [
           "missile",
           "danger-close",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 100,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "celestial-arrow"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5224.png",
   "effects": [],
   "_id": "f4oKYdZgal5yko5o"
 }

@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "thunder-fall-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,32 +25,18 @@
         "traits": [
           "digimon",
           "3-strike",
-          "blast-2"
+          "blast-2",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "blast",
           "distance": 9,
@@ -60,28 +46,9 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/electric_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772901348388,
-    "modifiedTime": 1772901348388,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "6aqp0dwQhOXw8Qu2",
-  "sort": 0
+  "_id": "6aqp0dwQhOXw8Qu2"
 }

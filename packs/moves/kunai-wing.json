@@ -19,7 +19,7 @@
         "name": "Kunai Wing",
         "slug": "kunai-wing",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5125.png",
         "traits": [
           "3-strike",
           "pierce",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "kunai-wing"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5125.png",
   "effects": [],
   "_id": "Wf6d561yjlwTuqod"
 }
