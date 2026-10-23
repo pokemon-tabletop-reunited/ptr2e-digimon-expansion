@@ -1,0 +1,53 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Fighting Aura Surge 2",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "fighting-aura-surge-2",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Fighting Aura Surge 2",
+        "slug": "fighting-aura-surge-2",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "traits": [
+          "digimon",
+          "aura",
+          "attach-skill"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "fighting"
+        ],
+        "category": "special",
+        "predicate": [],
+        "range": {
+          "target": "emanation",
+          "distance": 2,
+          "unit": "m"
+        },
+        "power": 70,
+        "accuracy": 95
+      }
+    ],
+    "grade": "C"
+  },
+  "_id": "4L4PJYvPlGnLm5g1",
+  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "effects": []
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "XK1oSrx7aibYRWkd",
+  "name": "Fission Thrust 2",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "fission-thrust-2",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Fission Thrust 2",
+        "slug": "fission-thrust-2",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "traits": [
+          "digimon",
+          "contact",
+          "push-2",
+          "dash",
+          "attach-skill"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3
+        },
+        "types": [
+          "nuclear"
+        ],
+        "category": "physical",
+        "predicate": [],
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 80,
+        "accuracy": 90
+      }
+    ],
+    "grade": "C"
+  },
+  "_id": "QH6Ehjk1YrNrq63n",
+  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "effects": []
+}
