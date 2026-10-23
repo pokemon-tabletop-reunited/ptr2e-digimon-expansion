@@ -1,108 +1,129 @@
 {
-  "name": "Famis",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Famis",
-        "slug": "famis",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
-        "traits": [
-          "digimon",
-          "blast-3"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "types": [
-          "grass"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 25% chance to apply @Affliction[blight 8].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 12,
-          "unit": "m"
-        },
-        "power": 110,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
-  "effects": [
-    {
-      "name": "Famis",
-      "type": "passive",
-      "_id": "Ms6rlKAfTnPiNVea",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "famis-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.blightcondititem",
-            "predicate": [],
-            "chance": 25,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "FPuB6EoZlDWTDEte"
+    "_id":  "FPuB6EoZlDWTDEte",
+    "effects":  [
+                    {
+                        "_id":  "Ms6rlKAfTnPiNVea",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777537832927,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537832927,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Famis",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "famis-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.blightcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  25,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+    "name":  "Famis",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Famis",
+                                       "slug":  "famis",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "blast-3"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "types":  [
+                                                     "grass"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 25% chance to apply @Affliction[blight 8].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  12,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  110,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "famis",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

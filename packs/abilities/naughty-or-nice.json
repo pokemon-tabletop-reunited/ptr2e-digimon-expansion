@@ -1,0 +1,183 @@
+{
+  "folder": "ANyTBaCvsFOl1tzn",
+  "name": "Naughty Or Nice",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "hazard",
+      "healing",
+      "interrupt",
+      "connection"
+    ],
+    "actions": [
+      {
+        "name": "Naughty Or Nice",
+        "slug": "naughty-or-nice",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5860.png",
+        "traits": [
+          "digimon",
+          "hazard",
+          "healing",
+          "interrupt"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user may distribute 12 Christmas Presents within Line of Sight. When a creature collects a Christmas Present, the user may freely use the Special Delivery variant of the move Present as an @Trait[interrupt] on the target, with the @Trait[danger-close] trait added.</p><p>If the user is an @Trait[ace] or Owned Creature, 3 Luck may be spent to re-roll the results of Present (Special Delivery).</p>",
+        "range": {
+          "target": "field",
+          "distance": null,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "<p>Connection: @UUID[Compendium.ptr2e.core-abilities.IY5l0838EgcytYTT]{Special Delivery} & @UUID[Compendium.ptr2e.core-abilities.LNMO8qdNnz530yQW]{Morning Fog}</p><p>Trigger: On Combat Start, the user may freely use Naughty or Nice's action as an @Trait[interrupt]. Otherwise, this attack may be used normally at it's full cost.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "cLkyy7eoWPH3GbH2",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5860.png",
+  "effects": [
+    {
+      "name": "Naughty Or Nice",
+      "type": "passive",
+      "_id": "zGIYRCumYZDVDUV5",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e.core-abilities.Item.IY5l0838EgcytYTT",
+            "phase": "initial",
+            "predicate": [
+              "ability:naughty-or-nice:active"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e.core-abilities.Item.LNMO8qdNnz530yQW",
+            "phase": "initial",
+            "predicate": [
+              "ability:naughty-or-nice:active"
+            ],
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1792682028402,
+        "modifiedTime": 1792682028402,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792682028402,
+    "modifiedTime": 1792682028402,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

@@ -852,10 +852,14 @@
       "x": 67,
       "y": 77,
       "connected": [
+        "arukenimon",
         "dokunemon",
         "fan-beemon",
         "wormmon",
-        "keramon"
+        "keramon",
+        "infermon",
+        "mega-kabuterimon",
+        "mummymon"
       ],
       "prerequisites": [
         {

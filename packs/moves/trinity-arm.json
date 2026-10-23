@@ -1,0 +1,238 @@
+{
+    "_id":  "d6lQ7ueBuQUxA5Vj",
+    "effects":  [
+                    {
+                        "_id":  "5F6B6m0FFg1ppnTK",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775515650773,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777554303296,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Trinity Arm",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "blitz-arm-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "value":  50,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:ground"
+                                                                         ],
+                                                           "label":  "Accel Arm (Ground)",
+                                                           "key":  "accel-arm-attack-damage",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "value":  50,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:data"
+                                                                         ],
+                                                           "label":  "Accel Arm (Data)",
+                                                           "key":  "accel-arm-attack-damage",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349.png",
+    "name":  "Trinity Arm",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "free"
+                                                },
+                                       "description":  "\u003cp\u003eEffect: Roll d3 to determine which variant of Trinity Arm will be activated.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349.png",
+                                       "name":  "Trinity Arm",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "trinity-arm",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "untyped"
+                                                 ]
+                                   },
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349_Critical.png",
+                                       "name":  "Critical Arm",
+                                       "power":  135,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "critical-arm",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "crit-2",
+                                                      "sharp"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fighting"
+                                                 ]
+                                   },
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @Affliction[paralysis 5].\u003c/p\u003e",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349.png",
+                                       "name":  "Blitz Arm",
+                                       "power":  140,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "blitz-arm",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "dash",
+                                                      "punch"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   },
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack gains +50% damage vs @Trait[ground] and @Trait[data] creatures, stacking cumulatively.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5349_Accel.png",
+                                       "name":  "Accel Arm",
+                                       "power":  145,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "accel-arm",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "punch",
+                                                      "earthbound"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "steel"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "trinity-arm",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

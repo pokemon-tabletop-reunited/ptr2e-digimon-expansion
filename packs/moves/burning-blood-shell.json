@@ -1,109 +1,130 @@
 {
-  "name": "Burning Blood Shell",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Burning Blood Shell",
-        "slug": "burning-blood-shell",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "traits": [
-          "digimon",
-          "blast-2",
-          "sky"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "types": [
-          "fire"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>This attack inflicts @UUID[Compendium.ptr2e.core-effects.I1z28u5ma3IItySu]{Vulnerable (Fire)}.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 75,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [
-    {
-      "name": "Burning Blood Shell",
-      "type": "passive",
-      "_id": "Bp7x0TPlTmhT4UXY",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "burning-blood-shell-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.I1z28u5ma3IItySu",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "6bsIZixa45AvfEkf"
+    "_id":  "6bsIZixa45AvfEkf",
+    "effects":  [
+                    {
+                        "_id":  "Bp7x0TPlTmhT4UXY",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777502306354,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777502306354,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Burning Blood Shell",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "burning-blood-shell-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.I1z28u5ma3IItySu",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+    "name":  "Burning Blood Shell",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Burning Blood Shell",
+                                       "slug":  "burning-blood-shell",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "blast-2",
+                                                      "sky"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "types":  [
+                                                     "fire"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack inflicts @UUID[Compendium.ptr2e.core-effects.I1z28u5ma3IItySu]{Vulnerable (Fire)}.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  75,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "burning-blood-shell",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

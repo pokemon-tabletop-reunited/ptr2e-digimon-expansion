@@ -56,7 +56,7 @@
           "slug": "chitin-plates"
         },
         {
-          "slug": "mighty-horn"
+          "slug": "escher-antlers"
         }
       ],
       "advanced": [
@@ -861,9 +861,12 @@
       "x": 109,
       "y": 70,
       "connected": [
+        "hercules-kabuterimon",
         "kabuterimon",
         "flymon",
-        "dokugumon"
+        "dokugumon",
+        "tyrant-kabuterimon",
+        "yanmamon"
       ],
       "prerequisites": [
         {
@@ -898,11 +901,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -915,8 +919,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -933,13 +939,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767308341886,
         "modifiedTime": 1767308361311,
         "lastModifiedBy": "mK35yvCqCgiTUvKf"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "9yV3ditXuMxYF1YC"

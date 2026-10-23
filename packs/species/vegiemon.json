@@ -845,6 +845,10 @@
       "x": 65,
       "y": 86,
       "connected": [
+        "blossomon",
+        "garbagemon",
+        "shogun-gekomon",
+        "vademon",
         "palmon",
         "floramon",
         "betamon"

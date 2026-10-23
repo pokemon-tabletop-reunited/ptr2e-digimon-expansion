@@ -19,7 +19,7 @@
         "name": "Pandemonium Lost",
         "slug": "pandemonium-lost",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5415.png",
         "traits": [
           "digimon",
           "drain-1-4"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "pandemonium-lost"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5415.png",
   "effects": [],
-  "flags": {},
   "_id": "BHNy53dQSbczgjAy"
 }

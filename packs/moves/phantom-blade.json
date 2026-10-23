@@ -1,0 +1,85 @@
+{
+    "_id":  "BwT1fDjk33LE9I5T",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",
+    "name":  "Phantom Blade",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  7,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEmbeds a Phantom Blade summon in the victim. While this summon is active, the victim is @Affliction[stunted] and @Affliction[stuck]. The summon has an AV of 70 and attacks using the user\u0027s ATK stat to attack with Power 90 for 4 activations.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5410.png",
+                                       "name":  "Phantom Blade",
+                                       "offensiveStat":  null,
+                                       "power":  null,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "phantom-blade",
+                                       "summon":  "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.odI3EeDYOB3TNAsA",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "summon",
+                                                      "contact",
+                                                      "pierce"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "ghost"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

@@ -1,0 +1,83 @@
+{
+    "_id":  "jGz38ZTjLqn57t9M",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",
+    "name":  "Purge Shine",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  null,
+                                       "category":  "status",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  6,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: This attack creates a Purge Shine summon which renders the user and all allies immune to negative @Trait[stage-change] effects, @Trait[major-affliction] \u0026 @Trait[minor-affliction].\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",
+                                       "name":  "Purge Shine",
+                                       "offensiveStat":  null,
+                                       "power":  null,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "distance":  null,
+                                                     "target":  "field",
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "purge-shine",
+                                       "summon":  "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.dlipp5wiMthJeHhV",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "summon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "flying"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

@@ -1,0 +1,86 @@
+{
+    "_id":  "96ODlmXVQ32SR3Wm",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+    "name":  "Jotunheimer Gale",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  400000,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  9,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5525.png",
+                                       "name":  "Jotunheimer Gale",
+                                       "offensiveStat":  null,
+                                       "power":  110,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  2,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "jotunheimer-gale",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "sharp",
+                                                      "pierce",
+                                                      "digimon",
+                                                      "contact"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "jotunheimer-gale",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

@@ -1,108 +1,129 @@
 {
-  "name": "Howling Hertz",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Howling Hertz",
-        "slug": "howling-hertz",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
-        "traits": [
-          "digimon",
-          "sonic"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 1
-        },
-        "types": [
-          "normal"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 15% chance to apply @Affliction[paralysis 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 5,
-          "unit": "m"
-        },
-        "power": 30,
-        "accuracy": 100
-      }
-    ],
-    "grade": "E"
-  },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
-  "effects": [
-    {
-      "name": "Howling Hertz",
-      "type": "passive",
-      "_id": "qb24YYs0lbWIBuID",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "howling-hertz-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
-            "predicate": [],
-            "chance": 15,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "PzZCz7pXulmV209V"
+    "_id":  "PzZCz7pXulmV209V",
+    "effects":  [
+                    {
+                        "_id":  "qb24YYs0lbWIBuID",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777545660595,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545660595,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Howling Hertz",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "howling-hertz-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5009.png",
+    "name":  "Howling Hertz",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Howling Hertz",
+                                       "slug":  "howling-hertz",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5009.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sonic"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  1
+                                                },
+                                       "types":  [
+                                                     "normal"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 15% chance to apply @Affliction[paralysis 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  30,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "E",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "howling-hertz",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

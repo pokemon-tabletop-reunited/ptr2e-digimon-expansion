@@ -43,13 +43,14 @@
         "types": [
           "water"
         ],
-        "img": "https://assets.forge-vtt.com/6132db9efd99d052c06b70e3/systems/ptr2e/img/svg/water_icon.svg",
-        "predicate": []
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5062.png",
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5062.png",
   "effects": [],
   "_id": "9VCh8peHmRVg2Va1"
 }

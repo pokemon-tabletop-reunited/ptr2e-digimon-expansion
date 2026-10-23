@@ -1,0 +1,157 @@
+{
+    "_id":  "XhBhSGRy7dRPeuEW",
+    "effects":  [
+                    {
+                        "_id":  "maA0YxMLVFwDw3jB",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775515646498,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777554066805,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Testament",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -16
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "testament-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "value":  100,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:deity"
+                                                                         ],
+                                                           "label":  "Vs Deity",
+                                                           "key":  "testament-attack-damage",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "key":  "testament-attack-power",
+                                                           "value":  "floor((100-@actor.system.powerPoints.percent)/2)",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "hideIfDisabled":  true,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5354.png",
+    "name":  "Testament",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The user\u0027s HP becomes 0 on attack resolution. Power increases based on % of PP gauge already spent prior to declaring the attack. This attack deals +100% Damage vs @Trait[deity] creatures.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5354.png",
+                                       "name":  "Testament",
+                                       "power":  180,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "testament",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "explode",
+                                                      "friendly"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fairy"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "testament",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

@@ -215,7 +215,12 @@
       "x": 21,
       "y": 81,
       "connected": [
-        "pabumon"
+        "chuumon",
+        "dokunemon",
+        "gotsumon",
+        "pabumon",
+        "tentomon",
+        "wormmon"
       ],
       "prerequisites": [
         {

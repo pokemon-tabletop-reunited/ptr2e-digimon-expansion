@@ -1,0 +1,86 @@
+{
+    "_id":  "OR9nXMS8UEtDne2m",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
+    "name":  "Trident Arm",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  4300000,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  5,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5243.png",
+                                       "name":  "Trident Arm",
+                                       "offensiveStat":  null,
+                                       "power":  115,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  6,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "trident-arm",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "punch",
+                                                      "pierce",
+                                                      "contact",
+                                                      "sharp"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "steel"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

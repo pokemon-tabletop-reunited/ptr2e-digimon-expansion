@@ -842,9 +842,12 @@
       "x": 64,
       "y": 74,
       "connected": [
+        "mamemon",
+        "metal-mamemon",
         "chuumon",
         "palmon",
-        "otamamon"
+        "otamamon",
+        "vademon"
       ],
       "prerequisites": [
         {

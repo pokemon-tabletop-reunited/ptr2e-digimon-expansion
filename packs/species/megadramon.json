@@ -854,11 +854,15 @@
       "x": 112,
       "y": 122,
       "connected": [
+        "devidramon",
+        "kokatorimon",
+        "machinedramon",
         "greymon",
         "mekanorimon",
         "flymon",
         "airdramon",
-        "saberdramon"
+        "saberdramon",
+        "megidramon"
       ],
       "prerequisites": [
         {
