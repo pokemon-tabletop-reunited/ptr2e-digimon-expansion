@@ -802,7 +802,10 @@
     "node": {
       "x": 8,
       "y": 53,
-      "connected": [],
+      "connected": [
+        "dorimon",
+        "wanyamon"
+      ],
       "prerequisites": []
     }
   },

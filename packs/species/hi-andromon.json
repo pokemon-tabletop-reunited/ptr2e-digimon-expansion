@@ -822,10 +822,12 @@
       "x": 157,
       "y": 31,
       "connected": [
+        "giromon",
         "locomon",
         "mummymon",
         "andromon",
-        "rapidmon"
+        "rapidmon",
+        "tekkamon"
       ],
       "prerequisites": [
         {

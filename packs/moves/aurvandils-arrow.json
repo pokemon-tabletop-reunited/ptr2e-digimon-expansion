@@ -1,0 +1,149 @@
+{
+    "_id":  "Lih5mEfkH4VQkmLD",
+    "effects":  [
+                    {
+                        "name":  "Aurvandil\u0027s Arrow",
+                        "type":  "passive",
+                        "_id":  "oMiQdgS15DAYyzSO",
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "aurvandils-arrow-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:flying"
+                                                                         ],
+                                                           "label":  "Vs Flying",
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false,
+                                                           "method":  2,
+                                                           "phase":  "initial"
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "description":  "",
+                        "origin":  null,
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "statuses":  [
+
+                                     ],
+                        "sort":  0,
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "_stats":  {
+                                       "coreVersion":  "14.359",
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.2.beta",
+                                       "createdTime":  1775515447634,
+                                       "modifiedTime":  1775515447634,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "compendiumSource":  null,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null
+                                   },
+                        "start":  null,
+                        "showIcon":  1,
+                        "folder":  null
+                    }
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5441.png",
+    "name":  "Aurvandil\u0027s Arrow",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  400000,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  8,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: This attack gains +1 Effectiveness Stage vs @Trait[flying] creatures.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5441.png",
+                                       "name":  "Aurvandil\u0027s Arrow",
+                                       "offensiveStat":  null,
+                                       "power":  120,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "aurvandils-arrow",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "missile",
+                                                      "danger-close"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

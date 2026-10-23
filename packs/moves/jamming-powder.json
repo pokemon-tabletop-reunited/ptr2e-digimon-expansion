@@ -1,108 +1,129 @@
 {
-  "name": "Jamming Powder",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Jamming Powder",
-        "slug": "jamming-powder",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
-        "traits": [
-          "digimon",
-          "powder"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2
-        },
-        "types": [
-          "steel"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 15% chance to inflict @Affliction[confused 5].</p>",
-        "range": {
-          "target": "cone",
-          "distance": 3,
-          "unit": "m"
-        },
-        "power": 30,
-        "accuracy": 100
-      }
-    ],
-    "grade": "E"
-  },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
-  "effects": [
-    {
-      "name": "Jamming Powder",
-      "type": "passive",
-      "_id": "FWWId6c78P3t35gd",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "jamming-powder-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
-            "predicate": [],
-            "chance": 15,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "lApGrqViDpVWravy"
+    "_id":  "lApGrqViDpVWravy",
+    "effects":  [
+                    {
+                        "_id":  "FWWId6c78P3t35gd",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546211665,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777546211665,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Jamming Powder",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "jamming-powder-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5002.png",
+    "name":  "Jamming Powder",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Jamming Powder",
+                                       "slug":  "jamming-powder",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5002.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "powder"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  2
+                                                },
+                                       "types":  [
+                                                     "steel"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 15% chance to inflict @Affliction[confused 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  30,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "E",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "jamming-powder",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

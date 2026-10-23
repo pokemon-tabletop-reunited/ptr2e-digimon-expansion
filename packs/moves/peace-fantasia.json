@@ -1,49 +1,199 @@
 {
-  "name": "Peace Fantasia",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Peace Fantasia",
-        "slug": "peace-fantasia",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "simple"
-        },
-        "types": [
-          "flying"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>This attack inflicts @HP[-30] damage and inflicts @UUID[Compendium.ptr2e.core-effects.Sp0TScnwSTu8Gusr]{-2 Attack Stages} and @UUID[Compendium.ptr2e.core-effects.EYmp1DeE1Lwzi0D1]{-2 Special Attack Stages} for 3 activations. Additionally, this attack cleanses all positive [Stage Change] effects from the target.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "NPm4CBxKfc4p0AmW"
+    "_id":  "NPm4CBxKfc4p0AmW",
+    "effects":  [
+                    {
+                        "_id":  "CPnIZcKp00dvo99h",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777548238135,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779492958259,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Peace Fantasia",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "peace-fantasia-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.isFlat",
+                                                                                   "value":  "true"
+                                                                               },
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -30
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "peace-fantasia-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "peace-fantasia-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  "positive-stage-change-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "peace-fantasia-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5336.png",
+    "name":  "Peace Fantasia",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "simple"
+                                                },
+                                       "description":  "\u003cp\u003eThis attack inflicts @HP[-30] damage and inflicts @UUID[Compendium.ptr2e.core-effects.Sp0TScnwSTu8Gusr]{-2 Attack Stages} and @UUID[Compendium.ptr2e.core-effects.EYmp1DeE1Lwzi0D1]{-2 Special Attack Stages} for 3 activations. Additionally, this attack cleanses all @Trait[positive-stage-change] effects from the target.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5336.png",
+                                       "name":  "Peace Fantasia",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "peace-fantasia",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "flying"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "peace-fantasia",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

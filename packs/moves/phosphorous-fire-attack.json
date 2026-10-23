@@ -1,0 +1,128 @@
+{
+    "_id":  "7l7Xd6lx3CvsK8jo",
+    "effects":  [
+                    {
+                        "_id":  "8qfuHXgwhR2tYRBH",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775515617518,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777548400542,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Phosphorous Fire Attack",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.I1z28u5ma3IItySu",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "phosphorous-fire-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5398.png",
+    "name":  "Phosphorous Fire Attack",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.I1z28u5ma3IItySu]{Vulnerable (Fire)} for 3 activations.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5398.png",
+                                       "name":  "Phosphorous Fire Attack",
+                                       "power":  115,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "phosphorous-fire-attack",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "missile",
+                                                      "danger-close"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "phosphorous-fire-attack",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

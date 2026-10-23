@@ -857,7 +857,11 @@
       "x": 30,
       "y": 154,
       "connected": [
-        "tokomon"
+        "angemon",
+        "centarumon",
+        "tokomon",
+        "pegasusmon",
+        "unimon"
       ],
       "prerequisites": [
         {

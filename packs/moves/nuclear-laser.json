@@ -1,105 +1,128 @@
 {
-  "name": "Nuclear Laser",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Nuclear Laser",
-        "slug": "nuclear-laser",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-        "traits": [
-          "ray",
-          "digimon",
-          "pierce"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "types": [
-          "nuclear"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>On resolution, the user gains <em>@UUID[Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp]{+1 Defense Stage for 5 activations}.</em></p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "nuclear-laser"
-  },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-  "effects": [
-    {
-      "name": "Nuclear Laser",
-      "type": "passive",
-      "_id": "dpdjuWVtDdI7G7mA",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "nuclear-laser-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.sMystTj3FBJ00AZp",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.3.8.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "_id": "FbHUxCRpFOUB2rik"
+    "_id":  "FbHUxCRpFOUB2rik",
+    "effects":  [
+                    {
+                        "_id":  "dpdjuWVtDdI7G7mA",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777547899451,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777547899451,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Nuclear Laser",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "nuclear-laser-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.sMystTj3FBJ00AZp",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5318.png",
+    "name":  "Nuclear Laser",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "description":  "\u003cp\u003eOn resolution, the user gains \u003cem\u003e@UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.sMystTj3FBJ00AZp]{+1 Defense Stage for 5 activations}.\u003c/em\u003e\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5318.png",
+                                       "name":  "Nuclear Laser",
+                                       "power":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "nuclear-laser",
+                                       "traits":  [
+                                                      "ray",
+                                                      "digimon",
+                                                      "pierce"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "nuclear"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "nuclear-laser",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

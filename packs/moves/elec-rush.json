@@ -1,0 +1,87 @@
+{
+    "_id":  "8fI6NqmXJnv2pJbR",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5529.png",
+    "name":  "Elec Rush",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  2,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5529.png",
+                                       "name":  "Elec Rush",
+                                       "offensiveStat":  null,
+                                       "power":  65,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "elec-rush",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "dash",
+                                                      "pulse",
+                                                      "priority-20"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "",
+                                       "authors":  [
+
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "elec-rush",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

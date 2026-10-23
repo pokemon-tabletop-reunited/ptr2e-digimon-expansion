@@ -19,7 +19,7 @@
         "name": "Baby Breath",
         "slug": "baby-breath",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5054.png",
         "traits": [
           "missile",
           "digimon"
@@ -39,13 +39,14 @@
         "category": "physical",
         "power": 75,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "baby-breath"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5054.png",
   "effects": [],
   "_id": "1xKtX8i5bC4BPvqf"
 }

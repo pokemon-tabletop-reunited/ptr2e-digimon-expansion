@@ -850,7 +850,14 @@
       "x": 34,
       "y": 100,
       "connected": [
-        "nyaromon"
+        "frigimon",
+        "garurumon",
+        "hyogamon",
+        "icemon",
+        "lekismon",
+        "nyaromon",
+        "sistermon-ciel",
+        "sorcermon"
       ],
       "prerequisites": [
         {

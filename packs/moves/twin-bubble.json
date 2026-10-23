@@ -1,0 +1,127 @@
+{
+  "folder": null,
+  "name": "Twin Bubble",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Twin Bubble (Fire)",
+        "slug": "twin-bubble-fire",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5599.png",
+        "traits": [
+          "digimon",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 1,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: When using Twin-Bubble, you must fire one Twin Bubble (Fire) and one Twin Bubble (Electric) attack.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 4,
+          "unit": "m"
+        },
+        "power": 35,
+        "accuracy": 100
+      },
+      {
+        "name": "Twin Bubble (Electric)",
+        "slug": "twin-bubble-electric",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5599.png",
+        "traits": [
+          "digimon",
+          "double-strike"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 1,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": "twin-bubble-fire",
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special: When using Twin-Bubble, you must fire one Twin Bubble (Fire) and one Twin Bubble (Electric) attack.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 4,
+          "unit": "m"
+        },
+        "power": 35,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "EnuGvTSfaETyOU8D",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5599.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781083996179,
+    "modifiedTime": 1781083996179,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

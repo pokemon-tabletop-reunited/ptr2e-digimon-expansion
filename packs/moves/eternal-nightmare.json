@@ -1,52 +1,145 @@
 {
-  "name": "Eternal Nightmare",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Eternal Nightmare",
-        "slug": "eternal-nightmare",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-        "traits": [
-          "digimon",
-          "sonic",
-          "pierce"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>The damage value for this attack is equal to UserLevel x 1.75<br><br>This attack inflicts @Affliction[drowsy 7] on all valid targets. If the target already has @Affliction[drowsy], instead apply @Affliction[nightmares] with the appropriate duration.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 6,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "SK8wrizob1mlXXrh"
+    "_id":  "SK8wrizob1mlXXrh",
+    "effects":  [
+                    {
+                        "_id":  "tsG3fvklkO8LPUOW",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777537496880,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537553665,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Eternal Nightmare",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "eternal-nightmare-attack-damage-flat",
+                                                           "value":  "floor(@actor.system.advancement.level * 1.75)",
+                                                           "label":  "Night Shade",
+                                                           "priority":  null,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "eternal-nightmare-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426.png",
+    "name":  "Eternal Nightmare",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Eternal Nightmare",
+                                       "slug":  "eternal-nightmare",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sonic",
+                                                      "pierce"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "types":  [
+                                                     "psychic"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThe damage value for this attack is equal to UserLevel x 1.75\u003cbr\u003e\u003cbr\u003eThis attack inflicts @Affliction[drowsy 7] on all valid targets. If the target already has @Affliction[drowsy], instead apply @Affliction[nightmares] with the appropriate duration.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  6,
+                                                     "unit":  "m"
+                                                 },
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "eternal-nightmare",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -1,53 +1,164 @@
 {
-  "name": "Catastrophe Cannon",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Catastrophe Cannon",
-        "slug": "catastrophe-cannon",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "traits": [
-          "3-strike",
-          "digimon",
-          "missile",
-          "flinch-30"
-        ],
-        "cost": {
-          "activation": "simple"
-        },
-        "types": [
-          "fire"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>On resolution, after all attack rolls have been made, the user gains @Affliction[bound 2]. This is not automated.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 12,
-          "unit": "m"
-        },
-        "power": 80,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "IPHVqHf62ReMfVqc"
+    "_id":  "IPHVqHf62ReMfVqc",
+    "effects":  [
+                    {
+                        "_id":  "6iAMP3IOJu55Ym83",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1774797740830,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777502483028,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Catastrophe Cannon",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "catastrophe-cannon-set-up-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.regencondition00",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "catastrophe-cannon-set-up-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
+    "name":  "Catastrophe Cannon",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
+                                       "name":  "Catastrophe Cannon (Resolution)",
+                                       "power":  80,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  12,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "catastrophe-cannon-resolution",
+                                       "traits":  [
+                                                      "3-strike",
+                                                      "digimon",
+                                                      "missile"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ]
+                                   },
+                                   {
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The user sets up and gains @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.regenconditiitem]{Regen 5} and @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.XeiSuS3APUcN0MLM]{+1 Speed Stage} for 5 activations.\u003c/p\u003e",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5443.png",
+                                       "name":  "Catastrophe Cannon (Set-Up)",
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "catastrophe-cannon-set-up",
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "generic"
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "catastrophe-cannon",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

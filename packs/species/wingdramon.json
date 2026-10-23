@@ -855,6 +855,9 @@
       "x": 111,
       "y": 112,
       "connected": [
+        "shine-greymon",
+        "slayerdramon",
+        "varodurumon",
         "coredramon-blue",
         "veedramon",
         "greymon-blue"

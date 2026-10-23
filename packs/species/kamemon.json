@@ -851,7 +851,15 @@
       "x": 34,
       "y": 169,
       "connected": [
-        "bukamon"
+        "dinohyumon",
+        "dolphmon",
+        "gawappamon",
+        "bukamon",
+        "octomon",
+        "shell-nunemon",
+        "shellmon",
+        "sorcermon",
+        "tortomon"
       ],
       "prerequisites": [
         {

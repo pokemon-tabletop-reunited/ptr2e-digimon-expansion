@@ -1,50 +1,58 @@
 {
-  "name": "Heaven's Thunder",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Heaven's Thunder",
-        "slug": "heavens-thunder",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon",
-          "summon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.PStM2DjNNvBEwXt5",
-        "types": [
-          "electric"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>This attack summons the Eight Thunder Gods. <br><br>This calls lightning strikes from the skies for 8 Summon Activations. This summon has an AV of 88, attacks with 88 Power using the summoner's Special Attack, and strikes all enemy creatures on the field. This summon attack has a 30% chance to apply @Affliction[paralysis 5].</p>",
-        "range": {
-          "target": "field",
-          "unit": "m"
-        }
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "mmGJoRl4DJBp4uG1"
+    "_id":  "mmGJoRl4DJBp4uG1",
+    "effects":  [
+
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5455.png",
+    "name":  "Heaven\u0027s Thunder",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "description":  "\u003cp\u003eThis attack summons the @UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.Item.PStM2DjNNvBEwXt5]{Eight Thunder Gods}.\u003cbr\u003e\u003cbr\u003eThis calls lightning strikes from the skies for 8 Summon Activations. This summon has an AV of 88, attacks with 88 Power using the summoner\u0027s Special Attack, and strikes all enemy creatures on the field. This summon attack has a 30% chance to apply @Affliction[paralysis 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5455.png",
+                                       "name":  "Heaven\u0027s Thunder",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "field",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "heavens-thunder",
+                                       "summon":  "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.PStM2DjNNvBEwXt5",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "summon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "heavens-thunder",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

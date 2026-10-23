@@ -36,8 +36,7 @@
         "description": "<p>The user becomes @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.xhI2IzUDSXy4Y42z]{Amped}, giving their next attack +100% Damage.</p>",
         "range": {
           "target": "self",
-          "unit": "m",
-          "distance": 10
+          "unit": "m"
         }
       }
     ],

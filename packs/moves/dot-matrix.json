@@ -1,51 +1,122 @@
 {
-  "name": "Dot Matrix",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Dot Matrix",
-        "slug": "dot-matrix",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "drain-5-16",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack deals 2x UserLevel Flat Damage to all targets within range.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 3,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "dot-matrix"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
-  "_id": "yMy5n5qCmUydlKiS"
+    "_id":  "yMy5n5qCmUydlKiS",
+    "effects":  [
+                    {
+                        "_id":  "EyRZQyO3HDQkSx8T",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777536705215,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777536738969,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Dot Matrix",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "dot-matrix-attack-damage-flat",
+                                                           "value":  "floor(@actor.system.advancement.level * 2)",
+                                                           "label":  "Night Shade",
+                                                           "priority":  null,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5331.png",
+    "name":  "Dot Matrix",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Dot Matrix",
+                                       "slug":  "dot-matrix",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5331.png",
+                                       "traits":  [
+                                                      "drain-5-16",
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack deals 2x UserLevel Flat Damage to all targets within range.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "slug":  "dot-matrix"
+               },
+    "type":  "move"
 }

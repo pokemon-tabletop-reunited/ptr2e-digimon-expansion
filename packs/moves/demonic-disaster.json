@@ -19,7 +19,7 @@
         "name": "Demonic Disaster",
         "slug": "demonic-disaster",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5399.png",
         "traits": [
           "reach",
           "dash",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 140,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "demonic-disaster"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5399.png",
   "effects": [],
   "_id": "1aFdwrNE418EVeOs"
 }

@@ -857,6 +857,13 @@
       "x": 36,
       "y": 92,
       "connected": [
+        "devidramon",
+        "ex-veemon",
+        "flamedramon",
+        "lighdramon",
+        "magnamon",
+        "magnamonx",
+        "veedramon",
         "tsunomon"
       ],
       "prerequisites": [

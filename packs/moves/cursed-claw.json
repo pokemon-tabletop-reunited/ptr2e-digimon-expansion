@@ -1,150 +1,135 @@
 {
-  "folder": null,
-  "name": "Cursed Claw",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "cursed-claw",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Neo"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Cursed Claw",
-        "slug": "cursed-claw",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-        "traits": [
-          "sharp",
-          "crit-1",
-          "pass-2",
-          "contact"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "shadow"
-        ],
-        "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "<p>Effect: On hit, the target has a 20% chance of gaining @Affliction[cursed 2].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 70,
-        "accuracy": 85
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/shadow_icon.svg",
-  "effects": [
-    {
-      "name": "Cursed Claw",
-      "type": "passive",
-      "_id": "TZNdfyC2aS0Hb3wn",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "cursed-claw-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.cursedcondititem",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 2
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1770772539306,
-    "modifiedTime": 1770772539306,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "NenjuO1EBkmpvBXB",
-  "sort": 0
+    "_id":  "NenjuO1EBkmpvBXB",
+    "effects":  [
+                    {
+                        "_id":  "TZNdfyC2aS0Hb3wn",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777534237166,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777534244022,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Cursed Claw",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "cursed-claw-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cursedcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  2
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5500.png",
+    "name":  "Cursed Claw",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  85,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "description":  "\u003cp\u003eEffect: On hit, the target has a 20% chance of gaining @Affliction[cursed 2].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5500.png",
+                                       "name":  "Cursed Claw",
+                                       "power":  70,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "cursed-claw",
+                                       "traits":  [
+                                                      "sharp",
+                                                      "crit-1",
+                                                      "pass-2",
+                                                      "contact"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "shadow"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Neo"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "cursed-claw",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

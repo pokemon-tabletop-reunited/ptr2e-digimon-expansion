@@ -190,7 +190,13 @@
       "x": 22,
       "y": 132,
       "connected": [
-        "botamon"
+        "agumon",
+        "betamon",
+        "dracomon",
+        "guilmon",
+        "botamon",
+        "kotemon",
+        "shoutmon"
       ],
       "prerequisites": [
         {

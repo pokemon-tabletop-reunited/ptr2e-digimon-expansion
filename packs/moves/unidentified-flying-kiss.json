@@ -1,52 +1,127 @@
 {
-  "name": "Unidentified Flying Kiss",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Unidentified Flying Kiss",
-        "slug": "unidentified-flying-kiss",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-        "traits": [
-          "social",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>This attack has a 30% chance to inflict @Affliction[suppressed 5] to the target.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 15,
-          "unit": "m"
-        },
-        "power": 95,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "unidentified-flying-kiss"
-  },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [],
-  "_id": "EjjmFxGXQaGW2C6v"
+    "_id":  "EjjmFxGXQaGW2C6v",
+    "effects":  [
+                    {
+                        "_id":  "zIccqN7LXX00GDTn",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777555129353,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777555170940,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Unidentified Flying Kiss",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "unidentified-flying-kiss-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5311.png",
+    "name":  "Unidentified Flying Kiss",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Unidentified Flying Kiss",
+                                       "slug":  "unidentified-flying-kiss",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5311.png",
+                                       "traits":  [
+                                                      "social",
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "types":  [
+                                                     "psychic"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 30% chance to inflict @Affliction[suppressed 5] to the target.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  95,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "slug":  "unidentified-flying-kiss"
+               },
+    "type":  "move"
 }

@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Destroy Charge",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "destroy-charge",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Destroy Charge",
         "slug": "destroy-charge",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5514.png",
         "traits": [
           "digimon",
           "contact",
@@ -31,26 +30,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "dragon"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Special: As part of a Destroy Charge, the user may continue to Push the victim until either the user runs out of Movement Allowance, or until the victim collides with either impassable terrain or another creature. Pushing a creature into @Trait[hazard] effects in this way triggers them as normal.</p>",
         "range": {
@@ -62,28 +48,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5514.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1771416796682,
-    "modifiedTime": 1771416796682,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "7ImLr5wpdh1OREKh",
-  "sort": 0
+  "_id": "7ImLr5wpdh1OREKh"
 }

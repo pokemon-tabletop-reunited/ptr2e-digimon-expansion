@@ -19,7 +19,7 @@
         "name": "Judgement of the Blade",
         "slug": "judgement-of-the-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5377.png",
         "traits": [
           "digimon",
           "sharp",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "judgement-of-the-blade"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5377.png",
   "effects": [],
   "_id": "1fnRaOMDyDh0hFGg"
 }

@@ -1,0 +1,143 @@
+{
+    "_id":  "6Na382ZjiOJPhnuT",
+    "effects":  [
+                    {
+                        "_id":  "8Die580ALKfip32b",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775515502461,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777536357176,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Diamond Fist",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "diamond-fist-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:steel"
+                                                                         ],
+                                                           "label":  "Vs Steel",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "diamond-fist-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5383.png",
+    "name":  "Diamond Fist",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack gains +1 Effectiveness Stage vs @Trait[steel] creatures.\u003cbr\u003e\u003cbr\u003eThis attack inflicts @UUID[Compendium.ptr2e.core-effects.B79G2s6TauIlmsno]{-2 Defense Stages} for 3 activations.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5383.png",
+                                       "name":  "Diamond Fist",
+                                       "power":  115,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "diamond-fist",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "punch",
+                                                      "contact"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "rock"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "diamond-fist",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

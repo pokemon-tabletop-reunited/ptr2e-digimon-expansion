@@ -19,7 +19,7 @@
         "name": "Super Slap",
         "slug": "super-slap",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5040.png",
         "traits": [
           "digimon",
           "5-strike",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "super-slap"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5040.png",
   "effects": [],
-  "flags": {},
   "_id": "RgVptqzLJfWP0svx"
 }

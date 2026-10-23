@@ -1,114 +1,133 @@
 {
-  "name": "Sticky Net",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "PTR 2e Team"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Sticky Net",
-        "slug": "sticky-net",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "range": {
-          "target": "cone",
-          "distance": 5,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "bug"
-        ],
-        "category": "special",
-        "power": 60,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>Effect: On hit, all valid targets lose -1 SPD Stages for 5 Activations.</p>"
-      }
-    ],
-    "grade": "E",
-    "slug": "sticky-net"
-  },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [
-    {
-      "name": "Sticky Net",
-      "type": "affliction",
-      "_id": "tTmWGm4pk3zhsNuV",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "sticky-net-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.HLAV9dhz632Rfp1K",
-            "predicate": [],
-            "chance": 100,
-            "affects": "target",
-            "dontMerge": false,
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "priority": 50,
-        "formula": "",
-        "type": "damage",
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.ptr2e.core-moves.Item.TijijTYIY2UOVWOn.ActiveEffect.UCnWrisOhzQ9nLd2",
-        "duplicateSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "xsp0fBBTgChEdCel"
+    "_id":  "xsp0fBBTgChEdCel",
+    "effects":  [
+                    {
+                        "_id":  "tTmWGm4pk3zhsNuV",
+                        "_stats":  {
+                                       "compendiumSource":  "Compendium.ptr2e.core-moves.Item.TijijTYIY2UOVWOn.ActiveEffect.UCnWrisOhzQ9nLd2",
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553376918,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553376918,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Sticky Net",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "sticky-net-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.HLAV9dhz632Rfp1K",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5094.png",
+    "name":  "Sticky Net",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "PTR 2e Team"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Sticky Net",
+                                       "slug":  "sticky-net",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5094.png",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "bug"
+                                                 ],
+                                       "category":  "special",
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: On hit, all valid targets lose -1 SPD Stages for 5 Activations.\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "E",
+                   "slug":  "sticky-net"
+               },
+    "type":  "move"
 }

@@ -864,7 +864,15 @@
       "x": 31,
       "y": 136,
       "connected": [
-        "koromon"
+        "koromon",
+        "coelamon",
+        "devimon",
+        "dolphmon",
+        "mori-shellmon",
+        "nunemon",
+        "seadramon",
+        "tuskmon",
+        "vegiemon"
       ],
       "prerequisites": [
         {

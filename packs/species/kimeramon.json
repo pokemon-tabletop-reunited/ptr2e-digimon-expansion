@@ -826,11 +826,14 @@
       "x": 106,
       "y": 35,
       "connected": [
+        "gran-dracmon",
         "garurumon",
         "deltamon",
         "kabuterimon",
         "greymon",
-        "kuwagamon"
+        "kuwagamon",
+        "machinedramon",
+        "milleniummon"
       ],
       "prerequisites": [
         {

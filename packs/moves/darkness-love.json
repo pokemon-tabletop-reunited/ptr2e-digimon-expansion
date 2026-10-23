@@ -1,0 +1,132 @@
+{
+    "_id":  "VShMkiebCrR5TdCE",
+    "effects":  [
+                    {
+                        "_id":  "6K9p3z9TUJYBgBTK",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777535654987,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777535690400,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Darkness Love",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tks8Fa9ZmwYOSr4Z",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "darkness-love-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",
+    "name":  "Darkness Love",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @UUID[Compendium.ptr2e-digimon-expansion.core-effects.Item.tks8Fa9ZmwYOSr4Z]{Puppet 1} on all affected creatures.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5437.png",
+                                       "name":  "Darkness Love",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "darkness-love",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "social",
+                                                      "friendly"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "psychic",
+                                                     "dark"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "darkness-love",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

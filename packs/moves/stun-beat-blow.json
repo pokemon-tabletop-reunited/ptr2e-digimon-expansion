@@ -1,120 +1,142 @@
 {
-  "name": "Stun Beat Blow",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Stun Beat Blow",
-        "slug": "stun-beat-blow",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon",
-          "contact",
-          "punch"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 20% chance to inflict @Affliction[paralysis 5].<br><br>This attack gains +1 Effectiveness Stage vs @Trait[titan] creatures.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 90,
-        "accuracy": 100
-      }
-    ],
-    "grade": "C"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [
-    {
-      "name": "Stun Beat Blow",
-      "type": "passive",
-      "_id": "Si4ULbgGdLtMJ2Rq",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "stun-beat-blow-attack-effectiveness-stage",
-            "value": 1,
-            "predicate": [
-              "target:trait:titan"
-            ],
-            "hideIfDisabled": true,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "stun-beat-blow-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "vCFvvCEOJib4MFze"
+    "_id":  "vCFvvCEOJib4MFze",
+    "effects":  [
+                    {
+                        "_id":  "Si4ULbgGdLtMJ2Rq",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553499867,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553499867,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Stun Beat Blow",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "stun-beat-blow-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:titan"
+                                                                         ],
+                                                           "hideIfDisabled":  true,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "stun-beat-blow-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5099.png",
+    "name":  "Stun Beat Blow",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Stun Beat Blow",
+                                       "slug":  "stun-beat-blow",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5099.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "punch"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "electric"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 20% chance to inflict @Affliction[paralysis 5].\u003cbr\u003e\u003cbr\u003eThis attack gains +1 Effectiveness Stage vs @Trait[titan] creatures.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  90,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "stun-beat-blow",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

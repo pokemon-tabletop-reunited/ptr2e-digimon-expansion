@@ -1,54 +1,155 @@
 {
-  "name": "Hell Slicer",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Hell Slicer",
-        "slug": "hell-slicer",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
-        "traits": [
-          "digimon",
-          "contact",
-          "sharp",
-          "pass-4"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "types": [
-          "ghost"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[fairy] and @Trait[vaccine], stacking cumulatively.<br><br>This attack has a 50% chance to inflict @Affliction[confused 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 90,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "3D0Uo6orYSfFFILt"
+    "_id":  "3D0Uo6orYSfFFILt",
+    "effects":  [
+                    {
+                        "_id":  "lT2UdmhwvMVCzRSV",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777545339375,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545406406,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Hell Slicer",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "value":  1,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:fairy"
+                                                                         ],
+                                                           "key":  "hell-slicer-attack-effectiveness-stage",
+                                                           "label":  "Vs Fairy",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "value":  1,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:vaccine"
+                                                                         ],
+                                                           "key":  "hell-slicer-attack-effectiveness-stage",
+                                                           "label":  "Vs Vaccine",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "hell-slicer-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5407.png",
+    "name":  "Hell Slicer",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Hell Slicer",
+                                       "slug":  "hell-slicer",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5407.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "sharp",
+                                                      "pass-4"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "types":  [
+                                                     "ghost"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack gains +1 Effectiveness Stage vs @Trait[fairy] and @Trait[vaccine], stacking cumulatively.\u003cbr\u003e\u003cbr\u003eThis attack has a 50% chance to inflict @Affliction[confused 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  90,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "hell-slicer",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

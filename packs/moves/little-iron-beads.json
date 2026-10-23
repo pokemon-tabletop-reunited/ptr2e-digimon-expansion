@@ -19,7 +19,7 @@
         "name": "Little Iron Beads",
         "slug": "little-iron-beads",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5003.png",
         "traits": [
           "digimon"
         ],
@@ -38,13 +38,14 @@
           "unit": "m"
         },
         "power": 35,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "E"
+    "grade": "E",
+    "slug": "little-iron-beads"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5003.png",
   "effects": [],
-  "flags": {},
   "_id": "5BGkEebAe7Z9h2Zc"
 }
