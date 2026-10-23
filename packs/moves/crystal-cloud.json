@@ -34,7 +34,7 @@
         "category": "status",
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.zEkEiK7eoCKJY4bf",
         "predicate": [],
-        "description": "<p>This attack summons a Crystal Cloud with a base AV of 85, for 3 Activations, which hovers over the battlefield, launching ice projectiles at enemies on each of it's turns. This summon attacks with Power 70, using the user's stats, against all enemies on the Field.</p>",
+        "description": "<p>This attack summons a Crystal Cloud with a base AV of 85, for 3 Activations, which hovers over the battlefield, launching ice projectiles at enemies on each of it's turns. This summon attacks with Power 40 and the @Trait[double-strike] trait, using the user's stats, against all enemies on the Field.</p>",
         "range": {
           "target": "field",
           "unit": "m",

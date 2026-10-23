@@ -24,7 +24,9 @@
       {
         "name": "Crystal Cloud",
         "slug": "crystal-cloud-summon",
-        "traits": [],
+        "traits": [
+          "double-strike"
+        ],
         "type": "summon",
         "img": "systems/ptr2e/img/svg/ice_icon.svg",
         "cost": {
@@ -43,14 +45,14 @@
         "targetType": "enemy",
         "damageType": "power",
         "attackStat": "owner",
-        "power": 70
+        "power": 40
       }
     ],
     "baseAV": 85,
     "duration": 3,
     "slug": "crystal-cloud-summon"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "icons/magic/air/wind-weather-snow-gusts.webp",
   "effects": [],
   "_id": "zEkEiK7eoCKJY4bf"
 }
