@@ -19,7 +19,7 @@
         "name": "Galactic Flare",
         "slug": "galactic-flare",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5255.png",
         "traits": [
           "digimon",
           "summon"
@@ -39,13 +39,14 @@
           "target": "field",
           "unit": "m",
           "distance": 10
-        }
+        },
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "galactic-flare"
   },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5255.png",
   "effects": [],
   "_id": "4WH5jOVGNBQupmvU"
 }

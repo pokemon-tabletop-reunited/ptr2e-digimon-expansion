@@ -1,0 +1,86 @@
+{
+    "_id":  "liKk7TUCtKfUKA60",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5533.png",
+    "name":  "Spiral Flower",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  6,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5533.png",
+                                       "name":  "Spiral Flower",
+                                       "offensiveStat":  null,
+                                       "power":  25,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "spiral-flower",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "missile",
+                                                      "sharp",
+                                                      "5-strike"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "grass"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

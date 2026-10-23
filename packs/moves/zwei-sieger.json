@@ -19,7 +19,7 @@
         "name": "Zwei Sieger",
         "slug": "zwei-sieger",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5209.png",
         "traits": [
           "sharp",
           "contact",
@@ -34,7 +34,7 @@
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 3
+          "powerPoints": 2
         },
         "types": [
           "fairy"
@@ -42,13 +42,14 @@
         "category": "physical",
         "power": 45,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "zwei-sieger"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5209.png",
   "effects": [],
   "_id": "AgpigxDKR2qARlhk"
 }

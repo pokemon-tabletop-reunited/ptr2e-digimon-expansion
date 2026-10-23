@@ -1,164 +1,190 @@
 {
-  "name": "Elder Sign",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Elder Sign",
-        "slug": "elder-sign",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
-        "traits": [
-          "digimon",
-          "arcane",
-          "friendly"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 9
-        },
-        "types": [
-          "normal"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[fairy] creatures. <br><br>This attack has a 50% chance to inflict @Affliction[bound 3] and @Affliction[bleed 3], which can be escaped with a Hard Thaumaturgy or Computers Check.<br><br>This attack has a 70% chance to inflict @UUID[Compendium.ptr2e.core-effects.B79G2s6TauIlmsno]{-2 Defense Stages} for 3 activations.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 5,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A"
-  },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
-  "effects": [
-    {
-      "name": "Elder Sign",
-      "type": "passive",
-      "_id": "eTCV1qUCp2rn7MHr",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "elder-sign-attack-effectiveness-stage",
-            "value": 1,
-            "predicate": [
-              "target:trait:fairy"
-            ],
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.boundconditiitem",
-            "predicate": [],
-            "chance": 50,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.bleedconditiitem",
-            "predicate": [],
-            "chance": 50,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "elder-sign-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.B79G2s6TauIlmsno",
-            "predicate": [],
-            "chance": 70,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "Sx09zeezqdACJlsc"
+    "_id":  "Sx09zeezqdACJlsc",
+    "effects":  [
+                    {
+                        "_id":  "eTCV1qUCp2rn7MHr",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777537321331,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537344726,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Elder Sign",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "elder-sign-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:fairy"
+                                                                         ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "elder-sign-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.boundcondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "elder-sign-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.bleedcondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "elder-sign-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  70,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
+    "name":  "Elder Sign",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Elder Sign",
+                                       "slug":  "elder-sign",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "arcane",
+                                                      "friendly"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  9
+                                                },
+                                       "types":  [
+                                                     "normal"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack gains +1 Effectiveness Stage vs @Trait[fairy] creatures. \u003cbr\u003e\u003cbr\u003eThis attack has a 50% chance to inflict @Affliction[bound 3] and @Affliction[bleed 3], which can be escaped with a Hard Thaumaturgy or Computers Check.\u003cbr\u003e\u003cbr\u003eThis attack has a 70% chance to inflict @UUID[Compendium.ptr2e.core-effects.B79G2s6TauIlmsno]{-2 Defense Stages} for 3 activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  100,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "elder-sign",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -19,7 +19,7 @@
         "name": "Slamming Tusk",
         "slug": "slamming-tusk",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5176.png",
         "traits": [
           "digimon",
           "contact",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 80
+        "accuracy": 80,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "slamming-tusk"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5176.png",
   "effects": [],
-  "flags": {},
   "_id": "8OwSDCh2eEzOd5DW"
 }

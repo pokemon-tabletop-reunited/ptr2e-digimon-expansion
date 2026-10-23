@@ -1,126 +1,147 @@
 {
-  "name": "Toy Flame",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Toy Flame",
-        "slug": "toy-flame",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "traits": [
-          "missile",
-          "digimon"
-        ],
-        "range": {
-          "target": "enemy",
-          "distance": 5,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3
-        },
-        "types": [
-          "fire"
-        ],
-        "category": "physical",
-        "power": 60,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>This attack has a 10% chance to reduce the target's Defense and Special Defense Stages by 1 for 5 activations.</p>"
-      }
-    ],
-    "grade": "D",
-    "slug": "toy-flame"
-  },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [
-    {
-      "name": "Toy Flame",
-      "type": "passive",
-      "_id": "1XzfQTjLZGbJCPr5",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "toy-flame-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.1JXumQz0QqthT9Iv",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "dontMerge": false,
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "toy-flame-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.qe5aLBJuwb9eYqvv",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "dontMerge": false,
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "86W4dbZOy3X59v0b"
+    "_id":  "86W4dbZOy3X59v0b",
+    "effects":  [
+                    {
+                        "_id":  "1XzfQTjLZGbJCPr5",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777554201305,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777554206943,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Toy Flame",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "toy-flame-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.1JXumQz0QqthT9Iv",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "toy-flame-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.qe5aLBJuwb9eYqvv",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5033.png",
+    "name":  "Toy Flame",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Toy Flame",
+                                       "slug":  "toy-flame",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5033.png",
+                                       "traits":  [
+                                                      "missile",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "types":  [
+                                                     "fire"
+                                                 ],
+                                       "category":  "physical",
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 10% chance to reduce the target\u0027s Defense and Special Defense Stages by 1 for 5 activations.\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "slug":  "toy-flame"
+               },
+    "type":  "move"
 }

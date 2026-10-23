@@ -1,129 +1,206 @@
 {
-  "name": "Infinity Dream",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Infinity Dream",
-        "slug": "infinity-dream",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-        "traits": [
-          "powder",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Unique Targeting: This move may only be used to target creatures that the user has flown over during the current activation.<br><br>Infinity Dream has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] and @Affliction[paralysis 5] on enemy targets.<br><br>Allied targets passed over heal @Tick[1] and has a 10% chance per Affliction to be cured of that affliction.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 5,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "C",
-    "slug": "infinity-dream"
-  },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [
-    {
-      "name": "Infinity Dream",
-      "type": "passive",
-      "_id": "DUbN36jrlpa4PaoB",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "infinity-dream-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.poisoncondititem",
-            "predicate": [],
-            "chance": 50,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "infinity-dream-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.confusedconditem",
-            "predicate": [],
-            "chance": 50,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "infinity-dream-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
-            "predicate": [],
-            "chance": 50,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false,
-            "isFixedChance": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.3.0.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "_id": "zEO0l8CUMeLjEs2c"
+    "_id":  "zEO0l8CUMeLjEs2c",
+    "effects":  [
+                    {
+                        "_id":  "DUbN36jrlpa4PaoB",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546170161,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779492229736,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Infinity Dream",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "infinity-dream-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
+                                                           "predicate":  [
+                                                                             "origin:enemy"
+                                                                         ],
+                                                           "chance":  50,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "infinity-dream-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+                                                                             "origin:enemy"
+                                                                         ],
+                                                           "chance":  50,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "infinity-dream-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+                                                                             "origin:enemy"
+                                                                         ],
+                                                           "chance":  50,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "origin:ally"
+                                                                         ],
+                                                           "key":  "infinity-dream-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "origin:ally"
+                                                                         ],
+                                                           "chance":  10,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "major-affliction-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "infinity-dream-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5098.png",
+    "name":  "Infinity Dream",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "description":  "\u003cp\u003eUnique Targeting: This move may only be used to target creatures that the user has flown over during the current activation.\u003cbr\u003e\u003cbr\u003eInfinity Dream has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] and @Affliction[paralysis 5] on enemy targets.\u003cbr\u003e\u003cbr\u003eAllied targets passed over heal @Tick[1] and has a 10% chance to be cured of @Trait[major-affliction]s.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5098.png",
+                                       "name":  "Infinity Dream",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "infinity-dream",
+                                       "traits":  [
+                                                      "powder",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "psychic"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "infinity-dream",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

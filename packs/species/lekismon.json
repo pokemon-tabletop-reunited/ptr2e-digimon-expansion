@@ -853,9 +853,13 @@
       "x": 65,
       "y": 138,
       "connected": [
+        "crescemon",
+        "grap-leomon",
         "terriermon",
         "lunamon",
-        "renamon"
+        "renamon",
+        "sistermon-blanc",
+        "were-garurumon"
       ],
       "prerequisites": [
         {

@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "World Tree Parasite",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate",
+      "defensive"
+    ],
+    "actions": [],
+    "description": "<p>Connection: @UUID[Compendium.ptr2e.core-abilities.k9ghBGh02kBjShMp]{Magic Guard}</p><p>Effect: The user is impervious to damage, but begins any given combat with @Affliction[perish 5]. On causing a creature to become @Affliction[fainted], the user restores their @Affliction[perish] stacks to 5.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "QlBLPZK0YLH7WZRC",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5876.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792587935377,
+    "modifiedTime": 1792587935377,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

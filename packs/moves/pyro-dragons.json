@@ -1,0 +1,84 @@
+{
+    "_id":  "TQA6OvPOyLmH5Jrr",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5446.png",
+    "name":  "Pyro Dragons",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  null,
+                                       "category":  "status",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  9,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: This attack summons the Dragon Veins. They pursue a specified target, lasting for 3 activations with an AV of 90.\u003c/p\u003e\u003cp\u003eThese attacks utilise the user\u0027s ATK stat, at power 85, gain +2 Effectiveness Stages vs @Trait[dragon] creatures, and have the @Trait[earthbound] trait.\u003c/p\u003e\u003cp\u003eThe Dragon Veins\u0027 attacks inflict @UUID[Compendium.ptr2e.core-effects.Item.I1z28u5ma3IItySu]{Vulnerable (Fire)} for 3 activations each time they successfully hit.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5446.png",
+                                       "name":  "Pyro Dragons",
+                                       "offensiveStat":  null,
+                                       "power":  null,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  9,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "pyro-dragons",
+                                       "summon":  "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.7JNK7G4EzioqzRNm",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "summon",
+                                                      "earthbound"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

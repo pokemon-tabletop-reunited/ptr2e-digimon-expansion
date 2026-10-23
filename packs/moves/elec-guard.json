@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Elec Guard",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "elec-guard",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "Elec Guard",
         "slug": "elec-guard",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5484.png",
         "traits": [
           "digimon",
           "summon",
@@ -29,59 +28,24 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.DkhhFQh0JH3Oa8i7",
         "types": [
           "electric"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: Summons the Elec Guard Summon, lasting for 2 combat rounds. While under the effects of Elec Guard, all allies gain +20% Damage Reduction and Electric Attacks made against them suffer an additional 50% Damage Reduction, stacking additively.</p>",
         "range": {
           "target": "field",
-          "distance": null,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5484.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1767807722547,
-    "modifiedTime": 1767807722547,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "ZXR8slm2nkzqiKhA",
-  "sort": 0
+  "_id": "ZXR8slm2nkzqiKhA"
 }

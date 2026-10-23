@@ -1,53 +1,132 @@
 {
-  "name": "Judecca Prison",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Judecca Prison",
-        "slug": "judecca-prison",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "pulse",
-          "danger-close",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 12
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>On resolution, this attack removes all negative @Trait[stage-change] effects from the user.</p>",
-        "range": {
-          "target": "cone",
-          "distance": 4,
-          "unit": "m"
-        },
-        "power": 115,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "judecca-prison"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
-  "_id": "ZH1xmlT2qqciI38G"
+    "_id":  "ZH1xmlT2qqciI38G",
+    "effects":  [
+                    {
+                        "_id":  "ga0XJM5GPLu0M4GT",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1779493569150,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779493588772,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Judecca Prison",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "judecca-prison-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "negative-stage-change-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5399.png",
+    "name":  "Judecca Prison",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  12
+                                                },
+                                       "description":  "\u003cp\u003eOn resolution, this attack removes all @Trait[negative-stage-change] effects from the user.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5399.png",
+                                       "name":  "Judecca Prison",
+                                       "power":  115,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "judecca-prison",
+                                       "traits":  [
+                                                      "pulse",
+                                                      "danger-close",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dark"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "judecca-prison",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -1,52 +1,145 @@
 {
-  "name": "Grau Larm",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Grau Larm",
-        "slug": "grau-larm",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon",
-          "sonic",
-          "friendly"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.qe5aLBJuwb9eYqvv]{-1 Special Defense Stage} for 3 activations. This attack has a 50% chance to inflict @Affliction[suppressed 3].</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 4,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "C"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "5OaxngbHIHJMthTt"
+    "_id":  "5OaxngbHIHJMthTt",
+    "effects":  [
+                    {
+                        "_id":  "tlyVHQuXPrbJV6bS",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777539488757,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777539524639,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Grau Larm",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.qe5aLBJuwb9eYqvv",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "grau-larm-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "grau-larm-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5120.png",
+    "name":  "Grau Larm",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Grau Larm",
+                                       "slug":  "grau-larm",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5120.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sonic",
+                                                      "friendly"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "category":  "status",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.qe5aLBJuwb9eYqvv]{-1 Special Defense Stage} for 3 activations. This attack has a 50% chance to inflict @Affliction[suppressed 3].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "grau-larm",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

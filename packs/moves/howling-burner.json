@@ -1,0 +1,136 @@
+{
+    "_id":  "X3aHdZX157ex1KuT",
+    "effects":  [
+                    {
+                        "_id":  "2AHpDt2cFN9yRrSV",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1775140122821,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545626959,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Howling Burner",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "howling-burner-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5522.png",
+    "name":  "Howling Burner",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "description":  "\u003cp\u003eEffect: On hit, the target has a 50% chance of gaining @Affliction[burn] 5.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5522.png",
+                                       "name":  "Howling Burner",
+                                       "power":  85,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "line",
+                                                     "distance":  7,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "howling-burner",
+                                       "traits":  [
+                                                      "ray",
+                                                      "arcane",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "howling-burner",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

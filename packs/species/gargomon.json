@@ -852,9 +852,14 @@
       "x": 63,
       "y": 152,
       "connected": [
+        "catch-mamemon",
         "terriermon",
         "shoutmon",
-        "toy-agumon"
+        "toy-agumon",
+        "mach-gaogamon",
+        "psychemon",
+        "rapidmon",
+        "sistermon-blanc"
       ],
       "prerequisites": [
         {

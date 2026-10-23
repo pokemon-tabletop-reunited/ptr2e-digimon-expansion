@@ -1,126 +1,147 @@
 {
-  "name": "Spinning Needle",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Spinning Needle",
-        "slug": "spinning-needle",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
-        "traits": [
-          "blast-3",
-          "digimon"
-        ],
-        "range": {
-          "target": "blast",
-          "distance": 8,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "flying"
-        ],
-        "category": "physical",
-        "power": 60,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>This attack has a 15% chance each to inflict @Affliction[splinter 5] and @Affliction[wind-shear 5].</p>"
-      }
-    ],
-    "grade": "C",
-    "slug": "spinning-needle"
-  },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
-  "effects": [
-    {
-      "name": "Spinning Needle",
-      "type": "passive",
-      "_id": "yZ9liuIvKCzRfLct",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "spinning-needle-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.splinterconditem",
-            "predicate": [],
-            "chance": 15,
-            "affects": "target",
-            "dontMerge": false,
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "spinning-needle-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.windshearconitem",
-            "predicate": [],
-            "chance": 15,
-            "affects": "target",
-            "dontMerge": false,
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "alterations": [],
-            "isFixedChance": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "oZyRXrISYwbWIbyK"
+    "_id":  "oZyRXrISYwbWIbyK",
+    "effects":  [
+                    {
+                        "_id":  "yZ9liuIvKCzRfLct",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777552344707,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777552349995,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Spinning Needle",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "spinning-needle-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "spinning-needle-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.windshearconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5101.png",
+    "name":  "Spinning Needle",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Spinning Needle",
+                                       "slug":  "spinning-needle",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5101.png",
+                                       "traits":  [
+                                                      "blast-3",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "blast",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "types":  [
+                                                     "flying"
+                                                 ],
+                                       "category":  "physical",
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 15% chance each to inflict @Affliction[splinter 5] and @Affliction[wind-shear 5].\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "slug":  "spinning-needle"
+               },
+    "type":  "move"
 }

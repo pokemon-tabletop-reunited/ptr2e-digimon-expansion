@@ -882,7 +882,13 @@
       "x": 35,
       "y": 71,
       "connected": [
-        "tanemon"
+        "dokugumon",
+        "tanemon",
+        "flymon",
+        "gold-nunemon",
+        "kabuterimon",
+        "stingmon",
+        "waspmon"
       ],
       "prerequisites": [
         {

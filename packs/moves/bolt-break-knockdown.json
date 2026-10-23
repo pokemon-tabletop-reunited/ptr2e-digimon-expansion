@@ -1,120 +1,143 @@
 {
-  "name": "Bolt Break Knockdown",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Bolt Break Knockdown",
-        "slug": "bolt-break-knockdown",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon",
-          "contact",
-          "punch"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 30% chance to apply @Affliction[paralysis 5] and has +1 Effectiveness Stage vs @Trait[deity] creatures.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 25,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [
-    {
-      "name": "Bolt Break Knockdown",
-      "type": "passive",
-      "_id": "165rT3WhZXN9NXEp",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "bolt-break-knockdown-attack-effectiveness-stage",
-            "value": 1,
-            "predicate": [
-              "target:trait:deity"
-            ],
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "bolt-break-knockdown-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.paralysisconitem",
-            "predicate": [],
-            "chance": 30,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "tXgsQZ1UxIWISEGv"
+    "_id":  "tXgsQZ1UxIWISEGv",
+    "effects":  [
+                    {
+                        "name":  "Bolt Break Knockdown",
+                        "type":  "passive",
+                        "_id":  "165rT3WhZXN9NXEp",
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "bolt-break-knockdown-attack-effectiveness-stage",
+                                                           "value":  1,
+                                                           "predicate":  [
+                                                                             "target:trait:deity"
+                                                                         ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "bolt-break-knockdown-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "description":  "",
+                        "origin":  null,
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "statuses":  [
+
+                                     ],
+                        "sort":  0,
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta",
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "createdTime":  1777492020865,
+                                       "modifiedTime":  1777492020865
+                                   },
+                        "start":  null,
+                        "showIcon":  1,
+                        "folder":  null
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
+    "name":  "Bolt Break Knockdown",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack has a 30% chance to apply @Affliction[paralysis 5] and has +1 Effectiveness Stage vs @Trait[deity] creatures.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214.png",
+                                       "name":  "Bolt Break Knockdown",
+                                       "power":  25,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "bolt-break-knockdown",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "punch",
+                                                      "4-strike"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "bolt-break-knockdown",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

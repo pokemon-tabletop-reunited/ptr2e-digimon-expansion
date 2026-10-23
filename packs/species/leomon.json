@@ -848,8 +848,12 @@
       "x": 64,
       "y": 56,
       "connected": [
+        "flaremon",
+        "grap-leomon",
         "gaomon",
-        "lopmon"
+        "lopmon",
+        "loader-leomon",
+        "panjyamon"
       ],
       "prerequisites": [
         {

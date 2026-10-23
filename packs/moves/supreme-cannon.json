@@ -1,109 +1,130 @@
 {
-  "name": "Supreme Cannon",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Supreme Cannon",
-        "slug": "supreme-cannon",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
-        "traits": [
-          "digimon",
-          "pierce",
-          "missile"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "ice"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 40% chance to inflict @Affliction[frozen 1].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 8,
-          "unit": "m"
-        },
-        "power": 150,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
-  "effects": [
-    {
-      "name": "Supreme Cannon",
-      "type": "passive",
-      "_id": "uLA6LRDyDkKJekGE",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "supreme-cannon-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.frozencondititem",
-            "predicate": [],
-            "chance": 40,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "mode": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.347",
-        "systemId": "ptr2e",
-        "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
-    }
-  ],
-  "flags": {},
-  "_id": "0oF9FngJOJ4RNTcz"
+    "_id":  "0oF9FngJOJ4RNTcz",
+    "effects":  [
+                    {
+                        "_id":  "uLA6LRDyDkKJekGE",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553677829,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553677829,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Supreme Cannon",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "supreme-cannon-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  40,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5450.png",
+    "name":  "Supreme Cannon",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Supreme Cannon",
+                                       "slug":  "supreme-cannon",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5450.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "pierce",
+                                                      "missile"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "types":  [
+                                                     "ice"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 40% chance to inflict @Affliction[frozen 1].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  150,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "supreme-cannon",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

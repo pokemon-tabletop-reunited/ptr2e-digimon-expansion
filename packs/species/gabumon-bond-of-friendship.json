@@ -834,7 +834,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.QHrLiNPF3pNwCt4z",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:gabumon-bond-of-friendship"
@@ -846,7 +845,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -854,8 +855,7 @@
           },
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.YTdNpVU98HPHGdR7",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.YTdNpVU98HPHGdR7",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:gabumon-bond-of-friendship"
             ],
@@ -866,7 +866,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -883,8 +885,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -901,13 +905,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.5.beta",
         "createdTime": 1773350491613,
-        "modifiedTime": 1773350574910,
-        "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+        "modifiedTime": 1779113609831,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "eKU1P3olVDLz8hPZ"

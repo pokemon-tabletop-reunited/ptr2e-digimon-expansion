@@ -19,7 +19,7 @@
         "name": "Iai Blade",
         "slug": "iai-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5042.png",
         "traits": [
           "digimon",
           "sharp",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 55,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "iai-blade"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5042.png",
   "effects": [],
-  "flags": {},
   "_id": "gLRX2MCOMrfuCb7L"
 }

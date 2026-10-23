@@ -1,0 +1,97 @@
+{
+  "folder": null,
+  "name": "Limit Explosion (Countdown)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon",
+      "explode"
+    ],
+    "description": "",
+    "actions": [
+      {
+        "name": "Limit Explosion (Countdown)",
+        "slug": "limit-explosion-countdown",
+        "description": "",
+        "traits": [
+          "digimon",
+          "summon",
+          "explode"
+        ],
+        "type": "summon",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5756.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "untyped"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "all",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": 250,
+        "accuracy": null
+      }
+    ],
+    "baseAV": 130,
+    "duration": 1,
+    "owner": null
+  },
+  "_id": "MIW9uVNpow06Y3ys",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5756.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785315237517,
+    "modifiedTime": 1785315237517,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

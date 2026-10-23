@@ -19,7 +19,7 @@
         "name": "Mega Flame",
         "slug": "mega-flame",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5109.png",
         "traits": [
           "missile",
           "digimon"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 95,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "mega-flame"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5109.png",
   "effects": [],
   "_id": "5m90sy3sVv6alAJK"
 }

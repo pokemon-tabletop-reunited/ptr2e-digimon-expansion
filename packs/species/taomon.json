@@ -34,8 +34,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 2.7,
+      "weight": 70
     },
     "diet": [],
     "abilities": {
@@ -857,9 +857,13 @@
       "x": 106,
       "y": 60,
       "connected": [
+        "apemon",
+        "kuzuhamon",
+        "sakuyamon",
         "garurumon",
         "woodmon",
-        "kyubimon"
+        "kyubimon",
+        "venusmon"
       ],
       "prerequisites": [
         {
@@ -894,11 +898,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -911,8 +916,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -929,13 +936,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767401299730,
         "modifiedTime": 1767401319772,
         "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "SXCzaxOwi4MaFhxw"
