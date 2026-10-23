@@ -855,7 +855,11 @@
       "y": 127,
       "connected": [
         "kudamon",
-        "patamon"
+        "patamon",
+        "hippo-gryphonmon",
+        "magna-angemon",
+        "shakkoumon",
+        "sirenmon"
       ],
       "prerequisites": [
         {

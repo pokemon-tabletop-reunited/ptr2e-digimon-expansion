@@ -1,81 +1,91 @@
 {
-  "name": "Divine Pierce",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Divine Pierce",
-        "slug": "divine-pierce",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "contact",
-          "weapon",
-          "pierce",
-          "digimon"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 2,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "power": 65,
-        "accuracy": 100,
-        "predicate": []
-      },
-      {
-        "name": "Divine Pierce (Awake)",
-        "slug": "divine-pierce-awake",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "contact",
-          "weapon",
-          "pierce"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 2,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2
-        },
-        "variant": "divine-pierce",
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "power": 65,
-        "accuracy": 100,
-        "predicate": []
-      }
-    ],
-    "grade": "D",
-    "slug": "divine-pierce"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "_id": "dBepc88qKzmj8m6c"
+    "_id":  "dBepc88qKzmj8m6c",
+    "effects":  [
+
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
+    "name":  "Divine Pierce",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Divine Pierce",
+                                       "slug":  "divine-pierce",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023.png",
+                                       "traits":  [
+                                                      "contact",
+                                                      "weapon",
+                                                      "pierce",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  2,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  2
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "special",
+                                       "power":  65,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "free":  true
+                                   },
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  2
+                                                },
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023_awake.png",
+                                       "name":  "Divine Pierce (Awake)",
+                                       "power":  90,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  2,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "divine-pierce-awake",
+                                       "traits":  [
+                                                      "contact",
+                                                      "weapon",
+                                                      "pierce"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "variant":  "divine-pierce"
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "divine-pierce",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

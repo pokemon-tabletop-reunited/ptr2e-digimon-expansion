@@ -845,9 +845,13 @@
       "x": 62,
       "y": 90,
       "connected": [
+        "bancho-golemon",
         "goblimon",
         "gotsumon",
-        "armadillomon"
+        "armadillomon",
+        "mammothmon",
+        "meteormon",
+        "volcanomon"
       ],
       "prerequisites": [
         {

@@ -1,125 +1,134 @@
 {
-  "name": "Tail Hammer",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Tail Hammer",
-        "slug": "tail-hammer",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/rock_icon.svg",
-        "traits": [
-          "contact",
-          "tail",
-          "digimon"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 2,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "rock"
-        ],
-        "category": "physical",
-        "power": 85,
-        "accuracy": 100,
-        "offensiveStat": "def",
-        "predicate": [],
-        "description": "<p>This attack utilises the user's defense as it's attacking stat. This attack has a 15% chance to apply Flinch 50%</p>"
-      }
-    ],
-    "grade": "C",
-    "slug": "tail-hammer"
-  },
-  "img": "systems/ptr2e/img/svg/rock_icon.svg",
-  "effects": [
-    {
-      "name": "Tail Hammer",
-      "type": "passive",
-      "_id": "TjweLl6Ov36C9QwI",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "tail-hammer-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.advanceffectitem",
-            "predicate": [],
-            "chance": 15,
-            "affects": "target",
-            "dontMerge": false,
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "system.amount",
-                "value": -50
-              },
-              {
-                "mode": 5,
-                "property": "name",
-                "value": "Flinch 50%"
-              }
-            ],
-            "mode": 2,
-            "priority": null,
-            "ignored": false,
-            "isFixedChance": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.346",
-        "systemId": "ptr2e",
-        "systemVersion": "1.2.1.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "EeWB065yNinszP9d"
+    "_id":  "EeWB065yNinszP9d",
+    "effects":  [
+                    {
+                        "_id":  "TjweLl6Ov36C9QwI",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553967321,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553969994,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Tail Hammer",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "tail-hammer-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  -50
+                                                                               }
+                                                                           ],
+                                                           "priority":  null,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5195.png",
+    "name":  "Tail Hammer",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "description":  "\u003cp\u003eThis attack utilises the user\u0027s defense as it\u0027s attacking stat. This attack has a 15% chance to apply @Affliction[delay 50].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5195.png",
+                                       "name":  "Tail Hammer",
+                                       "offensiveStat":  "def",
+                                       "power":  85,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  2,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "tail-hammer",
+                                       "traits":  [
+                                                      "contact",
+                                                      "tail",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "rock"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "tail-hammer",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

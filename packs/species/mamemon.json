@@ -856,10 +856,14 @@
       "x": 111,
       "y": 87,
       "connected": [
+        "bancho-mamemon",
         "starmon",
         "sukamon",
         "nanimon",
-        "platinum-sukamon"
+        "platinum-sukamon",
+        "ninjamon",
+        "prince-mamemon",
+        "pukumon"
       ],
       "prerequisites": [
         {

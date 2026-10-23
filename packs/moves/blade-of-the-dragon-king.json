@@ -1,53 +1,124 @@
 {
-  "name": "Blade of the Dragon King",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Blade of the Dragon King",
-        "slug": "blade-of-the-dragon-king",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "contact",
-          "sharp",
-          "pierce",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 150,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "blade-of-the-dragon-king"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "_id": "tBWpFO33y2Zca2zk"
+    "_id":  "tBWpFO33y2Zca2zk",
+    "effects":  [
+                    {
+                        "_id":  "R4YCkRCRR1Ejp64D",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777491737179,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777491770114,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Blade of the Dragon King",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "value":  50,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+                                                                             "target:trait:royal-knight"
+                                                                         ],
+                                                           "key":  "blade-of-the-dragon-king-attack-damage",
+                                                           "label":  "Vs Royal Knight",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5333.png",
+    "name":  "Blade of the Dragon King",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack gains +50% damage vs @Trait[royal-knight] creatures.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5333.png",
+                                       "name":  "Blade of the Dragon King",
+                                       "power":  150,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "blade-of-the-dragon-king",
+                                       "traits":  [
+                                                      "contact",
+                                                      "sharp",
+                                                      "pierce",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dragon"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "blade-of-the-dragon-king",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

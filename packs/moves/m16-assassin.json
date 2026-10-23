@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "M16 Assassin",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "m16-assassin",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,7 +20,7 @@
         "name": "M16 Assassin",
         "slug": "m16-assassin",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5513.png",
         "traits": [
           "digimon",
           "3-strike",
@@ -31,25 +30,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 3,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 3
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "steel"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
+        "free": true,
         "defensiveStat": "def",
         "predicate": [],
         "description": "<p>Effect: This attack resolves against Defense.</p>",
@@ -62,28 +49,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "D"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5513.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1771416802132,
-    "modifiedTime": 1771416802132,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "vG3UGHUynGZrIH98",
-  "sort": 0
+  "_id": "vG3UGHUynGZrIH98"
 }

@@ -864,9 +864,13 @@
       "x": 104,
       "y": 45,
       "connected": [
+        "baihumon",
+        "bancho-leomon",
+        "chaosdramon",
         "leomon",
         "bao-huckmon",
-        "drimogemon"
+        "drimogemon",
+        "metal-garurumon"
       ],
       "prerequisites": [
         {

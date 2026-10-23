@@ -1,0 +1,148 @@
+{
+    "_id":  "JpaQeNrGNSrxS6mu",
+    "effects":  [
+                    {
+                        "name":  "Chaos Flare",
+                        "type":  "passive",
+                        "_id":  "Of3aYYm06b7S6IP1",
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "chaos-flare-attack-effectiveness-stage",
+                                                           "value":  2,
+                                                           "predicate":  [
+                                                                             "target:trait:fairy"
+                                                                         ],
+                                                           "label":  "Vs Fairy",
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false,
+                                                           "method":  2,
+                                                           "phase":  "initial"
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "description":  "",
+                        "origin":  null,
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "statuses":  [
+
+                                     ],
+                        "sort":  0,
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "_stats":  {
+                                       "coreVersion":  "14.359",
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.2.beta",
+                                       "createdTime":  1775515486393,
+                                       "modifiedTime":  1775515486393,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "compendiumSource":  null,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null
+                                   },
+                        "start":  null,
+                        "showIcon":  1,
+                        "folder":  null
+                    }
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5534.png",
+    "name":  "Chaos Flare",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  600000,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  8,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: Grants +2 Effectiveness Stages vs @Trait[fairy] creatures.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5534.png",
+                                       "name":  "Chaos Flare",
+                                       "offensiveStat":  null,
+                                       "power":  155,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  7,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "chaos-flare",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon",
+                                                      "ray"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
+}

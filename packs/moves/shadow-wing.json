@@ -19,7 +19,7 @@
         "name": "Shadow Wing",
         "slug": "shadow-wing",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5225.png",
         "traits": [
           "digimon"
         ],
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 85,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "shadow-wing"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5225.png",
   "effects": [],
   "_id": "M1T1hqdGXpoTAGL3"
 }

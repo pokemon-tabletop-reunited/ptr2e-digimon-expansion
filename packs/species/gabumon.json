@@ -858,7 +858,14 @@
       "x": 32,
       "y": 94,
       "connected": [
-        "tsunomon"
+        "drimogemon",
+        "gabumon-bond-of-friendship",
+        "tsunomon",
+        "garurumon",
+        "geremon",
+        "ikkakumon",
+        "kyubimon",
+        "nise-drimogemon"
       ],
       "prerequisites": [
         {

@@ -1,53 +1,60 @@
 {
-  "name": "Demi Dart",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Demi Dart",
-        "slug": "demi-dart",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/poison_icon.svg",
-        "traits": [
-          "missile",
-          "drain-1-4",
-          "digimon"
-        ],
-        "range": {
-          "target": "enemy",
-          "distance": 10,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "simple",
-          "powerPoints": 2
-        },
-        "types": [
-          "poison"
-        ],
-        "category": "physical",
-        "power": 60,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>Fires a poisonous, life-draining dart at the opponent.</p>"
-      }
-    ],
-    "grade": "D",
-    "slug": "demi-dart"
-  },
-  "img": "systems/ptr2e/img/svg/poison_icon.svg",
-  "effects": [],
-  "_id": "0UsOKRDUL3Sxqmhr"
+    "_id":  "0UsOKRDUL3Sxqmhr",
+    "effects":  [
+
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5077.png",
+    "name":  "Demi Dart",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  2
+                                                },
+                                       "description":  "\u003cp\u003eFires a poisonous, life-draining dart at the opponent.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5077.png",
+                                       "name":  "Demi Dart",
+                                       "power":  60,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "demi-dart",
+                                       "traits":  [
+                                                      "missile",
+                                                      "drain-1-4",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "poison"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "demi-dart",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

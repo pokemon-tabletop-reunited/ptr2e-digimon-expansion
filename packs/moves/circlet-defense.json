@@ -1,73 +1,152 @@
 {
-  "name": "Circlet Defense",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Circlet Defense (Initiate)",
-        "slug": "circlet-defense-initiate",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "simple",
-          "powerPoints": 6
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Effect: The user enters the [Circlet Defense 2] state. While in the [Circlet Defense] state, on receiving a physical attack, the user may freely use the Circlet Defense (Counter) attack.</p>",
-        "range": {
-          "target": "self",
-          "unit": "m"
-        }
-      },
-      {
-        "name": "Circlet Defense (Counter)",
-        "slug": "circlet-defense-counter",
-        "traits": [
-          "digimon",
-          "interrupt-4"
-        ],
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "cost": {
-          "activation": "complex"
-        },
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "special",
-        "predicate": [],
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [],
-  "flags": {},
-  "_id": "TQF8PKSy1df3MyMQ"
+    "_id":  "TQF8PKSy1df3MyMQ",
+    "effects":  [
+                    {
+                        "_id":  "0xfFRs90KRTK2k3I",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777556682696,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777556716456,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Circlet Defense",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e-digimon-expansion.digimon-effects.Item.honXNtwZdBlhHr2M",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "circlet-defense-initiate-attack",
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
+    "name":  "Circlet Defense",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "simple",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The user enters the [Circlet Defense 2] state. While in the [Circlet Defense] state, on receiving a physical attack, the user may freely use the Circlet Defense (Counter) attack.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
+                                       "name":  "Circlet Defense (Initiate)",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "circlet-defense-initiate",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   },
+                                   {
+                                       "name":  "Circlet Defense (Counter)",
+                                       "slug":  "circlet-defense-counter",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "interrupt-4"
+                                                  ],
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
+                                       "cost":  {
+                                                    "activation":  "complex"
+                                                },
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "types":  [
+                                                     "electric"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "power":  100,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "circlet-defense",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -852,7 +852,11 @@
       "connected": [
         "guardromon",
         "centarumon",
-        "clockmon"
+        "clockmon",
+        "boltmon",
+        "craniamon",
+        "hi-andromon",
+        "shima-unimon"
       ],
       "prerequisites": [
         {

@@ -19,7 +19,7 @@
         "name": "Scrapless Claw",
         "slug": "scrapless-claw",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ground_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5296.png",
         "traits": [
           "crit-2",
           "contact",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "scrapless-claw"
   },
-  "img": "systems/ptr2e/img/svg/ground_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5296.png",
   "effects": [],
   "_id": "BW5GrWJvisUJBcNJ"
 }

@@ -1,52 +1,152 @@
 {
-  "name": "Aurora Undulation",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Aurora Undulation",
-        "slug": "aurora-undulation",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "danger-close",
-          "friendly",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 12
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>On resolution, this attack cleanses all @Trait[major-affliction]s and @Trait[minor-affliction]s from the user.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 110
-      }
-    ],
-    "grade": "S",
-    "slug": "aurora-undulation"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "_id": "a0WZSDQcb4a5FAuS"
+    "_id":  "a0WZSDQcb4a5FAuS",
+    "effects":  [
+                    {
+                        "_id":  "qqo8oMRiyAJriU9A",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1779492575857,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1779492634196,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.6.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Aurora Undulation",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "major-affliction-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "aurora-undulation-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cleareffect00000",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.key",
+                                                                                   "value":  "minor-affliction-trait"
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "aurora-undulation-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5335.png",
+    "name":  "Aurora Undulation",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Aurora Undulation",
+                                       "slug":  "aurora-undulation",
+                                       "type":  "attack",
+                                       "img":  "systems/ptr2e/img/svg/fairy_icon.svg",
+                                       "traits":  [
+                                                      "danger-close",
+                                                      "friendly",
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  12
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eOn resolution, this attack cleanses all @Trait[major-affliction]s and @Trait[minor-affliction]s from the user.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  110
+                                   }
+                               ],
+                   "grade":  "S",
+                   "slug":  "aurora-undulation"
+               },
+    "type":  "move"
 }

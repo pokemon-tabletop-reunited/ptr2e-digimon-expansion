@@ -878,7 +878,11 @@
       "x": 29,
       "y": 67,
       "connected": [
-        "tanemon"
+        "flymon",
+        "tanemon",
+        "nanimon",
+        "sukamon",
+        "woodmon"
       ],
       "prerequisites": [
         {

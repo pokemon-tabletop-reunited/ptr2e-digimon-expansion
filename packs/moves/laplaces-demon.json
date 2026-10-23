@@ -19,7 +19,7 @@
         "name": "Laplace's Demon",
         "slug": "laplaces-demon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
         "traits": [
           "digimon",
           "arcane"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 125,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "laplaces-demon"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5397.png",
   "effects": [],
-  "flags": {},
   "_id": "XTBgfvqoHKEFiWUe"
 }
