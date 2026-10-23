@@ -18,7 +18,7 @@
         "name": "Pendragon's Glory",
         "slug": "pendragons-glory",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5456.png",
         "traits": [
           "digimon",
           "ray",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 145,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "E"
+    "grade": "E",
+    "slug": "pendragons-glory"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5456.png",
   "effects": [],
-  "flags": {},
   "_id": "DUDenFA5nc572rvN"
 }

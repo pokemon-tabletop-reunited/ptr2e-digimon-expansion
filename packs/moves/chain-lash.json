@@ -19,7 +19,7 @@
         "name": "Chain Lash",
         "slug": "chain-lash",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5434_hm.png",
         "traits": [
           "digimon"
         ],
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "chain-lash"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5434_hm.png",
   "effects": [],
-  "flags": {},
   "_id": "OmXh52scuQnnsydr"
 }

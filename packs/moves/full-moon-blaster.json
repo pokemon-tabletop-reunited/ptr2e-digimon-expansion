@@ -19,7 +19,7 @@
         "name": "Full Moon Blaster",
         "slug": "full-moon-blaster",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",
         "traits": [
           "digimon",
           "ray",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 135,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "full-moon-blaster"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5387.png",
   "effects": [],
-  "flags": {},
   "_id": "Uam1aRT0kj7Jegko"
 }

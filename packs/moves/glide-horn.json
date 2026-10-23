@@ -1,124 +1,137 @@
 {
-  "name": "Glide Horn",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Glide Horn",
-        "slug": "glide-horn",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
-        "traits": [
-          "contact",
-          "horn",
-          "dash",
-          "push-3",
-          "pierce",
-          "digimon"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "flying"
-        ],
-        "category": "physical",
-        "power": 85,
-        "accuracy": 100,
-        "offensiveStat": "spe",
-        "predicate": [],
-        "description": "<p>This attack uses your Speed as it's Offensive Stat, and your opponent's Speed as their defensive stat. This attack has a 15% chance to inflict a 50% Flinch to the target.</p>"
-      }
-    ],
-    "grade": "C",
-    "slug": "glide-horn"
-  },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
-  "effects": [
-    {
-      "name": "Glide Horn",
-      "type": "passive",
-      "_id": "eg9dIeR4zy8IXX2U",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "glide-horn-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
-            "predicate": [],
-            "chance": 15,
-            "affects": "target",
-            "dontMerge": false,
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.amount",
-                "value": -50
-              }
-            ],
-            "priority": null,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1746200306727,
-        "modifiedTime": 1777539284731,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "exportSource": null
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "Lg1HOEBQlC9sN2Sh"
+    "_id":  "Lg1HOEBQlC9sN2Sh",
+    "effects":  [
+                    {
+                        "_id":  "eg9dIeR4zy8IXX2U",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1746200306727,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777539284731,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Glide Horn",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "glide-horn-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  -50
+                                                                               }
+                                                                           ],
+                                                           "priority":  null,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5194.png",
+    "name":  "Glide Horn",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Glide Horn",
+                                       "slug":  "glide-horn",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5194.png",
+                                       "traits":  [
+                                                      "contact",
+                                                      "horn",
+                                                      "dash",
+                                                      "push-3",
+                                                      "pierce",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "flying"
+                                                 ],
+                                       "category":  "physical",
+                                       "power":  85,
+                                       "accuracy":  100,
+                                       "offensiveStat":  "spe",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack uses your Speed as it\u0027s Offensive Stat, and your opponent\u0027s Speed as their defensive stat. This attack has a 15% chance to inflict a 50% Flinch to the target.\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "slug":  "glide-horn"
+               },
+    "type":  "move"
 }

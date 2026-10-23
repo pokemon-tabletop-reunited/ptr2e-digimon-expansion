@@ -1,150 +1,171 @@
 {
-  "name": "Nightmare Syndrome",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "slug": "nightmare-syndrome",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Nights"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Nightmare Syndrome",
-        "slug": "nightmare-syndrome",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Effect: On hit, the target loses @Tick[-3]of HP, and has a 20% chance of gaining @UUID[Compendium.ptr2e.core-effects.drowsycondititem]{Drowsy} 5.</p><p>If the target is already @UUID[Compendium.ptr2e.core-effects.drowsycondititem]{Drowsy}, it instead has a 20% chance of gaining @UUID[Compendium.ptr2e.core-effects.nightmarescoitem]{Nightmares}.</p>",
-        "range": {
-          "target": "enemy",
-          "distance": 10,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Nightmare Syndrome",
-      "type": "affliction",
-      "_id": "iQ488mXmLUAguCxB",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "nightmare-syndrome-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
-            "predicate": [],
-            "chance": 20,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "nightmare-syndrome-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": -3
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "nightmare-syndrome-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.nightmarescondit",
-            "predicate": [
-              "target:affliction:drowsy"
-            ],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "priority": 50,
-        "formula": "",
-        "type": "damage",
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "predicate": []
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "modifiedTime": 1777547839033,
-        "createdTime": 1777547814729
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "ffL3J820dgswRM0H"
+    "_id":  "ffL3J820dgswRM0H",
+    "effects":  [
+                    {
+                        "_id":  "iQ488mXmLUAguCxB",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777547814729,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777547839033,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Nightmare Syndrome",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "nightmare-syndrome-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.drowsycondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "nightmare-syndrome-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "nightmare-syndrome-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.nightmarescondit",
+                                                           "predicate":  [
+                                                                             "target:affliction:drowsy"
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5265.png",
+    "name":  "Nightmare Syndrome",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: On hit, the target loses @Tick[-3]of HP, and has a 20% chance of gaining @UUID[Compendium.ptr2e.core-effects.drowsycondititem]{Drowsy} 5.\u003c/p\u003e\u003cp\u003eIf the target is already @UUID[Compendium.ptr2e.core-effects.drowsycondititem]{Drowsy}, it instead has a 20% chance of gaining @UUID[Compendium.ptr2e.core-effects.nightmarescoitem]{Nightmares}.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5265.png",
+                                       "name":  "Nightmare Syndrome",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "nightmare-syndrome",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dark"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Nights"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "nightmare-syndrome",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

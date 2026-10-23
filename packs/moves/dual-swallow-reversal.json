@@ -19,7 +19,7 @@
         "name": "Dual Swallow Reversal",
         "slug": "dual-swallow-reversal",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5124.png",
         "traits": [
           "digimon",
           "contact",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "dual-swallow-reversal"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5124.png",
   "effects": [],
-  "flags": {},
   "_id": "Rncz2p2MK480T813"
 }
