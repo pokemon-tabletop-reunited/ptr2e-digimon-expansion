@@ -1,0 +1,165 @@
+{
+  "folder": null,
+  "name": "Innocence Blizzard",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Innocence Blizzard",
+        "slug": "innocence-blizzard",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5865.png",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, this attack inflicts @Affliction[perish 6] and @Affliction[frozen 1].</p>",
+        "range": {
+          "target": "cone",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "Rlox4EdUdwT3hjIb",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5865.png",
+  "effects": [
+    {
+      "name": "Innocence Blizzard",
+      "type": "passive",
+      "_id": "gXsTf8qRDp41NCmI",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.frozencondition0",
+            "phase": "initial",
+            "predicate": [],
+            "key": "innocence-blizzard-attack",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
+            "phase": "initial",
+            "predicate": [],
+            "key": "innocence-blizzard-attack",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.stacks",
+                "value": 6
+              }
+            ],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1793282270914,
+        "modifiedTime": 1793282270914,
+        "lastModifiedBy": "EClo9kX7QWK7e63b",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282270914,
+    "modifiedTime": 1793282270914,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

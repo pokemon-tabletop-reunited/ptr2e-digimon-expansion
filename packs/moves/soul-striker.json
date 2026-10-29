@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Soul Striker",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Soul Striker",
+        "slug": "soul-striker",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5874.png",
+        "traits": [
+          "digimon",
+          "weapon",
+          "sharp",
+          "pierce"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ghost"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: If this attack faints an enemy, the user recovers @Tick[16]. If this creatures HP is full they instead gain @Tick[4 shield].</p>",
+        "range": {
+          "target": "cone",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 140,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "2rj7tztFvG9rL6w7",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5874.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282673014,
+    "modifiedTime": 1793282673014,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
