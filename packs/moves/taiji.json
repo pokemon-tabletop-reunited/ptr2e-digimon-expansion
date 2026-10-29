@@ -1,375 +1,412 @@
 {
-  "name": "Taiji",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "taiji",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Neo"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Taiji",
-        "slug": "taiji",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
-        "traits": [
-          "digimon",
-          "ray",
-          "flinch-60",
-          "sovereign",
-          "ync"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 16
-        },
-        "types": [
-          "untyped"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack is unaffected by the abilities of other creatures. On hit, all valid targets lose -2 to all Stat Stages for 7 Activations and gain @Affliction[nullified 7] and @Affliction[desync 1], and have a 30% chance to gain @Affliction[perish 7]. This Attack has -70% EHR and -140 base Power against non-@Trait[digimon] creatures. On resolution, this Attack is @Affliction[disabled 7].</p>",
-        "range": {
-          "target": "wide-line",
-          "distance": 40,
-          "unit": "m"
-        },
-        "power": 300,
-        "accuracy": 90
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/untyped_icon.svg",
-  "effects": [
-    {
-      "name": "Taiji",
-      "type": "passive",
-      "_id": "bOdsUHB5NCLBZY5O",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.RVIdzfbF4xwy2qLq",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.3BSugEZLheQIiDAk",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.5MQzVTuubNTERPjS",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 2,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.9FlxAAlUW2PrKOd0",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.nullifiedconditi",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
-            "predicate": [],
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 30,
-            "isFixedChance": false,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.disabledconditio",
-            "predicate": [],
-            "affects": "self",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "chance": 100,
-            "isFixedChance": true,
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "ephemeral-effect",
-            "key": "taiji-attack",
-            "value": "Compendium.ptr2e.core-effects.Item.auJlcV40ua09ITga",
-            "predicate": [
-              {
-                "not": "target:trait:digimon"
-              }
-            ],
-            "affects": "self",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": -70
-              }
-            ],
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "alter-attack",
-            "key": "taiji-attack",
-            "value": -140,
-            "predicate": [
-              {
-                "not": "target:trait:digimon"
-              }
-            ],
-            "property": "power",
-            "definition": [],
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777553811490,
-        "modifiedTime": 1777553935159
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "vRiwF3mDPxq1wxnF"
+    "_id":  "vRiwF3mDPxq1wxnF",
+    "effects":  [
+                    {
+                        "_id":  "bOdsUHB5NCLBZY5O",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553811490,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553935159,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Taiji",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.RVIdzfbF4xwy2qLq",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.3BSugEZLheQIiDAk",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.5MQzVTuubNTERPjS",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  2,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.9FlxAAlUW2PrKOd0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.nullifiedconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.disabledconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "ephemeral-effect",
+                                                           "key":  "taiji-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects.Item.auJlcV40ua09ITga",
+                                                           "predicate":  [
+                                                                             {
+                                                                                 "not":  "target:trait:digimon"
+                                                                             }
+                                                                         ],
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -70
+                                                                               }
+                                                                           ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "alter-attack",
+                                                           "key":  "taiji-attack",
+                                                           "value":  -140,
+                                                           "predicate":  [
+                                                                             {
+                                                                                 "not":  "target:trait:digimon"
+                                                                             }
+                                                                         ],
+                                                           "property":  "power",
+                                                           "definition":  [
+
+                                                                          ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5505.png",
+    "name":  "Taiji",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  90,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  16
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack is unaffected by the abilities of other creatures. On hit, all valid targets lose -2 to all Stat Stages for 7 Activations and gain @Affliction[nullified 7] and @Affliction[desync 1], and have a 30% chance to gain @Affliction[perish 7]. This Attack has -70% EHR and -140 base Power against non-@Trait[digimon] creatures. On resolution, this Attack is @Affliction[disabled 7].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5505.png",
+                                       "name":  "Taiji",
+                                       "power":  300,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  40,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "taiji",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "ray",
+                                                      "flinch-60",
+                                                      "sovereign",
+                                                      "ync"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "untyped"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Neo"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "taiji",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

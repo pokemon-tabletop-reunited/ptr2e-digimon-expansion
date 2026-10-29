@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "All-Delete",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "all-delete",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,32 +20,19 @@
         "name": "All-Delete",
         "slug": "all-delete",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5510.png",
         "traits": [
           "digimon"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 10,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 10
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fighting"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This attack gains, stacking additively, +50% Damage vs @Trait[data] creatures, +50% Damage vs @Trait[desperation-1-3], +50% Damage vs @Trait[dragon] creatures.</p>",
         "range": {
@@ -58,11 +44,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5510.png",
   "effects": [
     {
       "name": "All-Delete",
@@ -79,9 +63,10 @@
               "target:trait:data"
             ],
             "label": "Vs Data",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "percentile-modifier",
@@ -91,9 +76,10 @@
               "target:state:desperation-1-3"
             ],
             "label": "Vs Desperation 1/3",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "percentile-modifier",
@@ -103,9 +89,10 @@
               "target:trait:dragon"
             ],
             "label": "Vs Dragon",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -118,8 +105,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -136,29 +125,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1773437421969,
-    "modifiedTime": 1773437423329,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "oLls1p686Hrqzvte",
-  "sort": 22800000
+  "_id": "oLls1p686Hrqzvte"
 }

@@ -19,7 +19,7 @@
         "name": "Cook of the Abyss",
         "slug": "cook-of-the-abyss",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",
         "traits": [
           "digimon",
           "contact",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 105,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "cook-of-the-abyss"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5414.png",
   "effects": [],
-  "flags": {},
   "_id": "0YNSCtfQOs39vc4l"
 }

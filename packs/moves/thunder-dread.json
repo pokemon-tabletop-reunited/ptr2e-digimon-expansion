@@ -1,132 +1,153 @@
 {
-  "name": "Thunder Dread",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "thunder-dread",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Krueger"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Thunder Dread",
-        "slug": "thunder-dread",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon",
-          "horn",
-          "pulse"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "fighting",
-          "electric"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack has a 10% chance each to inflict @Affliction[tased 5] to the target, and +1 Attack Stage for 5 Activations to the user.</p>",
-        "range": {
-          "target": "cone",
-          "distance": 3,
-          "unit": "m"
-        },
-        "power": 90,
-        "accuracy": 100
-      }
-    ],
-    "grade": "C"
-  },
-  "_id": "Joua7XrgvRd6Irto",
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [
-    {
-      "name": "Thunder Dread",
-      "type": "affliction",
-      "_id": "pcPWNtOIWy4dr7ep",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
-            "method": 0,
-            "phase": "initial",
-            "predicate": [],
-            "key": "thunder-dread",
-            "chance": 10,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
-            "phase": "initial",
-            "predicate": [],
-            "key": "thunder-dread",
-            "chance": 10,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0,
-        "priority": 50,
-        "formula": "",
-        "type": "damage",
-        "predicate": []
-      },
-      "disabled": false,
-      "start": null,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "showIcon": 1,
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1776412468359,
-        "modifiedTime": 1777554133054,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    }
-  ]
+    "_id":  "Joua7XrgvRd6Irto",
+    "effects":  [
+                    {
+                        "_id":  "pcPWNtOIWy4dr7ep",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1776412468359,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777554133054,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Thunder Dread",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
+                                                           "method":  0,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "thunder-dread",
+                                                           "chance":  10,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "thunder-dread",
+                                                           "chance":  10,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5530.png",
+    "name":  "Thunder Dread",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "description":  "\u003cp\u003eThis attack has a 10% chance each to inflict @Affliction[tased 5] to the target, and +1 Attack Stage for 5 Activations to the user.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5530.png",
+                                       "name":  "Thunder Dread",
+                                       "power":  90,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "cone",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "thunder-dread",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "horn",
+                                                      "pulse"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fighting",
+                                                     "electric"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "C",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "thunder-dread",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

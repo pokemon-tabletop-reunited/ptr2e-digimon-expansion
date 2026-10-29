@@ -19,7 +19,7 @@
         "name": "DJ Shooter",
         "slug": "dj-shooter",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5137.png",
         "traits": [
           "digimon",
           "missile",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "dj-shooter"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5137.png",
   "effects": [],
-  "flags": {},
   "_id": "jNtk4ElyAdXFr9bE"
 }
