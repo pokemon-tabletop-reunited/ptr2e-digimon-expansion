@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Barrage Sweep",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Barrage Sweep",
+        "slug": "barrage-sweep",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5839.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "friendly",
+          "10-strike",
+          "blast-2"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "steel"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "blast",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 15,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "ezLokWCNWv3WuHrk",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5839.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793283294527,
+    "modifiedTime": 1793283318075,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 400000
+}
