@@ -19,7 +19,8 @@
       "armour-digimon",
       "quadrupedal",
       "horned",
-      "wielder"
+      "wielder",
+      "firestarter"
     ],
     "number": 5928,
     "stats": {
@@ -908,7 +909,7 @@
         "ulforce-veedramon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-courage"
+        "equipment:digi-egg-of-hope"
       ]
     }
   },
