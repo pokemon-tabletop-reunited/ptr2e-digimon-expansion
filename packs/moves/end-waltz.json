@@ -19,7 +19,7 @@
         "name": "End Waltz",
         "slug": "end-waltz",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342.png",
         "traits": [
           "sonic",
           "pulse",
@@ -47,7 +47,7 @@
     "grade": "S",
     "slug": "end-waltz"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342.png",
   "effects": [],
   "_id": "aBC1dpW32mQveiyQ"
 }
