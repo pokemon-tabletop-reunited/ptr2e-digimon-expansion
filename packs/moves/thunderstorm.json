@@ -1,0 +1,51 @@
+{
+  "name": "Thunderstorm",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Thunderstorm",
+        "slug": "thunderstorm",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5912.png",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6
+        },
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.cvHaHU4N389ybIYA",
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "free": true,
+        "predicate": [],
+        "description": "<p>Effect: Creates a Thunderstorm Summon, with AV100 and 4 activations, which attacks all enemies with 90 Power and 100 Accuracy, using the summoner's Special Attack.</p>",
+        "range": {
+          "target": "field",
+          "unit": "m"
+        }
+      }
+    ],
+    "grade": "B"
+  },
+  "_id": "DUXcZsWO73NUx8JS",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5912.png",
+  "effects": [],
+  "flags": {}
+}
