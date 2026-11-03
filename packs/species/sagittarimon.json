@@ -909,7 +909,7 @@
         "ulforce-veedramon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-hope"
+        "item:equipment:digi-egg-of-hope"
       ]
     }
   },
