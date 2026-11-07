@@ -880,7 +880,9 @@
       "x": 48,
       "y": 151,
       "connected": [
-        "patamon"
+        "patamon",
+        "arukenimon",
+        "magna-angemon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-hope"
@@ -948,7 +950,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767395676754,

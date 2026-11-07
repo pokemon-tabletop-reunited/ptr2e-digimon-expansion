@@ -1,116 +1,128 @@
 {
-  "name": "Lightning Shower",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Lightning Shower",
-        "slug": "lightning-shower",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon",
-          "5-strike"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.ShKXnWCV59pLsMUE]{Vulnerable (Fairy)} for 3 activations.</p>",
-        "range": {
-          "target": "wide-line",
-          "distance": 6,
-          "unit": "m"
-        },
-        "power": 30,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B",
-    "slug": "lightning-shower"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [
-    {
-      "name": "Lightning Shower",
-      "type": "passive",
-      "_id": "SRDtSgR4YXoC6blG",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "lightning-shower-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ShKXnWCV59pLsMUE",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777546621785,
-        "modifiedTime": 1777546621785
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "NdBn30cal9c051UP"
+    "_id":  "NdBn30cal9c051UP",
+    "effects":  [
+                    {
+                        "_id":  "SRDtSgR4YXoC6blG",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546621785,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777546621785,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Lightning Shower",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "lightning-shower-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ShKXnWCV59pLsMUE",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
+    "name":  "Lightning Shower",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Lightning Shower",
+                                       "slug":  "lightning-shower",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5214_holy.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "5-strike"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.ShKXnWCV59pLsMUE]{Vulnerable (Fairy)} for 3 activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  6,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  30,
+                                       "accuracy":  100
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "lightning-shower",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

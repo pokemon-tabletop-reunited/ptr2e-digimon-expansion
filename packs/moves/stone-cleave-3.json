@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "stone-cleave-3",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -26,32 +26,18 @@
           "digimon",
           "contact",
           "sharp",
-          "pass-3"
+          "pass-3",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "rock"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -61,28 +47,9 @@
         "accuracy": 85
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "img": "systems/ptr2e/img/svg/rock_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772901301320,
-    "modifiedTime": 1772901301320,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "xN61ZI4skZZREdBq",
-  "sort": 0
+  "_id": "xN61ZI4skZZREdBq"
 }

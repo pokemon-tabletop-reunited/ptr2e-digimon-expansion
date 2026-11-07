@@ -19,7 +19,7 @@
         "name": "Cog Crusher",
         "slug": "cog-crusher",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5076.png",
         "traits": [
           "danger-close",
           "missile",
@@ -41,13 +41,14 @@
         "category": "physical",
         "power": 70,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "cog-crusher"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5076.png",
   "effects": [],
   "_id": "OzEobtkw4f2LnnqD"
 }
