@@ -1,0 +1,93 @@
+{
+  "folder": null,
+  "name": "Ravaging Storm",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ravaging Storm",
+        "slug": "ravaging-storm",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5852.png",
+        "traits": [
+          "digimon",
+          "12-strike",
+          "sharp",
+          "contact",
+          "wind",
+          "punch",
+          "kick"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fighting",
+          "flying"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit the target gains @Affliction[bound 10]. While @Affliction[bound], targets also suffer from @UUID[Compendium.ptr2e.core-moves.k20VFQLHV61MKECa]{Wind Shear}. This @Affliction[bound] effect can be removed with a Challenging Flying or an Intense Movement-related Skill or Acrobatics Skill Check taken as a Complex Action.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 15,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "iDVkFvHVAWwUxErj",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5852.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792075716540,
+    "modifiedTime": 1792075716540,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
