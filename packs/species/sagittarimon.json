@@ -20,7 +20,8 @@
       "quadrupedal",
       "horned",
       "wielder",
-      "firestarter"
+      "firestarter",
+      "zapper"
     ],
     "number": 5928,
     "stats": {
@@ -895,7 +896,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
