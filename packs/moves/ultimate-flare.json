@@ -1,159 +1,176 @@
 {
-  "name": "Ultimate Flare",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Ultimate Flare (Resolution)",
-        "slug": "ultimate-flare-resolution",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-        "traits": [
-          "digimon",
-          "set-up",
-          "3-strike",
-          "resolution",
-          "flinch-50"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "nuclear"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "range": {
-          "target": "creature",
-          "distance": 15,
-          "unit": "m"
-        },
-        "power": 90,
-        "accuracy": 100
-      },
-      {
-        "name": "Ultimate Flare Set-Up",
-        "slug": "ultimate-flare",
-        "description": "<p>Effect: The user gains @Tick[2 shield] & @UUID[Compendium.ptr2e.core-effects.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations, then ends their activation.</p>",
-        "traits": [
-          "priority-20",
-          "digimon",
-          "set-up"
-        ],
-        "type": "generic",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "range": {
-          "target": "self",
-          "unit": "m",
-          "distance": 10
-        }
-      }
-    ],
-    "grade": "S",
-    "slug": "ultimate-flare"
-  },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
-  "effects": [
-    {
-      "name": "Ultimate Flare",
-      "type": "passive",
-      "_id": "GjZzTN7WvMNYgNTq",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "ultimate-flare-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.iv1l5qSwT9ykajV0",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "ultimate-flare-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": 2
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777555070937,
-        "modifiedTime": 1777555082008
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "1sVOZdD8OV1iq77J"
+    "_id":  "1sVOZdD8OV1iq77J",
+    "effects":  [
+                    {
+                        "_id":  "GjZzTN7WvMNYgNTq",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777555070937,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777555082008,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Ultimate Flare",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "ultimate-flare-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.iv1l5qSwT9ykajV0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "ultimate-flare-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  2
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",
+    "name":  "Ultimate Flare",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Ultimate Flare (Resolution)",
+                                       "slug":  "ultimate-flare-resolution",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "set-up",
+                                                      "3-strike",
+                                                      "resolution",
+                                                      "flinch-50"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "types":  [
+                                                     "nuclear"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  90,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   },
+                                   {
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The user gains @Tick[2 shield] \u0026 @UUID[Compendium.ptr2e.core-effects.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations, then ends their activation.\u003c/p\u003e",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",
+                                       "name":  "Ultimate Flare Set-Up",
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "ultimate-flare",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "set-up",
+                                                      "3-strike",
+                                                      "resolution",
+                                                      "flinch-50"
+                                                  ],
+                                       "type":  "generic"
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "ultimate-flare",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
