@@ -18,8 +18,10 @@
       "data",
       "ultra-digimon",
       "bipedal",
-      "winged"
+      "winged",
+      "spooky"
     ],
+    "number": 5893,
     "stats": {
       "hp": 160,
       "atk": 140,
