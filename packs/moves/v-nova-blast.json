@@ -17,7 +17,7 @@
         "name": "V-Nova Blast",
         "slug": "v-nova-blast",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5123.png",
         "traits": [
           "ray",
           "recoil-1-4",
@@ -44,7 +44,7 @@
     "grade": "C",
     "slug": "v-nova-blast"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5123.png",
   "effects": [],
   "_id": "HWuLDl5333iXx7rF"
 }
