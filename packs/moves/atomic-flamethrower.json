@@ -19,7 +19,7 @@
         "name": "Atomic Flamethrower",
         "slug": "atomic-flamethrower",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5468.png",
         "traits": [
           "digimon"
         ],
@@ -38,13 +38,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "atomic-flamethrower"
   },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5468.png",
   "effects": [],
-  "flags": {},
   "_id": "aiiOKtCnjc2Zpq3I"
 }
