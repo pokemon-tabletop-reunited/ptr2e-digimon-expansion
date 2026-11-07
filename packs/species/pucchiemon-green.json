@@ -865,8 +865,8 @@
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 56,
+      "y": 76,
       "connected": [
         "hudiemon",
         "stingmon",
@@ -895,15 +895,15 @@
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.8L4L4QwC0kDGX5il",
             "phase": "initial",
             "predicate": [
-              "item:ptr2e-digimon-expansion.digimonSpecies:pucchiemon-green"
+              "item:ptr2e-digimon-expansion.digimonSpecies:pucchiemon-red"
             ],
             "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
-            "reevaluateOnUpdate": true,
             "allowDuplicate": false,
+            "reevaluateOnUpdate": true,
             "key": "",
             "method": 2,
             "ignored": false,
@@ -938,11 +938,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
-        "createdTime": 1781294001821,
-        "modifiedTime": 1781350095183,
+        "createdTime": 1781303982759,
+        "modifiedTime": 1794068198189,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
