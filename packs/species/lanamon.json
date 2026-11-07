@@ -817,13 +817,13 @@
           "gen": null
         },
         {
-          "name": "scald",
-          "level": 20,
+          "name": "rain-dance",
+          "level": 1,
           "gen": null
         },
         {
-          "name": "rain-dance",
-          "level": 1,
+          "name": "scald",
+          "level": 20,
           "gen": null
         },
         {
@@ -868,7 +868,9 @@
       "y": 181,
       "connected": [
         "calmaramon",
-        "gizamon"
+        "gizamon",
+        "sirenmon",
+        "syakomon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-water"
@@ -957,7 +959,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767137718009,
