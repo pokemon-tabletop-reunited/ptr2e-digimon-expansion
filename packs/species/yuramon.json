@@ -792,19 +792,21 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bark",
+          "name": "aura-spark",
           "level": 0,
           "gen": null
         },
         {
-          "name": "aura-spark",
+          "name": "bark",
           "level": 0,
           "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

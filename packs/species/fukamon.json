@@ -810,7 +810,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

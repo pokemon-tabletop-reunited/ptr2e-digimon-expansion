@@ -801,11 +801,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": 13,
+      "x": 12,
       "y": 230,
       "connected": [
         "gurimon"
