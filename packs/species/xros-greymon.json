@@ -18,8 +18,9 @@
       "virus",
       "champion",
       "bipedal",
-      "orned",
-      "tailed"
+      "tailed",
+      "horned",
+      "emitter"
     ],
     "number": 5697,
     "stats": {
@@ -808,11 +809,6 @@
           "gen": null
         },
         {
-          "name": "proton-beam",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "smart-strike",
           "level": 23,
           "gen": null
@@ -820,6 +816,11 @@
         {
           "name": "breaking-swipe",
           "level": 25,
+          "gen": null
+        },
+        {
+          "name": "proton-beam",
+          "level": 28,
           "gen": null
         },
         {
