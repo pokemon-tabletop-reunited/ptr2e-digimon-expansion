@@ -1,0 +1,110 @@
+{
+  "folder": null,
+  "name": "Gran Nova",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Gran Nova (Resolution)",
+        "slug": "gran-nova-resolution",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5733.png",
+        "traits": [
+          "digimon",
+          "set-up",
+          "blast-3"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "nuclear"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "blast",
+          "distance": 12,
+          "unit": "m"
+        },
+        "power": 150,
+        "accuracy": 100
+      },
+      {
+        "name": "Gran Nova (Set-Up)",
+        "slug": "gran-nova-set-up",
+        "description": "<p>Effect: The user gains +1 Special Attack and loses @Tick[-1].</p><p><br>Gran Nova's set-up may be resolved as a Free Action if @UUID[Compendium.ptr2e.core-summons.9a5RrO9eF0kzt9Xn]{Glowy Weather} is active.</p>",
+        "traits": [],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5733.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "A"
+  },
+  "_id": "OCF7gL8pGSp6NDxO",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5733.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785195829390,
+    "modifiedTime": 1785195829390,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
