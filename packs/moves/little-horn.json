@@ -1,114 +1,129 @@
 {
-  "name": "Little Horn",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Little Horn",
-        "slug": "little-horn",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
-        "traits": [
-          "horn",
-          "contact",
-          "digimon"
-        ],
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 1
-        },
-        "types": [
-          "normal"
-        ],
-        "category": "physical",
-        "power": 70,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>This attack has a 10% chance to reduce the target's Defense Stages by 1 for 5 activations.</p>"
-      }
-    ],
-    "grade": "D",
-    "slug": "little-horn"
-  },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
-  "effects": [
-    {
-      "name": "Little Horn",
-      "type": "passive",
-      "_id": "r7jXrLC5LSw3lSIm",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "little-horn-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.bdYCJcqjMNqTpJJQ",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "dontMerge": false,
-            "priority": null,
-            "alterations": [],
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777546687301,
-        "modifiedTime": 1777546687301,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "exportSource": null
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "vHmeJfjMgmP5Miua"
+    "_id":  "vHmeJfjMgmP5Miua",
+    "effects":  [
+                    {
+                        "_id":  "r7jXrLC5LSw3lSIm",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546687301,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777546687301,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Little Horn",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "little-horn-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.bdYCJcqjMNqTpJJQ",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5048.png",
+    "name":  "Little Horn",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Little Horn",
+                                       "slug":  "little-horn",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5048.png",
+                                       "traits":  [
+                                                      "horn",
+                                                      "contact",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  1
+                                                },
+                                       "types":  [
+                                                     "normal"
+                                                 ],
+                                       "category":  "physical",
+                                       "power":  70,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 10% chance to reduce the target\u0027s Defense Stages by 1 for 5 activations.\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "slug":  "little-horn"
+               },
+    "type":  "move"
 }

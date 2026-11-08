@@ -19,7 +19,7 @@
         "name": "Trident Saber",
         "slug": "trident-saber",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5262.png",
         "traits": [
           "contact",
           "pierce",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 40,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "trident-saber"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5262.png",
   "effects": [],
   "_id": "MqJXqbI0QqZH5LYA"
 }
