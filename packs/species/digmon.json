@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "tremorsense-20",
-      "armour-digimon"
+      "armour-digimon",
+      "sponge"
     ],
     "number": 5202,
     "stats": {
@@ -868,7 +869,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "digmon",

@@ -38,8 +38,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 2.1,
+      "weight": 60
     },
     "diet": [],
     "abilities": {
@@ -863,7 +863,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "shurimon",

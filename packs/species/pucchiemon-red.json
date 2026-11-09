@@ -37,7 +37,7 @@
       "category": "medium",
       "type": "height",
       "height": 1,
-      "weight": 0
+      "weight": 60
     },
     "diet": [],
     "abilities": {
@@ -861,7 +861,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

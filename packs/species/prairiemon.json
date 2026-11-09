@@ -813,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "earth-power",
-          "level": 32,
-          "gen": null
-        },
-        {
           "name": "double-edge",
           "level": 25,
           "gen": null
@@ -835,6 +830,11 @@
         {
           "name": "bulldoze",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "earth-power",
+          "level": 32,
           "gen": null
         },
         {
@@ -860,7 +860,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

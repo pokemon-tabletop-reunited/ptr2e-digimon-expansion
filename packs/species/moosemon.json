@@ -816,11 +816,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "banshee-shriek",
-          "level": 32,
-          "gen": null
-        },
-        {
           "name": "ancient-power",
           "level": 21,
           "gen": null
@@ -846,6 +841,11 @@
           "gen": null
         },
         {
+          "name": "banshee-shriek",
+          "level": 32,
+          "gen": null
+        },
+        {
           "name": "valiant-horn",
           "level": 34,
           "gen": null
@@ -863,7 +863,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -863,7 +863,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "lighdramon",

@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "last-respects",
-          "level": 50,
-          "gen": null
-        },
-        {
           "name": "jet-stream",
           "level": 45,
           "gen": null
@@ -826,6 +821,11 @@
         {
           "name": "fickle-beam",
           "level": 49,
+          "gen": null
+        },
+        {
+          "name": "last-respects",
+          "level": 50,
           "gen": null
         },
         {
@@ -851,7 +851,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
