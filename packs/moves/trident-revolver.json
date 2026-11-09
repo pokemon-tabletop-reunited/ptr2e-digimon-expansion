@@ -19,7 +19,7 @@
         "name": "Trident Revolver",
         "slug": "trident-revolver",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5247.png",
         "traits": [
           "missile",
           "3-strike",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 40,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "trident-revolver"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5247.png",
   "effects": [],
   "_id": "uQcOYRUWqBRWAt8p"
 }

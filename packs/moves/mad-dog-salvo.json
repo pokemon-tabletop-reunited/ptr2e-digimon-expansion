@@ -19,7 +19,7 @@
         "name": "Mad Dog Salvo",
         "slug": "mad-dog-salvo",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5287.png",
         "traits": [
           "digimon",
           "5-strike",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 25,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "mad-dog-salvo"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5287.png",
   "effects": [],
-  "flags": {},
   "_id": "NtTRd4JVZ7L3k8kd"
 }

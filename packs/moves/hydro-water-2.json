@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "hydro-water-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,32 +25,18 @@
         "traits": [
           "digimon",
           "ray",
-          "5-strike"
+          "5-strike",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "water"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -60,28 +46,9 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/water_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772900979935,
-    "modifiedTime": 1772900979935,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "OdRba2lrd4Vu2gBL",
-  "sort": 0
+  "_id": "OdRba2lrd4Vu2gBL"
 }
