@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "thermobaric-mini-missile-3",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,30 +25,17 @@
         "traits": [
           "digimon",
           "explode",
-          "blast-3"
+          "blast-3",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "nuclear"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack has a 60% chance to inflict @Affliction[drowning 5].</p>",
         "range": {
@@ -60,8 +47,6 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "MrC2ZEMGUFzxpGt7",
@@ -126,22 +111,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956695488,
-    "modifiedTime": 1779956917274,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 4100000
+  ]
 }

@@ -19,7 +19,7 @@
         "name": "Gaia Brave",
         "slug": "gaia-brave",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5462.png",
         "traits": [
           "digimon",
           "blast-4",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 95,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "gaia-brave"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5462.png",
   "effects": [],
-  "flags": {},
   "_id": "Dopn6B1UpWy3mHSa"
 }
