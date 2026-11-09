@@ -787,13 +787,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "comet-punch",
-          "level": 8,
+          "name": "dazzle",
+          "level": 5,
           "gen": null
         },
         {
-          "name": "dazzle",
-          "level": 5,
+          "name": "comet-punch",
+          "level": 8,
           "gen": null
         },
         {
@@ -804,7 +804,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

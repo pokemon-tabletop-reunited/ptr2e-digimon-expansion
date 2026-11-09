@@ -788,11 +788,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "fury-swipes",
-          "level": 9,
-          "gen": null
-        },
-        {
           "name": "shave",
           "level": 5,
           "gen": null
@@ -801,11 +796,18 @@
           "name": "cut",
           "level": 7,
           "gen": null
+        },
+        {
+          "name": "fury-swipes",
+          "level": 9,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

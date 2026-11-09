@@ -787,13 +787,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "double-hit",
-          "level": 7,
+          "name": "stomp",
+          "level": 6,
           "gen": null
         },
         {
-          "name": "stomp",
-          "level": 6,
+          "name": "double-hit",
+          "level": 7,
           "gen": null
         },
         {
@@ -804,7 +804,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

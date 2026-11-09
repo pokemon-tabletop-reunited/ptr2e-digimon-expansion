@@ -17,7 +17,8 @@
       "digimon",
       "free",
       "serpentine",
-      "in-training"
+      "in-training",
+      "antibody"
     ],
     "number": 5580,
     "stats": {
@@ -791,11 +792,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sonic-boom",
-          "level": 8,
-          "gen": null
-        },
-        {
           "name": "dual-wingbeat",
           "level": 6,
           "gen": null
@@ -804,11 +800,18 @@
           "name": "pluck",
           "level": 7,
           "gen": null
+        },
+        {
+          "name": "sonic-boom",
+          "level": 8,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

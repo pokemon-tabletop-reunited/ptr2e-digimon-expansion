@@ -792,11 +792,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mega-drain",
-          "level": 10,
-          "gen": null
-        },
-        {
           "name": "trick",
           "level": 6,
           "gen": null
@@ -805,11 +800,18 @@
           "name": "spring-tail",
           "level": 8,
           "gen": null
+        },
+        {
+          "name": "mega-drain",
+          "level": 10,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

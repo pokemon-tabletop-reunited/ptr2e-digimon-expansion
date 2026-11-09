@@ -787,11 +787,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "murky-ray",
-          "level": 8,
-          "gen": null
-        },
-        {
           "name": "malicious-whisper",
           "level": 5,
           "gen": null
@@ -800,11 +795,18 @@
           "name": "cheap-shot",
           "level": 7,
           "gen": null
+        },
+        {
+          "name": "murky-ray",
+          "level": 8,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
