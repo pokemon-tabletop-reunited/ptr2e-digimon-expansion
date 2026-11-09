@@ -846,12 +846,14 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 35,
+      "y": 125,
       "connected": [
         "babydmon",
         "geremon",
@@ -933,8 +935,8 @@
         "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
-        "createdTime": 1781088183331,
-        "modifiedTime": 1781088207074,
+        "createdTime": 1781092042767,
+        "modifiedTime": 1781092042767,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

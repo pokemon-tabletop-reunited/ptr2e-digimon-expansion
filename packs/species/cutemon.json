@@ -37,7 +37,7 @@
       "category": "medium",
       "type": "height",
       "height": 0.6,
-      "weight": 0
+      "weight": 12
     },
     "diet": [],
     "abilities": {
@@ -845,7 +845,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
