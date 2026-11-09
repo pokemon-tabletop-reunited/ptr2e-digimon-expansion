@@ -19,7 +19,7 @@
         "name": "Ninja Blade",
         "slug": "ninja-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5037.png",
         "traits": [
           "contact",
           "weapon",
@@ -41,13 +41,14 @@
         "category": "physical",
         "power": 45,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "ninja-blade"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5037.png",
   "effects": [],
   "_id": "O2jRHQcE1IrmttCj"
 }

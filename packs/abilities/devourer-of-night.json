@@ -1,0 +1,146 @@
+{
+  "folder": null,
+  "name": "Devourer of Night",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [],
+    "description": "<p>The user maintains a Devourer Clock of 6 spans.</p><p>When the user is attacked with a @Trait[dark]-type attack, they take no damage (though secondary effects still apply) and the user increments their Devourer Clock. This clock persists between encounters.</p><p>When the Devourer Clock is full, the user may use the move Evil-Quelling Effluence.</p><p>If the user has the @UUID[Compendium.ptr2e.core-abilities.wJ3FzgNXzpgsOud5]{Guard Dog} ability active, this ability grants +1 Special Attack for 5 activations whenever the user would be hit by an action with the @Trait[social] trait.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "9etsBs89h1iDBW29",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5747.png",
+  "effects": [
+    {
+      "name": "Devourer of Night",
+      "type": "passive",
+      "_id": "6HgTigUgNVUyNJVZ",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "create-clock",
+            "value": 0,
+            "phase": "initial",
+            "predicate": [],
+            "key": "devourerclock001",
+            "max": 6,
+            "private": false,
+            "label": "Devourer",
+            "method": 2,
+            "ignored": false,
+            "color": null
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.miMt3zxPrOOJe1wF",
+            "phase": "initial",
+            "predicate": [
+              {
+                "not": "actor:clocks:devourer:value:6"
+              }
+            ],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "defensive",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.changes.0.key",
+                "value": "devourerclock001"
+              }
+            ],
+            "dontMerge": false,
+            "key": "dark-attack",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.1TqcwIUNl32wJCAa",
+            "phase": "initial",
+            "predicate": [
+              "ability:guard-dog:active"
+            ],
+            "key": "social-trait-attack",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "defensive",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1785318566472,
+        "modifiedTime": 1785318566472,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785318566472,
+    "modifiedTime": 1785318566472,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
