@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "flint-arrow",
-          "level": 19,
-          "gen": null
-        },
-        {
           "name": "aura-spark",
           "level": 11,
           "gen": null
@@ -832,6 +827,11 @@
           "gen": null
         },
         {
+          "name": "flint-arrow",
+          "level": 19,
+          "gen": null
+        },
+        {
           "name": "burn-bash",
           "level": 20,
           "gen": null
@@ -844,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

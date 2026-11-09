@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "cupid-arrow",
-          "level": 17,
-          "gen": null
-        },
-        {
           "name": "volt-switch",
           "level": 12,
           "gen": null
@@ -833,6 +828,11 @@
           "gen": null
         },
         {
+          "name": "cupid-arrow",
+          "level": 17,
+          "gen": null
+        },
+        {
           "name": "cross-poison",
           "level": 18,
           "gen": null
@@ -850,7 +850,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
