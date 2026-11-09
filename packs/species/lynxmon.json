@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "blast-burn",
-          "level": 42,
-          "gen": null
-        },
-        {
           "name": "skitter-smack",
           "level": 22,
           "gen": null
@@ -852,6 +847,11 @@
           "name": "volcano-bomb",
           "level": 37,
           "gen": null
+        },
+        {
+          "name": "blast-burn",
+          "level": 42,
+          "gen": null
         }
       ],
       "tutor": []
@@ -869,7 +869,7 @@
         "mihiramon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-courage"
+        "item:equipment:digi-egg-of-courage"
       ]
     }
   },

@@ -791,13 +791,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bite",
-          "level": 8,
+          "name": "cheap-shot",
+          "level": 6,
           "gen": null
         },
         {
-          "name": "cheap-shot",
-          "level": 6,
+          "name": "bite",
+          "level": 8,
           "gen": null
         },
         {
@@ -808,7 +808,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

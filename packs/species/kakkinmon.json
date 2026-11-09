@@ -787,13 +787,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "gamma-ray",
-          "level": 8,
+          "name": "metal-claw",
+          "level": 6,
           "gen": null
         },
         {
-          "name": "metal-claw",
-          "level": 6,
+          "name": "gamma-ray",
+          "level": 8,
           "gen": null
         },
         {
@@ -804,7 +804,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

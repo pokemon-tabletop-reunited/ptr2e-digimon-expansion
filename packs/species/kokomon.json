@@ -788,11 +788,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "jagged-fangs",
-          "level": 7,
-          "gen": null
-        },
-        {
           "name": "cheap-shot",
           "level": 5,
           "gen": null
@@ -803,6 +798,11 @@
           "gen": null
         },
         {
+          "name": "jagged-fangs",
+          "level": 7,
+          "gen": null
+        },
+        {
           "name": "bouncy-bubble",
           "level": 8,
           "gen": null
@@ -810,7 +810,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

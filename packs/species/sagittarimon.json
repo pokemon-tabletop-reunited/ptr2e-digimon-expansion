@@ -19,7 +19,9 @@
       "armour-digimon",
       "quadrupedal",
       "horned",
-      "wielder"
+      "wielder",
+      "firestarter",
+      "zapper"
     ],
     "number": 5928,
     "stats": {
@@ -894,7 +896,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -908,7 +914,7 @@
         "ulforce-veedramon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-courage"
+        "item:equipment:digi-egg-of-hope"
       ]
     }
   },

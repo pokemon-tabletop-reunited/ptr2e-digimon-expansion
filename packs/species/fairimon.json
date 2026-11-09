@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "razor-wind",
-          "level": 26,
-          "gen": null
-        },
-        {
           "name": "double-kick",
           "level": 22,
           "gen": null
@@ -823,6 +818,11 @@
         {
           "name": "flutter-jump",
           "level": 24,
+          "gen": null
+        },
+        {
+          "name": "razor-wind",
+          "level": 26,
           "gen": null
         },
         {
@@ -877,7 +877,7 @@
         "zephyrmon"
       ],
       "prerequisites": [
-        "item:equipment:beast-spirit-of-wind"
+        "item:equipment:human-spirit-of-wind"
       ]
     }
   },

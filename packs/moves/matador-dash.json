@@ -27,7 +27,8 @@
           "contact",
           "horn",
           "pierce",
-          "dash"
+          "dash",
+          "sharp"
         ],
         "cost": {
           "activation": "complex",
@@ -45,7 +46,7 @@
         "category": "physical",
         "contestType": "",
         "contestEffect": "",
-        "free": false,
+        "free": true,
         "slot": null,
         "defaultVariant": null,
         "flingItemId": "",
@@ -75,15 +76,15 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.363",
+    "coreVersion": "14.369",
     "systemId": "ptr2e",
     "systemVersion": "1.7.6.beta",
     "createdTime": 1781303104430,
-    "modifiedTime": 1781303104430,
+    "modifiedTime": 1794063105296,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0
+  "sort": 34400000
 }

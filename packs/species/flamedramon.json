@@ -871,7 +871,7 @@
         "sagittarimon"
       ],
       "prerequisites": [
-        "equipment:digi-egg-of-courage"
+        "item:equipment:digi-egg-of-courage"
       ]
     }
   },

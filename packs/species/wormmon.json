@@ -123,7 +123,12 @@
         }
       ]
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [
       "forest"

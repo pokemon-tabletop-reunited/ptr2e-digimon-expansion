@@ -792,11 +792,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "heal-block",
-          "level": 10,
-          "gen": null
-        },
-        {
           "name": "confusion",
           "level": 6,
           "gen": null
@@ -810,11 +805,18 @@
           "name": "instant-crush",
           "level": 9,
           "gen": null
+        },
+        {
+          "name": "heal-block",
+          "level": 10,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

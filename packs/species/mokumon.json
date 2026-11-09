@@ -792,19 +792,21 @@
     "moves": {
       "levelUp": [
         {
-          "name": "friction-burn",
+          "name": "cinder",
           "level": 0,
           "gen": null
         },
         {
-          "name": "cinder",
+          "name": "friction-burn",
           "level": 0,
           "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

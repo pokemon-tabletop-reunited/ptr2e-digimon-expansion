@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "refocus",
-          "level": 20,
-          "gen": null
-        },
-        {
           "name": "shock-awe",
           "level": 0,
           "gen": null
@@ -841,11 +836,18 @@
           "name": "spite",
           "level": 18,
           "gen": null
+        },
+        {
+          "name": "refocus",
+          "level": 20,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

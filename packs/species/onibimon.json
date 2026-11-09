@@ -793,11 +793,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "grim-fangs",
-          "level": 9,
-          "gen": null
-        },
-        {
           "name": "murky-ray",
           "level": 5,
           "gen": null
@@ -811,11 +806,18 @@
           "name": "tear-gas",
           "level": 7,
           "gen": null
+        },
+        {
+          "name": "grim-fangs",
+          "level": 9,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

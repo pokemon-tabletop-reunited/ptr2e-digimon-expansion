@@ -790,8 +790,8 @@
     "moves": {
       "levelUp": [
         {
-          "name": "buzz",
-          "level": 8,
+          "name": "drain-life",
+          "level": 0,
           "gen": null
         },
         {
@@ -805,14 +805,16 @@
           "gen": null
         },
         {
-          "name": "drain-life",
-          "level": 0,
+          "name": "buzz",
+          "level": 8,
           "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -788,19 +788,21 @@
     "moves": {
       "levelUp": [
         {
-          "name": "tackle",
+          "name": "splash",
           "level": 0,
           "gen": null
         },
         {
-          "name": "splash",
+          "name": "tackle",
           "level": 0,
           "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
