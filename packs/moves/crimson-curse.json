@@ -1,112 +1,127 @@
 {
-  "name": "Crimson Curse",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Crimson Curse",
-        "slug": "crimson-curse",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "ghost",
-          "fire"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack counts as both Ghost and Fire typed, and has a 10% chance to inflict @Affliction[cursed 5] to targets hit.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 3,
-          "unit": "m"
-        },
-        "power": 60,
-        "accuracy": 100
-      }
-    ],
-    "grade": "C",
-    "slug": "crimson-curse"
-  },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
-  "effects": [
-    {
-      "name": "Crimson Curse",
-      "type": "passive",
-      "_id": "yv12MQwo2Q1Rtnu3",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "crimson-curse-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.cursedcondition0",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777534174041,
-        "modifiedTime": 1777534174041
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "Z6XmoiTxB1a3BgNc"
+    "_id":  "Z6XmoiTxB1a3BgNc",
+    "effects":  [
+                    {
+                        "_id":  "yv12MQwo2Q1Rtnu3",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777534174041,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777534174041,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Crimson Curse",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "crimson-curse-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.cursedcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5172.png",
+    "name":  "Crimson Curse",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Crimson Curse",
+                                       "slug":  "crimson-curse",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5172.png",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "ghost",
+                                                     "fire"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack counts as both Ghost and Fire typed, and has a 10% chance to inflict @Affliction[cursed 5] to targets hit.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "slug":  "crimson-curse"
+               },
+    "type":  "move"
 }

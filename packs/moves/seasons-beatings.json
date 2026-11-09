@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Season's Beatings",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Season's Beatings",
+        "slug": "seasons-beatings",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5860.png",
+        "traits": [
+          "digimon",
+          "contact"
+        ],
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ice"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Restriction: Must have an @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} creature.</p><p>Effect: This attack gains +10 Power per Weight Class of the @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} victim. This attack must target the @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} creature and 1 other creature within range.</p><p>On resolution, cure the @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} creature of the @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} condition.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 40,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "Y0qhmVlfsNWLikYf",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5860.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792682078063,
+    "modifiedTime": 1792682078063,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
