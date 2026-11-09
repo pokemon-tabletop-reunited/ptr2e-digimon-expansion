@@ -818,7 +818,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "dragons-roar",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "aldamon",

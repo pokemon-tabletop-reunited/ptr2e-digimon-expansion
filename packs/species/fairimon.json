@@ -41,7 +41,7 @@
       "category": "medium",
       "type": "height",
       "height": 1.7,
-      "weight": 0
+      "weight": 76
     },
     "diet": [],
     "abilities": {
@@ -863,7 +863,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

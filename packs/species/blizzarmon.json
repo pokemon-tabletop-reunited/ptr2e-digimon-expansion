@@ -31,8 +31,8 @@
       "spe": 110
     },
     "types": [
-      "ice",
-      "fighting"
+      "fighting",
+      "ice"
     ],
     "size": {
       "category": "medium",
@@ -858,7 +858,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "nasty-plot",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "freeze-dry",
           "level": 23,
           "gen": null
@@ -814,6 +809,11 @@
         {
           "name": "frigid-spear",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "nasty-plot",
+          "level": 28,
           "gen": null
         },
         {
@@ -844,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

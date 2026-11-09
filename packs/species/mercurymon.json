@@ -37,8 +37,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 2.2,
+      "weight": 110
     },
     "diet": [],
     "abilities": {
@@ -851,7 +851,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -806,13 +806,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "crackling-hammer",
-          "level": 25,
+          "name": "brick-break",
+          "level": 23,
           "gen": null
         },
         {
-          "name": "brick-break",
-          "level": 23,
+          "name": "crackling-hammer",
+          "level": 25,
           "gen": null
         },
         {
@@ -848,7 +848,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
