@@ -19,7 +19,7 @@
         "name": "Smiley Bomb",
         "slug": "smiley-bomb",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5281.png",
         "traits": [
           "explode",
           "blast-2",
@@ -40,13 +40,14 @@
           "distance": 10,
           "unit": "m"
         },
-        "power": 110
+        "power": 110,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "smiley-bomb"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5281.png",
   "effects": [],
   "_id": "QD3yuVsOIaZG3yrY"
 }

@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "tempest-3",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,32 +25,18 @@
         "traits": [
           "digimon",
           "blast-3",
-          "crit-1"
+          "crit-1",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "flying"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "blast",
           "distance": 14,
@@ -60,28 +46,9 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "img": "systems/ptr2e/img/svg/flying_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772901314766,
-    "modifiedTime": 1772901314766,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "dMPohgXW5KIEyYO9",
-  "sort": 0
+  "_id": "dMPohgXW5KIEyYO9"
 }
