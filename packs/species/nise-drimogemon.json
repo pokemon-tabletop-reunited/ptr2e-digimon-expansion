@@ -18,7 +18,8 @@
       "vaccine",
       "champion",
       "quadrupedal",
-      "horned"
+      "horned",
+      "tremorsense-15"
     ],
     "number": 5474,
     "stats": {
@@ -934,7 +935,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767394819758,

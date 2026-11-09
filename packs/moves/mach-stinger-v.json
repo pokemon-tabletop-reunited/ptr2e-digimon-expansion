@@ -19,13 +19,13 @@
         "name": "Mach Stinger V",
         "slug": "mach-stinger-v",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5409.png",
         "traits": [
           "digimon",
           "contact",
           "6-strike",
           "crit-2",
-          "priority-3"
+          "priority-30"
         ],
         "cost": {
           "activation": "complex",
@@ -37,7 +37,7 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack is considered both @Trait[bug] and @Trait[electric]. </p>",
+        "description": "<p>This attack is considered both @Trait[bug] and @Trait[electric].</p>",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -50,7 +50,7 @@
     "grade": "S",
     "slug": "mach-stinger-v"
   },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5409.png",
   "effects": [],
   "_id": "X2N6t6PDdohoWXwQ"
 }

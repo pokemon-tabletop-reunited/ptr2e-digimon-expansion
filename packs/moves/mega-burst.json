@@ -19,7 +19,7 @@
         "name": "Mega Burst",
         "slug": "mega-burst",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5114.png",
         "traits": [
           "double-strike",
           "missile",
@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 2
         },
         "types": [
           "fire"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 45,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "mega-burst"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5114.png",
   "effects": [],
   "_id": "kASbI1uL1f245XHM"
 }

@@ -19,7 +19,7 @@
         "name": "Downward Cleave",
         "slug": "downward-cleave",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5035.png",
         "traits": [
           "digimon",
           "contact",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 65,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "downward-cleave"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5035.png",
   "effects": [],
-  "flags": {},
   "_id": "yOjKgEd1kEgtExSN"
 }

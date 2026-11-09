@@ -832,7 +832,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -854,6 +856,5 @@
   },
   "_id": "cEiYV8cEZjbJYJvF",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5520.png",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }
