@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "darkest-lariat",
-          "level": 36,
-          "gen": null
-        },
-        {
           "name": "u-turn",
           "level": 24,
           "gen": null
@@ -842,6 +837,11 @@
           "gen": null
         },
         {
+          "name": "darkest-lariat",
+          "level": 36,
+          "gen": null
+        },
+        {
           "name": "tractor-beam",
           "level": 40,
           "gen": null
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
