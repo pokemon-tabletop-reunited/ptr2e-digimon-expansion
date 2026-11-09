@@ -19,7 +19,7 @@
         "name": "Cool Edge",
         "slug": "cool-edge",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
         "traits": [
           "digimon",
           "explode",
@@ -44,13 +44,14 @@
           "unit": "m"
         },
         "power": 95,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "cool-edge"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5463.png",
   "effects": [],
-  "flags": {},
   "_id": "QHrLiNPF3pNwCt4z"
 }

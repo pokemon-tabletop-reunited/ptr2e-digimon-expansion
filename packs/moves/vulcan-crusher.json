@@ -1,146 +1,167 @@
 {
-  "name": "Vulcan Crusher",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Vulcan Crusher",
-        "slug": "vulcan-crusher",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ground_icon.svg",
-        "traits": [
-          "digimon",
-          "earthbound"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 11
-        },
-        "types": [
-          "ground"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack has a 35% chance each to inflict @Affliction[delay 50], @Affliction[grounded 5] and @Affliction[splinter 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 8,
-          "unit": "m"
-        },
-        "power": 145,
-        "accuracy": 95
-      }
-    ],
-    "grade": "S",
-    "slug": "vulcan-crusher"
-  },
-  "img": "systems/ptr2e/img/svg/ground_icon.svg",
-  "effects": [
-    {
-      "name": "Vulcan Crusher",
-      "type": "passive",
-      "_id": "pH7qusiXvNjei9dF",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "vulcan-crusher-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
-            "predicate": [],
-            "chance": 35,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.amount",
-                "value": 50
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "vulcan-crusher-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
-            "predicate": [],
-            "chance": 35,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "vulcan-crusher-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
-            "predicate": [],
-            "chance": 35,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777555478975,
-        "modifiedTime": 1777555493653
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "c8e1Irb9Jal4wWCi"
+    "_id":  "c8e1Irb9Jal4wWCi",
+    "effects":  [
+                    {
+                        "_id":  "pH7qusiXvNjei9dF",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777555478975,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777555493653,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Vulcan Crusher",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "vulcan-crusher-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  35,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  50
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "vulcan-crusher-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  35,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "vulcan-crusher-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  35,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5381_leopard.png",
+    "name":  "Vulcan Crusher",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Vulcan Crusher",
+                                       "slug":  "vulcan-crusher",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5381_leopard.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "earthbound"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  11
+                                                },
+                                       "types":  [
+                                                     "ground"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 35% chance each to inflict @Affliction[delay 50], @Affliction[grounded 5] and @Affliction[splinter 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  145,
+                                       "accuracy":  95,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "vulcan-crusher",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

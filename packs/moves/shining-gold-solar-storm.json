@@ -1,116 +1,129 @@
 {
-  "name": "Shining Gold Solar Storm",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Shining Gold Solar Storm",
-        "slug": "shining-gold-solar-storm",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon",
-          "ray"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 11
-        },
-        "types": [
-          "fairy"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: On resolution, the user gains @UUID[Compendium.ptr2e.core-effects.DYJyYbH3EVwM4P90]{+2 Defense Stages} for 5 activations.</p>",
-        "range": {
-          "target": "wide-line",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "shining-gold-solar-storm"
-  },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [
-    {
-      "name": "Shining Gold Solar Storm",
-      "type": "passive",
-      "_id": "uAwOB8lzVCeBvkbt",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "shining-gold-solar-storm-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.DYJyYbH3EVwM4P90",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777550079824,
-        "modifiedTime": 1777550079824
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "USk9UWIaQJKuRWNK"
+    "_id":  "USk9UWIaQJKuRWNK",
+    "effects":  [
+                    {
+                        "_id":  "uAwOB8lzVCeBvkbt",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777550079824,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777550079824,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Shining Gold Solar Storm",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "shining-gold-solar-storm-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.DYJyYbH3EVwM4P90",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",
+    "name":  "Shining Gold Solar Storm",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Shining Gold Solar Storm",
+                                       "slug":  "shining-gold-solar-storm",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "ray"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  11
+                                                },
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: On resolution, the user gains @UUID[Compendium.ptr2e.core-effects-new.DYJyYbH3EVwM4P90]{+2 Defense Stages} for 5 activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  100,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "shining-gold-solar-storm",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

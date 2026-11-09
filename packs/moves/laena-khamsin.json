@@ -1,0 +1,189 @@
+{
+  "folder": null,
+  "name": "Laena Khamsin",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Laena Khamsin",
+        "slug": "laena-khamsin",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5879.png",
+        "traits": [
+          "digimon",
+          "wind",
+          "summon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "flying",
+          "rock"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: After this move resolves, the weather becomes dusty for 3 Activations. if the weather is already dusty this move has a 50% to inflict @Affliction[wind-shear 5] and @Affliction[splinter 5]</p>",
+        "range": {
+          "target": "wide-line",
+          "distance": 20,
+          "unit": "m"
+        },
+        "power": 120,
+        "accuracy": 100
+      },
+      {
+        "name": "Laena Khamsin Weather",
+        "slug": "laena-khamsin-weather",
+        "description": "<p>Effect: Use on resolution of Laena Khamsin if Dusty Weather is not currently in effect.</p>",
+        "traits": [],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5879.png",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e.core-summons.Item.2pDL6hkh4fjFIEAe",
+        "range": {
+          "target": "field",
+          "distance": 10,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "yDg1eklTgdkdXcz3",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5879.png",
+  "effects": [
+    {
+      "name": "Laena Khamsin",
+      "type": "passive",
+      "_id": "zdczEjjF2IRFMmoA",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+            "phase": "initial",
+            "predicate": [
+              "effect:summon:dusty-weather"
+            ],
+            "key": "laena-khamsin-attack",
+            "chance": 50,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.windshearconditi",
+            "phase": "initial",
+            "predicate": [
+              "effect:summon:dusty-weather"
+            ],
+            "key": "laena-khamsin-attack",
+            "chance": 50,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1793282283549,
+        "modifiedTime": 1793282283549,
+        "lastModifiedBy": "EClo9kX7QWK7e63b",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282283549,
+    "modifiedTime": 1793282283549,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
