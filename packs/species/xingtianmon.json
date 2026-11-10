@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sorrowful-strike",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "flail",
           "level": 45,
           "gen": null
@@ -854,6 +849,11 @@
           "gen": null
         },
         {
+          "name": "sorrowful-strike",
+          "level": 60,
+          "gen": null
+        },
+        {
           "name": "meteor-assault",
           "level": 64,
           "gen": null
@@ -861,7 +861,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

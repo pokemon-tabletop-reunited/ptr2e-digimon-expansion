@@ -813,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "stomping-tantrum",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "lash-out",
           "level": 52,
           "gen": null
@@ -825,6 +820,11 @@
         {
           "name": "thunder-tail",
           "level": 54,
+          "gen": null
+        },
+        {
+          "name": "stomping-tantrum",
+          "level": 55,
           "gen": null
         },
         {
@@ -855,7 +855,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
