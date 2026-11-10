@@ -19,7 +19,7 @@
         "name": "All-Out Bombardment",
         "slug": "all-out-bombardment",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5297.png",
         "traits": [
           "digimon",
           "missile",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 85,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "all-out-bombardment"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5297.png",
   "effects": [],
-  "flags": {},
   "_id": "kooxX5hLvmqDkSW5"
 }

@@ -19,7 +19,7 @@
         "name": "Double Backhand",
         "slug": "double-backhand",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5045.png",
         "traits": [
           "double-strike",
           "contact",
@@ -40,13 +40,14 @@
         "category": "physical",
         "power": 25,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "double-backhand"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5045.png",
   "effects": [],
   "_id": "aCutLpGEeikNjmN1"
 }

@@ -19,7 +19,7 @@
         "name": "Fiery Fastball",
         "slug": "fiery-fastball",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5053.png",
         "traits": [
           "priority-20",
           "missile",
@@ -41,13 +41,14 @@
         "category": "physical",
         "power": 70,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "fiery-fastball"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5053.png",
   "effects": [],
   "_id": "vrSWG1zx5xkdQXW5"
 }

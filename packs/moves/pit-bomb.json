@@ -19,7 +19,7 @@
         "name": "Pit Bomb",
         "slug": "pit-bomb",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5275.png",
         "traits": [
           "explode",
           "pierce",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 105,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "pit-bomb"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5275.png",
   "effects": [],
   "_id": "6Q9K6jaW1QTcgtOC"
 }
