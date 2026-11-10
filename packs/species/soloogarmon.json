@@ -28,7 +28,8 @@
       "firestarter",
       "noisy",
       "glow-2",
-      "jet"
+      "jet",
+      "ufo"
     ],
     "number": 5524,
     "stats": {
@@ -871,7 +872,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -973,7 +976,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775141245510,
@@ -984,6 +987,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }
