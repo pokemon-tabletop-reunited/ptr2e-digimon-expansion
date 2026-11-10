@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "metal-cruncher",
-          "level": 27,
-          "gen": null
-        },
-        {
           "name": "return",
           "level": 20,
           "gen": null
@@ -819,6 +814,11 @@
         {
           "name": "piston-kick",
           "level": 24,
+          "gen": null
+        },
+        {
+          "name": "metal-cruncher",
+          "level": 27,
           "gen": null
         },
         {
@@ -844,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

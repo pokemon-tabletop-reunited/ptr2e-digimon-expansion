@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "haze",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "squall-hammer",
           "level": 19,
           "gen": null
@@ -849,11 +844,18 @@
           "name": "snipe-shot",
           "level": 36,
           "gen": null
+        },
+        {
+          "name": "haze",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "spin-out",
-          "level": 32,
-          "gen": null
-        },
-        {
           "name": "assist",
           "level": 18,
           "gen": null
@@ -837,6 +832,11 @@
           "gen": null
         },
         {
+          "name": "spin-out",
+          "level": 32,
+          "gen": null
+        },
+        {
           "name": "hyper-beam",
           "level": 38,
           "gen": null
@@ -844,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

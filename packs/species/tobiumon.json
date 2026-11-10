@@ -808,11 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sky-fall",
-          "level": 41,
-          "gen": null
-        },
-        {
           "name": "air-slash",
           "level": 22,
           "gen": null
@@ -851,11 +846,18 @@
           "name": "eagle-eye",
           "level": 38,
           "gen": null
+        },
+        {
+          "name": "sky-fall",
+          "level": 41,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
