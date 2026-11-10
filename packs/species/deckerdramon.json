@@ -807,13 +807,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "supersonic-shot",
-          "level": 27,
+          "name": "shrapnel-shot",
+          "level": 24,
           "gen": null
         },
         {
-          "name": "shrapnel-shot",
-          "level": 24,
+          "name": "supersonic-shot",
+          "level": 27,
           "gen": null
         },
         {
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

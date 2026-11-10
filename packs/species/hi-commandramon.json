@@ -858,7 +858,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "d-brigade"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

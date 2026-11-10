@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "solar-blade",
-          "level": 29,
-          "gen": null
-        },
-        {
           "name": "clear-smog",
           "level": 20,
           "gen": null
@@ -819,6 +814,11 @@
         {
           "name": "pumpkin-smash",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "solar-blade",
+          "level": 29,
           "gen": null
         },
         {
@@ -844,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

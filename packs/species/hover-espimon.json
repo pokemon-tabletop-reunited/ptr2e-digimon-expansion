@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "plasma-blaster",
-          "level": 38,
-          "gen": null
-        },
-        {
           "name": "flash-cannon",
           "level": 23,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "plasma-blaster",
+          "level": 38,
+          "gen": null
+        },
+        {
           "name": "tractor-beam",
           "level": 40,
           "gen": null
@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "crack-team"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
