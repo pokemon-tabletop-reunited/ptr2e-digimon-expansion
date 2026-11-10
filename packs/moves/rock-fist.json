@@ -1,114 +1,129 @@
 {
-  "name": "Rock Fist",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Rock Fist",
-        "slug": "rock-fist",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/rock_icon.svg",
-        "traits": [
-          "punch",
-          "missile",
-          "digimon"
-        ],
-        "range": {
-          "target": "enemy",
-          "distance": 6,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2
-        },
-        "types": [
-          "rock"
-        ],
-        "category": "physical",
-        "power": 65,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>After making this attack, the user has a 10% chance to gain +1 Defense Stage for 5 activations.</p>"
-      }
-    ],
-    "grade": "D",
-    "slug": "rock-fist"
-  },
-  "img": "systems/ptr2e/img/svg/rock_icon.svg",
-  "effects": [
-    {
-      "name": "Rock Fist",
-      "type": "passive",
-      "_id": "mjajMVeabGcD4qW0",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "rock-fist-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.sMystTj3FBJ00AZp",
-            "predicate": [],
-            "chance": 10,
-            "affects": "self",
-            "dontMerge": false,
-            "priority": null,
-            "alterations": [],
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777549562207,
-        "modifiedTime": 1777549562207,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "exportSource": null
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "tEXFkcBD9bUUwhFj"
+    "_id":  "tEXFkcBD9bUUwhFj",
+    "effects":  [
+                    {
+                        "_id":  "mjajMVeabGcD4qW0",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777549562207,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777549562207,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Rock Fist",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "rock-fist-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.sMystTj3FBJ00AZp",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "self",
+                                                           "dontMerge":  false,
+                                                           "priority":  null,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5051.png",
+    "name":  "Rock Fist",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Rock Fist",
+                                       "slug":  "rock-fist",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5051.png",
+                                       "traits":  [
+                                                      "punch",
+                                                      "missile",
+                                                      "digimon"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  6,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  2
+                                                },
+                                       "types":  [
+                                                     "rock"
+                                                 ],
+                                       "category":  "physical",
+                                       "power":  65,
+                                       "accuracy":  100,
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eAfter making this attack, the user has a 10% chance to gain +1 Defense Stage for 5 activations.\u003c/p\u003e",
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "slug":  "rock-fist"
+               },
+    "type":  "move"
 }
