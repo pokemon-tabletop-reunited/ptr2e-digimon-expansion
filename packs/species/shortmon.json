@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "flatter",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "decorate",
           "level": 19,
           "gen": null
@@ -833,6 +828,11 @@
           "gen": null
         },
         {
+          "name": "flatter",
+          "level": 28,
+          "gen": null
+        },
+        {
           "name": "soft-boiled",
           "level": 31,
           "gen": null
@@ -855,7 +855,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

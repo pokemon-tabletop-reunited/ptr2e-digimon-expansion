@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "get-lucky",
-          "level": 27,
-          "gen": null
-        },
-        {
           "name": "extreme-speed",
           "level": 22,
           "gen": null
@@ -818,6 +813,11 @@
         {
           "name": "buzzy-buzz",
           "level": 24,
+          "gen": null
+        },
+        {
+          "name": "get-lucky",
+          "level": 27,
           "gen": null
         },
         {
@@ -848,7 +848,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

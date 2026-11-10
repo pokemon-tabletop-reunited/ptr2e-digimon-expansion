@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "hex",
-          "level": 37,
-          "gen": null
-        },
-        {
           "name": "acid-armor",
           "level": 18,
           "gen": null
@@ -841,11 +836,18 @@
           "name": "banshee-shriek",
           "level": 35,
           "gen": null
+        },
+        {
+          "name": "hex",
+          "level": 37,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

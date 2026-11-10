@@ -801,13 +801,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mirror-coat",
-          "level": 26,
+          "name": "shield-bash",
+          "level": 23,
           "gen": null
         },
         {
-          "name": "shield-bash",
-          "level": 23,
+          "name": "mirror-coat",
+          "level": 26,
           "gen": null
         },
         {
@@ -843,7 +843,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "battering-ram",
-          "level": 36,
-          "gen": null
-        },
-        {
           "name": "rollout",
           "level": 0,
           "gen": null
@@ -839,6 +834,11 @@
           "gen": null
         },
         {
+          "name": "battering-ram",
+          "level": 36,
+          "gen": null
+        },
+        {
           "name": "nuclear-waste",
           "level": 40,
           "gen": null
@@ -846,7 +846,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

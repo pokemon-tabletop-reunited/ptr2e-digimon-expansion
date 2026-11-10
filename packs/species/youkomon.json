@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "possession",
-          "level": 27,
-          "gen": null
-        },
-        {
           "name": "bitter-malice",
           "level": 24,
           "gen": null
@@ -816,6 +811,11 @@
         {
           "name": "dark-pulse",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "possession",
+          "level": 27,
           "gen": null
         },
         {
@@ -851,7 +851,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
