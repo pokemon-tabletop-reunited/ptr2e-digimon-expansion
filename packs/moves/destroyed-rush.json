@@ -19,7 +19,7 @@
         "name": "Destroyed Rush",
         "slug": "destroyed-rush",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ground_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5422.png",
         "traits": [
           "digimon",
           "contact",
@@ -44,13 +44,14 @@
           "unit": "m"
         },
         "power": 25,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "destroyed-rush"
   },
-  "img": "systems/ptr2e/img/svg/ground_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5422.png",
   "effects": [],
-  "flags": {},
   "_id": "misUQDYyErQ6OAvv"
 }

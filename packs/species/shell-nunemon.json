@@ -38,7 +38,7 @@
       "category": "medium",
       "type": "quad",
       "height": 0.6,
-      "weight": 0
+      "weight": 18
     },
     "diet": [],
     "abilities": {
@@ -841,7 +841,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "shell-nunemon",
@@ -890,11 +893,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -907,8 +911,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -925,13 +931,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407978304,
         "modifiedTime": 1767408016623,
         "lastModifiedBy": "5ImYyhOS2D6D7ypO"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "siJp8FvgSFgOD33x"

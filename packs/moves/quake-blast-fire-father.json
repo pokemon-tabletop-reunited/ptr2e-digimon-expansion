@@ -19,7 +19,7 @@
         "name": "Quake!Blast!Fire!Father!",
         "slug": "quake-blast-fire-father",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5370.png",
         "traits": [
           "digimon",
           "5-strike",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 35,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "quake-blast-fire-father"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5370.png",
   "effects": [],
   "_id": "dzu3cdkol575Jjya"
 }

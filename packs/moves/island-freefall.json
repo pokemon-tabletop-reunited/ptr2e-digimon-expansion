@@ -1,124 +1,135 @@
 {
-  "name": "Island Freefall",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Island Freefall",
-        "slug": "island-freefall",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
-        "traits": [
-          "digimon",
-          "crushing",
-          "contact",
-          "sky"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "grass"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Special Targeting: This attack must be initiated from above the targets.<br><br>Effect: This attack has a 10% chance to inflict @Affliction[perish 1].</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 2,
-          "unit": "m"
-        },
-        "power": 95,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "island-freefall"
-  },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
-  "effects": [
-    {
-      "name": "Island Freefall",
-      "type": "passive",
-      "_id": "mFUufbxtUzE7Fd0o",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "island-freefall-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
-            "predicate": [],
-            "chance": 10,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 1
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777546197335,
-        "modifiedTime": 1777546198678
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "BqlPi28TYQ4Vac0L"
+    "_id":  "BqlPi28TYQ4Vac0L",
+    "effects":  [
+                    {
+                        "_id":  "mFUufbxtUzE7Fd0o",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546197335,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777546198678,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Island Freefall",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "island-freefall-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.perishcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  1
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+    "name":  "Island Freefall",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Island Freefall",
+                                       "slug":  "island-freefall",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5375.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "crushing",
+                                                      "contact",
+                                                      "sky"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "types":  [
+                                                     "grass"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eSpecial Targeting: This attack must be initiated from above the targets.\u003cbr\u003e\u003cbr\u003eEffect: This attack has a 10% chance to inflict @Affliction[perish 1].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  2,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  95,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "island-freefall",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
