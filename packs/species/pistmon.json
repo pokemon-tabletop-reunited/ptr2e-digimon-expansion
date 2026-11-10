@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rototiller",
-          "level": 50,
-          "gen": null
-        },
-        {
           "name": "lariat",
           "level": 44,
           "gen": null
@@ -821,6 +816,11 @@
         {
           "name": "petal-blizzard",
           "level": 47,
+          "gen": null
+        },
+        {
+          "name": "rototiller",
+          "level": 50,
           "gen": null
         },
         {
@@ -851,7 +851,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

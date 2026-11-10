@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "volt-tackle",
-          "level": 59,
-          "gen": null
-        },
-        {
           "name": "bubble-storm",
           "level": 48,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "volt-tackle",
+          "level": 59,
+          "gen": null
+        },
+        {
           "name": "head-smash",
           "level": 62,
           "gen": null
@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

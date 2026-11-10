@@ -864,7 +864,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "geno-digimon"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

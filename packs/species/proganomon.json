@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "subduction",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "primordial-tail",
           "level": 49,
           "gen": null
@@ -848,11 +843,18 @@
           "name": "head-smash",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "subduction",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

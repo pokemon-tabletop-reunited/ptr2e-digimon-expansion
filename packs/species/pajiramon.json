@@ -847,7 +847,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

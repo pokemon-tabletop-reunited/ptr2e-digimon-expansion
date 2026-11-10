@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "thunder",
-          "level": 59,
-          "gen": null
-        },
-        {
           "name": "arc-lightning",
           "level": 47,
           "gen": null
@@ -841,6 +836,11 @@
           "gen": null
         },
         {
+          "name": "thunder",
+          "level": 59,
+          "gen": null
+        },
+        {
           "name": "blast-burn",
           "level": 61,
           "gen": null
@@ -853,7 +853,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
