@@ -17,7 +17,8 @@
       "digimon",
       "data",
       "champion",
-      "semi-bipedal"
+      "semi-bipedal",
+      "wallclimber"
     ],
     "number": 5637,
     "stats": {
@@ -799,13 +800,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "circle-throw",
-          "level": 25,
+          "name": "bulk-up",
+          "level": 23,
           "gen": null
         },
         {
-          "name": "bulk-up",
-          "level": 23,
+          "name": "circle-throw",
+          "level": 25,
           "gen": null
         },
         {
@@ -841,7 +842,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

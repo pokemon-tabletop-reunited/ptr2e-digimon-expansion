@@ -802,11 +802,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sludge",
-          "level": 30,
-          "gen": null
-        },
-        {
           "name": "skull-bash",
           "level": 26,
           "gen": null
@@ -814,6 +809,11 @@
         {
           "name": "dire-claw",
           "level": 28,
+          "gen": null
+        },
+        {
+          "name": "sludge",
+          "level": 30,
           "gen": null
         },
         {
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

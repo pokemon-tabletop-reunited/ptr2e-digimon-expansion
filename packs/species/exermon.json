@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "false-image",
-          "level": 29,
-          "gen": null
-        },
-        {
           "name": "amnesia",
           "level": 21,
           "gen": null
@@ -813,6 +808,11 @@
         {
           "name": "clobbering",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "false-image",
+          "level": 29,
           "gen": null
         },
         {
@@ -848,7 +848,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -809,13 +809,13 @@
           "gen": null
         },
         {
-          "name": "scale-shot",
-          "level": 28,
+          "name": "rock-tomb",
+          "level": 24,
           "gen": null
         },
         {
-          "name": "rock-tomb",
-          "level": 24,
+          "name": "scale-shot",
+          "level": 28,
           "gen": null
         },
         {
@@ -841,7 +841,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

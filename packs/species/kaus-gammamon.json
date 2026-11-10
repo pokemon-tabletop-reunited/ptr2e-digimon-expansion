@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "outrage",
-          "level": 40,
-          "gen": null
-        },
-        {
           "name": "breaking-swipe",
           "level": 22,
           "gen": null
@@ -845,11 +840,18 @@
           "name": "brave-bird",
           "level": 37,
           "gen": null
+        },
+        {
+          "name": "outrage",
+          "level": 40,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
