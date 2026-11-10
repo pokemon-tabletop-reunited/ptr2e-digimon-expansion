@@ -19,7 +19,7 @@
         "name": "Pummel Peck",
         "slug": "pummel-peck",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5138.png",
         "traits": [
           "digimon",
           "explode",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 20,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "pummel-peck"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5138.png",
   "effects": [],
-  "flags": {},
   "_id": "MN0IcS1td3ReHuGx"
 }

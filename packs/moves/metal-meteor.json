@@ -19,7 +19,7 @@
         "name": "Metal Meteor",
         "slug": "metal-meteor",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5269.png",
         "traits": [
           "missile",
           "crushing",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "metal-meteor"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5269.png",
   "effects": [],
   "_id": "gGWX1eergvAgSFAc"
 }

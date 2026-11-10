@@ -17,7 +17,7 @@
         "name": "Hydro Blaster",
         "slug": "hydro-blaster",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5145.png",
         "traits": [
           "digimon"
         ],
@@ -37,13 +37,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       },
       {
         "name": "Hydro Blaster (Defense Up)",
         "slug": "hydro-blaster-crit",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5145.png",
         "traits": [
           "digimon",
           "crit-2"
@@ -65,13 +66,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "hydro-blaster"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5145.png",
   "effects": [],
-  "flags": {},
   "_id": "ffnQkXhwtCoBRb8b"
 }
