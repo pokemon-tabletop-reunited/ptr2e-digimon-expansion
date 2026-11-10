@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "reversal",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "coaching",
           "level": 44,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "reversal",
+          "level": 54,
+          "gen": null
+        },
+        {
           "name": "sorrowful-strike",
           "level": 55,
           "gen": null
@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

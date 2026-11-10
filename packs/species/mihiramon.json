@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "typhoon",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "aura-blast",
           "level": 45,
           "gen": null
@@ -852,11 +847,19 @@
           "name": "feather-dance",
           "level": 58,
           "gen": null
+        },
+        {
+          "name": "typhoon",
+          "level": 62,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

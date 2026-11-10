@@ -821,11 +821,6 @@
           "gen": null
         },
         {
-          "name": "thunder",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "neutron-pulse",
           "level": 52,
           "gen": null
@@ -851,6 +846,11 @@
           "gen": null
         },
         {
+          "name": "thunder",
+          "level": 60,
+          "gen": null
+        },
+        {
           "name": "zap-cannon",
           "level": 62,
           "gen": null
@@ -863,7 +863,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

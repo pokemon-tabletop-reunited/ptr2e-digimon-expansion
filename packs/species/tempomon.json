@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "reversal",
-          "level": 51,
-          "gen": null
-        },
-        {
           "name": "hypersonic-fist",
           "level": 44,
           "gen": null
@@ -824,6 +819,11 @@
         {
           "name": "whirling-rondé",
           "level": 48,
+          "gen": null
+        },
+        {
+          "name": "reversal",
+          "level": 51,
           "gen": null
         },
         {
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
