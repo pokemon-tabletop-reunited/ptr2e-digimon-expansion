@@ -19,7 +19,7 @@
         "name": "Metal Armour Blade",
         "slug": "metal-armour-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5107.png",
         "traits": [
           "digimon",
           "sharp",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 85,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "metal-armour-blade"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5107.png",
   "effects": [],
-  "flags": {},
   "_id": "LnrvqS0Imc52CKP8"
 }
