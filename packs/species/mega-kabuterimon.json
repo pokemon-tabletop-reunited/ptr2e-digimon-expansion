@@ -853,7 +853,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "mega-kabuterimon",
