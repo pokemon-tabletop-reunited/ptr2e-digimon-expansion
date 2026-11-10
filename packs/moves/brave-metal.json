@@ -1,189 +1,212 @@
 {
-  "name": "Brave Metal",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Brave Metal",
-        "slug": "brave-metal-resolution",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
-        "traits": [
-          "digimon",
-          "set-up",
-          "contact",
-          "dash",
-          "flinch-60",
-          "partial-automation"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "steel"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Resolution: The user moves up to 1.5x their preferred Movement Allowance and resolved Brave Metal.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 200,
-        "accuracy": 100
-      },
-      {
-        "name": "Brave Metal (Set-Up)",
-        "slug": "brave-metal-setup",
-        "description": "<p>Effect: The User converts @Tick[-2] into @Tick[2 shield], gains [Contempt] and @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} for 5 activations.</p>",
-        "traits": [
-          "priority-30"
-        ],
-        "type": "generic",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "range": {
-          "target": "self",
-          "unit": "m",
-          "distance": 10
-        }
-      }
-    ],
-    "grade": "S",
-    "slug": "brave-metal"
-  },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
-  "effects": [
-    {
-      "name": "Brave Metal",
-      "type": "passive",
-      "_id": "6Go8jJHlj1OhazDU",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "self",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": -2
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "self",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": 2
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "brave-metal-setup-generic",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.5M3gNCpB5xXi9lO9",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1754521552389,
-        "modifiedTime": 1777492172295,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "RjMCwTYD4kKnkg0J"
+    "_id":  "RjMCwTYD4kKnkg0J",
+    "effects":  [
+                    {
+                        "_id":  "6Go8jJHlj1OhazDU",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1754521552389,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777492172295,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Brave Metal",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "brave-metal-setup-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -2
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "brave-metal-setup-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.k1FukpHKnZGqjSNc",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  2
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "brave-metal-setup-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "brave-metal-setup-generic",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.5M3gNCpB5xXi9lO9",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+    "name":  "Brave Metal",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Brave Metal",
+                                       "slug":  "brave-metal-resolution",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "set-up",
+                                                      "contact",
+                                                      "dash",
+                                                      "flinch-60",
+                                                      "partial-automation"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "types":  [
+                                                     "steel"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eResolution: The user moves up to 1.5x their preferred Movement Allowance and resolved Brave Metal.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  200,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   },
+                                   {
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The User converts @Tick[-2] into @Tick[2 shield], gains [Contempt] and @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} for 5 activations.\u003c/p\u003e",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5382.png",
+                                       "name":  "Brave Metal (Set-Up)",
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "brave-metal-setup",
+                                       "traits":  [
+                                                      "priority-30"
+                                                  ],
+                                       "type":  "generic"
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "brave-metal",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
