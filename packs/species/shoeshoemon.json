@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "compost-bomb",
-          "level": 38,
-          "gen": null
-        },
-        {
           "name": "quick-attack",
           "level": 19,
           "gen": null
@@ -854,11 +849,18 @@
           "name": "egg-bomb",
           "level": 35,
           "gen": null
+        },
+        {
+          "name": "compost-bomb",
+          "level": 38,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

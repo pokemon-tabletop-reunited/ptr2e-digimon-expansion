@@ -837,7 +837,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "perplex",
-          "level": 26,
-          "gen": null
-        },
-        {
           "name": "agility",
           "level": 22,
           "gen": null
@@ -819,6 +814,11 @@
         {
           "name": "air-cutter",
           "level": 24,
+          "gen": null
+        },
+        {
+          "name": "perplex",
+          "level": 26,
           "gen": null
         },
         {
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

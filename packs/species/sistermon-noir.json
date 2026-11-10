@@ -803,13 +803,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "pixie-dust",
-          "level": 24,
+          "name": "extreme-speed",
+          "level": 23,
           "gen": null
         },
         {
-          "name": "extreme-speed",
-          "level": 23,
+          "name": "pixie-dust",
+          "level": 24,
           "gen": null
         },
         {
@@ -855,7 +855,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

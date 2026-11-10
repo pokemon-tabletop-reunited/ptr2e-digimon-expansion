@@ -40,7 +40,7 @@
       "category": "medium",
       "type": "height",
       "height": 1.8,
-      "weight": 0
+      "weight": 140
     },
     "diet": [],
     "abilities": {
@@ -855,7 +855,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

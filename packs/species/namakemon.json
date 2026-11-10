@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "cosmic-ray",
-          "level": 38,
-          "gen": null
-        },
-        {
           "name": "gentle-repose",
           "level": 0,
           "gen": null
@@ -842,11 +837,18 @@
           "name": "belch",
           "level": 33,
           "gen": null
+        },
+        {
+          "name": "cosmic-ray",
+          "level": 38,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

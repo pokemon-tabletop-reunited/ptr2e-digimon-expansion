@@ -807,11 +807,6 @@
           "gen": null
         },
         {
-          "name": "synchronoise",
-          "level": 42,
-          "gen": null
-        },
-        {
           "name": "ancient-roar",
           "level": 23,
           "gen": null
@@ -840,11 +835,18 @@
           "name": "torch-song",
           "level": 39,
           "gen": null
+        },
+        {
+          "name": "synchronoise",
+          "level": 42,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

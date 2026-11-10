@@ -813,11 +813,6 @@
           "gen": null
         },
         {
-          "name": "glaive-rush",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "tar-shot",
           "level": 24,
           "gen": null
@@ -825,6 +820,11 @@
         {
           "name": "granite-gouge",
           "level": 26,
+          "gen": null
+        },
+        {
+          "name": "glaive-rush",
+          "level": 28,
           "gen": null
         },
         {
@@ -860,7 +860,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
