@@ -18,8 +18,7 @@
       "virus",
       "champion",
       "bipedal",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5097,
     "stats": {
@@ -803,6 +802,11 @@
     "moves": {
       "levelUp": [
         {
+          "name": "mirage-edge",
+          "level": 0,
+          "gen": null
+        },
+        {
           "name": "alluring-voice",
           "level": 22,
           "gen": null
@@ -840,7 +844,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "sistermon-ciel",
@@ -940,7 +946,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
@@ -960,8 +966,7 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
-            "value": "Compendium.ptr2e.core-moves.Item.TUnhlxSbtzMAQjpF",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.NxDrDPVKlubyDkNQ",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:sistermon-ciel"
             ],
@@ -972,12 +977,13 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false,
-            "method": 2,
-            "phase": "initial"
+            "replaceSelf": false
           }
         ],
         "slug": null,
@@ -1010,12 +1016,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.6.beta",
         "createdTime": 1767406766710,
-        "modifiedTime": 1767406818725,
-        "lastModifiedBy": "5ImYyhOS2D6D7ypO"
+        "modifiedTime": 1780668004985,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR"
       },
       "start": null,
       "showIcon": 1,
