@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "subduction",
-          "level": 68,
-          "gen": null
-        },
-        {
           "name": "battle-cry",
           "level": 47,
           "gen": null
@@ -850,11 +845,18 @@
           "name": "rock-wrecker",
           "level": 65,
           "gen": null
+        },
+        {
+          "name": "subduction",
+          "level": 68,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

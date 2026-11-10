@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sweet-scent",
-          "level": 56,
-          "gen": null
-        },
-        {
           "name": "flail",
           "level": 47,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "sweet-scent",
+          "level": 56,
+          "gen": null
+        },
+        {
           "name": "perish-song",
           "level": 58,
           "gen": null
@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

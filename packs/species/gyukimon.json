@@ -814,13 +814,13 @@
           "gen": null
         },
         {
-          "name": "wild-shriek",
-          "level": 52,
+          "name": "imprison",
+          "level": 50,
           "gen": null
         },
         {
-          "name": "imprison",
-          "level": 50,
+          "name": "wild-shriek",
+          "level": 52,
           "gen": null
         },
         {
@@ -851,7 +851,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "jungle-troopers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

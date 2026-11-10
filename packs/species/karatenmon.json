@@ -816,11 +816,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "night-storm",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "arcane-storm",
           "level": 48,
           "gen": null
@@ -851,6 +846,11 @@
           "gen": null
         },
         {
+          "name": "night-storm",
+          "level": 60,
+          "gen": null
+        },
+        {
           "name": "dark-matter",
           "level": 62,
           "gen": null
@@ -858,7 +858,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "toho-braves",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

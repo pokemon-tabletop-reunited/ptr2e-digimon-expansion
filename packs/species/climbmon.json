@@ -807,11 +807,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sludge-wave",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "lariat",
           "level": 47,
           "gen": null
@@ -824,6 +819,11 @@
         {
           "name": "decimate",
           "level": 52,
+          "gen": null
+        },
+        {
+          "name": "sludge-wave",
+          "level": 54,
           "gen": null
         },
         {
@@ -849,7 +849,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
