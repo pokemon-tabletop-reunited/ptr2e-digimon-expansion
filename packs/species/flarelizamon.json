@@ -844,7 +844,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "flarelizamon",
@@ -931,7 +934,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767096277372,
