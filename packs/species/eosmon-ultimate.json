@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "unshackled-mind",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "noxious-acid",
           "level": 48,
           "gen": null
@@ -836,6 +831,11 @@
           "gen": null
         },
         {
+          "name": "unshackled-mind",
+          "level": 55,
+          "gen": null
+        },
+        {
           "name": "astro-sphere",
           "level": 56,
           "gen": null
@@ -853,7 +853,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
