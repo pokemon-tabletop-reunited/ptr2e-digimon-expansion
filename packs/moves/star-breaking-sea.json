@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Star-Breaking Sea",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Star-Breaking Sea",
+        "slug": "star-breaking-sea",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5851.png",
+        "traits": [
+          "digimon",
+          "blast-5",
+          "push-6",
+          "crushing"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "blast",
+          "distance": 20,
+          "unit": "m"
+        },
+        "power": 155,
+        "accuracy": 95
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "FRcDKdj1pULUtOTr",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5851.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282689875,
+    "modifiedTime": 1793282689875,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

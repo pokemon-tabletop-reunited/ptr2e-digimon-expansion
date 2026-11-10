@@ -1,0 +1,48 @@
+{
+  "folder": null,
+  "name": "Coronation B",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>Effect: This ability allows Queenbeemon to call upon the Royal Throne then immediately mount it as a complex action. The Royal Throne can only be mounted by Queenbeemon. This ability can only be used once per combat.<br><br>Connection- @UUID[Compendium.ptr2e.core-abilities.Item.HwJW3IcrY3beZU5z]{Queenly Majesty}<br></p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "g0ElnHrXve4t8AL0",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5880.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793281939107,
+    "modifiedTime": 1793281939952,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 400000
+}
