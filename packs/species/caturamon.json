@@ -818,11 +818,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "meteor-assault",
-          "level": 60,
-          "gen": null
-        },
-        {
           "name": "megaton-hammer",
           "level": 47,
           "gen": null
@@ -853,6 +848,11 @@
           "gen": null
         },
         {
+          "name": "meteor-assault",
+          "level": 60,
+          "gen": null
+        },
+        {
           "name": "eerie-spell",
           "level": 64,
           "gen": null
@@ -860,7 +860,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "coral-break",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "noxious-acid",
           "level": 46,
           "gen": null
@@ -836,6 +831,11 @@
         {
           "name": "sludge-bomb",
           "level": 54,
+          "gen": null
+        },
+        {
+          "name": "coral-break",
+          "level": 55,
           "gen": null
         },
         {
@@ -861,7 +861,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

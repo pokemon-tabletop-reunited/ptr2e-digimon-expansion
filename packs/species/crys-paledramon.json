@@ -820,11 +820,6 @@
           "gen": null
         },
         {
-          "name": "unshackled-mind",
-          "level": 57,
-          "gen": null
-        },
-        {
           "name": "haze",
           "level": 46,
           "gen": null
@@ -850,6 +845,11 @@
           "gen": null
         },
         {
+          "name": "unshackled-mind",
+          "level": 57,
+          "gen": null
+        },
+        {
           "name": "glacier-crush",
           "level": 61,
           "gen": null
@@ -857,7 +857,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -937,9 +939,9 @@
         "coreVersion": "14.365",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "createdTime": 1784297984538,
+        "modifiedTime": 1784297984538,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null

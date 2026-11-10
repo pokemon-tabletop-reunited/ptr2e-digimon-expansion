@@ -811,11 +811,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rock-wrecker",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "coral-break",
           "level": 50,
           "gen": null
@@ -844,11 +839,18 @@
           "name": "hydro-cannon",
           "level": 62,
           "gen": null
+        },
+        {
+          "name": "rock-wrecker",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
