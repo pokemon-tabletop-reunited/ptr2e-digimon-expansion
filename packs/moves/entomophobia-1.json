@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "entomophobia-1",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,30 +24,17 @@
         "img": "systems/ptr2e/img/svg/bug_icon.svg",
         "traits": [
           "digimon",
-          "social"
+          "social",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 2
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "bug"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attach has a 20% chance to inflict @Affliction[fear 5].</p>",
         "range": {
@@ -59,8 +46,6 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "E"
   },
   "_id": "Z2XNklPj5L67b9BW",
@@ -125,22 +110,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956625196,
-    "modifiedTime": 1779956625196,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }
