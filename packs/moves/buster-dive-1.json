@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "buster-dive-1",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,30 +24,17 @@
         "img": "systems/ptr2e/img/svg/fighting_icon.svg",
         "traits": [
           "digimon",
-          "contact"
+          "contact",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 2
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fighting"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: The user may freely relocate to the other end of the target area. This attack has a 15% chance to inflict @Affliction[delay 20].</p>",
         "range": {
@@ -59,8 +46,6 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "E"
   },
   "_id": "IyHZreCxNbFOD3yv",
@@ -131,22 +116,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956612571,
-    "modifiedTime": 1779956624131,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 10800000
+  ]
 }

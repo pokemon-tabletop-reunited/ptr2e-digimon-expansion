@@ -18,8 +18,7 @@
       "vaccine",
       "rookie",
       "bipedal",
-      "wielder",
-      "underdog"
+      "wielder"
     ],
     "number": 5023,
     "stats": {
@@ -904,7 +903,7 @@
       "name": "Awake",
       "type": "form",
       "_id": "7UtQ0AflnpEX4cR5",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5023_awake.png",
       "system": {
         "changes": [
           {
@@ -975,11 +974,11 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.364",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1777028404629,
-        "modifiedTime": 1777028404629,
+        "modifiedTime": 1781893179056,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "exportSource": null
       },
@@ -1046,7 +1045,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407101734,

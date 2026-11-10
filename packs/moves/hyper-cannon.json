@@ -1,124 +1,138 @@
 {
-  "name": "Hyper Cannon",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Hyper Cannon",
-        "slug": "hyper-cannon",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
-        "traits": [
-          "missile",
-          "explode",
-          "flinch-50",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "steel"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack deals a fixed 100 damage.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "accuracy": 100
-      }
-    ],
-    "grade": "C",
-    "slug": "hyper-cannon"
-  },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
-  "effects": [
-    {
-      "name": "Hyper Cannon",
-      "type": "passive",
-      "_id": "kUA6OVaJFLfIvNaS",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
-            "phase": "initial",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.changes.0.isFlat",
-                "value": "true"
-              },
-              {
-                "method": 5,
-                "property": "system.changes.0.value",
-                "value": -100
-              }
-            ],
-            "dontMerge": false,
-            "key": "hyper-cannon-attack",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "start": null,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "showIcon": 1,
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777545727938,
-        "modifiedTime": 1777545737849,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "rLLB7ujiLUdbYONk"
+    "_id":  "rLLB7ujiLUdbYONk",
+    "effects":  [
+                    {
+                        "_id":  "kUA6OVaJFLfIvNaS",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777545727938,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545737849,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Hyper Cannon",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.4DlXFTVooz07YcDm",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.isFlat",
+                                                                                   "value":  "true"
+                                                                               },
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.changes.0.value",
+                                                                                   "value":  -100
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "hyper-cannon-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5147.png",
+    "name":  "Hyper Cannon",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Hyper Cannon",
+                                       "slug":  "hyper-cannon",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5147.png",
+                                       "traits":  [
+                                                      "missile",
+                                                      "explode",
+                                                      "flinch-50",
+                                                      "digimon",
+                                                      "flat"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "types":  [
+                                                     "steel"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack deals a fixed 100 damage.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "slug":  "hyper-cannon"
+               },
+    "type":  "move"
 }

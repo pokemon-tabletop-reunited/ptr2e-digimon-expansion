@@ -19,7 +19,7 @@
         "name": "Thunder Cloud",
         "slug": "thunder-cloud",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5044.png",
         "traits": [
           "double-strike",
           "digimon"
@@ -39,13 +39,14 @@
         "category": "special",
         "power": 30,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "thunder-cloud"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5044.png",
   "effects": [],
   "_id": "JY80QNQb6u4LcVla"
 }
