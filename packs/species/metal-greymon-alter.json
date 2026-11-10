@@ -851,7 +851,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "metal-empire",
+      "virus-buster"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

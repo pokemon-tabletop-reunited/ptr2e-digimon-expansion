@@ -7,8 +7,10 @@
       "previous": null
     },
     "publication": {
-      "source": "",
-      "authors": [],
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
       "notes": ""
     },
     "traits": [
@@ -33,16 +35,44 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
-      "height": 0,
-      "weight": 0
+      "type": "quad",
+      "height": 1.8,
+      "weight": 160
     },
     "diet": [],
     "abilities": {
-      "starting": [],
-      "basic": [],
-      "advanced": [],
-      "master": []
+      "starting": [
+        {
+          "slug": "cud-chew"
+        },
+        {
+          "slug": "big-leaves"
+        }
+      ],
+      "basic": [
+        {
+          "slug": "sunbathe"
+        },
+        {
+          "slug": "flower-veil"
+        }
+      ],
+      "advanced": [
+        {
+          "slug": "flourish"
+        },
+        {
+          "slug": "grassy-surge"
+        }
+      ],
+      "master": [
+        {
+          "slug": "grass-pelt"
+        },
+        {
+          "slug": "regenerator"
+        }
+      ]
     },
     "movement": [
       {
@@ -829,7 +859,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

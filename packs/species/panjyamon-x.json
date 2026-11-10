@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "surf",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "aura-blast",
           "level": 48,
           "gen": null
@@ -822,6 +817,11 @@
         {
           "name": "lariat",
           "level": 52,
+          "gen": null
+        },
+        {
+          "name": "surf",
+          "level": 54,
           "gen": null
         },
         {
@@ -847,7 +847,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

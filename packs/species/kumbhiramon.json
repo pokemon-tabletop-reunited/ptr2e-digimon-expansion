@@ -805,11 +805,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "mortal-wave",
-          "level": 51,
-          "gen": null
-        },
-        {
           "name": "bravado",
           "level": 44,
           "gen": null
@@ -822,6 +817,11 @@
         {
           "name": "flail",
           "level": 49,
+          "gen": null
+        },
+        {
+          "name": "mortal-wave",
+          "level": 51,
           "gen": null
         },
         {
@@ -847,7 +847,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "hydro-cannon",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "arc-lightning",
           "level": 44,
           "gen": null
@@ -849,6 +844,11 @@
           "gen": null
         },
         {
+          "name": "hydro-cannon",
+          "level": 63,
+          "gen": null
+        },
+        {
           "name": "typhoon",
           "level": 65,
           "gen": null
@@ -856,7 +856,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

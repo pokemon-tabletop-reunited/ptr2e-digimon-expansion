@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "megaton-hammer",
-          "level": 56,
-          "gen": null
-        },
-        {
           "name": "karma-beam",
           "level": 46,
           "gen": null
@@ -831,6 +826,11 @@
           "gen": null
         },
         {
+          "name": "megaton-hammer",
+          "level": 56,
+          "gen": null
+        },
+        {
           "name": "giga-impact",
           "level": 58,
           "gen": null
@@ -848,7 +848,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
