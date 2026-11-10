@@ -25,7 +25,8 @@
           "digimon",
           "blast-3",
           "hazard",
-          "earthbound"
+          "earthbound",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
@@ -46,10 +47,10 @@
         "accuracy": 90
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "punji-pit-3"
   },
   "_id": "ws1prldxkzUqaluK",
   "img": "systems/ptr2e/img/svg/poison_icon.svg",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }

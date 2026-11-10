@@ -840,6 +840,11 @@
           "name": "pale-mist",
           "level": 40,
           "gen": null
+        },
+        {
+          "name": "ghastly-eye",
+          "level": 0,
+          "gen": null
         }
       ],
       "tutor": []
