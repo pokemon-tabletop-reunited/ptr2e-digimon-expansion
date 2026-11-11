@@ -19,7 +19,7 @@
         "name": "Bunny Blades",
         "slug": "bunny-blades",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5254.png",
         "traits": [
           "contact",
           "crit-1",
@@ -29,7 +29,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5
+          "powerPoints": 2
         },
         "types": [
           "flying"
@@ -48,7 +48,7 @@
     "grade": "B",
     "slug": "bunny-blades"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5254.png",
   "effects": [],
   "_id": "oPEiU61HbJwolUHK"
 }
