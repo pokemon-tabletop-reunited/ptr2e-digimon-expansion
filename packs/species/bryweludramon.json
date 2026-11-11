@@ -819,7 +819,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown",
+      "legend-arms"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

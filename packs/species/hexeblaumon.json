@@ -833,7 +833,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "dragons-roar",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

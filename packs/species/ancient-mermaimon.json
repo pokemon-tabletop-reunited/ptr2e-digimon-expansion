@@ -818,7 +818,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "warrior-ten"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

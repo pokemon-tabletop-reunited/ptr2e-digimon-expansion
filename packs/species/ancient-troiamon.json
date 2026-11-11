@@ -817,7 +817,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians",
+      "warrior-ten"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
