@@ -22,6 +22,7 @@
       "deity",
       "antibody"
     ],
+    "number": 5817,
     "stats": {
       "hp": 102,
       "atk": 108,
@@ -816,7 +817,12 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "wind-guardians",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -829,7 +835,7 @@
         {
           "gte": [
             "{actor|level}",
-            91
+            92
           ]
         }
       ]
