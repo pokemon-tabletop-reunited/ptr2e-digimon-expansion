@@ -19,7 +19,7 @@
         "name": "Plasma Missiles",
         "slug": "plasma-missiles",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",
         "traits": [
           "digimon",
           "missile",
@@ -42,13 +42,14 @@
           "distance": 10,
           "unit": "m"
         },
-        "power": 50
+        "power": 50,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "plasma-missiles"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5445.png",
   "effects": [],
-  "flags": {},
   "_id": "0hRu13MQl4RN2FhS"
 }

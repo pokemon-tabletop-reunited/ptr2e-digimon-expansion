@@ -1,184 +1,204 @@
 {
-  "name": "Sourai",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "sourai",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Neo"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Sourai (Activation)",
-        "slug": "sourai-a",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon",
-          "sky",
-          "environ",
-          "blast-3",
-          "crushing",
-          "interrupt",
-          "flinch-25",
-          "sovereign"
-        ],
-        "cost": {
-          "activation": "free",
-          "trigger": "Activated by the effect of the Sourai Summon."
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Trigger: Activated by the effect of the Sourai Summon.</p><p>Effect: On hit, all valid targets have a 20% chance of gaining @Affliction[paralysis 7] and @Affliction[delay 20]. If Rainy Weather is active, this attack gains +35 base Accuracy.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 20,
-          "unit": "m"
-        },
-        "power": 110,
-        "accuracy": 55
-      },
-      {
-        "name": "Sourai (Summon)",
-        "slug": "sourai-summon",
-        "description": "<p>Effect: The user creates a @UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.Item.tIHBaSVRjxJjEuzV]{Sourai} Summon at AV 35, that lasts for 7 Activations. On each of the Summon’s Activations, the user freely uses Sourai (Activation), targeting a random, non-Ally creature. The Sourai Summon ends if the user leaves Combat or gains @Affliction[fainted].</p>",
-        "traits": [],
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 16
-        },
-        "range": {
-          "target": "field",
-          "unit": "m"
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "status",
-        "predicate": []
-      }
-    ],
-    "grade": "S"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [
-    {
-      "name": "Sourai",
-      "type": "passive",
-      "_id": "gHQbIgbVBILxxYo9",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "alter-attack",
-            "key": "sourai-activation-attack",
-            "value": 35,
-            "predicate": [
-              "effect:summon:rainy-weather"
-            ],
-            "property": "accuracy",
-            "definition": [],
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "sourai-activation-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 7
-              }
-            ],
-            "dontMerge": false,
-            "label": "Paralysis",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "sourai-activation-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.amount",
-                "value": -20
-              }
-            ],
-            "dontMerge": false,
-            "label": "Delay",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777550369948,
-        "modifiedTime": 1777550380712
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "btzMXFIgRQZFHjGV"
+    "_id":  "btzMXFIgRQZFHjGV",
+    "effects":  [
+                    {
+                        "_id":  "gHQbIgbVBILxxYo9",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777550369948,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777550380712,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Sourai",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "alter-attack",
+                                                           "key":  "sourai-activation-attack",
+                                                           "value":  35,
+                                                           "predicate":  [
+                                                                             "effect:summon:rainy-weather"
+                                                                         ],
+                                                           "property":  "accuracy",
+                                                           "definition":  [
+
+                                                                          ],
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "sourai-activation-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  7
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Paralysis",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "sourai-activation-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  -20
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Delay",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5502.png",
+    "name":  "Sourai",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  55,
+                                       "category":  "special",
+                                       "cost":  {
+                                                    "activation":  "free",
+                                                    "trigger":  "Activated by the effect of the Sourai Summon."
+                                                },
+                                       "description":  "\u003cp\u003eTrigger: Activated by the effect of the Sourai Summon.\u003c/p\u003e\u003cp\u003eEffect: On hit, all valid targets have a 20% chance of gaining @Affliction[paralysis 7] and @Affliction[delay 20]. If Rainy Weather is active, this attack gains +35 base Accuracy.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5502.png",
+                                       "name":  "Sourai (Activation)",
+                                       "power":  110,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  20,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "sourai-a",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "sky",
+                                                      "environ",
+                                                      "blast-3",
+                                                      "crushing",
+                                                      "interrupt",
+                                                      "flinch-25",
+                                                      "sovereign"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   },
+                                   {
+                                       "category":  "status",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  16
+                                                },
+                                       "description":  "\u003cp\u003eEffect: The user creates a @UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.Item.tIHBaSVRjxJjEuzV]{Sourai} Summon at AV 35, that lasts for 7 Activations. On each of the Summon’s Activations, the user freely uses Sourai (Activation), targeting a random, non-Ally creature. The Sourai Summon ends if the user leaves Combat or gains @Affliction[fainted].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5502.png",
+                                       "name":  "Sourai (Summon)",
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "field",
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "sourai-summon",
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "electric"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Neo"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "sourai",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
