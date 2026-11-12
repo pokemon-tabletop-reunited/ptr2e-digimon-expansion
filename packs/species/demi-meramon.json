@@ -807,7 +807,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "demi-meramon",
@@ -822,7 +824,11 @@
         "impmon",
         "kunemon",
         "loogamon",
-        "shoutmon"
+        "shoutmon",
+        "tapirmon",
+        "demi-devimon",
+        "meramon",
+        "vorvomon"
       ],
       "prerequisites": [
         {

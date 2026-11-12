@@ -1,0 +1,156 @@
+{
+  "folder": null,
+  "name": "Zeke Flame",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "zeke-flame",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Zeke Flame",
+        "slug": "zeke-flame",
+        "type": "attack",
+        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
+        "traits": [
+          "digimon",
+          "dragon",
+          "fire"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire",
+          "dragon"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On hit, the target has a 30% chance of gaining @Affliction[burn 5].</p>",
+        "range": {
+          "target": "cone",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 140,
+        "accuracy": 80
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "90OGpNcsqQcXuxTw",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5891.png",
+  "effects": [
+    {
+      "name": "Zeke Flame - Burn",
+      "type": "affliction",
+      "_id": "yYnx1CsLHl9oq0z6",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "key": "zeke-flame-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
+            "predicate": [],
+            "chance": 30,
+            "affects": "target",
+            "priority": null,
+            "ignored": false,
+            "alterations": [],
+            "method": 2,
+            "phase": "initial",
+            "isFixedChance": false,
+            "dontMerge": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage",
+        "predicate": [
+          "[]"
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1792076041637,
+        "modifiedTime": 1792076041637,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792076041637,
+    "modifiedTime": 1792076041638,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

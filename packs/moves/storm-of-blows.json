@@ -1,120 +1,137 @@
 {
-  "name": "Storm of Blows",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "storm-of-blows",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Krueger"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Storm of Blows",
-        "slug": "storm-of-blows",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/untyped_icon.svg",
-        "traits": [
-          "digimon",
-          "punch",
-          "kick",
-          "contact",
-          "10-strike"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "fighting",
-          "electric"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>On hit, the target has a 30% change of gaining @Affliction[desync 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 25,
-        "accuracy": 90
-      }
-    ],
-    "grade": "A"
-  },
-  "_id": "VZifE2LAMcwd1kZq",
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
-  "effects": [
-    {
-      "name": "Storm of Blows",
-      "type": "affliction",
-      "_id": "wvNGQrfUwDUMq4OC",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
-            "phase": "initial",
-            "predicate": [],
-            "key": "storm-of-blows",
-            "chance": 30,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0,
-        "priority": 50,
-        "formula": "",
-        "type": "damage",
-        "predicate": []
-      },
-      "disabled": false,
-      "start": null,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "showIcon": 1,
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1776412466806,
-        "modifiedTime": 1777553440355,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    }
-  ]
+    "_id":  "VZifE2LAMcwd1kZq",
+    "effects":  [
+                    {
+                        "_id":  "wvNGQrfUwDUMq4OC",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1776412466806,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553440355,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Storm of Blows",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.desynccondition0",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "key":  "storm-of-blows",
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5531.png",
+    "name":  "Storm of Blows",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  90,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "description":  "\u003cp\u003eOn hit, the target has a 30% change of gaining @Affliction[desync 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5531.png",
+                                       "name":  "Storm of Blows",
+                                       "power":  25,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "storm-of-blows",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "punch",
+                                                      "kick",
+                                                      "contact",
+                                                      "10-strike"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fighting",
+                                                     "electric"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "storm-of-blows",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
