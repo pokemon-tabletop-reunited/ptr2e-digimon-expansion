@@ -19,7 +19,8 @@
       "mega",
       "bipedal",
       "beast",
-      "construct"
+      "construct",
+      "titan"
     ],
     "number": 5401,
     "stats": {
@@ -821,7 +822,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "geno-digimon"
+      "geno-digimon",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

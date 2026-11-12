@@ -22,7 +22,8 @@
       "multi-arms",
       "horned",
       "awkward-flyer",
-      "unknown"
+      "unknown",
+      "titan"
     ],
     "number": 5257,
     "stats": {
@@ -819,7 +820,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans",
+      "crack-team"
     ],
     "genderRatio": -1,
     "habitats": [],

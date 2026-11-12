@@ -21,7 +21,8 @@
       "8-headed",
       "darkvision-15",
       "bladed",
-      "drakelike"
+      "drakelike",
+      "titan"
     ],
     "number": 5292,
     "stats": {
@@ -849,7 +850,8 @@
     },
     "eggGroups": [
       "nature-spirits",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

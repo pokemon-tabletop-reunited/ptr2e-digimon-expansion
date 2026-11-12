@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "many-arms",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5360,
     "stats": {
@@ -826,7 +827,8 @@
     },
     "eggGroups": [
       "jungle-troopers",
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

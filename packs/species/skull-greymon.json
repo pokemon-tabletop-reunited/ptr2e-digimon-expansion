@@ -19,7 +19,8 @@
       "ultimate",
       "semi-bipedal",
       "lifesense-30",
-      "immortal"
+      "immortal",
+      "titan"
     ],
     "number": 5300,
     "stats": {
@@ -850,7 +851,8 @@
     },
     "eggGroups": [
       "dragons-roar",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -18,7 +18,8 @@
       "virus",
       "ultimate",
       "winged",
-      "serpentine"
+      "serpentine",
+      "titan"
     ],
     "number": 5316,
     "stats": {
@@ -850,7 +851,8 @@
       "metal-empire",
       "wind-guardians",
       "dragons-roar",
-      "crack-team"
+      "crack-team",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

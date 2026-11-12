@@ -18,7 +18,8 @@
       "virus",
       "ultimate",
       "bipedal",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5320,
     "stats": {
@@ -847,7 +848,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -20,7 +20,8 @@
       "bipedal",
       "tailed",
       "horned",
-      "construct"
+      "construct",
+      "titan"
     ],
     "number": 5430,
     "stats": {
@@ -823,7 +824,8 @@
     "eggGroups": [
       "metal-empire",
       "dark-masters",
-      "crack-team"
+      "crack-team",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -19,7 +19,8 @@
       "ultimate",
       "winged",
       "construct",
-      "antibody"
+      "antibody",
+      "titan"
     ],
     "number": 5295,
     "stats": {
@@ -851,7 +852,8 @@
     "eggGroups": [
       "metal-empire",
       "wind-guardians",
-      "royal-base"
+      "royal-base",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

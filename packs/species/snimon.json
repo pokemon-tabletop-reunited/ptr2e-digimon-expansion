@@ -21,7 +21,8 @@
       "bladed",
       "blindsight-30",
       "blind",
-      "quadrupedal"
+      "quadrupedal",
+      "titan"
     ],
     "number": 5116,
     "stats": {
@@ -849,7 +850,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "virus-busters"
+      "virus-busters",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -7,7 +7,7 @@
       "previous": null
     },
     "publication": {
-      "source": "PTR2e Digimon Supplement - Digi Dex",
+      "source": "Digidex",
       "authors": [
         "Fox"
       ],
@@ -18,7 +18,7 @@
       "virus",
       "champion",
       "legless",
-      "underdog"
+      "titan"
     ],
     "number": 5192,
     "stats": {
@@ -842,7 +842,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "metal-empire",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "raremon",
