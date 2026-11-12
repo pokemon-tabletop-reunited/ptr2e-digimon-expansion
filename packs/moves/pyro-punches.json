@@ -19,7 +19,7 @@
         "name": "Pyro Punches",
         "slug": "pyro-punches",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5208.png",
         "traits": [
           "double-strike",
           "contact",
@@ -32,7 +32,7 @@
         },
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 2
         },
         "types": [
           "fire"
@@ -40,13 +40,14 @@
         "category": "physical",
         "power": 45,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "pyro-punches"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5208.png",
   "effects": [],
   "_id": "KktWQUMMLxAVW6xX"
 }

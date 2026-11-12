@@ -1,166 +1,188 @@
 {
-  "name": "Striver Cannon",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Striver Cannon (Set-Up)",
-        "slug": "striver-cannon-set-up",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-        "traits": [
-          "digimon",
-          "set-up",
-          "priority-20"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3
-        },
-        "types": [
-          "dragon"
-        ],
-        "category": "status",
-        "predicate": [],
-        "description": "<p>Effect: The user gains @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} and @UUID[Compendium.ptr2e.core-effects.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations and sets-up.</p>",
-        "range": {
-          "target": "self",
-          "unit": "m",
-          "distance": 10
-        }
-      },
-      {
-        "name": "Striver Cannon (Resolution)",
-        "slug": "striver-cannon-resolution",
-        "description": "<p>The resolution attack gains +50% damage vs @Trait[ace] creatures.</p>",
-        "traits": [],
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "range": {
-          "target": "creature",
-          "distance": 15,
-          "unit": "m"
-        },
-        "types": [
-          "dragon"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "power": 155,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B",
-    "slug": "striver-cannon"
-  },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-  "effects": [
-    {
-      "name": "Striver Cannon",
-      "type": "passive",
-      "_id": "SAPg4soqilxE7Vm3",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "striver-cannon-set-up-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "striver-cannon-set-up-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.iv1l5qSwT9ykajV0",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "percentile-modifier",
-            "key": "striver-cannon-resolution-attack-damage",
-            "value": 50,
-            "predicate": [
-              "target:trait:ace"
-            ],
-            "label": "Vs Ace",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "modifiedTime": 1777553485279,
-        "createdTime": 1777553479752
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "s7xTcddKug0iinCr"
+    "_id":  "s7xTcddKug0iinCr",
+    "effects":  [
+                    {
+                        "_id":  "SAPg4soqilxE7Vm3",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553479752,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553485279,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Striver Cannon",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "striver-cannon-set-up-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "striver-cannon-set-up-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.iv1l5qSwT9ykajV0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "key":  "striver-cannon-resolution-attack-damage",
+                                                           "value":  50,
+                                                           "predicate":  [
+                                                                             "target:trait:ace"
+                                                                         ],
+                                                           "label":  "Vs Ace",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5305.png",
+    "name":  "Striver Cannon",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Striver Cannon (Set-Up)",
+                                       "slug":  "striver-cannon-set-up",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5305.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "set-up",
+                                                      "priority-20"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "types":  [
+                                                     "dragon"
+                                                 ],
+                                       "category":  "status",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: The user gains @UUID[Compendium.ptr2e.core-effects-new.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} and @UUID[Compendium.ptr2e.core-effects-new.iv1l5qSwT9ykajV0]{+1 Accuracy Stage} for 5 activations and sets-up.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "self",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "free":  true
+                                   },
+                                   {
+                                       "name":  "Striver Cannon (Resolution)",
+                                       "slug":  "striver-cannon-resolution",
+                                       "description":  "\u003cp\u003eThe resolution attack gains +50% damage vs @Trait[ace] creatures.\u003c/p\u003e",
+                                       "traits":  [
+
+                                                  ],
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5305.png",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  15,
+                                                     "unit":  "m"
+                                                 },
+                                       "types":  [
+                                                     "dragon"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "power":  155,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "B",
+                   "slug":  "striver-cannon"
+               },
+    "type":  "move"
 }
