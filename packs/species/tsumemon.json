@@ -168,7 +168,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "dark-area"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "tsumemon",
