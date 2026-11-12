@@ -21,7 +21,8 @@
       "horned",
       "direction-sense",
       "tremorsense-20",
-      "beast"
+      "beast",
+      "titan"
     ],
     "number": 5189,
     "stats": {
@@ -850,7 +851,9 @@
     },
     "eggGroups": [
       "metal-empire",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans",
+      "witchelny"
     ],
     "genderRatio": -1,
     "habitats": [],

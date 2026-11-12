@@ -18,7 +18,8 @@
       "data",
       "champion",
       "bipedal",
-      "vegetation"
+      "vegetation",
+      "titan"
     ],
     "number": 5142,
     "stats": {
@@ -835,7 +836,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "jungle-troopers"
+      "jungle-troopers",
+      "titans",
+      "witchelny"
     ],
     "genderRatio": -1,
     "habitats": [],
