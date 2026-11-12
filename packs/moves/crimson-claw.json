@@ -1,146 +1,167 @@
 {
-  "name": "Crimson Claw",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Crimson Claw",
-        "slug": "crimson-claw",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon",
-          "contact",
-          "sharp"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "dragon",
-          "dark"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] & @Affliction[suppressed 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 70,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B",
-    "slug": "crimson-claw"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Crimson Claw",
-      "type": "passive",
-      "_id": "3IHWhs6AOzR6A3sa",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "crimson-claw-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
-            "predicate": [],
-            "chance": 50,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "crimson-claw-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "predicate": [],
-            "chance": 50,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "crimson-claw-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
-            "predicate": [],
-            "chance": 50,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777534140461,
-        "modifiedTime": 1777534153776
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "54WeUJiyCAhZ7qm8"
+    "_id":  "54WeUJiyCAhZ7qm8",
+    "effects":  [
+                    {
+                        "_id":  "3IHWhs6AOzR6A3sa",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777534140461,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777534153776,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Crimson Claw",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "crimson-claw-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.poisoncondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "crimson-claw-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "crimson-claw-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5466.png",
+    "name":  "Crimson Claw",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Crimson Claw",
+                                       "slug":  "crimson-claw",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5466.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "contact",
+                                                      "sharp"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "dragon",
+                                                     "dark"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 50% chance each to inflict @Affliction[poison 5], @Affliction[confused 5] \u0026 @Affliction[suppressed 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  70,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "crimson-claw",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
