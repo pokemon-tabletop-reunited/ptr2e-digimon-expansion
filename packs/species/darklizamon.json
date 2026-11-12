@@ -841,7 +841,9 @@
       "witchelny"
     ],
     "genderRatio": -1,
-    "habitats": [],
+    "habitats": [
+      "nightmare-soldiers"
+    ],
     "slug": "darklizamon",
     "node": {
       "x": 61,

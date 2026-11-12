@@ -20,7 +20,8 @@
       "legless",
       "speech",
       "free",
-      "horned"
+      "horned",
+      "titan"
     ],
     "number": 5012,
     "stats": {
@@ -172,7 +173,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "titans",
+      "nature-spirits"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "tsunomon",
