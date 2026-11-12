@@ -14,7 +14,9 @@
       "notes": ""
     },
     "traits": [
-      "digimon"
+      "digimon",
+      "defensive",
+      "innate"
     ],
     "actions": [],
     "description": "<p>Trigger: The user is hit with a Special Attack.</p><p>Effect: The user gains @Tick[2 shield].</p><p>Bonus: Grants @UUID[Compendium.ptr2e-digimon-expansion.digimon-abilities.iIyOS8b2b5LDrBao]{Miracle} as an Extra Ability.</p>",
@@ -122,15 +124,15 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.363",
+    "coreVersion": "14.369",
     "systemId": "ptr2e",
     "systemVersion": "1.7.6.beta",
     "createdTime": 1781303041586,
-    "modifiedTime": 1781303041586,
+    "modifiedTime": 1794476705400,
     "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0
+  "sort": 100000
 }

@@ -820,7 +820,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "wind-guardians",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "kentaurosmon",
