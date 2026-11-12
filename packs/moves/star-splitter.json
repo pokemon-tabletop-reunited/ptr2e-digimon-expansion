@@ -1,0 +1,133 @@
+{
+  "folder": null,
+  "name": "Star Splitter",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Star Splitter",
+        "slug": "star-splitter",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5821.png",
+        "traits": [
+          "digimon",
+          "danger-close",
+          "weapon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fighting"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "line",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 125,
+        "accuracy": 100
+      },
+      {
+        "name": "Star Splitter Unsealed",
+        "slug": "star-splitter-action-2",
+        "description": "<p>This move can only be used when in the @Trait[desperation-1-4] condition</p>",
+        "traits": [
+          "digimon",
+          "danger-close",
+          "weapon",
+          "sharp",
+          "crit-1",
+          "desperation-1-4"
+        ],
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5821.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "wide-line",
+          "distance": 15,
+          "unit": "m"
+        },
+        "types": [
+          "fighting",
+          "electric"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "power": 175,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "sVPExZrXLTLXc16W",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5821.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792587293093,
+    "modifiedTime": 1792587293093,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

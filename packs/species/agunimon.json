@@ -839,7 +839,12 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "dragons-roar",
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "agunimon",
@@ -849,7 +854,17 @@
       "connected": [
         "coronamon",
         "aldamon",
-        "burning-greymon"
+        "burning-greymon",
+        "agumon",
+        "birdramon",
+        "flamon",
+        "greymon",
+        "guilmon",
+        "red-veedramon",
+        "dark-super-starmon",
+        "skull-meramon",
+        "matadormon",
+        "rize-greymon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-flame"
@@ -917,7 +932,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767034534834,

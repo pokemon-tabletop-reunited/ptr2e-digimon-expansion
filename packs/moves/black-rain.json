@@ -1,115 +1,128 @@
 {
-  "name": "Black Rain",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Black Rain",
-        "slug": "black-rain",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 15
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack launches an artillery bombardment into the sky that descends like rain. This attack targets friend and foe alike indiscriminately, but cannot affect the user.<br><br>Targets cannot claim Cover against this attack. This attack has a 20% chance to apply @Affliction[confused 5].</p>",
-        "range": {
-          "target": "field",
-          "unit": "m",
-          "distance": 10
-        },
-        "power": 150,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "black-rain"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Black Rain",
-      "type": "passive",
-      "_id": "FAWfmBmDhlGMdbIE",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "black-rain-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777491499085,
-        "modifiedTime": 1777491499085
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "9gdYBObhpDsfaaa2"
+    "_id":  "9gdYBObhpDsfaaa2",
+    "effects":  [
+                    {
+                        "_id":  "FAWfmBmDhlGMdbIE",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777491499085,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777491499085,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Black Rain",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "black-rain-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",
+    "name":  "Black Rain",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  15
+                                                },
+                                       "description":  "\u003cp\u003eThis attack launches an artillery bombardment into the sky that descends like rain. This attack targets friend and foe alike indiscriminately, but cannot affect the user.\u003cbr\u003e\u003cbr\u003eTargets cannot claim Cover against this attack. This attack has a 20% chance to apply @Affliction[confused 5].\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5460.png",
+                                       "name":  "Black Rain",
+                                       "power":  150,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "field",
+                                                     "unit":  "m",
+                                                     "distance":  10
+                                                 },
+                                       "slug":  "black-rain",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dark"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "black-rain",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
