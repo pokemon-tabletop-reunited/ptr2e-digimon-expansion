@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "Gokumon DNA",
+  "type": "gear",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "evolution"
+    ],
+    "actions": [],
+    "description": "<p>Effect: This item enables DNA Digivolution.</p>",
+    "container": null,
+    "crafting": {
+      "skill": "",
+      "spans": null,
+      "materials": []
+    },
+    "equipped": {
+      "carryType": "stowed",
+      "slot": "slotless",
+      "handsHeld": null
+    },
+    "grade": null,
+    "fling": {
+      "type": "untyped",
+      "power": null,
+      "accuracy": 100,
+      "hide": true,
+      "range": {
+        "target": "creature",
+        "distance": 10,
+        "unit": "m"
+      }
+    },
+    "quantity": 1,
+    "rarity": "unique",
+    "ammoType": [],
+    "ammo": null,
+    "identification": {
+      "misidentified": null,
+      "status": "identified",
+      "unidentified": {
+        "name": "Unidentified Item",
+        "img": "systems/ptu/css/images/icons/gear_icon.png",
+        "description": "<p>Unidentified Item</p>"
+      }
+    }
+  },
+  "_id": "2x15KliV2Cusz7G2",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5760.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793286195133,
+    "modifiedTime": 1793286195133,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

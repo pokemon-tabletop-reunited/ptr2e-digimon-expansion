@@ -1,0 +1,115 @@
+{
+  "folder": null,
+  "name": "Hop Dunk",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Hop Dunk (Resolution)",
+        "slug": "hop-dunk-resolution",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5607.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "crushing",
+          "sky"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "normal"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user leaps 20m into the air and may move horizontally as though moving overland, descending on the target and inflicting @Affliction[grounded 5].</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 95,
+        "accuracy": 100
+      },
+      {
+        "name": "Hop Dunk Action (Set-Up)",
+        "slug": "hop-dunk-set-up",
+        "description": "<p>Effect: The user tamps down, gaining @Affliction[true-sight 3] and advances 30%.</p>",
+        "traits": [
+          "digimon",
+          "set-up",
+          "priority-30"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5607.png",
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 1,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "2arAvd7WGQnO0pk2",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5607.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781083926169,
+    "modifiedTime": 1781083926169,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

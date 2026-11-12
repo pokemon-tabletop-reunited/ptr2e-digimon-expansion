@@ -19,10 +19,11 @@
         "name": "Spiral Bone",
         "slug": "spiral-bone",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5350.png",
         "traits": [
           "digimon",
-          "missile"
+          "missile",
+          "bone"
         ],
         "cost": {
           "activation": "complex",
@@ -40,13 +41,14 @@
           "unit": "m"
         },
         "power": 95,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "spiral-bone"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5350.png",
   "effects": [],
-  "flags": {},
   "_id": "dse0PpEY8aFocIy5"
 }
