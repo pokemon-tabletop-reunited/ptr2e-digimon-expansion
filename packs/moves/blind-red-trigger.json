@@ -19,7 +19,7 @@
         "name": "Blind Red Trigger",
         "slug": "blind-red-trigger",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5427.png",
         "traits": [
           "digimon",
           "missile",
@@ -42,12 +42,14 @@
           "unit": "m"
         },
         "power": 25,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "blind-red-trigger"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5427.png",
   "effects": [
     {
       "name": "Blind Red Trigger",
@@ -63,9 +65,10 @@
             "predicate": [
               "target:trait:vaccine"
             ],
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -78,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -96,13 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "XvZFm89lj28Qj0Vi"
 }
