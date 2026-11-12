@@ -788,19 +788,21 @@
     "moves": {
       "levelUp": [
         {
-          "name": "water-gun",
+          "name": "sudden-strike",
           "level": 0,
           "gen": null
         },
         {
-          "name": "sudden-strike",
+          "name": "water-gun",
           "level": 0,
           "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
