@@ -19,7 +19,8 @@
       "mega",
       "deity",
       "bipedal",
-      "hover"
+      "hover",
+      "titan"
     ],
     "number": 5421,
     "stats": {
@@ -825,7 +826,8 @@
     "eggGroups": [
       "dark-area",
       "astral-sentinel",
-      "olympos-xii"
+      "olympos-xii",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

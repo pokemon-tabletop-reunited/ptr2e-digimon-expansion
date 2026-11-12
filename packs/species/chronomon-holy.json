@@ -38,7 +38,7 @@
       "category": "medium",
       "type": "height",
       "height": 6.3,
-      "weight": 0
+      "weight": 278
     },
     "diet": [],
     "abilities": {
@@ -812,7 +812,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "unknown"
+      "olympos-xii",
+      "wind-guardians",
+      "virus-busters"
     ],
     "genderRatio": -1,
     "habitats": [],

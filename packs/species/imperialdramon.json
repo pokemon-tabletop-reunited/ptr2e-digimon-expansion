@@ -18,7 +18,8 @@
       "mega",
       "quadrupedal",
       "free",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5439,
     "stats": {
@@ -823,7 +824,8 @@
       "dragons-roar",
       "metal-empire",
       "nature-spirits",
-      "wind-guardians"
+      "wind-guardians",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

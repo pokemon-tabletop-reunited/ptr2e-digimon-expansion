@@ -20,7 +20,8 @@
       "bipedal",
       "hover",
       "deity",
-      "olympos-12"
+      "olympos-12",
+      "titan"
     ],
     "number": 5434,
     "stats": {
@@ -817,7 +818,8 @@
     "eggGroups": [
       "nightmare-soldiers",
       "olympos-xii",
-      "astral-sentinel"
+      "astral-sentinel",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

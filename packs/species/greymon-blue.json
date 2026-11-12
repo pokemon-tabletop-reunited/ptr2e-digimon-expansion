@@ -21,7 +21,8 @@
       "tail",
       "horned",
       "pack-mon",
-      "dinosaur"
+      "dinosaur",
+      "titan"
     ],
     "number": 5110,
     "stats": {
@@ -844,7 +845,8 @@
     },
     "eggGroups": [
       "dragons-roar",
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

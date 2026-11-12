@@ -20,7 +20,8 @@
       "bipedal",
       "winged",
       "hover",
-      "horned"
+      "horned",
+      "titan"
     ],
     "number": 5405,
     "stats": {
@@ -813,7 +814,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "unknown"
+      "dark-area",
+      "olympos-xii",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

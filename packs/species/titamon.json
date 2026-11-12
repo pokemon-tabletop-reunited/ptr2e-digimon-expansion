@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "mega",
-      "bipedal"
+      "bipedal",
+      "titan"
     ],
     "number": 5410,
     "stats": {
@@ -827,7 +828,8 @@
       "dark-area",
       "nightmare-soldiers",
       "titans",
-      "celestial-walker"
+      "celestial-walker",
+      "olympos-xii"
     ],
     "genderRatio": -1,
     "habitats": [],

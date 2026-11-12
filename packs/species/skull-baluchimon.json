@@ -20,7 +20,8 @@
       "quadrupedal",
       "winged",
       "immortal",
-      "antibody"
+      "antibody",
+      "titan"
     ],
     "number": 5261,
     "stats": {
@@ -855,7 +856,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

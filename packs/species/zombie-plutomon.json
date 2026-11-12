@@ -20,7 +20,8 @@
       "bipedal",
       "hover",
       "deity",
-      "immortal"
+      "immortal",
+      "titan"
     ],
     "number": 5407,
     "stats": {
@@ -826,7 +827,8 @@
     "eggGroups": [
       "dark-area",
       "astral-sentinel",
-      "olympos-xii"
+      "olympos-xii",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

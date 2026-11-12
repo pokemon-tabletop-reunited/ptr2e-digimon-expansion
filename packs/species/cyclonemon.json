@@ -18,7 +18,8 @@
       "virus",
       "champion",
       "semi-bipedal",
-      "horned"
+      "horned",
+      "titan"
     ],
     "number": 5173,
     "stats": {
@@ -841,7 +842,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],
