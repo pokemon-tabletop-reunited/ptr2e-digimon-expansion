@@ -819,7 +819,12 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "wind-guardians",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "sakuyamon",
@@ -922,7 +927,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767409282212,

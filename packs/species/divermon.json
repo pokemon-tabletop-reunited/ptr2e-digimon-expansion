@@ -18,7 +18,8 @@
       "data",
       "ultimate",
       "bipedal",
-      "gilled"
+      "gilled",
+      "titan"
     ],
     "number": 5271,
     "stats": {
@@ -846,7 +847,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "divermon",
@@ -934,7 +938,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.361",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.5.beta",
         "createdTime": 1767094343757,
