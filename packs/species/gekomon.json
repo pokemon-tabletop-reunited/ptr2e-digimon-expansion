@@ -21,7 +21,8 @@
       "gilled",
       "deafening",
       "natural-swimmer",
-      "amphibian"
+      "amphibian",
+      "titan"
     ],
     "number": 5169,
     "stats": {
@@ -849,7 +850,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

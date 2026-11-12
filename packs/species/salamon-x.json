@@ -19,7 +19,8 @@
       "vaccine",
       "quadrupedal",
       "antibody",
-      "sparkler"
+      "sparkler",
+      "titan"
     ],
     "number": 5615,
     "stats": {
@@ -844,7 +845,8 @@
     },
     "eggGroups": [
       "nature-spirits",
-      "virus-busters"
+      "virus-busters",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

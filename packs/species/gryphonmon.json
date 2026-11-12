@@ -20,7 +20,8 @@
       "quadrupedal",
       "winged",
       "tailed",
-      "beast"
+      "beast",
+      "titan"
     ],
     "number": 5374,
     "stats": {
@@ -826,7 +827,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "wind-guardians"
+      "wind-guardians",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

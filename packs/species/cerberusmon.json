@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "ultimate",
-      "quadrupedal"
+      "quadrupedal",
+      "titan"
     ],
     "number": 5229,
     "stats": {
@@ -846,7 +847,8 @@
     "eggGroups": [
       "dark-area",
       "nightmare-soldiers",
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -18,7 +18,8 @@
       "virus",
       "mega",
       "bipedal",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5396,
     "stats": {
@@ -825,7 +826,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "metal-empire"
+      "metal-empire",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -19,7 +19,8 @@
       "virus",
       "bipedal",
       "wielder",
-      "rookie"
+      "rookie",
+      "titan"
     ],
     "number": 5070,
     "stats": {
@@ -836,7 +837,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

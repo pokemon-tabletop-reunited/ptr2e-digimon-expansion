@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "rookie",
-      "quadrupedal"
+      "quadrupedal",
+      "titan"
     ],
     "number": 5038,
     "stats": {
@@ -865,7 +866,8 @@
     },
     "eggGroups": [
       "nature-spirits",
-      "virus-busters"
+      "virus-busters",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],
