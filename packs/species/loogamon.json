@@ -853,7 +853,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -957,7 +959,7 @@
         }
       },
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775141243459,
@@ -971,6 +973,5 @@
       "showIcon": 1,
       "folder": null
     }
-  ],
-  "flags": {}
+  ]
 }

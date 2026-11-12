@@ -19,7 +19,7 @@
         "name": "Thousand Fists",
         "slug": "thousand-fists",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
         "traits": [
           "digimon",
           "20-strike",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "thousand-fists"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5433.png",
   "effects": [],
-  "flags": {},
   "_id": "fddrB3l84jkxCj1t"
 }

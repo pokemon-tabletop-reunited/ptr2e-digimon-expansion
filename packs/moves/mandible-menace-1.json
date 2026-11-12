@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "mandible-menace-1",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -26,32 +26,18 @@
           "digimon",
           "contact",
           "jaw",
-          "double-strike"
+          "double-strike",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 1,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 1
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "bug"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -61,28 +47,9 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "D"
   },
   "_id": "ljXJMaYuhGIAuK3K",
   "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956653130,
-    "modifiedTime": 1779956653130,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  "effects": []
 }

@@ -19,7 +19,7 @@
         "name": "Zeppelin Explosion",
         "slug": "zeppelin-explosion",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5156.png",
         "traits": [
           "digimon",
           "blast-5",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 70
+        "accuracy": 70,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "zeppelin-explosion"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5156.png",
   "effects": [],
-  "flags": {},
   "_id": "JtHztbDFWuPEU8Y9"
 }

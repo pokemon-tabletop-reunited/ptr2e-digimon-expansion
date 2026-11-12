@@ -19,7 +19,7 @@
         "name": "Bear Fist",
         "slug": "bear-fist",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5039.png",
         "traits": [
           "digimon",
           "punch",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "bear-fist"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5039.png",
   "effects": [],
-  "flags": {},
   "_id": "2Heab6YKOpgVkqZo"
 }
