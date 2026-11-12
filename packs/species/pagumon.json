@@ -14,7 +14,6 @@
       "notes": "<p><span style=\"font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Noto Sans JP', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 微软雅黑, 宋体, Arial, メイリオ, Meiryo, sans-serif\">A small Digimon that can perform low-altitude flight with the ear-like appendages on its head. Pagumon can move its ears skillfully, using them like hands. In fact, it will often mockingly pull down the enemy's eyelids, or slap the enemy's rear. This Digimon loves pranks. It often teases the likes of Koromon or Tsunomon, chasing them around and around. It may spit Poison Bubbles from its mouth to bully other Digimon.</span></p>"
     },
     "traits": [
-      "baby",
       "in-training",
       "free",
       "legless",
@@ -205,7 +204,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "witchelny"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "pagumon",

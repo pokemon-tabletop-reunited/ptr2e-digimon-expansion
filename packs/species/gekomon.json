@@ -22,7 +22,7 @@
       "deafening",
       "natural-swimmer",
       "amphibian",
-      "underdog"
+      "titan"
     ],
     "number": 5169,
     "stats": {
@@ -849,7 +849,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "gekomon",
@@ -931,7 +934,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775554383107,

@@ -1,121 +1,134 @@
 {
-  "name": "King of Fists",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "King of Fists",
-        "slug": "king-of-fists",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
-        "traits": [
-          "punch",
-          "3-strike",
-          "wind",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 7
-        },
-        "types": [
-          "fighting",
-          "flying"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack has a 15% chance to inflict @Affliction[delay 30] and counts as both Fighting and Flying.</p>",
-        "range": {
-          "target": "enemy",
-          "distance": 4,
-          "unit": "m"
-        },
-        "power": 55,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "king-of-fists"
-  },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
-  "effects": [
-    {
-      "name": "King of Fists",
-      "type": "passive",
-      "_id": "InkmdZxoNFLkrppY",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "king-of-fists-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
-            "predicate": [],
-            "chance": 15,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.amount",
-                "value": -30
-              }
-            ],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777546293095,
-        "modifiedTime": 1777546298649
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "0p0kpkzca6QF64Tx"
+    "_id":  "0p0kpkzca6QF64Tx",
+    "effects":  [
+                    {
+                        "_id":  "InkmdZxoNFLkrppY",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777546293095,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777546298649,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "King of Fists",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "king-of-fists-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  15,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  -30
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5226.png",
+    "name":  "King of Fists",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  7
+                                                },
+                                       "description":  "\u003cp\u003eThis attack has a 15% chance to inflict @Affliction[delay 30] and counts as both Fighting and Flying.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5226.png",
+                                       "name":  "King of Fists",
+                                       "power":  55,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  4,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "king-of-fists",
+                                       "traits":  [
+                                                      "punch",
+                                                      "3-strike",
+                                                      "wind",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fighting",
+                                                     "flying"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "king-of-fists",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

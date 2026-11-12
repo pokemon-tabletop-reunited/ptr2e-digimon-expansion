@@ -19,7 +19,7 @@
         "name": "Fif Cross",
         "slug": "fif-cross",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5155.png",
         "traits": [
           "double-strike",
           "contact",
@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4
+          "powerPoints": 2
         },
         "types": [
           "fighting"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 55,
-        "accuracy": 90
+        "accuracy": 90,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "fif-cross"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5155.png",
   "effects": [],
   "_id": "4zLUFypQZ8lZT2CC"
 }
