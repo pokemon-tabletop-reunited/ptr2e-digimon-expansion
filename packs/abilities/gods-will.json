@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "God's Will",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate",
+      "aura"
+    ],
+    "actions": [],
+    "description": "<p>Effect: The user projects an aura that enhances allies' Power and EHR by 60%, while offering 30% RES and Multiplicative Damage Reduction, applying to @Trait[dot] and @Trait[flat] damage also.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "RW3JxilRndqX8qMQ",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5895.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793705685391,
+    "modifiedTime": 1793705685391,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

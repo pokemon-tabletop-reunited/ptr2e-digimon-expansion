@@ -19,7 +19,7 @@
         "name": "Volcanic Driver",
         "slug": "volcanic-driver",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5383.png",
         "traits": [
           "contact",
           "grapple",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 130,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "volcanic-driver"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5383.png",
   "effects": [],
-  "flags": {},
   "_id": "flBiAjxp4Pnnb8Sy"
 }
