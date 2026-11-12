@@ -14,12 +14,12 @@
       "notes": ""
     },
     "traits": [
-      "baby",
       "legless",
       "speech",
       "free",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5006,
     "stats": {
@@ -805,7 +805,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "nature-spirits",
+      "witchelny"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "botamon",
