@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "ultimate",
-      "quadrupedal"
+      "quadrupedal",
+      "titan"
     ],
     "number": 5229,
     "stats": {
@@ -843,7 +844,12 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers",
+      "nature-spirits",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "cerberusmon",
@@ -951,7 +957,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.358",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.0.beta.rc.2",
         "createdTime": 1767089746338,
@@ -1121,7 +1127,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.358",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.0.beta.rc.3",
         "createdTime": 1774876736995,

@@ -19,7 +19,7 @@
         "name": "Spiral Edge",
         "slug": "spiral-edge",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5068.png",
         "traits": [
           "digimon",
           "curl",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 55,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "spiral-edge"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5068.png",
   "effects": [],
-  "flags": {},
   "_id": "5jPVYdt534psxfF8"
 }

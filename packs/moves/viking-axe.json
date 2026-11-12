@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Viking Axe",
   "type": "move",
   "system": {
@@ -19,7 +18,7 @@
         "name": "Viking Axe",
         "slug": "viking-axe",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5440.png",
         "traits": [
           "contact",
           "hammer",
@@ -29,26 +28,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fighting"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This Attack has +15 Accuracy and is one step more effective against @Affliction[frozen] creatures.</p>",
         "range": {
@@ -60,11 +46,9 @@
         "accuracy": 85
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "E"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5440.png",
   "effects": [
     {
       "name": "Viking Axe",
@@ -81,9 +65,10 @@
               "target:effect:affliction:frozen"
             ],
             "label": "Vs Frozen (Acc)",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "flat-modifier",
@@ -93,9 +78,10 @@
               "target:effect:affliction:frozen"
             ],
             "label": "Vs Frozen",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -108,8 +94,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -126,29 +114,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1771262301174,
-    "modifiedTime": 1771287493575,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  },
-  "_id": "93DUs3lOR8wkmGMp",
-  "sort": 0
+  "_id": "93DUs3lOR8wkmGMp"
 }
