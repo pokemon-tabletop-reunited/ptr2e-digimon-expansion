@@ -1,0 +1,158 @@
+{
+  "folder": "ANyTBaCvsFOl1tzn",
+  "name": "Certain Victory",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "certain-victory",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [
+      {
+        "name": "Certain Victory (Decisive Blow)",
+        "slug": "certain-victory",
+        "description": "<p>Trigger: The user lands a Critical Hit</p><p>Effect: The user and allies in range gain @Affliction[advance 20].</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "generic",
+        "img": "systems/ptr2e/img/icons/ability_icon.webp",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "emanation",
+          "distance": 6,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "<p>Trigger: The user lands a Critical Hit</p><p>Effect: The user and allies in range gain @Affliction[advance 20].</p><p>Passive: The user has +1 default ACC and CRIT stage.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "NYM0xHrFNYWmp6mq",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5891.png",
+  "effects": [
+    {
+      "name": "Certain Victory",
+      "type": "passive",
+      "_id": "jQqEXguuC0t7dVCb",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.advancecondition",
+            "phase": "initial",
+            "predicate": [],
+            "key": "certain-victory-generic",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.amount",
+                "value": 20
+              }
+            ],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.battleStats.accuracy.stage",
+            "value": 1,
+            "phase": "initial",
+            "predicate": [],
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "basic",
+            "key": "system.battleStats.critRate.stage",
+            "value": 1,
+            "phase": "initial",
+            "predicate": [],
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1792076091504,
+        "modifiedTime": 1792076091504,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792076091504,
+    "modifiedTime": 1792076091505,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

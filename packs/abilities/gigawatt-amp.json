@@ -1,0 +1,115 @@
+{
+  "folder": "ANyTBaCvsFOl1tzn",
+  "name": "Gigawatt Amp",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "sonic"
+    ],
+    "actions": [],
+    "description": "<p>Passive: When the user uses a @Trait[sonic] attack, the power of the attack increases by 30% and the attack changes it's type to @Trait[electric]-type.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "2lt8wBBBPaXoG0jw",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5732.png",
+  "effects": [
+    {
+      "name": "Gigawatt Amp",
+      "type": "passive",
+      "_id": "DLdoAdWXByvTmMs5",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "percentile-modifier",
+            "value": 30,
+            "phase": "initial",
+            "predicate": [],
+            "key": "sonic-trait-attack-power",
+            "method": 2,
+            "ignored": false,
+            "hideIfDisabled": false
+          },
+          {
+            "type": "alter-attack",
+            "value": "electric",
+            "phase": "initial",
+            "predicate": [],
+            "method": 5,
+            "property": "type",
+            "definition": [],
+            "key": "sonic-trait-attack",
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1785088208261,
+        "modifiedTime": 1785088208261,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1785088208261,
+    "modifiedTime": 1785088208669,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 300000
+}
