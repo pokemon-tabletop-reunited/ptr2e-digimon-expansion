@@ -20,7 +20,7 @@
         "name": "Purgatory Claws",
         "slug": "purgatory-claws",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5504.png",
         "traits": [
           "digimon",
           "double-strike",
@@ -31,7 +31,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 4
         },
         "types": [
           "fire",
@@ -47,12 +47,13 @@
           "unit": "m"
         },
         "power": 50,
-        "accuracy": 95
+        "accuracy": 95,
+        "free": true
       }
     ],
     "grade": "A"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5504.png",
   "effects": [
     {
       "name": "Purgatory Claws",
@@ -152,7 +153,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",

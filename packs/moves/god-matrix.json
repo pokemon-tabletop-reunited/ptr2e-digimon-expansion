@@ -20,7 +20,7 @@
         "name": "God Matrix",
         "slug": "god-matrix",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5461.png",
         "traits": [
           "digimon",
           "blast-6",
@@ -30,26 +30,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 16,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 16
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "untyped"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This attack is unaffected by the Abilities of other creatures. On hit, all valid targets gain @Affliction[desync 1] and have a 30% chance to gain @Affliction[perish 8]. This Attack has -80% EHR and -175 base Power against non-@Trait[digimon] creatures. On resolution, this Attack is @Affliction[disabled 5].</p>",
         "range": {
@@ -61,12 +48,10 @@
         "accuracy": 85
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "KSfN3NwE3ZT9A2CZ",
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5461.png",
   "effects": [
     {
       "name": "God Matrix",
@@ -85,14 +70,15 @@
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
                 "property": "duration.turns",
-                "value": 1
+                "value": 1,
+                "method": 2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "roll-effect",
@@ -104,14 +90,15 @@
             "affects": "target",
             "alterations": [
               {
-                "mode": 5,
                 "property": "duration.turns",
-                "value": 8
+                "value": 8,
+                "method": 2
               }
             ],
             "dontMerge": false,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "roll-effect",
@@ -123,8 +110,9 @@
             "affects": "self",
             "alterations": [],
             "dontMerge": false,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "ephemeral-effect",
@@ -138,13 +126,14 @@
             "affects": "self",
             "alterations": [
               {
-                "mode": 5,
                 "property": "system.changes.0.value",
-                "value": -80
+                "value": -80,
+                "method": 2
               }
             ],
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "alter-attack",
@@ -157,8 +146,9 @@
             ],
             "property": "power",
             "definition": [],
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -171,8 +161,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -189,31 +181,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1771276191010,
         "modifiedTime": 1771276426749,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
-  ],
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "Bk6N5iKyebvEVXhL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1771276020772,
-    "modifiedTime": 1771276511901,
-    "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-  }
+  ]
 }
