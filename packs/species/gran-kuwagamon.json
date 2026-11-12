@@ -20,7 +20,8 @@
       "many-legged",
       "winged",
       "darkvision-20",
-      "wallclimber"
+      "wallclimber",
+      "titan"
     ],
     "number": 5442,
     "stats": {
@@ -825,7 +826,8 @@
       "nature-spirits",
       "nightmare-soldiers",
       "metal-empire",
-      "wind-guardians"
+      "wind-guardians",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

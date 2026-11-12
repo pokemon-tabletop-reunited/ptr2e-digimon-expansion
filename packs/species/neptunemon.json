@@ -21,7 +21,8 @@
       "gilled",
       "olympos-12",
       "aquatic",
-      "deity"
+      "deity",
+      "titan"
     ],
     "number": 5357,
     "stats": {
@@ -822,7 +823,8 @@
     },
     "eggGroups": [
       "deep-savers",
-      "olympos-xii"
+      "olympos-xii",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

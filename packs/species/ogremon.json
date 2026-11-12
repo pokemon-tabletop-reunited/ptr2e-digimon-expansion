@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "titan"
     ],
     "number": 5163,
     "stats": {
@@ -840,7 +841,8 @@
     },
     "eggGroups": [
       "dark-area",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

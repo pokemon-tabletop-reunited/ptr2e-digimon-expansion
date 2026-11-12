@@ -19,7 +19,8 @@
       "champion",
       "bipedal",
       "hover",
-      "arcane"
+      "arcane",
+      "titan"
     ],
     "number": 5135,
     "stats": {
@@ -851,7 +852,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "witchelny"
+      "witchelny",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -19,7 +19,8 @@
       "ultimate",
       "winged",
       "bipedal",
-      "zapper"
+      "zapper",
+      "titan"
     ],
     "number": 5235,
     "stats": {
@@ -858,7 +859,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "wind-guardians"
+      "wind-guardians",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

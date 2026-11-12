@@ -19,7 +19,8 @@
       "ultimate",
       "quadrupedal",
       "wallclimber",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5291,
     "stats": {
@@ -850,7 +851,8 @@
     },
     "eggGroups": [
       "nature-spirits",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

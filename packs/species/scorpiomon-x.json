@@ -22,7 +22,8 @@
       "lumbering",
       "fossil",
       "antibody",
-      "bladed"
+      "bladed",
+      "titan"
     ],
     "number": 5698,
     "stats": {
@@ -849,7 +850,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "deep-savers"
+      "deep-savers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

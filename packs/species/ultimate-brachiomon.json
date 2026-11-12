@@ -20,7 +20,8 @@
       "quadrupedal",
       "lumbering",
       "construct",
-      "antibody"
+      "antibody",
+      "titan"
     ],
     "number": 5368,
     "stats": {
@@ -821,7 +822,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "metal-empire"
+      "metal-empire",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

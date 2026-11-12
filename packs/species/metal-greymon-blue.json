@@ -20,7 +20,8 @@
       "horned",
       "tailed",
       "virus",
-      "construct"
+      "construct",
+      "titan"
     ],
     "number": 5244,
     "stats": {
@@ -846,7 +847,8 @@
     },
     "eggGroups": [
       "metal-empire",
-      "crack-team"
+      "crack-team",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

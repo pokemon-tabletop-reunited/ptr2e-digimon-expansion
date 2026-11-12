@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal"
+      "bipedal",
+      "titan"
     ],
     "number": 5184,
     "stats": {
@@ -841,7 +842,8 @@
     },
     "eggGroups": [
       "nightmare-soldiers",
-      "toho-braves"
+      "toho-braves",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

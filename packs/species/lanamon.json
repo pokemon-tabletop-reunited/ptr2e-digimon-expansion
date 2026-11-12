@@ -20,7 +20,8 @@
       "bipedal",
       "gilled",
       "aquatic",
-      "arcane"
+      "arcane",
+      "titan"
     ],
     "number": 5210,
     "stats": {
@@ -861,7 +862,8 @@
     },
     "eggGroups": [
       "deep-savers",
-      "evil-warriors"
+      "evil-warriors",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

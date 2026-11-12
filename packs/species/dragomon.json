@@ -19,7 +19,8 @@
       "bipedal",
       "gilled",
       "deep-diver",
-      "ultimate"
+      "ultimate",
+      "titan"
     ],
     "number": 5304,
     "stats": {
@@ -849,7 +850,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "deep-savers"
+      "deep-savers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

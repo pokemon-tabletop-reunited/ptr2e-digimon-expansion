@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5168,
     "stats": {
@@ -846,7 +847,8 @@
     },
     "eggGroups": [
       "nature-spirits",
-      "wind-guardians"
+      "wind-guardians",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

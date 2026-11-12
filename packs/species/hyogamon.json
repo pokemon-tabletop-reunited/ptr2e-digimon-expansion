@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "champion",
-      "well-built"
+      "well-built",
+      "titan"
     ],
     "number": 5183,
     "stats": {
@@ -841,7 +842,8 @@
     },
     "eggGroups": [
       "deep-savers",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

@@ -20,7 +20,8 @@
       "natural-swimmer",
       "gilled",
       "aquatic",
-      "fossil"
+      "fossil",
+      "titan"
     ],
     "number": 5144,
     "stats": {
@@ -843,7 +844,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "deep-savers"
+      "deep-savers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

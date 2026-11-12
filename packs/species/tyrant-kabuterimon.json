@@ -19,7 +19,8 @@
       "mega",
       "legless",
       "winged",
-      "hive-commander"
+      "hive-commander",
+      "titan"
     ],
     "number": 5411,
     "stats": {
@@ -819,7 +820,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nature-spirits"
+      "nature-spirits",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

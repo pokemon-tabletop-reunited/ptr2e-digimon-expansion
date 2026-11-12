@@ -20,7 +20,8 @@
       "serpentine",
       "breathless",
       "horned",
-      "immortal"
+      "immortal",
+      "titan"
     ],
     "number": 5302,
     "stats": {
@@ -852,7 +853,8 @@
     },
     "eggGroups": [
       "deep-savers",
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],
