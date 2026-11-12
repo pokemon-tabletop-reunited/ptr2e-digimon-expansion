@@ -19,7 +19,9 @@
       "champion",
       "bipedal",
       "heater",
-      "darkvision-15"
+      "darkvision-15",
+      "evil-touch",
+      "firestarter"
     ],
     "number": 5465,
     "stats": {
@@ -835,7 +837,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nightmare-soldiers"
+      "nightmare-soldiers",
+      "witchelny"
     ],
     "genderRatio": -1,
     "habitats": [
