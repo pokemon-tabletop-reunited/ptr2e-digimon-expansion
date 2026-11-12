@@ -858,7 +858,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "d-brigade"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -879,7 +882,8 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "hi-commandramon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5514.png",
   "effects": [
@@ -892,7 +896,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.7ImLr5wpdh1OREKh",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:hi-commandramon"
@@ -904,7 +907,30 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
+            "ignored": false,
+            "inMemoryOnly": false,
+            "track": false,
+            "replaceSelf": false
+          },
+          {
+            "type": "grant-item",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.HKB1OCRUeFe4iNk5",
+            "predicate": [
+              "item:ptr2e-digimon-expansion.digimonSpecies:hi-commandramon"
+            ],
+            "allowDuplicate": false,
+            "alterations": [],
+            "onDeleteActions": {
+              "grantee": "detach",
+              "granter": "cascade"
+            },
+            "reevaluateOnUpdate": true,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -921,8 +947,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -939,15 +967,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
+        "systemVersion": "1.7.6.beta",
         "createdTime": 1771417876318,
-        "modifiedTime": 1771417901595,
+        "modifiedTime": 1782660622092,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "SvjvCLxL14TErwdp"
 }

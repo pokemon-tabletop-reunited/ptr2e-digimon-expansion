@@ -19,7 +19,7 @@
         "name": "Strike of the Seven Stars",
         "slug": "strike-of-the-seven-stars",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5354.png",
         "traits": [
           "digimon",
           "7-strike",
@@ -41,13 +41,14 @@
           "unit": "m",
           "distance": 10
         },
-        "power": 20
+        "power": 20,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "strike-of-the-seven-stars"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5354.png",
   "effects": [],
   "_id": "LHmQFemyyC4m5OLr"
 }

@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Bottomless Greed Horn",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Bottomless Greed Horn",
+        "slug": "bottomless-greed-horn",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5887.png",
+        "traits": [
+          "digimon",
+          "jaw",
+          "drain-1-4",
+          "contact"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 9,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fairy"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user afflicts a target with @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} and @Affliction[leech] whilst the target is @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed}. Only one target may be @UUID[Compendium.ptr2e.core-effects-new.engulfedconditem]{Engulfed} at any one time.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 130,
+        "accuracy": 95
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "fCkXKWMzuHfyzhqi",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5887.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792075684953,
+    "modifiedTime": 1792075684953,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

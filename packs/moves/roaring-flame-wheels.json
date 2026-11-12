@@ -1,0 +1,91 @@
+{
+  "folder": null,
+  "name": "Roaring Flame Wheels",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [
+        "Fox",
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Roaring Flame Wheels",
+        "slug": "roaring-flame-wheels",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5902.png",
+        "traits": [
+          "digimon",
+          "4-strike",
+          "ignore-type-immunity"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 6,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "flying",
+          "fire",
+          "water",
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "creature",
+          "distance": 15,
+          "unit": "m"
+        },
+        "power": 35,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "Nz5UZ9d11BrwAyOZ",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5902.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282443903,
+    "modifiedTime": 1793282443903,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
