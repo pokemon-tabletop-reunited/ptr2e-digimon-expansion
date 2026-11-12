@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "tremorsense-20",
-      "armour-digimon"
+      "armour-digimon",
+      "sponge"
     ],
     "number": 5202,
     "stats": {
@@ -831,11 +832,6 @@
           "gen": null
         },
         {
-          "name": "hive-assault",
-          "level": 29,
-          "gen": null
-        },
-        {
           "name": "brick-break",
           "level": 22,
           "gen": null
@@ -848,6 +844,11 @@
         {
           "name": "bulldoze",
           "level": 28,
+          "gen": null
+        },
+        {
+          "name": "hive-assault",
+          "level": 29,
           "gen": null
         },
         {
@@ -868,7 +869,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "digmon",
@@ -876,7 +881,13 @@
       "x": 43,
       "y": 160,
       "connected": [
-        "armadillomon"
+        "armadillomon",
+        "drimogemon",
+        "sunarizamon",
+        "magna-angemon",
+        "jyagamon",
+        "mummymon",
+        "skull-scorpionmon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-knowledge"
@@ -944,7 +955,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767094099777,

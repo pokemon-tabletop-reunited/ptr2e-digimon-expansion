@@ -859,7 +859,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -964,7 +966,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1777226112110,
@@ -975,6 +977,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

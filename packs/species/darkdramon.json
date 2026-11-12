@@ -825,7 +825,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "metal-empire",
+      "d-brigade"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "darkdramon",
@@ -930,7 +934,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767092571690,
