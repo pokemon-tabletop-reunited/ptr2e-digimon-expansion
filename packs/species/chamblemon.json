@@ -845,7 +845,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "unknown"
+      "jungle-troopers",
+      "nature-spirits",
+      "wind-guardians"
     ],
     "genderRatio": -1,
     "habitats": [],
