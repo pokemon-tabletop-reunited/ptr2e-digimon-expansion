@@ -820,8 +820,8 @@
     "habitats": [],
     "slug": "alphamon-ouryuken",
     "node": {
-      "x": 248,
-      "y": 43,
+      "x": 247,
+      "y": 41,
       "connected": [
         "alphamon"
       ],
@@ -912,7 +912,7 @@
         "compendiumSource": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.15Xg7miMf7azhYf4.ActiveEffect.ctC3XUzqOduLXIqQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770951077431,

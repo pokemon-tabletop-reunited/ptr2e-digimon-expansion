@@ -19,7 +19,7 @@
         "name": "Wyvern's Breath",
         "slug": "wyverns-breath",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5380.png",
         "traits": [
           "contact",
           "dash",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 150,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "wyverns-breath"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5380.png",
   "effects": [],
-  "flags": {},
   "_id": "LMuCIoymsDKT16H7"
 }

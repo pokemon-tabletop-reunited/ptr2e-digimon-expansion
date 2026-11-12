@@ -822,7 +822,12 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "nature-spirits",
+      "astral-sentinel",
+      "olympos-xii"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "dianamon",
@@ -926,7 +931,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767093943473,
