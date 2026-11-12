@@ -16,13 +16,13 @@
     "traits": [
       "digimon",
       "vaccine",
-      "mega",
       "bipedal",
       "horned",
       "tailed",
       "hover",
       "ufo",
-      "glow-5"
+      "glow-5",
+      "ultra-digimon"
     ],
     "number": 5538,
     "stats": {
@@ -829,7 +829,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -928,7 +931,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1777030914584,
