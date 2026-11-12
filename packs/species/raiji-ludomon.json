@@ -57,6 +57,9 @@
       "advanced": [
         {
           "slug": "soul-turbine"
+        },
+        {
+          "slug": "friend-guard"
         }
       ],
       "master": []
@@ -851,7 +854,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "virus-busters"
+      "virus-busters",
+      "legend-arms"
     ],
     "genderRatio": -1,
     "habitats": [],
