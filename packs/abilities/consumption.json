@@ -16,7 +16,8 @@
       "digimon"
     ],
     "actions": [],
-    "description": "<p>Passive: After attacking, the user loses @Tick[-2] and gains @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage for 5 activations}.</p>"
+    "description": "<p>Passive: After attacking, the user loses @Tick[-2] and gains @UUID[Compendium.ptr2e.core-effects.ZGwaMlzUwkSuCPyH]{+1 Attack Stage for 5 activations}.</p>",
+    "slug": "consumption"
   },
   "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
   "effects": [
@@ -37,14 +38,15 @@
             "affects": "self",
             "alterations": [
               {
+                "method": 5,
                 "property": "system.changes.0.value",
-                "value": -2,
-                "method": 5
+                "value": -2
               }
             ],
-            "dontMerge": false,
-            "ignored": false,
-            "method": 2
+            "dontMerge": true,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           },
           {
             "type": "roll-effect",
@@ -55,9 +57,10 @@
             "isFixedChance": false,
             "affects": "self",
             "alterations": [],
-            "dontMerge": false,
-            "ignored": false,
-            "method": 2
+            "dontMerge": true,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -71,7 +74,9 @@
       "disabled": false,
       "duration": {
         "units": "turns",
-        "value": null
+        "value": null,
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -84,13 +89,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.364",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.2.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.6.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1783077961078,
+        "modifiedTime": 1783077962233
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "VMNV74DDMoYpf2fQ"
 }

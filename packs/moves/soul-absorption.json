@@ -19,7 +19,7 @@
         "name": "Soul Absorption",
         "slug": "soul-absorption",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5022.png",
         "traits": [
           "contact",
           "drain-5-16",
@@ -43,13 +43,14 @@
         "power": 70,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>A draining attack.</p>"
+        "description": "<p>A draining attack.</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "soul-absorption"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5022.png",
   "effects": [],
   "_id": "lbooNDuyd1phJLXB"
 }

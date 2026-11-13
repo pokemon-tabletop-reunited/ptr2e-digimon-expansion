@@ -19,7 +19,7 @@
         "name": "Ninja Claw",
         "slug": "ninja-claw",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5151.png",
         "traits": [
           "contact",
           "3-strike",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "ninja-claw"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5151.png",
   "effects": [],
   "_id": "lKPjcRsj8AC4FPv2"
 }
