@@ -19,7 +19,7 @@
         "name": "Pepper Breath",
         "slug": "pepper-breath",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5024.png",
         "traits": [
           "push-1",
           "missile",
@@ -40,13 +40,14 @@
         "category": "physical",
         "power": 70,
         "accuracy": 100,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "pepper-breath"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5024.png",
   "effects": [],
   "_id": "FrkxLTseooPUusf5"
 }

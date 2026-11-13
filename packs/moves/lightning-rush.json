@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Lightning Rush",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Lightning Rush",
+        "slug": "lightning-rush",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5691.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "dash"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "spe",
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user may freely relocate to the other end of the target area. This attack uses Speed as it's damaging stat.</p>",
+        "range": {
+          "target": "wide-line",
+          "distance": 6,
+          "unit": "m"
+        },
+        "power": 90,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "_id": "mVclqOySLHzWeFM3",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5691.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1783172229610,
+    "modifiedTime": 1783172229610,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

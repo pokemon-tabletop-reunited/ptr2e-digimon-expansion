@@ -17,7 +17,8 @@
       "digimon",
       "virus",
       "mega",
-      "bipedal"
+      "bipedal",
+      "titan"
     ],
     "number": 5410,
     "stats": {
@@ -823,7 +824,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers",
+      "titans",
+      "celestial-walker",
+      "olympos-xii"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "titamon",
@@ -923,7 +930,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775553111678,
