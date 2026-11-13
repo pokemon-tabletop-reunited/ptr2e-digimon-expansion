@@ -21,7 +21,8 @@
       "legless",
       "beast",
       "pack-mon",
-      "antibody"
+      "antibody",
+      "fresh"
     ],
     "number": 5519,
     "stats": {
@@ -808,7 +809,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -822,6 +825,5 @@
   },
   "_id": "J3Q7YSaIOcGDSkmW",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5519.png",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }

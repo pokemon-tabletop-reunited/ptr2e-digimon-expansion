@@ -22,7 +22,8 @@
       "speech",
       "darkvision-15",
       "wallclimber",
-      "unknown"
+      "unknown",
+      "underdog"
     ],
     "number": 5013,
     "stats": {
@@ -168,7 +169,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "dark-area"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "tsumemon",
