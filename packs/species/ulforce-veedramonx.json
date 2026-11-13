@@ -818,7 +818,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "wind-guardians",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -920,7 +924,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
