@@ -13,7 +13,7 @@
       ],
       "notes": ""
     },
-    "slug": "megakabuterimon-blue",
+    "slug": "mega-kabuterimon-blue",
     "traits": [
       "digimon",
       "data",
@@ -869,7 +869,6 @@
       "x": 109,
       "y": 68,
       "connected": [
-        "blade-kuwagamon",
         "kurisarimon",
         "roachmon",
         "kabuterimon",
