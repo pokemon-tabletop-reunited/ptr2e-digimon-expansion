@@ -853,7 +853,12 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians",
+      "virus-busters",
+      "angel-army"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "angewomon",
@@ -871,7 +876,13 @@
         "mastemon",
         "ophanimon-fm",
         "ophanimon",
-        "rasielmon"
+        "rasielmon",
+        "halsemon",
+        "lovely-angemon",
+        "mitamamon",
+        "nefertimon",
+        "piddomon",
+        "quantumon"
       ],
       "prerequisites": [
         {
@@ -906,11 +917,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -923,8 +935,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -941,13 +955,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770950517270,
         "modifiedTime": 1770950582938,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "3f2EtLrTSGakt25s"

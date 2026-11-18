@@ -1,0 +1,164 @@
+{
+  "folder": null,
+  "name": "Headless Horseman",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate",
+      "partial-automation"
+    ],
+    "actions": [
+      {
+        "name": "No Escape",
+        "slug": "no-escape",
+        "description": "<p>Trigger: An enemy attempts to leave melee range.</p><p></p><p>Effect: The user may move, as Forced Movement, to remain within melee range of the triggering creature. This ability ignore the effects of the Run Away Ability or Mobilize Summon.</p>",
+        "traits": [
+          "digimon",
+          "innate",
+          "interrupt"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5803.png",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 2,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      },
+      {
+        "name": "Headtaker",
+        "slug": "headtaker",
+        "description": "<p>Trigger: The user defeats an enemy using a Damaging Attack.</p><p>Effect: The user gains +1 Attack Stage for 5 activations, and heals HP equal to 1/2 the victim's Max HP.</p>",
+        "traits": [
+          "digimon",
+          "innate"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5803.png",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": null,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "<p>No Escape:</p><p>Trigger: An enemy attempts to leave melee range.</p><p>Effect: The user may move, as Forced Movement, to remain within melee range of the triggering creature. This ability ignore the effects of the Run Away Ability or Mobilize Summon.</p><p>Headtaker:</p><p>Trigger: The user defeats an enemy using a Damaging Attack.</p><p>Effect: The user gains +1 Attack Stage for 5 activations, and heals HP equal to 1/2 the victim's Max HP.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "TlTVNEdUAYtKTFxt",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5803.png",
+  "effects": [
+    {
+      "name": "Headless Horseman",
+      "type": "passive",
+      "_id": "Rjh2cgk2EzTRLJSh",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "headtaker-generic",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1795004503050,
+        "modifiedTime": 1795004503050,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795004503050,
+    "modifiedTime": 1795004503050,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

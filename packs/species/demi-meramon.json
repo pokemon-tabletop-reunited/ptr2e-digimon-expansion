@@ -807,7 +807,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "demi-meramon",
@@ -816,13 +819,21 @@
       "y": 145,
       "connected": [
         "bommon",
+        "botamon",
         "candlemon",
         "coronamon",
-        "botamon",
         "impmon",
         "kunemon",
         "loogamon",
-        "shoutmon"
+        "shoutmon",
+        "tapirmon",
+        "demi-devimon",
+        "meramon",
+        "vorvomon",
+        "flamon",
+        "ghostmon",
+        "mokumon",
+        "yuramon"
       ],
       "prerequisites": [
         {

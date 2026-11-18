@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Black Sabbath Song",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Black Sabbath",
+        "slug": "black-sabbath",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5868.png",
+        "traits": [
+          "digimon",
+          "sonic",
+          "crushing",
+          "ignore-immunity-sonic",
+          "push-3"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "dark"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This attack ignores the @UUID[Compendium.ptr2e.core-abilities.Rvu4BklCGJmPB6cf]{Soundproof} ability.</p><p>This attack inflicts a Tinitis Special Condition for 5 activations. The afflicted creature cannot benefit from @Trait[command] actions and is immune to @Trait[social] actions.</p>",
+        "range": {
+          "target": "cone",
+          "distance": 8,
+          "unit": "m"
+        },
+        "power": 125,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "fftk7ibSYgKeJJDA",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5868.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792682063564,
+    "modifiedTime": 1792683147396,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

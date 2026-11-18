@@ -24,7 +24,8 @@
         "img": "systems/ptr2e/img/svg/normal_icon.svg",
         "traits": [
           "digimon",
-          "contact"
+          "contact",
+          "attach-skill"
         ],
         "cost": {
           "activation": "simple",
@@ -100,7 +101,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",

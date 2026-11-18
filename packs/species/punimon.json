@@ -19,7 +19,8 @@
       "free",
       "speech",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5005,
     "stats": {
@@ -805,7 +806,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "punimon",

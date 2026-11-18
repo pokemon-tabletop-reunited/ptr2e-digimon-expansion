@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Mirror of Retribution",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate",
+      "summon",
+      "room"
+    ],
+    "actions": [],
+    "description": "<p>Trigger: The user enters combat.</p><p>Effect: The user deploys the &lt;Yomi&gt; Room. &lt;Yomi&gt; has 999 Duration and AV 150. Yomi cannot be dispelled while Enmamon is on the field, but is automatically dispelled in the event Enmamon is no longer an active combatant.</p><p>While &lt;Yomi&gt; is active, all non-Enmamon creatures gain @Affliction[destined], which remains for as long as Yomi is active, and treats Enmamon as the source of @Affliction[destined].</p><p>Additionally, all creatures become @Affliction[exposed] until &lt;Yomi&gt; is dispelled or combat ends.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "YoiyqpvO6LnZphxa",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5907.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795004516105,
+    "modifiedTime": 1795004516105,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

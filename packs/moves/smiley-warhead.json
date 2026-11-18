@@ -19,7 +19,7 @@
         "name": "Smiley Warhead",
         "slug": "smiley-warhead",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5384.png",
         "traits": [
           "digimon",
           "contact",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "smiley-warhead"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5384.png",
   "effects": [],
-  "flags": {},
   "_id": "oDKLbqSQdP7oc0gF"
 }

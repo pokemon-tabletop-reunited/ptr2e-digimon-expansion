@@ -1,117 +1,130 @@
 {
-  "name": "Spider Thread",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Spider Thread",
-        "slug": "spider-thread",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
-        "traits": [
-          "digimon",
-          "5-strike",
-          "crit-1"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "bug"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 30% chance to apply @Affliction[infested 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 6,
-          "unit": "m"
-        },
-        "power": 25,
-        "accuracy": 100
-      }
-    ],
-    "grade": "B",
-    "slug": "spider-thread"
-  },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [
-    {
-      "name": "Spider Thread",
-      "type": "passive",
-      "_id": "yRiJI4Ow75EHVwFq",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "spider-thread-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.infestedconditio",
-            "predicate": [],
-            "chance": 30,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777552322980,
-        "modifiedTime": 1777552322980
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "8fXrdNs4kkmc69cJ"
+    "_id":  "8fXrdNs4kkmc69cJ",
+    "effects":  [
+                    {
+                        "_id":  "yRiJI4Ow75EHVwFq",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777552322980,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777552322980,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Spider Thread",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "spider-thread-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.infestedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5288.png",
+    "name":  "Spider Thread",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Spider Thread",
+                                       "slug":  "spider-thread",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5288.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "5-strike",
+                                                      "crit-1"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "bug"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 30% chance to apply @Affliction[infested 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  6,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  25,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "spider-thread",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

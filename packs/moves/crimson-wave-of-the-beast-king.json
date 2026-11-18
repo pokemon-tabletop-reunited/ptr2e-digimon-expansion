@@ -19,7 +19,7 @@
         "name": "Crimson Wave of the Beast King",
         "slug": "crimson-wave-of-the-beast-king",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5239.png",
         "traits": [
           "digimon",
           "punch"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B"
+    "grade": "B",
+    "slug": "crimson-wave-of-the-beast-king"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5239.png",
   "effects": [],
-  "flags": {},
   "_id": "uabldlcrVLb4Yte9"
 }

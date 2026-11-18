@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Desert Abyss",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Desert Abyss",
+        "slug": "desert-abyss",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5682.png",
+        "traits": [
+          "digimon",
+          "earthbound",
+          "push-4"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ground"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user pulls affected creatures underground by 4m. This is considered a @Trait[push-4] effect for the purpose of interactions.</p><p>Creatures who lack a [Burrow] movement allowance who are dragged underground in this way may make a @UUID[Compendium.ptr2e.core-moves.LnlmVe81MaQAdVWd]{Breach} action on their activation in order to escape the ground.</p>",
+        "range": {
+          "target": "emanation",
+          "distance": 4,
+          "unit": "m"
+        },
+        "power": 75,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "_id": "nfTFW4xMpMSRmeKV",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5682.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1783077046558,
+    "modifiedTime": 1783077046558,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0
+}

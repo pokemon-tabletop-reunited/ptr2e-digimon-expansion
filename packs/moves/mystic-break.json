@@ -1,123 +1,134 @@
 {
-  "name": "Mystic Break",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Mystic Break",
-        "slug": "mystic-break",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
-        "traits": [
-          "digimon",
-          "arcane",
-          "ray"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "types": [
-          "normal"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.PYz1Z32uiXoulkW2]{-2 Special Defense Stages} for 3 activations.</p>",
-        "range": {
-          "target": "wide-line",
-          "distance": 8,
-          "unit": "m"
-        },
-        "power": 100,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "mystic-break"
-  },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
-  "effects": [
-    {
-      "name": "Mystic Break",
-      "type": "passive",
-      "_id": "UFsyWnlXBjwASYmR",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "mystic-break-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777547612546,
-        "modifiedTime": 1777547626544
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "s5XQwTtMkFK8ADHc"
+    "_id":  "s5XQwTtMkFK8ADHc",
+    "effects":  [
+                    {
+                        "_id":  "UFsyWnlXBjwASYmR",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777547612546,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777547626544,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Mystic Break",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "mystic-break-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5343.png",
+    "name":  "Mystic Break",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Mystic Break",
+                                       "slug":  "mystic-break",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5343.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "arcane",
+                                                      "ray"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "types":  [
+                                                     "normal"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @UUID[Compendium.ptr2e.core-effects.PYz1Z32uiXoulkW2]{-2 Special Defense Stages} for 3 activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  8,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  100,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "mystic-break",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

@@ -19,7 +19,7 @@
         "name": "Pandemonium Flame",
         "slug": "pandemonium-flame",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5423.png",
         "traits": [
           "digimon",
           "ray"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 100,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "pandemonium-flame"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5423.png",
   "effects": [],
-  "flags": {},
   "_id": "gpNS9I5Oquo75rDs"
 }

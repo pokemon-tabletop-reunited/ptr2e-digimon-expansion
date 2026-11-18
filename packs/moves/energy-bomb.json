@@ -19,7 +19,7 @@
         "name": "Energy Bomb",
         "slug": "energy-bomb",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5283.png",
         "traits": [
           "digimon",
           "danger-close",
@@ -39,13 +39,14 @@
           "distance": 10,
           "unit": "m"
         },
-        "power": 100
+        "power": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "energy-bomb"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5283.png",
   "effects": [],
   "_id": "YpUFIyfqUy9opsaP"
 }

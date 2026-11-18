@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Ceremonial Sea Summon",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ceremonial Sea Summon",
+        "slug": "ceremonial-sea-summon",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5816.png",
+        "traits": [
+          "digimon",
+          "hazard",
+          "blast-5",
+          "ignore-immunity"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "water"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user creates an Abyssal Depths @Trait[hazard] bubble in the target area. Any creatures within the Abyssal Depths @Trait[hazard] suffer the @Affliction[stuck], @Affliction[slowed], @Affliction[drowning] & @Affliction[leech] afflictions, bypassing immunity.</p><p>Within the @Trait[hazard], all movement types except Swim are disabled. Creatures within the hazard suffer -2 Default Accuracy Stages unless they possess the @UUID[Compendium.ptr2e.core-perks.suWJ8EKQwovaDVCA]{Fisheye} perk.</p>",
+        "range": {
+          "target": "blast",
+          "distance": 12,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "h5wzL11udBs3QWsv",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5816.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792236984030,
+    "modifiedTime": 1792236997507,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 3300000
+}

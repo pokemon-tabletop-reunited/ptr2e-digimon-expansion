@@ -853,21 +853,27 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 112,
       "y": 131,
       "connected": [
-        "tyrannomon",
-        "dark-tyrannomon",
-        "cyclonemon",
-        "skull-mammothmon",
         "cannondramon",
-        "war-greymon",
+        "cyclonemon",
+        "dark-tyrannomon",
         "dinomon",
-        "rust-tyrannomon"
+        "greymon-x",
+        "tyrannomon",
+        "skull-mammothmon",
+        "war-greymon",
+        "rust-tyrannomon",
+        "ragnamon",
+        "snatchmon",
+        "volcanicdramon"
       ],
       "prerequisites": [
         {
@@ -941,7 +947,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767308050420,

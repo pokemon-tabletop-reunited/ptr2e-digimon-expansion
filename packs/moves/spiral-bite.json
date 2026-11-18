@@ -1,90 +1,87 @@
 {
-  "folder": null,
-  "name": "Spiral Bite",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "spiral-bite",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Krueger"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Spiral Bite",
-        "slug": "spiral-bite",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "jaw",
-          "contact",
-          "grapple",
-          "dash",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "dark"
-        ],
-        "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 70,
-        "accuracy": 100
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "D"
-  },
-  "_id": "zmwEW99DI9d1aumA",
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3,
-    "2iKdcUFZBk6SApv1": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775140283084,
-    "modifiedTime": 1775140283084,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+    "_id":  "zmwEW99DI9d1aumA",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+    "name":  "Spiral Bite",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3,
+                      "2iKdcUFZBk6SApv1":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  2,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5521.png",
+                                       "name":  "Spiral Bite",
+                                       "offensiveStat":  null,
+                                       "power":  70,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "spiral-bite",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "jaw",
+                                                      "contact",
+                                                      "grapple",
+                                                      "dash",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Krueger"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "spiral-bite",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

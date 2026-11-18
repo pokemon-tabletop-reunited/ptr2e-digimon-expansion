@@ -19,7 +19,7 @@
         "name": "Extinction Wave",
         "slug": "extinction-wave",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5381.png",
         "traits": [
           "digimon",
           "danger-close"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 105,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "extinction-wave"
   },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5381.png",
   "effects": [],
-  "flags": {},
   "_id": "kqnWU6z25ueILOot"
 }
