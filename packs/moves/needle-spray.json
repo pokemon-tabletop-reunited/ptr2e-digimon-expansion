@@ -19,7 +19,7 @@
         "name": "Needle Spray",
         "slug": "needle-spray",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5152.png",
         "traits": [
           "missile",
           "digimon"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "needle-spray"
   },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5152.png",
   "effects": [
     {
       "name": "Needle Spray",
@@ -58,7 +59,7 @@
           {
             "type": "roll-effect",
             "key": "needle-spray-attack",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.EPd5iBwFDpQwvW99",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
             "predicate": [],
             "chance": 10,
             "affects": "target",
@@ -96,12 +97,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
+        "systemVersion": "1.7.6.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "createdTime": 1777547785054,
-        "modifiedTime": 1777547785054
+        "modifiedTime": 1794778607172
       },
       "start": null,
       "showIcon": 1,
