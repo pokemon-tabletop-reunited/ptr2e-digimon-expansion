@@ -812,6 +812,11 @@
     "moves": {
       "levelUp": [
         {
+          "name": "psystrike",
+          "level": 51,
+          "gen": null
+        },
+        {
           "name": "devious-shot",
           "level": 46,
           "gen": null
@@ -824,11 +829,6 @@
         {
           "name": "singularity",
           "level": 49,
-          "gen": null
-        },
-        {
-          "name": "psychic-attack",
-          "level": 51,
           "gen": null
         },
         {
@@ -868,10 +868,7 @@
         "wizardmon",
         "beelzemon",
         "noble-pumpkinmon",
-        "neo-myotismon",
-        "metatromon",
-        "tactimon",
-        "taotiemon"
+        "neo-myotismon"
       ],
       "prerequisites": [
         {
