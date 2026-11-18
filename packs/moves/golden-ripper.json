@@ -19,7 +19,7 @@
         "name": "Golden Ripper",
         "slug": "golden-ripper",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5351.png",
         "traits": [
           "digimon",
           "sharp",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 90,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "golden-ripper"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5351.png",
   "effects": [],
-  "flags": {},
   "_id": "BRq4SusDrAKfBvZn"
 }

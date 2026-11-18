@@ -822,16 +822,20 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "three-archangels"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 160,
+      "y": 116,
       "connected": [
-        "ophanimon",
         "angewomon",
-        "lilithmon"
+        "bombermon",
+        "lilithmon",
+        "ophanimon"
       ],
       "prerequisites": [
         {
@@ -841,7 +845,8 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "ophanimon-fm"
   },
   "_id": "vyyNrzwGD7A6hxcy",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5496.png",
@@ -922,7 +927,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1777208960971,
@@ -933,6 +938,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

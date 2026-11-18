@@ -846,20 +846,24 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 110,
       "y": 41,
       "connected": [
-        "nanimon",
-        "starmon",
-        "veedramon",
         "hi-andromon",
+        "nanimon",
+        "omekamon",
         "piedmon",
+        "prince-mamemon",
         "puppetmon",
-        "prince-mamemon"
+        "reapermon",
+        "starmon",
+        "veedramon"
       ],
       "prerequisites": [
         {
@@ -933,7 +937,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767401066546,

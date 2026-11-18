@@ -20,7 +20,8 @@
       "baby",
       "amorphous",
       "digimon",
-      "mollusk"
+      "mollusk",
+      "fresh"
     ],
     "number": 5007,
     "stats": {
@@ -806,7 +807,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "poyomon",
@@ -815,6 +818,7 @@
       "y": 167,
       "connected": [
         "bukamon",
+        "gummymon",
         "tokomon"
       ],
       "prerequisites": []

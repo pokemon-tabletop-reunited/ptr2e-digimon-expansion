@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "aqua-pressure-3",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,32 +24,18 @@
         "img": "systems/ptr2e/img/svg/water_icon.svg",
         "traits": [
           "digimon",
-          "wind"
+          "wind",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "water"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 10,
@@ -59,28 +45,9 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
   "img": "systems/ptr2e/img/svg/water_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772900830680,
-    "modifiedTime": 1772900830680,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "ExfUGUkV06IDcwGH",
-  "sort": 0
+  "_id": "ExfUGUkV06IDcwGH"
 }

@@ -19,14 +19,14 @@
         "name": "Stinger Surprise",
         "slug": "stinger-surprise",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5252.png",
         "traits": [
           "digimon",
           "double-strike"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5
+          "powerPoints": 3
         },
         "types": [
           "water"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 35,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "B",
     "slug": "stinger-surprise"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5252.png",
   "effects": [
     {
       "name": "Stinger Surprise",
@@ -104,7 +105,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1777553411566,

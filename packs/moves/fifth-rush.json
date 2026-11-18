@@ -19,7 +19,7 @@
         "name": "Fifth Rush",
         "slug": "fifth-rush",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5057.png",
         "traits": [
           "5-strike",
           "contact",
@@ -40,13 +40,14 @@
         "category": "physical",
         "power": 20,
         "accuracy": 80,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "fifth-rush"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5057.png",
   "effects": [],
   "_id": "kvIGacluacv2LTGM"
 }

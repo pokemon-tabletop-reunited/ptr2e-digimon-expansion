@@ -818,16 +818,19 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 235,
       "y": 15,
       "connected": [
-        "omnimon-alter-b",
         "blitz-greymon",
-        "cres-garurumon"
+        "cres-garurumon",
+        "omnimon-alter-b"
       ],
       "prerequisites": [
         "item:equipment:blitz-greymon-dna",
@@ -919,7 +922,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "lastModifiedBy": null,

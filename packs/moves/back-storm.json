@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Back Storm",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "back-storm",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Back Storm",
+        "slug": "back-storm",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+        "traits": [
+          "digimon",
+          "summon",
+          "environ",
+          "terrain",
+          "room"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.b9A7s6qaPd5AJXzY",
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: The user freely uses @UUID[Compendium.ptr2e.core-moves.dPSChKwDs2PiIA7p]{Electric Terrain} and creates a @UUID[Compendium.ptr2e-digimon-expansion.digimon-summons.b9A7s6qaPd5AJXzY]{Back Storm (Summon)} which prevents expiration of Rainy Weather, Windy Weather and Electric Terrain from expiring.</p><p>On each of the Summon's Activations, the user can @UUID[Compendium.ptr2e.core-effects-new.ZGwaMlzUwkSuCPyH]{+1 Attack Stage}, @UUID[Compendium.ptr2e.core-effects-new.XeiSuS3APUcN0MLM]{+1 Speed Stage} and or @UUID[Compendium.ptr2e.core-effects-new.chargedcondiitem]{Charged} based on the Weather and Terrain Summons present.</p>",
+        "range": {
+          "target": "field",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "WocoxzhtDLMTTorY",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1794957958218,
+    "modifiedTime": 1795035984264,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
