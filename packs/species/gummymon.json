@@ -819,12 +819,13 @@
       "x": 26,
       "y": 211,
       "connected": [
+        "blucomon",
         "poyomon",
         "zerimon",
         "tapirmon",
-        "blucomon",
         "terriermon",
-        "toy-agumon"
+        "toy-agumon",
+        "jazamon"
       ],
       "prerequisites": [
         {

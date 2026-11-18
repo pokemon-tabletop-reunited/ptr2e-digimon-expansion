@@ -859,11 +859,21 @@
       "y": 17,
       "connected": [
         "bacchusmon",
+        "black-gatomon-uber",
+        "bryweludramon",
+        "devitamamon",
         "octomon",
         "ogremon",
         "tuskmon",
         "nise-drimogemon",
-        "titamon"
+        "titamon",
+        "dijiangmon",
+        "dogmon",
+        "flamedramon",
+        "hover-espimon",
+        "lighdramon",
+        "magnamon",
+        "publimon"
       ],
       "prerequisites": [
         {

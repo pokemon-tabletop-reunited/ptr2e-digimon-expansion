@@ -827,7 +827,10 @@
       "y": 112,
       "connected": [
         "crescemon",
-        "knightmon"
+        "knightmon",
+        "weddinmon",
+        "zamielmon",
+        "zephyrmon"
       ],
       "prerequisites": [
         {

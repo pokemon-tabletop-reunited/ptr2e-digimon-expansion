@@ -818,6 +818,7 @@
       "y": 167,
       "connected": [
         "bukamon",
+        "gummymon",
         "tokomon"
       ],
       "prerequisites": []

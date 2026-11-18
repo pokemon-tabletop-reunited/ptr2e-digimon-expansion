@@ -853,11 +853,20 @@
       "x": 60,
       "y": 175,
       "connected": [
-        "piximon",
-        "scorpiomon",
         "crabmon",
-        "syakomon",
+        "darumamon",
+        "gasamon",
+        "hanimon",
         "kamemon",
+        "karakurumon",
+        "marine-bullmon",
+        "mermaimon",
+        "piranimon",
+        "piximon",
+        "sangomon",
+        "scorpiomon",
+        "sekkamon",
+        "syakomon",
         "whamon"
       ],
       "prerequisites": [

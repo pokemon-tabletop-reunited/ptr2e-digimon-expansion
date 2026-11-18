@@ -834,9 +834,9 @@
       "x": 160,
       "y": 136,
       "connected": [
+        "flaremon",
         "giromon",
-        "magna-angemon",
-        "flaremon"
+        "magna-angemon"
       ],
       "prerequisites": [
         {

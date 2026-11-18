@@ -844,7 +844,8 @@
       "y": 172,
       "connected": [
         "metal-seadramon",
-        "plesiomon"
+        "plesiomon",
+        "canoweissmon"
       ],
       "prerequisites": [
         "item:equipment:plesiomon-dna",

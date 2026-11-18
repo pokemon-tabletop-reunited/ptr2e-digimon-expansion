@@ -882,11 +882,15 @@
       "x": 29,
       "y": 67,
       "connected": [
+        "arbormon",
+        "chamblemon",
         "flymon",
+        "galemon",
         "tanemon",
         "nanimon",
         "sukamon",
-        "woodmon"
+        "woodmon",
+        "red-vegiemon"
       ],
       "prerequisites": [
         {

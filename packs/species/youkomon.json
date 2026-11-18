@@ -862,14 +862,16 @@
       "x": 61,
       "y": 166,
       "connected": [
+        "doumon",
+        "indaramon",
+        "kyukimon",
+        "megakabuterimon-blue",
+        "vikaralamon",
         "biyomon",
         "renamon",
         "tsukaimon",
         "mega-kabuterimon-blue",
-        "doumon",
-        "indaramon",
         "platinum-sukamon",
-        "vikaralamon",
         "were-garurumon-black"
       ],
       "prerequisites": [

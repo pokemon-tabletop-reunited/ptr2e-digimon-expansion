@@ -855,13 +855,17 @@
       "x": 60,
       "y": 106,
       "connected": [
-        "salamon",
         "gabumon",
         "gomamon",
+        "salamon",
         "mega-seadramon",
         "skull-seadramon",
         "whamon",
-        "zudomon"
+        "zudomon",
+        "jellymon",
+        "marine-kimeramon",
+        "mermaimon",
+        "scorpiomon-x"
       ],
       "prerequisites": [
         {

@@ -864,10 +864,10 @@
       "y": 198,
       "connected": [
         "boarmon",
+        "parasimon",
         "ice-devimon",
         "youkomon",
         "kuzuhamon",
-        "parasimon",
         "sakuyamon"
       ],
       "prerequisites": [

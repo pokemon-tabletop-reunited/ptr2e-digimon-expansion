@@ -833,7 +833,8 @@
       "x": 245,
       "y": 105,
       "connected": [
-        "beelzemon"
+        "beelzemon",
+        "beelzemon-x"
       ],
       "prerequisites": [
         {

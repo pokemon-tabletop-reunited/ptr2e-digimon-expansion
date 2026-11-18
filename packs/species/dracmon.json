@@ -851,12 +851,15 @@
       "y": 11,
       "connected": [
         "arcadiamon-champion",
+        "bosamon",
+        "dogmon",
         "tsumemon",
         "sangloupmon",
         "sistermon-ciel",
         "starmon",
         "sukamon",
-        "wizardmon"
+        "wizardmon",
+        "sistermon-noir"
       ],
       "prerequisites": [
         {

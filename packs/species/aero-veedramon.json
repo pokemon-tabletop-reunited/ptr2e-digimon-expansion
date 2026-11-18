@@ -867,7 +867,12 @@
         "coredramon-blue",
         "veedramon",
         "goldramon",
-        "slayerdramon"
+        "slayerdramon",
+        "flamedramon",
+        "galemon",
+        "lighdramon",
+        "magnamon",
+        "red-veedramon"
       ],
       "prerequisites": [
         {

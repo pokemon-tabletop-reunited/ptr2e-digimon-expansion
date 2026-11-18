@@ -854,13 +854,14 @@
       "y": 69,
       "connected": [
         "cannon-beemon",
+        "dokunemon",
+        "fan-beemon",
+        "kokuwamon",
+        "kunemon",
+        "morphomon",
         "rapidmon",
         "tankdramon",
-        "fan-beemon",
-        "tentomon",
-        "kokuwamon",
-        "dokunemon",
-        "kunemon"
+        "tentomon"
       ],
       "prerequisites": [
         {

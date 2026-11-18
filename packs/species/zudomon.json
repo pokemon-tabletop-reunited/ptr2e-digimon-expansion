@@ -860,12 +860,16 @@
       "x": 114,
       "y": 175,
       "connected": [
-        "plesiomon",
-        "vikemon",
-        "ikkakumon",
-        "mojyamon",
+        "amphimon",
         "clockmon",
-        "hyogamon"
+        "giga-seadramon",
+        "hyogamon",
+        "ikkakumon",
+        "kinkakumon",
+        "mojyamon",
+        "olegmon",
+        "plesiomon",
+        "vikemon"
       ],
       "prerequisites": [
         {

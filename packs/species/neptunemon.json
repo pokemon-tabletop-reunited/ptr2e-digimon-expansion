@@ -833,9 +833,13 @@
       "x": 157,
       "y": 176,
       "connected": [
-        "whamon",
         "divermon",
-        "sharkmon"
+        "gusokumon",
+        "mermaimon",
+        "whamon",
+        "sharkmon",
+        "piranimon",
+        "splashmon"
       ],
       "prerequisites": [
         {

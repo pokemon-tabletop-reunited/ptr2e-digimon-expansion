@@ -828,7 +828,8 @@
       "x": 157,
       "y": 71,
       "connected": [
-        "lilymon"
+        "lilymon",
+        "eosmon-ultimate"
       ],
       "prerequisites": [
         {

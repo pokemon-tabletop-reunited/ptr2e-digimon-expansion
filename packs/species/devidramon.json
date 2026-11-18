@@ -866,6 +866,7 @@
       "x": 63,
       "y": 22,
       "connected": [
+        "death-x-doru-greymon",
         "demi-devimon",
         "gazimon",
         "veemon",
@@ -874,7 +875,14 @@
         "myotismon",
         "gigadramon",
         "waru-monzaemon",
-        "tsukaimon"
+        "tsukaimon",
+        "loudmon",
+        "majiramon",
+        "mephismon",
+        "mihiramon",
+        "regulusmon",
+        "sandiramon",
+        "vajramon"
       ],
       "prerequisites": [
         {

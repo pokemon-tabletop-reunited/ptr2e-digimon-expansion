@@ -829,10 +829,13 @@
       "x": 161,
       "y": 147,
       "connected": [
+        "black-king-nunemon",
         "etemon",
         "garbagemon",
-        "black-king-nunemon",
-        "meteormon"
+        "meteormon",
+        "metallife-kuwagamon",
+        "nyabootmon",
+        "tlalocmon"
       ],
       "prerequisites": [
         {

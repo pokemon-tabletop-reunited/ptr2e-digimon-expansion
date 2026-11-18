@@ -861,12 +861,13 @@
       "y": 88,
       "connected": [
         "arukenimon",
+        "crabmon",
         "jewel-beemon",
         "okuwamon",
         "phantomon",
+        "skull-scorpionmon",
         "tentomon",
-        "wormmon",
-        "crabmon"
+        "wormmon"
       ],
       "prerequisites": [
         {

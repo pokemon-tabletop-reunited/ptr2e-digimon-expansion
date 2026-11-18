@@ -823,9 +823,9 @@
       "x": 110,
       "y": 107,
       "connected": [
+        "ancient-garurumon",
         "kendo-garurumon",
-        "magna-garurumon",
-        "ancient-garurumon"
+        "magna-garurumon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-light",

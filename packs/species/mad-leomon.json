@@ -866,7 +866,8 @@
         "astamon",
         "grap-leomon",
         "loader-leomon",
-        "skull-satamon"
+        "skull-satamon",
+        "troopmon"
       ],
       "prerequisites": [
         {

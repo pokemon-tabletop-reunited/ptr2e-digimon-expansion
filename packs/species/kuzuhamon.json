@@ -829,9 +829,18 @@
       "x": 157,
       "y": 57,
       "connected": [
+        "bombermon",
+        "crowmon",
+        "doumon",
+        "indaramon",
+        "karatenmon",
+        "kuzuhamon-miko",
         "matadormon",
         "taomon",
-        "crowmon"
+        "kyukimon",
+        "skull-scorpionmon",
+        "vikaralamon",
+        "zanmetsumon"
       ],
       "prerequisites": [
         {

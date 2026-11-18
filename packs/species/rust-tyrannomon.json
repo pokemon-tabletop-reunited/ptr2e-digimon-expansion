@@ -829,10 +829,11 @@
       "x": 159,
       "y": 124,
       "connected": [
+        "brachiomon",
         "ex-tyrannomon",
         "master-tyrannomon",
         "metal-tyrannomon",
-        "brachiomon"
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

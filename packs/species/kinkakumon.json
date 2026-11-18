@@ -864,12 +864,14 @@
       "x": 67,
       "y": 247,
       "connected": [
+        "cho-hakkaimon",
         "fujamon",
+        "gokumon",
         "jellymon",
         "takinmon",
-        "cho-hakkaimon",
         "majiramon",
-        "zudomon"
+        "zudomon",
+        "xingtianmon"
       ],
       "prerequisites": [
         {

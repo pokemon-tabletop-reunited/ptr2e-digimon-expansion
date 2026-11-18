@@ -872,7 +872,9 @@
         "sunflowmon",
         "togemon",
         "vegiemon",
-        "woodmon"
+        "woodmon",
+        "galemon",
+        "red-vegiemon"
       ],
       "prerequisites": [
         {

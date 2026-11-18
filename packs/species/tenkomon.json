@@ -858,13 +858,13 @@
       "x": 59,
       "y": 10,
       "connected": [
+        "sekkamon",
+        "shishimamon",
         "renamon",
         "wankomon",
         "snow-agumon",
         "ukkomon",
-        "darumamon",
-        "sekkamon",
-        "shishimamon"
+        "darumamon"
       ],
       "prerequisites": [
         {

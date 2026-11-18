@@ -866,11 +866,14 @@
       "x": 106,
       "y": 14,
       "connected": [
+        "anubismon",
         "black-gatomon",
+        "damemon",
         "deltamon",
-        "raremon",
         "greymon-blue",
-        "skull-mammothmon"
+        "raremon",
+        "skull-mammothmon",
+        "symbare-angoramon"
       ],
       "prerequisites": [
         {

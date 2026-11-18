@@ -828,12 +828,13 @@
       "y": 59,
       "connected": [
         "blossomon",
-        "meicrackmon-vm",
-        "rosemon-bm",
+        "cherrymon",
+        "jyagamon",
         "lilamon",
         "lilymon",
-        "cherrymon",
-        "pumpkinmon"
+        "meicrackmon-vm",
+        "pumpkinmon",
+        "rosemon-bm"
       ],
       "prerequisites": [
         {

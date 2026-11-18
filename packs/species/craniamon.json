@@ -823,7 +823,9 @@
       "y": 23,
       "connected": [
         "andromon",
-        "giromon"
+        "craniamon-x",
+        "giromon",
+        "megakabuterimon-blue"
       ],
       "prerequisites": [
         {

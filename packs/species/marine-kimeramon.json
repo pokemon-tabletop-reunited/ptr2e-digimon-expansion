@@ -828,6 +828,8 @@
       "x": 118,
       "y": 183,
       "connected": [
+        "chamblemon",
+        "giga-seadramon",
         "seadramon",
         "octomon",
         "ikkakumon",
@@ -836,7 +838,6 @@
         "gesomon",
         "dolphmon",
         "coelamon",
-        "giga-seadramon",
         "plesiomon",
         "regalecusmon"
       ],

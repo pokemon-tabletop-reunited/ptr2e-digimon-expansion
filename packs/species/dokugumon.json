@@ -863,7 +863,10 @@
         "keramon",
         "infermon",
         "mega-kabuterimon",
-        "mummymon"
+        "mummymon",
+        "gyukimon",
+        "kodokugumon",
+        "oboromon"
       ],
       "prerequisites": [
         {

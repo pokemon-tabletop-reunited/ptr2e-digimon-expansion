@@ -886,9 +886,15 @@
         "garurumon-black",
         "kyubimon",
         "lekismon",
+        "lighdramon",
+        "lynxmon",
+        "onibimon",
         "wanyamon",
         "reppamon",
-        "sunflowmon"
+        "sunflowmon",
+        "tenkomon",
+        "viximon",
+        "youkomon"
       ],
       "prerequisites": [
         {

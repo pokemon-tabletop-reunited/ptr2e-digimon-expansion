@@ -828,10 +828,14 @@
       "x": 155,
       "y": 62,
       "connected": [
-        "blossomon",
         "arukenimon",
+        "blossomon",
+        "jet-silphymon",
         "pumpkinmon",
-        "meicrackmon-vm"
+        "meicrackmon-vm",
+        "oleamon",
+        "peacockmon",
+        "petaldramon"
       ],
       "prerequisites": [
         {

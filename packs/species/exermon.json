@@ -857,6 +857,7 @@
       "x": 62,
       "y": 192,
       "connected": [
+        "climbmon",
         "pulsemon",
         "pistmon",
         "shootmon",

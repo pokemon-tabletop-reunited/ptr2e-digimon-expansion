@@ -848,11 +848,12 @@
       "x": 34,
       "y": 227,
       "connected": [
+        "gorimon",
         "gurimon",
         "kaus-gammamon",
         "wezen-gammamon",
         "apemon",
-        "gorimon"
+        "mulemon"
       ],
       "prerequisites": [
         {

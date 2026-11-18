@@ -808,8 +808,8 @@
       "x": 6,
       "y": 58,
       "connected": [
-        "nyaromon",
-        "poromon"
+        "poromon",
+        "nyaromon"
       ],
       "prerequisites": []
     }

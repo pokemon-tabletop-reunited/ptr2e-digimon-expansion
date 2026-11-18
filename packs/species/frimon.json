@@ -811,6 +811,7 @@
       "x": 21,
       "y": 53,
       "connected": [
+        "agumon-x",
         "popomon",
         "gazimon",
         "liollmon",

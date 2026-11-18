@@ -845,9 +845,12 @@
       "x": 32,
       "y": 35,
       "connected": [
+        "machmon",
+        "manekimon",
         "kapurimon",
         "mulemon",
-        "turbomon"
+        "turbomon",
+        "namakemon"
       ],
       "prerequisites": [
         {

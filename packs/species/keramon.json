@@ -877,12 +877,14 @@
       "connected": [
         "arcadiamon-champion",
         "dokugumon",
+        "duskmon",
         "tsumemon",
         "kurisarimon",
         "meicoomon",
         "mekanorimon",
         "octomon",
-        "wendigomon"
+        "wendigomon",
+        "yarmon"
       ],
       "prerequisites": [
         {

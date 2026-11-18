@@ -859,12 +859,16 @@
       "y": 116,
       "connected": [
         "agumon",
+        "agunimon",
+        "greymon-x",
         "huckmon",
         "ryudamon",
         "kimeramon",
         "megadramon",
         "metal-greymon",
-        "skull-greymon"
+        "skull-greymon",
+        "metal-greymon-alter",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

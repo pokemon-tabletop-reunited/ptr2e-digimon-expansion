@@ -848,13 +848,14 @@
       "y": 93,
       "connected": [
         "blue-meramon",
-        "lunamon",
         "gabumon",
+        "lunamon",
         "tapirmon",
         "kimeramon",
         "psychemon",
         "taomon",
-        "were-garurumon"
+        "were-garurumon",
+        "were-garurumon-sagittarius"
       ],
       "prerequisites": [
         {

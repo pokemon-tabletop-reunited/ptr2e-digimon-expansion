@@ -858,12 +858,13 @@
       "y": 80,
       "connected": [
         "flarelizamon",
-        "monochromon",
-        "nise-drimogemon",
-        "mori-shellmon",
         "machinedramon",
+        "monochromon",
+        "mori-shellmon",
+        "nise-drimogemon",
         "skull-mammothmon",
-        "war-greymon"
+        "war-greymon",
+        "victory-greymon"
       ],
       "prerequisites": [
         {

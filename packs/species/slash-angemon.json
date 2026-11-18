@@ -833,8 +833,9 @@
       "y": 131,
       "connected": [
         "knightmon",
+        "magna-angemon",
         "matadormon",
-        "magna-angemon"
+        "zanmetsumon"
       ],
       "prerequisites": [
         {

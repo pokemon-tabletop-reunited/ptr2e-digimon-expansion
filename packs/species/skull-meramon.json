@@ -848,12 +848,15 @@
       "x": 113,
       "y": 78,
       "connected": [
+        "agunimon",
+        "ancient-volcamon",
         "avenge-kidmon",
         "beelzemon",
+        "birdramon",
         "boltmon",
         "meramon",
         "wendigomon",
-        "birdramon"
+        "troopmon"
       ],
       "prerequisites": [
         {

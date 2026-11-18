@@ -874,10 +874,11 @@
       "y": 239,
       "connected": [
         "blucomon",
+        "crys-paledramon",
+        "daipenmon",
         "hawkmon",
         "crescemon",
         "psychemon",
-        "daipenmon",
         "mammothmon"
       ],
       "prerequisites": [

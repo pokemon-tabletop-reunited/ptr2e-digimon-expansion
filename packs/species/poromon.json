@@ -817,6 +817,7 @@
       "x": 20,
       "y": 61,
       "connected": [
+        "pomumon",
         "pururumon",
         "hawkmon",
         "wormmon",

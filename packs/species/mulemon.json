@@ -853,10 +853,11 @@
       "x": 57,
       "y": 43,
       "connected": [
+        "maneuvermon",
         "maquinamon",
+        "mockingbirdmon",
         "jazamon",
         "koemon",
-        "mockingbirdmon",
         "aegiochusmon",
         "big-mamemon"
       ],

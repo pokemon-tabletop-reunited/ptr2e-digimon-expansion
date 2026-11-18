@@ -871,12 +871,12 @@
       "x": 118,
       "y": 179,
       "connected": [
-        "manbomon",
-        "dolphmon",
-        "tesla-jellymon",
         "amphimon",
         "ancient-mermaimon",
         "cthyllamon",
+        "tesla-jellymon",
+        "manbomon",
+        "dolphmon",
         "marine-angemon",
         "pukumon"
       ],

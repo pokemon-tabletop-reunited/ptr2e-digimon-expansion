@@ -817,8 +817,8 @@
       "x": 20,
       "y": 44,
       "connected": [
-        "pusumon",
-        "herissmon"
+        "herissmon",
+        "pusumon"
       ],
       "prerequisites": [
         {

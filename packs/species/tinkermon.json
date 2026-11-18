@@ -861,12 +861,12 @@
       "x": 34,
       "y": 98,
       "connected": [
+        "fairimon",
+        "parasaurmon",
         "nyaromon",
         "tanemon",
-        "fairimon",
         "weedmon",
-        "kokatorimon",
-        "parasaurmon"
+        "kokatorimon"
       ],
       "prerequisites": [
         {

@@ -872,10 +872,10 @@
       "x": 107,
       "y": 25,
       "connected": [
+        "deathmon",
         "duskmon",
         "saberdramon",
         "ancient-sphinxmon",
-        "deathmon",
         "dinotigermon"
       ],
       "prerequisites": [

@@ -861,13 +861,15 @@
       "x": 112,
       "y": 122,
       "connected": [
+        "airdramon",
+        "arresterdramon",
+        "deathmon",
         "devidramon",
+        "flymon",
+        "greymon",
         "kokatorimon",
         "machinedramon",
-        "greymon",
         "mekanorimon",
-        "flymon",
-        "airdramon",
         "saberdramon",
         "megidramon"
       ],

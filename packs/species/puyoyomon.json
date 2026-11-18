@@ -818,9 +818,9 @@
       "x": 20,
       "y": 181,
       "connected": [
-        "puyomon",
         "jellymon",
-        "kodokugumon"
+        "kodokugumon",
+        "puyomon"
       ],
       "prerequisites": [
         {

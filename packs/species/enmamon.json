@@ -837,8 +837,12 @@
       "x": 245,
       "y": 161,
       "connected": [
+        "amaterasumon",
+        "ariemon",
         "zanbamon",
-        "ravemon"
+        "ravemon",
+        "kaguyamon",
+        "yukinamon"
       ],
       "prerequisites": [
         {

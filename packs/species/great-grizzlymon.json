@@ -863,8 +863,8 @@
       "connected": [
         "callismon",
         "cherubimon-vice",
-        "grizzlymon",
-        "dorugamon"
+        "dorugamon",
+        "grizzlymon"
       ],
       "prerequisites": [
         {

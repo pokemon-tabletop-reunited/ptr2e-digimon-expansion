@@ -862,13 +862,20 @@
       "x": 113,
       "y": 182,
       "connected": [
+        "algomon-champion",
+        "coelamon",
+        "giga-seadramon",
+        "gold-nunemon",
         "leviamon",
         "megidramon",
         "metal-seadramon",
-        "gold-nunemon",
-        "coelamon",
+        "regalecusmon",
+        "seadramon-x",
         "seadramon",
-        "shell-nunemon"
+        "shell-nunemon",
+        "submarimon",
+        "tesla-jellymon",
+        "tobiumon"
       ],
       "prerequisites": [
         {

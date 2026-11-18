@@ -857,10 +857,11 @@
       "x": 58,
       "y": 27,
       "connected": [
+        "maneuvermon",
         "maquinamon",
+        "mockingbirdmon",
         "angoramon",
         "bearmon",
-        "maneuvermon",
         "ex-tyrannomon",
         "karakurumon"
       ],

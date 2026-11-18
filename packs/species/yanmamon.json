@@ -851,13 +851,13 @@
       "x": 59,
       "y": 69,
       "connected": [
-        "tentomon",
+        "divermon",
         "dokunemon",
+        "jewel-beemon",
         "lalamon",
         "mega-kabuterimon",
         "pumpkinmon",
-        "divermon",
-        "jewel-beemon"
+        "tentomon"
       ],
       "prerequisites": [
         {

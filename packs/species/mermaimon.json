@@ -871,6 +871,7 @@
       "x": 117,
       "y": 190,
       "connected": [
+        "ancient-mermaimon",
         "ikkakumon",
         "shellmon",
         "tobiumon",
@@ -879,8 +880,7 @@
         "metal-seadramon",
         "neptunemon",
         "plesiomon",
-        "azulongmon",
-        "ancient-mermaimon"
+        "azulongmon"
       ],
       "prerequisites": [
         {

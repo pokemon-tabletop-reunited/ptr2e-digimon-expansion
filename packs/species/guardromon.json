@@ -853,9 +853,10 @@
       "connected": [
         "andromon",
         "catch-mamemon",
-        "hagurumon",
         "gotsumon",
-        "locomon"
+        "hagurumon",
+        "locomon",
+        "toy-agumon-black"
       ],
       "prerequisites": [
         {

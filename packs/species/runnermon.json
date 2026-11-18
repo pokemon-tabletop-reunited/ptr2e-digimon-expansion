@@ -854,12 +854,13 @@
       "x": 63,
       "y": 194,
       "connected": [
+        "divemon",
+        "pistmon",
         "elecmon",
         "pulsemon",
         "liamon",
         "boutmon",
-        "divemon",
-        "pistmon"
+        "shootmon"
       ],
       "prerequisites": [
         {

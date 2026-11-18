@@ -852,8 +852,9 @@
       "x": 38,
       "y": 223,
       "connected": [
-        "kakkinmon",
         "black-gatomon-uber",
+        "deckerdramon",
+        "kakkinmon",
         "hover-espimon",
         "reppamon"
       ],

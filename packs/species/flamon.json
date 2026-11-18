@@ -854,10 +854,11 @@
       "x": 33,
       "y": 149,
       "connected": [
-        "demi-meramon",
         "agunimon",
+        "demi-meramon",
         "meramon",
-        "flare-lizamon"
+        "flare-lizamon",
+        "lavorvomon"
       ],
       "prerequisites": [
         {

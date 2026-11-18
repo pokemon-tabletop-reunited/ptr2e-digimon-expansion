@@ -837,7 +837,10 @@
       "y": 102,
       "connected": [
         "metal-greymon",
-        "omnimon-alter-s"
+        "omnimon-alter-s",
+        "metal-greymon-alter",
+        "neo-devimon",
+        "xros-metal-greymon"
       ],
       "prerequisites": [
         {

@@ -854,11 +854,12 @@
       "x": 62,
       "y": 147,
       "connected": [
-        "sistermon-blanc",
-        "lunamon",
+        "cho-hakkaimon",
         "dracmon",
         "lady-devimon",
-        "pandamon"
+        "lunamon",
+        "pandamon",
+        "sistermon-blanc"
       ],
       "prerequisites": [
         {

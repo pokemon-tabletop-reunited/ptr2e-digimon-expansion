@@ -875,10 +875,10 @@
       "x": 110,
       "y": 94,
       "connected": [
+        "blastmon",
         "digmon",
         "snimon",
         "tortomon",
-        "blastmon",
         "ancient-sphinxmon",
         "kuzuhamon"
       ],

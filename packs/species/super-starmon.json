@@ -863,13 +863,17 @@
       "x": 108,
       "y": 39,
       "connected": [
-        "goldramon",
-        "justimon",
-        "prince-mamemon",
-        "starmon",
-        "nanimon",
+        "ancient-volcamon",
+        "cendrillmon",
         "deputymon",
-        "geremon"
+        "geremon",
+        "goldramon",
+        "grottemon",
+        "justimon",
+        "nanimon",
+        "omekamon",
+        "prince-mamemon",
+        "starmon"
       ],
       "prerequisites": [
         {

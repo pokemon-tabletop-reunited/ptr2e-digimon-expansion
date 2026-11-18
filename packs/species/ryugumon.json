@@ -839,9 +839,11 @@
       "x": 157,
       "y": 170,
       "connected": [
+        "karakurumon",
         "marine-bullmon",
         "sagomon",
-        "sharkmon"
+        "sharkmon",
+        "sekkamon"
       ],
       "prerequisites": [
         {

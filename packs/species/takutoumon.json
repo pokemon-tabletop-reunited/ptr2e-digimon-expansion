@@ -838,10 +838,10 @@
       "x": 160,
       "y": 205,
       "connected": [
+        "takutoumon-wm",
         "sagomon",
         "xingtianmon",
-        "beowulfmon",
-        "takutoumon-wm"
+        "beowulfmon"
       ],
       "prerequisites": [
         {

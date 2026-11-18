@@ -853,8 +853,8 @@
       "x": 64,
       "y": 96,
       "connected": [
-        "hawkmon",
         "coronamon",
+        "hawkmon",
         "flaremon",
         "mistymon",
         "savior-huckmon"

@@ -836,9 +836,10 @@
       "x": 159,
       "y": 82,
       "connected": [
-        "skull-satamon",
         "dragomon",
-        "vademon"
+        "skull-satamon",
+        "vademon",
+        "mockingbirdmon"
       ],
       "prerequisites": [
         {

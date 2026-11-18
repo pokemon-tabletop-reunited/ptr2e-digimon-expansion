@@ -860,13 +860,15 @@
       "x": 106,
       "y": 77,
       "connected": [
+        "necromon",
         "dokugumon",
         "ginryumon",
         "musyamon",
         "zubaeagermon",
         "ouryumon",
         "durandamon",
-        "zanbamon"
+        "zanbamon",
+        "tengumon"
       ],
       "prerequisites": [
         {

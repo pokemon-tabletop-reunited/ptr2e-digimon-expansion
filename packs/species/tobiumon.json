@@ -864,11 +864,13 @@
       "x": 60,
       "y": 177,
       "connected": [
-        "gizamon",
         "jellymon",
+        "marine-bullmon",
+        "mermaimon",
+        "piranimon",
         "sangomon",
         "scorpiomon-x",
-        "piranimon",
+        "gizamon",
         "waru-seadramon"
       ],
       "prerequisites": [

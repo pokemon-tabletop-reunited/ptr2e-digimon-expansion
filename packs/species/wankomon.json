@@ -853,11 +853,13 @@
       "x": 31,
       "y": 9,
       "connected": [
-        "onibimon",
+        "dimetromon",
+        "hakubamon",
         "kokeshimon",
-        "musyamon",
+        "onibimon",
         "shiisamon",
-        "tenkomon"
+        "tenkomon",
+        "musyamon"
       ],
       "prerequisites": [
         {

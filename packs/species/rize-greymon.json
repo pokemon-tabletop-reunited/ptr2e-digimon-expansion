@@ -862,13 +862,15 @@
       "x": 113,
       "y": 109,
       "connected": [
+        "agunimon",
+        "bao-huckmon",
+        "dorugamon",
+        "ex-veemon",
+        "geo-greymon",
         "kentaurosmon",
         "magna-kidmon",
-        "geo-greymon",
-        "bao-huckmon",
-        "ex-veemon",
-        "dorugamon",
-        "shine-greymon"
+        "shine-greymon",
+        "victory-greymon"
       ],
       "prerequisites": [
         {

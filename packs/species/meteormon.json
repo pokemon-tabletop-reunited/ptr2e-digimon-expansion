@@ -852,15 +852,19 @@
       "x": 109,
       "y": 98,
       "connected": [
-        "baihumon",
-        "boltmon",
-        "jungle-mojyamon",
-        "metal-etemon",
-        "golemon",
-        "frigimon",
         "ankylomon",
+        "baihumon",
+        "blastmon",
+        "boltmon",
+        "frigimon",
+        "golemon",
         "icemon",
-        "nise-drimogemon"
+        "jungle-mojyamon",
+        "landramon",
+        "metal-etemon",
+        "nise-drimogemon",
+        "piddomon",
+        "ragnamon"
       ],
       "prerequisites": [
         {

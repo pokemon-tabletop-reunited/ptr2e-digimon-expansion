@@ -858,17 +858,18 @@
       "x": 46,
       "y": 156,
       "connected": [
-        "terriermon",
-        "gargomon",
         "gold-veedramon",
-        "guardromon-gold",
-        "lopmon",
+        "magnamon",
         "makuramon",
         "pajiramon",
+        "raijinmon",
+        "terriermon",
+        "gargomon",
+        "guardromon-gold",
+        "lopmon",
         "rapidmon",
         "leopardmon",
         "hercules-kabuterimon",
-        "magnamon",
         "omni-shoutmon"
       ],
       "prerequisites": [

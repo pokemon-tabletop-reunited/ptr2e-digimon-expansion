@@ -864,11 +864,15 @@
       "y": 43,
       "connected": [
         "alphamon",
+        "death-x-dorugamon",
+        "death-x-dorugoramon",
         "reppamon",
         "growlmon",
         "dorugamon",
         "dorugoramon",
-        "nise-drimogemon"
+        "nise-drimogemon",
+        "greymon-x",
+        "spinomon"
       ],
       "prerequisites": [
         {

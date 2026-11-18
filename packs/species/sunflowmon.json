@@ -847,14 +847,17 @@
       "x": 61,
       "y": 70,
       "connected": [
+        "ajatarmon",
         "deramon",
+        "eosmon-ultimate",
+        "floramon",
+        "lalamon",
         "lilamon",
         "lilymon",
         "pumpkinmon",
-        "floramon",
-        "lalamon",
         "renamon",
-        "tentomon"
+        "tentomon",
+        "toropiamon"
       ],
       "prerequisites": [
         {

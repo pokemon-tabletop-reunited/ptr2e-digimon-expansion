@@ -861,13 +861,15 @@
       "x": 112,
       "y": 71,
       "connected": [
+        "blade-kuwagamon",
+        "flymon",
         "gran-kuwagamon",
         "hercules-kabuterimon",
-        "stingmon",
         "kuwagamon",
-        "flymon",
+        "stingmon",
         "snimon",
-        "tyrant-kabuterimon"
+        "tyrant-kabuterimon",
+        "roachmon"
       ],
       "prerequisites": [
         {

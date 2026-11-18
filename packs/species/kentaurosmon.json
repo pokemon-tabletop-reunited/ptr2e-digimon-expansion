@@ -832,9 +832,11 @@
       "x": 159,
       "y": 59,
       "connected": [
-        "rize-greymon",
         "chirinmon",
-        "enbarrmon"
+        "enbarrmon",
+        "kentaurosmon-x",
+        "rize-greymon",
+        "megakabuterimon-blue"
       ],
       "prerequisites": [
         {

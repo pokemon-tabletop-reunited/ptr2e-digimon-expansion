@@ -860,10 +860,10 @@
       "x": 68,
       "y": 229,
       "connected": [
-        "agumon",
-        "gammamon",
-        "salamon",
         "canoweissmon",
+        "gammamon",
+        "agumon",
+        "salamon",
         "regulusmon",
         "myotismon"
       ],

@@ -836,10 +836,13 @@
       "x": 158,
       "y": 99,
       "connected": [
-        "were-garurumon",
         "loader-leomon",
+        "metal-garurumon-x",
+        "were-garurumon",
         "metal-mamemon",
-        "omnimon"
+        "omnimon",
+        "valvemon",
+        "were-garurumon-sagittarius"
       ],
       "prerequisites": [
         {

@@ -836,8 +836,8 @@
       "x": 155,
       "y": 108,
       "connected": [
-        "zephyrmon",
         "ancient-irismon",
+        "zephyrmon",
         "lotosmon"
       ],
       "prerequisites": [

@@ -866,10 +866,13 @@
         "ankylomon",
         "buraimon",
         "guardromon-gold",
+        "kakkinmon",
         "musyamon",
+        "sakuttomon",
         "tankmon",
-        "zubaeagermon",
-        "tsunomon"
+        "tia-ludomon",
+        "tsunomon",
+        "zubaeagermon"
       ],
       "prerequisites": [
         {

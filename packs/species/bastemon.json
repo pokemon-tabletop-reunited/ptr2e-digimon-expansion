@@ -870,13 +870,16 @@
       "x": 107,
       "y": 20,
       "connected": [
+        "amaterasumon",
         "witchmon",
         "shiisamon",
         "black-gatomon",
         "barbamon",
         "diarabbitmon",
         "marsmon",
-        "lilithmon"
+        "lilithmon",
+        "manekimon",
+        "sistermon-noir"
       ],
       "prerequisites": [
         {

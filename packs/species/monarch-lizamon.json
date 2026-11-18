@@ -875,11 +875,13 @@
       "y": 37,
       "connected": [
         "arma-lizamon",
+        "magneticdramon",
         "airdramon",
         "cyclonemon",
         "chaosdramon",
         "dinorexmon",
-        "alphamon"
+        "alphamon",
+        "zephagamon"
       ],
       "prerequisites": [
         {

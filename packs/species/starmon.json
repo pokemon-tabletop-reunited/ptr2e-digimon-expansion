@@ -853,10 +853,10 @@
       "y": 25,
       "connected": [
         "dark-super-starmon",
-        "mamemon",
         "dracmon",
-        "solarmon",
         "gotsumon",
+        "mamemon",
+        "solarmon",
         "super-starmon",
         "tekkamon",
         "volcanomon"

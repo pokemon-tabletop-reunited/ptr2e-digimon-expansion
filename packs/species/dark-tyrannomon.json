@@ -861,7 +861,9 @@
         "agumon",
         "dracomon",
         "guilmon",
-        "master-tyrannomon"
+        "master-tyrannomon",
+        "elizamon",
+        "mame-tyrannomon"
       ],
       "prerequisites": [
         {

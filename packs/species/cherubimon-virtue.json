@@ -831,9 +831,12 @@
       "x": 159,
       "y": 63,
       "connected": [
+        "antylamon-virus",
+        "antylamon",
         "ex-tyrannomon",
         "crescemon",
-        "antylamon"
+        "pajiramon",
+        "sinduramon"
       ],
       "prerequisites": [
         {

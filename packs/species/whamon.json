@@ -856,13 +856,14 @@
       "x": 112,
       "y": 170,
       "connected": [
+        "ikkakumon",
         "leviamon",
         "marine-angemon",
         "neptunemon",
         "plesiomon",
-        "ikkakumon",
         "seadramon",
-        "shellmon"
+        "shellmon",
+        "tesla-jellymon"
       ],
       "prerequisites": [
         {

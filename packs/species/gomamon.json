@@ -866,12 +866,15 @@
       "x": 35,
       "y": 172,
       "connected": [
-        "frigimon",
+        "blastmon",
         "bukamon",
+        "ebidramon",
+        "frigimon",
         "hyogamon",
         "ice-devimon",
         "ikkakumon",
-        "mojyamon"
+        "mojyamon",
+        "tesla-jellymon"
       ],
       "prerequisites": [
         {

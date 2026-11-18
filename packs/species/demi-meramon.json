@@ -819,9 +819,9 @@
       "y": 145,
       "connected": [
         "bommon",
+        "botamon",
         "candlemon",
         "coronamon",
-        "botamon",
         "impmon",
         "kunemon",
         "loogamon",
@@ -829,7 +829,11 @@
         "tapirmon",
         "demi-devimon",
         "meramon",
-        "vorvomon"
+        "vorvomon",
+        "flamon",
+        "ghostmon",
+        "mokumon",
+        "yuramon"
       ],
       "prerequisites": [
         {

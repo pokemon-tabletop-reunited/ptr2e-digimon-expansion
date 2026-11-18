@@ -869,11 +869,11 @@
       "x": 107,
       "y": 69,
       "connected": [
+        "ancient-sphinxmon",
+        "blastmon",
         "digmon",
         "togemon",
         "mud-frigimon",
-        "ancient-sphinxmon",
-        "blastmon",
         "rosemon"
       ],
       "prerequisites": [

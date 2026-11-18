@@ -844,9 +844,11 @@
       "x": 163,
       "y": 151,
       "connected": [
+        "aldamon",
         "burning-greymon",
         "dark-super-starmon",
-        "gigasmon"
+        "gigasmon",
+        "manticoremon"
       ],
       "prerequisites": [
         {

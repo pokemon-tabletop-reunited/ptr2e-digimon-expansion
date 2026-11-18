@@ -862,9 +862,12 @@
       "x": 64,
       "y": 184,
       "connected": [
-        "falcomon",
-        "luxmon",
         "fujamon",
+        "huankunmon",
+        "luxmon",
+        "sagomon",
+        "sanzomon",
+        "falcomon",
         "kamemon"
       ],
       "prerequisites": [

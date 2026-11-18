@@ -851,12 +851,15 @@
       "x": 63,
       "y": 168,
       "connected": [
-        "divermon",
-        "terriermon",
         "crabmon",
+        "divermon",
+        "fujamon",
+        "terriermon",
         "kamemon",
         "shaujinmon",
-        "shogun-gekomon"
+        "shogun-gekomon",
+        "sagomon",
+        "xingtianmon"
       ],
       "prerequisites": [
         {

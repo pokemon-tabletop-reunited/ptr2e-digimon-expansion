@@ -853,10 +853,10 @@
       "y": 179,
       "connected": [
         "angoramon",
+        "oleamon",
         "syakomon",
         "dokunemon",
-        "digitamamon",
-        "oleamon"
+        "digitamamon"
       ],
       "prerequisites": [
         {

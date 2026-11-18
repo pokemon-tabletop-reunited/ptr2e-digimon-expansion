@@ -857,9 +857,12 @@
       "x": 118,
       "y": 195,
       "connected": [
+        "amaterasumon",
+        "ariemon",
         "manekimon",
         "shellmon",
-        "musyamon"
+        "musyamon",
+        "tenkomon"
       ],
       "prerequisites": [
         {

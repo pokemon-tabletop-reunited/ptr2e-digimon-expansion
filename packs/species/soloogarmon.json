@@ -881,11 +881,13 @@
       "x": 113,
       "y": 188,
       "connected": [
-        "fenriloogamon",
-        "loogarmon",
-        "tyrannomon",
         "boltmon",
-        "callismon"
+        "callismon",
+        "fenriloogamon",
+        "filmon",
+        "loogarmon",
+        "rasenmon",
+        "tyrannomon"
       ],
       "prerequisites": [
         {

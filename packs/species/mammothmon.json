@@ -858,14 +858,19 @@
       "x": 113,
       "y": 101,
       "connected": [
+        "ancient-megatheriumon",
         "apemon",
-        "golemon",
-        "monochromon",
+        "boarmon",
         "frigimon",
+        "golemon",
+        "gorimon",
+        "monochromon",
         "mojyamon",
         "shima-unimon",
         "skull-mammothmon",
-        "vikemon"
+        "vikemon",
+        "moosemon",
+        "troopmon"
       ],
       "prerequisites": [
         {

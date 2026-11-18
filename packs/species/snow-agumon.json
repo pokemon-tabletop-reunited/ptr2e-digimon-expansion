@@ -854,13 +854,16 @@
       "x": 34,
       "y": 112,
       "connected": [
-        "shima-unimon",
-        "nyaromon",
         "frigimon",
-        "sorcermon",
         "gatomon",
+        "hiyarimon",
         "hyogamon",
-        "icemon"
+        "icemon",
+        "nyaromon",
+        "paledramon",
+        "shima-unimon",
+        "sorcermon",
+        "tenkomon"
       ],
       "prerequisites": [
         {

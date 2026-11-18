@@ -865,11 +865,13 @@
       "connected": [
         "belphemon",
         "cherubimon-virtue",
+        "clockmon",
         "darklizamon",
         "tyrannomon",
-        "clockmon",
         "raremon",
-        "rust-tyrannomon"
+        "rust-tyrannomon",
+        "shin-monzaemon",
+        "turbomon"
       ],
       "prerequisites": [
         {

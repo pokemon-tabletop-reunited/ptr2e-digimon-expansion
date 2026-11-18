@@ -829,9 +829,14 @@
       "x": 158,
       "y": 172,
       "connected": [
+        "aegisdramon",
+        "divermon",
+        "gusokumon",
+        "marine-kimeramon",
+        "mermaimon",
+        "piranimon",
         "whamon",
-        "zudomon",
-        "divermon"
+        "zudomon"
       ],
       "prerequisites": [
         {

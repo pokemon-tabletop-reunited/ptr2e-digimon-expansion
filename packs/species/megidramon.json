@@ -836,10 +836,16 @@
       "x": 161,
       "y": 152,
       "connected": [
+        "groundramon",
+        "majiramon",
+        "megadramon",
         "waru-seadramon",
         "war-growlmon",
-        "groundramon",
-        "megadramon"
+        "mihiramon",
+        "regulusmon",
+        "sandiramon",
+        "vajramon",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

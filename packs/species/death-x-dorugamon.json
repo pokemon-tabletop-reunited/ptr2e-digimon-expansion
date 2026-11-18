@@ -855,12 +855,13 @@
       "x": 62,
       "y": 34,
       "connected": [
+        "agumon-x",
+        "death-x-doru-greymon",
         "agumon-black",
         "dorugamon",
         "dorumon",
         "ryudamon",
         "doru-greymon",
-        "death-x-doru-greymon",
         "metal-tyrannomon"
       ],
       "prerequisites": [

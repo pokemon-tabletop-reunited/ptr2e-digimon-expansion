@@ -875,8 +875,9 @@
       "x": null,
       "y": null,
       "connected": [
-        "arbormon",
         "ancient-troiamon",
+        "arbormon",
+        "cherrymon-christmas",
         "lotosmon"
       ],
       "prerequisites": [

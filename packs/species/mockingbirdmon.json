@@ -860,10 +860,10 @@
       "x": 109,
       "y": 38,
       "connected": [
+        "metatromon",
         "mulemon",
         "turbomon",
         "machmon",
-        "metatromon",
         "ebemon",
         "vulcanusmon"
       ],

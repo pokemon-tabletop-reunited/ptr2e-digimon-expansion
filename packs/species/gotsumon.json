@@ -855,7 +855,12 @@
         "jungle-mojyamon",
         "monochromon",
         "mud-frigimon",
-        "starmon"
+        "starmon",
+        "grottemon",
+        "landramon",
+        "symbare-angoramon",
+        "thunderbirdmon",
+        "tumblemon"
       ],
       "prerequisites": [
         {

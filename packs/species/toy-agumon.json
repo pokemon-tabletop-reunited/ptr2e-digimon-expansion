@@ -856,11 +856,18 @@
       "y": 38,
       "connected": [
         "deputymon",
+        "dogmon",
         "flarelizamon",
         "gargomon",
+        "growlmon-orange",
+        "gummymon",
+        "kapurimon",
+        "omekamon",
+        "peacockmon",
         "raremon",
+        "shoeshoemon",
         "tankmon",
-        "kapurimon"
+        "toy-agumon-black"
       ],
       "prerequisites": [
         {

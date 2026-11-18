@@ -867,7 +867,11 @@
         "boutmon",
         "pulsemon",
         "omni-shoutmon",
-        "shoutmon"
+        "shoutmon",
+        "climbmon",
+        "divemon",
+        "pistmon",
+        "tempomon"
       ],
       "prerequisites": [
         {

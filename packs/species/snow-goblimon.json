@@ -861,13 +861,15 @@
       "x": 33,
       "y": 49,
       "connected": [
+        "dorimon",
         "frigimon",
         "gatomon",
+        "hiyarimon",
         "hyogamon",
         "ice-devimon",
         "icemon",
         "monochromon",
-        "dorimon"
+        "paledramon"
       ],
       "prerequisites": [
         {

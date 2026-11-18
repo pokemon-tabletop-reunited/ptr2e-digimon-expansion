@@ -856,12 +856,13 @@
       "x": 67,
       "y": 95,
       "connected": [
-        "digitamamon",
-        "groundramon",
-        "triceramon",
-        "goblimon",
+        "agumon-black",
         "betamon",
-        "agumon-black"
+        "digitamamon",
+        "elecmon-violet",
+        "goblimon",
+        "groundramon",
+        "triceramon"
       ],
       "prerequisites": [
         {

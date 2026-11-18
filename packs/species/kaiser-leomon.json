@@ -878,10 +878,11 @@
       "x": 107,
       "y": 47,
       "connected": [
+        "ancient-sphinxmon",
+        "deathmon",
         "liamon",
         "lowemon",
-        "ancient-sphinxmon",
-        "deathmon"
+        "raihimon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-darkness"

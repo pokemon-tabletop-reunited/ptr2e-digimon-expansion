@@ -863,11 +863,13 @@
       "x": 104,
       "y": 24,
       "connected": [
+        "agunimon",
+        "dobermon",
         "gran-dracmon",
+        "gulfmon",
         "kuzuhamon",
         "sangloupmon",
         "turuiemon",
-        "dobermon",
         "slash-angemon"
       ],
       "prerequisites": [

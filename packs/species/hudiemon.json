@@ -850,12 +850,16 @@
       "x": 59,
       "y": 78,
       "connected": [
+        "arukenimon",
+        "cannon-beemon",
+        "eosmon-ultimate",
         "lalamon",
         "wormmon",
-        "cannon-beemon",
         "lilamon",
         "lilymon",
-        "arukenimon"
+        "morphomon",
+        "pucchiemon-green",
+        "weddinmon"
       ],
       "prerequisites": [
         {

@@ -852,12 +852,14 @@
       "x": 109,
       "y": 103,
       "connected": [
+        "erlangmon",
         "seiten-gokumon",
         "king-etemon",
         "nezhamon",
         "apemon",
         "kinkakumon",
-        "turuiemon"
+        "turuiemon",
+        "hakubamon"
       ],
       "prerequisites": [
         {

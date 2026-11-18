@@ -862,10 +862,11 @@
       "y": 161,
       "connected": [
         "barbamon",
-        "jumbo-gamemon",
-        "puppetmon",
+        "dinohyumon",
+        "el-doradomon",
         "gawappamon",
-        "dinohyumon"
+        "jumbo-gamemon",
+        "puppetmon"
       ],
       "prerequisites": [
         {

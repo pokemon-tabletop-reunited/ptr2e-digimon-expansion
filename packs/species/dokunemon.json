@@ -854,13 +854,18 @@
       "x": 36,
       "y": 80,
       "connected": [
+        "chamblemon",
         "dokugumon",
         "motimon",
         "flymon",
         "kokatorimon",
         "nise-drimogemon",
         "waspmon",
-        "yanmamon"
+        "yanmamon",
+        "minomon",
+        "publimon",
+        "roachmon",
+        "weedmon"
       ],
       "prerequisites": [
         {

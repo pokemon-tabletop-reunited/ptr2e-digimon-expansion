@@ -832,10 +832,10 @@
       "x": 160,
       "y": 120,
       "connected": [
+        "magneticdramon",
         "proganomon",
         "mummymon",
-        "gogmamon",
-        "magneticdramon"
+        "gogmamon"
       ],
       "prerequisites": [
         {

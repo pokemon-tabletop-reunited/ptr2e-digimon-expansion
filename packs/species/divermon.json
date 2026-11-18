@@ -858,14 +858,16 @@
       "x": 113,
       "y": 178,
       "connected": [
-        "gawappamon",
         "coelamon",
+        "gawappamon",
         "octomon",
         "gekomon",
         "neptunemon",
         "plesiomon",
         "shima-unimon",
-        "yanmamon"
+        "yanmamon",
+        "ebidramon",
+        "marine-kimeramon"
       ],
       "prerequisites": [
         {

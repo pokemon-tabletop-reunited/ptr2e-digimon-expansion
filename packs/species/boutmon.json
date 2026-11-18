@@ -896,7 +896,9 @@
       "connected": [
         "pulsemon",
         "bulkmon",
-        "kazuchimon"
+        "kazuchimon",
+        "runnermon",
+        "shroudmon"
       ],
       "prerequisites": [
         {

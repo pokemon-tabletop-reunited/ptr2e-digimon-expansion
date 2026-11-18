@@ -837,10 +837,12 @@
       "x": 158,
       "y": 95,
       "connected": [
+        "cannon-beemon",
         "dinobeemon",
-        "savior-huckmon",
+        "eosmon-ultimate",
+        "jazarichmon",
         "jewel-beemon",
-        "cannon-beemon"
+        "savior-huckmon"
       ],
       "prerequisites": [
         {

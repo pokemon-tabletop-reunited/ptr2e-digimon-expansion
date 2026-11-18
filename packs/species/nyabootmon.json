@@ -838,6 +838,7 @@
       "x": 244,
       "y": 148,
       "connected": [
+        "chaperomon",
         "cendrillmon",
         "leopardmon",
         "metal-etemon"

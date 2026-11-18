@@ -854,12 +854,16 @@
       "x": 62,
       "y": 129,
       "connected": [
+        "coronamon",
         "doru-greymon",
         "groundramon",
         "guilmon",
         "huckmon",
-        "coronamon",
-        "war-growlmon"
+        "war-growlmon",
+        "kendo-garurumon",
+        "loudmon",
+        "sandiramon",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

@@ -861,12 +861,13 @@
       "x": 109,
       "y": 5,
       "connected": [
+        "kaguyamon",
         "kokeshimon",
         "musyamon",
         "shellmon",
-        "kaguyamon",
         "ryugumon",
-        "yukinamon"
+        "yukinamon",
+        "turbomon"
       ],
       "prerequisites": [
         {

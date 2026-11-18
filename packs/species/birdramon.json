@@ -848,6 +848,8 @@
       "x": 63,
       "y": 60,
       "connected": [
+        "agunimon",
+        "arkhai-angemon",
         "coronamon",
         "hyokomon",
         "biyomon",
@@ -855,7 +857,14 @@
         "flaremon",
         "garudamon",
         "parrotmon",
-        "skull-meramon"
+        "skull-meramon",
+        "burning-greymon",
+        "jazamon",
+        "lavogaritamon",
+        "luxmon",
+        "pteromon",
+        "sparrowmon",
+        "vorvomon"
       ],
       "prerequisites": [
         {

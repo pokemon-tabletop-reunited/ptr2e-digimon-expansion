@@ -820,8 +820,8 @@
       "x": 21,
       "y": 40,
       "connected": [
-        "kekomon",
-        "gekkomon"
+        "gekkomon",
+        "kekomon"
       ],
       "prerequisites": [
         {

@@ -853,9 +853,9 @@
       "x": 59,
       "y": 75,
       "connected": [
-        "palmon",
-        "gotsumon",
         "gizamon",
+        "gotsumon",
+        "palmon",
         "panjyamon",
         "meteormon",
         "waru-monzaemon"

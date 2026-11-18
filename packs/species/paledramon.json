@@ -860,10 +860,10 @@
       "y": 235,
       "connected": [
         "blucomon",
-        "snow-agumon",
-        "snow-goblimon",
         "crys-paledramon",
         "frozomon",
+        "snow-agumon",
+        "snow-goblimon",
         "panjyamon",
         "panjyamon-x"
       ],

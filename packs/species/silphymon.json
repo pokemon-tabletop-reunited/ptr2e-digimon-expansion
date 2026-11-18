@@ -864,10 +864,10 @@
       "x": 112,
       "y": 137,
       "connected": [
-        "beel-starmon",
-        "minervamon",
         "aquilamon",
+        "beel-starmon",
         "gatomon",
+        "minervamon",
         "valkyrimon"
       ],
       "prerequisites": [

@@ -835,8 +835,8 @@
       "x": 161,
       "y": 137,
       "connected": [
-        "meicrackmon",
-        "angewomon"
+        "angewomon",
+        "meicrackmon"
       ],
       "prerequisites": [
         {

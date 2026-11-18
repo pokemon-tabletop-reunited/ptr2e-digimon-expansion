@@ -808,11 +808,15 @@
       "x": 19,
       "y": 32,
       "connected": [
-        "hagurumon",
         "choromon",
+        "hagurumon",
         "kokuwamon",
         "solarmon",
-        "toy-agumon"
+        "toy-agumon",
+        "maquinamon",
+        "mokumon",
+        "sparrowmon",
+        "zurumon"
       ],
       "prerequisites": [
         {

@@ -865,9 +865,10 @@
       "x": 52,
       "y": 58,
       "connected": [
+        "caturamon",
+        "kumbhiramon",
         "renamon",
         "gatomon",
-        "kumbhiramon",
         "mihiramon"
       ],
       "prerequisites": [

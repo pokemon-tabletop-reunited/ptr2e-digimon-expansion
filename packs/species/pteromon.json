@@ -854,9 +854,9 @@
       "x": 29,
       "y": 63,
       "connected": [
+        "galemon",
         "yokomon",
         "birdramon",
-        "galemon",
         "togemon",
         "veedramon"
       ],

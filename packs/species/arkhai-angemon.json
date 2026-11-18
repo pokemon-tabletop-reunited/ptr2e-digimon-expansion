@@ -874,7 +874,8 @@
         "gargomon",
         "dominimon",
         "phoenixmon",
-        "xiangpengmon"
+        "xiangpengmon",
+        "shortmon"
       ],
       "prerequisites": [
         {

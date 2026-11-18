@@ -855,14 +855,17 @@
       "x": 110,
       "y": 59,
       "connected": [
+        "anubismon",
+        "bakemon",
         "devidramon",
+        "geremon",
+        "gran-kuwagamon",
         "jungle-mojyamon",
         "king-etemon",
-        "bakemon",
-        "geremon",
+        "komondomon",
         "nunemon",
         "pharoahmon",
-        "gran-kuwagamon"
+        "shin-monzaemon"
       ],
       "prerequisites": [
         {

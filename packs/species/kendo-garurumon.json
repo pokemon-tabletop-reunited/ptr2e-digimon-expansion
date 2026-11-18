@@ -864,6 +864,7 @@
       "x": 64,
       "y": 107,
       "connected": [
+        "ancient-garurumon",
         "beowolfmon",
         "lobomon",
         "bao-huckmon",
@@ -871,8 +872,7 @@
         "growlmon",
         "grizzlymon",
         "sangloupmon",
-        "zubaeagermon",
-        "ancient-garurumon"
+        "zubaeagermon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-light"

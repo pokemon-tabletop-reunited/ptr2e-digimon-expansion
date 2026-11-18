@@ -859,11 +859,13 @@
         "blossomon",
         "cherrymon",
         "deramon",
-        "floramon",
-        "penmon",
         "falcomon",
+        "floramon",
+        "grand-galemon",
+        "penmon",
         "lilamon",
-        "sirenmon"
+        "sirenmon",
+        "sinduramon"
       ],
       "prerequisites": [
         {

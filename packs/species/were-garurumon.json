@@ -857,15 +857,22 @@
       "x": 104,
       "y": 82,
       "connected": [
+        "algomon-champion",
+        "ancient-garurumon",
         "apemon",
         "cres-garurumon",
+        "dorulumon",
+        "garurumon",
+        "grizzlymon",
         "jijimon",
+        "lekismon",
+        "lobomon",
         "loogarmon",
+        "magna-garurumon",
         "merukimon",
         "metal-garurumon",
-        "lekismon",
-        "garurumon",
-        "grizzlymon"
+        "rasenmon",
+        "were-garurumon-sagittarius"
       ],
       "prerequisites": [
         {

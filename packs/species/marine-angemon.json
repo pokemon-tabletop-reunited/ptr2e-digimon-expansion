@@ -832,7 +832,9 @@
       "y": 160,
       "connected": [
         "whamon",
-        "sirenmon"
+        "sirenmon",
+        "mermaimon",
+        "thetismon"
       ],
       "prerequisites": [
         {

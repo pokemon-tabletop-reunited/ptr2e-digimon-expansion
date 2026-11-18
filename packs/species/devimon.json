@@ -857,16 +857,24 @@
       "x": 62,
       "y": 12,
       "connected": [
-        "astamon",
-        "demi-devimon",
         "agumon-black",
-        "impmon",
+        "astamon",
+        "baalmon",
         "betamon",
+        "demi-devimon",
+        "impmon",
         "infermon",
         "lady-devimon",
         "myotismon",
         "skull-satamon",
-        "tsukaimon"
+        "tsukaimon",
+        "doumon",
+        "ghostmon",
+        "jokermon",
+        "mame-tyrannomon",
+        "neo-devimon",
+        "phelesmon",
+        "xros-cyberdramon"
       ],
       "prerequisites": [
         {

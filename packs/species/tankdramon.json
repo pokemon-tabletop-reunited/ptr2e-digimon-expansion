@@ -860,12 +860,14 @@
         "brigadramon",
         "cannondramon",
         "darkdramon",
+        "deckerdramon",
         "gundramon",
         "hi-commandramon",
-        "sealsdramon",
         "raptordramon",
+        "sealsdramon",
         "waspmon",
-        "tankmon"
+        "tankmon",
+        "wezen-gammamon"
       ],
       "prerequisites": [
         {

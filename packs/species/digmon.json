@@ -887,7 +887,8 @@
         "magna-angemon",
         "jyagamon",
         "mummymon",
-        "skull-scorpionmon"
+        "skull-scorpionmon",
+        "gogmamon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-knowledge"

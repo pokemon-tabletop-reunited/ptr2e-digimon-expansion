@@ -841,10 +841,10 @@
       "x": 167,
       "y": 234,
       "connected": [
+        "ex-maquinamon",
         "mockingbirdmon",
         "baalmon",
-        "rapidmon",
-        "ex-maquinamon"
+        "rapidmon"
       ],
       "prerequisites": [
         {

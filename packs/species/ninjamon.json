@@ -864,15 +864,19 @@
       "y": 64,
       "connected": [
         "blossomon",
+        "cherrymon",
         "falcomon",
         "floramon",
-        "tsukaimon",
-        "mamemon",
+        "fumamon",
+        "ghilliedhumon",
         "giromon",
+        "karatenmon",
         "lilamon",
         "lilymon",
+        "mamemon",
+        "tsukaimon",
         "vademon",
-        "cherrymon"
+        "regulusmon"
       ],
       "prerequisites": [
         {

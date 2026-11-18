@@ -862,10 +862,10 @@
       "x": 109,
       "y": 114,
       "connected": [
+        "dinorexmon",
         "golemon",
         "togemon",
         "peckmon",
-        "dinorexmon",
         "pharoahmon",
         "blastmon"
       ],

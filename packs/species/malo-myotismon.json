@@ -831,8 +831,10 @@
       "x": 155,
       "y": 4,
       "connected": [
+        "algomon-ultimate",
+        "infermon",
         "myotismon",
-        "infermon"
+        "phelesmon"
       ],
       "prerequisites": [
         {

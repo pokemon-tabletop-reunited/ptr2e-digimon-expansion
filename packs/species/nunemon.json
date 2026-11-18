@@ -847,10 +847,11 @@
       "x": 56,
       "y": 135,
       "connected": [
-        "dark-super-starmon",
-        "monzaemon",
-        "betamon",
         "agumon",
+        "betamon",
+        "dark-super-starmon",
+        "gumdramon",
+        "monzaemon",
         "otamamon",
         "waru-monzaemon"
       ],

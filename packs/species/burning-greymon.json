@@ -866,13 +866,14 @@
       "x": 52,
       "y": 144,
       "connected": [
-        "aldamon",
         "agunimon",
+        "aldamon",
+        "ancient-greymon",
         "birdramon",
         "flarelizamon",
         "meramon",
         "shamamon",
-        "ancient-greymon"
+        "red-veedramon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-flame"

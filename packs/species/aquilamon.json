@@ -853,7 +853,10 @@
         "crowmon",
         "garudamon",
         "parrotmon",
-        "silphymon"
+        "silphymon",
+        "maneuvermon",
+        "shurimon",
+        "sparrowmon"
       ],
       "prerequisites": [
         {

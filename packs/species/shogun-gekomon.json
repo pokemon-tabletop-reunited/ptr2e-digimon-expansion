@@ -861,12 +861,13 @@
       "y": 156,
       "connected": [
         "bacchusmon",
+        "el-doradomon",
+        "gawappamon",
+        "gekomon",
         "king-etemon",
         "pukumon",
-        "gawappamon",
-        "vegiemon",
-        "gekomon",
-        "raremon"
+        "raremon",
+        "vegiemon"
       ],
       "prerequisites": [
         {

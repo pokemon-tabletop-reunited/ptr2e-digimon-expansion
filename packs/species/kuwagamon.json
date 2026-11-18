@@ -858,12 +858,13 @@
       "y": 83,
       "connected": [
         "cherrymon",
-        "kimeramon",
-        "tentomon",
         "elecmon",
+        "kimeramon",
         "kokuwamon",
+        "tentomon",
         "okuwamon",
-        "scorpiomon"
+        "scorpiomon",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

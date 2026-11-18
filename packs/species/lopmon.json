@@ -870,13 +870,16 @@
       "x": 32,
       "y": 52,
       "connected": [
-        "grizzlymon",
-        "leomon",
         "dorimon",
+        "grizzlymon",
+        "kokomon",
+        "leomon",
         "minotarumon",
         "mud-frigimon",
         "turuiemon",
-        "wendigomon"
+        "wendigomon",
+        "prairiemon",
+        "rapidmon-armour"
       ],
       "prerequisites": [
         {

@@ -829,6 +829,9 @@
       "x": 162,
       "y": 55,
       "connected": [
+        "caturamon",
+        "kumbhiramon",
+        "sakuyamon-miko",
         "sakuyamon"
       ],
       "prerequisites": [

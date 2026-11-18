@@ -842,9 +842,12 @@
       "y": 139,
       "connected": [
         "blizzarmon",
+        "crys-paledramon",
+        "daipenmon",
         "sekkamon",
         "crescemon",
-        "panjyamon"
+        "panjyamon",
+        "panjyamon-x"
       ],
       "prerequisites": [
         {

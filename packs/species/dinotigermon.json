@@ -837,7 +837,9 @@
       "y": 39,
       "connected": [
         "saber-leomon",
-        "bancho-leomon"
+        "bancho-leomon",
+        "raihimon",
+        "velgrmon"
       ],
       "prerequisites": [
         {

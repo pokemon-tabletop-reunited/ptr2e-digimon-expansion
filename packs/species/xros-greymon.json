@@ -861,6 +861,7 @@
       "x": 60,
       "y": 149,
       "connected": [
+        "metal-greymon-alter",
         "agumon",
         "agumon-black",
         "commandramon",

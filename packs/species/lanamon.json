@@ -875,7 +875,8 @@
         "calmaramon",
         "gizamon",
         "sirenmon",
-        "syakomon"
+        "syakomon",
+        "splashmon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-water"

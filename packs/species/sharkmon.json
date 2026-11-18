@@ -858,9 +858,10 @@
       "x": 116,
       "y": 180,
       "connected": [
+        "deltamon",
         "metal-seadramon",
         "neptunemon",
-        "deltamon",
+        "ryugumon",
         "seadramon"
       ],
       "prerequisites": [

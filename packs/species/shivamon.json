@@ -843,7 +843,8 @@
         "climbmon",
         "divemon",
         "shootmon",
-        "tyrant-kabuterimon"
+        "tyrant-kabuterimon",
+        "tempomon"
       ],
       "prerequisites": [
         {

@@ -848,9 +848,10 @@
         "antylamon",
         "deramon",
         "garbagemon",
+        "gotsumon",
+        "jyagamon",
         "lalamon",
-        "lopmon",
-        "gotsumon"
+        "lopmon"
       ],
       "prerequisites": [
         {

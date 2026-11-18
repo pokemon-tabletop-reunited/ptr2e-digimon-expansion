@@ -862,13 +862,16 @@
       "x": 115,
       "y": 103,
       "connected": [
+        "dimetromon",
+        "magneticdramon",
         "metal-greymon",
         "blitz-greymon",
         "xros-greymon",
         "greymon",
         "machinedramon",
         "monochromon",
-        "war-greymon"
+        "war-greymon",
+        "victory-greymon"
       ],
       "prerequisites": [
         {

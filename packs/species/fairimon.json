@@ -879,7 +879,9 @@
         "salamon-x",
         "gatomon",
         "tinkermon",
-        "zephyrmon"
+        "zephyrmon",
+        "peacockmon",
+        "shurimon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-wind"

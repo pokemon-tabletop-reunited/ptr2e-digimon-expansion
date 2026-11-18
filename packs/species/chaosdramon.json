@@ -832,9 +832,13 @@
       "x": 160,
       "y": 157,
       "connected": [
+        "canoweissmon",
         "war-growlmon",
         "gigadramon",
-        "loader-leomon"
+        "loader-leomon",
+        "death-x-doru-greymon",
+        "destromon",
+        "monarch-lizamon"
       ],
       "prerequisites": [
         {

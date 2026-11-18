@@ -854,9 +854,9 @@
       "x": 62,
       "y": 54,
       "connected": [
+        "blizzarmon",
         "angemon",
         "bearmon",
-        "blizzarmon",
         "patamon"
       ],
       "prerequisites": [

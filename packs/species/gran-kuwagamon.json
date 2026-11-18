@@ -836,10 +836,15 @@
       "x": 154,
       "y": 130,
       "connected": [
-        "dinobeemon",
         "cherrymon",
+        "climbmon",
+        "dinobeemon",
         "okuwamon",
-        "waru-monzaemon"
+        "waru-monzaemon",
+        "grandis-kuwagamon",
+        "megakabuterimon-blue",
+        "metallife-kuwagamon",
+        "pucchiemon-green"
       ],
       "prerequisites": [
         {

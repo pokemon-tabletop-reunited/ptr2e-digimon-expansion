@@ -863,6 +863,9 @@
       "x": null,
       "y": null,
       "connected": [
+        "mailbirdramon",
+        "shortmon",
+        "snatchmon",
         "missimon",
         "kapurimon",
         "blimpmon",

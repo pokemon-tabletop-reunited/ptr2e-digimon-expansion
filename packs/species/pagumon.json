@@ -218,9 +218,11 @@
       "connected": [
         "demi-devimon",
         "gazimon",
+        "gekkomon",
+        "ghostmon",
         "impmon",
-        "otamamon",
-        "kuramon"
+        "kuramon",
+        "otamamon"
       ],
       "prerequisites": [
         {

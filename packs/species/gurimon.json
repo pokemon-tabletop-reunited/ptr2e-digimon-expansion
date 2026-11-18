@@ -814,8 +814,8 @@
       "x": 26,
       "y": 230,
       "connected": [
-        "curimon",
         "bokomon",
+        "curimon",
         "gammamon",
         "koemon"
       ],

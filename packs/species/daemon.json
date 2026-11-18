@@ -830,7 +830,8 @@
       "y": 8,
       "connected": [
         "myotismon",
-        "wisemon"
+        "wisemon",
+        "phelesmon"
       ],
       "prerequisites": [
         {

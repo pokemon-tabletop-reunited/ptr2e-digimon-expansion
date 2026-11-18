@@ -831,9 +831,10 @@
       "x": 157,
       "y": 135,
       "connected": [
+        "angewomon",
+        "lamiamon",
         "meicrackmon-vm",
         "ophanimon-fm",
-        "angewomon",
         "piximon"
       ],
       "prerequisites": [

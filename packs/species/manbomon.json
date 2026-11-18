@@ -860,7 +860,8 @@
       "y": 180,
       "connected": [
         "jellymon",
-        "patamon"
+        "patamon",
+        "thetismon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-light"

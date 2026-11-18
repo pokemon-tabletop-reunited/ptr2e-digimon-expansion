@@ -827,9 +827,10 @@
       "x": 156,
       "y": 21,
       "connected": [
-        "volcanomon",
         "etemon",
+        "loudmon",
         "omni-shoutmon",
+        "volcanomon",
         "were-garurumon-black"
       ],
       "prerequisites": [

@@ -854,10 +854,10 @@
       "x": 31,
       "y": 48,
       "connected": [
-        "bowmon",
-        "pusurimon",
         "damemon",
         "filmon",
+        "bowmon",
+        "pusurimon",
         "loogarmon",
         "sangloupmon"
       ],

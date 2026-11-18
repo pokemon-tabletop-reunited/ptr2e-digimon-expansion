@@ -863,9 +863,11 @@
       "y": 20,
       "connected": [
         "angewomon",
+        "bastemon",
+        "ghostmon",
+        "impmon",
         "lady-devimon",
-        "lilymon",
-        "impmon"
+        "lilymon"
       ],
       "prerequisites": [
         {

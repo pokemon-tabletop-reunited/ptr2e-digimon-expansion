@@ -864,13 +864,21 @@
       "x": 114,
       "y": 146,
       "connected": [
-        "clavis-angemon",
-        "goldramon",
         "angemon",
+        "clavis-angemon",
+        "digmon",
+        "dominimon",
+        "flamedramon",
+        "goldramon",
+        "liamon",
+        "lighdramon",
         "unimon",
         "sorcermon",
         "seraphimon",
-        "slash-angemon"
+        "slash-angemon",
+        "magnamon",
+        "murmukusmon",
+        "pegasusmon"
       ],
       "prerequisites": [
         {

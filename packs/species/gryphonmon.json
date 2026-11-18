@@ -837,9 +837,11 @@
       "x": 155,
       "y": 64,
       "connected": [
-        "hippo-gryphonmon",
+        "butenmon",
+        "cernumon",
         "garudamon",
-        "butenmon"
+        "hippo-gryphonmon",
+        "lamortmon"
       ],
       "prerequisites": [
         {

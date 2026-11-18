@@ -823,9 +823,11 @@
       "x": 157,
       "y": 49,
       "connected": [
+        "duramon",
         "grademon",
         "omni-shoutmon",
-        "duramon"
+        "oboromon",
+        "ragna-lordmon"
       ],
       "prerequisites": [
         {

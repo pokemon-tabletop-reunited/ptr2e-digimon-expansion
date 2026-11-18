@@ -868,12 +868,14 @@
       "x": 111,
       "y": 115,
       "connected": [
+        "blimpmon",
         "brigadramon",
         "cannondramon",
-        "blimpmon",
         "tankmon",
         "sealsdramon",
-        "hi-commandramon"
+        "hi-commandramon",
+        "metallicdramon",
+        "shooting-starmon"
       ],
       "prerequisites": [
         {

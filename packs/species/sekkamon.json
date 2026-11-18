@@ -862,10 +862,11 @@
       "x": 111,
       "y": 6,
       "connected": [
+        "ariemon",
+        "fros-velgrmon",
         "tenkomon",
         "shellmon",
         "manekimon",
-        "ariemon",
         "ryugumon",
         "yukinamon"
       ],

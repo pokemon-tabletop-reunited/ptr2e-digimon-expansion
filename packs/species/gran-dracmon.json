@@ -828,7 +828,9 @@
       "y": 17,
       "connected": [
         "matadormon",
-        "kimeramon"
+        "kimeramon",
+        "mephismon",
+        "phelesmon"
       ],
       "prerequisites": [
         {

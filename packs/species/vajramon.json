@@ -863,10 +863,12 @@
       "y": 158,
       "connected": [
         "bullmon",
+        "reapermon",
+        "shiisamon",
+        "tactimon",
         "centaurmon",
         "devidramon",
         "musyamon",
-        "shiisamon",
         "boltmon",
         "gallantmon",
         "megidramon",

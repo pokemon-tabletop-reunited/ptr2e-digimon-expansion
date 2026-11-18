@@ -863,12 +863,13 @@
       "x": 66,
       "y": 244,
       "connected": [
-        "impmon",
         "kakamon",
+        "impmon",
         "takinmon",
         "antylamon",
         "sagomon",
-        "xingtianmon"
+        "xingtianmon",
+        "sanzomon"
       ],
       "prerequisites": [
         {

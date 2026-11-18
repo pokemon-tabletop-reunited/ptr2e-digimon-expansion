@@ -833,8 +833,8 @@
       "x": 163,
       "y": 162,
       "connected": [
-        "machinedramon",
-        "kimeramon"
+        "kimeramon",
+        "machinedramon"
       ],
       "prerequisites": [
         "item:equipment:machinedramon-dna",

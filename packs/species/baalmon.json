@@ -868,7 +868,10 @@
         "wizardmon",
         "beelzemon",
         "noble-pumpkinmon",
-        "neo-myotismon"
+        "neo-myotismon",
+        "metatromon",
+        "tactimon",
+        "taotiemon"
       ],
       "prerequisites": [
         {

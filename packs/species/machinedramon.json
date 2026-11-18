@@ -834,11 +834,14 @@
       "x": 161,
       "y": 162,
       "connected": [
+        "atlur-ballistamon",
         "kimeramon",
         "megadramon",
         "metal-tyrannomon",
         "milleniummon",
-        "vermilimon"
+        "vermilimon",
+        "metal-greymon-alter",
+        "xros-metal-greymon"
       ],
       "prerequisites": [
         {

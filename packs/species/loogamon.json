@@ -862,12 +862,14 @@
       "x": 33,
       "y": 186,
       "connected": [
-        "bowmon",
-        "demi-meramon",
         "apemon",
         "bakemon",
+        "bowmon",
+        "demi-meramon",
+        "filmon",
         "tyrannomon",
-        "loogarmon"
+        "loogarmon",
+        "snatchmon"
       ],
       "prerequisites": [
         {

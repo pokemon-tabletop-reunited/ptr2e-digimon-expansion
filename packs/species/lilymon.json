@@ -863,13 +863,18 @@
       "y": 56,
       "connected": [
         "bancho-lilymon",
+        "bloom-lordmon",
         "ceresmon",
+        "galemon",
         "hudiemon",
         "sunflowmon",
         "togemon",
         "witchmon",
         "ninjamon",
-        "rosemon"
+        "rosemon",
+        "parasaurmon",
+        "rafflesimon",
+        "red-vegiemon"
       ],
       "prerequisites": [
         {

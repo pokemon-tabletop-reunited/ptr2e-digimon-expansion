@@ -869,11 +869,14 @@
       "x": 110,
       "y": 63,
       "connected": [
-        "eaglemon",
-        "kokatorimon",
         "aquilamon",
         "birdramon",
-        "phoenixmon"
+        "eaglemon",
+        "gorimon",
+        "kokatorimon",
+        "nidhoggmon",
+        "phoenixmon",
+        "zephagamon"
       ],
       "prerequisites": [
         {

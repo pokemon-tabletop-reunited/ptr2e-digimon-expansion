@@ -859,11 +859,11 @@
       "x": 112,
       "y": 7,
       "connected": [
+        "amaterasumon",
+        "ariemon",
         "peckmon",
         "shiisamon",
         "tenkomon",
-        "amaterasumon",
-        "ariemon",
         "zanbamon"
       ],
       "prerequisites": [

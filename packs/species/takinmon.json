@@ -859,10 +859,10 @@
       "x": 39,
       "y": 243,
       "connected": [
-        "mococomon",
         "hakubamon",
         "kinkakumon",
         "lianpumon",
+        "mococomon",
         "turuiemon"
       ],
       "prerequisites": [

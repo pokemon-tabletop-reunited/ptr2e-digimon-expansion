@@ -862,14 +862,18 @@
       "x": 112,
       "y": 131,
       "connected": [
-        "tyrannomon",
-        "dark-tyrannomon",
-        "cyclonemon",
-        "skull-mammothmon",
         "cannondramon",
-        "war-greymon",
+        "cyclonemon",
+        "dark-tyrannomon",
         "dinomon",
-        "rust-tyrannomon"
+        "greymon-x",
+        "tyrannomon",
+        "skull-mammothmon",
+        "war-greymon",
+        "rust-tyrannomon",
+        "ragnamon",
+        "snatchmon",
+        "volcanicdramon"
       ],
       "prerequisites": [
         {

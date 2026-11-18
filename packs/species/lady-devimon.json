@@ -860,13 +860,14 @@
       "connected": [
         "beel-starmon",
         "black-gatomon",
-        "ice-devimon",
         "devimon",
+        "ice-devimon",
         "witchmon",
         "meicoomon",
         "lilithmon",
         "mastemon",
-        "sistermon-ciel"
+        "sistermon-ciel",
+        "sistermon-noir"
       ],
       "prerequisites": [
         {

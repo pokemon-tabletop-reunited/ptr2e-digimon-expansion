@@ -859,11 +859,15 @@
       "y": 90,
       "connected": [
         "dinobeemon",
-        "veemon",
         "dorumon",
+        "veemon",
         "guilmon",
         "paildramon",
-        "rize-greymon"
+        "rize-greymon",
+        "flamedramon",
+        "gekkomon",
+        "gold-veedramon",
+        "magnamon"
       ],
       "prerequisites": [
         {

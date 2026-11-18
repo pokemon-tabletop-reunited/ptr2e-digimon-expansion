@@ -833,10 +833,12 @@
       "x": 157,
       "y": 15,
       "connected": [
-        "were-garurumon-black",
         "catch-mamemon",
         "cerberusmon",
-        "omnimon-zwart"
+        "doumon",
+        "were-garurumon-black",
+        "omnimon-zwart",
+        "rhinomon"
       ],
       "prerequisites": [
         {

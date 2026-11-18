@@ -859,13 +859,13 @@
       "x": 67,
       "y": 224,
       "connected": [
+        "bombermon",
+        "canoweissmon",
         "gammamon",
+        "ghilliedhumon",
         "kaus-gammamon",
         "koemon",
         "salamon",
-        "bombermon",
-        "canoweissmon",
-        "ghilliedhumon",
         "tankdramon"
       ],
       "prerequisites": [

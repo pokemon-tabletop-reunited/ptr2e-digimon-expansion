@@ -832,8 +832,8 @@
       "x": 158,
       "y": 52,
       "connected": [
-        "hippo-gryphonmon",
         "chirinmon",
+        "hippo-gryphonmon",
         "parrotmon"
       ],
       "prerequisites": [

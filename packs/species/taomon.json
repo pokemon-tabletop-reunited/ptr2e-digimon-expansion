@@ -862,12 +862,14 @@
       "x": 106,
       "y": 60,
       "connected": [
+        "anubismon",
         "apemon",
-        "kuzuhamon",
-        "sakuyamon",
+        "arresterdramon",
         "garurumon",
-        "woodmon",
+        "kuzuhamon",
         "kyubimon",
+        "sakuyamon",
+        "woodmon",
         "venusmon"
       ],
       "prerequisites": [

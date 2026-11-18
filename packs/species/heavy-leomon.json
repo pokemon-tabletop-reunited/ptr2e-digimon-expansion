@@ -834,12 +834,14 @@
       "x": 160,
       "y": 101,
       "connected": [
+        "atlur-ballistamon",
         "astamon",
         "flaremon",
         "loader-leomon",
         "grap-leomon",
         "metal-mamemon",
-        "rebellimon"
+        "rebellimon",
+        "jaeger-dorulumon"
       ],
       "prerequisites": [
         {

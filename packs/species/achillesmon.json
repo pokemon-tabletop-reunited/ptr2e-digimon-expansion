@@ -837,7 +837,8 @@
       "connected": [
         "pistmon",
         "shootmon",
-        "tempomon"
+        "tempomon",
+        "divemon"
       ],
       "prerequisites": [
         {

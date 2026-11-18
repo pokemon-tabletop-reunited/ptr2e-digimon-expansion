@@ -854,18 +854,24 @@
       "x": 61,
       "y": 133,
       "connected": [
+        "agumon",
+        "bemmon",
+        "chuumon",
+        "cutemon",
+        "dracomon",
+        "elizamon",
         "ex-tyrannomon",
         "groundramon",
+        "guilmon",
         "helloogarmon",
+        "lavogaritamon",
         "loogamon",
+        "mame-tyrannomon",
         "master-tyrannomon",
         "metal-greymon",
         "metal-tyrannomon",
         "soloogarmon",
-        "dracomon",
-        "guilmon",
-        "chuumon",
-        "agumon"
+        "vorvomon"
       ],
       "prerequisites": [
         {

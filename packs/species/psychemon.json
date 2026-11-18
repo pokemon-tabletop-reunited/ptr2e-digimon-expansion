@@ -968,13 +968,16 @@
       "x": 35,
       "y": 90,
       "connected": [
+        "arma-lizamon",
         "astamon",
-        "mori-shellmon",
-        "tsunomon",
+        "dorulumon",
+        "gargomon",
         "garurumon",
         "kyubimon",
+        "moosemon",
+        "mori-shellmon",
         "nanimon",
-        "gargomon"
+        "tsunomon"
       ],
       "prerequisites": [
         {

@@ -863,12 +863,16 @@
       "y": 6,
       "connected": [
         "barbamon",
-        "ebemon",
-        "piedmon",
+        "deathmon",
         "devimon",
-        "ogremon",
+        "duskmon",
+        "ebemon",
         "fugamon",
-        "garurumon-black"
+        "garurumon-black",
+        "mad-leomon",
+        "ogremon",
+        "piedmon",
+        "reapermon"
       ],
       "prerequisites": [
         {

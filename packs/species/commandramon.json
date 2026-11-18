@@ -848,7 +848,10 @@
       "connected": [
         "missimon",
         "hi-commandramon",
-        "sealsdramon"
+        "sealsdramon",
+        "hover-espimon",
+        "kyokyomon",
+        "xros-greymon"
       ],
       "prerequisites": [
         {

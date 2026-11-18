@@ -849,11 +849,15 @@
       "y": 42,
       "connected": [
         "cannon-beemon",
+        "destromon",
         "duramon",
         "solarmon",
         "shoutmon",
         "zubamon",
-        "master-blimpmon"
+        "master-blimpmon",
+        "magnamon",
+        "rapidmon-armour",
+        "sparrowmon"
       ],
       "prerequisites": [
         {

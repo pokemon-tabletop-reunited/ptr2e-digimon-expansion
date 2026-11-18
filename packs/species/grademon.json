@@ -860,12 +860,13 @@
       "y": 87,
       "connected": [
         "alphamon",
+        "cyclonemon",
+        "death-x-dorugoramon",
+        "dinohyumon",
         "durandamon",
         "dynasmon",
         "raptordramon",
         "musyamon",
-        "cyclonemon",
-        "dinohyumon",
         "zubaeagermon"
       ],
       "prerequisites": [

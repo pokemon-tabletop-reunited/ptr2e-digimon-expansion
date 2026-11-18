@@ -858,7 +858,8 @@
         "kudamon",
         "gargomon",
         "knightmon",
-        "were-garurumon"
+        "were-garurumon",
+        "strabimon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-light"

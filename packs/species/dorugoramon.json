@@ -835,6 +835,8 @@
       "x": 158,
       "y": 51,
       "connected": [
+        "death-x-doru-greymon",
+        "death-x-dorugoramon",
         "doru-greymon",
         "paildramon"
       ],

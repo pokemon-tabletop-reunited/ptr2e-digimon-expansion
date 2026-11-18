@@ -817,8 +817,8 @@
       "y": 170,
       "connected": [
         "sunamon",
-        "gotsumon",
-        "sunarizamon"
+        "sunarizamon",
+        "gotsumon"
       ],
       "prerequisites": [
         {

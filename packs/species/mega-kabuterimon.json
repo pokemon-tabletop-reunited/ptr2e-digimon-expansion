@@ -864,12 +864,14 @@
       "x": 109,
       "y": 70,
       "connected": [
+        "dokugumon",
+        "flymon",
         "hercules-kabuterimon",
         "kabuterimon",
-        "flymon",
-        "dokugumon",
+        "magnamon",
         "tyrant-kabuterimon",
-        "yanmamon"
+        "yanmamon",
+        "red-veedramon"
       ],
       "prerequisites": [
         {

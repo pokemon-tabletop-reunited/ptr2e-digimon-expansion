@@ -861,11 +861,13 @@
       "x": 34,
       "y": 165,
       "connected": [
-        "ninjamon",
-        "tokomon",
-        "devimon",
+        "black-gatomon-uber",
         "devidramon",
-        "saberdramon"
+        "devimon",
+        "ninjamon",
+        "saberdramon",
+        "tokomon",
+        "youkomon"
       ],
       "prerequisites": [
         {

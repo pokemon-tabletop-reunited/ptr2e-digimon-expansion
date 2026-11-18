@@ -831,8 +831,13 @@
       "x": 157,
       "y": 33,
       "connected": [
+        "asuramon",
+        "bastemon",
         "blue-meramon",
-        "grap-leomon"
+        "grap-leomon",
+        "lamortmon",
+        "mephismon",
+        "oleamon"
       ],
       "prerequisites": [
         {

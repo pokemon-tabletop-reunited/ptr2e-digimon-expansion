@@ -854,11 +854,15 @@
       "y": 77,
       "connected": [
         "cherrymon",
-        "lilymon",
-        "pumpkinmon",
         "floramon",
+        "jyagamon",
+        "lalamon",
+        "lilymon",
         "palmon",
-        "lalamon"
+        "pteromon",
+        "pumpkinmon",
+        "sunarizamon",
+        "vulturemon"
       ],
       "prerequisites": [
         {

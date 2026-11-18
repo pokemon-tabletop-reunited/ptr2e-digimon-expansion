@@ -859,6 +859,8 @@
       "x": 63,
       "y": 32,
       "connected": [
+        "death-x-doru-greymon",
+        "death-x-dorugamon",
         "doru-greymon",
         "gabumon-black",
         "gazimon",

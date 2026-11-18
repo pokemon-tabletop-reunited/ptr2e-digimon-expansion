@@ -857,12 +857,13 @@
       "x": 118,
       "y": 206,
       "connected": [
+        "ancient-megatheriumon",
         "hyogamon",
         "paledramon",
         "frigimon",
-        "ancient-megatheriumon",
         "hexeblaumon",
-        "dianamon"
+        "dianamon",
+        "skadimon"
       ],
       "prerequisites": [
         {

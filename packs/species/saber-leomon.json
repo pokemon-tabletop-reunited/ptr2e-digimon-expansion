@@ -831,8 +831,11 @@
       "y": 40,
       "connected": [
         "cerberusmon",
+        "dinotigermon",
         "grap-leomon",
-        "panjyamon"
+        "lamortmon",
+        "panjyamon",
+        "tlalocmon"
       ],
       "prerequisites": [
         {

@@ -851,13 +851,20 @@
       "x": 68,
       "y": 59,
       "connected": [
+        "antylamon-virus",
         "antylamon",
-        "mach-gaogamon",
-        "matadormon",
         "gaomon",
+        "gokumon",
+        "gumdramon",
+        "kakamon",
+        "kotemon",
         "lalamon",
         "lopmon",
-        "kotemon"
+        "mach-gaogamon",
+        "makuramon",
+        "matadormon",
+        "pajiramon",
+        "takinmon"
       ],
       "prerequisites": [
         {

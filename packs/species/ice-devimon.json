@@ -1003,14 +1003,19 @@
       "y": 34,
       "connected": [
         "arcadiamon-ultimate",
+        "baalmon",
         "crescemon",
-        "enbarrmon",
-        "snow-goblimon",
         "demi-devimon",
+        "doumon",
+        "enbarrmon",
         "gomamon",
+        "snow-goblimon",
         "lady-devimon",
         "marine-devimon",
-        "panjyamon"
+        "panjyamon",
+        "indaramon",
+        "neo-devimon",
+        "vikaralamon"
       ],
       "prerequisites": [
         {

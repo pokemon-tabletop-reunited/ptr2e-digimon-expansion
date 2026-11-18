@@ -855,13 +855,15 @@
       "x": 60,
       "y": 130,
       "connected": [
+        "burning-greymon",
         "candlemon",
         "goblimon",
         "kotemon",
         "toy-agumon",
         "triceramon",
         "vermilimon",
-        "metal-tyrannomon"
+        "metal-tyrannomon",
+        "ghostmon"
       ],
       "prerequisites": [
         {

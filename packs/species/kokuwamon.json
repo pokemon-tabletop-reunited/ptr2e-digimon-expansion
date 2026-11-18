@@ -854,6 +854,7 @@
       "x": 31,
       "y": 40,
       "connected": [
+        "blade-kuwagamon",
         "centarumon",
         "clockmon",
         "hi-commandramon",
@@ -861,7 +862,11 @@
         "kuwagamon",
         "mekanorimon",
         "shima-unimon",
-        "waspmon"
+        "waspmon",
+        "mailbirdramon",
+        "mercurymon",
+        "rhinomon",
+        "tesla-jellymon"
       ],
       "prerequisites": [
         {

@@ -824,9 +824,10 @@
       "y": 117,
       "connected": [
         "bommon",
+        "candlemon",
         "commandramon",
         "hagurumon",
-        "candlemon"
+        "sparrowmon"
       ],
       "prerequisites": [
         {

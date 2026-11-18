@@ -869,11 +869,15 @@
       "x": 108,
       "y": 148,
       "connected": [
+        "black-gatomon-uber",
+        "bryweludramon",
         "clavis-angemon",
+        "devitamamon",
+        "hover-espimon",
         "jijimon",
+        "mojyamon",
         "ophanimon",
         "shellmon",
-        "mojyamon",
         "sorcermon",
         "venusmon"
       ],

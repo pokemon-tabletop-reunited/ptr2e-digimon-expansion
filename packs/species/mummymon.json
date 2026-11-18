@@ -853,12 +853,17 @@
       "x": 111,
       "y": 164,
       "connected": [
+        "ancient-sphinxmon",
         "avenge-kidmon",
-        "hi-andromon",
+        "digmon",
         "dobermon",
-        "ogremon",
         "dokugumon",
-        "pharoahmon"
+        "done-devimon",
+        "hi-andromon",
+        "ogremon",
+        "pharoahmon",
+        "pyramidimon",
+        "shurimon"
       ],
       "prerequisites": [
         {

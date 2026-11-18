@@ -854,12 +854,16 @@
       "x": 57,
       "y": 14,
       "connected": [
+        "baalmon",
+        "biyomon",
         "datamon",
-        "mistymon",
-        "wisemon",
         "dracmon",
+        "ghostmon",
         "impmon",
-        "biyomon"
+        "jokermon",
+        "mephismon",
+        "mistymon",
+        "wisemon"
       ],
       "prerequisites": [
         {

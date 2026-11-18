@@ -848,13 +848,16 @@
       "x": 65,
       "y": 86,
       "connected": [
+        "ajatarmon",
+        "betamon",
         "blossomon",
-        "garbagemon",
-        "shogun-gekomon",
-        "vademon",
-        "palmon",
         "floramon",
-        "betamon"
+        "garbagemon",
+        "palmon",
+        "pomumon",
+        "red-vegiemon",
+        "shogun-gekomon",
+        "vademon"
       ],
       "prerequisites": [
         {

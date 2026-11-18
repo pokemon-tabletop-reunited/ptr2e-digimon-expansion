@@ -841,10 +841,10 @@
       "x": 160,
       "y": 190,
       "connected": [
-        "boutmon",
         "climbmon",
+        "divemon",
         "pistmon",
-        "divemon"
+        "boutmon"
       ],
       "prerequisites": [
         {

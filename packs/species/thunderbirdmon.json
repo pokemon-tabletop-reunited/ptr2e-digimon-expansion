@@ -867,12 +867,12 @@
       "x": 58,
       "y": 212,
       "connected": [
-        "falcomon",
         "jazamon",
+        "jazarichmon",
+        "falcomon",
         "gotsumon",
         "impmon",
-        "garudamon",
-        "jazarichmon"
+        "garudamon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-friendship"

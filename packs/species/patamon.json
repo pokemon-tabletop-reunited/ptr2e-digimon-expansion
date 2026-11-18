@@ -864,9 +864,18 @@
       "connected": [
         "angemon",
         "centarumon",
+        "chackmon",
+        "frimon",
+        "growlmon-orange",
+        "liamon",
+        "manbomon",
         "tokomon",
         "pegasusmon",
-        "unimon"
+        "unimon",
+        "piddomon",
+        "prairiemon",
+        "rhinomon",
+        "upamon"
       ],
       "prerequisites": [
         {

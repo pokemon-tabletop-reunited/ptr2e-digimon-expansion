@@ -847,11 +847,12 @@
       "x": 38,
       "y": 219,
       "connected": [
+        "ballistamon",
+        "black-gatomon-uber",
         "kakkinmon",
         "sakutomon",
         "tia-ludomon",
-        "reppamon",
-        "black-gatomon-uber"
+        "reppamon"
       ],
       "prerequisites": [
         {

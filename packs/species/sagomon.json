@@ -858,13 +858,18 @@
       "x": 113,
       "y": 185,
       "connected": [
+        "hakubamon",
+        "lianpumon",
+        "ryugumon",
         "gawappamon",
         "tortomon",
-        "lianpumon",
         "xiquemon",
         "shagaramon",
         "takutuomon",
-        "xuanwumon"
+        "xuanwumon",
+        "sanzomon",
+        "seiten-gokumon",
+        "takutoumon"
       ],
       "prerequisites": [
         {

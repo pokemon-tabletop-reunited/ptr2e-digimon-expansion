@@ -824,6 +824,7 @@
       "y": 29,
       "connected": [
         "relemon",
+        "shoemon",
         "renamon"
       ],
       "prerequisites": [

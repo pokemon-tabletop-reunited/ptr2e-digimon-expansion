@@ -856,7 +856,12 @@
         "greymon-blue",
         "saberdramon",
         "strikedramon",
-        "tuskmon"
+        "tuskmon",
+        "agumon-x",
+        "death-x-dorugamon",
+        "omekamon",
+        "xros-greymon",
+        "yarmon"
       ],
       "prerequisites": [
         {

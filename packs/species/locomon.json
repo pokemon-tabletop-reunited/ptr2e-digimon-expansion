@@ -850,12 +850,16 @@
       "x": 109,
       "y": 21,
       "connected": [
-        "grand-locomon",
-        "hi-andromon",
-        "strikedramon",
-        "guardromon",
+        "ballistamon",
         "blimpmon",
-        "tankmon"
+        "grand-locomon",
+        "guardromon",
+        "hi-andromon",
+        "komondomon",
+        "strikedramon",
+        "tankmon",
+        "mailbirdramon",
+        "zeke-greymon"
       ],
       "prerequisites": [
         {

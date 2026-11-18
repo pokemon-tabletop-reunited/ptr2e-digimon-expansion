@@ -829,10 +829,15 @@
       "x": 159,
       "y": 74,
       "connected": [
+        "duramon",
         "gallantmon-cm",
         "war-growlmon",
-        "duramon",
-        "gallantmonx"
+        "gallantmonx",
+        "majiramon",
+        "mihiramon",
+        "sandiramon",
+        "vajramon",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

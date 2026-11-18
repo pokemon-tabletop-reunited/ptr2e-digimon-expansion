@@ -829,7 +829,9 @@
       "y": 133,
       "connected": [
         "angewomon",
-        "shakkoumon"
+        "jokermon",
+        "shakkoumon",
+        "weddinmon"
       ],
       "prerequisites": [
         {

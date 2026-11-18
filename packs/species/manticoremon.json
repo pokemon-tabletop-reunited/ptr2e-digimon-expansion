@@ -864,12 +864,13 @@
       "y": 211,
       "connected": [
         "black-gatomon-uber",
+        "bryweludramon",
+        "dalphomon",
+        "devitamamon",
         "hover-espimon",
         "reppamon",
         "tia-ludomon",
-        "bryweludramon",
         "deathmon-black",
-        "devitamamon",
         "ancient-greymon"
       ],
       "prerequisites": [

@@ -855,6 +855,7 @@
       "x": 35,
       "y": 26,
       "connected": [
+        "algomon-champion",
         "pagumon",
         "demi-meramon",
         "bakemon",
@@ -862,7 +863,8 @@
         "saberdramon",
         "wizardmon",
         "flarelizamon",
-        "witchmon"
+        "witchmon",
+        "troopmon"
       ],
       "prerequisites": [
         {

@@ -865,12 +865,18 @@
       "connected": [
         "bakemon",
         "clockmon",
+        "demi-meramon",
         "devimon",
         "pagumon",
-        "demi-meramon",
         "sangloupmon",
         "witchmon",
-        "wizardmon"
+        "wizardmon",
+        "lianpumon",
+        "punkmon",
+        "quetzalmon",
+        "thunderbirdmon",
+        "troopmon",
+        "yarmon"
       ],
       "prerequisites": [
         {

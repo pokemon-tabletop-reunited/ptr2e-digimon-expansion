@@ -829,10 +829,10 @@
       "x": 244,
       "y": 10,
       "connected": [
-        "omnimon-zwart-defeat",
-        "omnimon",
         "black-war-greymon",
-        "metal-garurumon-black"
+        "metal-garurumon-black",
+        "omnimon-zwart-defeat",
+        "omnimon"
       ],
       "prerequisites": [
         "item:equipment:black-war-greymon-dna",

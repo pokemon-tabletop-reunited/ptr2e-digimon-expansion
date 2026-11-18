@@ -860,12 +860,12 @@
       "x": 107,
       "y": 16,
       "connected": [
-        "devidramon",
-        "flamedramon",
-        "shell-nunemon",
-        "kinkakumon",
-        "shiisamon",
         "cthyllamon",
+        "flamedramon",
+        "kinkakumon",
+        "devidramon",
+        "shell-nunemon",
+        "shiisamon",
         "gallantmon",
         "megidramon",
         "vikemon"

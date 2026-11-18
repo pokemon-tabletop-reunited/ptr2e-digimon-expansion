@@ -868,12 +868,14 @@
       "x": 111,
       "y": 117,
       "connected": [
-        "gaiomon",
         "airdramon",
+        "gaiomon",
         "ginryumon",
         "musyamon",
         "seadramon",
-        "ouryumon"
+        "ouryumon",
+        "nidhoggmon",
+        "vortexdramon"
       ],
       "prerequisites": [
         {

@@ -855,11 +855,16 @@
       "connected": [
         "chirinmon",
         "crowmon",
-        "myotismon",
-        "hyokomon",
         "falcomon",
+        "gasamon",
+        "hyokomon",
+        "jazarichmon",
+        "karatenmon",
+        "muchomon",
+        "myotismon",
         "penmon",
-        "muchomon"
+        "shishimamon",
+        "vulturemon"
       ],
       "prerequisites": [
         {

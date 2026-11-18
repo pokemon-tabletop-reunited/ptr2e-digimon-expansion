@@ -873,9 +873,9 @@
       "connected": [
         "darkdramon",
         "dorugoramon",
+        "ex-veemon",
         "imperialdramon",
-        "stingmon",
-        "ex-veemon"
+        "stingmon"
       ],
       "prerequisites": [
         "item:equipment:ex-veemon-dna",

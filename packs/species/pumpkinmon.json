@@ -856,11 +856,13 @@
       "x": 110,
       "y": 83,
       "connected": [
+        "cherrymon-christmas",
         "lotosmon",
+        "meicoomon",
+        "noble-pumpkinmon",
         "sunflowmon",
         "togemon",
         "woodmon",
-        "meicoomon",
         "rosemon",
         "yanmamon"
       ],

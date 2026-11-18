@@ -838,8 +838,9 @@
       "x": 159,
       "y": 72,
       "connected": [
-        "shine-greymon-bm",
         "rize-greymon",
+        "shine-greymon-bm",
+        "shine-greymon-rm",
         "wingdramon"
       ],
       "prerequisites": [

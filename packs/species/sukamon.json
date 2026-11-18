@@ -845,14 +845,15 @@
       "x": 69,
       "y": 66,
       "connected": [
+        "chuumon",
+        "dracmon",
         "etemon",
         "garbagemon",
+        "gumdramon",
         "mamemon",
         "monzaemon",
-        "pulsemon",
-        "dracmon",
-        "chuumon",
-        "mushroomon"
+        "mushroomon",
+        "pulsemon"
       ],
       "prerequisites": [
         {

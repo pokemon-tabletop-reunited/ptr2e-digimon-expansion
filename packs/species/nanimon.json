@@ -844,14 +844,18 @@
       "x": 67,
       "y": 56,
       "connected": [
+        "bombermon",
+        "doumon",
         "etemon",
-        "mamemon",
         "gaomon",
+        "mamemon",
         "mushroomon",
         "psychemon",
         "super-starmon",
         "tekkamon",
-        "volcanomon"
+        "volcanomon",
+        "toy-agumon-black",
+        "zanmetsumon"
       ],
       "prerequisites": [
         {

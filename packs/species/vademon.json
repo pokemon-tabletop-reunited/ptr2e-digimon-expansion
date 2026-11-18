@@ -859,10 +859,11 @@
       "connected": [
         "avenge-kidmon",
         "ebemon",
-        "ninjamon",
         "gold-nunemon",
-        "vegiemon",
-        "platinum-sukamon"
+        "ninjamon",
+        "platinum-sukamon",
+        "shooting-starmon",
+        "vegiemon"
       ],
       "prerequisites": [
         {

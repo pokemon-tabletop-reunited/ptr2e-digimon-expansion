@@ -152,11 +152,22 @@
       "x": 30,
       "y": 83,
       "connected": [
+        "blitzmon",
+        "bullmon",
         "dokugumon",
+        "halsemon",
         "hudiemon",
+        "kongoumon",
+        "minomon",
+        "motimon",
+        "poromon",
+        "pucchiemon-green",
+        "pucchiemon-red",
+        "quetzalmon",
+        "roachmon",
+        "shadramon",
         "snimon",
-        "stingmon",
-        "motimon"
+        "stingmon"
       ],
       "prerequisites": [
         {

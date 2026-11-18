@@ -859,13 +859,14 @@
       "x": 118,
       "y": 164,
       "connected": [
+        "cthyllamon",
+        "giga-seadramon",
         "scorpiomon",
         "ikkakumon",
         "shell-nunemon",
         "tobiumon",
-        "cthyllamon",
-        "giga-seadramon",
-        "gaiomon"
+        "gaiomon",
+        "seadramon-x"
       ],
       "prerequisites": [
         {

@@ -834,9 +834,11 @@
       "x": 158,
       "y": 115,
       "connected": [
-        "lilamon",
         "arukenimon",
+        "bastemon",
+        "doumon",
         "lady-devimon",
+        "lilamon",
         "ophanimon-fm"
       ],
       "prerequisites": [

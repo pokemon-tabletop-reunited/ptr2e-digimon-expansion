@@ -863,9 +863,12 @@
         "ancient-wisemon",
         "chaos-gallantmon",
         "daemon",
-        "wizardmon",
         "deputymon",
-        "sorcermon"
+        "mercurymon",
+        "murmukusmon",
+        "sorcermon",
+        "tactimon",
+        "wizardmon"
       ],
       "prerequisites": [
         {

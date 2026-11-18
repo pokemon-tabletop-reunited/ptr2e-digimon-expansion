@@ -879,10 +879,10 @@
       "x": 109,
       "y": 108,
       "connected": [
-        "kokatorimon",
         "fairimon",
-        "hawkmon",
         "jet-silphymon",
+        "kokatorimon",
+        "hawkmon",
         "crusadermon"
       ],
       "prerequisites": [

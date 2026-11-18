@@ -844,9 +844,10 @@
       "x": 164,
       "y": 241,
       "connected": [
-        "crescemon",
         "crys-paledramon",
-        "frozomon"
+        "frozomon",
+        "crescemon",
+        "polar-bearmon"
       ],
       "prerequisites": [
         {

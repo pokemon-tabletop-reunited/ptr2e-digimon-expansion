@@ -861,16 +861,20 @@
       "y": 27,
       "connected": [
         "arcadiamon-mega",
+        "arcturusmon",
+        "bakemon",
+        "boltboutamon",
         "daemon",
         "devidramon",
+        "devimon",
+        "gulus-gammamon",
         "jijimon",
         "loogarmon",
         "malo-myotismon",
-        "bakemon",
         "sangloupmon",
-        "devimon",
         "peckmon",
-        "venom-myotismon"
+        "venom-myotismon",
+        "neo-myotismon"
       ],
       "prerequisites": [
         {

@@ -840,7 +840,9 @@
       "x": 160,
       "y": 180,
       "connected": [
+        "aegisdramon",
         "mega-seadramon",
+        "mermaimon",
         "waru-seadramon",
         "sharkmon",
         "skull-seadramon"

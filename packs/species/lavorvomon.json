@@ -870,11 +870,11 @@
       "x": 61,
       "y": 141,
       "connected": [
+        "lavogaritamon",
         "vorvomon",
         "flamon",
         "muchomon",
         "flaremon",
-        "lavogaritamon",
         "volcamon"
       ],
       "prerequisites": [

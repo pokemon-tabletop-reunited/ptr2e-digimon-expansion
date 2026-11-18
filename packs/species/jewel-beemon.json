@@ -867,10 +867,12 @@
       "x": 112,
       "y": 65,
       "connected": [
+        "ancient-beetlemon",
         "bancho-stingmon",
+        "bloom-lordmon",
+        "flymon",
         "hercules-kabuterimon",
         "stingmon",
-        "flymon",
         "snimon",
         "tiger-vespamon",
         "yanmamon"

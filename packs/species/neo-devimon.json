@@ -874,12 +874,12 @@
       "x": 110,
       "y": 20,
       "connected": [
+        "done-devimon",
         "devimon",
         "coelamon",
         "ogremon",
         "ice-devimon",
         "blitz-greymon",
-        "done-devimon",
         "neo-myotismon"
       ],
       "prerequisites": [

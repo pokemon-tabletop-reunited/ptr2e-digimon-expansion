@@ -832,7 +832,9 @@
       "x": 160,
       "y": 12,
       "connected": [
-        "wisemon"
+        "wisemon",
+        "eosmon-ultimate",
+        "sephirothmon"
       ],
       "prerequisites": [
         {

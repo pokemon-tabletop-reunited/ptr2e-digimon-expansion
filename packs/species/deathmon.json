@@ -822,13 +822,13 @@
       "x": 155,
       "y": 13,
       "connected": [
+        "deathmon-black",
         "cherrymon",
         "kaiser-leomon",
         "loader-leomon",
         "skull-satamon",
         "megadramon",
-        "velgrmon",
-        "deathmon-black"
+        "velgrmon"
       ],
       "prerequisites": [
         {

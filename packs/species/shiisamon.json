@@ -868,13 +868,15 @@
       "y": 14,
       "connected": [
         "angoramon",
-        "wankomon",
-        "tapirmon",
         "bastemon",
         "caturamon",
-        "hippogryphonmon",
+        "majiramon",
         "mihiramon",
-        "vajramon"
+        "wankomon",
+        "tapirmon",
+        "hippogryphonmon",
+        "vajramon",
+        "shishimamon"
       ],
       "prerequisites": [
         {

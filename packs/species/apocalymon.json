@@ -819,7 +819,10 @@
       "x": 244,
       "y": 89,
       "connected": [
-        "piedmon"
+        "ancient-beetlemon",
+        "ancient-sphinxmon",
+        "piedmon",
+        "giga-seadramon"
       ],
       "prerequisites": [
         {

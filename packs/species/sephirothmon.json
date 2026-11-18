@@ -861,8 +861,8 @@
       "y": 41,
       "connected": [
         "mercurymon",
-        "ancient-wisemon",
-        "murmukusmon"
+        "murmukusmon",
+        "ancient-wisemon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-steel"

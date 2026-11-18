@@ -872,13 +872,14 @@
       "x": 115,
       "y": 135,
       "connected": [
-        "lotosmon",
         "black-gatomon",
+        "lotosmon",
         "meicoomon",
         "meicrackmon",
         "ophanimon",
         "rosemon",
-        "raguelmon"
+        "raguelmon",
+        "pucchiemon-red"
       ],
       "prerequisites": [
         {

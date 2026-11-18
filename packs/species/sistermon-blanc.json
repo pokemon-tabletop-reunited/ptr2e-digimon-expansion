@@ -882,10 +882,12 @@
       "x": 33,
       "y": 158,
       "connected": [
-        "tokomon",
+        "damemon",
         "gargomon",
         "lekismon",
-        "sistermon-ciel"
+        "tokomon",
+        "sistermon-ciel",
+        "sistermon-noir"
       ],
       "prerequisites": [
         {

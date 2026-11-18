@@ -860,15 +860,20 @@
       "x": 102,
       "y": 62,
       "connected": [
+        "ancient-irismon",
         "aquilamon",
         "birdramon",
         "buraimon",
+        "dimetromon",
+        "dominimon",
         "fugamon",
         "gryphonmon",
         "jesmon",
         "phoenixmon",
         "saberdramon",
-        "zhuqiaomon"
+        "zhuqiaomon",
+        "piddomon",
+        "thunderbirdmon"
       ],
       "prerequisites": [
         {

@@ -835,9 +835,10 @@
       "x": 159,
       "y": 128,
       "connected": [
-        "crescemon",
         "antylamon",
-        "grace-novamon"
+        "crescemon",
+        "grace-novamon",
+        "frozomon"
       ],
       "prerequisites": [
         {

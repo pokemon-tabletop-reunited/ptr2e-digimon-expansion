@@ -854,6 +854,8 @@
       "x": 105,
       "y": 69,
       "connected": [
+        "ancient-troiamon",
+        "cherrymon-christmas",
         "togemon",
         "kuwagamon",
         "woodmon",
@@ -861,7 +863,9 @@
         "gran-kuwagamon",
         "ninjamon",
         "puppetmon",
-        "rosemon"
+        "rosemon",
+        "deathmon",
+        "el-doradomon"
       ],
       "prerequisites": [
         {

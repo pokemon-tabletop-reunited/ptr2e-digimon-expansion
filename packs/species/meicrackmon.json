@@ -851,12 +851,14 @@
       "x": 112,
       "y": 146,
       "connected": [
-        "magnadramon",
-        "meicrackmon-vm",
-        "meicoomon",
         "gatomon",
+        "magnadramon",
+        "meicoomon",
+        "meicrackmon-vm",
         "war-greymon",
-        "rasielmon"
+        "rasielmon",
+        "pucchiemon-green",
+        "quantumon"
       ],
       "prerequisites": [
         {

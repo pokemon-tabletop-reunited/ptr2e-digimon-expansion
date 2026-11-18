@@ -857,13 +857,16 @@
       "y": 32,
       "connected": [
         "blimpmon",
-        "mekanorimon",
         "clockmon",
+        "craniamon",
+        "mekanorimon",
         "hi-andromon",
         "seraphimon",
         "jijimon",
-        "craniamon",
-        "ninjamon"
+        "ninjamon",
+        "piddomon",
+        "reapermon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

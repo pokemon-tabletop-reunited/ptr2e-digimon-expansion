@@ -855,12 +855,14 @@
       "x": 54,
       "y": 28,
       "connected": [
-        "hagurumon",
+        "atlur-ballistamon",
         "jazamon",
+        "hagurumon",
         "maquinamon",
         "loader-leomon",
         "metal-mamemon",
-        "rebellimon"
+        "rebellimon",
+        "mockingbirdmon"
       ],
       "prerequisites": [
         {

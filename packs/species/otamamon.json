@@ -861,14 +861,18 @@
       "x": 37,
       "y": 32,
       "connected": [
+        "babydmon",
+        "frimon",
         "gekomon",
         "gesomon",
+        "greymon-x",
         "nunemon",
         "pagumon",
         "platinum-sukamon",
         "seadramon",
         "shell-nunemon",
-        "tortomon"
+        "tortomon",
+        "seadramon-x"
       ],
       "prerequisites": [
         {

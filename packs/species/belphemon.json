@@ -817,9 +817,10 @@
       "x": 160,
       "y": 169,
       "connected": [
-        "ex-tyrannomon",
         "astamon",
-        "phantomon"
+        "ex-tyrannomon",
+        "phantomon",
+        "gyukimon"
       ],
       "prerequisites": [
         {

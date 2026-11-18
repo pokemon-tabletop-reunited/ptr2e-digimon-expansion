@@ -857,9 +857,11 @@
       "x": 105,
       "y": 21,
       "connected": [
-        "belphemon",
         "bakemon",
+        "belphemon",
         "hyogamon",
+        "necromon",
+        "neo-myotismon",
         "snimon",
         "saberdramon",
         "piedmon",

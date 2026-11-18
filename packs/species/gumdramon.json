@@ -855,14 +855,16 @@
       "x": 35,
       "y": 125,
       "connected": [
+        "arresterdramon",
         "babydmon",
         "geremon",
         "nunemon",
         "sukamon",
-        "arresterdramon",
         "gatomon",
         "veedramon",
-        "turuiemon"
+        "turuiemon",
+        "pickmon",
+        "shooting-starmon"
       ],
       "prerequisites": [
         {

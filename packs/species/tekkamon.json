@@ -855,13 +855,15 @@
       "x": 110,
       "y": 41,
       "connected": [
-        "nanimon",
-        "starmon",
-        "veedramon",
         "hi-andromon",
+        "nanimon",
+        "omekamon",
         "piedmon",
+        "prince-mamemon",
         "puppetmon",
-        "prince-mamemon"
+        "reapermon",
+        "starmon",
+        "veedramon"
       ],
       "prerequisites": [
         {

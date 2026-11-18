@@ -828,10 +828,13 @@
       "y": 57,
       "connected": [
         "bearmon",
+        "dodomon",
         "gaomon",
+        "phascomon",
+        "popomon",
         "renamon",
-        "tapirmon",
-        "dodomon"
+        "strabimon",
+        "tapirmon"
       ],
       "prerequisites": [
         {

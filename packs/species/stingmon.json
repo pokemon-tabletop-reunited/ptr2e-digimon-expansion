@@ -862,12 +862,17 @@
       "x": 59,
       "y": 72,
       "connected": [
+        "blitzmon",
         "dinobeemon",
+        "fan-beemon",
         "jewel-beemon",
+        "kongoumon",
+        "megakabuterimon-blue",
         "okuwamon",
         "paildramon",
-        "wormmon",
-        "fan-beemon"
+        "pucchiemon-green",
+        "pucchiemon-red",
+        "wormmon"
       ],
       "prerequisites": [
         {

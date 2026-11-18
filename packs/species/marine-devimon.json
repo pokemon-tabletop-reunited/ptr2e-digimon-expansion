@@ -863,12 +863,14 @@
       "x": 114,
       "y": 158,
       "connected": [
-        "leviamon",
+        "ancient-mermaimon",
+        "coelamon",
         "dolphmon",
         "gesomon",
-        "coelamon",
         "ice-devimon",
-        "plutomon"
+        "leviamon",
+        "plutomon",
+        "tesla-jellymon"
       ],
       "prerequisites": [
         {

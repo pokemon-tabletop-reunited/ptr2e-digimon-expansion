@@ -873,13 +873,18 @@
       "y": 15,
       "connected": [
         "astamon",
-        "matadormon",
-        "myotismon",
-        "impmon",
         "dorumon",
-        "salamon",
         "dracmon",
         "gazimon",
+        "herissmon",
+        "impmon",
+        "kendo-garurumon",
+        "matadormon",
+        "mephismon",
+        "myotismon",
+        "oleamon",
+        "phelesmon",
+        "salamon",
         "were-garurumon-black"
       ],
       "prerequisites": [

@@ -831,9 +831,10 @@
       "x": 158,
       "y": 20,
       "connected": [
-        "huanglongmon",
         "crowmon",
         "garudamon",
+        "huanglongmon",
+        "sandiramon",
         "hippogriffomon"
       ],
       "prerequisites": [

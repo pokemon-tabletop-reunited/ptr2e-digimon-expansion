@@ -831,7 +831,10 @@
       "x": 245,
       "y": 26,
       "connected": [
-        "deathmon"
+        "deathmon",
+        "manticoremon",
+        "raihimon",
+        "rare-raremon"
       ],
       "prerequisites": [
         {

@@ -862,13 +862,16 @@
       "x": 62,
       "y": 46,
       "connected": [
+        "asuramon",
+        "biyomon",
         "chirinmon",
+        "cutemon",
+        "elecmon",
         "hippo-gryphonmon",
         "magna-angemon",
-        "tapirmon",
-        "biyomon",
-        "elecmon",
-        "patamon"
+        "morphomon",
+        "patamon",
+        "tapirmon"
       ],
       "prerequisites": [
         {

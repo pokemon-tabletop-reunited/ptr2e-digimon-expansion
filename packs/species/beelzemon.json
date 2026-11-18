@@ -833,9 +833,13 @@
       "x": 159,
       "y": 105,
       "connected": [
-        "beelzemon-bm",
         "astamon",
-        "skull-meramon"
+        "baalmon",
+        "beelzemon-bm",
+        "beelzemon-x",
+        "skull-meramon",
+        "jokermon",
+        "xros-cyberdramon"
       ],
       "prerequisites": [
         {

@@ -823,11 +823,12 @@
       "x": 161,
       "y": 207,
       "connected": [
+        "ajatarmon",
+        "cernumon",
         "arukenimon",
         "blossomon",
         "toropiamon",
-        "garbagemon",
-        "cernumon"
+        "garbagemon"
       ],
       "prerequisites": [
         {

@@ -862,9 +862,10 @@
       "x": 112,
       "y": 105,
       "connected": [
+        "arma-lizamon",
         "breakdramon",
-        "growlmon",
         "coredramon-green",
+        "growlmon",
         "tyrannomon",
         "tuskmon",
         "megidramon"

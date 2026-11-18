@@ -867,8 +867,12 @@
         "bibimon",
         "boutmon",
         "bulkmon",
+        "exermon",
+        "geremon",
+        "namakemon",
         "sukamon",
-        "geremon"
+        "runnermon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

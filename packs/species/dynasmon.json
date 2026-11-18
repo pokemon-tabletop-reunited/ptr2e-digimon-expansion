@@ -835,6 +835,7 @@
       "x": 157,
       "y": 122,
       "connected": [
+        "dynasmon-x",
         "grademon",
         "hippo-gryphonmon",
         "mistymon"

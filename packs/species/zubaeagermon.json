@@ -851,12 +851,14 @@
       "y": 134,
       "connected": [
         "duramon",
-        "grademon",
-        "knightmon",
-        "war-growlmon",
-        "zubamon",
         "gizamon",
-        "shoutmon"
+        "grademon",
+        "kendo-garurumon",
+        "knightmon",
+        "oboromon",
+        "shoutmon",
+        "war-growlmon",
+        "zubamon"
       ],
       "prerequisites": [
         {

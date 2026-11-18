@@ -853,12 +853,13 @@
       "x": null,
       "y": null,
       "connected": [
+        "darumamon",
         "gasamon",
         "hanimon",
         "maquinamon",
         "crowmon",
-        "darumamon",
-        "bastemon"
+        "bastemon",
+        "sekkamon"
       ],
       "prerequisites": [
         {

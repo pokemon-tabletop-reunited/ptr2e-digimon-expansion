@@ -857,10 +857,14 @@
       "x": 107,
       "y": 95,
       "connected": [
+        "blimpmon",
+        "heavy-leomon",
+        "machmon",
+        "magna-garurumon",
         "magna-kidmon",
         "metal-garurumon",
-        "blimpmon",
-        "platinum-sukamon"
+        "platinum-sukamon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

@@ -867,10 +867,12 @@
       "x": 119,
       "y": 247,
       "connected": [
+        "amaterasumon",
+        "erlangmon",
         "hakubamon",
+        "nezhamon",
         "lianpumon",
         "xiquemon",
-        "erlangmon",
         "shakamon",
         "sagomon"
       ],

@@ -858,11 +858,11 @@
       "x": 114,
       "y": 129,
       "connected": [
-        "greymon",
         "growlmon-orange",
+        "red-vegiemon",
+        "greymon",
         "growlmon",
         "kuwagamon",
-        "red-vegiemon",
         "gallantmon",
         "gallantmon-x",
         "examon",

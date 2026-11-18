@@ -862,7 +862,12 @@
         "mud-frigimon",
         "cherubimon-vice",
         "cherubimon-virtue",
-        "dianamon"
+        "dianamon",
+        "dijiangmon",
+        "erlangmon",
+        "jougamon",
+        "lianpumon",
+        "rabbitmon"
       ],
       "prerequisites": [
         {

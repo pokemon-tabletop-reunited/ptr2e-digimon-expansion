@@ -831,8 +831,10 @@
       "x": 158,
       "y": 97,
       "connected": [
-        "aeroveedramon",
         "cyberdramon",
+        "grand-galemon",
+        "sagittarimon",
+        "aeroveedramon",
         "ulforce-veedramonx"
       ],
       "prerequisites": [

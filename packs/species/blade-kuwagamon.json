@@ -858,12 +858,13 @@
       "x": 67,
       "y": 81,
       "connected": [
+        "agumon-x",
         "kokuwamon",
         "tentomon",
-        "agumon-x",
         "metallife-kuwagamon",
         "megakabuterimon-blue",
-        "okuwamon"
+        "okuwamon",
+        "kyukimon"
       ],
       "prerequisites": [
         {

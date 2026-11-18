@@ -850,8 +850,8 @@
       "x": 37,
       "y": 233,
       "connected": [
-        "gurimon",
         "betel-gammamon",
+        "gurimon",
         "sealsdramon"
       ],
       "prerequisites": [

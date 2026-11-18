@@ -865,11 +865,11 @@
       "x": 115,
       "y": 184,
       "connected": [
-        "dobermon",
-        "ebidramon",
-        "lanamon",
         "ancient-garurumon",
         "ancient-mermaimon",
+        "ebidramon",
+        "dobermon",
+        "lanamon",
         "neptunemon"
       ],
       "prerequisites": [

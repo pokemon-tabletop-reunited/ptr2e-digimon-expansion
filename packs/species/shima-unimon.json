@@ -854,12 +854,13 @@
       "x": 61,
       "y": 119,
       "connected": [
-        "snow-agumon",
+        "andromon",
+        "asuramon",
         "candlemon",
+        "divermon",
         "kokuwamon",
         "mammothmon",
-        "divermon",
-        "andromon",
+        "snow-agumon",
         "skull-greymon"
       ],
       "prerequisites": [

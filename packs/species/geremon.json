@@ -847,13 +847,15 @@
       "y": 97,
       "connected": [
         "catch-mamemon",
-        "gizamon",
-        "gabumon",
         "chuumon",
+        "gabumon",
+        "gizamon",
         "monzaemon",
         "pulsemon",
         "super-starmon",
-        "waru-monzaemon"
+        "waru-monzaemon",
+        "gumdramon",
+        "toy-agumon-black"
       ],
       "prerequisites": [
         {

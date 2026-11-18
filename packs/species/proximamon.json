@@ -838,7 +838,10 @@
     "node": {
       "x": 245,
       "y": 236,
-      "connected": [],
+      "connected": [
+        "arcturusmon",
+        "siriusmon"
+      ],
       "prerequisites": []
     }
   },

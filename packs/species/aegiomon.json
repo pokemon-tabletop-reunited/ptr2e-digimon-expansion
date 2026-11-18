@@ -11,7 +11,8 @@
       "y": 90,
       "connected": [
         "aegiochusmon",
-        "elecmon"
+        "elecmon",
+        "elecmon-violet"
       ],
       "prerequisites": [
         {

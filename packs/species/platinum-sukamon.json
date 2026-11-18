@@ -843,12 +843,13 @@
       "x": 64,
       "y": 74,
       "connected": [
+        "chuumon",
         "mamemon",
         "metal-mamemon",
-        "chuumon",
-        "palmon",
         "otamamon",
-        "vademon"
+        "palmon",
+        "vademon",
+        "youkomon"
       ],
       "prerequisites": [
         {

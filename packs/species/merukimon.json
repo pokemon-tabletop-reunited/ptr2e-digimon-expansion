@@ -835,6 +835,7 @@
       "x": 161,
       "y": 140,
       "connected": [
+        "jaeger-dorulumon",
         "pandamon",
         "were-garurumon"
       ],

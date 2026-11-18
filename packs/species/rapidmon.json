@@ -858,11 +858,15 @@
       "x": 114,
       "y": 153,
       "connected": [
-        "hi-andromon",
-        "mega-gargomon",
         "centarumon",
+        "gargomon",
+        "hi-andromon",
+        "magna-garurumon",
+        "mega-gargomon",
+        "metatromon",
+        "rapidmon-armour",
         "waspmon",
-        "gargomon"
+        "vortexdramon"
       ],
       "prerequisites": [
         {

@@ -142,12 +142,17 @@
       "x": 32,
       "y": 81,
       "connected": [
+        "ballistamon",
+        "blade-kuwagamon",
+        "blitzmon",
         "kabuterimon",
         "kuwagamon",
+        "minomon",
+        "motimon",
         "sealsdramon",
         "snimon",
         "sunflowmon",
-        "motimon",
+        "symbare-angoramon",
         "tortomon",
         "waspmon",
         "yanmamon"

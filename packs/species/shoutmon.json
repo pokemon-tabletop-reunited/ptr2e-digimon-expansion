@@ -872,11 +872,15 @@
       "connected": [
         "bibimon",
         "bulkmon",
-        "gargomon",
-        "guardromon-gold",
-        "omni-shoutmon",
-        "koromon",
         "demi-meramon",
+        "gargomon",
+        "gigimon",
+        "guardromon-gold",
+        "koromon",
+        "omni-shoutmon",
+        "pickmon",
+        "red-veedramon",
+        "shooting-starmon",
         "zubaeagermon"
       ],
       "prerequisites": [

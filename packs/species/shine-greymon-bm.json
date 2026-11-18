@@ -839,7 +839,8 @@
       "x": 244,
       "y": 69,
       "connected": [
-        "shine-greymon"
+        "shine-greymon",
+        "shine-greymon-rm"
       ],
       "prerequisites": [
         {

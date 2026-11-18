@@ -831,11 +831,12 @@
       "x": 106,
       "y": 35,
       "connected": [
-        "gran-dracmon",
-        "garurumon",
         "deltamon",
-        "kabuterimon",
+        "garurumon",
+        "gran-dracmon",
+        "greymon-x",
         "greymon",
+        "kabuterimon",
         "kuwagamon",
         "machinedramon",
         "milleniummon"

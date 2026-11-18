@@ -854,14 +854,15 @@
       "x": 110,
       "y": 35,
       "connected": [
+        "ancient-volcamon",
         "apollomon",
         "bancho-leomon",
+        "fugamon",
         "gankoomon",
-        "pile-volcamon",
         "golemon",
-        "starmon",
         "nanimon",
-        "fugamon"
+        "pile-volcamon",
+        "starmon"
       ],
       "prerequisites": [
         {

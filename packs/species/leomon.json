@@ -852,12 +852,17 @@
       "x": 64,
       "y": 56,
       "connected": [
+        "angoramon",
         "flaremon",
-        "grap-leomon",
         "gaomon",
+        "grap-leomon",
+        "lamortmon",
         "lopmon",
         "loader-leomon",
-        "panjyamon"
+        "panjyamon",
+        "mad-leomon",
+        "panjyamon-x",
+        "phascomon"
       ],
       "prerequisites": [
         {

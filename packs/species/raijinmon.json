@@ -842,6 +842,8 @@
       "x": 159,
       "y": 32,
       "connected": [
+        "kyukimon",
+        "raidenmon",
         "rapidmon-armour",
         "andromon",
         "cyberdramon",

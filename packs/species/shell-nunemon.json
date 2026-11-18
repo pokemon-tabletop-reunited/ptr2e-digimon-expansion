@@ -853,12 +853,17 @@
       "y": 178,
       "connected": [
         "black-king-nunemon",
-        "orochimon",
-        "pandamon",
         "kamemon",
-        "syakomon",
+        "kodokugumon",
+        "majiramon",
+        "orochimon",
         "otamamon",
-        "waru-seadramon"
+        "pandamon",
+        "sangomon",
+        "scorpiomon-x",
+        "syakomon",
+        "waru-seadramon",
+        "toropiamon"
       ],
       "prerequisites": [
         {

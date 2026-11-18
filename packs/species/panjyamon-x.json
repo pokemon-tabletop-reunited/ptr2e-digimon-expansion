@@ -856,13 +856,14 @@
       "x": 113,
       "y": 48,
       "connected": [
+        "ancient-megatheriumon",
+        "olegmon",
+        "paledramon",
         "grizzlymon",
         "icemon",
         "leomon",
         "panjyamon",
         "mojyamon",
-        "ancient-megatheriumon",
-        "olegmon",
         "fros-velgrmon"
       ],
       "prerequisites": [

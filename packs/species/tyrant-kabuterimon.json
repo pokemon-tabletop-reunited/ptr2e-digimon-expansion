@@ -830,9 +830,12 @@
       "x": 159,
       "y": 86,
       "connected": [
+        "ancient-beetlemon",
         "arukenimon",
         "mega-kabuterimon",
-        "okuwamon"
+        "metallife-kuwagamon",
+        "okuwamon",
+        "shivamon"
       ],
       "prerequisites": [
         {

@@ -831,8 +831,9 @@
       "x": 244,
       "y": 51,
       "connected": [
+        "breakdramon",
         "slayerdramon",
-        "breakdramon"
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {

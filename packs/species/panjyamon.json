@@ -861,13 +861,17 @@
       "x": 109,
       "y": 49,
       "connected": [
-        "jungle-mojyamon",
-        "mirage-gaogamon",
-        "leomon",
         "frigimon",
+        "fros-velgrmon",
         "hyogamon",
         "ice-devimon",
         "icemon",
+        "jungle-mojyamon",
+        "leomon",
+        "mirage-gaogamon",
+        "olegmon",
+        "paledramon",
+        "panjyamon-x",
         "saber-leomon"
       ],
       "prerequisites": [

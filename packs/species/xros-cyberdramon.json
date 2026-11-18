@@ -866,11 +866,12 @@
       "x": 107,
       "y": 8,
       "connected": [
+        "deckerdramon",
+        "neo-myotismon",
         "bakemon",
         "devimon",
         "saberdramon",
         "beelzemon",
-        "neo-myotismon",
         "noble-pumpkinmon"
       ],
       "prerequisites": [

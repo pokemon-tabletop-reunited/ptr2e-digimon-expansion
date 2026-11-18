@@ -850,7 +850,14 @@
     "node": {
       "x": 245,
       "y": 218,
-      "connected": [],
+      "connected": [
+        "dijiangmon",
+        "erlangmon",
+        "jougamon",
+        "nezhamon",
+        "sanzomon",
+        "shagaramon"
+      ],
       "prerequisites": [
         {
           "gte": [

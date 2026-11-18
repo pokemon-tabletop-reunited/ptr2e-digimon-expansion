@@ -855,13 +855,15 @@
       "x": 58,
       "y": 170,
       "connected": [
+        "crabmon",
         "digitamamon",
         "divermon",
         "dragomon",
         "kamemon",
-        "crabmon",
+        "keramon",
+        "marine-kimeramon",
         "syakomon",
-        "keramon"
+        "sangomon"
       ],
       "prerequisites": [
         {

@@ -859,12 +859,12 @@
       "y": 111,
       "connected": [
         "angoramon",
+        "lamortmon",
         "gotsumon",
         "tentomon",
         "cerberusmon",
         "grap-leomon",
         "hippo-gryphonmon",
-        "lamortmon",
         "skull-baluchimon"
       ],
       "prerequisites": [

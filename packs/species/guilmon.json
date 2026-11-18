@@ -855,12 +855,20 @@
       "x": 32,
       "y": 130,
       "connected": [
+        "agunimon",
+        "arresterdramon",
         "dark-tyrannomon",
+        "dimetromon",
         "ex-veemon",
+        "flamedramon",
+        "gigimon",
         "greymon-blue",
+        "growlmon-orange",
         "growlmon",
         "koromon",
-        "tyrannomon"
+        "tyrannomon",
+        "punkmon",
+        "red-veedramon"
       ],
       "prerequisites": [
         {

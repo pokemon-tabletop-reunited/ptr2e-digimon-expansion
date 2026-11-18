@@ -825,10 +825,12 @@
       "x": 159,
       "y": 81,
       "connected": [
+        "anubismon",
         "blue-meramon",
-        "mummymon",
         "datamon",
-        "waru-monzaemon"
+        "mummymon",
+        "waru-monzaemon",
+        "vulturemon"
       ],
       "prerequisites": [
         {

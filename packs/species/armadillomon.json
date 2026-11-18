@@ -871,7 +871,12 @@
         "tokomon",
         "digmon",
         "golemon",
-        "submarimon"
+        "submarimon",
+        "boarmon",
+        "deckerdramon",
+        "landramon",
+        "sheepmon",
+        "upamon"
       ],
       "prerequisites": [
         {

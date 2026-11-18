@@ -861,12 +861,14 @@
       "x": 113,
       "y": 90,
       "connected": [
-        "shima-unimon",
-        "ginryumon",
         "coredramon-green",
+        "ginryumon",
         "greymon",
+        "shima-unimon",
         "skull-mammothmon",
-        "titamon"
+        "titamon",
+        "victory-greymon",
+        "xros-greymon"
       ],
       "prerequisites": [
         {

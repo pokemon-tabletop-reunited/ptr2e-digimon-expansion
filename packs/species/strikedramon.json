@@ -850,12 +850,12 @@
       "x": 61,
       "y": 37,
       "connected": [
+        "agumon-black",
         "cyberdramon",
-        "locomon",
-        "savior-huckmon",
-        "monodramon",
         "gaomon",
-        "agumon-black"
+        "locomon",
+        "monodramon",
+        "savior-huckmon"
       ],
       "prerequisites": [
         {

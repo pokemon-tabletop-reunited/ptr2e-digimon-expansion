@@ -855,6 +855,7 @@
       "x": 61,
       "y": 16,
       "connected": [
+        "algomon-ultimate",
         "arcadiamon-ultimate",
         "arukenimon",
         "dragomon",
@@ -862,7 +863,8 @@
         "keramon",
         "monodramon",
         "palmon",
-        "orochimon"
+        "orochimon",
+        "megakabuterimon-blue"
       ],
       "prerequisites": [
         {

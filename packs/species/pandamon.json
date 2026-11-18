@@ -858,14 +858,17 @@
       "x": 108,
       "y": 78,
       "connected": [
+        "black-gatomon",
+        "deputymon",
+        "dorulumon",
+        "garurumon-black",
         "justimon",
         "merukimon",
         "mirage-gaogamon",
-        "black-gatomon",
+        "nezhamon",
         "shell-nunemon",
-        "deputymon",
-        "garurumon-black",
-        "sistermon-ciel"
+        "sistermon-ciel",
+        "sistermon-noir"
       ],
       "prerequisites": [
         {

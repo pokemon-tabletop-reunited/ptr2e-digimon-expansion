@@ -859,11 +859,11 @@
       "x": 59,
       "y": 80,
       "connected": [
+        "digitamamon",
         "dokunemon",
+        "doru-greymon",
         "gabumon",
         "meteormon",
-        "digitamamon",
-        "doru-greymon",
         "vermilimon"
       ],
       "prerequisites": [

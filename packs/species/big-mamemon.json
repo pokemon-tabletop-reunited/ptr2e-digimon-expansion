@@ -862,12 +862,16 @@
       "x": 110,
       "y": 102,
       "connected": [
+        "algomon-champion",
         "meramon",
         "mekanorimon",
         "tankmon",
         "grand-locomon",
         "platinum-nunemon",
-        "prince-mamemon"
+        "prince-mamemon",
+        "mulemon",
+        "nidhoggmon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

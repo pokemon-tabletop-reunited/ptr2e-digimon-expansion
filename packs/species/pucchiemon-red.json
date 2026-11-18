@@ -874,7 +874,8 @@
         "shadramon",
         "stingmon",
         "wormmon",
-        "meicrackmon-vm"
+        "meicrackmon-vm",
+        "roachmon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-kindness"

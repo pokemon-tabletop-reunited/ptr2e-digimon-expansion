@@ -870,10 +870,11 @@
       "x": 118,
       "y": 240,
       "connected": [
+        "dijiangmon",
+        "lianpumon",
+        "takutoumon",
         "gawappamon",
         "kinkakumon",
-        "lianpumon",
-        "dijiangmon",
         "seiten-gokumon",
         "takutuomon"
       ],

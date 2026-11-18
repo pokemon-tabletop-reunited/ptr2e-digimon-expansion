@@ -856,11 +856,12 @@
       "y": 10,
       "connected": [
         "agumon-black",
-        "guilmon",
         "demi-devimon",
+        "guilmon",
         "metal-greymon-blue",
         "skull-baluchimon",
-        "wingdramon"
+        "wingdramon",
+        "toy-agumon-black"
       ],
       "prerequisites": [
         {

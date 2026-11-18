@@ -836,8 +836,8 @@
       "x": 156,
       "y": 6,
       "connected": [
-        "myotismon",
-        "astamon"
+        "astamon",
+        "myotismon"
       ],
       "prerequisites": [
         {

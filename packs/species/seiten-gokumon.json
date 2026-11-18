@@ -839,7 +839,8 @@
       "connected": [
         "gokumon",
         "sagomon",
-        "cho-hakkaimon"
+        "cho-hakkaimon",
+        "xingtianmon"
       ],
       "prerequisites": [
         "item:equipment:gokumon-dna",

@@ -836,12 +836,15 @@
       "x": 152,
       "y": 114,
       "connected": [
+        "duramon",
         "master-tyrannomon",
         "meicrackmon",
+        "metal-greymon-alter",
+        "metal-greymon",
         "omnimon",
         "vermilimon",
-        "metal-greymon",
-        "duramon"
+        "war-greymon-x",
+        "xros-metal-greymon"
       ],
       "prerequisites": [
         {

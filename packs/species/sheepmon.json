@@ -874,8 +874,8 @@
       "x": 43,
       "y": 158,
       "connected": [
-        "armadillomon",
-        "pajiramon"
+        "pajiramon",
+        "armadillomon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-hope"

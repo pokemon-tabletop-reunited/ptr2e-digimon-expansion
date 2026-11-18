@@ -854,12 +854,14 @@
       "x": 64,
       "y": 109,
       "connected": [
+        "chaperomon",
         "kotemon",
         "hyokomon",
         "kamemon",
         "grademon",
         "knightmon",
-        "shaujinmon"
+        "shaujinmon",
+        "kyukimon"
       ],
       "prerequisites": [
         {

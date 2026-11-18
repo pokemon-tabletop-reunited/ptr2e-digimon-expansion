@@ -907,10 +907,11 @@
       "x": 86,
       "y": 145,
       "connected": [
-        "centarumon",
-        "veedramon",
+        "flamedramon",
         "indaramon",
         "magnamon",
+        "centarumon",
+        "veedramon",
         "ulforce-veedramon"
       ],
       "prerequisites": [

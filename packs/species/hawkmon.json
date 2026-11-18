@@ -861,8 +861,13 @@
         "aquilamon",
         "firamon",
         "halsemon",
+        "harpymon",
         "yokomon",
-        "shurimon"
+        "shurimon",
+        "moosemon",
+        "peacockmon",
+        "poromon",
+        "zephyrmon"
       ],
       "prerequisites": [
         {

@@ -849,14 +849,14 @@
       "x": 56,
       "y": 176,
       "connected": [
-        "bemmon",
         "agumon-x",
+        "bemmon",
+        "cho-hakkaimon",
         "herissmon",
         "sistermon-blanc",
         "andromon",
         "destromon",
-        "skull-baluchimon",
-        "cho-hakkaimon"
+        "skull-baluchimon"
       ],
       "prerequisites": [
         {

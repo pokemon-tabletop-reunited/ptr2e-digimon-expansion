@@ -861,6 +861,7 @@
       "y": 127,
       "connected": [
         "agumon-bond-of-bravery",
+        "agumon-x",
         "koromon",
         "coredramon-green",
         "dark-tyrannomon",
@@ -868,7 +869,13 @@
         "greymon",
         "nunemon",
         "raptordramon",
-        "tyrannomon"
+        "tyrannomon",
+        "agunimon",
+        "algomon-champion",
+        "betel-gammamon",
+        "gigimon",
+        "gulus-gammamon",
+        "xros-greymon"
       ],
       "prerequisites": [
         {

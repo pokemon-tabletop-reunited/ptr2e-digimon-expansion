@@ -856,10 +856,15 @@
         "angewomon",
         "chirinmon",
         "doru-greymon",
-        "mega-seadramon",
-        "ryudamon",
+        "espimon",
         "kudamon",
-        "renamon"
+        "ludomon",
+        "manticoremon",
+        "mega-seadramon",
+        "raiji-ludomon",
+        "rare-raremon",
+        "renamon",
+        "ryudamon"
       ],
       "prerequisites": [
         {

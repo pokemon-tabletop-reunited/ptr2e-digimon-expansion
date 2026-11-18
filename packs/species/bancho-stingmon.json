@@ -833,7 +833,8 @@
       "x": 155,
       "y": 33,
       "connected": [
-        "jewel-beemon"
+        "jewel-beemon",
+        "pucchiemon-green"
       ],
       "prerequisites": [
         {

@@ -862,12 +862,16 @@
       "x": 65,
       "y": 39,
       "connected": [
+        "antylamon-virus",
         "antylamon",
         "arukenimon",
-        "skull-meramon",
-        "lopmon",
+        "goblimon",
         "keramon",
-        "goblimon"
+        "lopmon",
+        "pajiramon",
+        "phascomon",
+        "sinduramon",
+        "skull-meramon"
       ],
       "prerequisites": [
         {

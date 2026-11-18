@@ -854,8 +854,8 @@
       "x": 65,
       "y": 157,
       "connected": [
-        "crabmon",
         "betamon",
+        "crabmon",
         "syakomon",
         "ryudamon",
         "divermon",
@@ -863,7 +863,11 @@
         "metal-tyrannomon",
         "scorpiomon",
         "skull-seadramon",
-        "waru-seadramon"
+        "waru-seadramon",
+        "liollmon",
+        "marine-kimeramon",
+        "metallife-kuwagamon",
+        "neo-devimon"
       ],
       "prerequisites": [
         {

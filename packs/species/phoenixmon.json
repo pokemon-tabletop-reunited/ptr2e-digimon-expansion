@@ -832,8 +832,11 @@
       "x": 159,
       "y": 70,
       "connected": [
-        "kokatorimon",
+        "arkhai-angemon",
         "garudamon",
+        "jazarichmon",
+        "kokatorimon",
+        "mihiramon",
         "parrotmon"
       ],
       "prerequisites": [

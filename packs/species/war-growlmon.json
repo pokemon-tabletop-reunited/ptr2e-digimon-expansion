@@ -863,11 +863,15 @@
       "connected": [
         "chaos-gallantmon",
         "chaosdramon",
-        "darklizamon",
-        "gallantmon",
-        "megidramon",
-        "growlmon",
         "coredramon-green",
+        "darklizamon",
+        "dinorexmon",
+        "gallantmon",
+        "growlmon-orange",
+        "growlmon",
+        "megidramon",
+        "punkmon",
+        "red-veedramon",
         "zubaeagermon"
       ],
       "prerequisites": [

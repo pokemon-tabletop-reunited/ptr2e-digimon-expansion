@@ -833,8 +833,13 @@
       "y": 14,
       "connected": [
         "apocalymon",
-        "skull-satamon",
+        "boltboutamon",
+        "doumon",
+        "jokermon",
+        "mephismon",
         "phantomon",
+        "phelesmon",
+        "skull-satamon",
         "tekkamon"
       ],
       "prerequisites": [

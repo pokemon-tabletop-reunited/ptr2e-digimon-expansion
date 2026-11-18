@@ -864,14 +864,16 @@
       "x": 110,
       "y": 138,
       "connected": [
+        "arma-lizamon",
+        "dinomon",
+        "dinorexmon",
         "dark-tyrannomon",
         "monochromon",
         "tyrannomon",
         "devimon",
-        "dinomon",
-        "dinorexmon",
         "gaiomon",
-        "spinomon"
+        "spinomon",
+        "seadramon-x"
       ],
       "prerequisites": [
         {

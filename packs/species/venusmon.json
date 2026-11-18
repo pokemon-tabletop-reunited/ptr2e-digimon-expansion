@@ -827,8 +827,8 @@
       "x": 161,
       "y": 149,
       "connected": [
-        "taomon",
-        "piximon"
+        "piximon",
+        "taomon"
       ],
       "prerequisites": [
         {

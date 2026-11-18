@@ -831,7 +831,12 @@
       "connected": [
         "tankdramon",
         "cargodramon",
-        "master-tyrannomon"
+        "master-tyrannomon",
+        "canoweissmon",
+        "fumamon",
+        "ghilliedhumon",
+        "lavogaritamon",
+        "valvemon"
       ],
       "prerequisites": [
         {

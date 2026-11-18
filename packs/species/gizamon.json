@@ -861,14 +861,16 @@
       "y": 177,
       "connected": [
         "ankylomon",
+        "bukamon",
         "cyclonemon",
+        "ebidramon",
         "flymon",
         "geremon",
         "gesomon",
-        "bukamon",
         "jungle-mojyamon",
         "lanamon",
-        "zubaeagermon"
+        "zubaeagermon",
+        "tobiumon"
       ],
       "prerequisites": [
         {

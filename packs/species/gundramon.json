@@ -833,10 +833,11 @@
       "x": 157,
       "y": 120,
       "connected": [
-        "orochimon",
         "gigadramon",
+        "orochimon",
         "master-blimpmon",
-        "tankdramon"
+        "tankdramon",
+        "rebellimon"
       ],
       "prerequisites": [
         {

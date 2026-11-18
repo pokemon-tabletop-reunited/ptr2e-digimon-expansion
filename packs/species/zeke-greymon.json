@@ -834,10 +834,12 @@
       "x": 159,
       "y": 202,
       "connected": [
+        "atlur-ballistamon",
+        "rebellimon",
+        "xros-greymon",
         "xros-metal-greymon",
         "knightmon",
-        "locomon",
-        "rebellimon"
+        "locomon"
       ],
       "prerequisites": [
         {

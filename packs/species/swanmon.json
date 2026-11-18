@@ -879,8 +879,8 @@
       "x": 69,
       "y": 98,
       "connected": [
-        "gatomon",
-        "sinduramon"
+        "sinduramon",
+        "gatomon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-love"

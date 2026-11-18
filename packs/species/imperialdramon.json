@@ -834,9 +834,10 @@
       "x": 160,
       "y": 98,
       "connected": [
+        "dinobeemon",
+        "gold-veedramon",
         "imperialdramon-pm",
-        "paildramon",
-        "dinobeemon"
+        "paildramon"
       ],
       "prerequisites": [
         {

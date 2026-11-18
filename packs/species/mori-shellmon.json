@@ -849,9 +849,9 @@
       "x": 60,
       "y": 113,
       "connected": [
-        "psychemon",
         "betamon",
         "crabmon",
+        "psychemon",
         "scorpiomon",
         "vermilimon"
       ],

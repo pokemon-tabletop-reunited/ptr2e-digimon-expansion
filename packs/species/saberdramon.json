@@ -848,14 +848,18 @@
       "x": 62,
       "y": 8,
       "connected": [
+        "agumon-black",
         "crowmon",
+        "demi-devimon",
+        "gabumon-black",
+        "garudamon",
+        "ghostmon",
+        "jokermon",
         "megadramon",
         "phantomon",
-        "agumon-black",
-        "gabumon-black",
-        "demi-devimon",
-        "garudamon",
-        "tsukaimon"
+        "tsukaimon",
+        "velgrmon",
+        "xros-cyberdramon"
       ],
       "prerequisites": [
         {

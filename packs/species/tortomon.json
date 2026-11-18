@@ -847,9 +847,14 @@
       "x": 58,
       "y": 54,
       "connected": [
+        "gogmamon",
+        "kamemon",
         "otamamon",
-        "tentomon",
-        "kamemon"
+        "proganomon",
+        "sagomon",
+        "skull-scorpionmon",
+        "sunarizamon",
+        "tentomon"
       ],
       "prerequisites": [
         {

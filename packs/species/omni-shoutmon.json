@@ -831,10 +831,14 @@
       "connected": [
         "bulkmon",
         "durandamon",
+        "heavy-metaldramon",
         "kazuchimon",
         "magna-kidmon",
         "shoutmon",
-        "pile-volcamon"
+        "pile-volcamon",
+        "punkmon",
+        "rapidmon-armour",
+        "shooting-starmon"
       ],
       "prerequisites": [
         {

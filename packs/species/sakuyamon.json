@@ -832,8 +832,13 @@
       "x": 159,
       "y": 56,
       "connected": [
+        "indaramon",
+        "kumbhiramon",
+        "phantomon",
+        "sakuyamon-miko",
+        "sakuyamon-x",
         "taomon",
-        "phantomon"
+        "vikaralamon"
       ],
       "prerequisites": [
         {

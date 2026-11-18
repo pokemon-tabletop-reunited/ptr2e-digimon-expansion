@@ -836,11 +836,11 @@
       "x": 160,
       "y": 198,
       "connected": [
-        "cho-hakkaimon",
         "gokumon",
+        "nezhamon-cm",
+        "cho-hakkaimon",
         "pandamon",
         "sanzomon",
-        "nezhamon-cm",
         "shakamon"
       ],
       "prerequisites": [

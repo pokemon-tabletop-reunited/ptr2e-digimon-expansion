@@ -836,9 +836,11 @@
       "x": 158,
       "y": 30,
       "connected": [
-        "cerberusmon",
-        "marine-devimon",
         "astamon",
+        "cerberusmon",
+        "lamortmon",
+        "marine-devimon",
+        "oleamon",
         "zombie-plutomon"
       ],
       "prerequisites": [

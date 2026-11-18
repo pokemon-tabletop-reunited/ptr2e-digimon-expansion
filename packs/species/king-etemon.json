@@ -826,9 +826,11 @@
       "x": 157,
       "y": 37,
       "connected": [
+        "chaperomon",
+        "etemon",
+        "gokumon",
         "monzaemon",
         "waru-monzaemon",
-        "etemon",
         "shogun-gekomon"
       ],
       "prerequisites": [

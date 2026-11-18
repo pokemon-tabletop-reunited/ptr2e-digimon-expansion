@@ -852,13 +852,19 @@
       "x": 64,
       "y": 49,
       "connected": [
+        "asuramon",
         "big-mamemon",
         "blue-meramon",
+        "burning-greymon",
+        "candlemon",
+        "coronamon",
+        "demi-meramon",
+        "flamon",
+        "lavogaritamon",
         "solarmon",
         "tapirmon",
-        "coronamon",
-        "candlemon",
-        "skull-meramon"
+        "skull-meramon",
+        "vorvomon"
       ],
       "prerequisites": [
         {

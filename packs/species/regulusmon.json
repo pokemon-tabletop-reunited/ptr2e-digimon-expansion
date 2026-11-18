@@ -864,11 +864,12 @@
       "x": 118,
       "y": 229,
       "connected": [
+        "arcturusmon",
         "canoweissmon",
         "gulus-gammamon",
+        "medusamon",
         "ninjamon",
         "devidramon",
-        "arcturusmon",
         "titamon",
         "megidramon"
       ],

@@ -827,9 +827,12 @@
       "x": 158,
       "y": 110,
       "connected": [
+        "butenmon",
+        "gaiomon-im",
         "hisyaryumon",
         "metal-greymon",
-        "butenmon"
+        "mame-tyrannomon",
+        "scorpiomon-x"
       ],
       "prerequisites": [
         {

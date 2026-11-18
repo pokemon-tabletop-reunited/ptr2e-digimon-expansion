@@ -838,9 +838,9 @@
       "x": 159,
       "y": 79,
       "connected": [
+        "aero-veedramon",
         "super-starmon",
         "magna-angemon",
-        "aero-veedramon",
         "shakkoumon"
       ],
       "prerequisites": [

@@ -859,12 +859,19 @@
       "x": 108,
       "y": 104,
       "connected": [
+        "algomon-champion",
         "blitz-greymon",
-        "gaiomon",
         "deltamon",
+        "dinorexmon",
+        "gaiomon",
+        "gold-veedramon",
         "greymon",
+        "growlmon-orange",
+        "metal-greymon-alter",
         "tyrannomon",
-        "war-greymon"
+        "war-greymon",
+        "victory-greymon",
+        "xros-greymon"
       ],
       "prerequisites": [
         {

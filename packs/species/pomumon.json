@@ -859,11 +859,11 @@
       "x": 28,
       "y": 69,
       "connected": [
+        "arbormon",
+        "parasaurmon",
         "poromon",
         "tanemon",
-        "arbormon",
         "kokatorimon",
-        "parasaurmon",
         "vegiemon"
       ],
       "prerequisites": [

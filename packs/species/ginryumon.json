@@ -858,11 +858,13 @@
       "y": 82,
       "connected": [
         "butenmon",
-        "ryudamon",
         "falcomon",
+        "ryudamon",
         "kudamon",
         "hisyaryumon",
-        "skull-greymon"
+        "skull-greymon",
+        "gyukimon",
+        "oboromon"
       ],
       "prerequisites": [
         {

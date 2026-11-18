@@ -855,13 +855,20 @@
       "x": 59,
       "y": 85,
       "connected": [
-        "elecmon",
-        "dokunemon",
-        "muchomon",
         "deramon",
+        "dokunemon",
+        "elecmon",
+        "ghilliedhumon",
+        "muchomon",
         "phoenixmon",
         "megadramon",
-        "parrotmon"
+        "parrotmon",
+        "lamiamon",
+        "peacockmon",
+        "pomumon",
+        "tinkermon",
+        "zamielmon",
+        "zephyrmon"
       ],
       "prerequisites": [
         {

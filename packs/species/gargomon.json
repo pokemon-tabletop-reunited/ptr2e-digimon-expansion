@@ -855,6 +855,8 @@
       "x": 63,
       "y": 152,
       "connected": [
+        "antylamon-virus",
+        "arkhai-angemon",
         "catch-mamemon",
         "terriermon",
         "shoutmon",
@@ -862,7 +864,11 @@
         "mach-gaogamon",
         "psychemon",
         "rapidmon",
-        "sistermon-blanc"
+        "sistermon-blanc",
+        "lobomon",
+        "pajiramon",
+        "prairiemon",
+        "rapidmon-armour"
       ],
       "prerequisites": [
         {

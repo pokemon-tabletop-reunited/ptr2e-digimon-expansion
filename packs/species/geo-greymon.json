@@ -853,8 +853,9 @@
       "x": 64,
       "y": 125,
       "connected": [
-        "cyberdramon",
+        "agumon-x",
         "agumon",
+        "cyberdramon",
         "huckmon",
         "metal-tyrannomon",
         "rize-greymon"

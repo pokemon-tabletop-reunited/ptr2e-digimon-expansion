@@ -832,9 +832,13 @@
       "y": 186,
       "connected": [
         "boutmon",
+        "crowmon",
+        "divemon",
         "fenriloogamon-takemikazuchi",
         "omni-shoutmon",
-        "crowmon"
+        "pistmon",
+        "shootmon",
+        "tempomon"
       ],
       "prerequisites": [
         {

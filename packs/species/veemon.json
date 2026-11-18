@@ -863,14 +863,18 @@
       "x": 36,
       "y": 92,
       "connected": [
+        "demi-veemon",
         "devidramon",
         "ex-veemon",
         "flamedramon",
+        "gold-veedramon",
+        "komondomon",
         "lighdramon",
         "magnamon",
         "magnamonx",
-        "veedramon",
-        "tsunomon"
+        "tsunomon",
+        "upamon",
+        "veedramon"
       ],
       "prerequisites": [
         {

@@ -862,10 +862,10 @@
       "x": 106,
       "y": 74,
       "connected": [
-        "ogremon",
-        "machmon",
-        "minotaurmon",
         "heavy-leomon",
+        "machmon",
+        "ogremon",
+        "minotaurmon",
         "zeke-greymon",
         "gundramon",
         "titamon"

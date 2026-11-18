@@ -861,13 +861,16 @@
       "x": 38,
       "y": 214,
       "connected": [
+        "hopmon",
         "kokomon",
         "gummymon",
         "birdramon",
         "thunderbirdmon",
         "machmon",
         "komondomon",
-        "omekamon"
+        "omekamon",
+        "mailbirdramon",
+        "mulemon"
       ],
       "prerequisites": [
         {

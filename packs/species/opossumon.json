@@ -872,11 +872,11 @@
       "x": 55,
       "y": 102,
       "connected": [
+        "makuramon",
         "gatomon",
         "salamon",
         "salamon-x",
         "tapirmon",
-        "makuramon",
         "cho-hakkaimon"
       ],
       "prerequisites": [

@@ -860,8 +860,10 @@
         "birdramon",
         "fugamon",
         "kokatorimon",
+        "lavorvomon",
         "yokomon",
-        "peckmon"
+        "peckmon",
+        "punkmon"
       ],
       "prerequisites": [
         {

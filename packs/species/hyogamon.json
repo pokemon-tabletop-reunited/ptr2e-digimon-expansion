@@ -852,13 +852,17 @@
       "x": 66,
       "y": 106,
       "connected": [
-        "lunamon",
+        "blucomon",
+        "crys-paledramon",
+        "frozomon",
         "gomamon",
+        "lunamon",
         "snow-goblimon",
         "panjyamon",
         "phantomon",
         "snow-agumon",
-        "zudomon"
+        "zudomon",
+        "polar-bearmon"
       ],
       "prerequisites": [
         {

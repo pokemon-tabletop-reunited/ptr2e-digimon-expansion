@@ -861,11 +861,11 @@
       "x": 117,
       "y": 202,
       "connected": [
-        "exermon",
-        "runnermon",
-        "namakemon",
         "achillesmon",
+        "exermon",
+        "namakemon",
         "shivamon",
+        "runnermon",
         "kazuchimon"
       ],
       "prerequisites": [

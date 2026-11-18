@@ -848,13 +848,16 @@
       "x": 62,
       "y": 90,
       "connected": [
+        "armadillomon",
         "bancho-golemon",
         "goblimon",
+        "gogmamon",
         "gotsumon",
-        "armadillomon",
         "mammothmon",
         "meteormon",
-        "volcanomon"
+        "volcanomon",
+        "sunarizamon",
+        "vulturemon"
       ],
       "prerequisites": [
         {

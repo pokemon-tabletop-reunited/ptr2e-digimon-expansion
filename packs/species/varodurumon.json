@@ -826,9 +826,10 @@
       "y": 68,
       "connected": [
         "chaosmon-va",
-        "wingdramon",
+        "crowmon",
         "deramon",
-        "crowmon"
+        "maneuvermon",
+        "wingdramon"
       ],
       "prerequisites": [
         {

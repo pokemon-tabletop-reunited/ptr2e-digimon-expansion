@@ -832,9 +832,10 @@
       "x": 160,
       "y": 116,
       "connected": [
-        "ophanimon",
         "angewomon",
-        "lilithmon"
+        "bombermon",
+        "lilithmon",
+        "ophanimon"
       ],
       "prerequisites": [
         {

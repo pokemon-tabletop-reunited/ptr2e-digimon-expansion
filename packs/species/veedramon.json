@@ -855,11 +855,16 @@
       "connected": [
         "aero-veedramon",
         "cyberdramon",
+        "dracomon",
+        "gold-veedramon",
+        "gumdramon",
         "metal-greymon-blue",
+        "pteromon",
+        "red-veedramon",
+        "sagittarimon",
+        "salamon",
         "tekkamon",
         "veemon",
-        "salamon",
-        "dracomon",
         "wingdramon"
       ],
       "prerequisites": [

@@ -834,9 +834,11 @@
       "x": 156,
       "y": 125,
       "connected": [
-        "mega-seadramon",
+        "brachiomon",
+        "gyukimon",
         "hisyaryumon",
-        "brachiomon"
+        "mega-seadramon",
+        "oboromon"
       ],
       "prerequisites": [
         {

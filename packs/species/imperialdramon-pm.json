@@ -835,7 +835,8 @@
       "x": 248,
       "y": 100,
       "connected": [
-        "imperialdramon"
+        "imperialdramon",
+        "magnamon"
       ],
       "prerequisites": [
         {

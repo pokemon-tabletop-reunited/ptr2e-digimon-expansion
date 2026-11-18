@@ -857,12 +857,14 @@
       "x": 109,
       "y": 96,
       "connected": [
+        "ancient-volcamon",
+        "dinorexmon",
         "golemon",
         "tortomon",
         "digmon",
-        "ancient-volcamon",
         "blastmon",
-        "dinorexmon"
+        "landramon",
+        "pyramidimon"
       ],
       "prerequisites": [
         {

@@ -857,12 +857,13 @@
       "x": 63,
       "y": 111,
       "connected": [
+        "kamemon",
+        "kudamon",
+        "lunamon",
         "magna-angemon",
         "piximon",
+        "polar-bearmon",
         "snow-agumon",
-        "lunamon",
-        "kudamon",
-        "kamemon",
         "wisemon"
       ],
       "prerequisites": [

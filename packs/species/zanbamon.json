@@ -826,8 +826,14 @@
       "x": 159,
       "y": 77,
       "connected": [
+        "asuramon",
+        "enmamon",
+        "gyukimon",
+        "knightmon",
         "mistymon",
-        "knightmon"
+        "oboromon",
+        "shishimamon",
+        "vajramon"
       ],
       "prerequisites": [
         {

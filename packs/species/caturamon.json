@@ -875,7 +875,9 @@
         "lynxmon",
         "baihumon",
         "parasimon",
-        "sakuyamon-x"
+        "sakuyamon-x",
+        "lighdramon",
+        "yihumon"
       ],
       "prerequisites": [
         {

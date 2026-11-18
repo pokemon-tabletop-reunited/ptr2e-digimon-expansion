@@ -866,9 +866,14 @@
       "y": 55,
       "connected": [
         "bakemon",
+        "boarmon",
+        "demi-meramon",
         "garurumon",
+        "gummymon",
         "kyubimon",
         "meramon",
+        "opossumon",
+        "shiisamon",
         "wanyamon",
         "unimon"
       ],

@@ -819,7 +819,9 @@
       "x": 25,
       "y": 216,
       "connected": [
+        "blucomon",
         "conomon",
+        "jazamon",
         "lopmon",
         "toy-agumon-black",
         "shamamon"

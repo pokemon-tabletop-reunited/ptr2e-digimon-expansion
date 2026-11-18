@@ -826,9 +826,9 @@
       "x": 153,
       "y": 17,
       "connected": [
-        "arukenimon",
         "caturamon",
         "indaramon",
+        "arukenimon",
         "vikaralamon"
       ],
       "prerequisites": [

@@ -844,11 +844,12 @@
       "x": 158,
       "y": 174,
       "connected": [
+        "erlangmon-bm",
         "sanzomon",
         "antylamon",
         "gokumon",
-        "erlangmon-bm",
-        "shakamon"
+        "shakamon",
+        "fumamon"
       ],
       "prerequisites": [
         {

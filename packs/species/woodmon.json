@@ -843,12 +843,13 @@
       "x": 66,
       "y": 79,
       "connected": [
+        "algomon-ultimate",
         "cherrymon",
-        "pumpkinmon",
-        "taomon",
-        "palmon",
+        "floramon",
         "mushroomon",
-        "floramon"
+        "palmon",
+        "pumpkinmon",
+        "taomon"
       ],
       "prerequisites": [
         {

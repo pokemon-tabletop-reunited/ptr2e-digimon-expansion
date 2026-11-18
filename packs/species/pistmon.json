@@ -860,10 +860,10 @@
       "x": 118,
       "y": 192,
       "connected": [
-        "bulkmon",
-        "exermon",
-        "runnermon",
         "achillesmon",
+        "exermon",
+        "bulkmon",
+        "runnermon",
         "kazuchimon",
         "shroudmon"
       ],

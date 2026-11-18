@@ -856,11 +856,13 @@
       "y": 58,
       "connected": [
         "blue-meramon",
+        "caturamon",
         "cerberusmon",
         "enbarrmon",
+        "gabumon",
+        "kumbhiramon",
         "renamon",
         "tapirmon",
-        "gabumon",
         "psychemon",
         "taomon"
       ],

@@ -187,11 +187,13 @@
         "elecmon",
         "gabumon",
         "goblimon",
+        "pichimon",
         "psychemon",
-        "ryudamon",
         "punimon",
+        "ryudamon",
         "veemon",
-        "zubamon"
+        "zubamon",
+        "yukimi-botamon"
       ],
       "prerequisites": [
         {

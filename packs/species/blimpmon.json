@@ -861,7 +861,9 @@
         "giromon",
         "locomon",
         "master-blimpmon",
-        "metal-mamemon"
+        "metal-mamemon",
+        "sparrowmon",
+        "valvemon"
       ],
       "prerequisites": [
         {

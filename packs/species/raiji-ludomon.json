@@ -863,12 +863,12 @@
       "x": 113,
       "y": 215,
       "connected": [
+        "bryweludramon",
+        "devitamamon",
         "reppamon",
         "tia-ludomon",
         "black-gatomon-uber",
-        "bryweludramon",
         "hover-espimon",
-        "devitamamon",
         "ancient-garurumon"
       ],
       "prerequisites": [

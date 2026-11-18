@@ -853,12 +853,13 @@
       "x": 113,
       "y": 99,
       "connected": [
+        "bakemon",
         "meramon",
         "garurumon",
-        "bakemon",
         "kyubimon",
         "marsmon",
-        "pharoahmon"
+        "pharoahmon",
+        "troopmon"
       ],
       "prerequisites": [
         {

@@ -854,11 +854,15 @@
       "x": 113,
       "y": 19,
       "connected": [
+        "black-gatomon",
+        "dorulumon",
+        "garurumon-black",
+        "gulfmon",
         "metal-garurumon-black",
         "pile-volcamon",
-        "garurumon-black",
         "sangloupmon",
-        "black-gatomon"
+        "were-garurumon-sagittarius",
+        "youkomon"
       ],
       "prerequisites": [
         {

@@ -849,12 +849,15 @@
       "x": 64,
       "y": 18,
       "connected": [
+        "bearmon",
+        "doumon",
         "gabumon-black",
         "renamon",
-        "bearmon",
         "pandamon",
         "skull-satamon",
-        "were-garurumon-black"
+        "were-garurumon-black",
+        "jaeger-dorulumon",
+        "were-garurumon-sagittarius"
       ],
       "prerequisites": [
         {

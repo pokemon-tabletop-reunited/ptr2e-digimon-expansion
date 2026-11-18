@@ -831,10 +831,13 @@
       "x": 155,
       "y": 10,
       "connected": [
+        "antylamon-virus",
+        "antylamon",
         "great-grizzlymon",
         "infermon",
-        "antylamon",
-        "metal-greymon-blue"
+        "metal-greymon-blue",
+        "pajiramon",
+        "sinduramon"
       ],
       "prerequisites": [
         {

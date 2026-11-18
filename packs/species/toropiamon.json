@@ -865,13 +865,15 @@
       "x": 118,
       "y": 217,
       "connected": [
-        "chamblemon",
-        "shell-nunemon",
-        "parasaurmon",
-        "sunflowmon",
+        "algomon-mega",
         "amphimon",
+        "ancient-irismon",
+        "chamblemon",
         "hydramon",
+        "parasaurmon",
         "spinomon",
+        "shell-nunemon",
+        "sunflowmon",
         "vikemon"
       ],
       "prerequisites": [

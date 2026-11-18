@@ -867,14 +867,15 @@
       "x": 117,
       "y": 236,
       "connected": [
+        "ancient-megatheriumon",
         "hyogamon",
         "moosemon",
         "omekamon",
         "paledramon",
         "hexeblaumon",
-        "ancient-megatheriumon",
         "alphamon",
-        "fros-velgrmon"
+        "fros-velgrmon",
+        "skadimon"
       ],
       "prerequisites": [
         {

@@ -854,6 +854,10 @@
       "x": 57,
       "y": 41,
       "connected": [
+        "agumon-x",
+        "crys-paledramon",
+        "jazamon",
+        "jazarichmon",
         "agumon-black",
         "fan-beemon",
         "hagurumon",
@@ -861,7 +865,8 @@
         "toy-agumon",
         "tekkamon",
         "omnimon-x",
-        "super-starmon"
+        "super-starmon",
+        "shoemon"
       ],
       "prerequisites": [
         {

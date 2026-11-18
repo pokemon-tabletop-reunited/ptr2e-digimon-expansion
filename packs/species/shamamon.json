@@ -867,7 +867,9 @@
       "x": 33,
       "y": 19,
       "connected": [
+        "burning-greymon",
         "fugamon",
+        "kokomon",
         "minotarumon",
         "musyamon",
         "tsumemon"

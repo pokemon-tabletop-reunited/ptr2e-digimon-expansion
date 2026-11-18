@@ -866,7 +866,11 @@
         "grizzlymon",
         "leopardmon",
         "marsmon",
-        "saber-leomon"
+        "saber-leomon",
+        "heavy-leomon",
+        "mad-leomon",
+        "symbare-angoramon",
+        "yihumon"
       ],
       "prerequisites": [
         {

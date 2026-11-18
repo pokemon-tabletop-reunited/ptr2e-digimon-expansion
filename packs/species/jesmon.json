@@ -833,8 +833,8 @@
       "x": 159,
       "y": 65,
       "connected": [
-        "savior-huckmon",
         "garudamon",
+        "savior-huckmon",
         "jesmonx"
       ],
       "prerequisites": [

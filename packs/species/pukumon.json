@@ -826,9 +826,10 @@
       "x": 159,
       "y": 178,
       "connected": [
+        "mamemon",
         "scorpiomon",
         "shogun-gekomon",
-        "mamemon"
+        "thetismon"
       ],
       "prerequisites": [
         {

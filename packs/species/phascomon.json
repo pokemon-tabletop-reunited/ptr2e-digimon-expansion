@@ -846,10 +846,13 @@
       "x": 29,
       "y": 56,
       "connected": [
+        "mad-leomon",
+        "namakemon",
         "wanyamon",
         "leomon",
-        "mad-leomon",
-        "wendigomon"
+        "wendigomon",
+        "shadramon",
+        "troopmon"
       ],
       "prerequisites": [
         {

@@ -886,8 +886,9 @@
       "x": 27,
       "y": 62,
       "connected": [
+        "big-ukkomon",
         "poromon",
-        "big-ukkomon"
+        "tenkomon"
       ],
       "prerequisites": [
         {

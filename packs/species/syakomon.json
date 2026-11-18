@@ -864,13 +864,16 @@
       "x": 33,
       "y": 180,
       "connected": [
+        "bukamon",
         "coelamon",
+        "ebidramon",
         "gesomon",
+        "lanamon",
         "octomon",
+        "publimon",
         "raremon",
         "shell-nunemon",
-        "shellmon",
-        "bukamon"
+        "shellmon"
       ],
       "prerequisites": [
         {

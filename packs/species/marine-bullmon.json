@@ -870,12 +870,14 @@
       "x": 114,
       "y": 180,
       "connected": [
+        "ariemon",
+        "kaguyamon",
         "shellmon",
         "ebidramon",
         "tobiumon",
-        "ariemon",
         "ryugumon",
-        "yukinamon"
+        "yukinamon",
+        "xiangpengmon"
       ],
       "prerequisites": [
         {

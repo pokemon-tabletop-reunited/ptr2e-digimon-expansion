@@ -847,9 +847,11 @@
       "x": 61,
       "y": 144,
       "connected": [
-        "dokunemon",
+        "peacockmon",
         "tinkermon",
-        "betamon"
+        "dokunemon",
+        "betamon",
+        "zamielmon"
       ],
       "prerequisites": [
         {

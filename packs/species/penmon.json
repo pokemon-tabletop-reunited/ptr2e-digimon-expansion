@@ -863,9 +863,11 @@
       "connected": [
         "aquilamon",
         "buraimon",
+        "hiyarimon",
         "kiwimon",
         "peckmon",
-        "yokomon"
+        "yokomon",
+        "shoeshoemon"
       ],
       "prerequisites": [
         {

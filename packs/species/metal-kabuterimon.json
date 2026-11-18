@@ -873,11 +873,11 @@
       "x": null,
       "y": null,
       "connected": [
+        "ancient-beetlemon",
         "blitzmon",
+        "grandis-kuwagamon",
         "tankmon",
         "thunderballmon",
-        "ancient-beetlemon",
-        "grandis-kuwagamon",
         "rhino-kabuterimon"
       ],
       "prerequisites": [

@@ -859,14 +859,17 @@
       "x": 111,
       "y": 87,
       "connected": [
+        "algomon-champion",
         "bancho-mamemon",
+        "done-devimon",
         "starmon",
         "sukamon",
         "nanimon",
         "platinum-sukamon",
         "ninjamon",
         "prince-mamemon",
-        "pukumon"
+        "pukumon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

@@ -853,12 +853,12 @@
       "x": 61,
       "y": 124,
       "connected": [
+        "arresterdramon-superior-mode",
         "gumdramon",
         "hackmon",
         "guilmon",
         "megadramon",
         "taomon",
-        "arresterdramon-superior-mode",
         "saviour-huckmon"
       ],
       "prerequisites": [

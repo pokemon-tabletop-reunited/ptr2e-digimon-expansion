@@ -854,10 +854,10 @@
       "x": 57,
       "y": 31,
       "connected": [
+        "bearmon",
         "dark-super-starmon",
         "gazimon",
         "gaomon",
-        "bearmon",
         "mach-gaogamon",
         "savior-huckmon"
       ],

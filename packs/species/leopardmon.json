@@ -828,7 +828,9 @@
       "y": 42,
       "connected": [
         "grap-leomon",
-        "knightmon"
+        "knightmon",
+        "nyabootmon",
+        "rapidmon-armour"
       ],
       "prerequisites": [
         {

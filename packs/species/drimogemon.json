@@ -856,11 +856,15 @@
       "y": 74,
       "connected": [
         "brachiomon",
-        "gabumon",
+        "digmon",
         "dorumon",
+        "gabumon",
         "salamon",
         "loader-leomon",
-        "triceramon"
+        "triceramon",
+        "jaeger-dorulumon",
+        "rhinomon",
+        "were-garurumon-sagittarius"
       ],
       "prerequisites": [
         {

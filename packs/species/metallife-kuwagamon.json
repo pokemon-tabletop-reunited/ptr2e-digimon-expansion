@@ -866,12 +866,16 @@
       "x": 112,
       "y": 68,
       "connected": [
+        "ancient-beetlemon",
         "blade-kuwagamon",
+        "grandis-kuwagamon",
         "coelamon",
         "metal-etemon",
         "tyrant-kabuterimon",
         "kabuterimon",
-        "gran-kuwagamon"
+        "gran-kuwagamon",
+        "raijinmon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {

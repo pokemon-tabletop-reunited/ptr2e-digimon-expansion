@@ -861,12 +861,14 @@
       "y": 81,
       "connected": [
         "bacchusmon",
-        "ebonwumon",
-        "gundramon",
-        "minervamon",
         "deltamon",
-        "shell-nunemon",
-        "kurisarimon"
+        "ebonwumon",
+        "gorimon",
+        "gundramon",
+        "kurisarimon",
+        "minervamon",
+        "nidhoggmon",
+        "shell-nunemon"
       ],
       "prerequisites": [
         {

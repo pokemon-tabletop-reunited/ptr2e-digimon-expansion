@@ -870,14 +870,20 @@
       "x": 31,
       "y": 36,
       "connected": [
+        "ballistamon",
         "blimpmon",
         "clockmon",
+        "gold-veedramon",
         "guardromon",
         "kapurimon",
         "hi-commandramon",
         "mekanorimon",
         "missimon",
-        "tankmon"
+        "tankmon",
+        "machmon",
+        "mailbirdramon",
+        "mercurymon",
+        "omekamon"
       ],
       "prerequisites": [
         {

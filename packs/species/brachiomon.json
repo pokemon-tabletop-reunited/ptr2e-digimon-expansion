@@ -865,12 +865,14 @@
       "x": 111,
       "y": 124,
       "connected": [
+        "ankylomon",
+        "betel-gammamon",
         "drimogemon",
         "cyclonemon",
-        "ankylomon",
         "ouryumon",
         "rust-tyrannomon",
-        "ultimate-brachiomon"
+        "ultimate-brachiomon",
+        "kaus-gammamon"
       ],
       "prerequisites": [
         {

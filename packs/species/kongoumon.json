@@ -829,7 +829,9 @@
       "connected": [
         "wormmon",
         "kabuterimon",
-        "stingmon"
+        "stingmon",
+        "roachmon",
+        "shadramon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-miracles"

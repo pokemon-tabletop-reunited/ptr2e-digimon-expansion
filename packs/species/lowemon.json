@@ -862,8 +862,8 @@
       "y": 51,
       "connected": [
         "duskmon",
-        "liollmon",
-        "kaiser-leomon"
+        "kaiser-leomon",
+        "liollmon"
       ],
       "prerequisites": [
         "item:equipment:human-spirit-of-darkness"

@@ -868,9 +868,9 @@
       "x": 107,
       "y": 90,
       "connected": [
-        "grottemon",
         "ancient-greymon",
-        "ancient-volcamon"
+        "ancient-volcamon",
+        "grottemon"
       ],
       "prerequisites": [
         "item:equipment:beast-spirit-of-earth"

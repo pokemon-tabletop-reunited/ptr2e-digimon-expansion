@@ -858,12 +858,12 @@
       "x": 111,
       "y": 112,
       "connected": [
+        "coredramon-blue",
+        "greymon-blue",
         "shine-greymon",
         "slayerdramon",
         "varodurumon",
-        "coredramon-blue",
-        "veedramon",
-        "greymon-blue"
+        "veedramon"
       ],
       "prerequisites": [
         {

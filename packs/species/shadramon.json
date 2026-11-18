@@ -882,10 +882,10 @@
       "x": 57,
       "y": 88,
       "connected": [
+        "pucchiemon-red",
         "wormmon",
         "phascomon",
-        "kongoumon",
-        "pucchiemon-red"
+        "kongoumon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-courage"

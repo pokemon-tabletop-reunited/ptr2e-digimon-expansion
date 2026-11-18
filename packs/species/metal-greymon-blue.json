@@ -857,12 +857,14 @@
       "x": 111,
       "y": 8,
       "connected": [
+        "arcturusmon",
         "black-war-greymon",
         "cherubimon-vice",
         "darkdramon",
-        "greymon-blue",
         "dorugamon",
-        "veedramon"
+        "greymon-blue",
+        "veedramon",
+        "xros-greymon"
       ],
       "prerequisites": [
         {

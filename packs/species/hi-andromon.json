@@ -826,12 +826,14 @@
       "x": 157,
       "y": 31,
       "connected": [
+        "andromon",
+        "destromon",
         "giromon",
         "locomon",
         "mummymon",
-        "andromon",
         "rapidmon",
-        "tekkamon"
+        "tekkamon",
+        "sinduramon"
       ],
       "prerequisites": [
         {

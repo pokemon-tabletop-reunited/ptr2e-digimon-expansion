@@ -857,10 +857,13 @@
       "y": 61,
       "connected": [
         "callismon",
+        "geremon",
         "king-etemon",
         "nunemon",
         "sukamon",
-        "geremon"
+        "piddomon",
+        "shin-monzaemon",
+        "shoeshoemon"
       ],
       "prerequisites": [
         {

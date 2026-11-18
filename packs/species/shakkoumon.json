@@ -867,12 +867,12 @@
       "x": 112,
       "y": 144,
       "connected": [
+        "angemon",
+        "ankylomon",
         "azulongmon",
         "goldramon",
         "junomon",
         "magnadramon",
-        "angemon",
-        "ankylomon",
         "vikemon"
       ],
       "prerequisites": [

@@ -827,9 +827,11 @@
       "x": 158,
       "y": 90,
       "connected": [
+        "cannon-beemon",
         "mach-gaogamon",
+        "makuramon",
         "rapidmon",
-        "cannon-beemon"
+        "pajiramon"
       ],
       "prerequisites": [
         {

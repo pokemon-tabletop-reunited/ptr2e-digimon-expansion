@@ -808,8 +808,8 @@
       "x": 21,
       "y": 108,
       "connected": [
-        "pyonmon",
         "angoramon",
+        "pyonmon",
         "dracmon"
       ],
       "prerequisites": [

@@ -875,13 +875,14 @@
       "x": 111,
       "y": 10,
       "connected": [
+        "gulfmon",
         "devidramon",
         "wizardmon",
         "sangloupmon",
         "gran-dracmon",
-        "gulfmon",
         "marsmon",
-        "piedmon"
+        "piedmon",
+        "taotiemon"
       ],
       "prerequisites": [
         {

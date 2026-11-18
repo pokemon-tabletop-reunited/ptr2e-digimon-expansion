@@ -880,11 +880,14 @@
       "y": 91,
       "connected": [
         "coelamon",
+        "death-x-dorugamon",
         "ginryumon",
         "greymon",
+        "kyokyomon",
         "monochromon",
         "reppamon",
-        "tsunomon"
+        "tsunomon",
+        "sakuttomon"
       ],
       "prerequisites": [
         {

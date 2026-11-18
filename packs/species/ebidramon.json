@@ -859,13 +859,17 @@
       "x": 58,
       "y": 173,
       "connected": [
+        "calmaramon",
         "crabmon",
         "gizamon",
         "gomamon",
         "syakomon",
         "divermon",
         "sirenmon",
-        "splashmon"
+        "splashmon",
+        "gusokumon",
+        "marine-bullmon",
+        "marine-kimeramon"
       ],
       "prerequisites": [
         {

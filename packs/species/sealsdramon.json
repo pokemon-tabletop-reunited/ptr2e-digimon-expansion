@@ -866,8 +866,11 @@
       "x": 65,
       "y": 140,
       "connected": [
+        "bokomon",
         "cargodramon",
         "commandramon",
+        "fumamon",
+        "gammamon",
         "tentomon",
         "terriermon",
         "tankdramon"

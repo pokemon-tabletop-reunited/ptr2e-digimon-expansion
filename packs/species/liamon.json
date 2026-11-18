@@ -853,13 +853,15 @@
       "x": 60,
       "y": 52,
       "connected": [
+        "kaiser-leomon",
         "liollmon",
         "patamon",
         "elecmon",
-        "kaiser-leomon",
         "loader-leomon",
         "magna-angemon",
-        "dragomon"
+        "dragomon",
+        "runnermon",
+        "stiffilmon"
       ],
       "prerequisites": [
         {

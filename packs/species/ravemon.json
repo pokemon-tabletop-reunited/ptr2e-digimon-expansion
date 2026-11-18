@@ -835,10 +835,12 @@
       "x": 156,
       "y": 19,
       "connected": [
-        "ravemon-bm",
+        "crowmon",
         "dark-super-starmon",
+        "enmamon",
+        "huankunmon",
         "phantomon",
-        "crowmon"
+        "ravemon-bm"
       ],
       "prerequisites": [
         {

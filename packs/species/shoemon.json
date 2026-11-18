@@ -844,11 +844,13 @@
       "x": 31,
       "y": 31,
       "connected": [
+        "kokeshimon",
         "shoe-shoemon",
         "viximon",
         "dogmon",
-        "kokeshimon",
-        "omekamon"
+        "omekamon",
+        "shoeshoemon",
+        "shortmon"
       ],
       "prerequisites": [
         {

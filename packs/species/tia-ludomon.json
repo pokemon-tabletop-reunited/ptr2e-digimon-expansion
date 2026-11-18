@@ -854,12 +854,12 @@
       "x": 65,
       "y": 216,
       "connected": [
-        "gabumon",
         "ludomon",
-        "zubamon",
         "manticoremon",
         "raiji-ludomon",
-        "rare-raremon"
+        "rare-raremon",
+        "gabumon",
+        "zubamon"
       ],
       "prerequisites": [
         {

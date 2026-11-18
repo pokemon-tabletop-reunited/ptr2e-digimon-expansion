@@ -855,13 +855,16 @@
       "y": 46,
       "connected": [
         "airdramon",
+        "death-x-dorugamon",
         "devidramon",
-        "dorugamon",
         "dorimon",
+        "dorugamon",
         "drimogemon",
         "ex-veemon",
         "raptordramon",
-        "sangloupmon"
+        "sangloupmon",
+        "greymon-x",
+        "seadramon-x"
       ],
       "prerequisites": [
         {

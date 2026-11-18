@@ -833,9 +833,9 @@
       "x": 157,
       "y": 46,
       "connected": [
+        "cyberdramon",
         "pandamon",
-        "super-starmon",
-        "cyberdramon"
+        "super-starmon"
       ],
       "prerequisites": [
         {
