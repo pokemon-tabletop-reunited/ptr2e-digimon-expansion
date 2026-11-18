@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "spike-bomb",
-          "level": 64,
-          "gen": null
-        },
-        {
           "name": "astro-sphere",
           "level": 46,
           "gen": null
@@ -847,11 +842,20 @@
           "name": "upheaval",
           "level": 61,
           "gen": null
+        },
+        {
+          "name": "spike-bomb",
+          "level": 64,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

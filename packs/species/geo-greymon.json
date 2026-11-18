@@ -841,7 +841,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "geo-greymon",

@@ -36,7 +36,7 @@
       "category": "medium",
       "type": "quad",
       "height": 2.2,
-      "weight": 0
+      "weight": 220
     },
     "diet": [],
     "abilities": {
@@ -800,11 +800,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "masked-kick",
-          "level": 31,
-          "gen": null
-        },
-        {
           "name": "drill-run",
           "level": 24,
           "gen": null
@@ -822,6 +817,11 @@
         {
           "name": "high-horsepower",
           "level": 30,
+          "gen": null
+        },
+        {
+          "name": "masked-kick",
+          "level": 31,
           "gen": null
         },
         {
@@ -847,7 +847,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

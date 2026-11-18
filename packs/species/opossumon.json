@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "zippy-zap",
-          "level": 27,
-          "gen": null
-        },
-        {
           "name": "buzzy-buzz",
           "level": 21,
           "gen": null
@@ -840,6 +835,11 @@
           "gen": null
         },
         {
+          "name": "zippy-zap",
+          "level": 27,
+          "gen": null
+        },
+        {
           "name": "floaty-fall",
           "level": 29,
           "gen": null
@@ -862,7 +862,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

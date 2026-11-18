@@ -22,7 +22,8 @@
       "lumbering",
       "fossil",
       "antibody",
-      "bladed"
+      "bladed",
+      "titan"
     ],
     "number": 5698,
     "stats": {
@@ -811,11 +812,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rock-wrecker",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "coral-break",
           "level": 50,
           "gen": null
@@ -844,11 +840,19 @@
           "name": "hydro-cannon",
           "level": 62,
           "gen": null
+        },
+        {
+          "name": "rock-wrecker",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

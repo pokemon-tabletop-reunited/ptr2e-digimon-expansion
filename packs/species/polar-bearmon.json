@@ -816,11 +816,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "shell-shock",
-          "level": 55,
-          "gen": null
-        },
-        {
           "name": "snow-cannon",
           "level": 45,
           "gen": null
@@ -846,6 +841,11 @@
           "gen": null
         },
         {
+          "name": "shell-shock",
+          "level": 55,
+          "gen": null
+        },
+        {
           "name": "star-beam",
           "level": 56,
           "gen": null
@@ -858,7 +858,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -830,7 +830,10 @@
       "tutor": []
     },
     "eggGroups": [
-      "unknown"
+      "royal-base",
+      "jungle-troopers",
+      "metal-empire",
+      "wind-guardians"
     ],
     "genderRatio": -1,
     "habitats": [],

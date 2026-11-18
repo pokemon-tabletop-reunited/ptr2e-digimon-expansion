@@ -851,7 +851,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nightmare-soldiers",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

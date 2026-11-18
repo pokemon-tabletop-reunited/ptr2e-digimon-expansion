@@ -823,11 +823,6 @@
           "gen": null
         },
         {
-          "name": "tractor-beam",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "sky-fall",
           "level": 56,
           "gen": null
@@ -843,6 +838,11 @@
           "gen": null
         },
         {
+          "name": "tractor-beam",
+          "level": 62,
+          "gen": null
+        },
+        {
           "name": "mow-down",
           "level": 64,
           "gen": null
@@ -850,7 +850,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

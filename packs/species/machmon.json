@@ -799,13 +799,13 @@
     "moves": {
       "levelUp": [
         {
-          "name": "pin-missile",
-          "level": 23,
+          "name": "shell-side-arm",
+          "level": 0,
           "gen": null
         },
         {
-          "name": "shell-side-arm",
-          "level": 0,
+          "name": "pin-missile",
+          "level": 23,
           "gen": null
         },
         {
@@ -846,7 +846,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

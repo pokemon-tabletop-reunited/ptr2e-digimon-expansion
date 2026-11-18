@@ -852,7 +852,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "dragons-roar",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "warriors-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "burning-greymon",

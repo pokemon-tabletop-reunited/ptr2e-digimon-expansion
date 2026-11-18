@@ -812,7 +812,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "legend-arms"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "durandamon",
@@ -916,7 +919,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767095233231,

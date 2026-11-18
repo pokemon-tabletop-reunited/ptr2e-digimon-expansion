@@ -789,6 +789,11 @@
     "moves": {
       "levelUp": [
         {
+          "name": "bubble",
+          "level": 0,
+          "gen": null
+        },
+        {
           "name": "gemlight",
           "level": 1,
           "gen": null
@@ -797,16 +802,13 @@
           "name": "tackle",
           "level": 1,
           "gen": null
-        },
-        {
-          "name": "bubble",
-          "level": 0,
-          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "flare-blitz",
-          "level": 43,
-          "gen": null
-        },
-        {
           "name": "ashburn",
           "level": 27,
           "gen": null
@@ -839,11 +834,19 @@
           "name": "stomping-tantrum",
           "level": 40,
           "gen": null
+        },
+        {
+          "name": "flare-blitz",
+          "level": 43,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

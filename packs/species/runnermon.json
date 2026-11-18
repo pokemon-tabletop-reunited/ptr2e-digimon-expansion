@@ -844,7 +844,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians",
+      "jungle-troopers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

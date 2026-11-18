@@ -825,7 +825,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "saiyu-warriors",
+      "tentei-hachibushu",
+      "saneiketsu"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

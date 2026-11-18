@@ -13,6 +13,7 @@
       ],
       "notes": ""
     },
+    "slug": "megakabuterimon-blue",
     "traits": [
       "digimon",
       "data",
@@ -817,11 +818,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "reversal",
-          "level": 53,
-          "gen": null
-        },
-        {
           "name": "scary-face",
           "level": 0,
           "gen": null
@@ -834,6 +830,11 @@
         {
           "name": "noxious-acid",
           "level": 50,
+          "gen": null
+        },
+        {
+          "name": "reversal",
+          "level": 53,
           "gen": null
         },
         {
@@ -859,7 +860,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

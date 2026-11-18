@@ -867,7 +867,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "warriors-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

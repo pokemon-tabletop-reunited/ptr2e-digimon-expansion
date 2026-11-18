@@ -820,11 +820,6 @@
           "gen": null
         },
         {
-          "name": "last-respects",
-          "level": 63,
-          "gen": null
-        },
-        {
           "name": "arcane-storm",
           "level": 51,
           "gen": null
@@ -850,6 +845,11 @@
           "gen": null
         },
         {
+          "name": "last-respects",
+          "level": 63,
+          "gen": null
+        },
+        {
           "name": "hyper-beam",
           "level": 65,
           "gen": null
@@ -857,7 +857,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

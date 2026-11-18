@@ -826,7 +826,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "virus-busters",
+      "wind-guardians",
+      "four-great-dragons",
+      "four-holy-beasts"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -866,9 +872,9 @@
             ],
             "alterations": [
               {
-                "mode": 5,
                 "property": "system.actions.0.free",
-                "value": "true"
+                "value": "true",
+                "method": 2
               }
             ],
             "onDeleteActions": {
@@ -877,11 +883,12 @@
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -897,11 +904,12 @@
               "granter": "cascade"
             },
             "allowDuplicate": false,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -914,8 +922,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -932,13 +942,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "k6doSOzXsOaLobJh"
 }

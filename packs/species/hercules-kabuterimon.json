@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "many-arms",
-      "winged"
+      "winged",
+      "titan"
     ],
     "number": 5360,
     "stats": {
@@ -824,7 +825,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "hercules-kabuterimon",

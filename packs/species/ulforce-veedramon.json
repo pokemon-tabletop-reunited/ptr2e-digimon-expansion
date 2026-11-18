@@ -817,7 +817,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits",
+      "virus-busters",
+      "wind-guardians",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "ulforce-veedramon",
@@ -921,7 +927,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1770953909463,

@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "hyper-beam",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "barb-barrage",
           "level": 47,
           "gen": null
@@ -848,11 +843,19 @@
           "name": "rock-wrecker",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "hyper-beam",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

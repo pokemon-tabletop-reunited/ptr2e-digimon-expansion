@@ -813,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "fusillade",
-          "level": 66,
-          "gen": null
-        },
-        {
           "name": "compost-bomb",
           "level": 45,
           "gen": null
@@ -851,11 +846,18 @@
           "name": "mind-blown",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "fusillade",
+          "level": 66,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

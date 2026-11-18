@@ -859,7 +859,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "submarimon",

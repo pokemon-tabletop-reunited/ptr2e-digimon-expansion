@@ -18,7 +18,6 @@
       "free",
       "fresh",
       "horned",
-      "baby",
       "legless"
     ],
     "number": 5964,
@@ -802,7 +801,9 @@
       "tutor": []
     },
     "eggGroups": [
-      "unknown"
+      "jungle-troopers",
+      "virus-busters",
+      "metal-empire"
     ],
     "genderRatio": -1,
     "habitats": [],

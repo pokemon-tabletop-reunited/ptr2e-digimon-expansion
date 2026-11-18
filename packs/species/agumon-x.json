@@ -13,6 +13,7 @@
       ],
       "notes": ""
     },
+    "slug": "agumon-x",
     "traits": [
       "digimon",
       "vaccine",
@@ -851,7 +852,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

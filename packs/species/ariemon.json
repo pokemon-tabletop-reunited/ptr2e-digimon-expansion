@@ -820,7 +820,9 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

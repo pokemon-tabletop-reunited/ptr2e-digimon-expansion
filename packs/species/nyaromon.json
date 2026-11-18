@@ -18,7 +18,8 @@
       "in-training",
       "legless",
       "baby",
-      "free"
+      "free",
+      "titan"
     ],
     "number": 5016,
     "stats": {
@@ -823,7 +824,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "virus-busters"
+      "virus-busters",
+      "titans"
     ],
     "genderRatio": -1,
     "habitats": [],

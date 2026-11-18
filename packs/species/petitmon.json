@@ -805,7 +805,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

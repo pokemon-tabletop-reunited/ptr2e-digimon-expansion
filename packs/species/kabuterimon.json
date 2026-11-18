@@ -20,7 +20,8 @@
       "winged",
       "bipedal",
       "multi-arms",
-      "horned"
+      "horned",
+      "titan"
     ],
     "number": 5103,
     "stats": {
@@ -842,7 +843,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "wind-guardians",
+      "titans",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "kabuterimon",

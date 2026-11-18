@@ -863,7 +863,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "warriors-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

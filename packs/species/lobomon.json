@@ -839,7 +839,14 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "virus-busters",
+      "wind-guardians",
+      "metal-empire",
+      "warriors-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "lobomon",

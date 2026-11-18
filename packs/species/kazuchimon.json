@@ -822,7 +822,9 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -923,7 +925,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1776218999325,

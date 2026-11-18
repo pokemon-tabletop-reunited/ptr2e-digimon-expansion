@@ -20,7 +20,8 @@
       "bipedal",
       "horned",
       "deafening",
-      "living-armour"
+      "living-armour",
+      "noisy"
     ],
     "number": 5656,
     "stats": {
@@ -847,7 +848,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

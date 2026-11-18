@@ -827,7 +827,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

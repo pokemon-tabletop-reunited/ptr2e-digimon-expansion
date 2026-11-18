@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "metronome",
-          "level": 29,
-          "gen": null
-        },
-        {
           "name": "alluring-voice",
           "level": 22,
           "gen": null
@@ -823,6 +818,11 @@
         {
           "name": "after-you",
           "level": 27,
+          "gen": null
+        },
+        {
+          "name": "metronome",
+          "level": 29,
           "gen": null
         },
         {
@@ -853,7 +853,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

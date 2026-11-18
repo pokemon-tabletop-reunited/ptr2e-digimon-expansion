@@ -18,7 +18,8 @@
       "data",
       "mega",
       "bipedal",
-      "rapid"
+      "rapid",
+      "antibody"
     ],
     "number": 5809,
     "stats": {
@@ -815,7 +816,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

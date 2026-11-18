@@ -856,7 +856,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "hippo-gryphonmon",

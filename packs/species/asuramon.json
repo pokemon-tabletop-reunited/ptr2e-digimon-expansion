@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sorrowful-strike",
-          "level": 62,
-          "gen": null
-        },
-        {
           "name": "kinetic-quake",
           "level": 46,
           "gen": null
@@ -841,11 +836,19 @@
           "name": "meteor-assault",
           "level": 60,
           "gen": null
+        },
+        {
+          "name": "sorrowful-strike",
+          "level": 62,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

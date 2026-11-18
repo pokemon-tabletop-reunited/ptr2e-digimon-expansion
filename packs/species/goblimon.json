@@ -19,7 +19,8 @@
       "virus",
       "bipedal",
       "wielder",
-      "rookie"
+      "rookie",
+      "titan"
     ],
     "number": 5070,
     "stats": {
@@ -835,7 +836,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "goblimon",

@@ -816,7 +816,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "gaiomon",
@@ -920,7 +923,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767097339095,

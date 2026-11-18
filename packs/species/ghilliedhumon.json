@@ -861,7 +861,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "jungle-troopers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

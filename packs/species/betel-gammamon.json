@@ -804,11 +804,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "raging-fury",
-          "level": 36,
-          "gen": null
-        },
-        {
           "name": "zen-headbutt",
           "level": 23,
           "gen": null
@@ -839,6 +834,11 @@
           "gen": null
         },
         {
+          "name": "raging-fury",
+          "level": 36,
+          "gen": null
+        },
+        {
           "name": "volcano-bomb",
           "level": 38,
           "gen": null
@@ -846,7 +846,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -40,7 +40,7 @@
       "category": "medium",
       "type": "height",
       "height": 0.4,
-      "weight": 0
+      "weight": 1
     },
     "diet": [],
     "abilities": {
@@ -852,7 +852,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

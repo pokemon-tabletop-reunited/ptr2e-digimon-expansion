@@ -19,7 +19,8 @@
       "vaccine",
       "quadrupedal",
       "antibody",
-      "sparkler"
+      "sparkler",
+      "titan"
     ],
     "number": 5615,
     "stats": {
@@ -842,12 +843,16 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
-      "x": null,
-      "y": null,
+      "x": 32,
+      "y": 104,
       "connected": [
         "yarmon",
         "salamon"
@@ -944,8 +949,8 @@
         "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
-        "createdTime": 1781089309473,
-        "modifiedTime": 1781089394642,
+        "createdTime": 1781092071453,
+        "modifiedTime": 1781092071453,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,

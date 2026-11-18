@@ -825,7 +825,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "virus-busters",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "magna-garurumon",

@@ -15,7 +15,6 @@
     },
     "traits": [
       "legless",
-      "baby",
       "digimon",
       "in-training",
       "free"
@@ -183,7 +182,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "virus-busters"
+      "virus-busters",
+      "witchelny"
     ],
     "genderRatio": -1,
     "habitats": [],

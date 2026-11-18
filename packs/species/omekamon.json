@@ -803,11 +803,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "scary-face",
-          "level": 35,
-          "gen": null
-        },
-        {
           "name": "mimic",
           "level": 20,
           "gen": null
@@ -838,6 +833,11 @@
           "gen": null
         },
         {
+          "name": "scary-face",
+          "level": 35,
+          "gen": null
+        },
+        {
           "name": "tetra-guard",
           "level": 39,
           "gen": null
@@ -845,7 +845,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -808,11 +808,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bio-toxin",
-          "level": 23,
-          "gen": null
-        },
-        {
           "name": "u-turn",
           "level": 19,
           "gen": null
@@ -820,6 +815,11 @@
         {
           "name": "skitter-smack",
           "level": 22,
+          "gen": null
+        },
+        {
+          "name": "bio-toxin",
+          "level": 23,
           "gen": null
         },
         {
@@ -850,7 +850,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -843,7 +843,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "crack-team"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

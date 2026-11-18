@@ -21,7 +21,8 @@
       "lumbering",
       "gilled",
       "fountain",
-      "aquatic"
+      "aquatic",
+      "titan"
     ],
     "number": 5212,
     "stats": {
@@ -865,7 +866,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "evil-warriors",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "calmaramon",

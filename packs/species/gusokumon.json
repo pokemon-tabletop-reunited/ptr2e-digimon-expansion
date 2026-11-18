@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "primordial-tail",
-          "level": 50,
-          "gen": null
-        },
-        {
           "name": "bubble-storm",
           "level": 43,
           "gen": null
@@ -821,6 +816,11 @@
         {
           "name": "coral-break",
           "level": 46,
+          "gen": null
+        },
+        {
+          "name": "primordial-tail",
+          "level": 50,
           "gen": null
         },
         {
@@ -851,7 +851,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

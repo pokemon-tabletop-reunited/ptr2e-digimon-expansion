@@ -813,11 +813,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "primordial-tail",
-          "level": 54,
-          "gen": null
-        },
-        {
           "name": "aura-blast",
           "level": 50,
           "gen": null
@@ -830,6 +825,11 @@
         {
           "name": "battle-cry",
           "level": 52,
+          "gen": null
+        },
+        {
+          "name": "primordial-tail",
+          "level": 54,
           "gen": null
         },
         {
@@ -855,7 +855,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

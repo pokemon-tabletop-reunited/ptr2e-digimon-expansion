@@ -809,11 +809,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "reversal",
-          "level": 57,
-          "gen": null
-        },
-        {
           "name": "thrash",
           "level": 0,
           "gen": null
@@ -844,6 +839,11 @@
           "gen": null
         },
         {
+          "name": "reversal",
+          "level": 57,
+          "gen": null
+        },
+        {
           "name": "electro-ball",
           "level": 62,
           "gen": null
@@ -851,7 +851,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "deva"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

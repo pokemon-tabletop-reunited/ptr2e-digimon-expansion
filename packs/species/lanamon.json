@@ -20,7 +20,8 @@
       "bipedal",
       "gilled",
       "aquatic",
-      "arcane"
+      "arcane",
+      "titan"
     ],
     "number": 5210,
     "stats": {
@@ -859,7 +860,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "evil-warriors",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "lanamon",

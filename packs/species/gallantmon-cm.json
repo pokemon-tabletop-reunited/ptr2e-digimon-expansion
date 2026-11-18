@@ -821,7 +821,12 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "virus-busters",
+      "wind-guardians",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "gallantmon-cm",
@@ -919,7 +924,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775552692174,

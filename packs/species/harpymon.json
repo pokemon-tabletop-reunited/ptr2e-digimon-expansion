@@ -814,11 +814,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "sonic-cannon",
-          "level": 42,
-          "gen": null
-        },
-        {
           "name": "alluring-voice",
           "level": 21,
           "gen": null
@@ -857,11 +852,18 @@
           "name": "boomburst",
           "level": 40,
           "gen": null
+        },
+        {
+          "name": "sonic-cannon",
+          "level": 42,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

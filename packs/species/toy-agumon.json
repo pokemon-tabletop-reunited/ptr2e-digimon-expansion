@@ -845,7 +845,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "toy-agumon",

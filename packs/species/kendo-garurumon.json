@@ -850,7 +850,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians",
+      "metal-empire",
+      "virus-busters",
+      "warriors-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "kendo-garurumon",

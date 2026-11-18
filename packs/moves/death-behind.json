@@ -61,12 +61,14 @@
         "changes": [
           {
             "type": "percentile-modifier",
-            "key": "death-behind-attack",
+            "key": "death-behind-attack-damage",
             "value": 100,
             "predicate": [
               "effect:affliction:invisible"
             ],
             "label": "Invisible",
+            "phase": "initial",
+            "method": 2,
             "ignored": false,
             "hideIfDisabled": false,
             "method": 2,
@@ -103,12 +105,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null,
-        "createdTime": null,
-        "modifiedTime": null
+        "systemVersion": "1.7.6.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1794823031250,
+        "modifiedTime": 1794823031250
       },
       "start": null,
       "showIcon": 1,

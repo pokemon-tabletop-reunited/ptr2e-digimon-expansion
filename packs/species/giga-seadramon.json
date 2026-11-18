@@ -828,7 +828,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "crack-team"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

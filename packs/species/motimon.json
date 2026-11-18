@@ -15,7 +15,6 @@
     },
     "traits": [
       "amorphous",
-      "baby",
       "digimon",
       "legless",
       "free",
@@ -208,7 +207,8 @@
       "tutor": []
     },
     "eggGroups": [
-      "nature-spirits"
+      "nature-spirits",
+      "witchelny"
     ],
     "genderRatio": 1,
     "habitats": [],

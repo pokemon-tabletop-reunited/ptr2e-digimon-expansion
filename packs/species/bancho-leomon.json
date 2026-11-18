@@ -816,7 +816,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "bancho"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "bancho-leomon",
@@ -922,7 +926,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767050991633,

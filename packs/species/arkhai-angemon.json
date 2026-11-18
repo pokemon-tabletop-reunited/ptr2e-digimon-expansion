@@ -822,11 +822,6 @@
           "gen": null
         },
         {
-          "name": "revival-blessing",
-          "level": 65,
-          "gen": null
-        },
-        {
           "name": "ally-recall",
           "level": 52,
           "gen": null
@@ -855,11 +850,19 @@
           "name": "blast-burn",
           "level": 63,
           "gen": null
+        },
+        {
+          "name": "revival-blessing",
+          "level": 65,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "angel-army"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

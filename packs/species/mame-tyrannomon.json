@@ -813,11 +813,6 @@
           "gen": null
         },
         {
-          "name": "stomping-tantrum",
-          "level": 52,
-          "gen": null
-        },
-        {
           "name": "noble-roar",
           "level": 47,
           "gen": null
@@ -830,6 +825,11 @@
         {
           "name": "flail",
           "level": 50,
+          "gen": null
+        },
+        {
+          "name": "stomping-tantrum",
+          "level": 52,
           "gen": null
         },
         {
@@ -855,7 +855,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

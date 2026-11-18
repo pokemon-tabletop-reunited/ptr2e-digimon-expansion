@@ -819,7 +819,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "virus-busters",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "examon",
@@ -922,7 +926,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1767095851487,

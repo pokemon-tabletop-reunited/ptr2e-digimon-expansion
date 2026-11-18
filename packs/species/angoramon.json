@@ -18,7 +18,7 @@
       "vaccine",
       "rookie",
       "bipedal",
-      "jump-9"
+      "jump-8"
     ],
     "number": 5607,
     "stats": {
@@ -35,8 +35,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 1.8,
+      "weight": 64
     },
     "diet": [],
     "abilities": {
@@ -841,7 +841,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

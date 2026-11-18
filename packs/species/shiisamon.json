@@ -810,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "bewitch",
-          "level": 27,
-          "gen": null
-        },
-        {
           "name": "arcane-fury",
           "level": 22,
           "gen": null
@@ -822,6 +817,11 @@
         {
           "name": "arcane-empowerment",
           "level": 24,
+          "gen": null
+        },
+        {
+          "name": "bewitch",
+          "level": 27,
           "gen": null
         },
         {
@@ -857,7 +857,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "toho-braves"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

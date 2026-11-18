@@ -839,7 +839,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "dragons-roar",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "warrior-of-justice"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "agunimon",

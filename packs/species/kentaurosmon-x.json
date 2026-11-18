@@ -37,9 +37,9 @@
     ],
     "size": {
       "category": "medium",
-      "type": "height",
-      "height": 0,
-      "weight": 0
+      "type": "quad",
+      "height": 4.8,
+      "weight": 720
     },
     "diet": [],
     "abilities": {
@@ -821,7 +821,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

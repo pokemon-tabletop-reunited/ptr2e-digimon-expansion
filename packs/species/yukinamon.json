@@ -823,7 +823,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -806,11 +806,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "darkest-lariat",
-          "level": 36,
-          "gen": null
-        },
-        {
           "name": "flow-hands",
           "level": 20,
           "gen": null
@@ -844,11 +839,20 @@
           "name": "rage-fist",
           "level": 34,
           "gen": null
+        },
+        {
+          "name": "darkest-lariat",
+          "level": 36,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "metal-empire",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

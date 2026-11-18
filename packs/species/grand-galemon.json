@@ -827,11 +827,6 @@
           "gen": null
         },
         {
-          "name": "unshackled-mind",
-          "level": 52,
-          "gen": null
-        },
-        {
           "name": "battle-cry",
           "level": 46,
           "gen": null
@@ -839,6 +834,11 @@
         {
           "name": "petal-blizzard",
           "level": 48,
+          "gen": null
+        },
+        {
+          "name": "unshackled-mind",
+          "level": 52,
           "gen": null
         },
         {
@@ -864,7 +864,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians",
+      "vortex-warriors"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

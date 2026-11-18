@@ -857,7 +857,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "metal-empire",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "paildramon",

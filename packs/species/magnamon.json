@@ -821,7 +821,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "magnamon",

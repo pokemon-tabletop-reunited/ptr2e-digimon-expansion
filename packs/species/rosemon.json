@@ -815,7 +815,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nightmare-soldiers",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "rosemon",
@@ -923,7 +927,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1773362246547,

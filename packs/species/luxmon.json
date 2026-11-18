@@ -847,7 +847,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians",
+      "virus-busters",
+      "angel-army"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

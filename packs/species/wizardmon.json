@@ -19,8 +19,7 @@
       "champion",
       "bipedal",
       "teleporter",
-      "arcane",
-      "underdog"
+      "arcane"
     ],
     "number": 5134,
     "stats": {
@@ -843,7 +842,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "wizardmon",

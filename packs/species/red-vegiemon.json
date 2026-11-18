@@ -797,11 +797,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "raging-fury",
-          "level": 35,
-          "gen": null
-        },
-        {
           "name": "bramble-shot",
           "level": 23,
           "gen": null
@@ -832,6 +827,11 @@
           "gen": null
         },
         {
+          "name": "raging-fury",
+          "level": 35,
+          "gen": null
+        },
+        {
           "name": "compost-bomb",
           "level": 39,
           "gen": null
@@ -839,7 +839,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "dragon-tail",
-          "level": 30,
-          "gen": null
-        },
-        {
           "name": "aqua-tail",
           "level": 23,
           "gen": null
@@ -818,6 +813,11 @@
         {
           "name": "bitter-blade",
           "level": 28,
+          "gen": null
+        },
+        {
+          "name": "dragon-tail",
+          "level": 30,
           "gen": null
         },
         {
@@ -843,7 +843,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

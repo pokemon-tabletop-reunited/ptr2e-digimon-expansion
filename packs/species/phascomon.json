@@ -835,7 +835,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

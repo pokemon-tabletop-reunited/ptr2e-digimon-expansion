@@ -815,7 +815,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "alphamon-ouryuken",

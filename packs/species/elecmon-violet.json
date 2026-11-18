@@ -18,7 +18,9 @@
       "virus",
       "rookie",
       "quadrupedal",
-      "zapper"
+      "zapper",
+      "glow-1",
+      "power-supply"
     ],
     "number": 5618,
     "stats": {
@@ -844,7 +846,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

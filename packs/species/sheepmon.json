@@ -43,7 +43,7 @@
       "category": "medium",
       "type": "quad",
       "height": 0.7,
-      "weight": 0
+      "weight": 40
     },
     "diet": [],
     "abilities": {
@@ -864,7 +864,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
