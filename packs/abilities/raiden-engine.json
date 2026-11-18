@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Raiden Engine",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon"
+    ],
+    "actions": [
+      {
+        "name": "Raiden Engine",
+        "slug": "raiden-engine",
+        "description": "<p>Connection: @UUID[Compendium.ptr2e.core-moves.tILTZn18N9r8H7cs]{Rain Dance}, @UUID[Compendium.ptr2e.core-moves.u9S8zbICHVUBS1Gx]{Tailwind}, @UUID[Compendium.ptr2e.core-moves.dPSChKwDs2PiIA7p]{Electric Terrain}</p><p>Trigger: The user takes damage from a Physical or Special Attack</p><p>Effect: The user may spend @PP[3] and freely use a @Trait[weather], @Trait[terrain], or @Trait[environ] move.</p>",
+        "traits": [
+          "digimon"
+        ],
+        "type": "generic",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5911.png",
+        "cost": {
+          "activation": "free",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "self",
+          "distance": 10,
+          "unit": "m"
+        }
+      }
+    ],
+    "description": "<p>Connection: @UUID[Compendium.ptr2e.core-moves.tILTZn18N9r8H7cs]{Rain Dance}, @UUID[Compendium.ptr2e.core-moves.u9S8zbICHVUBS1Gx]{Tailwind}, @UUID[Compendium.ptr2e.core-moves.dPSChKwDs2PiIA7p]{Electric Terrain}</p><p>Trigger: The user takes damage from a Physical or Special Attack</p><p>Effect: The user may spend @PP[3] and freely use a @Trait[weather], @Trait[terrain], or @Trait[environ] move.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "J0Bdw8GmZCd1iidQ",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5911.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1794958134903,
+    "modifiedTime": 1794958134903,
+    "lastModifiedBy": "2iKdcUFZBk6SApv1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
