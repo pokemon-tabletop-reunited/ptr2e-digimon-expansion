@@ -18,7 +18,8 @@
       "free",
       "champion",
       "winged",
-      "bipedal"
+      "bipedal",
+      "hybrid"
     ],
     "number": 5098,
     "stats": {
@@ -927,7 +928,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770953792065,

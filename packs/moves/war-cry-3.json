@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "war-cry-3",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,30 +24,17 @@
         "img": "systems/ptr2e/img/svg/fighting_icon.svg",
         "traits": [
           "digimon",
-          "sonic"
+          "sonic",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 7
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fighting"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack has a 60% chance to inflict @Affliction[fear 5].</p>",
         "range": {
@@ -59,8 +46,6 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "IR218l4J3394hES2",
@@ -125,22 +110,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956701763,
-    "modifiedTime": 1779956917275,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 4700000
+  ]
 }

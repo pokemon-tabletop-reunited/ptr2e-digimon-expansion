@@ -18,14 +18,14 @@
       "ultimate",
       "rapid",
       "wielder",
-      "virus",
       "jump-6",
       "bipedal",
       "digimon",
       "slugger",
       "booter",
       "tailed",
-      "mouthy"
+      "mouthy",
+      "free"
     ],
     "number": 5500,
     "stats": {
@@ -863,7 +863,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -991,7 +993,7 @@
         "compendiumSource": "Compendium.ptr2e-digimon-expansion.digimon-species.Item.kutWRPXBKkvP2l3g.ActiveEffect.peufFJoRUgSZWlef",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1770771562661,

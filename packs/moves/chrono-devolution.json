@@ -1,213 +1,234 @@
 {
-  "name": "Chrono Devolution",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Chrono Devolution",
-        "slug": "chrono-devolution",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 10
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack gains +100% Damage vs @Trait[desperation-1-2].<br><br>This attack has a 100% chance to inflict @Affliction[suppressed 5] and a 70% chance each to inflict -2 Combat Stages to Attack, Defense, Special Attack and Special Defense for 3 activations.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 110,
-        "accuracy": 100
-      }
-    ],
-    "grade": "S",
-    "slug": "chrono-devolution"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Chrono Devolution",
-      "type": "passive",
-      "_id": "fSScgdUMBIGkAyyv",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "percentile-modifier",
-            "key": "chrono-devolution-attack-damage",
-            "value": 100,
-            "predicate": [
-              "target:state:desperation-1-2"
-            ],
-            "label": "Desperation",
-            "hideIfDisabled": true,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "chrono-devolution-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "label": "Suppressed",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "chrono-devolution-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
-            "predicate": [],
-            "chance": 70,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "label": "Attack Down",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "chrono-devolution-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
-            "predicate": [],
-            "chance": 70,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "label": "Defense Down",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "chrono-devolution-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
-            "predicate": [],
-            "chance": 70,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "label": "Special Attack Down",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "chrono-devolution-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
-            "predicate": [],
-            "chance": 70,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "label": "Special Defense Down",
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777504329811,
-        "modifiedTime": 1777504377354
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "kUSmPgCCBaXaRFkg"
+    "_id":  "kUSmPgCCBaXaRFkg",
+    "effects":  [
+                    {
+                        "_id":  "fSScgdUMBIGkAyyv",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777504329811,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777504377354,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Chrono Devolution",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "percentile-modifier",
+                                                           "key":  "chrono-devolution-attack-damage",
+                                                           "value":  100,
+                                                           "predicate":  [
+                                                                             "target:state:desperation-1-2"
+                                                                         ],
+                                                           "label":  "Desperation",
+                                                           "hideIfDisabled":  true,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "chrono-devolution-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Suppressed",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "chrono-devolution-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.Sp0TScnwSTu8Gusr",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  70,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Attack Down",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "chrono-devolution-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.B79G2s6TauIlmsno",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  70,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Defense Down",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "chrono-devolution-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.EYmp1DeE1Lwzi0D1",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  70,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Special Attack Down",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "chrono-devolution-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.PYz1Z32uiXoulkW2",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  70,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "label":  "Special Defense Down",
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5405.png",
+    "name":  "Chrono Devolution",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Chrono Devolution",
+                                       "slug":  "chrono-devolution",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5405.png",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  10
+                                                },
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack gains +100% Damage vs @Trait[desperation-1-2].\u003cbr\u003e\u003cbr\u003eThis attack has a 100% chance to inflict @Affliction[suppressed 5] and a 70% chance each to inflict -2 Combat Stages to Attack, Defense, Special Attack and Special Defense for 3 activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  110,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "chrono-devolution",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

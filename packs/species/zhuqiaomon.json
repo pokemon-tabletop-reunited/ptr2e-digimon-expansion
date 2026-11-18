@@ -820,7 +820,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "wind-guardians",
+      "four-holy-beasts"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -853,25 +857,20 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.MXTv0oaYC12Cs71J",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:zhuqiaomon"
             ],
-            "alterations": [
-              {
-                "mode": 5,
-                "property": "system.actions.0.free",
-                "value": "true"
-              }
-            ],
+            "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
             "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -879,7 +878,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.wyUUPnKnWQ9wGODx",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:zhuqiaomon"
@@ -891,7 +889,9 @@
               "granter": "cascade"
             },
             "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -908,8 +908,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -926,13 +928,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.6.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1780658074553,
+        "modifiedTime": 1780658079697
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "7v21JtpkdQCfgo9M"
 }

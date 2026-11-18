@@ -19,7 +19,7 @@
         "name": "Starlight Explosion",
         "slug": "starlight-explosion",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5361.png",
         "traits": [
           "digimon",
           "friendly"
@@ -36,15 +36,18 @@
         "description": "<p>Normally @Trait[friendly], however, this attack still hits @Trait[dark]-Type Allies. Targets may claim hard cover (+2 Evasion Stages) if under shelter, if this attack is used outdoors. This attack gains +1 Effectiveness Stage vs @Trait[dark]-Type targets.</p>",
         "range": {
           "target": "field",
-          "unit": "m"
+          "unit": "m",
+          "distance": 10
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "starlight-explosion"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5361.png",
   "effects": [
     {
       "name": "Starlight Explosion",
@@ -60,9 +63,10 @@
             "predicate": [
               "target:trait:dark"
             ],
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -75,8 +79,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -93,13 +99,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.3.beta",
-        "lastModifiedBy": null
-      }
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "xnZCzx1unrmEBZU1"
 }

@@ -7,8 +7,10 @@
       "previous": null
     },
     "publication": {
-      "source": "",
-      "authors": [],
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
       "notes": ""
     },
     "slug": "helloogarmon",
@@ -51,10 +53,10 @@
     "abilities": {
       "starting": [
         {
-          "slug": "assassin"
+          "slug": "flame-body"
         },
         {
-          "slug": "flame-body"
+          "slug": "guard-dog"
         }
       ],
       "basic": [
@@ -866,7 +868,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers",
+      "dark-area"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -966,7 +971,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775141240385,
@@ -977,6 +982,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

@@ -821,7 +821,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "magnamon",
@@ -830,7 +833,19 @@
       "y": 92,
       "connected": [
         "veemon",
-        "magnamonx"
+        "aero-veedramon",
+        "magnamonx",
+        "digitamamon",
+        "mega-kabuterimon",
+        "gold-veedramon",
+        "guardromon-gold",
+        "magna-angemon",
+        "rapidmon-armour",
+        "sagittarimon",
+        "terriermon",
+        "ex-veemon",
+        "giga-seadramon",
+        "imperialdramon-pm"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-miracles"
@@ -919,7 +934,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767307554087,

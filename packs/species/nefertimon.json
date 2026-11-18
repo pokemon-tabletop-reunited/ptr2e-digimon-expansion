@@ -825,11 +825,6 @@
           "gen": null
         },
         {
-          "name": "mana-burst",
-          "level": 41,
-          "gen": null
-        },
-        {
           "name": "alluring-voice",
           "level": 22,
           "gen": null
@@ -868,11 +863,19 @@
           "name": "astro-sphere",
           "level": 38,
           "gen": null
+        },
+        {
+          "name": "mana-burst",
+          "level": 41,
+          "gen": null
         }
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "nefertimon",
@@ -880,7 +883,12 @@
       "x": 64,
       "y": 101,
       "connected": [
-        "gatomon"
+        "gatomon",
+        "kabukimon",
+        "salamon",
+        "salamon-x",
+        "ancient-sphinxmon",
+        "angewomon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-light"
@@ -948,7 +956,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767311395205,

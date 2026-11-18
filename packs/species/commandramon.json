@@ -836,7 +836,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "d-brigade"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -855,7 +858,8 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "commandramon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5513.png",
   "effects": [
@@ -880,11 +884,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -897,8 +902,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -915,15 +922,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1771417822723,
         "modifiedTime": 1771417844395,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "2OWtFkDUmwbuHRZm"
 }

@@ -844,7 +844,12 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers",
+      "saiyu-warriors",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "apemon",
@@ -931,7 +936,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767036392185,

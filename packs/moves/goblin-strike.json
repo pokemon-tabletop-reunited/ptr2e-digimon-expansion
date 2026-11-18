@@ -1,119 +1,132 @@
 {
-  "name": "Goblin Strike",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Goblin Strike",
-        "slug": "goblin-strike",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "traits": [
-          "missile",
-          "digimon"
-        ],
-        "range": {
-          "target": "enemy",
-          "distance": 10,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "simple",
-          "powerPoints": 2
-        },
-        "types": [
-          "fire"
-        ],
-        "category": "physical",
-        "power": 65,
-        "accuracy": 100,
-        "predicate": [],
-        "description": "<p>Launches a small bolt of fire. This attack has a 10% chance to inflict @Affliction[delay 30]</p>"
-      }
-    ],
-    "grade": "D",
-    "slug": "goblin-strike"
-  },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [
-    {
-      "name": "Goblin Strike",
-      "type": "passive",
-      "_id": "pYIHn4kMssOa43Tn",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "goblin-strike-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
-            "predicate": [],
-            "chance": 10,
-            "affects": "target",
-            "dontMerge": false,
-            "alterations": [
-              {
-                "method": 5,
-                "property": "system.amount",
-                "value": -30
-              }
-            ],
-            "priority": null,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777539301705,
-        "modifiedTime": 1777539305383,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "exportSource": null
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "u2vqUOpMMV13GPOx"
+    "_id":  "u2vqUOpMMV13GPOx",
+    "effects":  [
+                    {
+                        "_id":  "pYIHn4kMssOa43Tn",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777539301705,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777539305383,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Goblin Strike",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "goblin-strike-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  10,
+                                                           "affects":  "target",
+                                                           "dontMerge":  false,
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "system.amount",
+                                                                                   "value":  -30
+                                                                               }
+                                                                           ],
+                                                           "priority":  null,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5070.png",
+    "name":  "Goblin Strike",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  100,
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "simple",
+                                                    "powerPoints":  2
+                                                },
+                                       "description":  "\u003cp\u003eLaunches a small bolt of fire. This attack has a 10% chance to inflict @Affliction[delay 30]\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5070.png",
+                                       "name":  "Goblin Strike",
+                                       "power":  65,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "goblin-strike",
+                                       "traits":  [
+                                                      "missile",
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fire"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "goblin-strike",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

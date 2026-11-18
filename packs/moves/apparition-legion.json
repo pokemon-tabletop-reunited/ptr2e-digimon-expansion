@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Apparition Legion",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Move",
+        "slug": "move",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5874.png",
+        "traits": [
+          "digimon",
+          "summon",
+          "ignore-type-immunity"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 8,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.YKqIt9t7cuKEpQWf",
+        "types": [
+          "ghost"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This move summons the Apparition Legion, with 75 AV lasting for 6 activations. Whilst the Apparition Legion are active, all other actors on the field suffer @Tick[-1] of damage per activation, and the Apparition Legion attacks the summoner's enemies with Special damage, at power 110 applying @UUID[Compendium.ptr2e.core-effects-new.ActiveEffect.Az1Mu3y5PtsWsKV9]{Vulnerable (Ghost)} for 5 activations.</p>",
+        "range": {
+          "target": "field",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "x3V7t3K0x43tEEOm",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5874.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282050987,
+    "modifiedTime": 1793283684716,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 300000
+}

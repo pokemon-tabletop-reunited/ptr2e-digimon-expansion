@@ -829,7 +829,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "jungle-troopers",
+      "nature-spirits",
+      "wind-guardians",
+      "four-holy-beasts"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -863,7 +869,6 @@
         "changes": [
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.ICyyHMngu5tpZ9mc",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:ebonwumon"
@@ -871,7 +876,7 @@
             "reevaluateOnUpdate": true,
             "alterations": [
               {
-                "mode": 5,
+                "method": 5,
                 "property": "system.actions.0.free",
                 "value": "true"
               }
@@ -881,7 +886,9 @@
               "granter": "cascade"
             },
             "allowDuplicate": false,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -889,7 +896,6 @@
           },
           {
             "type": "grant-item",
-            "key": "",
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.RNKvA4uAn0ui9pQv",
             "predicate": [
               "item:ptr2e-digimon-expansion.digimonSpecies:ebonwumon"
@@ -901,7 +907,9 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
+            "phase": "initial",
+            "key": "",
+            "method": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
@@ -918,8 +926,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -936,13 +946,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.5.0.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.6.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1780658874368,
+        "modifiedTime": 1780658874368
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "f9islP90bNlyQeOd"
 }

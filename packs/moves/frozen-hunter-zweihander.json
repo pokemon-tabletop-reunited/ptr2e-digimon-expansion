@@ -19,7 +19,7 @@
         "name": "Frozen Hunter",
         "slug": "frozen-hunter",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5330.png",
         "traits": [
           "digimon",
           "sharp",
@@ -35,19 +35,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Effect: This attack has +1 Effectiveness Stage vs @Trait[evil] creatures.</p>",
+        "description": "<p>Effect: This attack has +1 Effectiveness Stage vs @Trait[dark] creatures.</p>",
         "range": {
           "target": "creature",
           "distance": 1,
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "frozen-hunter-zweihander"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5330.png",
   "effects": [
     {
       "name": "Frozen Hunter",
@@ -61,11 +63,12 @@
             "key": "frozen-hunter-attack-effectiveness-stage",
             "value": 1,
             "predicate": [
-              "target:trait:evil"
+              "target:trait:dark"
             ],
-            "mode": 2,
-            "ignored": false,
-            "hideIfDisabled": true
+            "hideIfDisabled": true,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
           }
         ],
         "slug": null,
@@ -78,8 +81,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -96,13 +101,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.4.6.beta",
-        "lastModifiedBy": null
-      }
+        "systemVersion": "1.7.6.beta",
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "createdTime": 1780483944519,
+        "modifiedTime": 1780483944519
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
-  "flags": {},
   "_id": "8EFtG3l3ck0wu3QX"
 }

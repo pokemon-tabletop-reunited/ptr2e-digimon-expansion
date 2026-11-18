@@ -815,7 +815,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "royal-knights"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "leopardmon",
@@ -918,13 +922,7 @@
             ],
             "value": "Compendium.ptr2e-digimon-expansion.digimon-moves.Item.c8e1Irb9Jal4wWCi",
             "allowDuplicate": false,
-            "alterations": [
-              {
-                "method": 2,
-                "property": "system.actions.0.free",
-                "value": "true"
-              }
-            ],
+            "alterations": [],
             "onDeleteActions": {
               "grantee": "detach",
               "granter": "cascade"
@@ -1011,11 +1009,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
+        "systemVersion": "1.7.6.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "modifiedTime": 1777485262819,
+        "modifiedTime": 1780646015634,
         "createdTime": 1777485262819
       },
       "start": null,
@@ -1123,7 +1121,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767137986492,

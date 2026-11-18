@@ -191,7 +191,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "wind-guardians"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "tanemon",

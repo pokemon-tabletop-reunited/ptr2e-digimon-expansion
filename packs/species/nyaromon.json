@@ -18,7 +18,8 @@
       "in-training",
       "legless",
       "baby",
-      "free"
+      "free",
+      "titan"
     ],
     "number": 5016,
     "stats": {
@@ -822,7 +823,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "nyaromon",

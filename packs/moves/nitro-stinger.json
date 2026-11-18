@@ -19,7 +19,7 @@
         "name": "Nitro Stinger",
         "slug": "nitro-stinger",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5295.png",
         "traits": [
           "ray",
           "crit-1",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 120,
-        "accuracy": 85
+        "accuracy": 85,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "nitro-stinger"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5295.png",
   "effects": [],
   "_id": "jd6LZPzNphtf6tDa"
 }
