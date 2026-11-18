@@ -17,7 +17,8 @@
     "slug": "back-storm-summon",
     "traits": [
       "digimon",
-      "summon"
+      "summon",
+      "room"
     ],
     "description": "<p>Effect: Rainy Weather, Windy Weather and Electric Terrain cannot expire.</p>",
     "actions": [
@@ -313,8 +314,8 @@
     "systemId": "ptr2e",
     "systemVersion": "1.7.6.beta",
     "createdTime": 1794957810159,
-    "modifiedTime": 1794957810159,
-    "lastModifiedBy": "2iKdcUFZBk6SApv1",
+    "modifiedTime": 1795035997528,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
