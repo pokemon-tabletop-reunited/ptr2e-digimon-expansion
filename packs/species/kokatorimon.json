@@ -845,7 +845,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "kokatorimon",
@@ -853,13 +855,20 @@
       "x": 59,
       "y": 85,
       "connected": [
-        "elecmon",
-        "dokunemon",
-        "muchomon",
         "deramon",
+        "dokunemon",
+        "elecmon",
+        "ghilliedhumon",
+        "muchomon",
         "phoenixmon",
         "megadramon",
-        "parrotmon"
+        "parrotmon",
+        "lamiamon",
+        "peacockmon",
+        "pomumon",
+        "tinkermon",
+        "zamielmon",
+        "zephyrmon"
       ],
       "prerequisites": [
         {
@@ -932,7 +941,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767136990892,

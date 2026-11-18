@@ -851,7 +851,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "knightmon",
@@ -859,13 +862,17 @@
       "x": 103,
       "y": 51,
       "connected": [
-        "crusadermon",
         "clockmon",
+        "crusadermon",
         "dinohyumon",
         "zubaeagermon",
         "leopardmon",
         "slash-angemon",
-        "zanbamon"
+        "zanbamon",
+        "lobomon",
+        "rasenmon",
+        "styracomon",
+        "zeke-greymon"
       ],
       "prerequisites": [
         {

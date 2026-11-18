@@ -19,7 +19,7 @@
         "name": "Dark Roar",
         "slug": "dark-roar",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5408.png",
         "traits": [
           "digimon",
           "missile",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 130,
-        "accuracy": 90
+        "accuracy": 90,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "dark-roar"
   },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5408.png",
   "effects": [],
   "_id": "3ddQH7d5Iok3KuIG"
 }

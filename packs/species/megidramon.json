@@ -822,7 +822,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers",
+      "dragons-roar",
+      "metal-empire",
+      "four-great-dragons"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "megidramon",
@@ -830,10 +836,16 @@
       "x": 161,
       "y": 152,
       "connected": [
+        "groundramon",
+        "majiramon",
+        "megadramon",
         "waru-seadramon",
         "war-growlmon",
-        "groundramon",
-        "megadramon"
+        "mihiramon",
+        "regulusmon",
+        "sandiramon",
+        "vajramon",
+        "war-growlmon-orange"
       ],
       "prerequisites": [
         {
@@ -927,7 +939,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767308433128,

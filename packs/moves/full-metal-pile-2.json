@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "full-metal-pile-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -25,32 +25,18 @@
         "traits": [
           "digimon",
           "blast-2",
-          "crit-2"
+          "crit-2",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "steel"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "blast",
           "distance": 7,
@@ -60,28 +46,9 @@
         "accuracy": 85
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/steel_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772900908994,
-    "modifiedTime": 1772900908994,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "07cHYc6ZKoDRKtGB",
-  "sort": 0
+  "_id": "07cHYc6ZKoDRKtGB"
 }

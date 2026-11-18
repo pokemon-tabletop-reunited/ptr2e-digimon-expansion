@@ -807,7 +807,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -818,10 +820,10 @@
         "demi-meramon"
       ],
       "prerequisites": []
-    }
+    },
+    "slug": "bommon"
   },
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5511.png",
   "effects": [],
-  "flags": {},
   "_id": "wj1aMitcKhp0BawT"
 }

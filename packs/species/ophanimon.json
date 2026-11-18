@@ -818,7 +818,12 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters",
+      "three-archangels",
+      "angel-army"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "ophanimon",
@@ -826,9 +831,10 @@
       "x": 157,
       "y": 135,
       "connected": [
+        "angewomon",
+        "lamiamon",
         "meicrackmon-vm",
         "ophanimon-fm",
-        "angewomon",
         "piximon"
       ],
       "prerequisites": [
@@ -923,7 +929,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1770951622904,

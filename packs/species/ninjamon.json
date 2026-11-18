@@ -852,7 +852,11 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "jungle-troopers",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -860,15 +864,19 @@
       "y": 64,
       "connected": [
         "blossomon",
+        "cherrymon",
         "falcomon",
         "floramon",
-        "tsukaimon",
-        "mamemon",
+        "fumamon",
+        "ghilliedhumon",
         "giromon",
+        "karatenmon",
         "lilamon",
         "lilymon",
+        "mamemon",
+        "tsukaimon",
         "vademon",
-        "cherrymon"
+        "regulusmon"
       ],
       "prerequisites": [
         {
@@ -941,7 +949,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767394772627,

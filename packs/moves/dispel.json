@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "dispel",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,43 +24,26 @@
         "img": "systems/ptr2e/img/svg/psychic_icon.svg",
         "traits": [
           "digimon",
-          "healing"
+          "healing",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "psychic"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack cleanses @Trait[negative-stage-change] effects from the target ally.</p>",
         "range": {
           "target": "ally",
           "distance": 3,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "_id": "8nuwnPLpCSUMPD3x",
@@ -131,22 +114,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1779956623529,
-    "modifiedTime": 1779956624113,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 5700000
+  ]
 }

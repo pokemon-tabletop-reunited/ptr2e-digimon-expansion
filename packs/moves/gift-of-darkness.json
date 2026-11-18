@@ -1,123 +1,140 @@
 {
-  "name": "Gift of Darkness",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Gift of Darkness",
-        "slug": "gift-of-darkness",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon",
-          "pierce",
-          "contact"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 11
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack inflicts flat damage equal to UserLevel x3.<br><br>This attack inflicts @Affliction[stunted 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        }
-      }
-    ],
-    "grade": "S",
-    "slug": "gift-of-darkness"
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Gift of Darkness",
-      "type": "passive",
-      "_id": "ChHqgZNyIjjxbNye",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "changes": [
-          {
-            "type": "flat-modifier",
-            "key": "gift-of-darkness-attack-damage-flat",
-            "value": "floor(@actor.system.advancement.level * 3)",
-            "label": "Night Shade",
-            "priority": null,
-            "phase": "initial",
-            "predicate": [],
-            "method": 2,
-            "ignored": false,
-            "hideIfDisabled": false
-          },
-          {
-            "type": "roll-effect",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
-            "phase": "initial",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "key": "gift-of-darkness-attack",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "start": null,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "showIcon": 1,
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1777539179876,
-        "modifiedTime": 1777539223340,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    }
-  ],
-  "_id": "QFOJB00Ym1lwUVZK"
+    "_id":  "QFOJB00Ym1lwUVZK",
+    "effects":  [
+                    {
+                        "_id":  "ChHqgZNyIjjxbNye",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777539179876,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777539223340,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "icons/svg/aura.svg",
+                        "name":  "Gift of Darkness",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "flat-modifier",
+                                                           "key":  "gift-of-darkness-attack-damage-flat",
+                                                           "value":  "floor(@actor.system.advancement.level * 3)",
+                                                           "label":  "Night Shade",
+                                                           "priority":  null,
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "method":  2,
+                                                           "ignored":  false,
+                                                           "hideIfDisabled":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.stuntedcondition",
+                                                           "phase":  "initial",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "key":  "gift-of-darkness-attack",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426_RM.png",
+    "name":  "Gift of Darkness",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Gift of Darkness",
+                                       "slug":  "gift-of-darkness",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5426_RM.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "pierce",
+                                                      "contact"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  11
+                                                },
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack inflicts flat damage equal to UserLevel x3.\u003cbr\u003e\u003cbr\u003eThis attack inflicts @Affliction[stunted 5].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "gift-of-darkness",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

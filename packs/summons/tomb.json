@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "Tomb",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon",
+      "hazard"
+    ],
+    "description": "",
+    "actions": [],
+    "baseAV": 150,
+    "duration": 1,
+    "owner": null
+  },
+  "_id": "l4RIRFwKdIc2jXln",
+  "img": "icons/environment/wilderness/cave-entrance-dwarven-hill.webp",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792586839108,
+    "modifiedTime": 1792586839108,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

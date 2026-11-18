@@ -20,7 +20,8 @@
       "bipedal",
       "winged",
       "hover",
-      "horned"
+      "horned",
+      "titan"
     ],
     "number": 5405,
     "stats": {
@@ -39,7 +40,7 @@
       "category": "medium",
       "type": "height",
       "height": 6.3,
-      "weight": 0
+      "weight": 888
     },
     "diet": [],
     "abilities": {
@@ -812,7 +813,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "olympos-xii",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "chronomon-destruction",
@@ -830,7 +835,7 @@
             80
           ]
         },
-        "GM Permission"
+        "item:equipment:gm-permission"
       ]
     }
   },
@@ -916,7 +921,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767090934697,

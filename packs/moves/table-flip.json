@@ -1,133 +1,150 @@
 {
-  "name": "Table Flip",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Table Flip",
-        "slug": "table-flip",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ground_icon.svg",
-        "traits": [
-          "digimon",
-          "crit-2",
-          "earthbound"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 9
-        },
-        "types": [
-          "ground"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack inflicts @Affliction[grounded 5] and @Affliction[bound 5]. The @Affliction[bound] affliction can be ended early with a -40 difficulty Lift check.</p>",
-        "range": {
-          "target": "wide-line",
-          "distance": 3,
-          "unit": "m"
-        },
-        "power": 125,
-        "accuracy": 70
-      }
-    ],
-    "grade": "S",
-    "slug": "table-flip"
-  },
-  "img": "systems/ptr2e/img/svg/ground_icon.svg",
-  "effects": [
-    {
-      "name": "Table Flip",
-      "type": "passive",
-      "_id": "4Ca45hwgWoPq5ehF",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "table-flip-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "table-flip-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.boundcondition00",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 5
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777553787065,
-        "modifiedTime": 1777553796535
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "JD2JCYPet6iv1fqQ"
+    "_id":  "JD2JCYPet6iv1fqQ",
+    "effects":  [
+                    {
+                        "_id":  "4Ca45hwgWoPq5ehF",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777553787065,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777553796535,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Table Flip",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "table-flip-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.groundedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "table-flip-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.boundcondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  5
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5370.png",
+    "name":  "Table Flip",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Table Flip",
+                                       "slug":  "table-flip",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5370.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "crit-2",
+                                                      "earthbound"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  9
+                                                },
+                                       "types":  [
+                                                     "ground"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack inflicts @Affliction[grounded 5] and @Affliction[bound 5]. The @Affliction[bound] affliction can be ended early with a -40 difficulty Lift check.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "wide-line",
+                                                     "distance":  3,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  125,
+                                       "accuracy":  70,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "S",
+                   "slug":  "table-flip"
+               },
+    "type":  "move"
 }

@@ -20,7 +20,7 @@
       "mollusk",
       "zapper",
       "legless",
-      "underdog"
+      "fresh"
     ],
     "number": 5527,
     "stats": {
@@ -806,7 +806,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {

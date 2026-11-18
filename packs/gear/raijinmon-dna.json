@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "Raijinmon DNA",
+  "type": "gear",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": "raijinmon-dna",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": "<p>Effect: This item enables DNA Digivolution</p>"
+    },
+    "traits": [
+      "digimon",
+      "evolution"
+    ],
+    "actions": [],
+    "description": "<p>Effect: This item enables DNA Digivolution</p>",
+    "container": null,
+    "crafting": {
+      "skill": "",
+      "spans": null,
+      "materials": []
+    },
+    "equipped": {
+      "carryType": "equipped",
+      "slot": "slotless",
+      "handsHeld": null
+    },
+    "grade": "S",
+    "fling": {
+      "type": "untyped",
+      "power": null,
+      "accuracy": 100,
+      "hide": false,
+      "range": {
+        "target": "creature",
+        "distance": 10,
+        "unit": "m"
+      }
+    },
+    "quantity": 1,
+    "rarity": "unique",
+    "ammoType": [],
+    "ammo": null,
+    "identification": {
+      "misidentified": null,
+      "status": "identified",
+      "unidentified": {
+        "name": "Unidentified Item",
+        "img": "systems/ptu/css/images/icons/gear_icon.png",
+        "description": "<p>Unidentified Item</p>"
+      }
+    }
+  },
+  "_id": "c12DAhW70TEmMJX8",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1794958047505,
+    "modifiedTime": 1794958047505,
+    "lastModifiedBy": "2iKdcUFZBk6SApv1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

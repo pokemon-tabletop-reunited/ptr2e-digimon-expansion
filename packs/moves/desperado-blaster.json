@@ -19,7 +19,7 @@
         "name": "Desperado Blaster",
         "slug": "desperado-blaster",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5327.png",
         "traits": [
           "double-strike",
           "missile",
@@ -27,7 +27,7 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 6
+          "powerPoints": 3
         },
         "types": [
           "dragon"
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 60,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "B",
+    "grade": "A",
     "slug": "desperado-blaster"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5327.png",
   "effects": [],
   "_id": "4D9vXLCSUXstld3k"
 }

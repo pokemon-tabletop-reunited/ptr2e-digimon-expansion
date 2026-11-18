@@ -19,7 +19,7 @@
         "name": "Flame Dive",
         "slug": "flame-dive",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5122.png",
         "traits": [
           "digimon",
           "dash",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 85
+        "accuracy": 85,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "flame-dive"
   },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5122.png",
   "effects": [],
-  "flags": {},
   "_id": "YdBdkI14l9TTfX0I"
 }

@@ -1,0 +1,48 @@
+{
+  "folder": "ANyTBaCvsFOl1tzn",
+  "name": "Rainbow Bridge",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>The user maintains a Rainbow Room clock of 4 spans</p><p>Whenever the user triggers a secondary effect, the user fills the rainbow room clock by 1 span. whenever the clock is filled, the user may set the room to Rainbow room for 3 activations.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "lxBH42xKGeLGkdd3",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5830.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792587895181,
+    "modifiedTime": 1792587895181,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

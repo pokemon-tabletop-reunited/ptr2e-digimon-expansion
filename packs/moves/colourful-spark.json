@@ -1,130 +1,147 @@
 {
-  "name": "Colourful Spark",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Colourful Spark",
-        "slug": "colourful-spark",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-        "traits": [
-          "digimon",
-          "horn"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 20% chance to inflict @Affliction[confused 5], and inflicts @Tick[-1 pp].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 50,
-        "accuracy": 100
-      }
-    ],
-    "grade": "D",
-    "slug": "colourful-spark"
-  },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-  "effects": [
-    {
-      "name": "Colourful Spark",
-      "type": "passive",
-      "_id": "5k3pDCycfEcmhXgF",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "colourful-spark-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "colourful-spark-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.LHUTMAC0nCJWDRFt",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": true,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777533799523,
-        "modifiedTime": 1777533808622
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "VotPwx0K5HvLlQbI"
+    "_id":  "VotPwx0K5HvLlQbI",
+    "effects":  [
+                    {
+                        "_id":  "5k3pDCycfEcmhXgF",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777533799523,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777533808622,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Colourful Spark",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "colourful-spark-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "colourful-spark-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.LHUTMAC0nCJWDRFt",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  true,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5083.png",
+    "name":  "Colourful Spark",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Colourful Spark",
+                                       "slug":  "colourful-spark",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5083.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "horn"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "types":  [
+                                                     "psychic"
+                                                 ],
+                                       "category":  "special",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack has a 20% chance to inflict @Affliction[confused 5], and inflicts @Tick[-1 pp].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  50,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "colourful-spark",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

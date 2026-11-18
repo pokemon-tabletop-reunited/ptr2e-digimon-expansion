@@ -19,7 +19,7 @@
         "name": "Atomic Blaster",
         "slug": "atomic-blaster-resolution",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5317.png",
         "traits": [
           "digimon",
           "flinch-70"
@@ -46,7 +46,7 @@
     "grade": "S",
     "slug": "atomic-blaster"
   },
-  "img": "systems/ptr2e/img/svg/nuclear_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5317.png",
   "effects": [],
   "_id": "JnlUTkhgjVjVFwBC"
 }

@@ -1,132 +1,149 @@
 {
-  "name": "Shell Phalanx",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": "shell-phalanx",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Shell Phalanx",
-        "slug": "shell-phalanx",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-        "traits": [
-          "digimon",
-          "missile",
-          "sharp",
-          "6-strike",
-          "danger-close"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "dragon"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack has a 20% chance each to inflict @Affliction[splinter 5] and @Affliction[suppressed 5]</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 15
-      }
-    ],
-    "grade": "B"
-  },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
-  "effects": [
-    {
-      "name": "Shell Phalanx",
-      "type": "passive",
-      "_id": "Ky7eQdiqNXG0gz8r",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "shell-phalanx-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "shell-phalanx-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
-            "predicate": [],
-            "chance": 20,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777549964513,
-        "modifiedTime": 1777549969509
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "Mr6pXNhqOEY0V0Kv"
+    "_id":  "Mr6pXNhqOEY0V0Kv",
+    "effects":  [
+                    {
+                        "_id":  "Ky7eQdiqNXG0gz8r",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777549964513,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777549969509,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Shell Phalanx",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "shell-phalanx-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "shell-phalanx-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.suppressedcondit",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  20,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5478.png",
+    "name":  "Shell Phalanx",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "description":  "\u003cp\u003eEffect: This attack has a 20% chance each to inflict @Affliction[splinter 5] and @Affliction[suppressed 5]\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5478.png",
+                                       "name":  "Shell Phalanx",
+                                       "power":  15,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  10,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "shell-phalanx",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "missile",
+                                                      "sharp",
+                                                      "6-strike",
+                                                      "danger-close"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "dragon"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "B",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "shell-phalanx",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

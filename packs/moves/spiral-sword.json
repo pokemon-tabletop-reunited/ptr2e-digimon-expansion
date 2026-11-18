@@ -19,7 +19,7 @@
         "name": "Spiral Sword",
         "slug": "spiral-sword",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5220.png",
         "traits": [
           "sharp",
           "pierce",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 110,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "spiral-sword"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5220.png",
   "effects": [],
   "_id": "0HUD9gFUJId9TnN2"
 }
