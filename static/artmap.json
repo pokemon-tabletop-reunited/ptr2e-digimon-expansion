@@ -4262,5 +4262,3413 @@
         ".png"
       ]
     }
+  },
+  "achillesmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5853",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "aegisdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5900",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "agumon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5606",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ajatarmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5728",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "algomon-champion": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5669",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "algomon-mega": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5854",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "algomon-ultimate": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5753",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "amaterasumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5827",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "amphimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5793",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-beetlemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5828",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-garurumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5794",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5829",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-irismon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5830",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-megatheriumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5795",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-mermaimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5796",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-sphinxmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5855",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-troiamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5797",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ancient-volcamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5856",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "angoramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5607",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "antylamon-virus": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5754",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "anubismon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5831",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arbormon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5933",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arcturusmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5857",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ariemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5798",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arkhai-angemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5729",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arma-lizamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5959",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arresterdramon-superior-mode": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5730",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "arresterdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5655",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "asuramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5731",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "atlur-ballistamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5732",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "baalmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5725",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "babydmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5568",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ballistamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5656",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bastemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5755",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "beelzemon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5858",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bemmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5604",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "betel-gammamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5657",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "big-ukkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5825",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "black-gatomon-uber": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5670",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "blade-kuwagamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5671",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "blastmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5832",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "blitzmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5934",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "blizzarmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5936",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bloom-lordmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5833",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "blucomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5592",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "boarmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5913",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bokomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5608",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "boltboutamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5906",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bombermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5756",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bosamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5569",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bryweludramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5799",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "bullmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5914",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "canoweissmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5733",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "caturamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5699",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cendrillmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5859",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cernumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5892",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "chackmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5943",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "chamblemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5672",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "chaperomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5757",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cherrymon-christmas": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5860",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "chibickmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5539",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "chibomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5540",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cho-hakkaimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5700",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "climbmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5758",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "conomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5541",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cotsucomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5542",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "craniamon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5834",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "crys-paledramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5701",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cthyllamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5861",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "curimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5543",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "cutemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5609",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "daipenmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5961",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dalphomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5862",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "damemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5673",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "darumamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5734",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "death-x-doru-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5954",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "death-x-dorugamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5674",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "death-x-dorugoramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5955",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "deathmon-black": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5893",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "deathmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5800",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "deckerdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5675",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "demi-veemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5570",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "destromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5726",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "devitamamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5801",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "diarabbitmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5835",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dijiangmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5863",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dimetromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5676",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dinomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5836",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dinorexmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5802",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dinotigermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5894",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "divemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5702",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dogmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5632",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dominimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5837",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "done-devimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5864",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dorulumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5677",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "doumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5703",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dullahamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5803",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "duskmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5951",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "dynasmon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5804",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ebidramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5633",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "el-doradomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5805",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "elecmon-violet": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5618",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "elizamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5619",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "enmamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5907",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "eosmon-ultimate": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5727",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "erlangmon-bm": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5901",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "erlangmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5838",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "espimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5620",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ex-maquinamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5963",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "exermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5634",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fairimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5935",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "filmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5635",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "flamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5937",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "frimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5571",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fros-velgrmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5865",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "frozomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5759",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fufumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5544",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fujamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5621",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fukamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5545",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "fumamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5704",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gaiomon-im": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5908",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "galemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5636",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gammamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5622",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gasamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5623",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gekkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5958",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ghilliedhumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5705",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ghostmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5593",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "giga-seadramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5806",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gigasmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5940",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gigimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5572",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gogmamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5735",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gokumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5760",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gold-veedramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5932",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gorimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5637",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "grand-galemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5706",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "grandis-kuwagamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5866",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "greymon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5658",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "grottemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5944",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "growlmon-orange": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5638",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gulfmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5867",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gulus-gammamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5679",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gumdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5610",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gummymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5574",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gurimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5575",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gusokumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5736",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "gyukimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5761",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hakubamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5659",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hanimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5594",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "harpymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5916",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "heavy-leomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5839",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "heavy-metaldramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5868",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "herissmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5595",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hexeblaumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5807",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hiyarimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5576",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hopmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5577",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hover-espimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5680",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "huankunmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5737",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "hydramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5869",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "indaramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5762",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jaeger-dorulumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5763",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jazamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5596",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jazarichmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5707",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jellymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5597",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jet-silphymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5947",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jokermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5764",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jougamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5840",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jyagamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5738",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "jyarimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5546",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kaguyamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5808",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kaiser-leomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5952",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kakamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5611",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kakkinmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5578",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "karakurumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5708",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "karatenmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5765",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kaus-gammamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5639",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "keemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5547",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kekkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5965",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kekomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5964",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kentaurosmon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5841",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ketomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5548",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kinkakumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5681",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kodokugumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5624",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "koemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5625",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kokeshimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5640",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kokomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5579",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "komondomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5641",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kongoumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5917",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kumbhiramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5739",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kuzuhamon-miko": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5895",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kyokyomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5580",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "kyukimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5766",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lamiamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5767",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lamortmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5740",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "landramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5682",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lavogaritamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5768",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lavorvomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5683",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "leafmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5549",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "liamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5660",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lianpumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5642",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "liollmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5612",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "loudmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5769",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lovely-angemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5842",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lowemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5938",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ludomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5598",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "luxmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5613",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "lynxmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5918",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "machmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5661",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mad-leomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5684",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "magneticdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5870",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mailbirdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5643",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "majiramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5709",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "makuramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5710",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mame-tyrannomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5711",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "manbomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5919",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "manekimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5662",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "maneuvermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5770",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "manticoremon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5871",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "maquinamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5599",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "marine-bullmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5712",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "marine-kimeramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5741",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "medusamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5872",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "megakabuterimon-blue": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5713",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mephismon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5771",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mercurymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5941",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mermaimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5714",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metal-garurumon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5809",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metal-greymon-alter": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5742",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metal-kabuterimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5939",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metallicdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5810",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metallife-kuwagamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5772",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "metatromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5843",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mihiramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5715",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "minomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5581",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mitamamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5902",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mockingbirdmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5743",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mococomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5582",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mokumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5550",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "monarch-lizamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5960",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "moosemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5920",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "morphomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5614",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "mulemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5663",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "murmukusmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5873",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "namakemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5686",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "necromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5874",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "neo-devimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5773",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "neo-myotismon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5875",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "nezhamon-cm": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5896",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "nezhamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5811",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "nidhoggmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5876",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "noble-pumpkinmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5812",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "nyabootmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5877",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "nyokimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5551",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "oboromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5774",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "oleamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5775",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "olegmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5844",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "omekamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5962",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "onibimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5583",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "opossumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5921",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pajiramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5776",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "paledramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5644",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "panjyamon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5744",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "parasaurmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5687",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "parasimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5878",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "peacockmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5922",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "petaldramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5945",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "petitmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5552",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "phascomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5626",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "phelesmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5777",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pichimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5553",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pickmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5584",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "piddomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5664",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "piranimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5778",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pistmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5779",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "polar-bearmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5745",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pomumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5600",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "popomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5554",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "poromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5586",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "prairiemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5923",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "proganomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5780",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "proximamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5909",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pteromon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5601",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "publimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5645",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pucchiemon-green": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5924",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pucchiemon-red": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5925",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "punkmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5688",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pururumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5555",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pusumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5556",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pusurimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5587",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "puyomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5557",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "puyoyomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5588",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pyonmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5558",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "pyramidimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5879",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "quantumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5813",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "queen-beemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5880",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "quetzalmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5915",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rabbitmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5926",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rafflesimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5814",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ragna-lordmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5910",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ragnamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5826",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "raidenmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5911",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "raihimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5948",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "raiji-ludomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5716",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "raijinmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rare-raremon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5781",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rasenmon-fury": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5897",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rasenmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5815",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "reapermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5882",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rebellimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5782",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "red-veedramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5689",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "red-vegiemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5690",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "regalecusmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5883",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "regulusmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5783",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "relemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5559",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rhino-kabuterimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5950",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "rhinomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5927",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "roachmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5678",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "royal-throne": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5880",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "runnermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5691",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ryugumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5816",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sagittarimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5928",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sagomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5784",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sakumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5560",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sakuttomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5589",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sakuyamon-miko": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5898",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sakuyamon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5817",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "salamon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5615",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sandiramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5785",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sangomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5602",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sanzomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5746",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "scorpiomon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5698",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "seadramon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5646",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "seiten-gokumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5884",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sekkamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5786",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sephirothmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5953",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shadramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5929",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shagaramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5818",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shakamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5903",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sheepmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5930",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shiisamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5665",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shin-monzaemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5845",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shine-greymon-rm": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5904",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shishimamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5747",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shivamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5819",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shoemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5627",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shoeshoemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5692",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shooting-starmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5647",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shootmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5748",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shortmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5956",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "shroudmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5885",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sinduramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5717",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "siriusmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5846",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sistermon-noir": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5693",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "skadimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5847",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "skull-scorpionmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5718",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "snatchmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5654",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sparrowmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5603",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "spinomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5886",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "splashmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5787",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "stiffilmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5719",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "strabimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5942",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "styracomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5820",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sunamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5561",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "sunarizamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5628",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "swanmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5931",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "symbare-angoramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5666",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tactimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5821",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "takinmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5616",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "takutoumon-wm": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5905",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "takutoumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5848",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "taotiemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5887",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tempomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5720",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tengumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5888",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tenkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5694",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tesla-jellymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5648",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "thetismon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5721",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "thunderballmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5649",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "thunderbirdmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5912",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tia-ludomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5650",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tinkermon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5629",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tlalocmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5899",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tobiumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5667",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tomorimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5562",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "toropiamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5788",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "toy-agumon-black": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5630",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "troopmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5651",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tsubumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5563",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "tumblemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5573",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "turbomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5695",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "ukkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5605",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "upamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5590",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "vajramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5749",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "valvemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5722",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "velgrmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5946",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "victory-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5849",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "vikaralamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5750",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "viximon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5585",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "volcanicdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5889",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "vortexdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5822",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "vorvomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5631",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "vulturemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5789",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "wankomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5617",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "war-greymon-x": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5850",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "war-growlmon-orange": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5723",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "weddinmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5957",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "weedmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5696",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "were-garurumon-sagittarius": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5751",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "wezen-gammamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5652",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xiangpengmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5851",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xingtianmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5790",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xiquemon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5668",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xros-cyberdramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5752",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xros-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5697",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "xros-metal-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5791",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "yarmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5591",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "yihumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5852",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "youkomon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5653",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "yukimi-botamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5564",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "yukinamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5890",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "yuramon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5565",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zamielmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5724",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zanmetsumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5792",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zeke-greymon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5891",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zephagamon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5824",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zephyrmon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5949",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zerimon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5566",
+      "extensions": [
+        ".png"
+      ]
+    }
+  },
+  "zurumon": {
+    "data": {
+      "base": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5567",
+      "extensions": [
+        ".png"
+      ]
+    }
   }
 }
