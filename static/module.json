@@ -112,8 +112,20 @@
       "flags": {}
     },
     {
-      "name": "digimon-effects",
+      "name": "digimon-effects-new",
       "label": "PTR 2e Digimon Effects",
+      "path": "packs/effects-new",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "ptr2e",
+      "flags": {}
+    },
+    {
+      "name": "digimon-effects",
+      "label": "PTR 2e Digimon Effects (Deprecated)",
       "path": "packs/digimon-effects",
       "type": "Item",
       "ownership": {
