@@ -855,7 +855,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "astamon",
@@ -869,7 +872,10 @@
         "beelzemon",
         "belphemon",
         "plutomon",
-        "venom-myotismon"
+        "venom-myotismon",
+        "heavy-leomon",
+        "mad-leomon",
+        "olegmon"
       ],
       "prerequisites": [
         {
@@ -942,7 +948,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767038820661,

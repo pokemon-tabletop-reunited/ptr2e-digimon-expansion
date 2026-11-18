@@ -20,11 +20,12 @@
         "name": "Clone Counter Jutsu",
         "slug": "clone-counter-jutsu",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/grass_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5475.png",
         "traits": [
           "digimon",
           "interrupt-3",
-          "pierce"
+          "pierce",
+          "shield"
         ],
         "cost": {
           "activation": "complex",
@@ -35,18 +36,19 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>Trigger: The user is hit with a Damaging Attack.<br><br>Effect: The user attacks the creature that attacked it, dealing twice the amount of damage it was dealt by the triggering attack (this is not modified by the target's DEF or other effects). <br><br>On resolution, the user gains @UUID[Compendium.ptr2e.core-effects.OUBNweJOMjAEtAye]{+1 Evasion Stage} for 5 activations.</p>",
+        "description": "<p>Trigger: The user would be hit with a Damaging Attack.<br><br>Effect: The user becomes @UUID[Compendium.ptr2e.core-effects-new.z7BfyuquHkly9OfK]{Protected 1}. The user attacks the creature that attacked it, dealing twice the amount of damage it would have been dealt by the triggering attack had it been successful (this is not modified by the target's DEF or other effects). <br><br>On resolution, the user gains @UUID[Compendium.ptr2e.core-effects.OUBNweJOMjAEtAye]{+1 Evasion Stage} for 5 activations.</p>",
         "range": {
           "target": "creature",
           "distance": 15,
           "unit": "m"
         },
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "B"
   },
-  "img": "systems/ptr2e/img/svg/grass_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5475.png",
   "effects": [
     {
       "name": "Clone Counter Jutsu",
@@ -59,6 +61,20 @@
             "type": "roll-effect",
             "key": "clone-counter-jutsu-attack",
             "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.OUBNweJOMjAEtAye",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "self",
+            "alterations": [],
+            "dontMerge": false,
+            "phase": "initial",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "clone-counter-jutsu-attack",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.z7BfyuquHkly9OfK",
             "predicate": [],
             "chance": 100,
             "isFixedChance": false,
@@ -100,12 +116,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
+        "systemVersion": "1.7.6.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "createdTime": 1777504537276,
-        "modifiedTime": 1777504537276
+        "modifiedTime": 1793558556496
       },
       "start": null,
       "showIcon": 1,

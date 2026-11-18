@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "saint-knuckle-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -26,32 +26,18 @@
           "digimon",
           "punch",
           "contact",
-          "double-strike"
+          "double-strike",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 2
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "fairy"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -61,28 +47,9 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/fairy_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772901234678,
-    "modifiedTime": 1772901234872,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "Pe2vbcCmZpDefJup",
-  "sort": 800000
+  "_id": "Pe2vbcCmZpDefJup"
 }

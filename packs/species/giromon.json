@@ -847,7 +847,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -855,13 +857,16 @@
       "y": 32,
       "connected": [
         "blimpmon",
-        "mekanorimon",
         "clockmon",
+        "craniamon",
+        "mekanorimon",
         "hi-andromon",
         "seraphimon",
         "jijimon",
-        "craniamon",
-        "ninjamon"
+        "ninjamon",
+        "piddomon",
+        "reapermon",
+        "thunderballmon"
       ],
       "prerequisites": [
         {
@@ -935,7 +940,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767102901829,

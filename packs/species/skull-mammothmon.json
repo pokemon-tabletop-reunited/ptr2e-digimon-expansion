@@ -821,7 +821,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "skull-mammothmon",
@@ -829,11 +832,12 @@
       "x": 157,
       "y": 28,
       "connected": [
+        "daipenmon",
+        "enbarrmon",
+        "mammothmon",
         "master-tyrannomon",
         "skull-baluchimon",
         "skull-greymon",
-        "mammothmon",
-        "enbarrmon",
         "vermilimon"
       ],
       "prerequisites": [
@@ -907,7 +911,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767406466798,

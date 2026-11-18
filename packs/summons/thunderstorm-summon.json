@@ -1,0 +1,93 @@
+{
+  "folder": null,
+  "name": "Thunderstorm Summon",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon"
+    ],
+    "description": "",
+    "actions": [
+      {
+        "name": "Thunderstorm",
+        "slug": "thunderstorm",
+        "description": "",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "type": "summon",
+        "img": "icons/svg/lightning.svg",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "enemy",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": 90,
+        "accuracy": 100
+      }
+    ],
+    "baseAV": 100,
+    "duration": 4,
+    "owner": null
+  },
+  "_id": "cvHaHU4N389ybIYA",
+  "img": "icons/svg/lightning.svg",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781303123798,
+    "modifiedTime": 1781303123931,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 1000000
+}

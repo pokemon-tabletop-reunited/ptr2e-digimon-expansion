@@ -15,7 +15,6 @@
     },
     "traits": [
       "legless",
-      "baby",
       "digimon",
       "in-training",
       "free"
@@ -182,7 +181,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "koromon",
@@ -190,13 +192,19 @@
       "x": 22,
       "y": 132,
       "connected": [
+        "agumon-x",
         "agumon",
         "betamon",
+        "botamon",
         "dracomon",
         "guilmon",
-        "botamon",
         "kotemon",
-        "shoutmon"
+        "shoutmon",
+        "mokumon",
+        "nyokimon",
+        "vorvomon",
+        "yuramon",
+        "zurumon"
       ],
       "prerequisites": [
         {

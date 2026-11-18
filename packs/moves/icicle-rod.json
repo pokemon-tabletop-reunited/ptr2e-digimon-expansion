@@ -19,7 +19,7 @@
         "name": "Icicle Rod",
         "slug": "icicle-rod",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5126.png",
         "traits": [
           "digimon",
           "missile",
@@ -40,13 +40,14 @@
           "unit": "m"
         },
         "power": 80,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "C"
+    "grade": "C",
+    "slug": "icicle-rod"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5126.png",
   "effects": [],
-  "flags": {},
   "_id": "Wemgob8ZpPpLr79o"
 }

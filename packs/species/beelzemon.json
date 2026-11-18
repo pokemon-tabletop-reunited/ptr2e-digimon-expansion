@@ -819,7 +819,13 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "metal-empire",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "beelzemon",
@@ -827,9 +833,13 @@
       "x": 159,
       "y": 105,
       "connected": [
-        "beelzemon-bm",
         "astamon",
-        "skull-meramon"
+        "baalmon",
+        "beelzemon-bm",
+        "beelzemon-x",
+        "skull-meramon",
+        "jokermon",
+        "xros-cyberdramon"
       ],
       "prerequisites": [
         {
@@ -923,7 +933,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1773349270340,

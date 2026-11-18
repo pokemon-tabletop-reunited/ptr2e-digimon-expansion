@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Ear Lancer",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Mina"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ear Lancer",
+        "slug": "ear-lancer",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5926.png",
+        "traits": [
+          "digimon",
+          "contact",
+          "horn",
+          "pierce"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "ground"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "def",
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: This Attack uses the user's DEF in calculating damage, rather than their ATK.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 1,
+          "unit": "m"
+        },
+        "power": 80,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "B"
+  },
+  "_id": "UGxAoTFRcasEg6nq",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5926.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "SPIreoQf6GaHVhuW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1781303087121,
+    "modifiedTime": 1781303091821,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 4500000
+}

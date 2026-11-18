@@ -19,7 +19,7 @@
         "name": "Night Raid",
         "slug": "night-raid",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5289.png",
         "traits": [
           "drain-3-16",
           "digimon",
@@ -40,13 +40,14 @@
           "target": "field",
           "unit": "m",
           "distance": 10
-        }
+        },
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "night-raid"
   },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5289.png",
   "effects": [],
   "_id": "Pt6BLfQ1CqUnNx43"
 }

@@ -19,7 +19,8 @@
       "mega",
       "legless",
       "winged",
-      "hive-commander"
+      "hive-commander",
+      "titan"
     ],
     "number": 5411,
     "stats": {
@@ -37,7 +38,7 @@
       "category": "medium",
       "type": "quad",
       "height": 6.2,
-      "weight": 0
+      "weight": 2000
     },
     "diet": [],
     "abilities": {
@@ -818,7 +819,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "tyrant-kabuterimon",
@@ -826,9 +830,12 @@
       "x": 159,
       "y": 86,
       "connected": [
+        "ancient-beetlemon",
         "arukenimon",
         "mega-kabuterimon",
-        "okuwamon"
+        "metallife-kuwagamon",
+        "okuwamon",
+        "shivamon"
       ],
       "prerequisites": [
         {
@@ -922,7 +929,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1767399480261,

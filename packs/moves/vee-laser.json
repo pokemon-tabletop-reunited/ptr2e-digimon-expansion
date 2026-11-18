@@ -19,7 +19,7 @@
         "name": "Vee Laser",
         "slug": "vee-laser",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5196.png",
         "traits": [
           "ray",
           "digimon"
@@ -41,13 +41,14 @@
         "accuracy": 100,
         "defensiveStat": "spd",
         "predicate": [],
-        "description": "<p>This attack targets Special Defense instead of Defense.</p>"
+        "description": "<p>This attack targets Special Defense instead of Defense.</p>",
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "vee-laser"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5196.png",
   "effects": [],
   "_id": "r7V0oiWBGugOxVPw"
 }

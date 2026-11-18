@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Ignition Prominence",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ignition Prominence",
+        "slug": "ignition-prominence",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5910.png",
+        "traits": [
+          "digimon",
+          "weapon",
+          "data"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 10,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "",
+        "range": {
+          "target": "emanation",
+          "distance": 9,
+          "unit": "m"
+        },
+        "power": 150,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "OJWN3pl3TJySe3Wd",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5910.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795004585136,
+    "modifiedTime": 1795004585136,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

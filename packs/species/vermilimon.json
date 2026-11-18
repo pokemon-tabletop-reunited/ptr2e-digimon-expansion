@@ -848,7 +848,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -856,12 +858,13 @@
       "y": 80,
       "connected": [
         "flarelizamon",
-        "monochromon",
-        "nise-drimogemon",
-        "mori-shellmon",
         "machinedramon",
+        "monochromon",
+        "mori-shellmon",
+        "nise-drimogemon",
         "skull-mammothmon",
-        "war-greymon"
+        "war-greymon",
+        "victory-greymon"
       ],
       "prerequisites": [
         {
@@ -956,7 +959,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767398130463,

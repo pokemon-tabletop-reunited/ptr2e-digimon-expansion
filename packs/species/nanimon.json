@@ -17,8 +17,7 @@
       "digimon",
       "virus",
       "champion",
-      "bipedal",
-      "underdog"
+      "bipedal"
     ],
     "number": 5180,
     "stats": {
@@ -835,7 +834,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "nanimon",
@@ -843,14 +844,18 @@
       "x": 67,
       "y": 56,
       "connected": [
+        "bombermon",
+        "doumon",
         "etemon",
-        "mamemon",
         "gaomon",
+        "mamemon",
         "mushroomon",
         "psychemon",
         "super-starmon",
         "tekkamon",
-        "volcanomon"
+        "volcanomon",
+        "toy-agumon-black",
+        "zanmetsumon"
       ],
       "prerequisites": [
         {
@@ -885,11 +890,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "grant-item",
@@ -905,11 +911,12 @@
               "granter": "cascade"
             },
             "reevaluateOnUpdate": true,
-            "mode": 2,
             "ignored": false,
             "inMemoryOnly": false,
             "track": false,
-            "replaceSelf": false
+            "replaceSelf": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -922,8 +929,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -940,13 +949,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1773352138444,
         "modifiedTime": 1773352194775,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "7S5xHOxYK2ORqqdH"
