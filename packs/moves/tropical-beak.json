@@ -19,7 +19,7 @@
         "name": "Tropical Beak",
         "slug": "tropical-beak",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/normal_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5060.png",
         "traits": [
           "digimon",
           "5-strike",
@@ -41,13 +41,14 @@
           "unit": "m"
         },
         "power": 15,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "D"
+    "grade": "D",
+    "slug": "tropical-beak"
   },
-  "img": "systems/ptr2e/img/svg/normal_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5060.png",
   "effects": [],
-  "flags": {},
   "_id": "C6t9pR9yykb31RSI"
 }

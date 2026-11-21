@@ -845,21 +845,27 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "metal-empire"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 110,
       "y": 59,
       "connected": [
+        "anubismon",
+        "bakemon",
         "devidramon",
+        "geremon",
+        "gran-kuwagamon",
         "jungle-mojyamon",
         "king-etemon",
-        "bakemon",
-        "geremon",
+        "komondomon",
         "nunemon",
         "pharoahmon",
-        "gran-kuwagamon"
+        "shin-monzaemon"
       ],
       "prerequisites": [
         {
@@ -954,7 +960,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767303640464,

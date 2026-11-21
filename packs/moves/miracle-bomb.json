@@ -19,7 +19,7 @@
         "name": "Miracle Bomb",
         "slug": "miracle-bomb",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5258.png",
         "traits": [
           "digimon"
         ],
@@ -32,20 +32,21 @@
         ],
         "category": "physical",
         "predicate": [],
-        "description": "<p>This attack inflicts 2 stages down to a random attribute.<br></p><ol><li>ATK</li><li>DEF</li><li>SPATK</li><li>SPDEF</li><li>SPD</li><li>ACC</li><li>EVA</li><li>User Choice</li></ol>",
+        "description": "<p>This attack inflicts 2 stages down to a random attribute.<br></p><ol><li><p>ATK</p></li><li><p>DEF</p></li><li><p>SPATK</p></li><li><p>SPDEF</p></li><li><p>SPD</p></li><li><p>ACC</p></li><li><p>EVA</p></li><li><p>User Choice</p></li></ol>",
         "range": {
           "target": "enemy",
           "distance": 7,
           "unit": "m"
         },
         "power": 130,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "miracle-bomb"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5258.png",
   "effects": [],
   "_id": "F1XfOWMpypj3xuof"
 }

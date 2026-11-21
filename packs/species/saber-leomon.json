@@ -819,7 +819,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "saber-leomon",
@@ -828,8 +831,11 @@
       "y": 40,
       "connected": [
         "cerberusmon",
+        "dinotigermon",
         "grap-leomon",
-        "panjyamon"
+        "lamortmon",
+        "panjyamon",
+        "tlalocmon"
       ],
       "prerequisites": [
         {
@@ -923,7 +929,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1773362296710,

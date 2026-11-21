@@ -857,7 +857,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "hisyaryumon",
@@ -865,12 +868,14 @@
       "x": 111,
       "y": 117,
       "connected": [
-        "gaiomon",
         "airdramon",
+        "gaiomon",
         "ginryumon",
         "musyamon",
         "seadramon",
-        "ouryumon"
+        "ouryumon",
+        "nidhoggmon",
+        "vortexdramon"
       ],
       "prerequisites": [
         {

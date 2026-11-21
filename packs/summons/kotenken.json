@@ -1,0 +1,168 @@
+{
+  "folder": null,
+  "name": "Kotenken",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon"
+    ],
+    "description": "",
+    "actions": [
+      {
+        "name": "Howling Celestial Dog",
+        "slug": "kotenken",
+        "description": "",
+        "traits": [
+          "digimon",
+          "summon",
+          "ignore-type-immunity"
+        ],
+        "type": "summon",
+        "img": "icons/creatures/magical/spirit-undead-ghost-tan-teal.webp",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "ghost"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "enemy",
+        "targetUuid": null,
+        "damageType": "flat",
+        "damageFormula": "@health.max*(2/16)",
+        "attackStat": "owner",
+        "power": null,
+        "accuracy": 100
+      }
+    ],
+    "baseAV": 95,
+    "duration": 3,
+    "owner": null
+  },
+  "_id": "SaHLfI1X8dcpVk9N",
+  "img": "icons/creatures/magical/spirit-undead-ghost-tan-teal.webp",
+  "effects": [
+    {
+      "name": "Kotenken",
+      "type": "summon",
+      "_id": "0NcQBJFundwMw8Iu",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.delaycondition00",
+            "phase": "initial",
+            "predicate": [],
+            "key": "kotenken-summon",
+            "chance": 100,
+            "isFixedChance": true,
+            "affects": "target",
+            "alterations": [
+              {
+                "method": 5,
+                "property": "system.amount",
+                "value": -30
+              }
+            ],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage",
+        "predicate": [],
+        "targetType": "enemy",
+        "targetUuid": null
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1792586832803,
+        "modifiedTime": 1792586832803,
+        "lastModifiedBy": "EClo9kX7QWK7e63b",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1792586832803,
+    "modifiedTime": 1792586832803,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

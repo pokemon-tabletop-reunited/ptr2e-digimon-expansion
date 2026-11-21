@@ -18,7 +18,8 @@
       "data",
       "ultimate",
       "bipedal",
-      "gilled"
+      "gilled",
+      "titan"
     ],
     "number": 5271,
     "stats": {
@@ -846,7 +847,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers",
+      "titans"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "divermon",
@@ -854,14 +858,16 @@
       "x": 113,
       "y": 178,
       "connected": [
-        "gawappamon",
         "coelamon",
+        "gawappamon",
         "octomon",
         "gekomon",
         "neptunemon",
         "plesiomon",
         "shima-unimon",
-        "yanmamon"
+        "yanmamon",
+        "ebidramon",
+        "marine-kimeramon"
       ],
       "prerequisites": [
         {
@@ -934,7 +940,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.361",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.5.beta",
         "createdTime": 1767094343757,

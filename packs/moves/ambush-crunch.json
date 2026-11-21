@@ -19,7 +19,7 @@
         "name": "Ambush Crunch",
         "slug": "ambush-crunch",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5129.png",
         "traits": [
           "jaw",
           "crit-1",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 70,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "ambush-crunch"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5129.png",
   "effects": [],
   "_id": "dWyPMQV5EM23M4VF"
 }

@@ -818,7 +818,9 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "unknown"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "lotosmon",
@@ -826,10 +828,14 @@
       "x": 155,
       "y": 62,
       "connected": [
-        "blossomon",
         "arukenimon",
+        "blossomon",
+        "jet-silphymon",
         "pumpkinmon",
-        "meicrackmon-vm"
+        "meicrackmon-vm",
+        "oleamon",
+        "peacockmon",
+        "petaldramon"
       ],
       "prerequisites": [
         {
@@ -944,7 +950,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1773351447743,

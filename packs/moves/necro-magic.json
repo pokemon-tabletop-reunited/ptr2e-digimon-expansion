@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Necro Magic",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "necro-magic",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -21,66 +20,32 @@
         "name": "Necro Magic",
         "slug": "necro-magic",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182_soul.png",
         "traits": [
           "digimon",
           "summon"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
         "summon": "Compendium.ptr2e-digimon-expansion.digimon-summons.Item.f58Stydq3clViPUa",
         "types": [
           "ghost"
         ],
         "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This move summons the Restless Dead, with 80 AV lasting for 4 activations. Whilst the Restless Dead are active, all actors on the field suffer @Tick[-1] of damage per activation, and the Restless Dead attack the summoner's enemies with Special damage, at power 70.</p>",
         "range": {
           "target": "field",
-          "distance": null,
           "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
+        }
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5182_soul.png",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "mK35yvCqCgiTUvKf": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.4.12.beta",
-    "createdTime": 1766966473404,
-    "modifiedTime": 1766966473404,
-    "lastModifiedBy": "mK35yvCqCgiTUvKf"
-  },
-  "_id": "bg3rPoBiea6oeXyZ",
-  "sort": 0
+  "_id": "bg3rPoBiea6oeXyZ"
 }

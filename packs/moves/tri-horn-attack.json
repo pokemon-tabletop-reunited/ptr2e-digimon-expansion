@@ -1,129 +1,148 @@
 {
-  "name": "Tri-Horn Attack",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Tri-Horn Attack",
-        "slug": "tri-horn-attack",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/ground_icon.svg",
-        "traits": [
-          "contact",
-          "dash",
-          "push-3",
-          "digimon",
-          "horn"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 6
-        },
-        "types": [
-          "ground"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack has a 50% chance each to inflict @Affliction[paralysis 5] and @Affliction[splinter 5]</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 150,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "tri-horn-attack"
-  },
-  "img": "systems/ptr2e/img/svg/ground_icon.svg",
-  "effects": [
-    {
-      "name": "Tri-Horn-Attack",
-      "type": "passive",
-      "_id": "lsGAuDSFZSQhMxrT",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "tri-horn-attack-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
-            "predicate": [],
-            "chance": 50,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "tri-horn-attack-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
-            "predicate": [],
-            "chance": 50,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777554236973,
-        "modifiedTime": 1777554242698
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "pY9wH5lCVmKZzxMm"
+    "_id":  "pY9wH5lCVmKZzxMm",
+    "effects":  [
+                    {
+                        "_id":  "lsGAuDSFZSQhMxrT",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777554236973,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777554242698,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Tri-Horn-Attack",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "tri-horn-attack-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.paralysisconditi",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "tri-horn-attack-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.splinterconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  50,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5268.png",
+    "name":  "Tri-Horn Attack",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Tri-Horn Attack",
+                                       "slug":  "tri-horn-attack",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5268.png",
+                                       "traits":  [
+                                                      "contact",
+                                                      "dash",
+                                                      "push-3",
+                                                      "digimon",
+                                                      "horn"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  6
+                                                },
+                                       "types":  [
+                                                     "ground"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack has a 50% chance each to inflict @Affliction[paralysis 5] and @Affliction[splinter 5]\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  150,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "slug":  "tri-horn-attack"
+               },
+    "type":  "move"
 }

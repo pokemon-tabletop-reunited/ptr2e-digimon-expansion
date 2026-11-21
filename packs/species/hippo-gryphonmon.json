@@ -856,7 +856,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "hippo-gryphonmon",
@@ -864,11 +867,12 @@
       "x": 112,
       "y": 148,
       "connected": [
+        "angemon",
         "dynasmon",
         "eaglemon",
         "gryphonmon",
-        "angemon",
-        "unimon"
+        "unimon",
+        "symbare-angoramon"
       ],
       "prerequisites": [
         {

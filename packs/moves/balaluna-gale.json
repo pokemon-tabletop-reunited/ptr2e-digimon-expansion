@@ -1,59 +1,40 @@
 {
-  "name": "Balaluna Gale",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Balaluna Gale",
-        "slug": "balaluna-gale",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/psychic_icon.svg",
-        "traits": [
-          "digimon",
-          "arcane",
-          "wind"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "psychic"
-        ],
-        "category": "special",
-        "predicate": [],
-        "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[arcane] creatures and has a 30% chance to inflict @Affliction[stunted 5].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 10,
-          "unit": "m"
-        },
-        "power": 80,
-        "accuracy": 100
-      }
-    ],
-    "grade": "E",
-    "slug": "balaluna-gale"
-  },
-  "img": "systems/ptr2e/img/svg/psychic_icon.svg",
+  "_id": "sh5PqfjuGGbU1wMy",
   "effects": [
     {
-      "name": "Balaluna Gale",
-      "type": "passive",
       "_id": "O1tfe8eB31WWMs1z",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.369",
+        "createdTime": 1777489210723,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "modifiedTime": 1777489210723,
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.4.beta"
+      },
+      "description": "",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "flags": {
+        "ptr2e": {
+          "displayOnToken": ""
+        }
+      },
+      "folder": null,
       "img": "systems/ptr2e/img/icons/effect_icon.webp",
+      "name": "Balaluna Gale",
+      "origin": null,
+      "showIcon": 1,
+      "sort": 0,
+      "start": null,
+      "statuses": [],
       "system": {
         "changes": [
           {
@@ -92,39 +73,59 @@
         "removeAfterAttacked": false,
         "stacks": 0
       },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
       "tint": "#ffffff",
       "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777489210723,
-        "modifiedTime": 1777489210723
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
+      "type": "passive"
     }
   ],
-  "_id": "sh5PqfjuGGbU1wMy"
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",
+  "name": "Balaluna Gale",
+  "system": {
+    "_migration": {
+      "version": 0.111,
+      "previous": null
+    },
+    "actions": [
+      {
+        "name": "Balaluna Gale",
+        "slug": "balaluna-gale",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5135.png",
+        "traits": [
+          "digimon",
+          "arcane",
+          "wind"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 5
+        },
+        "types": [
+          "psychic"
+        ],
+        "category": "special",
+        "predicate": [],
+        "description": "<p>Effect: This attack gains +1 Effectiveness Stage vs @Trait[arcane] creatures and has a 30% chance to inflict @Affliction[stunted 5].</p>",
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "power": 80,
+        "accuracy": 100,
+        "free": true
+      }
+    ],
+    "grade": "B",
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "slug": "balaluna-gale",
+    "traits": []
+  },
+  "type": "move"
 }

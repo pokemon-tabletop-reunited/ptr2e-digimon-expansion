@@ -1,141 +1,154 @@
 {
-  "name": "Electrothread",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Electrothread",
-        "slug": "electrothread",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 3
-        },
-        "types": [
-          "electric"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: This attack inflicts @Affliction[tased 3] and @Affliction[slowed 3].</p>",
-        "range": {
-          "target": "creature",
-          "distance": 5,
-          "unit": "m"
-        },
-        "power": 60,
-        "accuracy": 100
-      }
-    ],
-    "grade": "D",
-    "slug": "electrothread"
-  },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [
-    {
-      "name": "Electrothread",
-      "type": "passive",
-      "_id": "KP3vPduJUl6XNOII",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "electrothread-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "electrothread-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.slowedcondition0",
-            "predicate": [],
-            "chance": 100,
-            "isFixedChance": false,
-            "affects": "target",
-            "alterations": [
-              {
-                "method": 5,
-                "property": "duration.turns",
-                "value": 3
-              }
-            ],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "stacks": 0
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "ptr2e": {
-          "displayOnToken": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777537413026,
-        "modifiedTime": 1777537422455
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "pid2z8r4qXb49ccT"
+    "_id":  "pid2z8r4qXb49ccT",
+    "effects":  [
+                    {
+                        "_id":  "KP3vPduJUl6XNOII",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777537413026,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537422455,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+                                      "ptr2e":  {
+                                                    "displayOnToken":  ""
+                                                }
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Electrothread",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "electrothread-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.tasedcondition00",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "electrothread-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.slowedcondition0",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "isFixedChance":  false,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+                                                                               {
+                                                                                   "method":  5,
+                                                                                   "property":  "duration.turns",
+                                                                                   "value":  3
+                                                                               }
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "stacks":  0
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5082.png",
+    "name":  "Electrothread",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Electrothread",
+                                       "slug":  "electrothread",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5082.png",
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  3
+                                                },
+                                       "types":  [
+                                                     "electric"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: This attack inflicts @Affliction[tased 3] and @Affliction[slowed 3].\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  60,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "electrothread",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

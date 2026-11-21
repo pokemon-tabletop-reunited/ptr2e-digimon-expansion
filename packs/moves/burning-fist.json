@@ -1,129 +1,148 @@
 {
-  "name": "Burning Fist",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Burning Fist",
-        "slug": "burning-fist",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fire_icon.svg",
-        "traits": [
-          "punch",
-          "push-3",
-          "contact",
-          "digimon",
-          "priority-30"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 4
-        },
-        "types": [
-          "fire"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>Effect: On hit, the target has a 30% chance to gain @Affliction[burn 5]. On resolution, the user has a 30% chance to gain +1 ATK Stage for 5 Activations.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 80,
-        "accuracy": 100
-      }
-    ],
-    "grade": "C",
-    "slug": "burning-fist"
-  },
-  "img": "systems/ptr2e/img/svg/fire_icon.svg",
-  "effects": [
-    {
-      "name": "Burning Fist",
-      "type": "passive",
-      "_id": "q5EFmcZoU44pFh8x",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "burning-fist-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
-            "predicate": [],
-            "chance": 30,
-            "affects": "target",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          },
-          {
-            "type": "roll-effect",
-            "key": "burning-fist-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
-            "predicate": [],
-            "chance": 30,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "modifiedTime": 1777502404253,
-        "createdTime": 1777502397497
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "vgiQRUTzmyliYq6G"
+    "_id":  "vgiQRUTzmyliYq6G",
+    "effects":  [
+                    {
+                        "_id":  "q5EFmcZoU44pFh8x",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777502397497,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777502404253,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Burning Fist",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "burning-fist-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.burncondition000",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "affects":  "target",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       },
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "burning-fist-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  30,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5157.png",
+    "name":  "Burning Fist",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Burning Fist",
+                                       "slug":  "burning-fist",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5157.png",
+                                       "traits":  [
+                                                      "punch",
+                                                      "push-3",
+                                                      "contact",
+                                                      "digimon",
+                                                      "priority-30"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  4
+                                                },
+                                       "types":  [
+                                                     "fire"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eEffect: On hit, the target has a 30% chance to gain @Affliction[burn 5]. On resolution, the user has a 30% chance to gain +1 ATK Stage for 5 Activations.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  80,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "C",
+                   "slug":  "burning-fist"
+               },
+    "type":  "move"
 }

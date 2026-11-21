@@ -1,54 +1,61 @@
 {
-  "name": "Shine of Bee",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Shine of Bee",
-        "slug": "shine-of-bee",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
-        "traits": [
-          "explode",
-          "digimon",
-          "pierce",
-          "danger-close",
-          "flinch-90"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 15
-        },
-        "types": [
-          "bug"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>On resolution, the user is Delayed 90%.</p>",
-        "range": {
-          "target": "emanation",
-          "distance": 7,
-          "unit": "m"
-        },
-        "power": 250
-      }
-    ],
-    "grade": "S",
-    "slug": "shine-of-bee"
-  },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [],
-  "_id": "bhfpwCdjifD4Zj3v"
+    "_id":  "bhfpwCdjifD4Zj3v",
+    "effects":  [
+
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5411.png",
+    "name":  "Shine of Bee",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "category":  "physical",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  15
+                                                },
+                                       "description":  "\u003cp\u003eOn resolution, the user is Delayed 90%.\u003c/p\u003e",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5411.png",
+                                       "name":  "Shine of Bee",
+                                       "power":  250,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "target":  "emanation",
+                                                     "distance":  7,
+                                                     "unit":  "m"
+                                                 },
+                                       "slug":  "shine-of-bee",
+                                       "traits":  [
+                                                      "explode",
+                                                      "digimon",
+                                                      "pierce",
+                                                      "danger-close",
+                                                      "flinch-90"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "bug"
+                                                 ]
+                                   }
+                               ],
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "shine-of-bee",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }
