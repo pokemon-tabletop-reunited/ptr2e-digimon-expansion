@@ -848,7 +848,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "grademon",
@@ -857,12 +860,13 @@
       "y": 87,
       "connected": [
         "alphamon",
+        "cyclonemon",
+        "death-x-dorugoramon",
+        "dinohyumon",
         "durandamon",
         "dynasmon",
         "raptordramon",
         "musyamon",
-        "cyclonemon",
-        "dinohyumon",
         "zubaeagermon"
       ],
       "prerequisites": [
@@ -936,7 +940,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767132396145,

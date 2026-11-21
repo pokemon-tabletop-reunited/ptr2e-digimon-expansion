@@ -840,7 +840,13 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "metal-empire",
+      "nature-spirits",
+      "nightmare-soldiers",
+      "dragons-roar",
+      "witchelny"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "tyrannomon",
@@ -848,18 +854,24 @@
       "x": 61,
       "y": 133,
       "connected": [
+        "agumon",
+        "bemmon",
+        "chuumon",
+        "cutemon",
+        "dracomon",
+        "elizamon",
         "ex-tyrannomon",
         "groundramon",
+        "guilmon",
         "helloogarmon",
+        "lavogaritamon",
         "loogamon",
+        "mame-tyrannomon",
         "master-tyrannomon",
         "metal-greymon",
         "metal-tyrannomon",
         "soloogarmon",
-        "dracomon",
-        "guilmon",
-        "chuumon",
-        "agumon"
+        "vorvomon"
       ],
       "prerequisites": [
         {
@@ -932,7 +944,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767399593068,

@@ -826,7 +826,11 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dragons-roar",
+      "nature-spirits",
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "shine-greymon",
@@ -834,8 +838,9 @@
       "x": 159,
       "y": 72,
       "connected": [
-        "shine-greymon-bm",
         "rize-greymon",
+        "shine-greymon-bm",
+        "shine-greymon-rm",
         "wingdramon"
       ],
       "prerequisites": [
@@ -909,7 +914,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1773362361381,

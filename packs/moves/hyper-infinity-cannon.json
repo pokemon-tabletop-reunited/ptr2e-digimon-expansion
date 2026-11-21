@@ -19,7 +19,7 @@
         "name": "Hyper Infinity Cannon",
         "slug": "hyper-infinity-cannon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/electric_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5400.png",
         "traits": [
           "digimon",
           "ray",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 155,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "hyper-infinity-cannon"
   },
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5400.png",
   "effects": [],
   "_id": "0lnEB9sa4BHKqhFk"
 }

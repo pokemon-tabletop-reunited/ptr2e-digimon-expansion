@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "Yomi",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "slug": null,
+    "traits": [
+      "digimon",
+      "summon",
+      "environ",
+      "room"
+    ],
+    "description": "<p>Yomi cannot be dispelled while Enmamon is on the field, but is automatically dispelled in the event Enmamon is no longer an active combatant.</p><p>While &lt;Yomi&gt; is active, all non-Enmamon creatures gain @Affliction[destined], which remains for as long as Yomi is active, and treats Enmamon as the source of @Affliction[destined].</p><p>Additionally, all creatures become @Affliction[exposed] until &lt;Yomi&gt; is dispelled or combat ends.</p>",
+    "actions": [],
+    "baseAV": 150,
+    "duration": 999,
+    "owner": null
+  },
+  "_id": "dI7qxv5EHXFwP6mq",
+  "img": "icons/environment/wilderness/cave-entrance-vulcano.webp",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795004466757,
+    "modifiedTime": 1795004466757,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

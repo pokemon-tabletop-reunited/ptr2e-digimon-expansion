@@ -1,114 +1,129 @@
 {
-  "name": "Hell Masquerade",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.111,
-      "previous": null
-    },
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Hell Masquerade",
-        "slug": "hell-masquerade",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/bug_icon.svg",
-        "traits": [
-          "contact",
-          "5-strike",
-          "crit-1",
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 8
-        },
-        "types": [
-          "bug"
-        ],
-        "category": "physical",
-        "predicate": [],
-        "description": "<p>This attack grants the user @UUID[Compendium.ptr2e.core-effects.OUBNweJOMjAEtAye]{+1 Evasion Stage for 5 activations}.</p>",
-        "range": {
-          "target": "creature",
-          "distance": 1,
-          "unit": "m"
-        },
-        "power": 35,
-        "accuracy": 100
-      }
-    ],
-    "grade": "A",
-    "slug": "hell-masquerade"
-  },
-  "img": "systems/ptr2e/img/svg/bug_icon.svg",
-  "effects": [
-    {
-      "name": "Hell Masquerade",
-      "type": "passive",
-      "_id": "Eq5L2W6qTQYNijBv",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "hell-masquerade-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.OUBNweJOMjAEtAye",
-            "predicate": [],
-            "chance": 100,
-            "affects": "self",
-            "alterations": [],
-            "dontMerge": false,
-            "isFixedChance": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "createdTime": 1777545322321,
-        "modifiedTime": 1777545322321
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "9XDcOjC9VoMmT2pc"
+    "_id":  "9XDcOjC9VoMmT2pc",
+    "effects":  [
+                    {
+                        "_id":  "Eq5L2W6qTQYNijBv",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1777545322321,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777545322321,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Hell Masquerade",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "hell-masquerade-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.OUBNweJOMjAEtAye",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "affects":  "self",
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "isFixedChance":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "passive"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5326.png",
+    "name":  "Hell Masquerade",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.111,
+                                      "previous":  null
+                                  },
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "traits":  [
+
+                              ],
+                   "actions":  [
+                                   {
+                                       "name":  "Hell Masquerade",
+                                       "slug":  "hell-masquerade",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5326.png",
+                                       "traits":  [
+                                                      "contact",
+                                                      "5-strike",
+                                                      "crit-1",
+                                                      "digimon"
+                                                  ],
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  8
+                                                },
+                                       "types":  [
+                                                     "bug"
+                                                 ],
+                                       "category":  "physical",
+                                       "predicate":  [
+
+                                                     ],
+                                       "description":  "\u003cp\u003eThis attack grants the user @UUID[Compendium.ptr2e.core-effects.OUBNweJOMjAEtAye]{+1 Evasion Stage for 5 activations}.\u003c/p\u003e",
+                                       "range":  {
+                                                     "target":  "creature",
+                                                     "distance":  1,
+                                                     "unit":  "m"
+                                                 },
+                                       "power":  35,
+                                       "accuracy":  100,
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "A",
+                   "slug":  "hell-masquerade"
+               },
+    "type":  "move"
 }

@@ -1,85 +1,82 @@
 {
-  "folder": null,
-  "name": "Sefer Raziel",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.113,
-      "previous": null
-    },
-    "slug": null,
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "Fox"
-      ],
-      "notes": ""
-    },
-    "traits": [],
-    "actions": [
-      {
-        "name": "Sefer Raziel",
-        "slug": "sefer-raziel",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-        "traits": [
-          "digimon"
-        ],
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 9,
-          "trigger": "",
-          "delay": null,
-          "priority": null
-        },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
-        "types": [
-          "fairy"
-        ],
-        "category": "status",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
-        "predicate": [],
-        "description": "<p>Effect: The user may select any move card they wish from the Metronome Deck and immediately play it freely. This card is not drawn randomly.</p>",
-        "range": {
-          "target": "self",
-          "distance": null,
-          "unit": "m"
-        },
-        "power": null,
-        "accuracy": null
-      }
-    ],
-    "description": "",
-    "container": null,
-    "grade": "S"
-  },
-  "_id": "XzeA1lPbegNexUWP",
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
-  "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.360",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.4.beta",
-    "createdTime": 1777208887920,
-    "modifiedTime": 1777208887921,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+    "_id":  "XzeA1lPbegNexUWP",
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5499.png",
+    "name":  "Sefer Raziel",
+    "ownership":  {
+                      "default":  0,
+                      "VGuCUKsxs9UY3xDR":  3
+                  },
+    "sort":  0,
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.113,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "accuracy":  null,
+                                       "category":  "status",
+                                       "contestEffect":  "",
+                                       "contestType":  "",
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "delay":  null,
+                                                    "powerPoints":  9,
+                                                    "priority":  null,
+                                                    "trigger":  ""
+                                                },
+                                       "defaultVariant":  null,
+                                       "defensiveStat":  null,
+                                       "description":  "\u003cp\u003eEffect: The user may select any move card they wish from the Metronome Deck and immediately play it freely. This card is not drawn randomly.\u003c/p\u003e",
+                                       "ephemeralVariant":  false,
+                                       "flingItemId":  "",
+                                       "free":  true,
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5499.png",
+                                       "name":  "Sefer Raziel",
+                                       "offensiveStat":  null,
+                                       "power":  null,
+                                       "predicate":  [
+
+                                                     ],
+                                       "range":  {
+                                                     "distance":  null,
+                                                     "target":  "self",
+                                                     "unit":  "m"
+                                                 },
+                                       "slot":  null,
+                                       "slug":  "sefer-raziel",
+                                       "summon":  null,
+                                       "traits":  [
+                                                      "digimon"
+                                                  ],
+                                       "type":  "attack",
+                                       "types":  [
+                                                     "fairy"
+                                                 ],
+                                       "variant":  null
+                                   }
+                               ],
+                   "container":  null,
+                   "description":  "",
+                   "grade":  "S",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "Fox"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  null,
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

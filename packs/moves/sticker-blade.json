@@ -12,7 +12,7 @@
         "name": "Sticker Blade",
         "slug": "sticker-blade",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5174.png",
         "traits": [
           "5-strike",
           "missile",
@@ -34,7 +34,8 @@
         "category": "physical",
         "power": 25,
         "accuracy": 90,
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "C",
@@ -47,7 +48,7 @@
     },
     "traits": []
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5174.png",
   "effects": [],
   "_id": "IydF0iC3sdhe9AU8"
 }

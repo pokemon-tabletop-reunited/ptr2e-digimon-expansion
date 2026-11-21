@@ -817,7 +817,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "wanyamon",
@@ -826,10 +828,13 @@
       "y": 57,
       "connected": [
         "bearmon",
+        "dodomon",
         "gaomon",
+        "phascomon",
+        "popomon",
         "renamon",
-        "tapirmon",
-        "dodomon"
+        "strabimon",
+        "tapirmon"
       ],
       "prerequisites": [
         {

@@ -19,7 +19,7 @@
         "name": "Infinity Cannon",
         "slug": "infinity-cannon",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5430.png",
         "traits": [
           "digimon",
           "pierce",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 155,
-        "accuracy": 80
+        "accuracy": 80,
+        "free": true
       }
     ],
-    "grade": "S"
+    "grade": "S",
+    "slug": "infinity-cannon"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5430.png",
   "effects": [],
-  "flags": {},
   "_id": "43c6qKezUaXAM2P0"
 }

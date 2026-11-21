@@ -1,0 +1,48 @@
+{
+  "folder": null,
+  "name": "Nirvana",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "summon",
+      "environ",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>Trigger: The user enters combat.</p><p>Effect: All combatants are transported into the palm of the true Shakamon's hand, isolating the combat. </p><p>The user sets a Nirvana Summon with AV of 90 and infinite duration. On Nirvana's activation, all enemies on the field lose @Tick[-2 pp] and have a fixed 100% chance to be inflicted with @Affliction[perish 8]. All creatures, excluding Shakamon, become @Affliction[stuck] indefinitely, bypassing @Trait[Ace] immunity to the condition.</p><p>Passive: The user's @Trait[psychic]-type attacks gain the @Trait[ignore-type-immunity] Trait. The Nirvana Summon may not be dispelled.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "bW1GVxHuqkMYVlve",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5903.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795037431940,
+    "modifiedTime": 1795037431940,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

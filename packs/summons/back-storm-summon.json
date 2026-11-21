@@ -1,0 +1,324 @@
+{
+  "folder": null,
+  "name": "Back Storm (Summon)",
+  "type": "summon",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Krueger"
+      ],
+      "notes": ""
+    },
+    "slug": "back-storm-summon",
+    "traits": [
+      "digimon",
+      "summon",
+      "room"
+    ],
+    "description": "<p>Effect: Rainy Weather, Windy Weather and Electric Terrain cannot expire.</p>",
+    "actions": [
+      {
+        "name": "Back Storm Summon (Squall)",
+        "slug": "back-storm-summon-squall",
+        "description": "<p>Trigger: One of Rainy Weather, Windy Weather or Electric Terrain are present.<br>Effect: The owner of the Back Storm Summon gains @UUID[Compendium.ptr2e.core-effects-new.chargedcondiitem]{Charged}</p>",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "type": "summon",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "owner",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": null,
+        "accuracy": null
+      },
+      {
+        "name": "Back Storm Summon (Tempest)",
+        "slug": "back-storm-summon-tempest",
+        "description": "<p>Trigger: Two of Rainy Weather, Windy Weather or Electric Terrain are present.<br>Effect: The owner of the Back Storm Summon gains @UUID[Compendium.ptr2e.core-effects-new.chargedcondiitem]{Charged} and @UUID[Compendium.ptr2e.core-effects-new.XeiSuS3APUcN0MLM]{+1 Speed Stage}</p>",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "type": "summon",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "owner",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": null,
+        "accuracy": null
+      },
+      {
+        "name": "Back Storm Summon (Maelstrom)",
+        "slug": "back-storm-summon-maelstrom",
+        "description": "<p>Trigger: Rainy Weather, Windy Weather and Electric Terrain are present.<br>Effect: The owner of the Back Storm Summon gains @UUID[Compendium.ptr2e.core-effects-new.chargedcondiitem]{Charged}, @UUID[Compendium.ptr2e.core-effects-new.ZGwaMlzUwkSuCPyH]{+1 Attack Stage} and @UUID[Compendium.ptr2e.core-effects-new.XeiSuS3APUcN0MLM]{+1 Speed Stage}</p>",
+        "traits": [
+          "digimon",
+          "summon"
+        ],
+        "type": "summon",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+        "cost": {
+          "activation": "simple",
+          "powerPoints": 0,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "range": {
+          "target": "creature",
+          "distance": 10,
+          "unit": "m"
+        },
+        "types": [
+          "electric"
+        ],
+        "category": "status",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "targetType": "owner",
+        "targetUuid": null,
+        "damageType": "power",
+        "damageFormula": "",
+        "attackStat": "owner",
+        "power": null,
+        "accuracy": null
+      }
+    ],
+    "baseAV": 150,
+    "duration": 3,
+    "owner": null
+  },
+  "_id": "b9A7s6qaPd5AJXzY",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5881.png",
+  "effects": [
+    {
+      "name": "Back Storm Summon",
+      "type": "summon",
+      "_id": "FW4bj0eQlpSQBHBs",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.chargedcondiitem",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "back-storm-summon-squall-summon",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.chargedcondiitem",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "back-storm-summon-tempest-summon",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.chargedcondiitem",
+            "phase": "initial",
+            "predicate": [],
+            "key": "back-storm-summon-maelstrom-summon",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
+            "phase": "initial",
+            "predicate": [],
+            "key": "back-storm-summon-tempest-summon",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.XeiSuS3APUcN0MLM",
+            "phase": "initial",
+            "predicate": [],
+            "key": "back-storm-summon-maelstrom-summon",
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "key": "back-storm-summon-maelstrom-summon",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.ZGwaMlzUwkSuCPyH",
+            "phase": "initial",
+            "predicate": [],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0,
+        "priority": 50,
+        "formula": "",
+        "type": "damage",
+        "predicate": [],
+        "targetType": "all",
+        "targetUuid": null
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1794957810159,
+        "modifiedTime": 1794957810159,
+        "lastModifiedBy": "2iKdcUFZBk6SApv1",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "2iKdcUFZBk6SApv1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1794957810159,
+    "modifiedTime": 1795035997528,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

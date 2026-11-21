@@ -135,7 +135,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "deep-savers"
+    ],
     "genderRatio": 1,
     "habitats": [],
     "slug": "bukamon",
@@ -148,7 +150,10 @@
         "gizamon",
         "gomamon",
         "kamemon",
-        "syakomon"
+        "syakomon",
+        "jellymon",
+        "pichimon",
+        "sangomon"
       ],
       "prerequisites": [
         {

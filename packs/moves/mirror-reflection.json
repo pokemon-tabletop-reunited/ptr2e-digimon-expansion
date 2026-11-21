@@ -21,7 +21,8 @@
         "type": "attack",
         "img": "systems/ptr2e/img/svg/normal_icon.svg",
         "traits": [
-          "digimon"
+          "digimon",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
@@ -97,7 +98,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1756466956421,

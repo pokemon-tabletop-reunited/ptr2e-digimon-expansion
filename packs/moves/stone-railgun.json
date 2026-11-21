@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Stone Railgun",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Stone Railgun",
+        "slug": "stone-railgun",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5870.png",
+        "traits": [
+          "digimon",
+          "missile",
+          "16-strike",
+          "push-x"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 7,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "rock"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": false,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": "spa",
+        "defensiveStat": "def",
+        "predicate": [],
+        "description": "<p>Effect: This move resolves against the targets DEF. This user can choose to push the target equal to the number of times this attack hit.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 16,
+          "unit": "m"
+        },
+        "power": 13,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "xqc1yWkCHgbs8sE2",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5870.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793283493220,
+    "modifiedTime": 1793283513200,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 90550000
+}

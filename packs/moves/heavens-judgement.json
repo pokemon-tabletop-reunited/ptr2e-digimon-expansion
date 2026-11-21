@@ -19,7 +19,7 @@
         "name": "Heaven's Judgement",
         "slug": "heavens-judgement",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5346.png",
         "traits": [
           "digimon",
           "summon"
@@ -39,13 +39,14 @@
           "target": "field",
           "unit": "m",
           "distance": 10
-        }
+        },
+        "free": true
       }
     ],
     "grade": "S",
     "slug": "heavens-judgement"
   },
-  "img": "systems/ptr2e/img/svg/fairy_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5346.png",
   "effects": [],
   "_id": "7Kg5wggjKqLpXV1O"
 }

@@ -19,7 +19,7 @@
         "name": "Air Shot",
         "slug": "air-shot",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/flying_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5056.png",
         "traits": [
           "wind",
           "digimon"
@@ -40,13 +40,14 @@
         "power": 50,
         "accuracy": 100,
         "predicate": [],
-        "description": "<p>On resolution, the user has a 10% chance of gaining +1 Speed Stage for 5 activations.</p>"
+        "description": "<p>On resolution, the user has a 10% chance of gaining +1 Speed Stage for 5 activations.</p>",
+        "free": true
       }
     ],
     "grade": "D",
     "slug": "air-shot"
   },
-  "img": "systems/ptr2e/img/svg/flying_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5056.png",
   "effects": [
     {
       "name": "Air Shot",
@@ -96,7 +97,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1777488314096,
