@@ -19,7 +19,7 @@
         "name": "Vulcan's Hammer",
         "slug": "vulcans-hammer",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/ice_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5232.png",
         "traits": [
           "contact",
           "crushing",
@@ -42,13 +42,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "A",
     "slug": "vulcans-hammer"
   },
-  "img": "systems/ptr2e/img/svg/ice_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5232.png",
   "effects": [],
   "_id": "GvknA4citF6naogG"
 }

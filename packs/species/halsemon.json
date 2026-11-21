@@ -820,11 +820,6 @@
           "gen": null
         },
         {
-          "name": "brave-bird",
-          "level": 34,
-          "gen": null
-        },
-        {
           "name": "beak-smash",
           "level": 21,
           "gen": null
@@ -850,6 +845,11 @@
           "gen": null
         },
         {
+          "name": "brave-bird",
+          "level": 34,
+          "gen": null
+        },
+        {
           "name": "bolt-arrow",
           "level": 37,
           "gen": null
@@ -857,7 +857,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits",
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "halsemon",
@@ -865,7 +868,10 @@
       "x": 49,
       "y": 56,
       "connected": [
-        "hawkmon"
+        "hawkmon",
+        "wormmon",
+        "toucanmon",
+        "angewomon"
       ],
       "prerequisites": [
         "item:equipment:digi-egg-of-love"
@@ -933,7 +939,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767134162168,

@@ -19,7 +19,7 @@
         "name": "Deep Forest",
         "slug": "deep-forest",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/steel_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5401.png",
         "traits": [
           "digimon",
           "contact"
@@ -39,13 +39,14 @@
           "unit": "m"
         },
         "power": 115,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "deep-forest"
   },
-  "img": "systems/ptr2e/img/svg/steel_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5401.png",
   "effects": [],
-  "flags": {},
   "_id": "TmeZSM7ItSvNb9Xa"
 }

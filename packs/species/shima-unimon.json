@@ -845,19 +845,22 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nature-spirits"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 61,
       "y": 119,
       "connected": [
-        "snow-agumon",
+        "andromon",
+        "asuramon",
         "candlemon",
+        "divermon",
         "kokuwamon",
         "mammothmon",
-        "divermon",
-        "andromon",
+        "snow-agumon",
         "skull-greymon"
       ],
       "prerequisites": [
@@ -932,7 +935,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767407804959,

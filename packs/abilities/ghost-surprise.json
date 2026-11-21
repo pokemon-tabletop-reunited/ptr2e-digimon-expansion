@@ -1,0 +1,48 @@
+{
+  "name": "Ghost Surprise",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>While the user is in the Swimming State, they are considered to be @Affliction[invisible] and this affliction cannot be cleansed while the user remains in the Swimming State.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "fTYbN4pGJPsex18b",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5698.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795036805041,
+    "modifiedTime": 1795036940747,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

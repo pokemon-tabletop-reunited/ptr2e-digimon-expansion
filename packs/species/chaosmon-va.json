@@ -37,8 +37,8 @@
     "size": {
       "category": "medium",
       "type": "height",
-      "height": 0,
-      "weight": 0
+      "height": 2.7,
+      "weight": 130
     },
     "diet": [],
     "abilities": {
@@ -820,7 +820,10 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters",
+      "bancho"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "chaosmon-va",
@@ -919,7 +922,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767090347477,

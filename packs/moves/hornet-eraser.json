@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Hornet Eraser",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Hornet Eraser",
+        "slug": "hornet-eraser",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5880.png",
+        "traits": [
+          "digimon",
+          "ray",
+          "blast-1"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 11,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "electric"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Special Targeting: This user can target any creature within the current combat</p><p><br>Effect: After this move resolves, it gains @Affliction[disabled 3]</p>",
+        "range": {
+          "target": "enemy",
+          "distance": null,
+          "unit": "m"
+        },
+        "power": 200,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "S"
+  },
+  "_id": "QdUkhk7YzzwfmJeB",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5880_throne.png",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1793282256729,
+    "modifiedTime": 1793282256729,
+    "lastModifiedBy": "EClo9kX7QWK7e63b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

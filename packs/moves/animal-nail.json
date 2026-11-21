@@ -19,7 +19,7 @@
         "name": "Animal Nail",
         "slug": "animal-nail",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5272.png",
         "traits": [
           "contact",
           "sharp",
@@ -41,13 +41,14 @@
         },
         "power": 60,
         "accuracy": 100,
-        "description": "<p>Effect: This Attack's Power increases by +20 for every allied creature that has @Affliction[fainted] this battle, up to a maximum Power of 300. This Attack is one step more effective against the @Trait[grass] Type.</p>"
+        "description": "<p>Effect: This Attack's Power increases by +20 for every allied creature that has @Affliction[fainted] this battle, up to a maximum Power of 300. This Attack is one step more effective against the @Trait[grass] Type.</p>",
+        "free": true
       }
     ],
     "grade": "B",
     "slug": "animal-nail"
   },
-  "img": "systems/ptr2e/img/svg/fighting_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5272.png",
   "effects": [
     {
       "name": "Animal Nail",
@@ -65,8 +66,9 @@
             "max": 12,
             "color": "#ce416b",
             "private": false,
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "alter-attack",
@@ -75,8 +77,9 @@
             "predicate": [],
             "property": "power",
             "definition": [],
-            "mode": 2,
-            "ignored": false
+            "ignored": false,
+            "method": 2,
+            "phase": "initial"
           },
           {
             "type": "flat-modifier",
@@ -86,9 +89,10 @@
               "target:trait:grass"
             ],
             "label": "Vs Grass",
-            "mode": 2,
             "ignored": false,
-            "hideIfDisabled": false
+            "hideIfDisabled": false,
+            "method": 2,
+            "phase": "initial"
           }
         ],
         "slug": null,
@@ -101,8 +105,10 @@
       },
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -119,13 +125,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1771261483192,
         "modifiedTime": 1771262201370,
         "lastModifiedBy": "Bk6N5iKyebvEVXhL"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ],
   "_id": "aAkm7Wuaksk2IBn8"

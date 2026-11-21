@@ -1,0 +1,52 @@
+{
+  "folder": null,
+  "name": "Eternal Canopy",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate",
+      "environ",
+      "summon",
+      "terrain"
+    ],
+    "actions": [],
+    "description": "<p>Trigger: The user enters combat.</p><p>Effect: The user deploys the &lt;Eternal Canopy&gt; summon. The &lt;Eternal Canopy&gt; summon has a duration of 999, an AV of 150, and may not be dispelled while the User remains active on the field.</p><p>Eternal Canopy grants @Trait[grass]-Type attacks +1 Effectiveness Stage and +40% power, reduces non-@Trait[grass] @Trait[earthbound] attack effectiveness by 2 Stages, and heals allies for @Tick[5] when it activates while inflicting @Affliction[stunted 3] on enemy targets. Unlike normal terrains, the Eternal Canopy applies to non-grounded creatures.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "Dyk32zMTq1eB8q4g",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5892.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3,
+    "EClo9kX7QWK7e63b": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795004496063,
+    "modifiedTime": 1795004496063,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

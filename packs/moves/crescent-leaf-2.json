@@ -7,7 +7,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "crescent-leaf-2",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -24,32 +24,18 @@
         "img": "systems/ptr2e/img/svg/grass_icon.svg",
         "traits": [
           "digimon",
-          "7-strike"
+          "7-strike",
+          "attach-skill"
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "grass"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 7,
@@ -59,28 +45,9 @@
         "accuracy": 95
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "C"
   },
   "img": "systems/ptr2e/img/svg/grass_icon.svg",
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "ptr2e",
-    "systemVersion": "1.5.0.beta",
-    "createdTime": 1772900865750,
-    "modifiedTime": 1772900865750,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR"
-  },
-  "_id": "B2qE8nwtPawIhkfW",
-  "sort": 0
+  "_id": "B2qE8nwtPawIhkfW"
 }

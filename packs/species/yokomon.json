@@ -818,7 +818,9 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "wind-guardians"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "yokomon",
@@ -828,12 +830,17 @@
       "y": 65,
       "connected": [
         "biyomon",
+        "cutemon",
+        "elecmon-violet",
         "falcomon",
         "hawkmon",
         "hyokomon",
+        "luxmon",
         "muchomon",
+        "nyokimon",
+        "pabumon",
         "penmon",
-        "pabumon"
+        "pteromon"
       ],
       "prerequisites": [
         {

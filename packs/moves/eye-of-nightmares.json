@@ -1,117 +1,134 @@
 {
-  "name": "Eye of Nightmares",
-  "type": "move",
-  "system": {
-    "_migration": {
-      "version": 0.109,
-      "previous": null
-    },
-    "actions": [
-      {
-        "name": "Eye of Nightmares",
-        "slug": "eye-of-nightmares",
-        "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
-        "traits": [
-          "digimon",
-          "drain-1-8"
-        ],
-        "range": {
-          "target": "enemy",
-          "distance": 5,
-          "unit": "m"
-        },
-        "cost": {
-          "activation": "complex",
-          "powerPoints": 5
-        },
-        "types": [
-          "dark"
-        ],
-        "category": "special",
-        "power": 50,
-        "accuracy": 100,
-        "description": "<p>On hit, the target is @Affliction[confused] 5.</p>",
-        "predicate": []
-      }
-    ],
-    "grade": "D",
-    "publication": {
-      "source": "Digidex",
-      "authors": [
-        "PTR 2e Team"
-      ],
-      "notes": ""
-    },
-    "slug": "eye-of-nightmares",
-    "traits": []
-  },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
-  "effects": [
-    {
-      "name": "Eye of Nightmares",
-      "type": "affliction",
-      "_id": "EKBdObldtYnbE8Ps",
-      "img": "systems/ptr2e/img/icons/effect_icon.webp",
-      "system": {
-        "changes": [
-          {
-            "type": "roll-effect",
-            "key": "eye-of-nightmares-attack",
-            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
-            "predicate": [],
-            "chance": 100,
-            "affects": "target",
-            "priority": null,
-            "isFixedChance": false,
-            "alterations": [],
-            "dontMerge": false,
-            "phase": "initial",
-            "method": 2,
-            "ignored": false
-          }
-        ],
-        "slug": null,
-        "traits": [],
-        "removeAfterCombat": true,
-        "removeOnRecall": false,
-        "stacks": 0,
-        "priority": 50,
-        "formula": "",
-        "type": "damage",
-        "removeAfterAttacking": false,
-        "removeAfterAttacked": false,
-        "predicate": []
-      },
-      "disabled": false,
-      "duration": {
-        "value": null,
-        "units": "seconds",
-        "expiry": null,
-        "expired": false
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "14.360",
-        "systemId": "ptr2e",
-        "systemVersion": "1.7.4.beta",
-        "createdTime": 1736398977431,
-        "modifiedTime": 1777537819342,
-        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-        "exportSource": null
-      },
-      "start": null,
-      "showIcon": 1,
-      "folder": null
-    }
-  ],
-  "_id": "KDfjIv5STQco0KrW"
+    "_id":  "KDfjIv5STQco0KrW",
+    "effects":  [
+                    {
+                        "_id":  "EKBdObldtYnbE8Ps",
+                        "_stats":  {
+                                       "compendiumSource":  null,
+                                       "coreVersion":  "14.363",
+                                       "createdTime":  1736398977431,
+                                       "duplicateSource":  null,
+                                       "exportSource":  null,
+                                       "lastModifiedBy":  "VGuCUKsxs9UY3xDR",
+                                       "modifiedTime":  1777537819342,
+                                       "systemId":  "ptr2e",
+                                       "systemVersion":  "1.7.4.beta"
+                                   },
+                        "description":  "",
+                        "disabled":  false,
+                        "duration":  {
+                                         "value":  null,
+                                         "units":  "seconds",
+                                         "expiry":  null,
+                                         "expired":  false
+                                     },
+                        "flags":  {
+
+                                  },
+                        "folder":  null,
+                        "img":  "systems/ptr2e/img/icons/effect_icon.webp",
+                        "name":  "Eye of Nightmares",
+                        "origin":  null,
+                        "showIcon":  1,
+                        "sort":  0,
+                        "start":  null,
+                        "statuses":  [
+
+                                     ],
+                        "system":  {
+                                       "changes":  [
+                                                       {
+                                                           "type":  "roll-effect",
+                                                           "key":  "eye-of-nightmares-attack",
+                                                           "value":  "Compendium.ptr2e.core-effects-new.ActiveEffect.confusedconditio",
+                                                           "predicate":  [
+
+                                                                         ],
+                                                           "chance":  100,
+                                                           "affects":  "target",
+                                                           "priority":  null,
+                                                           "isFixedChance":  false,
+                                                           "alterations":  [
+
+                                                                           ],
+                                                           "dontMerge":  false,
+                                                           "phase":  "initial",
+                                                           "method":  2,
+                                                           "ignored":  false
+                                                       }
+                                                   ],
+                                       "slug":  null,
+                                       "traits":  [
+
+                                                  ],
+                                       "removeAfterCombat":  true,
+                                       "removeOnRecall":  false,
+                                       "stacks":  0,
+                                       "priority":  50,
+                                       "formula":  "",
+                                       "type":  "damage",
+                                       "removeAfterAttacking":  false,
+                                       "removeAfterAttacked":  false,
+                                       "predicate":  [
+
+                                                     ]
+                                   },
+                        "tint":  "#ffffff",
+                        "transfer":  true,
+                        "type":  "affliction"
+                    }
+                ],
+    "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5075.png",
+    "name":  "Eye of Nightmares",
+    "system":  {
+                   "_migration":  {
+                                      "version":  0.109,
+                                      "previous":  null
+                                  },
+                   "actions":  [
+                                   {
+                                       "name":  "Eye of Nightmares",
+                                       "slug":  "eye-of-nightmares",
+                                       "type":  "attack",
+                                       "img":  "modules/ptr2e-digimon-expansion/img/crystal-sprites/5075.png",
+                                       "traits":  [
+                                                      "digimon",
+                                                      "drain-1-8"
+                                                  ],
+                                       "range":  {
+                                                     "target":  "enemy",
+                                                     "distance":  5,
+                                                     "unit":  "m"
+                                                 },
+                                       "cost":  {
+                                                    "activation":  "complex",
+                                                    "powerPoints":  5
+                                                },
+                                       "types":  [
+                                                     "dark"
+                                                 ],
+                                       "category":  "special",
+                                       "power":  50,
+                                       "accuracy":  100,
+                                       "description":  "\u003cp\u003eOn hit, the target is @Affliction[confused] 5.\u003c/p\u003e",
+                                       "predicate":  [
+
+                                                     ],
+                                       "free":  true
+                                   }
+                               ],
+                   "grade":  "D",
+                   "publication":  {
+                                       "source":  "Digidex",
+                                       "authors":  [
+                                                       "PTR 2e Team"
+                                                   ],
+                                       "notes":  ""
+                                   },
+                   "slug":  "eye-of-nightmares",
+                   "traits":  [
+
+                              ]
+               },
+    "type":  "move"
 }

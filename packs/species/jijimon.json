@@ -815,7 +815,9 @@
       "levelUp": [],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "virus-busters"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
@@ -826,7 +828,8 @@
         "myotismon",
         "were-garurumon",
         "piximon",
-        "omnimon-zwart-defeat"
+        "omnimon-zwart-defeat",
+        "weddinmon"
       ],
       "prerequisites": [
         {
@@ -900,7 +903,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.5.0.beta",
         "createdTime": 1767135514120,

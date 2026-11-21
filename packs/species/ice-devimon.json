@@ -991,7 +991,10 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "dark-area",
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "slug": "ice-devimon",
@@ -1000,14 +1003,19 @@
       "y": 34,
       "connected": [
         "arcadiamon-ultimate",
+        "baalmon",
         "crescemon",
-        "enbarrmon",
-        "snow-goblimon",
         "demi-devimon",
+        "doumon",
+        "enbarrmon",
         "gomamon",
+        "snow-goblimon",
         "lady-devimon",
         "marine-devimon",
-        "panjyamon"
+        "panjyamon",
+        "indaramon",
+        "neo-devimon",
+        "vikaralamon"
       ],
       "prerequisites": [
         {
@@ -1076,7 +1084,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.359",
+        "coreVersion": "14.363",
         "systemId": "ptr2e",
         "systemVersion": "1.7.2.beta",
         "createdTime": 1775552172506,

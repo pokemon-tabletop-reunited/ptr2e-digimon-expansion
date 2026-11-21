@@ -19,7 +19,7 @@
         "name": "Fossil Bite",
         "slug": "fossil-bite",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/water_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5144.png",
         "traits": [
           "jaw",
           "contact",
@@ -43,13 +43,14 @@
           "unit": "m"
         },
         "power": 30,
-        "accuracy": 100
+        "accuracy": 100,
+        "free": true
       }
     ],
     "grade": "C",
     "slug": "fossil-bite"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5144.png",
   "effects": [],
   "_id": "INjBnVGTfndBE7ZZ"
 }

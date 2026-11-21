@@ -832,15 +832,19 @@
       ],
       "tutor": []
     },
-    "eggGroups": [],
+    "eggGroups": [
+      "nightmare-soldiers"
+    ],
     "genderRatio": -1,
     "habitats": [],
     "node": {
       "x": 22,
       "y": 186,
       "connected": [
+        "bemmon",
         "fusamon",
-        "loogamon"
+        "loogamon",
+        "herissmon"
       ],
       "prerequisites": [
         {
@@ -854,6 +858,5 @@
   },
   "_id": "cEiYV8cEZjbJYJvF",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5520.png",
-  "effects": [],
-  "flags": {}
+  "effects": []
 }
