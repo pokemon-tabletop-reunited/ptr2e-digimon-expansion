@@ -48,7 +48,7 @@
     "grade": "S",
     "slug": "ruthless-charge"
   },
-  "img": "systems/ptr2e/img/svg/ghost_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5342_mount.png",
   "effects": [
     {
       "name": "Ruthless Charge",
@@ -114,7 +114,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",

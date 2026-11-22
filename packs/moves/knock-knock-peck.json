@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Knock-Knock Peck",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "knock-knock-peck",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -28,27 +27,15 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 2,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 2
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "flying",
           "steel"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
+        "free": true,
         "offensiveStat": "def",
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack utilizes the user's Defense as it's attacking stat. On resolution, the user gains @UUID[Compendium.ptr2e.core-effects-new.hardencondititem]{Harden 5}.</p>",
         "range": {
@@ -60,8 +47,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "D"
   },
   "_id": "0X08zkDSTwR706XC",
@@ -126,22 +111,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 2,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1781083952340,
-    "modifiedTime": 1781083952340,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Freezing Wave",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "freezing-wave",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -27,26 +26,13 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "psychic"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
+        "free": true,
         "predicate": [],
         "description": "<p>Effect: This attack inflicts @Affliction[stuck 3], @Affliction[drowning 3], @Affliction[slowed 3] and @UUID[Compendium.ptr2e.core-effects-new.QaPWQdhv1nkqwb2R]{Vulnerable (Psychic) 3}.</p>",
         "range": {
@@ -58,8 +44,6 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "B"
   },
   "_id": "5jpYsB7DlNIBq3Dj",
@@ -184,22 +168,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 2,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1781303092033,
-    "modifiedTime": 1781303092033,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 0
+  ]
 }
