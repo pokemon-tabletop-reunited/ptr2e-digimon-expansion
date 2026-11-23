@@ -1,0 +1,77 @@
+{
+  "name": "Hex Barrier",
+  "type": "affliction",
+  "_id": "QldBWxIdMb9SIqK5",
+  "img": "icons/svg/wall-direction.svg",
+  "system": {
+    "changes": [
+      {
+        "type": "roll-option",
+        "value": "trait:major-affliction",
+        "phase": "initial",
+        "predicate": [],
+        "domain": "immunities",
+        "toggleable": false,
+        "count": false,
+        "key": "",
+        "method": 2,
+        "ignored": false,
+        "suboptions": [],
+        "state": true
+      },
+      {
+        "type": "roll-option",
+        "value": "trait:major-affliction",
+        "phase": "initial",
+        "predicate": [],
+        "domain": "immunities",
+        "toggleable": false,
+        "count": false,
+        "key": "",
+        "method": 2,
+        "ignored": false,
+        "suboptions": [],
+        "state": true
+      }
+    ],
+    "slug": null,
+    "traits": [],
+    "removeAfterCombat": true,
+    "removeOnRecall": false,
+    "removeAfterAttacking": false,
+    "removeAfterAttacked": false,
+    "stacks": 0,
+    "priority": 50,
+    "formula": "",
+    "type": "damage",
+    "predicate": []
+  },
+  "disabled": false,
+  "start": null,
+  "duration": {
+    "value": 3,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "description": "<p>Grants immunity to @Trait[major-affliction]s &amp; @Trait[minor-affliction]s.</p>",
+  "origin": null,
+  "tint": "#ffffff",
+  "transfer": true,
+  "statuses": [],
+  "showIcon": 1,
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795088957617,
+    "modifiedTime": 1795089048271,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 100000
+}

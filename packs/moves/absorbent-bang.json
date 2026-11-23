@@ -20,7 +20,7 @@
         "name": "Absorbent Bang",
         "slug": "absorbent-bang",
         "type": "attack",
-        "img": "systems/ptr2e/img/svg/dark_icon.svg",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5483.png",
         "traits": [
           "digimon",
           "ray"
@@ -47,7 +47,7 @@
     ],
     "grade": "S"
   },
-  "img": "systems/ptr2e/img/svg/dark_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5483.png",
   "effects": [
     {
       "name": "Absorbent Bang",
@@ -114,7 +114,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",

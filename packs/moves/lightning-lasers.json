@@ -29,28 +29,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
         "free": true,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "cone",
           "distance": 4,
@@ -60,29 +46,9 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "D"
   },
   "_id": "3IUVap7MYxd1K6vu",
-  "img": "systems/ptr2e/img/svg/electric_icon.svg",
-  "effects": [],
-  "folder": null,
-  "ownership": {
-    "default": 0,
-    "ni8iNXQ1Z3n0mtG9": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.363",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1781917586173,
-    "modifiedTime": 1781917587321,
-    "lastModifiedBy": "ni8iNXQ1Z3n0mtG9",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 61300000
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5603.png",
+  "effects": []
 }
