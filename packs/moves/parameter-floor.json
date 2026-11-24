@@ -36,7 +36,7 @@
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>Effect: Grants the target ally @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.Item.92ROKNqfo38bo0SJ]{Parameter Floor 3}.</p>",
+        "description": "<p>Effect: Grants the target ally @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects-new.bhe8WIun6HkAAz3A]{Parameter Floor 3}.</p>",
         "range": {
           "target": "ally",
           "distance": 3,
@@ -58,7 +58,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects.Item.92ROKNqfo38bo0SJ",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects-new.ActiveEffect.bhe8WIun6HkAAz3A",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -97,11 +97,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1779956663137,
-        "modifiedTime": 1779956663137,
+        "modifiedTime": 1795459894489,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
