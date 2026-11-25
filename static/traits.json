@@ -134,7 +134,7 @@
     "description": "In Training Digimon are one step up from Baby Digimon, but are still weak and undefined. Starter Digimon are sometimes given at this stage."
   },
     {
-    "slug": "Fresh",
+    "slug": "fresh",
     "label": "Fresh",
     "related": [
       "baby",
