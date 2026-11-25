@@ -16,10 +16,10 @@
     "traits": [
       "digimon",
       "virus",
-      "campion",
       "bipedal",
       "winged",
-      "antibody"
+      "antibody",
+      "champion"
     ],
     "number": 5674,
     "stats": {
@@ -801,11 +801,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "iron-head",
-          "level": 28,
-          "gen": null
-        },
-        {
           "name": "reaper-fist",
           "level": 24,
           "gen": null
@@ -818,6 +813,11 @@
         {
           "name": "jaw-lock",
           "level": 27,
+          "gen": null
+        },
+        {
+          "name": "iron-head",
+          "level": 28,
           "gen": null
         },
         {
@@ -872,7 +872,8 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "death-x-dorugamon"
   },
   "_id": "jP6WpGbvV2Ob70vE",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5674.png",
@@ -953,7 +954,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.364",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1783078134624,
@@ -964,6 +965,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

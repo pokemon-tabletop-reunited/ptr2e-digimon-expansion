@@ -863,7 +863,8 @@
         "jokermon",
         "mephismon",
         "mistymon",
-        "wisemon"
+        "wisemon",
+        "candlemon"
       ],
       "prerequisites": [
         {
@@ -953,7 +954,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.365",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1784231758018,

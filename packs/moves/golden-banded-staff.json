@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Golden-Banded Staff",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "golden-banded-staff",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -29,28 +28,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 4,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 4
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "normal"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
         "free": true,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
-        "description": "",
         "range": {
           "target": "creature",
           "distance": 1,
@@ -72,14 +57,8 @@
         "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5884.png",
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "blast",
           "distance": 10,
@@ -89,14 +68,7 @@
           "fire"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
         "free": true,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 135,
         "accuracy": 100
@@ -114,14 +86,8 @@
         "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5884.png",
         "cost": {
           "activation": "complex",
-          "powerPoints": 6,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 6
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "wide-line",
           "distance": 10,
@@ -131,14 +97,6 @@
           "water"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 110,
         "accuracy": 100
@@ -157,14 +115,8 @@
         "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5884.png",
         "cost": {
           "activation": "complex",
-          "powerPoints": 12,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 12
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "range": {
           "target": "creature",
           "distance": 10,
@@ -174,21 +126,12 @@
           "electric"
         ],
         "category": "special",
-        "contestType": "",
-        "contestEffect": "",
         "free": true,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "power": 150,
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "4wF2RlBejJKlUKod",
@@ -217,7 +160,7 @@
           },
           {
             "type": "roll-effect",
-            "key": "gojo-water-womb-attack",
+            "key": "gojo-water-tomb-attack",
             "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.drowningconditio",
             "phase": "initial",
             "predicate": [],
@@ -266,29 +209,12 @@
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1792587231133,
-        "modifiedTime": 1792587231133,
+        "modifiedTime": 1795093288385,
         "lastModifiedBy": "EClo9kX7QWK7e63b",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 2,
-    "EClo9kX7QWK7e63b": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.369",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1792587231133,
-    "modifiedTime": 1792587231133,
-    "lastModifiedBy": "EClo9kX7QWK7e63b",
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
-  },
-  "sort": 0
+  ]
 }

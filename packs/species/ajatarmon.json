@@ -17,7 +17,8 @@
       "digimon",
       "vaccine",
       "semi-bipedal",
-      "wallclimber"
+      "wallclimber",
+      "ultimate"
     ],
     "number": 5728,
     "stats": {
@@ -809,11 +810,6 @@
     "moves": {
       "levelUp": [
         {
-          "name": "rot-cloud",
-          "level": 50,
-          "gen": null
-        },
-        {
           "name": "barb-barrage",
           "level": 46,
           "gen": null
@@ -821,6 +817,11 @@
         {
           "name": "sludge-wave",
           "level": 48,
+          "gen": null
+        },
+        {
+          "name": "rot-cloud",
+          "level": 50,
           "gen": null
         },
         {
@@ -874,7 +875,8 @@
           ]
         }
       ]
-    }
+    },
+    "slug": "ajatarmon"
   },
   "_id": "YNKnCPlUIDlIsP6C",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5728.png",
@@ -934,7 +936,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.365",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1784704016218,
@@ -945,6 +947,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

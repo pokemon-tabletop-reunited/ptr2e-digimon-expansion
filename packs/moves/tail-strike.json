@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Tail Strike",
   "type": "move",
   "system": {
@@ -7,7 +6,7 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "tail-strike",
     "publication": {
       "source": "Digidex",
       "authors": [
@@ -29,26 +28,12 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 7,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 7
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "water"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
-        "free": false,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: If targets have net negative Defense Stages, this attack gains a 20% fixed chance to inflict @Affliction[perish 1].</p>",
         "range": {
@@ -60,28 +45,9 @@
         "accuracy": 100
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "S"
   },
   "_id": "KAyF5UcCX3ld85hF",
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
-  "effects": [],
-  "ownership": {
-    "default": 0,
-    "VGuCUKsxs9UY3xDR": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.359",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.2.beta",
-    "createdTime": 1775515645312,
-    "modifiedTime": 1775516419843,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "exportSource": null,
-    "compendiumSource": null,
-    "duplicateSource": null
-  },
-  "sort": 4000000
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5436.png",
+  "effects": []
 }

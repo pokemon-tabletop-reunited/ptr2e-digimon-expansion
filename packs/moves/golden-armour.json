@@ -45,10 +45,10 @@
         "accuracy": 100
       }
     ],
-    "grade": "A"
+    "grade": "A",
+    "slug": "golden-armour"
   },
-  "img": "systems/ptr2e/img/svg/dragon_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5339.png",
   "effects": [],
-  "flags": {},
   "_id": "1iWQiXFhI26NVP3t"
 }
