@@ -818,7 +818,11 @@
       "nature-spirits"
     ],
     "genderRatio": -1,
-    "habitats": [],
+    "habitats": [
+      "swamp",
+      "river",
+      "riverside"
+    ],
     "node": {
       "x": 30,
       "y": 139,
