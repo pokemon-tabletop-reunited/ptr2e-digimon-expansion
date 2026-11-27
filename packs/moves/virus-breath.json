@@ -1,0 +1,165 @@
+{
+  "folder": null,
+  "name": "Virus Breath",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Virus Breath",
+        "slug": "virus-breath",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/6008.png",
+        "traits": [
+          "digimon"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 4,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "poison"
+        ],
+        "category": "special",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: If the target is @Trait[data], this attack inflicts @Affliction[blight 8].</p><p>If the target is @Trait[vaccine], then on resolution this attack temporarily suppresses the target's @Trait[vaccine] Trait and replaces it with @Trait[virus] for 3 activations.</p>",
+        "range": {
+          "target": "cone",
+          "distance": 3,
+          "unit": "m"
+        },
+        "power": 55,
+        "accuracy": 100
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "qH9WCL1TqlKHJJpu",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/6008.png",
+  "effects": [
+    {
+      "name": "Virus Breath",
+      "type": "passive",
+      "_id": "pmCWKh1pz8AJUGKS",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "changes": [
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e.core-effects-new.ActiveEffect.blightcondition0",
+            "phase": "initial",
+            "predicate": [
+              "target:trait:data"
+            ],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "key": "virus-breath-attack",
+            "label": "Blight",
+            "method": 2,
+            "ignored": false
+          },
+          {
+            "type": "roll-effect",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects-new.ActiveEffect.LC4RzHMAjLYbIoDN",
+            "phase": "initial",
+            "predicate": [
+              "target:trait:vaccine"
+            ],
+            "chance": 100,
+            "isFixedChance": false,
+            "affects": "target",
+            "alterations": [],
+            "dontMerge": false,
+            "label": "Attribute Suppression",
+            "key": "virus-breath-attack",
+            "method": 2,
+            "ignored": false
+          }
+        ],
+        "slug": null,
+        "traits": [],
+        "removeAfterCombat": true,
+        "removeOnRecall": false,
+        "removeAfterAttacking": false,
+        "removeAfterAttacked": false,
+        "stacks": 0
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "ptr2e",
+        "systemVersion": "1.7.6.beta",
+        "createdTime": 1795803518672,
+        "modifiedTime": 1795803518672,
+        "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795803518672,
+    "modifiedTime": 1795803518672,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}

@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Pyro Grenade",
+  "type": "move",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "Digidex",
+      "authors": [
+        "Fox"
+      ],
+      "notes": ""
+    },
+    "traits": [],
+    "actions": [
+      {
+        "name": "Fire Grenade",
+        "slug": "fire-grenade",
+        "type": "attack",
+        "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/6008.png",
+        "traits": [
+          "digimon",
+          "blast-2",
+          "hazard"
+        ],
+        "cost": {
+          "activation": "complex",
+          "powerPoints": 3,
+          "trigger": "",
+          "delay": null,
+          "priority": null
+        },
+        "variant": null,
+        "ephemeralVariant": false,
+        "summon": null,
+        "types": [
+          "fire"
+        ],
+        "category": "physical",
+        "contestType": "",
+        "contestEffect": "",
+        "free": true,
+        "slot": null,
+        "defaultVariant": null,
+        "flingItemId": "",
+        "offensiveStat": null,
+        "defensiveStat": null,
+        "predicate": [],
+        "description": "<p>Effect: On Miss, this move scatters in a direction determined by a d8, by an amount equal to the Degrees of Failure to hit vs the primary target and becomes a Hazard of @Trait[blast-2] size. When this happens, delay this move by 3 activations.</p><p>Once the delayed move activates on the initiative, it detonates, resolving this attack as a @Trait[danger-close] attack vs any creatures within the Hazard Area.</p>",
+        "range": {
+          "target": "creature",
+          "distance": 8,
+          "unit": "m"
+        },
+        "power": 85,
+        "accuracy": 90
+      }
+    ],
+    "description": "",
+    "container": null,
+    "grade": "D"
+  },
+  "_id": "CzCWyXbUnetsnjzk",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/6008.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795803517541,
+    "modifiedTime": 1795803517541,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
