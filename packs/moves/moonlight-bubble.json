@@ -45,7 +45,8 @@
         ],
         "description": "<p>Effect: On hit, the target has a 10% chance of gaining @Affliction[frostbite 5].</p>",
         "img": "https://assets.forge-vtt.com/6132db9efd99d052c06b70e3/systems/ptr2e/img/svg/water_icon.svg",
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D"

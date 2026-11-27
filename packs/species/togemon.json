@@ -852,7 +852,8 @@
     ],
     "genderRatio": -1,
     "habitats": [
-      "deserts"
+      "desert",
+      "badland"
     ],
     "slug": "togemon",
     "node": {

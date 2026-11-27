@@ -824,11 +824,6 @@
           "gen": null
         },
         {
-          "name": "punch-rush",
-          "level": 48,
-          "gen": null
-        },
-        {
           "name": "hypersonic-fist",
           "level": 30,
           "gen": null
@@ -872,6 +867,11 @@
           "name": "natures-chorale",
           "level": 45,
           "gen": null
+        },
+        {
+          "name": "punch-rush",
+          "level": 48,
+          "gen": null
         }
       ],
       "tutor": []
@@ -881,7 +881,8 @@
     ],
     "genderRatio": -1,
     "habitats": [
-      "deserts"
+      "desert",
+      "badland"
     ],
     "node": {
       "x": 68,
