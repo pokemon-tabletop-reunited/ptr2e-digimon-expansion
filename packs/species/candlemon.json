@@ -862,7 +862,9 @@
         "meramon",
         "missimon",
         "shima-unimon",
-        "gigimon"
+        "gigimon",
+        "bakemon",
+        "wizardmon"
       ],
       "prerequisites": [
         {
@@ -935,7 +937,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767088277297,

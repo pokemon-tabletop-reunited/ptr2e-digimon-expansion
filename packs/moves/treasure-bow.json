@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Treasure Bow",
   "type": "move",
   "system": {
@@ -7,10 +6,12 @@
       "version": 0.113,
       "previous": null
     },
-    "slug": null,
+    "slug": "treasure-bow",
     "publication": {
-      "source": "",
-      "authors": [],
+      "source": "Digidex",
+      "authors": [
+        "Phayze"
+      ],
       "notes": ""
     },
     "traits": [],
@@ -26,27 +27,14 @@
         ],
         "cost": {
           "activation": "complex",
-          "powerPoints": 5,
-          "trigger": "",
-          "delay": null,
-          "priority": null
+          "powerPoints": 5
         },
-        "variant": null,
-        "ephemeralVariant": false,
-        "summon": null,
         "types": [
           "grass",
           "fairy"
         ],
         "category": "physical",
-        "contestType": "",
-        "contestEffect": "",
         "free": true,
-        "slot": null,
-        "defaultVariant": null,
-        "flingItemId": "",
-        "offensiveStat": null,
-        "defensiveStat": null,
         "predicate": [],
         "description": "<p>Effect: This attack does 20% more damage against targets with the @Affliction[drowsy] affliction</p>",
         "range": {
@@ -58,8 +46,6 @@
         "accuracy": 90
       }
     ],
-    "description": "",
-    "container": null,
     "grade": "A"
   },
   "_id": "IsEKOi6dyrxwYr0w",
@@ -123,23 +109,5 @@
         "exportSource": null
       }
     }
-  ],
-  "ownership": {
-    "default": 2,
-    "VGuCUKsxs9UY3xDR": 3,
-    "EClo9kX7QWK7e63b": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.365",
-    "systemId": "ptr2e",
-    "systemVersion": "1.7.6.beta",
-    "createdTime": 1785842266195,
-    "modifiedTime": 1785842266195,
-    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
-  },
-  "sort": 0
+  ]
 }

@@ -1,0 +1,64 @@
+{
+  "name": "Vulnerable (Data)",
+  "type": "affliction",
+  "_id": "XvDZLIu720vUwyJO",
+  "img": "modules/ptr2e-digimon-expansion/img/type-symbols/data.png",
+  "system": {
+    "changes": [
+      {
+        "type": "ephemeral-modifier",
+        "value": 1,
+        "phase": "initial",
+        "predicate": [
+          "trait:data"
+        ],
+        "key": "damaging-attack-effectiveness-stage",
+        "label": "Vulnerable (Data)",
+        "method": 2,
+        "ignored": false,
+        "hideIfDisabled": false
+      }
+    ],
+    "slug": null,
+    "traits": [],
+    "removeAfterCombat": true,
+    "removeOnRecall": false,
+    "removeAfterAttacking": false,
+    "removeAfterAttacked": false,
+    "stacks": 0,
+    "priority": 50,
+    "formula": "",
+    "type": "damage",
+    "predicate": [
+      "[\"[]\"]"
+    ]
+  },
+  "disabled": false,
+  "start": null,
+  "duration": {
+    "value": 3,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "description": "<p>This effect makes incoming attacks from @Trait[data] creatures one stage more effective.</p>",
+  "origin": null,
+  "tint": "#ffffff",
+  "transfer": true,
+  "statuses": [],
+  "showIcon": 1,
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795088988797,
+    "modifiedTime": 1795088988797,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0
+}
