@@ -807,6 +807,11 @@
           "gen": null
         },
         {
+          "name": "ghastly-eye",
+          "level": 0,
+          "gen": null
+        },
+        {
           "name": "soul-sucker",
           "level": 26,
           "gen": null
@@ -840,11 +845,6 @@
           "name": "pale-mist",
           "level": 40,
           "gen": null
-        },
-        {
-          "name": "ghastly-eye",
-          "level": 0,
-          "gen": null
         }
       ],
       "tutor": []
@@ -870,7 +870,8 @@
         "waru-monzaemon",
         "ghostmon",
         "jokermon",
-        "xros-cyberdramon"
+        "xros-cyberdramon",
+        "candlemon"
       ],
       "prerequisites": [
         {
@@ -943,7 +944,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.4.12.beta",
         "createdTime": 1767043780655,

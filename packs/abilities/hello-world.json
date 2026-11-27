@@ -1,0 +1,46 @@
+{
+  "folder": null,
+  "name": "Hello, World!",
+  "type": "ability",
+  "system": {
+    "_migration": {
+      "version": 0.113,
+      "previous": null
+    },
+    "slug": null,
+    "publication": {
+      "source": "",
+      "authors": [],
+      "notes": ""
+    },
+    "traits": [
+      "digimon",
+      "innate"
+    ],
+    "actions": [],
+    "description": "<p>Passive: While the user is an active Player Character, or an active Party Member, then the Team receives a +150% XP Increase per Venture. This does not stack if multiple users are present.</p>",
+    "container": null,
+    "free": false,
+    "slot": null
+  },
+  "_id": "8SC5sYYROxuyA3aO",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5973.png",
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "VGuCUKsxs9UY3xDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "ptr2e",
+    "systemVersion": "1.7.6.beta",
+    "createdTime": 1795780484827,
+    "modifiedTime": 1795780485178,
+    "lastModifiedBy": "VGuCUKsxs9UY3xDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 1500000
+}

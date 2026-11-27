@@ -45,12 +45,13 @@
         ],
         "description": "<p>Effect: On hit, the target has a 10% chance of gaining @Affliction[frostbite 5].</p>",
         "img": "https://assets.forge-vtt.com/6132db9efd99d052c06b70e3/systems/ptr2e/img/svg/water_icon.svg",
-        "predicate": []
+        "predicate": [],
+        "free": true
       }
     ],
     "grade": "D"
   },
-  "img": "systems/ptr2e/img/svg/water_icon.svg",
+  "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5975.png",
   "effects": [
     {
       "name": "Moonlight Bubble",
@@ -100,7 +101,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.4.beta",
         "createdTime": 1754303293751,

@@ -66,7 +66,16 @@
       ],
       "master": []
     },
-    "movement": [],
+    "movement": [
+      {
+        "type": "overland",
+        "value": 15
+      },
+      {
+        "type": "swim",
+        "value": 4
+      }
+    ],
     "skills": [
       {
         "slug": "accounting",
@@ -863,7 +872,8 @@
       "prerequisites": [
         "item:equipment:digi-egg-of-hope"
       ]
-    }
+    },
+    "slug": "bullmon"
   },
   "_id": "H6R1oMA3gxFvJcKo",
   "img": "modules/ptr2e-digimon-expansion/img/crystal-sprites/5914.png",
@@ -923,7 +933,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1781349487779,
@@ -934,6 +944,5 @@
         "exportSource": null
       }
     }
-  ],
-  "flags": {}
+  ]
 }

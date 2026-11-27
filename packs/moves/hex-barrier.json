@@ -36,7 +36,7 @@
         ],
         "category": "status",
         "predicate": [],
-        "description": "<p>Effect: Grants the target ally @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects.Item.NfWViQGWEtga0i4Z]{Hex Barrier 3}</p>",
+        "description": "<p>Effect: Grants the target ally @UUID[Compendium.ptr2e-digimon-expansion.digimon-effects-new.QldBWxIdMb9SIqK5]{Hex Barrier 3}</p>",
         "range": {
           "target": "ally",
           "distance": 3,
@@ -58,7 +58,7 @@
         "changes": [
           {
             "type": "roll-effect",
-            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects.Item.NfWViQGWEtga0i4Z",
+            "value": "Compendium.ptr2e-digimon-expansion.digimon-effects-new.ActiveEffect.QldBWxIdMb9SIqK5",
             "phase": "initial",
             "predicate": [],
             "chance": 100,
@@ -97,11 +97,11 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "14.363",
+        "coreVersion": "14.369",
         "systemId": "ptr2e",
         "systemVersion": "1.7.6.beta",
         "createdTime": 1779956644292,
-        "modifiedTime": 1779956644292,
+        "modifiedTime": 1795459838339,
         "lastModifiedBy": "VGuCUKsxs9UY3xDR",
         "compendiumSource": null,
         "duplicateSource": null,
